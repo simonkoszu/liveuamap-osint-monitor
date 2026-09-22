@@ -224,6 +224,12 @@ class ConflictAnalyzer:
                     "verified_by_sources": e.get("verified_by_sources", [e.get("source_channel", "OSINT")])
                 })
 
+        import hashlib
+        import os
+        auth_salt = "aegis_tactical_salt_2026_osint"
+        report_pin = os.getenv("REPORT_PIN", "7749").strip() or "7749"
+        auth_hash = hashlib.sha256((auth_salt + report_pin).encode("utf-8")).hexdigest()
+
         return {
             "generated_at": self.now.strftime("%Y-%m-%d %H:%M:%S UTC"),
             "today_date": self.now.strftime("%Y-%m-%d"),
@@ -239,5 +245,7 @@ class ConflictAnalyzer:
                 "days": timeline_days,
                 "counts": timeline_counts
             },
-            "map_points": map_points
+            "map_points": map_points,
+            "auth_salt": auth_salt,
+            "auth_hash": auth_hash
         }

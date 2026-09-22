@@ -46,6 +46,7 @@ jobs:
       - name: 📡 Pobieranie Danych Radarowych, Analiza Krajów i Generowanie Raportu HTML
         env:
           FIRMS_MAP_KEY: ${{ secrets.FIRMS_MAP_KEY }}
+          REPORT_PIN: ${{ secrets.REPORT_PIN }}
         run: |
           python run.py --pages 5
 
