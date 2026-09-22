@@ -6,4 +6,6 @@ venv/
 .DS_Store
 output/chrome_temp/
 .env
-.env.*
+.env.local
+.env.*.local
+!.env.example

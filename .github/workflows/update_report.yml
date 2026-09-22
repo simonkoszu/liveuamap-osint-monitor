@@ -47,6 +47,7 @@ jobs:
         env:
           FIRMS_MAP_KEY: ${{ secrets.FIRMS_MAP_KEY }}
           REPORT_PIN: ${{ secrets.REPORT_PIN }}
+          CARTO_API_KEY: ${{ secrets.CARTO_API_KEY }}
         run: |
           python run.py --pages 5
 
