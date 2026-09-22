@@ -6,7 +6,7 @@
   <title>AEGIS OSINT RADAR | Global Tactical Intelligence</title>
   
   <!-- Content Security Policy: Ochrona przed XSS i obcym kodem -->
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' https://unpkg.com https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://*.tile.openstreetmap.org https://*.tile.opentopomap.org https://*.basemaps.cartocdn.com https://gibs.earthdata.nasa.gov https://*.arcgisonline.com; img-src 'self' data: https:; font-src https://cdnjs.cloudflare.com https://fonts.gstatic.com; connect-src 'self' https://gibs.earthdata.nasa.gov;">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' 'unsafe-eval' https://unpkg.com https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://*.tile.openstreetmap.org https://*.tile.opentopomap.org https://*.basemaps.cartocdn.com https://gibs.earthdata.nasa.gov https://*.arcgisonline.com; img-src 'self' data: https:; font-src 'self' data: https://cdnjs.cloudflare.com https://fonts.gstatic.com https://cdn.jsdelivr.net; connect-src 'self' https: wss:; worker-src 'self' blob:;">
 
   <!-- Tailwind CSS & FontAwesome -->
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
