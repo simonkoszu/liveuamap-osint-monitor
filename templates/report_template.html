@@ -1288,6 +1288,7 @@
     let markersLayer = null;
     let clusterGroup = null;
     let heatLayer = null;
+    let voyagerBaseLayer = null;
     let darkBaseLayer = null;
     let satelliteBaseLayer = null;
     let topoBaseLayer = null;
@@ -1298,8 +1299,6 @@
     let isNasaFirmsActive = false;
     let currentBaseMap = 'voyager'; // 'voyager' | 'dark' | 'satellite' | 'topo'
     let currentMapFilter = 'all';
-
-    let voyagerBaseLayer, darkBaseLayer, satelliteBaseLayer, topoBaseLayer;
 
     function initMap() {
       const map = L.map('map-container').setView([42.0, 36.0], 4);
