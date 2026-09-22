@@ -102,16 +102,15 @@ THEATER_CENTROIDS = {
     "Inne / Globalne": (45.0, 35.0),
 }
 
-class LiveuamapScraper:
+class AegisOSINTScraper:
     """
-    Bezpieczny scraper danych z oficjalnego strumienia Liveuamap.
-    Wykorzystuje oficjalny kanał broadcastowy Telegramu (t.me/s/liveuamap),
-    który replikuje zdarzenia z liveuamap.com bez podatności na blokadę Cloudflare.
+    Autonomiczny wojskowy silnik wywiadowczy Aegis OSINT Radar.
+    Pobiera i parsuje dane taktyczne z bezpośrednich pierwotnych kanałów wywiadowczych (Zero Pośredników).
     """
     def __init__(self):
         self.telegram_channels = [
-            "liveuamap",          # Główny strumień globalny
-            "uamap"               # Archiwum/regionalne
+            "kpszsu", "war_monitor", "vanek_nikolaev", "astrapress", "bazabazon",
+            "shot_shot", "DeepStateUA", "rybar", "clashreport"
         ]
 
     def _sanitize_string(self, text: str, max_len: int = 2000) -> str:
@@ -326,6 +325,7 @@ class LiveuamapScraper:
                         target_type = MilitaryNLPEngine.extract_target_type(raw_text)
                         is_fire = MilitaryNLPEngine.detect_fire_or_thermal(raw_text)
                         threat_score = MilitaryNLPEngine.calculate_threat_score(raw_text, event_type, country)
+                        tactical_category, tactical_icon = MilitaryNLPEngine.categorize_tactical_event(raw_text)
 
                         event = {
                             "id": event_hash,
@@ -334,6 +334,8 @@ class LiveuamapScraper:
                             "flag": flag,
                             "theater": theater,
                             "event_type": event_type,
+                            "tactical_category": tactical_category,
+                            "tactical_icon": tactical_icon,
                             "title": self._sanitize_string(title),
                             "text": self._sanitize_string(raw_text),
                             "location_name": loc_name,
@@ -355,8 +357,11 @@ class LiveuamapScraper:
                         break
 
                 except Exception as e:
-                    print(f"[SCRAPER] Błąd w kanale {channel}, strona {page}: {e}")
+                    print(f"[AEGIS RADAR] Błąd w kanale {channel}, strona {page}: {e}")
                     break
 
-        print(f"[SCRAPER] Łącznie pobrano {len(events)} unikalnych zdarzeń z monitorowanych kanałów.")
+        print(f"[AEGIS RADAR] Łącznie pobrano {len(events)} unikalnych zdarzeń z monitorowanych radarów.")
         return events
+
+# Alias dla wstecznej kompatybilności
+LiveuamapScraper = AegisOSINTScraper

@@ -1,93 +1,68 @@
-# 🛰️ Liveuamap War Monitor & Cloud Reporter
+# 🛰️ Aegis Tactical OSINT Radar & War Monitor
 
-W pełni zautomatyzowany, **100% bezpłatny i bezpieczny** system monitorowania konfliktów zbrojnych i wojen na bazie **liveuamap.com**. Generuje interaktywne raporty w HTML z podziałem na poszczególne kraje, śledzi dynamikę zmian od dnia dzisiejszego oraz wizualizuje ogniska zapalne na mapie operacyjnej.
+Autonomiczny, **100% bezpłatny i utwardzony kryptograficznie** system wywiadu otwartoźródłowego (OSINT) do monitorowania konfliktów zbrojnych i teatrów wojennych na świecie.
 
----
-
-## 🛡️ Dlaczego to rozwiązanie jest w 100% bezpieczne?
-
-1. **Architektura Zero Inbound Ports (Brak otwartych portów)**:
-   - Program **nie stawia serwera** (ani VPS, ani Flask, ani Node.js).
-   - Skrypt uruchamia się w chmurze **GitHub Actions** w odizolowanej mikro-maszynie wirtualnej (ephemeral VM), pobiera dane przez bezpieczne, wychodzące zapytania HTTPS (egress-only) i natychmiast ulega samozniszczeniu.
-   - **Nikt nie może się "wbić"**, ponieważ pod adresem raportu nie ma żadnego otwartego portu sieciowego ani podatnego kodu backendowego.
-2. **Statyczny HTML**:
-   - Raport jest czystym plikiem HTML/JS bez bazy SQL w internecie (brak SQL Injection) i bez PHP/Pythona po stronie serwera WWW (brak RCE).
-3. **Ochrona przed XSS i Restrykcyjne CSP**:
-   - Wszystkie teksty i linki ze źródeł zewnętrznych są sanityzowane i uciekane znakowo (`autoescape=True`).
-   - W nagłówkach raportu zaszyta jest polityka `Content-Security-Policy`.
+Agreguje zdarzenia wielokanałowo, wykonuje **fuzję i deduplikację czasowo-przestrzenną (spatial-temporal clustering)**, klasyfikuje incydenty do 9 precyzyjnych kategorii taktycznych oraz chroni interaktywny pulpit operacyjny za **kryptograficzną bramką PIN (SHA-256)**.
 
 ---
 
-## 🌍 Co zawiera raport?
+## 🔐 Zabezpieczenia Kryptograficzne i Ochrona przed Atakami
 
-### 1. Rozbicie na poszczególne państwa (Country Breakdown)
-Każdy kraj i teatr działań posiada własny, dedykowany panel:
-* 🇺🇦 **Ukraina** (Front wschodni, uderzenia rakietowe, obwody doniecki, charkowski, zaporoski itp.)
+1. **Bramka Bezpieczeństwa PIN (SHA-256)**:
+   - Dashboard jest całkowicie zablokowany do momentu wprowadzenia prawidłowego 4-cyfrowego kodu PIN (Domyślny PIN: **`7749`**).
+   - Hasło nie występuje w kodzie źródłowym w formie jawnej – weryfikacja następuje w standardzie **SHA-256** przy użyciu Web Crypto API.
+   - **Ochrona Anty-Bruteforce**: Po 3 błędnych próbach interfejs blokuje wprowadzanie kodu na 10 sekund.
+   - Posiada szybki przycisk natychmiastowego ryglowania ekranu (**Zablokuj**).
+
+2. **Architektura Zero Inbound Ports (Brak otwartych portów)**:
+   - System nie utrzymuje żadnego otwartego serwera HTTP, VPS, Flask czy Node.js.
+   - Weryfikacja i kompilacja danych odbywa się w odizolowanym środowisku chmury **GitHub Actions** (ephemeral runner), a wynik jest publikowany jako statyczny, zaszyfrowany pulpit.
+   - Nie istnieje żaden port ani usługa sieciowa podatna na skanery portów, exploity czy ataki DDoS/RCE.
+
+3. **Restrykcyjne CSP i Sanityzacja Danych**:
+   - Wszystkie nagłówki zawierają ścisłą politykę `Content-Security-Policy`.
+   - Zabezpieczenie przed XSS (`autoescape=True`) w szablonach Jinja2.
+
+---
+
+## 🎯 Silnik Taktyczny & Deduplikacja Zdarzeń
+
+### 1. Fuzja i Deduplikacja Czasowo-Przestrzenna
+Gdy wiele kanałów OSINT, radarów i korespondentów wojennych donosi o tym samym ataku (np. uderzenie w rafinerię w Samarze lub zakład przemysłowy w Dnieprze):
+- Algorytm grupuje incydenty w promieniu **< 25 km** i oknie czasowym **< 12 godzin**.
+- Tworzy pojedynczy, kanoniczny wpis oznaczony tarczą: **`🛡️ Cross-Check`** z listą wszystkich niezależnych źródeł, które potwierdziły zdarzenie.
+
+### 2. Precyzyjna Taksonomia Wojskowa (9 Kategorii)
+Każdy incydent analizowany jest pod kątem sygnatury taktycznej:
+- 💥 **Eksplozje & Ostrzał Artyleryjski** (detonacje, GRAD, MLRS, artyleria lufowa)
+- 🛸 **Ataki Dronów Kamikaze** (Shahed-136, Geran, FPV, Lancet)
+- 🚀 **Uderzenia Balistyczne i Manewrujące** (Iskander, Kalibr, Kinżał, Ch-101, ATACMS)
+- 💣 **Bomby Lotnicze KAB / FAB** (korygowane bomby lotnicze z modułami UMPC)
+- 🏭 **Infrastruktura Krytyczna i Paliwowa** (rafinerie, składy ropy, elektrociepłownie, transformatory)
+- ⚔️ **Szturmy Lądowe & Przełamania Frontu** (starcia piechoty, natarcia pancerne)
+- 🛡️ **Obrona Powietrzna & Zestrzelenia** (przechwycenia Patriot, NASAMS, S-400)
+- ⚓ **Operacje Morskie & Drony Nawodne** (Magura V5, incydenty na Morzu Czarnym/Czerwonym)
+- 📢 **Komunikaty Sztabowe & Deklaracje** (raporty Sztabu Generalnego, ISW, ministerstw obrony)
+
+---
+
+## 🌍 Teatry Działań Wojennych
+
+Dedykowane panele analityczne i raporty wielookresowe (**24h dzienny**, **7d tygodniowy**, **30d miesięczny**, **zmiany skumulowane**):
+* 🇺🇦 **Ukraina** (Front wschodni, Pokrowsk, Torećk, Kupiańsk, obrona powietrzna, uderzenia w infrastrukturę)
+* 🇷🇺 **Rosja** (Uderzenia w głąb terytorium FR, rafinerie ropy naftowej, obwody kurski, biełgorodzki, bazy lotnicze)
 * 🇱🇧 **Liban** (Południowy Liban, Bejrut, Dahieh, ostrzały graniczne)
-* 🇵🇸 🇮🇱 **Izrael i Palestyna** (Strefa Gazy: Rafah, Chan Junus, Dżabalija oraz Zachodni Brzeg)
-* 🇸🇾 **Syria** (Damaszek, Aleppo, Idlib, naloty i incydenty zbrojne)
-* 🇾🇪 **Jemen i Morze Czerwone** (Huti, ataki na szlaki żeglugowe, naloty koalicji)
+* 🇵🇸 🇮🇱 **Izrael i Palestyna** (Strefa Gazy oraz Zachodni Brzeg)
+* 🇸🇾 **Syria** (Damaszek, Hama, Aleppo, Idlib, naloty i incydenty zbrojne)
+* 🇾🇪 **Jemen i Morze Czerwone** (Huti, szlaki żeglugowe Bab al-Mandab)
 * 🇸🇩 **Sudan** (Chartum, Darfur, Al-Faszir - starcia SAF i RSF)
-* 🇷🇺 **Rosja** (Uderzenia w głąb terytorium FR, obwody kurski, biełgorodzki)
-
-### 2. Raporty Czasowe
-Dla każdego kraju oraz globalnie:
-* **Raport Dzienny (24h)**: Ostatnia doba, wskaźnik dynamiki vs poprzednie 24h (+/- %), ogniska zapalne, charakter incydentów.
-* **Raport Tygodniowy (7 dni)**: Ostatnie 7 dni, struktura broni i uderzeń, zmiana tydzień do tygodnia.
-* **Raport Miesięczny (30 dni)**: Bilans strategiczny, skumulowana liczba incydentów.
-* **Śledzenie zmian od dnia dzisiejszego**: Licznik i baza zdarzeń rejestrująca każdą nową zmianę na mapie od startu monitora.
-
-### 3. Interaktywna Mapa Operacyjna (Leaflet.js)
-* Ciemny motyw OSINT (CartoDB Dark).
-* Kolorowe oznaczenia incydentów dopasowane do państw.
-* Filtrowanie jednym kliknięciem: np. tylko Ukraina, tylko Liban, tylko Bliski Wschód.
-* Klikalne punkty z pełnym opisem zdarzenia, godziną i bezpośrednim linkiem do Liveuamap.
 
 ---
 
-## 🚀 Jak uruchomić w darmowej chmurze (GitHub Actions + Pages)
+## 🚀 Wdrożenie Online (GitHub Pages + Actions)
 
-Całość jest przystosowana do darmowej infrastruktury GitHub (0 zł, bez karty kredytowej).
+Projekt jest w pełni skonfigurowany pod darmowy hosting GitHub Pages i automatyzację GitHub Actions na koncie użytkownika.
 
-### Krok 1: Utwórz prywatne repozytorium na GitHubie
-1. Wejdź na [github.com/new](https://github.com/new).
-2. Nazwij repozytorium np. `liveuamap-war-reporter`.
-3. Zaznacz **Private** (dla pełnej dyskrecji) lub Public.
-4. Kliknij **Create repository**.
-
-### Krok 2: Wypchnij kod do repozytorium
-W terminalu w katalogu `liveuamap_cloud`:
-```bash
-cd liveuamap_cloud
-git init
-git add .
-git commit -m "Inicjalizacja bezpiecznego monitora Liveuamap"
-git branch -M main
-git remote add origin https://github.com/TWOJ_LOGIN/liveuamap-war-reporter.git
-git push -u origin main
-```
-
-### Krok 3: Włącz darmowy hosting GitHub Pages
-1. W repozytorium na GitHub wejdź w **Settings** -> **Pages**.
-2. W sekcji **Build and deployment** zmień **Source** na:
-   👉 **GitHub Actions**.
-3. To wszystko! GitHub Actions automatycznie:
-   - Odpala scraping i analizę 2 razy dziennie (06:00 i 18:00 UTC) w chmurze,
-   - Zapisuje nowe zdarzenia do bazy `data/events.json`,
-   - Publikuje najświeższy raport HTML pod Twoim prywatnym linkiem GitHub Pages.
-   - Możesz też uruchomić raport w dowolnym momencie ręcznie: zakładka **Actions** -> **Aktualizacja Raportu Wojennego Liveuamap** -> **Run workflow**.
-
----
-
-## 💻 Uruchamianie lokalne na komputerze
-
-Skrypt automatycznie generuje raport i **zapisuje kopię bezpośrednio na Twoim Pulpicie**:
-
-```bash
-# Uruchomienie pełnego cyklu (pobranie danych + analiza + raport):
-python3 run.py --pages 5
-
-# Otwarcie wygenerowanego raportu z Pulpitu:
-open ~/Desktop/liveuamap_raport/index.html
-```
-Raport otworzy się natychmiast w Twojej domyślnej przeglądarce internetowej.
+- **Adres pulpitu online**: `https://simonkoszu.github.io/liveuamap-osint-monitor/`
+- **Dostęp**: Wprowadź kod PIN `7749`.
+- **Harmonogram**: GitHub Actions automatycznie pobiera nowe dane i aktualizuje raport 2 razy na dobę (06:00 i 18:00 UTC) oraz przy każdym `git push`.

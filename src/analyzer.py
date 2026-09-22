@@ -174,6 +174,16 @@ class ConflictAnalyzer:
         # Globalny Cross-Referencing i Weryfikacja Wieloźródłowa
         self.all_events = MilitaryNLPEngine.cross_verify_events(self.all_events)
 
+        # Upewnij się, że każde zdarzenie ma taksonomię taktyczną
+        for e in self.all_events:
+            if "tactical_category" not in e or not e["tactical_category"]:
+                cat, icon = MilitaryNLPEngine.categorize_tactical_event(e.get("text", "") or e.get("title", ""))
+                e["tactical_category"] = cat
+                e["tactical_icon"] = icon
+
+        # Liczniki kategorii taktycznych
+        tactical_counts = Counter(e.get("tactical_category", "Incydent Bojowy") for e in self.all_events)
+
         # Wzbogacenie punktów mapy o analizę militarną NLP
         map_points = []
         verified_count = sum(1 for e in self.all_events if e.get("multi_source_verified"))
@@ -198,6 +208,8 @@ class ConflictAnalyzer:
                     "title": e.get("title"),
                     "text": text,
                     "type": e.get("event_type"),
+                    "tactical_category": e.get("tactical_category", "Incydent Bojowy"),
+                    "tactical_icon": e.get("tactical_icon", "⚔️"),
                     "location": e.get("location_name"),
                     "timestamp": e.get("timestamp"),
                     "url": e.get("url"),
@@ -216,6 +228,7 @@ class ConflictAnalyzer:
             "total_events_in_db": len(self.all_events),
             "events_today_count": len(all_today),
             "multi_source_verified_count": verified_count,
+            "tactical_categories": dict(tactical_counts.most_common()),
             "global_daily": self._calculate_period_stats(all_24h, all_prev_24h),
             "global_weekly": self._calculate_period_stats(all_7d, all_prev_7d),
             "global_monthly": self._calculate_period_stats(all_30d, all_prev_30d),

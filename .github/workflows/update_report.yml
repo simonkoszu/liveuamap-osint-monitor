@@ -1,9 +1,12 @@
-name: Aktualizacja Raportu Wojennego Liveuamap
+name: Aktualizacja Raportu Aegis OSINT Tactical Radar
 
 on:
   schedule:
     # Uruchamianie w chmurze codziennie o 06:00 UTC oraz 18:00 UTC (100% darmowe)
     - cron: '0 6,18 * * *'
+  push:
+    branches:
+      - main
   workflow_dispatch: # Możliwość ręcznego uruchomienia raportu 1 kliknięciem w GitHub
 
 # Rygorystyczna zasada najniższych uprawnień (Least Privilege Security)
@@ -13,7 +16,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "liveuamap-update"
+  group: "aegis-update"
   cancel-in-progress: true
 
 jobs:
@@ -40,16 +43,16 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: 📡 Scraping Liveuamap, Analiza Krajów i Generowanie Raportu HTML
+      - name: 📡 Pobieranie Danych Radarowych, Analiza Krajów i Generowanie Raportu HTML
         run: |
-          python run.py --pages 5 --desktop-folder "liveuamap_raport"
+          python run.py --pages 5
 
       - name: 💾 Bezpieczne zapisanie bazy zdarzeń w repozytorium
         run: |
           git config --local user.email "action@github.com"
-          git config --local user.name "Liveuamap War Monitor Bot"
+          git config --local user.name "Aegis OSINT Bot"
           git add data/events.json
-          git diff --staged --quiet || git commit -m "Auto-update: Baza zdarzeń wojennych [$(date -u +'%Y-%m-%d %H:%M UTC')]"
+          git diff --staged --quiet || git commit -m "Auto-update: Baza zdarzeń taktycznych [$(date -u +'%Y-%m-%d %H:%M UTC')]"
           git push
 
       - name: 🌐 Publikacja Raportu na darmowym GitHub Pages

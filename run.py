@@ -10,21 +10,21 @@ if SRC_DIR not in sys.path:
     sys.path.insert(0, SRC_DIR)
 
 from database import EventDatabase
-from scraper import LiveuamapScraper
+from scraper import AegisOSINTScraper
 from analyzer import ConflictAnalyzer
 from generator import ReportGenerator
 from enricher import enrich_database
 from nlp_engine import MilitaryNLPEngine
 
 def main():
-    parser = argparse.ArgumentParser(description="Liveuamap War Reporter - OSINT Cloud Monitor")
+    parser = argparse.ArgumentParser(description="Aegis OSINT Tactical Radar - Global Intelligence Monitor")
     parser.add_argument("--pages", type=int, default=5, help="Liczba stron historii do pobrania (domyślnie 5)")
     parser.add_argument("--no-scrape", action="store_true", help="Pomiń scraping i użyj istniejącej bazy danych")
-    parser.add_argument("--desktop-folder", type=str, default="liveuamap_raport", help="Nazwa folderu na Pulpicie")
+    parser.add_argument("--desktop-folder", type=str, default="aegis_osint_raport", help="Nazwa folderu na Pulpicie")
     args = parser.parse_args()
 
     print("=" * 60)
-    print("🚀 LIVEUAMAP CLOUD REPORTER - ROZPOCZĘCIE CYKLU OPERACYJNEGO")
+    print("🛡️ AEGIS OSINT TACTICAL RADAR - CYKL OPERACYJNY")
     print("=" * 60)
 
     db_path = os.path.join(BASE_DIR, "data", "events.json")
@@ -33,53 +33,68 @@ def main():
 
     # 1. Baza danych
     db = EventDatabase(db_path)
-    print(f"📦 Baza danych załadowana: {len(db.events)} zarejestrowanych zdarzeń.")
+    print(f"📦 Baza wywiadowcza załadowana: {len(db.events)} zarejestrowanych incydentów.")
 
     # 2. Scraping zdarzeń
     if not args.no_scrape:
-        print(f"📡 Pobieranie najnowszych zdarzeń z Liveuamap (strony: {args.pages})...")
-        scraper = LiveuamapScraper()
+        print(f"📡 Pobieranie najnowszych meldunków radarowych (strony: {args.pages})...")
+        scraper = AegisOSINTScraper()
         new_events = scraper.fetch_latest_events(max_pages=args.pages)
         added_count = 0
         for ev in new_events:
             if db.add_event(ev):
                 added_count += 1
         db.save()
-        print(f"✅ Dodano {added_count} nowych incydentów do bazy. Łącznie w bazie: {len(db.events)}.")
+        print(f"✅ Zarejestrowano {added_count} nowych meldunków. Łącznie w buforze: {len(db.events)}.")
     else:
-        print("⏩ Pominięto scraping, używanie istniejącej bazy.")
+        print("⏩ Pominięto scraping, przetwarzanie bazy danych.")
 
-    # 2b. Wzbogacenie o zweryfikowane incydenty ze wszystkich teatrów i krajów (w tym Rosja/Samara)
+    # 2b. Wzbogacenie o zweryfikowane incydenty
     enrich_database(db)
 
-    # 3. Analiza statystyczna (dzienna, tygodniowa, miesięczna, od dzisiaj)
-    print("🧠 Analiza danych, redukcja szumów i weryfikacja krzyżowa (Cross-Check)...")
+    # 3. Analiza statystyczna, redukcja szumów i deduplikacja
+    print("🧠 Analiza danych, redukcja szumów i inteligentna deduplikacja...")
     all_events = db.get_all_events()
-    all_events = MilitaryNLPEngine.cross_verify_events(all_events)
-    for ev in all_events:
-        db.events[ev["id"]] = ev
+
+    # Inteligentne łączenie duplikatów z wielu kanałów
+    deduplicated_events, merged_count = MilitaryNLPEngine.deduplicate_and_merge_events(all_events)
+    print(f"   • Inteligentna deduplikacja: scalono {merged_count} zdublowanych raportów w unikalne zdarzenia wieloźródłowe.")
+
+    # Cross-referencing i weryfikacja
+    deduplicated_events = MilitaryNLPEngine.cross_verify_events(deduplicated_events)
+    db.events = {ev["id"]: ev for ev in deduplicated_events}
     db.save()
 
-    analyzer = ConflictAnalyzer(all_events, tracking_started_at=db.meta.get("tracking_started_at"))
+    analyzer = ConflictAnalyzer(deduplicated_events, tracking_started_at=db.meta.get("tracking_started_at"))
     analysis = analyzer.analyze()
 
-    print(f"   • Ostatnie 24h (Globalnie): {analysis['global_daily']['count']} zdarzeń (zmiana: {analysis['global_daily']['diff']:+d})")
-    print(f"   • Ostatnie 7 dni (Globalnie): {analysis['global_weekly']['count']} zdarzeń (zmiana: {analysis['global_weekly']['diff']:+d})")
-    print(f"   • Ostatnie 30 dni (Globalnie): {analysis['global_monthly']['count']} zdarzeń")
-    print(f"   • Śledzenie od dzisiaj ({analysis['today_date']}): {analysis['events_today_count']} zdarzeń")
+    print(f"   • Aktywne unikalne incydenty po deduplikacji: {analysis['total_events_in_db']}")
+    print(f"   • Ostatnie 24h (Globalnie): {analysis['global_daily']['count']} zdarzeń")
     print(f"   • Potwierdzone Wieloźródłowo (Cross-Check): {analysis['multi_source_verified_count']} zdarzeń")
+    print("   • Rozkład wg Taksonomii Bojowej:")
+    for cat, cnt in list(analysis.get('tactical_categories', {}).items())[:6]:
+        print(f"     - {cat}: {cnt}")
     print("   • Podział na kraje:")
     for c in analysis['countries']:
         if c['total_events'] > 0:
-            print(f"     - {c['flag']} {c['name']}: {c['total_events']} zdarzeń (24h: {c['daily']['count']}, 7d: {c['weekly']['count']}, 30d: {c['monthly']['count']})")
+            print(f"     - {c['flag']} {c['name']}: {c['total_events']} zdarzeń (24h: {c['daily']['count']}, 7d: {c['weekly']['count']})")
 
     # 4. Generowanie raportu HTML
-    print("🎨 Renderowanie interaktywnego raportu HTML (Leaflet + Chart.js)...")
+    print("🎨 Renderowanie interaktywnego panelu taktycznego Aegis Radar...")
     generator = ReportGenerator(templates_dir, output_dir)
     report_path = generator.generate(analysis, desktop_folder_name=args.desktop_folder)
 
+    # Zapisz również pod dawną nazwą na Pulpicie dla wygody użytkownika
+    try:
+        legacy_dir = os.path.expanduser("~/Desktop/liveuamap_raport")
+        if os.path.exists(legacy_dir):
+            import shutil
+            shutil.copyfile(report_path, os.path.join(legacy_dir, "index.html"))
+    except Exception:
+        pass
+
     print("=" * 60)
-    print(f"🎉 SUKCES! Raport jest gotowy do otwarcia:")
+    print(f"🎉 SUKCES! Raport Aegis Radar jest gotowy:")
     print(f"   Projekt: {report_path}")
     print(f"   Pulpit:  ~/Desktop/{args.desktop_folder}/index.html")
     print("=" * 60)

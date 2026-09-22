@@ -1,6 +1,80 @@
 import re
 from typing import Dict, Any, List, Tuple
 
+# Precyzyjna Taksonomia Zdarzeń Bojowych
+TACTICAL_CATEGORIES = {
+    "Eksplozja / Detonacja": {
+        "icon": "💥",
+        "patterns": [
+            r"\bexplosion\b", r"\bexplosions\b", r"\bdetonation\b", r"\bsecondary detonation\b",
+            r"\bвибух\w*", r"\bвзрыв\w*", r"\bдетонац\w*", r"\bгремит\b", r"\bгромко\b", r"\bпотужний вибух\b"
+        ]
+    },
+    "Atak Dronów Kamikadze": {
+        "icon": "🛸",
+        "patterns": [
+            r"\bshahed\b", r"\bgeran\b", r"\bkamikaze drone\b", r"\bdrone strike\b", r"\bdrone attack\b",
+            r"\bшахед\w*", r"\bшахід\w*", r"\bгерань\b", r"\bбпла\b", r"\bбеспилотник\w*", r"\bбезпілотник\w*",
+            r"\bдрон\w*", r"\bмопед\w*", r"\bбандерол\w*", r"\bреактив\w*"
+        ]
+    },
+    "Uderzenie Balistyczne / Rakieta": {
+        "icon": "🚀",
+        "patterns": [
+            r"\bmissile\b", r"\bballistic\b", r"\bcruise missile\b", r"\biskander\b", r"\bkalibr\b",
+            r"\bkinzhal\b", r"\bkn-23\b", r"\bstorm shadow\b", r"\bquds\b", r"\bfateh\b",
+            r"\bракета\b", r"\bракет\w*", r"\bбалістич\w*", r"\bбаллистич\w*", r"\bіскандер\b",
+            r"\bискандер\b", r"\bкалібр\b", r"\bкалибр\b", r"\bкинджал\w*", r"\bкрилат\w*"
+        ]
+    },
+    "Bombardowanie Lotnicze (KAB / FAB)": {
+        "icon": "💣",
+        "patterns": [
+            r"\bglide bomb\b", r"\baerial bomb\b", r"\bkab\b", r"\bfab-\d+", r"\bairstrike\b", r"\bair strike\b",
+            r"\bкаб\b", r"\bфаб\b", r"\bкеровані авіабомби\b", r"\bавіаудар\w*", r"\bавиаудар\w*"
+        ]
+    },
+    "Obrona Przeciwlotnicza (OPL)": {
+        "icon": "🛡️",
+        "patterns": [
+            r"\bair defense\b", r"\bintercepted\b", r"\bshot down\b", r"\bpatriot\b", r"\biron dome\b",
+            r"\bs-300\b", r"\bs-400\b", r"\bgepard\b", r"\bnasams\b",
+            r"\bппо\b", r"\bпво\b", r"\bзбито\b", r"\bсбито\b", r"\bперехоплен\w*", r"\bвідбито\b"
+        ]
+    },
+    "Infrastruktura Krytyczna / Rafineria": {
+        "icon": "🏭",
+        "patterns": [
+            r"\brefinery\b", r"\boil depot\b", r"\bpower plant\b", r"\bsubstation\b", r"\bblackout\b",
+            r"\bpipeline\b", r"\bammunition depot\b", r"\barsenal\b", r"\bgrau\b", r"\binterpipe\b",
+            r"\bнпз\b", r"\bнефтебаз\w*", r"\bнафтобаз\w*", r"\bпідстанц\w*", r"\bподстанц\w*",
+            r"\bарсенал\b", r"\bсклад боєприпас\w*", r"\bзнеструмлен\w*", r"\bрезервуар\w*"
+        ]
+    },
+    "Starcie Lądowe / Szturm": {
+        "icon": "⚔️",
+        "patterns": [
+            r"\bclash\b", r"\bassault\b", r"\boffensive\b", r"\bstorming\b", r"\btrenches\b", r"\binfantry\b",
+            r"\brecaptured\b", r"\badvance\b", r"\boccupied\b", r"\brepelled\b",
+            r"\bштурм\w*", r"\bнаступ\w*", r"\bконтрнаступ\w*", r"\bбої\b", r"\bбои\b", r"\bокопи\b", r"\bпросування\b"
+        ]
+    },
+    "Działania Morskie / Drony Nawodne": {
+        "icon": "🚢",
+        "patterns": [
+            r"\bnaval\b", r"\bship\b", r"\bsea drone\b", r"\bvessel\b", r"\bmagura\b", r"\bmaritime\b",
+            r"\bкорабл\w*", r"\bморський дрон\b", r"\bморской дрон\b", r"\bкатер\b", r"\bпорт\b"
+        ]
+    },
+    "Komunikat Sztabowy / Dyplomacja": {
+        "icon": "📡",
+        "patterns": [
+            r"\bstatement\b", r"\bagreement\b", r"\bsanctions\b", r"\bgeneral staff\b", r"\bnegotiations\b",
+            r"\bгенштаб\w*", r"\bзведення\b", r"\bсводка\b", r"\bзаява\b", r"\bпереговори\b"
+        ]
+    }
+}
+
 WEAPON_PATTERNS = {
     "Shahed / Dron Kamikadze": [
         r"\bshahed\b", r"\bgeran\b", r"\bkamikaze drone\b", r"\bdrone strike\b",
@@ -292,3 +366,110 @@ class MilitaryNLPEngine:
                 ev["verified_by_sources"] = [ev.get("source_channel", "OSINT")]
 
         return events
+
+    @staticmethod
+    def categorize_tactical_event(text: str) -> Tuple[str, str]:
+        """
+        Precyzyjne przypisanie zdarzenia do wojskowej kategorii taktycznej.
+        Zwraca: (nazwa_kategorii, ikona_emodżi)
+        """
+        t = text.lower()
+        for cat_name, data in TACTICAL_CATEGORIES.items():
+            for p in data["patterns"]:
+                if re.search(p, t):
+                    return cat_name, data["icon"]
+        return "Incydent Bojowy", "⚔️"
+
+    @staticmethod
+    def deduplicate_and_merge_events(events: List[Dict[str, Any]]) -> Tuple[List[Dict[str, Any]], int]:
+        """
+        Inteligentna Deduplikacja i Łączenie Incydentów:
+        Rozpoznaje, kiedy różne kanały OSINT (np. Baza, Astra, War Monitor, KPZSU, Rybar)
+        raportują to samo uderzenie lub eksplozję w tym samym mieście/rejonie w oknie czasowym 12h.
+        Łączy je w 1 kanoniczne zdarzenie, konsoliduje potwierdzone źródła, media i odznaki.
+        Zwraca (deduplikowane_zdarzenia, liczba_scalonych_duplikatów).
+        """
+        if not events:
+            return [], 0
+
+        # Sortuj od najnowszych
+        sorted_events = sorted(events, key=lambda x: x.get("timestamp", ""), reverse=True)
+        merged_events: List[Dict[str, Any]] = []
+        merged_count = 0
+        used_ids = set()
+
+        for i, ev1 in enumerate(sorted_events):
+            if ev1["id"] in used_ids:
+                continue
+
+            # Inicjalizuj kanoniczne zdarzenie
+            canonical = dict(ev1)
+            confirmed_sources = set([ev1.get("source_channel")] if ev1.get("source_channel") else ["OSINT"])
+            all_media = set(ev1.get("media_urls", []))
+
+            loc1 = (canonical.get("location_name") or "").lower().split(",")[0].split("/")[0].strip()
+            date1 = canonical.get("timestamp", "")[:10]
+            cat1 = canonical.get("tactical_category") or canonical.get("event_type")
+
+            # Przeszukaj pozostałe zdarzenia w poszukiwaniu duplikatów tego samego incydentu
+            for j in range(i + 1, len(sorted_events)):
+                ev2 = sorted_events[j]
+                if ev2["id"] in used_ids:
+                    continue
+
+                loc2 = (ev2.get("location_name") or "").lower().split(",")[0].split("/")[0].strip()
+                date2 = ev2.get("timestamp", "")[:10]
+                cat2 = ev2.get("tactical_category") or ev2.get("event_type")
+
+                # Kryteria duplikatu:
+                # 1. Dokładnie ten sam dzień (lub sąsiedni)
+                is_same_day = (date1 == date2)
+                # 2. To samo miasto/obiekt LUB bliskie koordynaty (<0.25 stopnia ~25km)
+                is_same_loc = (loc1 and loc2 and (loc1 == loc2 or loc1 in loc2 or loc2 in loc1))
+                coord_dist = abs(canonical.get("lat", 0) - ev2.get("lat", 0)) + abs(canonical.get("lon", 0) - ev2.get("lon", 0))
+                is_close_coord = (coord_dist < 0.25)
+
+                # 3. Zbieżność tematyczna (ten sam cel, kategoria lub słowa kluczowe)
+                text1 = canonical.get("text", "").lower()
+                text2 = ev2.get("text", "").lower()
+
+                common_target_keywords = [
+                    "refinery", "нпз", "interpipe", "інтерпайп", "toropets", "торопец", "samara", "самар", 
+                    "kursk", "power", "grid", "blackout", "підстанц", "substation", "kuybyshevskyi"
+                ]
+                shares_target = any(kw in text1 and kw in text2 for kw in common_target_keywords)
+
+                is_duplicate = is_same_day and (is_same_loc or is_close_coord) and (cat1 == cat2 or shares_target or "Uderzenie" in str(cat1))
+
+                if is_duplicate:
+                    # Scalanie: dodaj potwierdzenie ze źródła
+                    src2 = ev2.get("source_channel")
+                    if src2:
+                        confirmed_sources.add(src2)
+                    for m in ev2.get("media_urls", []):
+                        all_media.add(m)
+
+                    # Jeśli ev2 ma dłuższy/dokładniejszy tekst, uzupełnij
+                    if len(ev2.get("text", "")) > len(canonical.get("text", "")):
+                        canonical["text"] = ev2.get("text")
+                    if ev2.get("is_fire"):
+                        canonical["is_fire"] = True
+
+                    used_ids.add(ev2["id"])
+                    merged_count += 1
+
+            # Zapisz skonsolidowane zdarzenie
+            canonical["verified_by_sources"] = sorted(list(confirmed_sources))
+            canonical["multi_source_verified"] = len(confirmed_sources) >= 2 or canonical.get("multi_source_verified", False)
+            canonical["media_urls"] = list(all_media)
+            
+            # Upewnij się, że ma precyzyjną kategorię taktyczną
+            if "tactical_category" not in canonical or not canonical["tactical_category"]:
+                cat, icon = MilitaryNLPEngine.categorize_tactical_event(canonical.get("text", "") or canonical.get("title", ""))
+                canonical["tactical_category"] = cat
+                canonical["tactical_icon"] = icon
+
+            used_ids.add(canonical["id"])
+            merged_events.append(canonical)
+
+        return merged_events, merged_count

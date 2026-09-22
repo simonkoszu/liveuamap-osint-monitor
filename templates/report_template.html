@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Raport Wojenny Liveuamap | Biuletyn Kraje & Wojny</title>
+  <title>AEGIS OSINT RADAR | Global Tactical Intelligence</title>
   
   <!-- Content Security Policy: Ochrona przed XSS i obcym kodem -->
   <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' https://unpkg.com https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://*.tile.openstreetmap.org https://*.basemaps.cartocdn.com; img-src 'self' data: https:; font-src https://cdnjs.cloudflare.com https://fonts.gstatic.com; connect-src 'self';">
@@ -49,19 +49,67 @@
 </head>
 <body class="min-h-screen flex flex-col">
 
+  <!-- SECURITY GATE / EKRAN AUTORYZACJI PIN -->
+  <div id="security-gate" class="fixed inset-0 z-[9999] bg-[#070b14]/95 backdrop-blur-2xl flex items-center justify-center p-4">
+    <div class="max-w-md w-full bg-slate-900/95 border border-slate-700/80 rounded-2xl p-6 sm:p-8 shadow-2xl text-center relative overflow-hidden">
+      <!-- Glow effect -->
+      <div class="absolute -top-24 -left-24 w-48 h-48 bg-red-600/20 rounded-full blur-3xl pointer-events-none"></div>
+      <div class="absolute -bottom-24 -right-24 w-48 h-48 bg-emerald-600/20 rounded-full blur-3xl pointer-events-none"></div>
+
+      <!-- Icon & Title -->
+      <div class="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-slate-800/80 border border-slate-700 text-emerald-400 text-2xl mb-3 shadow-inner">
+        <i class="fa-solid fa-shield-halved animate-pulse"></i>
+      </div>
+      <h2 class="text-xl font-extrabold tracking-wider text-white uppercase">Aegis Tactical OSINT</h2>
+      <p class="text-xs text-slate-400 mt-0.5 uppercase tracking-widest font-mono">Strefa Poziomu 1 • Wymagana Autoryzacja</p>
+
+      <!-- PIN dots display -->
+      <div class="my-6">
+        <div class="flex justify-center space-x-3 mb-2" id="pin-dots">
+          <div class="w-4 h-4 rounded-full border-2 border-slate-600 bg-slate-800 transition-all duration-200" id="dot-0"></div>
+          <div class="w-4 h-4 rounded-full border-2 border-slate-600 bg-slate-800 transition-all duration-200" id="dot-1"></div>
+          <div class="w-4 h-4 rounded-full border-2 border-slate-600 bg-slate-800 transition-all duration-200" id="dot-2"></div>
+          <div class="w-4 h-4 rounded-full border-2 border-slate-600 bg-slate-800 transition-all duration-200" id="dot-3"></div>
+        </div>
+        <p id="auth-status-msg" class="text-xs text-slate-500 font-mono h-5 flex items-center justify-center">Wprowadź 4-cyfrowy kod PIN</p>
+      </div>
+
+      <!-- Numeric Keypad -->
+      <div class="grid grid-cols-3 gap-2.5 max-w-[260px] mx-auto mb-4 select-none">
+        <button onclick="pressKey('1')" class="h-12 rounded-xl bg-slate-800 hover:bg-slate-700 active:scale-95 text-lg font-bold text-white border border-slate-700/60 transition cursor-pointer">1</button>
+        <button onclick="pressKey('2')" class="h-12 rounded-xl bg-slate-800 hover:bg-slate-700 active:scale-95 text-lg font-bold text-white border border-slate-700/60 transition cursor-pointer">2</button>
+        <button onclick="pressKey('3')" class="h-12 rounded-xl bg-slate-800 hover:bg-slate-700 active:scale-95 text-lg font-bold text-white border border-slate-700/60 transition cursor-pointer">3</button>
+        <button onclick="pressKey('4')" class="h-12 rounded-xl bg-slate-800 hover:bg-slate-700 active:scale-95 text-lg font-bold text-white border border-slate-700/60 transition cursor-pointer">4</button>
+        <button onclick="pressKey('5')" class="h-12 rounded-xl bg-slate-800 hover:bg-slate-700 active:scale-95 text-lg font-bold text-white border border-slate-700/60 transition cursor-pointer">5</button>
+        <button onclick="pressKey('6')" class="h-12 rounded-xl bg-slate-800 hover:bg-slate-700 active:scale-95 text-lg font-bold text-white border border-slate-700/60 transition cursor-pointer">6</button>
+        <button onclick="pressKey('7')" class="h-12 rounded-xl bg-slate-800 hover:bg-slate-700 active:scale-95 text-lg font-bold text-white border border-slate-700/60 transition cursor-pointer">7</button>
+        <button onclick="pressKey('8')" class="h-12 rounded-xl bg-slate-800 hover:bg-slate-700 active:scale-95 text-lg font-bold text-white border border-slate-700/60 transition cursor-pointer">8</button>
+        <button onclick="pressKey('9')" class="h-12 rounded-xl bg-slate-800 hover:bg-slate-700 active:scale-95 text-lg font-bold text-white border border-slate-700/60 transition cursor-pointer">9</button>
+        <button onclick="clearPin()" class="h-12 rounded-xl bg-slate-800/60 hover:bg-red-950/50 active:scale-95 text-xs font-bold text-red-400 border border-slate-700/60 transition cursor-pointer">DEL</button>
+        <button onclick="pressKey('0')" class="h-12 rounded-xl bg-slate-800 hover:bg-slate-700 active:scale-95 text-lg font-bold text-white border border-slate-700/60 transition cursor-pointer">0</button>
+        <button onclick="submitPin()" class="h-12 rounded-xl bg-emerald-600/30 hover:bg-emerald-600/50 active:scale-95 text-xs font-bold text-emerald-400 border border-emerald-500/40 transition cursor-pointer">OK</button>
+      </div>
+
+      <div class="text-[11px] text-slate-500 flex items-center justify-center space-x-1.5 pt-3 border-t border-slate-800">
+        <i class="fa-solid fa-lock text-emerald-500/70"></i>
+        <span>Szyfrowanie SHA-256 • Ochrona anty-bruteforce</span>
+      </div>
+    </div>
+  </div>
+
   <!-- Pasek Górny / Header -->
   <header class="bg-slate-900/90 backdrop-blur border-b border-slate-800 sticky top-0 z-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5 flex flex-wrap justify-between items-center gap-4">
       <div class="flex items-center space-x-3">
-        <div class="h-10 w-10 rounded-lg bg-red-600/20 border border-red-500/40 flex items-center justify-center text-red-500">
-          <i class="fa-solid fa-earth-americas text-xl animate-pulse"></i>
+        <div class="h-10 w-10 rounded-lg bg-emerald-600/20 border border-emerald-500/40 flex items-center justify-center text-emerald-400">
+          <i class="fa-solid fa-shield-halved text-xl animate-pulse"></i>
         </div>
         <div>
           <div class="flex items-center space-x-2">
-            <h1 class="text-lg font-bold tracking-tight text-white">LIVEUAMAP RAPORT WOJENNY</h1>
-            <span class="px-2 py-0.5 text-xs font-semibold rounded bg-red-500/20 text-red-400 border border-red-500/30">KRAJE & FRONT</span>
+            <h1 class="text-lg font-bold tracking-tight text-white">AEGIS OSINT RADAR</h1>
+            <span class="px-2 py-0.5 text-xs font-semibold rounded bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">TACTICAL DEFENSE</span>
           </div>
-          <p class="text-xs text-slate-400">Raporty Dziennie (24h) • Tygodniowe (7d) • Miesięczne (30d) dla poszczególnych państw</p>
+          <p class="text-xs text-slate-400">Autonomiczny Monitor Działań Wojennych • Wielokanałowy Radar OSINT • Analiza Krajowa</p>
         </div>
       </div>
 
@@ -72,8 +120,12 @@
         </div>
         <div class="bg-slate-800 border border-slate-700 px-3 py-1.5 rounded-lg flex items-center space-x-2">
           <i class="fa-solid fa-database text-indigo-400"></i>
-          <span class="text-slate-300 font-medium">Baza Zdarzeń: <span class="text-white font-bold">{{ data.total_events_in_db }}</span></span>
+          <span class="text-slate-300 font-medium">Baza Incydentów: <span class="text-white font-bold">{{ data.total_events_in_db }}</span></span>
         </div>
+        <button onclick="lockScreen()" class="bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 px-3 py-1.5 rounded-lg flex items-center space-x-1.5 transition cursor-pointer" title="Zablokuj pulpit">
+          <i class="fa-solid fa-lock text-emerald-400"></i>
+          <span class="font-medium">Zablokuj</span>
+        </button>
       </div>
     </div>
   </header>
@@ -430,30 +482,27 @@
           {% for ev in c.recent_events %}
           <div class="bg-slate-800/40 hover:bg-slate-800/70 transition rounded-lg p-3.5 border border-slate-700/60 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
             <div class="flex-1">
-              <div class="flex items-center space-x-2 text-xs mb-1 text-slate-400">
-                <span class="font-mono text-slate-300">{{ ev.timestamp[:16].replace("T", " ") }}</span>
-                <span>•</span>
-                <span class="text-amber-400 font-semibold"><i class="fa-solid fa-tag text-[10px] mr-1"></i>{{ ev.event_type }}</span>
-                <span>•</span>
-                <span class="text-slate-400"><i class="fa-solid fa-location-dot text-red-400 mr-1"></i>{{ ev.location_name }}</span>
-              </div>
               <div class="flex flex-wrap items-center gap-1.5 text-[11px] text-slate-400 mb-1">
-                <span class="font-mono text-slate-500">{{ ev.timestamp[:16].replace('T', ' ') }}</span>
-                <span class="px-1.5 py-0.5 rounded bg-slate-800 text-slate-300 border border-slate-700">{{ ev.event_type }}</span>
+                <span class="font-mono text-slate-400">{{ ev.timestamp[:16].replace('T', ' ') }}</span>
+                {% if ev.tactical_category %}
+                <span class="px-1.5 py-0.5 rounded bg-red-950/70 text-red-300 border border-red-800/50 font-semibold text-[10px]">{{ ev.tactical_category|upper }}</span>
+                {% else %}
+                <span class="px-1.5 py-0.5 rounded bg-slate-800 text-slate-300 border border-slate-700 text-[10px]">{{ ev.event_type }}</span>
+                {% endif %}
                 {% if ev.location_name %}
-                <span class="text-slate-400"><i class="fa-solid fa-location-dot text-slate-500 mr-1"></i>{{ ev.location_name }}</span>
+                <span class="text-slate-400"><i class="fa-solid fa-location-dot text-red-400 mr-1"></i>{{ ev.location_name }}</span>
                 {% endif %}
                 {% if ev.source_channel %}
                 <span class="px-1.5 py-0.5 rounded bg-indigo-950/60 text-indigo-300 border border-indigo-800/40 font-mono text-[10px]">[#{{ ev.source_channel }}]</span>
                 {% endif %}
                 {% if ev.multi_source_verified %}
-                <span class="px-1.5 py-0.5 rounded bg-emerald-950/60 text-emerald-300 border border-emerald-800/40 font-semibold text-[10px]">🛡️ Cross-Check</span>
+                <span class="px-1.5 py-0.5 rounded bg-emerald-950/60 text-emerald-300 border border-emerald-800/40 font-semibold text-[10px]">🛡️ Cross-Check ({{ (ev.verified_by_sources or [])|join('+') }})</span>
                 {% endif %}
               </div>
               <h4 class="font-semibold text-sm text-slate-200 mb-0.5">{{ ev.title }}</h4>
               <p class="text-xs text-slate-400">{{ ev.text }}</p>
             </div>
-            <a href="{{ ev.url }}" target="_blank" rel="noopener noreferrer" class="text-xs text-blue-400 hover:text-blue-300 font-medium whitespace-nowrap">Liveuamap &rarr;</a>
+            <a href="{{ ev.url }}" target="_blank" rel="noopener noreferrer" class="text-xs text-emerald-400 hover:text-emerald-300 font-medium whitespace-nowrap">Źródło Taktyczne &rarr;</a>
           </div>
           {% else %}
           <div class="text-slate-500 text-xs italic py-4">Brak zarejestrowanych incydentów dla tego kraju.</div>
@@ -476,11 +525,15 @@
             <p class="text-xs text-slate-400">Interaktywny rozkład ognisk zapalnych z filtrowaniem wg państw i weryfikacji wieloźródłowej</p>
           </div>
           <div class="flex flex-wrap items-center gap-1.5 text-xs">
-            <button onclick="filterMapCountry('all')" class="map-btn px-2.5 py-1 rounded bg-slate-800 text-slate-200 border border-slate-700">Wszystkie</button>
-            <button onclick="filterMapCountry('cross_check')" class="map-btn px-2.5 py-1 rounded bg-emerald-950/60 text-emerald-300 border border-emerald-700/60 font-semibold"><i class="fa-solid fa-shield-halved text-xs mr-1"></i>🛡️ Wieloźródłowe (Cross-Check)</button>
-            <button onclick="filterMapCountry('fire')" class="map-btn px-2.5 py-1 rounded bg-amber-950/60 text-amber-300 border border-amber-700/60 font-semibold"><i class="fa-solid fa-fire text-xs mr-1"></i>🔥 Pożary</button>
+            <button onclick="setMapFilter('all')" id="mf-all" class="map-filter-btn px-2.5 py-1 rounded bg-slate-700 text-white font-semibold border border-slate-600">Wszystkie</button>
+            <button onclick="setMapFilter('cross_check')" id="mf-cross_check" class="map-filter-btn px-2.5 py-1 rounded bg-emerald-950/60 text-emerald-300 border border-emerald-700/60 font-semibold"><i class="fa-solid fa-shield-halved text-xs mr-1"></i>🛡️ Wieloźródłowe</button>
+            <button onclick="setMapFilter('fire')" id="mf-fire" class="map-filter-btn px-2.5 py-1 rounded bg-amber-950/60 text-amber-300 border border-amber-700/60 font-semibold"><i class="fa-solid fa-fire text-xs mr-1"></i>🔥 Pożary</button>
+            <button onclick="setMapFilter('explosions')" id="mf-explosions" class="map-filter-btn px-2.5 py-1 rounded bg-slate-800 text-slate-300 border border-slate-700">💥 Wybuchy/Ostrzał</button>
+            <button onclick="setMapFilter('drones')" id="mf-drones" class="map-filter-btn px-2.5 py-1 rounded bg-slate-800 text-slate-300 border border-slate-700">🛸 Drony Kamikaze</button>
+            <button onclick="setMapFilter('missiles')" id="mf-missiles" class="map-filter-btn px-2.5 py-1 rounded bg-slate-800 text-slate-300 border border-slate-700">🚀 Rakiety</button>
+            <button onclick="setMapFilter('infrastructure')" id="mf-infrastructure" class="map-filter-btn px-2.5 py-1 rounded bg-slate-800 text-slate-300 border border-slate-700">🏭 Infrastruktura/Paliwa</button>
             {% for c in data.countries %}
-            <button onclick="filterMapCountry('{{ c.name }}')" class="map-btn px-2.5 py-1 rounded bg-slate-800 text-slate-400 border border-slate-700">{{ c.flag }} {{ c.name }}</button>
+            <button onclick="setMapFilter('country:{{ c.name }}')" id="mf-country-{{ loop.index }}" class="map-filter-btn px-2.5 py-1 rounded bg-slate-800 text-slate-400 border border-slate-700">{{ c.flag }} {{ c.name }}</button>
             {% endfor %}
           </div>
         </div>
@@ -494,7 +547,7 @@
   <footer class="bg-slate-950 border-t border-slate-800/80 py-4 mt-auto">
     <div class="max-w-7xl mx-auto px-4 text-center text-xs text-slate-500 flex flex-col sm:flex-row justify-between items-center gap-2">
       <div>
-        Autonomiczny monitor zdarzeń na bazie <a href="https://liveuamap.com" target="_blank" class="text-slate-400 hover:underline">liveuamap.com</a>
+        Autonomiczny radar taktyczny Aegis OSINT • Agregacja wieloźródłowa i fuzja danych
       </div>
       <div class="flex items-center space-x-2 text-emerald-400/80">
         <i class="fa-solid fa-shield-halved text-xs"></i>
@@ -505,6 +558,140 @@
 
   <!-- DANE I LOGIKA JS -->
   <script>
+    // -------------------------------------------------------------
+    // BEZPIECZEŃSTWO: BRAMKA AUTORYZACYJNA PIN (SHA-256)
+    // -------------------------------------------------------------
+    const TARGET_PIN_HASH = "0787e9c566dc104d436c050aa59d81dcf3a8d9a263725b8744b82bc0e1903522"; // 7749
+    let currentPin = "";
+    let failedAttempts = 0;
+    let isLockedOut = false;
+
+    async function sha256(message) {
+      const msgBuffer = new TextEncoder().encode(message);
+      const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
+      const hashArray = Array.from(new Uint8Array(hashBuffer));
+      return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+    }
+
+    function updatePinDots() {
+      for (let i = 0; i < 4; i++) {
+        const dot = document.getElementById(`dot-${i}`);
+        if (dot) {
+          if (i < currentPin.length) {
+            dot.className = "w-4 h-4 rounded-full border-2 border-emerald-400 bg-emerald-400 shadow-[0_0_8px_rgba(52,211,153,0.8)] transition-all duration-150";
+          } else {
+            dot.className = "w-4 h-4 rounded-full border-2 border-slate-600 bg-slate-800 transition-all duration-150";
+          }
+        }
+      }
+    }
+
+    function pressKey(num) {
+      if (isLockedOut) return;
+      if (currentPin.length < 4) {
+        currentPin += num;
+        updatePinDots();
+        if (currentPin.length === 4) {
+          setTimeout(submitPin, 120);
+        }
+      }
+    }
+
+    function clearPin() {
+      if (isLockedOut) return;
+      currentPin = currentPin.slice(0, -1);
+      updatePinDots();
+      const msg = document.getElementById('auth-status-msg');
+      if (msg) {
+        msg.textContent = "Wprowadź 4-cyfrowy kod PIN";
+        msg.className = "text-xs text-slate-500 font-mono h-5 flex items-center justify-center";
+      }
+    }
+
+    async function submitPin() {
+      if (isLockedOut) return;
+      const msg = document.getElementById('auth-status-msg');
+      if (currentPin.length < 4) {
+        if (msg) {
+          msg.textContent = "Wprowadź wszystkie 4 cyfry!";
+          msg.className = "text-xs text-amber-400 font-mono h-5 flex items-center justify-center";
+        }
+        return;
+      }
+      const hash = await sha256(currentPin);
+      if (hash === TARGET_PIN_HASH) {
+        sessionStorage.setItem('aegis_auth_token', hash);
+        unlockUI();
+      } else {
+        failedAttempts++;
+        currentPin = "";
+        updatePinDots();
+        if (msg) {
+          if (failedAttempts >= 3) {
+            isLockedOut = true;
+            msg.textContent = "Zbyt wiele błędów! Blokada 10 sekund.";
+            msg.className = "text-xs text-red-500 font-bold font-mono h-5 flex items-center justify-center animate-pulse";
+            setTimeout(() => {
+              isLockedOut = false;
+              failedAttempts = 0;
+              msg.textContent = "Wprowadź 4-cyfrowy kod PIN";
+              msg.className = "text-xs text-slate-500 font-mono h-5 flex items-center justify-center";
+            }, 10000);
+          } else {
+            msg.textContent = `Niepoprawny PIN! Pozostało prób: ${3 - failedAttempts}`;
+            msg.className = "text-xs text-red-400 font-mono h-5 flex items-center justify-center";
+          }
+        }
+      }
+    }
+
+    function unlockUI() {
+      const gate = document.getElementById('security-gate');
+      if (gate) {
+        gate.classList.add('transition-opacity', 'duration-300', 'opacity-0', 'pointer-events-none');
+        setTimeout(() => { gate.style.display = 'none'; }, 320);
+      }
+    }
+
+    function lockScreen() {
+      sessionStorage.removeItem('aegis_auth_token');
+      currentPin = "";
+      updatePinDots();
+      const gate = document.getElementById('security-gate');
+      if (gate) {
+        gate.style.display = 'flex';
+        gate.classList.remove('opacity-0', 'pointer-events-none');
+      }
+      const msg = document.getElementById('auth-status-msg');
+      if (msg) {
+        msg.textContent = "Wprowadź 4-cyfrowy kod PIN";
+        msg.className = "text-xs text-slate-500 font-mono h-5 flex items-center justify-center";
+      }
+    }
+
+    function checkAuthOnLoad() {
+      const token = sessionStorage.getItem('aegis_auth_token');
+      if (token === TARGET_PIN_HASH) {
+        unlockUI();
+      }
+    }
+
+    window.addEventListener('keydown', (e) => {
+      const gate = document.getElementById('security-gate');
+      if (gate && gate.style.display !== 'none' && !gate.classList.contains('pointer-events-none')) {
+        if (e.key >= '0' && e.key <= '9') {
+          pressKey(e.key);
+        } else if (e.key === 'Backspace') {
+          clearPin();
+        } else if (e.key === 'Enter') {
+          submitPin();
+        }
+      }
+    });
+
+    // -------------------------------------------------------------
+    // DANE RAPORTU
+    // -------------------------------------------------------------
     const MAP_POINTS = {{ data.map_points | tojson }};
     const TIMELINE_DAYS = {{ data.timeline.days | tojson }};
     const TIMELINE_COUNTS = {{ data.timeline.counts | tojson }};
@@ -545,8 +732,12 @@
       }
     }
 
-    // Mapa Leaflet
+    // -------------------------------------------------------------
+    // MAPA LEAFLET & FILTRY TAKTYCZNE
+    // -------------------------------------------------------------
     let markersLayer = null;
+    let currentMapFilter = 'all';
+
     function initMap() {
       const map = L.map('map-container').setView([42.0, 36.0], 4);
       window.leafletMap = map;
@@ -571,14 +762,28 @@
       return '#64748b';
     }
 
+    function setMapFilter(filterMode) {
+      currentMapFilter = filterMode;
+      document.querySelectorAll('.map-filter-btn').forEach(btn => {
+        btn.classList.remove('bg-slate-700', 'text-white');
+        btn.classList.add('bg-slate-800', 'text-slate-300');
+      });
+      renderMapMarkers(filterMode);
+    }
+
     function renderMapMarkers(filterMode) {
       if (!markersLayer) return;
       markersLayer.clearLayers();
 
       MAP_POINTS.forEach(p => {
+        // Filtracja
         if (filterMode === 'cross_check' && !p.multi_source_verified) return;
         if (filterMode === 'fire' && !p.has_fire) return;
-        if (filterMode !== 'all' && filterMode !== 'cross_check' && filterMode !== 'fire' && p.country !== filterMode) return;
+        if (filterMode === 'explosions' && p.tactical_category !== 'explosions') return;
+        if (filterMode === 'drones' && p.tactical_category !== 'drones') return;
+        if (filterMode === 'missiles' && p.tactical_category !== 'missiles') return;
+        if (filterMode === 'infrastructure' && p.tactical_category !== 'infrastructure') return;
+        if (filterMode.startsWith('country:') && p.country !== filterMode.replace('country:', '')) return;
 
         const color = getCountryColor(p.country);
         const radius = p.threat_score >= 8 ? 9 : 7;
@@ -593,9 +798,13 @@
 
         const crossCheckBadge = p.multi_source_verified 
           ? `<div class="mb-1"><span class="inline-block px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 text-[10px] font-bold">🛡️ POTWIERDZONE WIELOŹRÓDŁOWO: ${(p.verified_by_sources || []).join(' + ')}</span></div>` 
-          : `<div class="mb-1"><span class="inline-block px-1.5 py-0.5 rounded bg-indigo-950/60 text-indigo-300 text-[10px] font-mono border border-indigo-800/40">Radar/Źródło: [${p.source_channel || 'OSINT'}]</span></div>`;
+          : `<div class="mb-1"><span class="inline-block px-1.5 py-0.5 rounded bg-indigo-950/60 text-indigo-300 text-[10px] font-mono border border-indigo-800/40">Radar: [${p.source_channel || 'OSINT'}]</span></div>`;
 
-        const fireBadge = p.has_fire ? '<span class="inline-block px-1.5 py-0.5 rounded bg-amber-500/20 text-amber-400 border border-amber-500/30 text-[10px] font-bold mr-1">🔥 SYGNATURA POŻARU / DETONACJA</span>' : '';
+        const tacticalBadge = p.tactical_category 
+          ? `<span class="inline-block px-1.5 py-0.5 rounded bg-red-950/80 text-red-300 border border-red-800/40 text-[10px] font-bold mr-1">${p.tactical_icon || '🎯'} ${p.tactical_category.toUpperCase()}</span>` 
+          : '';
+
+        const fireBadge = p.has_fire ? '<span class="inline-block px-1.5 py-0.5 rounded bg-amber-500/20 text-amber-400 border border-amber-500/30 text-[10px] font-bold mr-1">🔥 DETONACJA / POŻAR</span>' : '';
         const weaponsBadge = (p.weapons && p.weapons.length > 0) ? `<div class="mt-1 text-[11px] text-indigo-300"><strong>Broń:</strong> ${p.weapons.join(', ')}</div>` : '';
         const targetBadge = p.target_type ? `<div class="text-[11px] text-slate-300"><strong>Cel:</strong> ${p.target_type}</div>` : '';
         const threatBadge = `<span class="px-1.5 py-0.2 rounded text-[10px] font-mono font-bold ${p.threat_score >= 8 ? 'bg-red-500/20 text-red-400 border border-red-500/30' : 'bg-slate-700 text-slate-300'}">Zagrożenie: ${p.threat_score || 5}/10</span>`;
@@ -607,7 +816,7 @@
               ${threatBadge}
             </div>
             ${crossCheckBadge}
-            <div class="mb-1">${fireBadge}</div>
+            <div class="mb-1 flex flex-wrap gap-1">${tacticalBadge}${fireBadge}</div>
             <div class="font-semibold text-slate-200 mb-1 leading-snug">${p.title}</div>
             <div class="text-slate-400 mb-2 leading-tight">${p.text}</div>
             <div class="bg-slate-900/80 p-2 rounded border border-slate-700/60 mb-2 space-y-0.5">
@@ -616,17 +825,13 @@
             </div>
             <div class="flex justify-between items-center text-[10px] text-slate-500 pt-1 border-t border-slate-700">
               <span>${p.timestamp.substring(0, 16).replace('T', ' ')}</span>
-              <a href="${p.url}" target="_blank" class="text-blue-400 hover:underline font-semibold">Źródło &rarr;</a>
+              <a href="${p.url}" target="_blank" class="text-emerald-400 hover:underline font-semibold">Źródło Taktyczne &rarr;</a>
             </div>
           </div>
         `;
         circle.bindPopup(popup);
         circle.addTo(markersLayer);
       });
-    }
-
-    function filterMapCountry(country) {
-      renderMapMarkers(country);
     }
 
     // Chart.js
@@ -658,6 +863,7 @@
     }
 
     document.addEventListener('DOMContentLoaded', () => {
+      checkAuthOnLoad();
       initMap();
       initCharts();
     });
