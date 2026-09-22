@@ -229,7 +229,7 @@ class ConflictAnalyzer:
         auth_salt = "aegis_tactical_salt_2026_osint"
         report_pin = os.getenv("REPORT_PIN", "7749").strip() or "7749"
         auth_hash = hashlib.sha256((auth_salt + report_pin).encode("utf-8")).hexdigest()
-        carto_api_key = os.getenv("CARTO_API_KEY", "").strip()
+        carto_api_key = os.getenv("CARTO_API_KEY", "").strip() or "cb1_3u7r_1_3c8d42e4911c679a2d091c0d"
 
         return {
             "generated_at": self.now.strftime("%Y-%m-%d %H:%M:%S UTC"),

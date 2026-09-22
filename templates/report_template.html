@@ -651,11 +651,19 @@
               <span>🛰️ Satelita NASA FIRMS</span>
               <span id="nasa-firms-status" class="px-1.5 py-0.2 rounded text-[10px] bg-slate-700 text-slate-300 font-mono">OFF</span>
             </button>
-            <button onclick="toggleSatelliteBaseMap()" id="btn-sat-basemap" class="map-filter-btn px-2.5 py-1 rounded bg-slate-800 text-blue-400 border border-blue-500/50 hover:bg-blue-950/40 font-semibold flex items-center space-x-1.5 transition cursor-pointer">
+            <button onclick="switchBaseMap('voyager')" id="btn-voyager-basemap" class="map-filter-btn px-2.5 py-1 rounded bg-indigo-950/80 text-indigo-300 border border-indigo-400 font-semibold flex items-center space-x-1.5 transition cursor-pointer">
+              <i class="fa-solid fa-map text-xs"></i>
+              <span>🗺️ CARTO Voyager (Jasna)</span>
+            </button>
+            <button onclick="switchBaseMap('dark')" id="btn-dark-basemap" class="map-filter-btn px-2.5 py-1 rounded bg-slate-800 text-slate-400 border border-slate-700 hover:bg-slate-700 font-semibold flex items-center space-x-1.5 transition cursor-pointer">
+              <i class="fa-solid fa-moon text-xs"></i>
+              <span>🌑 Ciemna Taktyczna</span>
+            </button>
+            <button onclick="switchBaseMap('satellite')" id="btn-sat-basemap" class="map-filter-btn px-2.5 py-1 rounded bg-slate-800 text-blue-400 border border-blue-500/50 hover:bg-blue-950/40 font-semibold flex items-center space-x-1.5 transition cursor-pointer">
               <i class="fa-solid fa-earth-americas text-xs"></i>
               <span>Foto Satelitarne</span>
             </button>
-            <button onclick="toggleTopoBaseMap()" id="btn-topo-basemap" class="map-filter-btn px-2.5 py-1 rounded bg-slate-800 text-emerald-400 border border-emerald-500/50 hover:bg-emerald-950/40 font-semibold flex items-center space-x-1.5 transition cursor-pointer">
+            <button onclick="switchBaseMap('topo')" id="btn-topo-basemap" class="map-filter-btn px-2.5 py-1 rounded bg-slate-800 text-emerald-400 border border-emerald-500/50 hover:bg-emerald-950/40 font-semibold flex items-center space-x-1.5 transition cursor-pointer">
               <i class="fa-solid fa-mountain text-xs"></i>
               <span>Rzeźba Terenu</span>
             </button>
@@ -1288,24 +1296,38 @@
     let isClusteringActive = true;
     let isHeatmapActive = false;
     let isNasaFirmsActive = false;
-    let currentBaseMap = 'dark'; // 'dark' | 'satellite' | 'topo'
+    let currentBaseMap = 'voyager'; // 'voyager' | 'dark' | 'satellite' | 'topo'
     let currentMapFilter = 'all';
+
+    let voyagerBaseLayer, darkBaseLayer, satelliteBaseLayer, topoBaseLayer;
 
     function initMap() {
       const map = L.map('map-container').setView([42.0, 36.0], 4);
       window.leafletMap = map;
 
-      // 1. Domyślny ciemny podkład taktyczny (CARTO Dark Matter)
       const CARTO_KEY = {{ data.carto_api_key | tojson }};
-      const cartoTileUrl = CARTO_KEY 
-        ? `https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png?api_key=${encodeURIComponent(CARTO_KEY)}`
-        : 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png';
+      
+      // 1. Domyślny jasny podkład CARTO Voyager (czytelna z drogami, miastami i granicami)
+      const cartoVoyagerUrl = CARTO_KEY 
+        ? `https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png?key=${encodeURIComponent(CARTO_KEY)}`
+        : 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png';
 
-      darkBaseLayer = L.tileLayer(cartoTileUrl, {
-        attribution: '&copy; OpenStreetMap &copy; CARTO',
+      voyagerBaseLayer = L.tileLayer(cartoVoyagerUrl, {
+        attribution: '&copy; OpenStreetMap &copy; CARTO (Voyager)',
         maxZoom: 20,
         subdomains: 'abcd'
       }).addTo(map);
+
+      // 2. Ciemny podkład taktyczny (CARTO Dark Matter)
+      const cartoDarkUrl = CARTO_KEY 
+        ? `https://{s}.basemaps.cartocdn.com/rastertiles/dark_all/{z}/{x}/{y}{r}.png?key=${encodeURIComponent(CARTO_KEY)}`
+        : 'https://{s}.basemaps.cartocdn.com/rastertiles/dark_all/{z}/{x}/{y}{r}.png';
+
+      darkBaseLayer = L.tileLayer(cartoDarkUrl, {
+        attribution: '&copy; OpenStreetMap &copy; CARTO (Dark Matter)',
+        maxZoom: 20,
+        subdomains: 'abcd'
+      });
 
       // 2. Podkład zdjęć satelitarnych wysokiej rozdzielczości (Esri World Imagery)
       satelliteBaseLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
@@ -1440,44 +1462,56 @@
 
     function switchBaseMap(target) {
       if (!window.leafletMap) return;
-      [darkBaseLayer, satelliteBaseLayer, topoBaseLayer].forEach(l => {
+      [voyagerBaseLayer, darkBaseLayer, satelliteBaseLayer, topoBaseLayer].forEach(l => {
         if (l && window.leafletMap.hasLayer(l)) window.leafletMap.removeLayer(l);
       });
+
+      const btnVoyager = document.getElementById('btn-voyager-basemap');
+      const btnDark = document.getElementById('btn-dark-basemap');
+      const btnSat = document.getElementById('btn-sat-basemap');
+      const btnTopo = document.getElementById('btn-topo-basemap');
+
+      if (btnVoyager) btnVoyager.className = "map-filter-btn px-2.5 py-1 rounded bg-slate-800 text-slate-400 border border-slate-700 hover:bg-slate-700 font-semibold flex items-center space-x-1.5 transition cursor-pointer";
+      if (btnDark) btnDark.className = "map-filter-btn px-2.5 py-1 rounded bg-slate-800 text-slate-400 border border-slate-700 hover:bg-slate-700 font-semibold flex items-center space-x-1.5 transition cursor-pointer";
+      if (btnSat) btnSat.className = "map-filter-btn px-2.5 py-1 rounded bg-slate-800 text-blue-400 border border-blue-500/50 hover:bg-blue-950/40 font-semibold flex items-center space-x-1.5 transition cursor-pointer";
+      if (btnTopo) btnTopo.className = "map-filter-btn px-2.5 py-1 rounded bg-slate-800 text-emerald-400 border border-emerald-500/50 hover:bg-emerald-950/40 font-semibold flex items-center space-x-1.5 transition cursor-pointer";
 
       if (target === 'satellite') {
         satelliteBaseLayer.addTo(window.leafletMap);
         satelliteBaseLayer.bringToBack();
         currentBaseMap = 'satellite';
+        if (btnSat) btnSat.className = "map-filter-btn px-2.5 py-1 rounded bg-blue-950/80 text-blue-300 border border-blue-400 font-semibold flex items-center space-x-1.5 transition cursor-pointer";
       } else if (target === 'topo') {
         topoBaseLayer.addTo(window.leafletMap);
         topoBaseLayer.bringToBack();
         currentBaseMap = 'topo';
-      } else {
+        if (btnTopo) btnTopo.className = "map-filter-btn px-2.5 py-1 rounded bg-emerald-950/80 text-emerald-300 border border-emerald-400 font-semibold flex items-center space-x-1.5 transition cursor-pointer";
+      } else if (target === 'dark') {
         darkBaseLayer.addTo(window.leafletMap);
         darkBaseLayer.bringToBack();
         currentBaseMap = 'dark';
+        if (btnDark) btnDark.className = "map-filter-btn px-2.5 py-1 rounded bg-indigo-950/80 text-indigo-300 border border-indigo-400 font-semibold flex items-center space-x-1.5 transition cursor-pointer";
+      } else {
+        voyagerBaseLayer.addTo(window.leafletMap);
+        voyagerBaseLayer.bringToBack();
+        currentBaseMap = 'voyager';
+        if (btnVoyager) btnVoyager.className = "map-filter-btn px-2.5 py-1 rounded bg-indigo-950/80 text-indigo-300 border border-indigo-400 font-semibold flex items-center space-x-1.5 transition cursor-pointer";
       }
     }
 
     function toggleSatelliteBaseMap() {
       if (currentBaseMap === 'satellite') {
-        switchBaseMap('dark');
-        document.getElementById('btn-sat-basemap').classList.remove('bg-blue-950/80', 'border-blue-400');
+        switchBaseMap('voyager');
       } else {
         switchBaseMap('satellite');
-        document.getElementById('btn-sat-basemap').classList.add('bg-blue-950/80', 'border-blue-400');
-        document.getElementById('btn-topo-basemap').classList.remove('bg-emerald-950/80', 'border-emerald-400');
       }
     }
 
     function toggleTopoBaseMap() {
       if (currentBaseMap === 'topo') {
-        switchBaseMap('dark');
-        document.getElementById('btn-topo-basemap').classList.remove('bg-emerald-950/80', 'border-emerald-400');
+        switchBaseMap('voyager');
       } else {
         switchBaseMap('topo');
-        document.getElementById('btn-topo-basemap').classList.add('bg-emerald-950/80', 'border-emerald-400');
-        document.getElementById('btn-sat-basemap').classList.remove('bg-blue-950/80', 'border-blue-400');
       }
     }
 
