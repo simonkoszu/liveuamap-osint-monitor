@@ -132,6 +132,10 @@
           <i class="fa-solid fa-circle text-[8px] animate-pulse"></i>
           <span>Live OSINT</span>
         </div>
+        <button onclick="toggleRefreshMenu()" id="btn-refresh" class="bg-indigo-600/20 hover:bg-indigo-600/30 text-indigo-300 border border-indigo-500/40 px-3 py-1.5 rounded-lg flex items-center space-x-1.5 transition cursor-pointer" title="Centrum odświeżania raportu">
+          <i id="refresh-icon" class="fa-solid fa-arrows-rotate text-indigo-400"></i>
+          <span class="font-medium">Odśwież</span>
+        </button>
         <button onclick="lockScreen()" class="bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 px-3 py-1.5 rounded-lg flex items-center space-x-1.5 transition cursor-pointer" title="Zablokuj pulpit">
           <i class="fa-solid fa-lock text-emerald-400"></i>
           <span class="font-medium">Zablokuj</span>
@@ -139,6 +143,74 @@
       </div>
     </div>
   </header>
+
+  <!-- Modal Odświeżania Raportu -->
+  <div id="refresh-modal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-md hidden items-center justify-center p-4" onclick="if(event.target === this) toggleRefreshMenu()">
+    <div class="bg-slate-900 border border-slate-700/80 rounded-2xl max-w-lg w-full p-6 shadow-2xl relative" onclick="event.stopPropagation()">
+      <button onclick="toggleRefreshMenu()" class="absolute top-4 right-4 text-slate-400 hover:text-white transition p-2 cursor-pointer">
+        <i class="fa-solid fa-xmark text-lg"></i>
+      </button>
+
+      <div class="flex items-center space-x-3 mb-4">
+        <div class="w-10 h-10 rounded-xl bg-indigo-500/20 border border-indigo-500/40 flex items-center justify-center text-indigo-400 text-lg">
+          <i class="fa-solid fa-arrows-rotate"></i>
+        </div>
+        <div>
+          <h3 class="text-base font-bold text-white tracking-wide">Centrum Aktualizacji Raportu</h3>
+          <p class="text-xs text-slate-400">Zarządzaj odświeżaniem radaru OSINT i satelity NASA FIRMS</p>
+        </div>
+      </div>
+
+      <div class="space-y-4">
+        <!-- Status Box -->
+        <div class="bg-slate-800/80 border border-slate-700/60 rounded-xl p-3.5 text-xs text-slate-300 space-y-1.5">
+          <div class="flex justify-between">
+            <span class="text-slate-400">Ostatnia generacja:</span>
+            <span class="font-mono text-emerald-400 font-semibold">{{ data.today_date }} ({{ data.generated_at }})</span>
+          </div>
+          <div class="flex justify-between">
+            <span class="text-slate-400">Automatyczny cykl:</span>
+            <span class="text-slate-300">Co 4 godziny (GitHub Actions Cron)</span>
+          </div>
+          <div class="flex justify-between">
+            <span class="text-slate-400">Połączone źródła:</span>
+            <span class="text-slate-300">NASA FIRMS VIIRS NRT + Liveuamap (9 Teatrów)</span>
+          </div>
+        </div>
+
+        <!-- Akcja 1: Przeładuj stronę (Bypass Cache) -->
+        <div class="bg-slate-800/40 border border-slate-700/40 rounded-xl p-4 flex flex-col justify-between hover:border-indigo-500/40 transition">
+          <div class="mb-3">
+            <div class="text-sm font-semibold text-white flex items-center space-x-2">
+              <i class="fa-solid fa-bolt text-amber-400"></i>
+              <span>1. Wymuś natychmiastowe pobranie (Bypass CDN)</span>
+            </div>
+            <p class="text-xs text-slate-400 mt-1">Przeładowuje stronę z pominięciem lokalnego cache przeglądarki i CDN GitHub Pages, pobierając natychmiast najnowszy opublikowany raport.</p>
+          </div>
+          <button onclick="hardRefreshReport()" class="w-full py-2.5 px-4 bg-indigo-600 hover:bg-indigo-500 text-white font-medium rounded-lg text-xs flex items-center justify-center space-x-2 transition shadow-lg shadow-indigo-600/20 cursor-pointer">
+            <i class="fa-solid fa-arrows-rotate"></i>
+            <span>Przeładuj i pobierz najnowszy raport</span>
+          </button>
+        </div>
+
+        <!-- Akcja 2: Wywołaj skan w chmurze (GitHub Actions) -->
+        <div class="bg-slate-800/40 border border-slate-700/40 rounded-xl p-4 flex flex-col justify-between hover:border-emerald-500/40 transition">
+          <div class="mb-3">
+            <div class="text-sm font-semibold text-white flex items-center space-x-2">
+              <i class="fa-brands fa-github text-emerald-400"></i>
+              <span>2. Uruchom Nowy Skan Chmurowy (Workflow)</span>
+            </div>
+            <p class="text-xs text-slate-400 mt-1">Przejdź do akcji w GitHub i kliknij <strong>„Run workflow”</strong>, aby natychmiast wykonać świeży skan satelitarny i scraping Liveuamap (proces trwa ~2 minuty).</p>
+          </div>
+          <a href="https://github.com/simonkoszu/liveuamap-osint-monitor/actions/workflows/update_report.yml" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 px-4 bg-emerald-600 hover:bg-emerald-500 text-white font-medium rounded-lg text-xs flex items-center justify-center space-x-2 transition shadow-lg shadow-emerald-600/20">
+            <i class="fa-solid fa-play"></i>
+            <span>Uruchom Workflow w GitHub Actions</span>
+            <i class="fa-solid fa-arrow-up-right-from-square text-[10px] ml-1"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Pasek Wyboru Kraju / Główna Nawigacja -->
   <nav class="bg-slate-900/80 border-b border-slate-800 px-4 sticky top-[65px] z-40 backdrop-blur">
@@ -1097,7 +1169,36 @@
       }
     }
 
+    function toggleRefreshMenu() {
+      const modal = document.getElementById('refresh-modal');
+      if (!modal) return;
+      if (modal.classList.contains('hidden')) {
+        modal.classList.remove('hidden');
+        modal.classList.add('flex');
+      } else {
+        modal.classList.add('hidden');
+        modal.classList.remove('flex');
+      }
+    }
+
+    function hardRefreshReport() {
+      const icon = document.getElementById('refresh-icon');
+      if (icon) icon.classList.add('animate-spin');
+      const url = new URL(window.location.href);
+      url.searchParams.set('t', Date.now().toString());
+      setTimeout(() => {
+        window.location.href = url.toString();
+      }, 300);
+    }
+
     window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        const modal = document.getElementById('refresh-modal');
+        if (modal && !modal.classList.contains('hidden')) {
+          toggleRefreshMenu();
+          return;
+        }
+      }
       const gate = document.getElementById('security-gate');
       if (gate && gate.style.display !== 'none' && !gate.classList.contains('pointer-events-none')) {
         if (e.key >= '0' && e.key <= '9') {
