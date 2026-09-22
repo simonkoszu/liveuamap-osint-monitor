@@ -6,7 +6,7 @@
   <title>AEGIS OSINT RADAR | Global Tactical Intelligence</title>
   
   <!-- Content Security Policy: Ochrona przed XSS i obcym kodem -->
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' https://unpkg.com https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://*.tile.openstreetmap.org https://*.basemaps.cartocdn.com https://gibs.earthdata.nasa.gov https://*.arcgisonline.com; img-src 'self' data: https:; font-src https://cdnjs.cloudflare.com https://fonts.gstatic.com; connect-src 'self' https://gibs.earthdata.nasa.gov;">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' https://unpkg.com https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://*.tile.openstreetmap.org https://*.tile.opentopomap.org https://*.basemaps.cartocdn.com https://gibs.earthdata.nasa.gov https://*.arcgisonline.com; img-src 'self' data: https:; font-src https://cdnjs.cloudflare.com https://fonts.gstatic.com; connect-src 'self' https://gibs.earthdata.nasa.gov;">
 
   <!-- Tailwind CSS & FontAwesome -->
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -15,6 +15,12 @@
   <!-- Leaflet Map CSS & JS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- Open Source GitHub Plugins: MarkerCluster & Heatmap -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+  <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
 
   <!-- Chart.js -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
@@ -499,8 +505,8 @@
                 <span class="px-1.5 py-0.5 rounded bg-emerald-950/60 text-emerald-300 border border-emerald-800/40 font-semibold text-[10px]">🛡️ Cross-Check ({{ (ev.verified_by_sources or [])|join('+') }})</span>
                 {% endif %}
               </div>
-              <h4 class="font-semibold text-sm text-slate-200 mb-0.5">{{ ev.title }}</h4>
-              <p class="text-xs text-slate-400">{{ ev.text }}</p>
+              <h4 class="font-semibold text-sm text-slate-200 mb-0.5">{{ ev.title_pl or ev.title }}</h4>
+              <p class="text-xs text-slate-400">{{ ev.text_pl or ev.text }}</p>
             </div>
             <a href="{{ ev.url }}" target="_blank" rel="noopener noreferrer" class="text-xs text-emerald-400 hover:text-emerald-300 font-medium whitespace-nowrap">Źródło Taktyczne &rarr;</a>
           </div>
@@ -528,6 +534,16 @@
             <button onclick="setMapFilter('all')" id="mf-all" class="map-filter-btn px-2.5 py-1 rounded bg-slate-700 text-white font-semibold border border-slate-600">Wszystkie</button>
             <button onclick="setMapFilter('cross_check')" id="mf-cross_check" class="map-filter-btn px-2.5 py-1 rounded bg-emerald-950/60 text-emerald-300 border border-emerald-700/60 font-semibold"><i class="fa-solid fa-shield-halved text-xs mr-1"></i>🛡️ Wieloźródłowe</button>
             <button onclick="setMapFilter('fire')" id="mf-fire" class="map-filter-btn px-2.5 py-1 rounded bg-amber-950/60 text-amber-300 border border-amber-700/60 font-semibold"><i class="fa-solid fa-fire text-xs mr-1"></i>🔥 Pożary</button>
+            <button onclick="toggleClustering()" id="btn-cluster" class="map-filter-btn px-2.5 py-1 rounded bg-slate-800 text-indigo-400 border border-indigo-500/50 hover:bg-indigo-950/40 font-semibold flex items-center space-x-1.5 transition cursor-pointer">
+              <i class="fa-solid fa-circle-nodes text-xs"></i>
+              <span>Klastry</span>
+              <span id="cluster-status" class="px-1.5 py-0.2 rounded text-[10px] bg-indigo-500/20 text-indigo-300 font-mono">ON</span>
+            </button>
+            <button onclick="toggleHeatmap()" id="btn-heat" class="map-filter-btn px-2.5 py-1 rounded bg-slate-800 text-rose-400 border border-rose-500/50 hover:bg-rose-950/40 font-semibold flex items-center space-x-1.5 transition cursor-pointer">
+              <i class="fa-solid fa-fire-flame-curved text-xs"></i>
+              <span>Heatmapa Walk</span>
+              <span id="heat-status" class="px-1.5 py-0.2 rounded text-[10px] bg-slate-700 text-slate-300 font-mono">OFF</span>
+            </button>
             <button onclick="toggleNasaFirmsLayer()" id="btn-nasa-firms" class="map-filter-btn px-2.5 py-1 rounded bg-slate-800 text-orange-400 border border-orange-500/50 hover:bg-orange-950/40 font-semibold flex items-center space-x-1.5 transition cursor-pointer">
               <i class="fa-solid fa-satellite text-xs animate-pulse text-orange-400"></i>
               <span>🛰️ Satelita NASA FIRMS</span>
@@ -536,6 +552,10 @@
             <button onclick="toggleSatelliteBaseMap()" id="btn-sat-basemap" class="map-filter-btn px-2.5 py-1 rounded bg-slate-800 text-blue-400 border border-blue-500/50 hover:bg-blue-950/40 font-semibold flex items-center space-x-1.5 transition cursor-pointer">
               <i class="fa-solid fa-earth-americas text-xs"></i>
               <span>Foto Satelitarne</span>
+            </button>
+            <button onclick="toggleTopoBaseMap()" id="btn-topo-basemap" class="map-filter-btn px-2.5 py-1 rounded bg-slate-800 text-emerald-400 border border-emerald-500/50 hover:bg-emerald-950/40 font-semibold flex items-center space-x-1.5 transition cursor-pointer">
+              <i class="fa-solid fa-mountain text-xs"></i>
+              <span>Rzeźba Terenu</span>
             </button>
             <button onclick="setMapFilter('explosions')" id="mf-explosions" class="map-filter-btn px-2.5 py-1 rounded bg-slate-800 text-slate-300 border border-slate-700">💥 Wybuchy/Ostrzał</button>
             <button onclick="setMapFilter('drones')" id="mf-drones" class="map-filter-btn px-2.5 py-1 rounded bg-slate-800 text-slate-300 border border-slate-700">🛸 Drony Kamikaze</button>
@@ -757,21 +777,27 @@
     }
 
     // -------------------------------------------------------------
-    // MAPA LEAFLET, NASA FIRMS (SATELITA) & FILTRY TAKTYCZNE
+    // MAPA LEAFLET, GITHUB OPEN SOURCE (CLUSTERS, HEATMAP, TOPO) & NASA FIRMS
     // -------------------------------------------------------------
     let markersLayer = null;
+    let clusterGroup = null;
+    let heatLayer = null;
     let darkBaseLayer = null;
     let satelliteBaseLayer = null;
+    let topoBaseLayer = null;
     let nasaFirmsLayer = null;
+
+    let isClusteringActive = true;
+    let isHeatmapActive = false;
     let isNasaFirmsActive = false;
-    let isSatBaseActive = false;
+    let currentBaseMap = 'dark'; // 'dark' | 'satellite' | 'topo'
     let currentMapFilter = 'all';
 
     function initMap() {
       const map = L.map('map-container').setView([42.0, 36.0], 4);
       window.leafletMap = map;
 
-      // 1. Domyślny ciemny podkład taktyczny
+      // 1. Domyślny ciemny podkład taktyczny (CARTO Dark)
       darkBaseLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
         attribution: '&copy; OpenStreetMap &copy; CARTO',
         maxZoom: 18
@@ -783,7 +809,13 @@
         maxZoom: 18
       });
 
-      // 3. Darmowa Warstwa NASA FIRMS / GIBS (Anomalie Termiczne z Satelitów VIIRS 375m)
+      // 3. Podkład topograficzny wzgórz i terenu (OpenTopoMap z GitHub)
+      topoBaseLayer = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; OpenTopoMap (SRTM)',
+        maxZoom: 17
+      });
+
+      // 4. Darmowa Warstwa NASA FIRMS / GIBS (Anomalie Termiczne z Satelitów VIIRS 375m)
       const todayIso = new Date().toISOString().split('T')[0];
       nasaFirmsLayer = L.tileLayer.wms('https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi', {
         layers: 'VIIRS_SNPP_Thermal_Anomalies_375m_All',
@@ -794,8 +826,82 @@
         attribution: '&copy; NASA Earthdata / FIRMS / VIIRS Thermal Anomalies'
       });
 
+      // 5. Warstwy znaczników i klastrów
       markersLayer = L.layerGroup().addTo(map);
+
+      if (typeof L.markerClusterGroup === 'function') {
+        clusterGroup = L.markerClusterGroup({
+          maxClusterRadius: 45,
+          spiderfyOnMaxZoom: true,
+          showCoverageOnHover: false,
+          zoomToBoundsOnClick: true
+        });
+        clusterGroup.addTo(map);
+      }
+
+      // 6. Warstwa Heatmap (Leaflet.heat z GitHub)
+      if (typeof L.heatLayer === 'function') {
+        heatLayer = L.heatLayer([], {
+          radius: 28,
+          blur: 18,
+          maxZoom: 10,
+          gradient: { 0.2: '#3b82f6', 0.4: '#10b981', 0.6: '#eab308', 0.8: '#f97316', 1.0: '#ef4444' }
+        });
+      }
+
       renderMapMarkers('all');
+    }
+
+    function toggleClustering() {
+      isClusteringActive = !isClusteringActive;
+      const statusEl = document.getElementById('cluster-status');
+      const btn = document.getElementById('btn-cluster');
+      if (statusEl) {
+        statusEl.textContent = isClusteringActive ? 'ON' : 'OFF';
+        statusEl.className = isClusteringActive 
+          ? 'px-1.5 py-0.2 rounded text-[10px] bg-indigo-500/20 text-indigo-300 font-mono'
+          : 'px-1.5 py-0.2 rounded text-[10px] bg-slate-700 text-slate-300 font-mono';
+      }
+      if (btn) {
+        if (isClusteringActive) {
+          btn.classList.add('border-indigo-500/50');
+          btn.classList.remove('border-slate-700');
+        } else {
+          btn.classList.remove('border-indigo-500/50');
+          btn.classList.add('border-slate-700');
+        }
+      }
+      renderMapMarkers(currentMapFilter);
+    }
+
+    function toggleHeatmap() {
+      if (!window.leafletMap || !heatLayer) return;
+      isHeatmapActive = !isHeatmapActive;
+      const statusEl = document.getElementById('heat-status');
+      const btn = document.getElementById('btn-heat');
+
+      if (isHeatmapActive) {
+        heatLayer.addTo(window.leafletMap);
+        if (statusEl) {
+          statusEl.textContent = 'LIVE ON';
+          statusEl.className = 'px-1.5 py-0.2 rounded text-[10px] bg-rose-500 text-white font-bold font-mono';
+        }
+        if (btn) {
+          btn.classList.add('bg-rose-950/80', 'border-rose-500');
+          btn.classList.remove('bg-slate-800');
+        }
+      } else {
+        window.leafletMap.removeLayer(heatLayer);
+        if (statusEl) {
+          statusEl.textContent = 'OFF';
+          statusEl.className = 'px-1.5 py-0.2 rounded text-[10px] bg-slate-700 text-slate-300 font-mono';
+        }
+        if (btn) {
+          btn.classList.remove('bg-rose-950/80', 'border-rose-500');
+          btn.classList.add('bg-slate-800');
+        }
+      }
+      renderMapMarkers(currentMapFilter);
     }
 
     function toggleNasaFirmsLayer() {
@@ -816,7 +922,6 @@
         }
       } else {
         nasaFirmsLayer.addTo(window.leafletMap);
-        if (markersLayer) markersLayer.bringToFront();
         isNasaFirmsActive = true;
         if (statusEl) {
           statusEl.textContent = 'LIVE ON';
@@ -829,28 +934,46 @@
       }
     }
 
-    function toggleSatelliteBaseMap() {
-      if (!window.leafletMap || !satelliteBaseLayer || !darkBaseLayer) return;
-      const btn = document.getElementById('btn-sat-basemap');
+    function switchBaseMap(target) {
+      if (!window.leafletMap) return;
+      [darkBaseLayer, satelliteBaseLayer, topoBaseLayer].forEach(l => {
+        if (l && window.leafletMap.hasLayer(l)) window.leafletMap.removeLayer(l);
+      });
 
-      if (isSatBaseActive) {
-        window.leafletMap.removeLayer(satelliteBaseLayer);
-        darkBaseLayer.addTo(window.leafletMap);
-        darkBaseLayer.bringToBack();
-        isSatBaseActive = false;
-        if (btn) {
-          btn.classList.remove('bg-blue-950/80', 'border-blue-400', 'text-blue-200');
-          btn.classList.add('bg-slate-800', 'text-blue-400');
-        }
-      } else {
-        window.leafletMap.removeLayer(darkBaseLayer);
+      if (target === 'satellite') {
         satelliteBaseLayer.addTo(window.leafletMap);
         satelliteBaseLayer.bringToBack();
-        isSatBaseActive = true;
-        if (btn) {
-          btn.classList.add('bg-blue-950/80', 'border-blue-400', 'text-blue-200');
-          btn.classList.remove('bg-slate-800', 'text-blue-400');
-        }
+        currentBaseMap = 'satellite';
+      } else if (target === 'topo') {
+        topoBaseLayer.addTo(window.leafletMap);
+        topoBaseLayer.bringToBack();
+        currentBaseMap = 'topo';
+      } else {
+        darkBaseLayer.addTo(window.leafletMap);
+        darkBaseLayer.bringToBack();
+        currentBaseMap = 'dark';
+      }
+    }
+
+    function toggleSatelliteBaseMap() {
+      if (currentBaseMap === 'satellite') {
+        switchBaseMap('dark');
+        document.getElementById('btn-sat-basemap').classList.remove('bg-blue-950/80', 'border-blue-400');
+      } else {
+        switchBaseMap('satellite');
+        document.getElementById('btn-sat-basemap').classList.add('bg-blue-950/80', 'border-blue-400');
+        document.getElementById('btn-topo-basemap').classList.remove('bg-emerald-950/80', 'border-emerald-400');
+      }
+    }
+
+    function toggleTopoBaseMap() {
+      if (currentBaseMap === 'topo') {
+        switchBaseMap('dark');
+        document.getElementById('btn-topo-basemap').classList.remove('bg-emerald-950/80', 'border-emerald-400');
+      } else {
+        switchBaseMap('topo');
+        document.getElementById('btn-topo-basemap').classList.add('bg-emerald-950/80', 'border-emerald-400');
+        document.getElementById('btn-sat-basemap').classList.remove('bg-blue-950/80', 'border-blue-400');
       }
     }
 
@@ -868,8 +991,10 @@
     function setMapFilter(filterMode) {
       currentMapFilter = filterMode;
       document.querySelectorAll('.map-filter-btn').forEach(btn => {
-        btn.classList.remove('bg-slate-700', 'text-white');
-        btn.classList.add('bg-slate-800', 'text-slate-300');
+        if (!btn.id.startsWith('btn-')) {
+          btn.classList.remove('bg-slate-700', 'text-white');
+          btn.classList.add('bg-slate-800', 'text-slate-300');
+        }
       });
       renderMapMarkers(filterMode);
     }
@@ -877,6 +1002,9 @@
     function renderMapMarkers(filterMode) {
       if (!markersLayer) return;
       markersLayer.clearLayers();
+      if (clusterGroup) clusterGroup.clearLayers();
+
+      const heatPoints = [];
 
       MAP_POINTS.forEach(p => {
         // Filtracja
@@ -887,6 +1015,9 @@
         if (filterMode === 'missiles' && p.tactical_category !== 'missiles') return;
         if (filterMode === 'infrastructure' && p.tactical_category !== 'infrastructure') return;
         if (filterMode.startsWith('country:') && p.country !== filterMode.replace('country:', '')) return;
+
+        // Punkty na heatmapę
+        heatPoints.push([p.lat, p.lon, (p.threat_score || 5) / 10]);
 
         const color = getCountryColor(p.country);
         const radius = p.threat_score >= 8 ? 9 : 7;
@@ -912,6 +1043,9 @@
         const targetBadge = p.target_type ? `<div class="text-[11px] text-slate-300"><strong>Cel:</strong> ${p.target_type}</div>` : '';
         const threatBadge = `<span class="px-1.5 py-0.2 rounded text-[10px] font-mono font-bold ${p.threat_score >= 8 ? 'bg-red-500/20 text-red-400 border border-red-500/30' : 'bg-slate-700 text-slate-300'}">Zagrożenie: ${p.threat_score || 5}/10</span>`;
 
+        const titleText = p.title_pl || p.title;
+        const descText = p.text_pl || p.text;
+
         const popup = `
           <div class="p-1.5 text-xs max-w-[280px]">
             <div class="flex justify-between items-center mb-1">
@@ -920,8 +1054,8 @@
             </div>
             ${crossCheckBadge}
             <div class="mb-1 flex flex-wrap gap-1">${tacticalBadge}${fireBadge}</div>
-            <div class="font-semibold text-slate-200 mb-1 leading-snug">${p.title}</div>
-            <div class="text-slate-400 mb-2 leading-tight">${p.text}</div>
+            <div class="font-semibold text-slate-200 mb-1 leading-snug">${titleText}</div>
+            <div class="text-slate-400 mb-2 leading-tight">${descText}</div>
             <div class="bg-slate-900/80 p-2 rounded border border-slate-700/60 mb-2 space-y-0.5">
               ${targetBadge}
               ${weaponsBadge}
@@ -933,8 +1067,17 @@
           </div>
         `;
         circle.bindPopup(popup);
-        circle.addTo(markersLayer);
+
+        if (clusterGroup && isClusteringActive) {
+          clusterGroup.addLayer(circle);
+        } else {
+          circle.addTo(markersLayer);
+        }
       });
+
+      if (heatLayer) {
+        heatLayer.setLatLngs(heatPoints);
+      }
     }
 
     // Chart.js

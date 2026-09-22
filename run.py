@@ -62,6 +62,11 @@ def main():
 
     # Cross-referencing i weryfikacja
     deduplicated_events = MilitaryNLPEngine.cross_verify_events(deduplicated_events)
+
+    # 2d. Tłumaczenie incydentów na język polski (z buforowaniem)
+    from translator import translate_events_batch
+    translate_events_batch(deduplicated_events, max_to_translate=300)
+
     db.events = {ev["id"]: ev for ev in deduplicated_events}
     db.save()
 
