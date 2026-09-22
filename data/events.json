@@ -1,9 +1,9 @@
 {
   "meta": {
     "tracking_started_at": "2026-09-22T16:27:14.257360+00:00",
-    "last_updated_at": "2026-09-22T18:08:12.754989+00:00",
+    "last_updated_at": "2026-09-22T18:21:47.836194+00:00",
     "initial_event_count": 0,
-    "total_count": 248
+    "total_count": 249
   },
   "events": {
     "ccd59bccc6ab8aae": {
@@ -115,9 +115,9 @@
     "9491da9c4a08613c": {
       "id": "9491da9c4a08613c",
       "timestamp": "2026-09-22T18:08:05.754705+00:00",
-      "country": "Inne / Globalne",
-      "flag": "🌐",
-      "theater": "Inne",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
       "event_type": "Incydent Bojowy",
       "tactical_category": "Incydent Bojowy",
       "tactical_icon": "⚔️",
@@ -369,7 +369,10 @@
         "https://cdn4.telesco.pe/file/rrxuQyoJkx-ou_ui3cgfxxC7J9PJ0zn3hKM7n1cJezDUP_p_ed9XQbfnYeHxgImsMySud4rBWWfbOUpbi4RcBHxDCf_JVBzteMMbwa8E8hthOH_G7Zi3DVteBxEwFvUZ65dBhebjTG5stN-Ec5aKpBEW3hI32PfzoMFVyA6vZmZy0bZ15Rp5V131fVPLU9o3CgdCHuApc408Y6oZpCnqrwVVD1ZrtxLPpONDiTrEmsK9PFEw8AVoH6z_I6gqAHVoDKRishApAJTGz_m8myOmTN4W9V3DTcPVcpahkKzm0BQhj-fwqdPo2734gPKWQF6gC26eRS1gGGU8I3Bb7r8eow.jpg",
         "https://cdn4.telesco.pe/file/EZZbL_7gEElzGbsFyQWjF6UtoqbDNsS_ANZf5hj1C5klLWRAn2j3_yl2WT059rAdP8hlS8DtORS7lTL9WbH_nLj4cRDpvRpJQ0VFoInvN00KqrMETUTmws0YC-Y0SlnVbl1C1tpGyUZguaps7MscL2-l8bDx3utR2SewAPtWbEQK8psJA6g-2t4Z_cox5AUfi2MLKFGpT3prjPQ_mloAQQZCcgD0v8G7BThrBc7CRANA763EDdk2cYok6UlRU20_v1-0jTPm7ToyTRB0YSa46Y6VI1urT7MB-xDrjEQ8hV1AoKovorbg07gCyj-fqJWsglsxDcO6u8zUQpquwyYGiA.jpg"
       ],
-      "weapons": [],
+      "weapons": [
+        "Shahed / Dron Kamikadze",
+        "Rakieta Manewrująca"
+      ],
       "target_type": "Rafineria / Skład Paliw",
       "is_fire": true,
       "threat_score": 10,
@@ -1427,7 +1430,9 @@
       "lon": 34.9352,
       "url": "https://t.me/war_monitor/45445",
       "media_urls": [],
-      "weapons": [],
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
       "target_type": "Pozycje / Teren Działań",
       "is_fire": true,
       "threat_score": 5,
@@ -2522,7 +2527,9 @@
         "https://cdn4.telesco.pe/file/MpFJvKtrt5UxOFFGWkuhhUPOOW48Fh0fH9rmLCqrqTubACbWiewugXoFwSkCdCwzxu6m4gEVwTu4Gt99mHZNtgXXn8fKMsFiS9oieYW_rbXzgIPd8fwFaY06un1_DAXIFlhf2MJa2-lo5_b54ne4CwyI095x-rWmmIpqlAw_dT4SY5EalAcKhv9CgtVbPWg5ySo6Cr1uVtkNFIUmOZEAWhRPLXZ0lE3kr-i9dGIDl8H61PzstKPvNSeMkla4tuyWafhEOwMaVl9p0-F61_--dyogJzFKmUlmsHoDId5dOnYJcwNmkJJKBQ7X8SXSVjuPWETYligoPw2d_LRKIrjO-w.jpg",
         "https://cdn4.telesco.pe/file/pDyusyrdv7WQS5Da8y5-G2VQf4WdpSuQtGc6BA5xzi18YEaqNs6VY7wCFLBFLZ4cwBqNzPmXMQ0-74FeNyLaGOM3Rkr-u4R66TacLKEoeo0ePyEGTa5FQtq3t7_HtGoqpI5JAqMbRqNng2jC-5szqv1jga2Fce78Etn_IzeHYbGL1YbOM30dlNTtcCXfgk7V0ILagopopHPNlz3BXCIBr5g_UzvRECILJVUjAGJgsxHVEO20lDxy4krq76ayBnSwejFA5K9dTSdfV_0-U1zTfFH1wbSnEf7_Lb0iM_KHvQCadkxafij0uLLBKN_jBuJ93oqiN2chiM9tk0qoerfBVA.jpg"
       ],
-      "weapons": [],
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
       "target_type": "Pozycje / Teren Działań",
       "is_fire": true,
       "threat_score": 5,
@@ -3038,7 +3045,7 @@
       ],
       "target_type": "Pozycje / Teren Działań",
       "is_fire": false,
-      "threat_score": 5,
+      "threat_score": 7,
       "source_channel": "vanek_nikolaev",
       "added_at": "2026-09-22T17:46:50.226426+00:00",
       "multi_source_verified": false,
@@ -7059,6 +7066,26 @@
         "uamap"
       ],
       "multi_source_verified": false
+    },
+    "lb_airstrikes_south_bekaa_20260922": {
+      "id": "lb_airstrikes_south_bekaa_20260922",
+      "timestamp": "2026-09-22T10:15:00+00:00",
+      "country": "Liban",
+      "flag": "🇱🇧",
+      "theater": "Bliski Wschód (Liban)",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "title": "Extensive Israeli airstrikes across Southern Lebanon and Bekaa Valley",
+      "text": "IDF launched waves of precision airstrikes targeting Hezbollah rocket launchers, weapon caches, and command centers across more than 30 towns in Southern Lebanon and the Bekaa Valley.",
+      "location_name": "Południowy Liban / Bekaa",
+      "lat": 33.2721,
+      "lon": 35.3854,
+      "url": "https://lebanon.liveuamap.com/en/2026/22-september-extensive-strikes-in-lebanon",
+      "media_urls": [],
+      "added_at": "2026-09-22T18:21:47.726853+00:00",
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5
     }
   }
 }
