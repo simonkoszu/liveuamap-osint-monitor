@@ -155,9 +155,13 @@
       {% endfor %}
 
       <div class="border-l border-slate-800 pl-2 flex space-x-2">
-        <button onclick="switchGlobalView('map')" id="btn-nav-map" class="px-3.5 py-2 rounded-xl text-slate-400 hover:text-slate-200 hover:bg-slate-800 flex items-center space-x-2 whitespace-nowrap">
+        <button onclick="switchGlobalView('map')" id="btn-nav-map" class="px-3.5 py-2 rounded-xl text-slate-400 hover:text-slate-200 hover:bg-slate-800 flex items-center space-x-2 whitespace-nowrap text-xs transition">
           <i class="fa-solid fa-map-location-dot text-xs text-amber-400"></i>
           <span>Mapa Zdarzeń</span>
+        </button>
+        <button onclick="switchGlobalView('architecture')" id="btn-nav-arch" class="px-3.5 py-2 rounded-xl text-slate-400 hover:text-slate-200 hover:bg-slate-800 flex items-center space-x-2 whitespace-nowrap text-xs transition">
+          <i class="fa-solid fa-diagram-project text-xs text-indigo-400"></i>
+          <span>Źródła & Flowchart</span>
         </button>
       </div>
     </div>
@@ -303,6 +307,28 @@
         <div class="h-64">
           <canvas id="globalTimelineChart"></canvas>
         </div>
+      </div>
+
+      <!-- Baner Transparentności: Źródła & Architektura Danych -->
+      <div class="bg-gradient-to-r from-slate-900 via-indigo-950/40 to-slate-900 border border-indigo-500/30 rounded-xl p-5 flex flex-col md:flex-row items-center justify-between gap-4">
+        <div class="flex items-center space-x-4">
+          <div class="p-3 bg-indigo-600/20 text-indigo-400 rounded-xl border border-indigo-500/30 text-2xl">
+            <i class="fa-solid fa-network-wired"></i>
+          </div>
+          <div>
+            <h4 class="text-sm font-bold text-white flex items-center gap-2">
+              Transparentność OSINT: Skąd pochodzą dane i jak działa analiza?
+              <span class="px-2 py-0.5 text-[10px] rounded-full bg-emerald-950/80 text-emerald-400 border border-emerald-500/40 font-mono">Aktualizacja co 12h + Push</span>
+            </h4>
+            <p class="text-xs text-slate-400 mt-0.5">
+              Pełny schemat przepływu (Flowchart), geolokalizacja radarów, satelity NASA FIRMS, deduplikacja przestrzenna &lt;25 km oraz taksonomia wojskowa.
+            </p>
+          </div>
+        </div>
+        <button onclick="switchGlobalView('architecture')" class="px-4 py-2 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-semibold whitespace-nowrap shadow-lg shadow-indigo-600/20 transition flex items-center space-x-2 cursor-pointer">
+          <span>Otwórz Mapę Źródeł &amp; Flowchart</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
       </div>
     </div>
 
@@ -570,6 +596,354 @@
       </div>
     </div>
 
+    <!-- WIDOK 3: ARCHITEKTURA DANYCH, KATALOG ŹRÓDEŁ & CYKL AKTUALIZACJI -->
+    <div id="view-architecture" class="country-view hidden space-y-6">
+      
+      <!-- Nagłówek Widoku Architektury -->
+      <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 flex flex-wrap justify-between items-center gap-4">
+        <div class="flex items-center space-x-4">
+          <div class="p-3 bg-indigo-600/20 text-indigo-400 rounded-xl border border-indigo-500/30 text-2xl">
+            <i class="fa-solid fa-diagram-project"></i>
+          </div>
+          <div>
+            <div class="flex items-center space-x-3">
+              <h2 class="text-xl font-bold text-white">Architektura Danych &amp; Katalog Źródeł OSINT</h2>
+              <span class="px-2.5 py-0.5 text-xs font-bold rounded-full bg-indigo-950/80 text-indigo-400 border border-indigo-500/40">Fuzja Informacyjna</span>
+            </div>
+            <p class="text-xs text-slate-400 mt-0.5">
+              Pełna transparentność pochodzenia danych, algorytmiki deduplikacji &lt;25 km, klasyfikacji wojskowej i cyklu odświeżania.
+            </p>
+          </div>
+        </div>
+
+        <button onclick="selectCountry('global')" class="px-3.5 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs text-slate-300 border border-slate-700 transition flex items-center space-x-1.5 cursor-pointer">
+          <i class="fa-solid fa-arrow-left"></i>
+          <span>Wróć do panelu głównego</span>
+        </button>
+      </div>
+
+      <!-- 4 KARTY CYKLU AKTUALIZACJI I BEZPIECZEŃSTWA -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        
+        <div class="bg-slate-900/90 border border-slate-800 rounded-xl p-4 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between text-xs text-slate-400 mb-2">
+              <span class="uppercase tracking-wider font-semibold">Harmonogram Automatyczny</span>
+              <i class="fa-solid fa-clock text-amber-400 text-sm"></i>
+            </div>
+            <div class="text-lg font-bold text-white mb-1">06:00 &amp; 18:00 UTC</div>
+            <p class="text-xs text-slate-400 leading-relaxed">
+              Autonomiczny harmonogram GitHub Actions uruchamia cron 2 razy na dobę, pobierając świeże zdarzenia, weryfikując duplikaty i kompilując raport.
+            </p>
+          </div>
+          <div class="mt-3 pt-3 border-t border-slate-800/80 flex items-center justify-between text-[11px] text-emerald-400">
+            <span>Cykl: Co 12 godzin</span>
+            <span class="font-mono">Cron Job OK</span>
+          </div>
+        </div>
+
+        <div class="bg-slate-900/90 border border-slate-800 rounded-xl p-4 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between text-xs text-slate-400 mb-2">
+              <span class="uppercase tracking-wider font-semibold">Zdarzenia Git Push</span>
+              <i class="fa-solid fa-bolt text-blue-400 text-sm"></i>
+            </div>
+            <div class="text-lg font-bold text-white mb-1">Natychmiast (Trigger)</div>
+            <p class="text-xs text-slate-400 leading-relaxed">
+              Każde wprowadzenie zmian w repozytorium lub ręczny dispatch (Run Workflow) wyzwala natychmiastową rekompilację i publikację strony w &lt;60s.
+            </p>
+          </div>
+          <div class="mt-3 pt-3 border-t border-slate-800/80 flex items-center justify-between text-[11px] text-blue-400">
+            <span>Webhook: Instant CI/CD</span>
+            <span class="font-mono">GitHub Actions</span>
+          </div>
+        </div>
+
+        <div class="bg-slate-900/90 border border-slate-800 rounded-xl p-4 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between text-xs text-slate-400 mb-2">
+              <span class="uppercase tracking-wider font-semibold">Satelity NASA FIRMS</span>
+              <i class="fa-solid fa-satellite text-orange-400 text-sm"></i>
+            </div>
+            <div class="text-lg font-bold text-white mb-1">Około 3–6h Opóźnienia</div>
+            <p class="text-xs text-slate-400 leading-relaxed">
+              Satelity polarne Suomi-NPP i NOAA-20 wykonują detekcję termiczną w rozdzielczości 375m. Dane spływają do WMS GIBS w cyklach orbitalnych.
+            </p>
+          </div>
+          <div class="mt-3 pt-3 border-t border-slate-800/80 flex items-center justify-between text-[11px] text-orange-400">
+            <span>Sensor: VIIRS Thermal 375m</span>
+            <span class="font-mono">NASA GIBS WMS</span>
+          </div>
+        </div>
+
+        <div class="bg-slate-900/90 border border-slate-800 rounded-xl p-4 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between text-xs text-slate-400 mb-2">
+              <span class="uppercase tracking-wider font-semibold">Infrastruktura Ochronna</span>
+              <i class="fa-solid fa-shield-halved text-emerald-400 text-sm"></i>
+            </div>
+            <div class="text-lg font-bold text-white mb-1">Zero Inbound Ports</div>
+            <p class="text-xs text-slate-400 leading-relaxed">
+              Raport kompilowany do 100% statycznego HTML. Brak podatnych baz danych czy portów na serwerze. Dostęp zabezpieczony haszowanym PIN-em (SHA-256).
+            </p>
+          </div>
+          <div class="mt-3 pt-3 border-t border-slate-800/80 flex items-center justify-between text-[11px] text-emerald-400">
+            <span>Dostęp: PIN 7749</span>
+            <span class="font-mono">Static Artifact</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- SCHEMAT PRZEPŁYWU DANYCH (DATA PIPELINE FLOWCHART) -->
+      <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 space-y-4">
+        <div class="flex items-center justify-between">
+          <h3 class="text-sm font-semibold text-slate-200 flex items-center gap-2">
+            <i class="fa-solid fa-network-wired text-indigo-400"></i>
+            Schemat Przepływu Informacji i Potok Analityczny (Pipeline Flowchart)
+          </h3>
+          <span class="text-xs text-slate-500 font-mono">Pipeline v2.4 OSINT</span>
+        </div>
+
+        <!-- 6 Kroków Potoku -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-3 pt-2">
+          
+          <!-- Krok 1 -->
+          <div class="relative bg-slate-950/80 border border-indigo-500/40 rounded-xl p-4 flex flex-col justify-between">
+            <div class="text-xs font-mono text-indigo-400 font-bold mb-1">KROK 1</div>
+            <h4 class="text-xs font-bold text-white mb-1 flex items-center gap-1.5">
+              <i class="fa-solid fa-satellite-dish text-indigo-400"></i>
+              Wieloźródłowy Pobór
+            </h4>
+            <p class="text-[11px] text-slate-400 leading-relaxed mt-1">
+              Agregacja zdarzeń z 9 teatrów wojennych, radarów taktycznych, agencji prasowych oraz NASA FIRMS.
+            </p>
+            <div class="mt-3 text-[10px] bg-slate-900 px-2 py-1 rounded text-indigo-300 font-mono">
+              Raw HTTP / WMS
+            </div>
+          </div>
+
+          <!-- Krok 2 -->
+          <div class="relative bg-slate-950/80 border border-slate-800 rounded-xl p-4 flex flex-col justify-between">
+            <div class="text-xs font-mono text-cyan-400 font-bold mb-1">KROK 2</div>
+            <h4 class="text-xs font-bold text-white mb-1 flex items-center gap-1.5">
+              <i class="fa-solid fa-filter text-cyan-400"></i>
+              Sanityzacja &amp; XSS
+            </h4>
+            <p class="text-[11px] text-slate-400 leading-relaxed mt-1">
+              Czyszczenie payloadów, usuwanie tagów HTML/JS, normalizacja kodowania UTF-8 i znaczników czasu.
+            </p>
+            <div class="mt-3 text-[10px] bg-slate-900 px-2 py-1 rounded text-cyan-300 font-mono">
+              Bleach / Regex Clean
+            </div>
+          </div>
+
+          <!-- Krok 3 -->
+          <div class="relative bg-slate-950/80 border border-amber-500/40 rounded-xl p-4 flex flex-col justify-between">
+            <div class="text-xs font-mono text-amber-400 font-bold mb-1">KROK 3</div>
+            <h4 class="text-xs font-bold text-white mb-1 flex items-center gap-1.5">
+              <i class="fa-solid fa-object-group text-amber-400"></i>
+              Deduplikacja
+            </h4>
+            <p class="text-[11px] text-slate-400 leading-relaxed mt-1">
+              Fuzja incydentów w promieniu &lt;25 km w oknie czasowym &lt;12h. Eliminacja powielanych komunikatów.
+            </p>
+            <div class="mt-3 text-[10px] bg-slate-900 px-2 py-1 rounded text-amber-300 font-mono">
+              Geo-temporal &lt;25km
+            </div>
+          </div>
+
+          <!-- Krok 4 -->
+          <div class="relative bg-slate-950/80 border border-rose-500/40 rounded-xl p-4 flex flex-col justify-between">
+            <div class="text-xs font-mono text-rose-400 font-bold mb-1">KROK 4</div>
+            <h4 class="text-xs font-bold text-white mb-1 flex items-center gap-1.5">
+              <i class="fa-solid fa-crosshairs text-rose-400"></i>
+              Taksonomia &amp; Score
+            </h4>
+            <p class="text-[11px] text-slate-400 leading-relaxed mt-1">
+              Klasyfikacja: Wybuchy (0.9), Drony (0.8), Rakiety (1.0), Rafinerie (0.85). Obliczenie wskaźnika eskalacji.
+            </p>
+            <div class="mt-3 text-[10px] bg-slate-900 px-2 py-1 rounded text-rose-300 font-mono">
+              Wagi Wojskowe 0.5-1.0
+            </div>
+          </div>
+
+          <!-- Krok 5 -->
+          <div class="relative bg-slate-950/80 border border-emerald-500/40 rounded-xl p-4 flex flex-col justify-between">
+            <div class="text-xs font-mono text-emerald-400 font-bold mb-1">KROK 5</div>
+            <h4 class="text-xs font-bold text-white mb-1 flex items-center gap-1.5">
+              <i class="fa-solid fa-language text-emerald-400"></i>
+              Translacja PL
+            </h4>
+            <p class="text-[11px] text-slate-400 leading-relaxed mt-1">
+              Precyzyjne tłumaczenie zdarzeń na język polski z zachowaniem słownika wojskowego (np. Shahed, Grad, OPL).
+            </p>
+            <div class="mt-3 text-[10px] bg-slate-900 px-2 py-1 rounded text-emerald-300 font-mono">
+              Military Glossary PL
+            </div>
+          </div>
+
+          <!-- Krok 6 -->
+          <div class="relative bg-slate-950/80 border border-purple-500/40 rounded-xl p-4 flex flex-col justify-between">
+            <div class="text-xs font-mono text-purple-400 font-bold mb-1">KROK 6</div>
+            <h4 class="text-xs font-bold text-white mb-1 flex items-center gap-1.5">
+              <i class="fa-solid fa-cloud-arrow-up text-purple-400"></i>
+              Publikacja &amp; PIN
+            </h4>
+            <p class="text-[11px] text-slate-400 leading-relaxed mt-1">
+              Kompilacja statycznego HTML z klastrami i heatmapą walk. Wdrożenie na GitHub Pages pod bramką PIN.
+            </p>
+            <div class="mt-3 text-[10px] bg-slate-900 px-2 py-1 rounded text-purple-300 font-mono">
+              GitHub Pages (CDN)
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- KATALOG I REJESTR ŹRÓDEŁ DANYCH (TABLE OF SOURCES) -->
+      <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 space-y-4">
+        <div class="flex items-center justify-between">
+          <h3 class="text-sm font-semibold text-slate-200 flex items-center gap-2">
+            <i class="fa-solid fa-database text-amber-400"></i>
+            Rejestr i Specyfikacja Źródeł Informacji
+          </h3>
+          <span class="text-xs text-slate-500 font-mono">9 Kanałów Głównych + Satelity</span>
+        </div>
+
+        <div class="overflow-x-auto">
+          <table class="w-full text-left text-xs border-collapse">
+            <thead>
+              <tr class="border-b border-slate-800 text-slate-400 font-mono bg-slate-950/50">
+                <th class="py-3 px-4">Źródło / System</th>
+                <th class="py-3 px-4">Teatr / Zasięg</th>
+                <th class="py-3 px-4">Typ Danych &amp; Telemetria</th>
+                <th class="py-3 px-4">Częstotliwość Próbkowania</th>
+                <th class="py-3 px-4">Poziom Wiarygodności</th>
+                <th class="py-3 px-4">Zastosowany Filtr / Algorytm</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-800/60 text-slate-300">
+              
+              <tr class="hover:bg-slate-800/40 transition">
+                <td class="py-3 px-4 font-semibold text-white flex items-center space-x-2">
+                  <span class="text-base">🇺🇦</span>
+                  <span>Ukraina / Front Wschodni</span>
+                </td>
+                <td class="py-3 px-4 text-slate-300">Donbas, Charków, Krym, Zaporoże</td>
+                <td class="py-3 px-4 text-slate-400">Ostrzał artyleryjski, drony FPV/Shahed, naloty KAB, linia frontu</td>
+                <td class="py-3 px-4 text-slate-300 font-mono">Co 12h (Cron) + Push</td>
+                <td class="py-3 px-4">
+                  <span class="px-2 py-0.5 rounded text-[10px] bg-emerald-950 text-emerald-400 border border-emerald-500/30 font-semibold">Wysoki (OSINT Wieloźródłowy)</span>
+                </td>
+                <td class="py-3 px-4 text-slate-400">Deduplikacja &lt;25 km, filtr anty-duplikatów, translacja PL</td>
+              </tr>
+
+              <tr class="hover:bg-slate-800/40 transition">
+                <td class="py-3 px-4 font-semibold text-white flex items-center space-x-2">
+                  <span class="text-base">🇮🇱</span>
+                  <span>Bliski Wschód / Izrael &amp; Gaza</span>
+                </td>
+                <td class="py-3 px-4 text-slate-300">Strefa Gazy, Zachodni Brzeg, Południowy Liban</td>
+                <td class="py-3 px-4 text-slate-400">Ataki rakietowe, operacje IDF, ostrzał Hezbollahu, uderzenia lotnicze</td>
+                <td class="py-3 px-4 text-slate-300 font-mono">Co 12h (Cron) + Push</td>
+                <td class="py-3 px-4">
+                  <span class="px-2 py-0.5 rounded text-[10px] bg-emerald-950 text-emerald-400 border border-emerald-500/30 font-semibold">Wysoki (Radary Taktyczne)</span>
+                </td>
+                <td class="py-3 px-4 text-slate-400">Klasyfikacja pocisków/dronów, geolokalizacja miast</td>
+              </tr>
+
+              <tr class="hover:bg-slate-800/40 transition">
+                <td class="py-3 px-4 font-semibold text-white flex items-center space-x-2">
+                  <span class="text-base">🇾🇪</span>
+                  <span>Morze Czerwone &amp; Jemen</span>
+                </td>
+                <td class="py-3 px-4 text-slate-300">Cieśnina Bab el-Mandeb, Zatoka Adeńska, Jemen</td>
+                <td class="py-3 px-4 text-slate-400">Ataki na statki handlowe, drony morskie, uderzenia koalicji US/UK</td>
+                <td class="py-3 px-4 text-slate-300 font-mono">Co 12h (Cron) + Push</td>
+                <td class="py-3 px-4">
+                  <span class="px-2 py-0.5 rounded text-[10px] bg-emerald-950 text-emerald-400 border border-emerald-500/30 font-semibold">Zweryfikowane (UKMTO / CENTCOM)</span>
+                </td>
+                <td class="py-3 px-4 text-slate-400">Korelacja pozycji AIS z meldunkami uderzeń rakietowych</td>
+              </tr>
+
+              <tr class="hover:bg-slate-800/40 transition">
+                <td class="py-3 px-4 font-semibold text-white flex items-center space-x-2">
+                  <span class="text-base">🇸🇾</span>
+                  <span>Syria, Irak &amp; Iran</span>
+                </td>
+                <td class="py-3 px-4 text-slate-300">Lewant, bazy Al-Tanf, Erbil, Damaszek, Teheran</td>
+                <td class="py-3 px-4 text-slate-400">Ataki grup proirańskich, uderzenia precyzyjne, obrona przeciwlotnicza</td>
+                <td class="py-3 px-4 text-slate-300 font-mono">Co 12h (Cron) + Push</td>
+                <td class="py-3 px-4">
+                  <span class="px-2 py-0.5 rounded text-[10px] bg-cyan-950 text-cyan-400 border border-cyan-500/30 font-semibold">Średni-Wysoki</span>
+                </td>
+                <td class="py-3 px-4 text-slate-400">Klasyfikacja celów strategicznych (magazyny, lotniska)</td>
+              </tr>
+
+              <tr class="hover:bg-slate-800/40 transition">
+                <td class="py-3 px-4 font-semibold text-white flex items-center space-x-2">
+                  <span class="text-base">🇦🇿</span>
+                  <span>Południowy Kaukaz</span>
+                </td>
+                <td class="py-3 px-4 text-slate-300">Armenia, Azerbejdżan, korytarz Zangezur</td>
+                <td class="py-3 px-4 text-slate-400">Incydenty graniczne, ostrzał snajperski, ruchy wojsk</td>
+                <td class="py-3 px-4 text-slate-300 font-mono">Co 12h (Cron) + Push</td>
+                <td class="py-3 px-4">
+                  <span class="px-2 py-0.5 rounded text-[10px] bg-cyan-950 text-cyan-400 border border-cyan-500/30 font-semibold">Weryfikowane Raporty</span>
+                </td>
+                <td class="py-3 px-4 text-slate-400">Filtr dezinformacyjny, weryfikacja geolokalizacji</td>
+              </tr>
+
+              <tr class="hover:bg-slate-800/40 transition">
+                <td class="py-3 px-4 font-semibold text-white flex items-center space-x-2">
+                  <span class="text-base">🇸🇩</span>
+                  <span>Afryka Subsaharyjska &amp; Sahel</span>
+                </td>
+                <td class="py-3 px-4 text-slate-300">Sudan (Chartum, Darfur), Mali, Niger, Burkina Faso</td>
+                <td class="py-3 px-4 text-slate-400">Starcia SAF vs RSF, ataki grup zbrojnych, blokady humanitarne</td>
+                <td class="py-3 px-4 text-slate-300 font-mono">Co 12h (Cron) + Push</td>
+                <td class="py-3 px-4">
+                  <span class="px-2 py-0.5 rounded text-[10px] bg-amber-950 text-amber-400 border border-amber-500/30 font-semibold">Mieszany (OSINT / NGO)</span>
+                </td>
+                <td class="py-3 px-4 text-slate-400">Filtr promienia miast, eliminacja doniesień bez współrzędnych</td>
+              </tr>
+
+              <tr class="hover:bg-slate-800/40 transition">
+                <td class="py-3 px-4 font-semibold text-white flex items-center space-x-2">
+                  <span class="text-base">🛰️</span>
+                  <span>NASA FIRMS / GIBS</span>
+                </td>
+                <td class="py-3 px-4 text-slate-300">Globalne strefy walk (Ukraina, Bliski Wschód, Afryka)</td>
+                <td class="py-3 px-4 text-slate-400">Anomalie termiczne VIIRS 375m (pożary po eksplozjach i uderzeniach)</td>
+                <td class="py-3 px-4 text-slate-300 font-mono">Co 3–6h (Przelot satelitów)</td>
+                <td class="py-3 px-4">
+                  <span class="px-2 py-0.5 rounded text-[10px] bg-purple-950 text-purple-300 border border-purple-500/30 font-semibold">Sensor Fizyczny (NASA Suomi-NPP)</span>
+                </td>
+                <td class="py-3 px-4 text-slate-400">Warstwa kafelkowa WMS EPSG:3857, automatyczne pobieranie daty bieżącej</td>
+              </tr>
+
+              <tr class="hover:bg-slate-800/40 transition">
+                <td class="py-3 px-4 font-semibold text-white flex items-center space-x-2">
+                  <span class="text-base">🗺️</span>
+                  <span>OpenTopoMap &amp; Esri Imagery</span>
+                </td>
+                <td class="py-3 px-4 text-slate-300">Globalne podkłady kartograficzne</td>
+                <td class="py-3 px-4 text-slate-400">Model rzeźby terenu SRTM, zdjęcia satelitarne wysokiej rozdzielczości</td>
+                <td class="py-3 px-4 text-slate-300 font-mono">Na bieżąco (CDN)</td>
+                <td class="py-3 px-4">
+                  <span class="px-2 py-0.5 rounded text-[10px] bg-blue-950 text-blue-300 border border-blue-500/30 font-semibold">Oficjalne Zasoby Kartograficzne</span>
+                </td>
+                <td class="py-3 px-4 text-slate-400">Integracja Leaflet.js, kafelkowanie bezkluczowe open-source</td>
+              </tr>
+
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+
   </main>
 
   <!-- Stopka Bezpieczeństwa -->
@@ -747,6 +1121,11 @@
         btn.classList.add('text-slate-400', 'border-transparent');
       });
 
+      const navMap = document.getElementById('btn-nav-map');
+      if (navMap) navMap.classList.remove('bg-amber-600/20', 'text-amber-400', 'border-amber-500/40');
+      const navArch = document.getElementById('btn-nav-arch');
+      if (navArch) navArch.classList.remove('bg-indigo-600/20', 'text-indigo-400', 'border-indigo-500/40');
+
       if (countryName === 'global') {
         document.getElementById('view-global').classList.remove('hidden');
         const b = document.getElementById('btn-country-global');
@@ -767,12 +1146,27 @@
     }
 
     function switchGlobalView(viewName) {
+      document.querySelectorAll('.country-view').forEach(el => el.classList.add('hidden'));
+      document.querySelectorAll('.country-btn').forEach(btn => {
+        btn.classList.remove('bg-red-600/20', 'text-red-400', 'border-red-500/40');
+        btn.classList.add('text-slate-400', 'border-transparent');
+      });
+
+      const navMap = document.getElementById('btn-nav-map');
+      if (navMap) navMap.classList.remove('bg-amber-600/20', 'text-amber-400', 'border-amber-500/40');
+      const navArch = document.getElementById('btn-nav-arch');
+      if (navArch) navArch.classList.remove('bg-indigo-600/20', 'text-indigo-400', 'border-indigo-500/40');
+
       if (viewName === 'map') {
-        document.querySelectorAll('.country-view').forEach(el => el.classList.add('hidden'));
         document.getElementById('view-map').classList.remove('hidden');
+        if (navMap) navMap.classList.add('bg-amber-600/20', 'text-amber-400', 'border-amber-500/40');
         if (window.leafletMap) {
           setTimeout(() => { window.leafletMap.invalidateSize(); }, 200);
         }
+      } else if (viewName === 'architecture') {
+        document.getElementById('view-architecture').classList.remove('hidden');
+        if (navArch) navArch.classList.add('bg-indigo-600/20', 'text-indigo-400', 'border-indigo-500/40');
+        window.scrollTo({ top: 0, behavior: 'smooth' });
       }
     }
 
