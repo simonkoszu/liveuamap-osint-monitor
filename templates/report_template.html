@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="pl" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raport Wojenny Liveuamap | Biuletyn Kraje & Wojny</title>
+  
+  <!-- Content Security Policy: Ochrona przed XSS i obcym kodem -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' https://unpkg.com https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://*.tile.openstreetmap.org https://*.basemaps.cartocdn.com; img-src 'self' data: https:; font-src https://cdnjs.cloudflare.com https://fonts.gstatic.com; connect-src 'self';">
+
+  <!-- Tailwind CSS & FontAwesome -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Leaflet Map CSS & JS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+
+  <style>
+    body {
+      background-color: #0b0f19;
+      color: #e2e8f0;
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    .leaflet-popup-content-wrapper {
+      background: #1e293b;
+      color: #f8fafc;
+      border: 1px solid #334155;
+      border-radius: 8px;
+    }
+    .leaflet-popup-tip {
+      background: #1e293b;
+    }
+    .custom-scroll::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    .custom-scroll::-webkit-scrollbar-track {
+      background: #0f172a;
+    }
+    .custom-scroll::-webkit-scrollbar-thumb {
+      background: #334155;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col">
+
+  <!-- Pasek Górny / Header -->
+  <header class="bg-slate-900/90 backdrop-blur border-b border-slate-800 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5 flex flex-wrap justify-between items-center gap-4">
+      <div class="flex items-center space-x-3">
+        <div class="h-10 w-10 rounded-lg bg-red-600/20 border border-red-500/40 flex items-center justify-center text-red-500">
+          <i class="fa-solid fa-earth-americas text-xl animate-pulse"></i>
+        </div>
+        <div>
+          <div class="flex items-center space-x-2">
+            <h1 class="text-lg font-bold tracking-tight text-white">LIVEUAMAP RAPORT WOJENNY</h1>
+            <span class="px-2 py-0.5 text-xs font-semibold rounded bg-red-500/20 text-red-400 border border-red-500/30">KRAJE & FRONT</span>
+          </div>
+          <p class="text-xs text-slate-400">Raporty Dziennie (24h) • Tygodniowe (7d) • Miesięczne (30d) dla poszczególnych państw</p>
+        </div>
+      </div>
+
+      <div class="flex items-center space-x-4 text-xs">
+        <div class="hidden sm:block text-right">
+          <div class="text-slate-400">Stan na dzień:</div>
+          <div class="font-mono text-slate-200 font-semibold">{{ data.today_date }} ({{ data.generated_at }})</div>
+        </div>
+        <div class="bg-slate-800 border border-slate-700 px-3 py-1.5 rounded-lg flex items-center space-x-2">
+          <i class="fa-solid fa-database text-indigo-400"></i>
+          <span class="text-slate-300 font-medium">Baza Zdarzeń: <span class="text-white font-bold">{{ data.total_events_in_db }}</span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Pasek Wyboru Kraju / Główna Nawigacja -->
+  <nav class="bg-slate-900/80 border-b border-slate-800 px-4 sticky top-[65px] z-40 backdrop-blur">
+    <div class="max-w-7xl mx-auto flex space-x-2 overflow-x-auto py-2.5 text-sm custom-scroll">
+      <!-- Przegląd Globalny -->
+      <button onclick="selectCountry('global')" id="btn-country-global" class="country-btn px-4 py-2 rounded-xl bg-red-600/20 text-red-400 border border-red-500/40 flex items-center space-x-2 font-semibold whitespace-nowrap transition">
+        <span>🌐</span>
+        <span>Przegląd Wszystkich Krajów</span>
+      </button>
+
+      <!-- Przyciski poszczególnych państw -->
+      {% for c in data.countries %}
+      <button onclick="selectCountry('{{ c.name }}')" id="btn-country-{{ c.name | replace(' ', '_') | replace('/', '_') }}" class="country-btn px-3.5 py-2 rounded-xl text-slate-400 hover:text-slate-200 hover:bg-slate-800 border border-transparent flex items-center space-x-2 whitespace-nowrap transition">
+        <span class="text-base">{{ c.flag }}</span>
+        <span>{{ c.name }}</span>
+        <span class="ml-1 text-[11px] px-1.5 py-0.2 rounded-full bg-slate-800 text-slate-300 font-mono">{{ c.total_events }}</span>
+      </button>
+      {% endfor %}
+
+      <div class="border-l border-slate-800 pl-2 flex space-x-2">
+        <button onclick="switchGlobalView('map')" id="btn-nav-map" class="px-3.5 py-2 rounded-xl text-slate-400 hover:text-slate-200 hover:bg-slate-800 flex items-center space-x-2 whitespace-nowrap">
+          <i class="fa-solid fa-map-location-dot text-xs text-amber-400"></i>
+          <span>Mapa Zdarzeń</span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Główny Kontener -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex-1 w-full space-y-6">
+
+    <!-- WIDOK 1: PRZEGLĄD GLOBALNY (TABELA PORÓWNAWCZA KRAJÓW + STATYSTYKI) -->
+    <div id="view-global" class="country-view space-y-6">
+      
+      <!-- Podsumowanie Globalne KPI -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-4">
+          <div class="flex justify-between text-xs text-slate-400 mb-1">
+            <span>ZDARZENIA DZISIAJ (OD PÓŁNOCY)</span>
+            <i class="fa-solid fa-calendar-day text-indigo-400"></i>
+          </div>
+          <div class="text-3xl font-extrabold text-indigo-200">{{ data.events_today_count }}</div>
+          <div class="text-xs text-slate-500 mt-1">Nowe incydenty w dniu {{ data.today_date }}</div>
+        </div>
+
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-4">
+          <div class="flex justify-between text-xs text-slate-400 mb-1">
+            <span>OSTATNIE 24 GODZINY (GLOBALNIE)</span>
+            <i class="fa-solid fa-bolt text-amber-400"></i>
+          </div>
+          <div class="flex items-baseline space-x-2">
+            <span class="text-3xl font-extrabold text-white">{{ data.global_daily.count }}</span>
+            <span class="text-xs font-semibold px-2 py-0.5 rounded {% if data.global_daily.diff >= 0 %}bg-red-500/20 text-red-400{% else %}bg-emerald-500/20 text-emerald-400{% endif %}">
+              {% if data.global_daily.diff >= 0 %}+{% endif %}{{ data.global_daily.diff }} ({% if data.global_daily.percent_change >= 0 %}+{% endif %}{{ data.global_daily.percent_change }}%)
+            </span>
+          </div>
+          <div class="text-xs text-slate-500 mt-1">vs poprzednie 24h</div>
+        </div>
+
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-4">
+          <div class="flex justify-between text-xs text-slate-400 mb-1">
+            <span>OSTATNIE 7 DNI (GLOBALNIE)</span>
+            <i class="fa-solid fa-chart-line text-blue-400"></i>
+          </div>
+          <div class="flex items-baseline space-x-2">
+            <span class="text-3xl font-extrabold text-white">{{ data.global_weekly.count }}</span>
+            <span class="text-xs font-semibold px-2 py-0.5 rounded {% if data.global_weekly.diff >= 0 %}bg-red-500/20 text-red-400{% else %}bg-emerald-500/20 text-emerald-400{% endif %}">
+              {% if data.global_weekly.diff >= 0 %}+{% endif %}{{ data.global_weekly.diff }}
+            </span>
+          </div>
+          <div class="text-xs text-slate-500 mt-1">Bilans tygodniowy</div>
+        </div>
+
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-4">
+          <div class="flex justify-between text-xs text-slate-400 mb-1">
+            <span>OSTATNIE 30 DNI (GLOBALNIE)</span>
+            <i class="fa-solid fa-calendar-days text-purple-400"></i>
+          </div>
+          <div class="text-3xl font-extrabold text-white">{{ data.global_monthly.count }}</div>
+          <div class="text-xs text-slate-500 mt-1">Bilans miesięczny</div>
+        </div>
+
+        <div class="bg-slate-900 border border-emerald-900/40 rounded-xl p-4 bg-gradient-to-br from-slate-900 to-emerald-950/20">
+          <div class="flex justify-between text-xs text-emerald-400 mb-1">
+            <span>CROSS-CHECK (WIELOŹRÓDŁOWO)</span>
+            <i class="fa-solid fa-shield-halved text-emerald-400"></i>
+          </div>
+          <div class="text-3xl font-extrabold text-emerald-300">{{ data.multi_source_verified_count }}</div>
+          <div class="text-xs text-emerald-500/80 mt-1">Potwierdzone przez 2+ źródła OSINT</div>
+        </div>
+      </div>
+
+      <!-- Tabela Porównawcza Państw -->
+      <div class="bg-slate-900 border border-slate-800 rounded-xl overflow-hidden">
+        <div class="p-5 border-b border-slate-800 flex justify-between items-center">
+          <div>
+            <h2 class="text-base font-bold text-white flex items-center space-x-2">
+              <i class="fa-solid fa-table-list text-red-500"></i>
+              <span>Macierz Porównawcza Konfliktów wg Krajów</span>
+            </h2>
+            <p class="text-xs text-slate-400 mt-0.5">Kliknij wiersz danego kraju, aby otworzyć szczegółowy raport</p>
+          </div>
+          <span class="text-xs font-mono text-slate-400 bg-slate-800 px-3 py-1 rounded-lg border border-slate-700">Liczba teatrów: {{ data.countries | length }}</span>
+        </div>
+
+        <div class="overflow-x-auto">
+          <table class="w-full text-left text-sm text-slate-300">
+            <thead class="bg-slate-950/70 text-xs uppercase text-slate-400 border-b border-slate-800 font-mono">
+              <tr>
+                <th class="py-3.5 px-4">Kraj / Obszar</th>
+                <th class="py-3.5 px-3 text-center">Status</th>
+                <th class="py-3.5 px-3 text-center">Dzisiaj</th>
+                <th class="py-3.5 px-3 text-center">24h (Dzień)</th>
+                <th class="py-3.5 px-3 text-center">7 dni (Tydzień)</th>
+                <th class="py-3.5 px-3 text-center">30 dni (Miesiąc)</th>
+                <th class="py-3.5 px-4">Dominujący Typ Działań</th>
+                <th class="py-3.5 px-3 text-right">Akcja</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-800/60">
+              {% for c in data.countries %}
+              <tr onclick="selectCountry('{{ c.name }}')" class="hover:bg-slate-800/60 cursor-pointer transition">
+                <td class="py-3 px-4 font-semibold text-white flex items-center space-x-2.5">
+                  <span class="text-xl">{{ c.flag }}</span>
+                  <div>
+                    <div>{{ c.name }}</div>
+                    <div class="text-[11px] font-normal text-slate-500">{{ c.theater }}</div>
+                  </div>
+                </td>
+                <td class="py-3 px-3 text-center">
+                  <span class="px-2.5 py-0.5 text-[11px] font-bold rounded-full border {{ c.status_class }}">{{ c.status_label }}</span>
+                </td>
+                <td class="py-3 px-3 text-center font-mono font-bold text-indigo-300">{{ c.events_today_count }}</td>
+                <td class="py-3 px-3 text-center font-mono">
+                  <span class="font-bold text-white">{{ c.daily.count }}</span>
+                  {% if c.daily.diff != 0 %}
+                  <span class="text-[11px] {% if c.daily.diff > 0 %}text-red-400{% else %}text-emerald-400{% endif %}">
+                    ({% if c.daily.diff > 0 %}+{% endif %}{{ c.daily.diff }})
+                  </span>
+                  {% endif %}
+                </td>
+                <td class="py-3 px-3 text-center font-mono">
+                  <span class="font-bold text-white">{{ c.weekly.count }}</span>
+                </td>
+                <td class="py-3 px-3 text-center font-mono text-slate-300">{{ c.monthly.count }}</td>
+                <td class="py-3 px-4 text-xs text-slate-400">
+                  {% for t_name, cnt in c.monthly.types.items() %}
+                    {% if loop.index <= 2 %}
+                      <span class="inline-block bg-slate-800 px-2 py-0.5 rounded text-[11px] text-slate-300 mr-1">{{ t_name }} ({{ cnt }})</span>
+                    {% endif %}
+                  {% endfor %}
+                </td>
+                <td class="py-3 px-3 text-right">
+                  <button class="px-2.5 py-1 text-xs rounded bg-slate-800 text-indigo-400 hover:bg-slate-700 transition">Szczegóły &rarr;</button>
+                </td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Wykres Trendu Globalnego -->
+      <div class="bg-slate-900 border border-slate-800 rounded-xl p-5">
+        <h3 class="text-sm font-semibold text-slate-200 mb-2">Globalny Trend Zdarzeń (Ostatnie 30 Dni)</h3>
+        <div class="h-64">
+          <canvas id="globalTimelineChart"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <!-- WIDOKI DLA POSZCZEGÓLNYCH KRAJÓW -->
+    {% for c in data.countries %}
+    <div id="view-country-{{ c.name | replace(' ', '_') | replace('/', '_') }}" class="country-view hidden space-y-6">
+      
+      <!-- Nagłówek Kraju -->
+      <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 flex flex-wrap justify-between items-center gap-4">
+        <div class="flex items-center space-x-4">
+          <div class="text-4xl p-2 rounded-xl bg-slate-800 border border-slate-700">{{ c.flag }}</div>
+          <div>
+            <div class="flex items-center space-x-3">
+              <h2 class="text-xl font-bold text-white">{{ c.name }}</h2>
+              <span class="px-2.5 py-0.5 text-xs font-bold rounded-full border {{ c.status_class }}">{{ c.status_label }}</span>
+            </div>
+            <p class="text-xs text-slate-400 mt-0.5">{{ c.theater }} • Łącznie zarejestrowanych incydentów w bazie: <strong class="text-white">{{ c.total_events }}</strong></p>
+          </div>
+        </div>
+
+        <button onclick="selectCountry('global')" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs text-slate-300 border border-slate-700 transition flex items-center space-x-1.5">
+          <i class="fa-solid fa-arrow-left"></i>
+          <span>Wróć do wszystkich krajów</span>
+        </button>
+      </div>
+
+      <!-- 3 SEKCJE RAPORTÓW: DZIENNY, TYGODNIOWY, MIESIĘCZNY DLA TEGO KRAJU -->
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+
+        <!-- 1. RAPORT DZIENNY KRAJU (24h) -->
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-center pb-3 border-b border-slate-800 mb-4">
+              <div class="flex items-center space-x-2">
+                <i class="fa-solid fa-bolt text-amber-400"></i>
+                <h3 class="font-bold text-white text-sm">Raport Dzienny (24h)</h3>
+              </div>
+              <span class="text-xs font-mono font-bold px-2 py-0.5 rounded bg-slate-800 text-amber-400">{{ c.daily.count }} incydentów</span>
+            </div>
+
+            <div class="mb-4">
+              <div class="text-xs text-slate-400 mb-1">Dynamika vs poprzednie 24h:</div>
+              <div class="text-lg font-bold font-mono {% if c.daily.diff >= 0 %}text-red-400{% else %}text-emerald-400{% endif %}">
+                {% if c.daily.diff >= 0 %}+{% endif %}{{ c.daily.diff }} ({% if c.daily.percent_change >= 0 %}+{% endif %}{{ c.daily.percent_change }}%)
+              </div>
+            </div>
+
+            <div class="space-y-3 mb-4">
+              <div class="text-xs font-semibold text-slate-400 uppercase">Główne rejony uderzeń:</div>
+              <ul class="text-xs space-y-1">
+                {% for loc, cnt in c.daily.top_locations.items() %}
+                <li class="flex justify-between text-slate-300">
+                  <span>{{ loc }}</span>
+                  <span class="font-mono font-bold text-slate-400">{{ cnt }}</span>
+                </li>
+                {% else %}
+                <li class="text-slate-500 italic">Brak raportowanych uderzeń w ostatnich 24h</li>
+                {% endfor %}
+              </ul>
+            </div>
+
+            <div class="space-y-3">
+              <div class="text-xs font-semibold text-slate-400 uppercase">Typy działań:</div>
+              <ul class="text-xs space-y-1">
+                {% for t_name, cnt in c.daily.types.items() %}
+                <li class="flex justify-between text-slate-300">
+                  <span>{{ t_name }}</span>
+                  <span class="font-mono font-bold text-slate-400">{{ cnt }}</span>
+                </li>
+                {% else %}
+                <li class="text-slate-500 italic">Brak aktywności bojowej</li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-800 text-[11px] text-slate-500">
+            Stan na dzień dzisiejszy: <strong>{{ c.events_today_count }}</strong> zdarzeń od 00:00 UTC
+          </div>
+        </div>
+
+        <!-- 2. RAPORT TYGODNIOWY KRAJU (7 dni) -->
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-center pb-3 border-b border-slate-800 mb-4">
+              <div class="flex items-center space-x-2">
+                <i class="fa-solid fa-calendar-week text-blue-400"></i>
+                <h3 class="font-bold text-white text-sm">Raport Tygodniowy (7 dni)</h3>
+              </div>
+              <span class="text-xs font-mono font-bold px-2 py-0.5 rounded bg-slate-800 text-blue-400">{{ c.weekly.count }} zdarzeń</span>
+            </div>
+
+            <div class="mb-4">
+              <div class="text-xs text-slate-400 mb-1">Dynamika tydzień do tygodnia:</div>
+              <div class="text-lg font-bold font-mono {% if c.weekly.diff >= 0 %}text-red-400{% else %}text-emerald-400{% endif %}">
+                {% if c.weekly.diff >= 0 %}+{% endif %}{{ c.weekly.diff }} ({% if c.weekly.percent_change >= 0 %}+{% endif %}{{ c.weekly.percent_change }}%)
+              </div>
+            </div>
+
+            <div class="space-y-3 mb-4">
+              <div class="text-xs font-semibold text-slate-400 uppercase">Aktywność w rejonach (7d):</div>
+              <ul class="text-xs space-y-1">
+                {% for loc, cnt in c.weekly.top_locations.items() %}
+                <li class="flex justify-between text-slate-300">
+                  <span>{{ loc }}</span>
+                  <span class="font-mono font-bold text-slate-400">{{ cnt }}</span>
+                </li>
+                {% else %}
+                <li class="text-slate-500 italic">Brak incydentów w tym tygodniu</li>
+                {% endfor %}
+              </ul>
+            </div>
+
+            <div class="space-y-3">
+              <div class="text-xs font-semibold text-slate-400 uppercase">Struktura walk (7d):</div>
+              <ul class="text-xs space-y-1">
+                {% for t_name, cnt in c.weekly.types.items() %}
+                <li class="flex justify-between text-slate-300">
+                  <span>{{ t_name }}</span>
+                  <span class="font-mono font-bold text-slate-400">{{ cnt }}</span>
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-800 text-[11px] text-slate-500">
+            Intensywność operacyjna w okresie 7 dni
+          </div>
+        </div>
+
+        <!-- 3. RAPORT MIESIĘCZNY KRAJU (30 dni) -->
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-center pb-3 border-b border-slate-800 mb-4">
+              <div class="flex items-center space-x-2">
+                <i class="fa-solid fa-calendar-days text-purple-400"></i>
+                <h3 class="font-bold text-white text-sm">Raport Miesięczny (30 dni)</h3>
+              </div>
+              <span class="text-xs font-mono font-bold px-2 py-0.5 rounded bg-slate-800 text-purple-400">{{ c.monthly.count }} zdarzeń</span>
+            </div>
+
+            <div class="mb-4">
+              <div class="text-xs text-slate-400 mb-1">Bilans 30-dniowy:</div>
+              <div class="text-lg font-bold font-mono text-purple-300">
+                Łącznie: {{ c.monthly.count }} incydentów
+              </div>
+            </div>
+
+            <div class="space-y-3 mb-4">
+              <div class="text-xs font-semibold text-slate-400 uppercase">Główne ogniska frontowe (30d):</div>
+              <ul class="text-xs space-y-1">
+                {% for loc, cnt in c.monthly.top_locations.items() %}
+                <li class="flex justify-between text-slate-300">
+                  <span>{{ loc }}</span>
+                  <span class="font-mono font-bold text-slate-400">{{ cnt }}</span>
+                </li>
+                {% else %}
+                <li class="text-slate-500 italic">Brak danych miesięcznych</li>
+                {% endfor %}
+              </ul>
+            </div>
+
+            <div class="space-y-3">
+              <div class="text-xs font-semibold text-slate-400 uppercase">Podsumowanie taktyczne:</div>
+              <p class="text-xs text-slate-400 leading-relaxed">
+                Rejestr incydentów dla {{ c.name }} dokumentuje ciągłą wymianę ognia i zmiany linii frontu. Wszelkie nowe incydenty od dnia dzisiejszego są na bieżąco archiwizowane.
+              </p>
+            </div>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-800 text-[11px] text-slate-500">
+            Skumulowany wskaźnik 30-dniowy
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Ostatnie incydenty dla tego kraju -->
+      <div class="bg-slate-900 border border-slate-800 rounded-xl p-5">
+        <h3 class="text-sm font-bold text-white mb-4 flex items-center space-x-2">
+          <i class="fa-solid fa-list-check text-indigo-400"></i>
+          <span>Ostatnie zarejestrowane zdarzenia: {{ c.name }}</span>
+        </h3>
+        <div class="space-y-3">
+          {% for ev in c.recent_events %}
+          <div class="bg-slate-800/40 hover:bg-slate-800/70 transition rounded-lg p-3.5 border border-slate-700/60 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
+            <div class="flex-1">
+              <div class="flex items-center space-x-2 text-xs mb-1 text-slate-400">
+                <span class="font-mono text-slate-300">{{ ev.timestamp[:16].replace("T", " ") }}</span>
+                <span>•</span>
+                <span class="text-amber-400 font-semibold"><i class="fa-solid fa-tag text-[10px] mr-1"></i>{{ ev.event_type }}</span>
+                <span>•</span>
+                <span class="text-slate-400"><i class="fa-solid fa-location-dot text-red-400 mr-1"></i>{{ ev.location_name }}</span>
+              </div>
+              <div class="flex flex-wrap items-center gap-1.5 text-[11px] text-slate-400 mb-1">
+                <span class="font-mono text-slate-500">{{ ev.timestamp[:16].replace('T', ' ') }}</span>
+                <span class="px-1.5 py-0.5 rounded bg-slate-800 text-slate-300 border border-slate-700">{{ ev.event_type }}</span>
+                {% if ev.location_name %}
+                <span class="text-slate-400"><i class="fa-solid fa-location-dot text-slate-500 mr-1"></i>{{ ev.location_name }}</span>
+                {% endif %}
+                {% if ev.source_channel %}
+                <span class="px-1.5 py-0.5 rounded bg-indigo-950/60 text-indigo-300 border border-indigo-800/40 font-mono text-[10px]">[#{{ ev.source_channel }}]</span>
+                {% endif %}
+                {% if ev.multi_source_verified %}
+                <span class="px-1.5 py-0.5 rounded bg-emerald-950/60 text-emerald-300 border border-emerald-800/40 font-semibold text-[10px]">🛡️ Cross-Check</span>
+                {% endif %}
+              </div>
+              <h4 class="font-semibold text-sm text-slate-200 mb-0.5">{{ ev.title }}</h4>
+              <p class="text-xs text-slate-400">{{ ev.text }}</p>
+            </div>
+            <a href="{{ ev.url }}" target="_blank" rel="noopener noreferrer" class="text-xs text-blue-400 hover:text-blue-300 font-medium whitespace-nowrap">Liveuamap &rarr;</a>
+          </div>
+          {% else %}
+          <div class="text-slate-500 text-xs italic py-4">Brak zarejestrowanych incydentów dla tego kraju.</div>
+          {% endfor %}
+        </div>
+      </div>
+
+    </div>
+    {% endfor %}
+
+    <!-- WIDOK MAPY OPERACYJNEJ -->
+    <div id="view-map" class="country-view hidden space-y-4">
+      <div class="bg-slate-900 border border-slate-800 rounded-xl p-4">
+        <div class="flex flex-wrap items-center justify-between gap-3 mb-3">
+          <div>
+            <h2 class="text-lg font-bold text-white flex items-center space-x-2">
+              <i class="fa-solid fa-map-location-dot text-red-500"></i>
+              <span>Geolokalizacja Incydentów Wojennych</span>
+            </h2>
+            <p class="text-xs text-slate-400">Interaktywny rozkład ognisk zapalnych z filtrowaniem wg państw i weryfikacji wieloźródłowej</p>
+          </div>
+          <div class="flex flex-wrap items-center gap-1.5 text-xs">
+            <button onclick="filterMapCountry('all')" class="map-btn px-2.5 py-1 rounded bg-slate-800 text-slate-200 border border-slate-700">Wszystkie</button>
+            <button onclick="filterMapCountry('cross_check')" class="map-btn px-2.5 py-1 rounded bg-emerald-950/60 text-emerald-300 border border-emerald-700/60 font-semibold"><i class="fa-solid fa-shield-halved text-xs mr-1"></i>🛡️ Wieloźródłowe (Cross-Check)</button>
+            <button onclick="filterMapCountry('fire')" class="map-btn px-2.5 py-1 rounded bg-amber-950/60 text-amber-300 border border-amber-700/60 font-semibold"><i class="fa-solid fa-fire text-xs mr-1"></i>🔥 Pożary</button>
+            {% for c in data.countries %}
+            <button onclick="filterMapCountry('{{ c.name }}')" class="map-btn px-2.5 py-1 rounded bg-slate-800 text-slate-400 border border-slate-700">{{ c.flag }} {{ c.name }}</button>
+            {% endfor %}
+          </div>
+        </div>
+        <div id="map-container" class="w-full h-[650px] rounded-lg border border-slate-800 z-10"></div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Stopka Bezpieczeństwa -->
+  <footer class="bg-slate-950 border-t border-slate-800/80 py-4 mt-auto">
+    <div class="max-w-7xl mx-auto px-4 text-center text-xs text-slate-500 flex flex-col sm:flex-row justify-between items-center gap-2">
+      <div>
+        Autonomiczny monitor zdarzeń na bazie <a href="https://liveuamap.com" target="_blank" class="text-slate-400 hover:underline">liveuamap.com</a>
+      </div>
+      <div class="flex items-center space-x-2 text-emerald-400/80">
+        <i class="fa-solid fa-shield-halved text-xs"></i>
+        <span>Zero Inbound Ports • Bezpieczny Raport Statyczny HTML</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- DANE I LOGIKA JS -->
+  <script>
+    const MAP_POINTS = {{ data.map_points | tojson }};
+    const TIMELINE_DAYS = {{ data.timeline.days | tojson }};
+    const TIMELINE_COUNTS = {{ data.timeline.counts | tojson }};
+
+    function selectCountry(countryName) {
+      document.querySelectorAll('.country-view').forEach(el => el.classList.add('hidden'));
+      document.querySelectorAll('.country-btn').forEach(btn => {
+        btn.classList.remove('bg-red-600/20', 'text-red-400', 'border-red-500/40');
+        btn.classList.add('text-slate-400', 'border-transparent');
+      });
+
+      if (countryName === 'global') {
+        document.getElementById('view-global').classList.remove('hidden');
+        const b = document.getElementById('btn-country-global');
+        if (b) {
+          b.classList.add('bg-red-600/20', 'text-red-400', 'border-red-500/40');
+          b.classList.remove('text-slate-400', 'border-transparent');
+        }
+      } else {
+        const idSafe = countryName.replace(/ /g, '_').replace(/\//g, '_');
+        const targetView = document.getElementById('view-country-' + idSafe);
+        const targetBtn = document.getElementById('btn-country-' + idSafe);
+        if (targetView) targetView.classList.remove('hidden');
+        if (targetBtn) {
+          targetBtn.classList.add('bg-red-600/20', 'text-red-400', 'border-red-500/40');
+          targetBtn.classList.remove('text-slate-400', 'border-transparent');
+        }
+      }
+    }
+
+    function switchGlobalView(viewName) {
+      if (viewName === 'map') {
+        document.querySelectorAll('.country-view').forEach(el => el.classList.add('hidden'));
+        document.getElementById('view-map').classList.remove('hidden');
+        if (window.leafletMap) {
+          setTimeout(() => { window.leafletMap.invalidateSize(); }, 200);
+        }
+      }
+    }
+
+    // Mapa Leaflet
+    let markersLayer = null;
+    function initMap() {
+      const map = L.map('map-container').setView([42.0, 36.0], 4);
+      window.leafletMap = map;
+
+      L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+        attribution: '&copy; OpenStreetMap &copy; CARTO',
+        maxZoom: 18
+      }).addTo(map);
+
+      markersLayer = L.layerGroup().addTo(map);
+      renderMapMarkers('all');
+    }
+
+    function getCountryColor(country) {
+      if (country === 'Ukraina') return '#ef4444';
+      if (country === 'Liban') return '#f97316';
+      if (country.includes('Izrael') || country.includes('Palestyna')) return '#eab308';
+      if (country === 'Syria') return '#a855f7';
+      if (country === 'Jemen') return '#06b6d4';
+      if (country === 'Sudan') return '#10b981';
+      if (country === 'Rosja') return '#ec4899';
+      return '#64748b';
+    }
+
+    function renderMapMarkers(filterMode) {
+      if (!markersLayer) return;
+      markersLayer.clearLayers();
+
+      MAP_POINTS.forEach(p => {
+        if (filterMode === 'cross_check' && !p.multi_source_verified) return;
+        if (filterMode === 'fire' && !p.has_fire) return;
+        if (filterMode !== 'all' && filterMode !== 'cross_check' && filterMode !== 'fire' && p.country !== filterMode) return;
+
+        const color = getCountryColor(p.country);
+        const radius = p.threat_score >= 8 ? 9 : 7;
+        const circle = L.circleMarker([p.lat, p.lon], {
+          radius: radius,
+          fillColor: color,
+          color: p.has_fire ? '#f59e0b' : (p.multi_source_verified ? '#10b981' : '#ffffff'),
+          weight: (p.has_fire || p.multi_source_verified) ? 2.5 : 1,
+          opacity: 1,
+          fillOpacity: 0.85
+        });
+
+        const crossCheckBadge = p.multi_source_verified 
+          ? `<div class="mb-1"><span class="inline-block px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 text-[10px] font-bold">🛡️ POTWIERDZONE WIELOŹRÓDŁOWO: ${(p.verified_by_sources || []).join(' + ')}</span></div>` 
+          : `<div class="mb-1"><span class="inline-block px-1.5 py-0.5 rounded bg-indigo-950/60 text-indigo-300 text-[10px] font-mono border border-indigo-800/40">Radar/Źródło: [${p.source_channel || 'OSINT'}]</span></div>`;
+
+        const fireBadge = p.has_fire ? '<span class="inline-block px-1.5 py-0.5 rounded bg-amber-500/20 text-amber-400 border border-amber-500/30 text-[10px] font-bold mr-1">🔥 SYGNATURA POŻARU / DETONACJA</span>' : '';
+        const weaponsBadge = (p.weapons && p.weapons.length > 0) ? `<div class="mt-1 text-[11px] text-indigo-300"><strong>Broń:</strong> ${p.weapons.join(', ')}</div>` : '';
+        const targetBadge = p.target_type ? `<div class="text-[11px] text-slate-300"><strong>Cel:</strong> ${p.target_type}</div>` : '';
+        const threatBadge = `<span class="px-1.5 py-0.2 rounded text-[10px] font-mono font-bold ${p.threat_score >= 8 ? 'bg-red-500/20 text-red-400 border border-red-500/30' : 'bg-slate-700 text-slate-300'}">Zagrożenie: ${p.threat_score || 5}/10</span>`;
+
+        const popup = `
+          <div class="p-1.5 text-xs max-w-[280px]">
+            <div class="flex justify-between items-center mb-1">
+              <span class="font-bold text-sm" style="color:${color}">${p.flag} ${p.country}</span>
+              ${threatBadge}
+            </div>
+            ${crossCheckBadge}
+            <div class="mb-1">${fireBadge}</div>
+            <div class="font-semibold text-slate-200 mb-1 leading-snug">${p.title}</div>
+            <div class="text-slate-400 mb-2 leading-tight">${p.text}</div>
+            <div class="bg-slate-900/80 p-2 rounded border border-slate-700/60 mb-2 space-y-0.5">
+              ${targetBadge}
+              ${weaponsBadge}
+            </div>
+            <div class="flex justify-between items-center text-[10px] text-slate-500 pt-1 border-t border-slate-700">
+              <span>${p.timestamp.substring(0, 16).replace('T', ' ')}</span>
+              <a href="${p.url}" target="_blank" class="text-blue-400 hover:underline font-semibold">Źródło &rarr;</a>
+            </div>
+          </div>
+        `;
+        circle.bindPopup(popup);
+        circle.addTo(markersLayer);
+      });
+    }
+
+    function filterMapCountry(country) {
+      renderMapMarkers(country);
+    }
+
+    // Chart.js
+    function initCharts() {
+      const ctx = document.getElementById('globalTimelineChart');
+      if (ctx && TIMELINE_DAYS.length > 0) {
+        new Chart(ctx, {
+          type: 'bar',
+          data: {
+            labels: TIMELINE_DAYS,
+            datasets: [{
+              label: 'Liczba Zdarzeń',
+              data: TIMELINE_COUNTS,
+              backgroundColor: '#ef4444',
+              borderRadius: 4
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: { legend: { display: false } },
+            scales: {
+              x: { grid: { display: false }, ticks: { color: '#94a3b8', font: { size: 10 } } },
+              y: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#94a3b8' }, beginAtZero: true }
+            }
+          }
+        });
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      initMap();
+      initCharts();
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+name: Aktualizacja Raportu Wojennego Liveuamap
+
+on:
+  schedule:
+    # Uruchamianie w chmurze codziennie o 06:00 UTC oraz 18:00 UTC (100% darmowe)
+    - cron: '0 6,18 * * *'
+  workflow_dispatch: # Możliwość ręcznego uruchomienia raportu 1 kliknięciem w GitHub
+
+# Rygorystyczna zasada najniższych uprawnień (Least Privilege Security)
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "liveuamap-update"
+  cancel-in-progress: true
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: 🔒 Bezpieczne pobranie repozytorium (Checkout)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: 🐍 Konfiguracja środowiska Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 📦 Instalacja zaufanych zależności
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 📡 Scraping Liveuamap, Analiza Krajów i Generowanie Raportu HTML
+        run: |
+          python run.py --pages 5 --desktop-folder "liveuamap_raport"
+
+      - name: 💾 Bezpieczne zapisanie bazy zdarzeń w repozytorium
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "Liveuamap War Monitor Bot"
+          git add data/events.json
+          git diff --staged --quiet || git commit -m "Auto-update: Baza zdarzeń wojennych [$(date -u +'%Y-%m-%d %H:%M UTC')]"
+          git push
+
+      - name: 🌐 Publikacja Raportu na darmowym GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'output'
+
+      - name: 🚀 Wdrożenie na GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
