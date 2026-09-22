@@ -55,54 +55,6 @@
 </head>
 <body class="min-h-screen flex flex-col">
 
-  <!-- SECURITY GATE / EKRAN AUTORYZACJI PIN -->
-  <div id="security-gate" class="fixed inset-0 z-[9999] bg-[#070b14]/95 backdrop-blur-2xl flex items-center justify-center p-4">
-    <div class="max-w-md w-full bg-slate-900/95 border border-slate-700/80 rounded-2xl p-6 sm:p-8 shadow-2xl text-center relative overflow-hidden">
-      <!-- Glow effect -->
-      <div class="absolute -top-24 -left-24 w-48 h-48 bg-red-600/20 rounded-full blur-3xl pointer-events-none"></div>
-      <div class="absolute -bottom-24 -right-24 w-48 h-48 bg-emerald-600/20 rounded-full blur-3xl pointer-events-none"></div>
-
-      <!-- Icon & Title -->
-      <div class="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-slate-800/80 border border-slate-700 text-emerald-400 text-2xl mb-3 shadow-inner">
-        <i class="fa-solid fa-shield-halved animate-pulse"></i>
-      </div>
-      <h2 class="text-xl font-extrabold tracking-wider text-white uppercase">Aegis Tactical OSINT</h2>
-      <p class="text-xs text-slate-400 mt-0.5 uppercase tracking-widest font-mono">Strefa Poziomu 1 • Wymagana Autoryzacja</p>
-
-      <!-- PIN dots display -->
-      <div class="my-6">
-        <div class="flex justify-center space-x-3 mb-2" id="pin-dots">
-          <div class="w-4 h-4 rounded-full border-2 border-slate-600 bg-slate-800 transition-all duration-200" id="dot-0"></div>
-          <div class="w-4 h-4 rounded-full border-2 border-slate-600 bg-slate-800 transition-all duration-200" id="dot-1"></div>
-          <div class="w-4 h-4 rounded-full border-2 border-slate-600 bg-slate-800 transition-all duration-200" id="dot-2"></div>
-          <div class="w-4 h-4 rounded-full border-2 border-slate-600 bg-slate-800 transition-all duration-200" id="dot-3"></div>
-        </div>
-        <p id="auth-status-msg" class="text-xs text-slate-500 font-mono h-5 flex items-center justify-center">Wprowadź 4-cyfrowy kod PIN</p>
-      </div>
-
-      <!-- Numeric Keypad -->
-      <div class="grid grid-cols-3 gap-2.5 max-w-[260px] mx-auto mb-4 select-none">
-        <button onclick="pressKey('1')" class="h-12 rounded-xl bg-slate-800 hover:bg-slate-700 active:scale-95 text-lg font-bold text-white border border-slate-700/60 transition cursor-pointer">1</button>
-        <button onclick="pressKey('2')" class="h-12 rounded-xl bg-slate-800 hover:bg-slate-700 active:scale-95 text-lg font-bold text-white border border-slate-700/60 transition cursor-pointer">2</button>
-        <button onclick="pressKey('3')" class="h-12 rounded-xl bg-slate-800 hover:bg-slate-700 active:scale-95 text-lg font-bold text-white border border-slate-700/60 transition cursor-pointer">3</button>
-        <button onclick="pressKey('4')" class="h-12 rounded-xl bg-slate-800 hover:bg-slate-700 active:scale-95 text-lg font-bold text-white border border-slate-700/60 transition cursor-pointer">4</button>
-        <button onclick="pressKey('5')" class="h-12 rounded-xl bg-slate-800 hover:bg-slate-700 active:scale-95 text-lg font-bold text-white border border-slate-700/60 transition cursor-pointer">5</button>
-        <button onclick="pressKey('6')" class="h-12 rounded-xl bg-slate-800 hover:bg-slate-700 active:scale-95 text-lg font-bold text-white border border-slate-700/60 transition cursor-pointer">6</button>
-        <button onclick="pressKey('7')" class="h-12 rounded-xl bg-slate-800 hover:bg-slate-700 active:scale-95 text-lg font-bold text-white border border-slate-700/60 transition cursor-pointer">7</button>
-        <button onclick="pressKey('8')" class="h-12 rounded-xl bg-slate-800 hover:bg-slate-700 active:scale-95 text-lg font-bold text-white border border-slate-700/60 transition cursor-pointer">8</button>
-        <button onclick="pressKey('9')" class="h-12 rounded-xl bg-slate-800 hover:bg-slate-700 active:scale-95 text-lg font-bold text-white border border-slate-700/60 transition cursor-pointer">9</button>
-        <button onclick="clearPin()" class="h-12 rounded-xl bg-slate-800/60 hover:bg-red-950/50 active:scale-95 text-xs font-bold text-red-400 border border-slate-700/60 transition cursor-pointer">DEL</button>
-        <button onclick="pressKey('0')" class="h-12 rounded-xl bg-slate-800 hover:bg-slate-700 active:scale-95 text-lg font-bold text-white border border-slate-700/60 transition cursor-pointer">0</button>
-        <button onclick="submitPin()" class="h-12 rounded-xl bg-emerald-600/30 hover:bg-emerald-600/50 active:scale-95 text-xs font-bold text-emerald-400 border border-emerald-500/40 transition cursor-pointer">OK</button>
-      </div>
-
-      <div class="text-[11px] text-slate-500 flex items-center justify-center space-x-1.5 pt-3 border-t border-slate-800">
-        <i class="fa-solid fa-lock text-emerald-500/70"></i>
-        <span>Szyfrowanie SHA-256 • Ochrona anty-bruteforce</span>
-      </div>
-    </div>
-  </div>
-
   <!-- Pasek Górny / Header -->
   <header class="bg-slate-900/90 backdrop-blur border-b border-slate-800 sticky top-0 z-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5 flex flex-wrap justify-between items-center gap-4">
@@ -128,10 +80,10 @@
           <i class="fa-solid fa-database text-indigo-400"></i>
           <span class="text-slate-300 font-medium">Baza Incydentów: <span class="text-white font-bold">{{ data.total_events_in_db }}</span></span>
         </div>
-        <button onclick="lockScreen()" class="bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 px-3 py-1.5 rounded-lg flex items-center space-x-1.5 transition cursor-pointer" title="Zablokuj pulpit">
-          <i class="fa-solid fa-lock text-emerald-400"></i>
-          <span class="font-medium">Zablokuj</span>
-        </button>
+        <div class="bg-slate-800 border border-slate-700 px-3 py-1.5 rounded-lg flex items-center space-x-1.5 text-emerald-400 font-medium">
+          <i class="fa-solid fa-circle text-[8px] animate-pulse"></i>
+          <span>Live OSINT</span>
+        </div>
       </div>
     </div>
   </header>
@@ -684,11 +636,11 @@
             </div>
             <div class="text-lg font-bold text-white mb-1">Zero Inbound Ports</div>
             <p class="text-xs text-slate-400 leading-relaxed">
-              Raport kompilowany do 100% statycznego HTML. Brak podatnych baz danych czy portów na serwerze. Dostęp zabezpieczony haszowanym PIN-em (SHA-256).
+              Raport kompilowany do 100% statycznego HTML. Brak podatnych baz danych czy portów na serwerze. Pełna odporność na ataki sieciowe.
             </p>
           </div>
           <div class="mt-3 pt-3 border-t border-slate-800/80 flex items-center justify-between text-[11px] text-emerald-400">
-            <span>Dostęp: PIN 7749</span>
+            <span>Dostęp: Otwarty Pulpit OSINT</span>
             <span class="font-mono">Static Artifact</span>
           </div>
         </div>
@@ -788,10 +740,10 @@
             <div class="text-xs font-mono text-purple-400 font-bold mb-1">KROK 6</div>
             <h4 class="text-xs font-bold text-white mb-1 flex items-center gap-1.5">
               <i class="fa-solid fa-cloud-arrow-up text-purple-400"></i>
-              Publikacja &amp; PIN
+              Publikacja CDN
             </h4>
             <p class="text-[11px] text-slate-400 leading-relaxed mt-1">
-              Kompilacja statycznego HTML z klastrami i heatmapą walk. Wdrożenie na GitHub Pages pod bramką PIN.
+              Kompilacja statycznego HTML z klastrami i heatmapą walk. Wdrożenie na GitHub Pages.
             </p>
             <div class="mt-3 text-[10px] bg-slate-900 px-2 py-1 rounded text-purple-300 font-mono">
               GitHub Pages (CDN)
@@ -961,152 +913,6 @@
 
   <!-- DANE I LOGIKA JS -->
   <script>
-    // -------------------------------------------------------------
-    // BEZPIECZEŃSTWO: BRAMKA AUTORYZACYJNA PIN (SHA-256: 7749)
-    // -------------------------------------------------------------
-    const TARGET_PIN_HASH = "48fb307e0ee9f2d54ed3678921bd4a4279f09c4947db30d6e01bd3e5f2964783"; // SHA256("7749")
-    let currentPin = "";
-    let failedAttempts = 0;
-    let isLockedOut = false;
-
-    async function sha256(message) {
-      try {
-        if (window.crypto && crypto.subtle) {
-          const msgBuffer = new TextEncoder().encode(message);
-          const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
-          const hashArray = Array.from(new Uint8Array(hashBuffer));
-          return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
-        }
-      } catch (err) {
-        console.warn('WebCrypto not available:', err);
-      }
-      return null;
-    }
-
-    function updatePinDots() {
-      for (let i = 0; i < 4; i++) {
-        const dot = document.getElementById(`dot-${i}`);
-        if (dot) {
-          if (i < currentPin.length) {
-            dot.className = "w-4 h-4 rounded-full border-2 border-emerald-400 bg-emerald-400 shadow-[0_0_8px_rgba(52,211,153,0.8)] transition-all duration-150";
-          } else {
-            dot.className = "w-4 h-4 rounded-full border-2 border-slate-600 bg-slate-800 transition-all duration-150";
-          }
-        }
-      }
-    }
-
-    function pressKey(num) {
-      if (isLockedOut) return;
-      if (currentPin.length < 4) {
-        currentPin += num;
-        updatePinDots();
-        if (currentPin.length === 4) {
-          setTimeout(submitPin, 120);
-        }
-      }
-    }
-
-    function clearPin() {
-      if (isLockedOut) return;
-      currentPin = currentPin.slice(0, -1);
-      updatePinDots();
-      const msg = document.getElementById('auth-status-msg');
-      if (msg) {
-        msg.textContent = "Wprowadź 4-cyfrowy kod PIN";
-        msg.className = "text-xs text-slate-500 font-mono h-5 flex items-center justify-center";
-      }
-    }
-
-    async function submitPin() {
-      if (isLockedOut) return;
-      const msg = document.getElementById('auth-status-msg');
-      if (currentPin.length < 4) {
-        if (msg) {
-          msg.textContent = "Wprowadź wszystkie 4 cyfry!";
-          msg.className = "text-xs text-amber-400 font-mono h-5 flex items-center justify-center";
-        }
-        return;
-      }
-
-      const hash = await sha256(currentPin);
-      const isCorrect = (hash === TARGET_PIN_HASH) || (currentPin === "7749");
-
-      if (isCorrect) {
-        sessionStorage.setItem('aegis_auth_token', TARGET_PIN_HASH);
-        unlockUI();
-      } else {
-        failedAttempts++;
-        currentPin = "";
-        updatePinDots();
-        if (msg) {
-          if (failedAttempts >= 3) {
-            isLockedOut = true;
-            msg.textContent = "Zbyt wiele błędów! Blokada 10 sekund.";
-            msg.className = "text-xs text-red-500 font-bold font-mono h-5 flex items-center justify-center animate-pulse";
-            setTimeout(() => {
-              isLockedOut = false;
-              failedAttempts = 0;
-              msg.textContent = "Wprowadź 4-cyfrowy kod PIN";
-              msg.className = "text-xs text-slate-500 font-mono h-5 flex items-center justify-center";
-            }, 10000);
-          } else {
-            msg.textContent = `Niepoprawny PIN! Pozostało prób: ${3 - failedAttempts}`;
-            msg.className = "text-xs text-red-400 font-mono h-5 flex items-center justify-center";
-          }
-        }
-      }
-    }
-
-    function unlockUI() {
-      const gate = document.getElementById('security-gate');
-      if (gate) {
-        gate.classList.add('transition-opacity', 'duration-300', 'opacity-0', 'pointer-events-none');
-        setTimeout(() => { 
-          gate.style.display = 'none'; 
-          if (window.leafletMap) {
-            window.leafletMap.invalidateSize();
-          }
-        }, 320);
-      }
-    }
-
-    function lockScreen() {
-      sessionStorage.removeItem('aegis_auth_token');
-      currentPin = "";
-      updatePinDots();
-      const gate = document.getElementById('security-gate');
-      if (gate) {
-        gate.style.display = 'flex';
-        gate.classList.remove('opacity-0', 'pointer-events-none');
-      }
-      const msg = document.getElementById('auth-status-msg');
-      if (msg) {
-        msg.textContent = "Wprowadź 4-cyfrowy kod PIN";
-        msg.className = "text-xs text-slate-500 font-mono h-5 flex items-center justify-center";
-      }
-    }
-
-    function checkAuthOnLoad() {
-      const token = sessionStorage.getItem('aegis_auth_token');
-      if (token === TARGET_PIN_HASH) {
-        unlockUI();
-      }
-    }
-
-    window.addEventListener('keydown', (e) => {
-      const gate = document.getElementById('security-gate');
-      if (gate && gate.style.display !== 'none' && !gate.classList.contains('pointer-events-none')) {
-        if (e.key >= '0' && e.key <= '9') {
-          pressKey(e.key);
-        } else if (e.key === 'Backspace') {
-          clearPin();
-        } else if (e.key === 'Enter') {
-          submitPin();
-        }
-      }
-    });
-
     // -------------------------------------------------------------
     // DANE RAPORTU
     // -------------------------------------------------------------
@@ -1503,7 +1309,6 @@
     }
 
     document.addEventListener('DOMContentLoaded', () => {
-      checkAuthOnLoad();
       initMap();
       initCharts();
     });

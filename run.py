@@ -52,6 +52,17 @@ def main():
     # 2b. Wzbogacenie o zweryfikowane incydenty
     enrich_database(db)
 
+    # 2c. Telemetria satelitarna NASA FIRMS (jeśli skonfigurowano MAP_KEY)
+    try:
+        from nasa_firms import fetch_nasa_firms_hotspots
+        firms_events = fetch_nasa_firms_hotspots()
+        if firms_events:
+            added_firms = sum(1 for ev in firms_events if db.add_event(ev))
+            print(f"🛰️ Dodano {added_firms} nowych anomalii satelitarnych NASA FIRMS do bazy.")
+            db.save()
+    except Exception as e:
+        print(f"ℹ️ [NASA FIRMS] Pominięto pobieranie satelitarne: {e}")
+
     # 3. Analiza statystyczna, redukcja szumów i deduplikacja
     print("🧠 Analiza danych, redukcja szumów i inteligentna deduplikacja...")
     all_events = db.get_all_events()

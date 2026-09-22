@@ -44,6 +44,8 @@ jobs:
           pip install -r requirements.txt
 
       - name: 📡 Pobieranie Danych Radarowych, Analiza Krajów i Generowanie Raportu HTML
+        env:
+          FIRMS_MAP_KEY: ${{ secrets.FIRMS_MAP_KEY }}
         run: |
           python run.py --pages 5
 
