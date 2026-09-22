@@ -6,7 +6,7 @@
   <title>AEGIS OSINT RADAR | Global Tactical Intelligence</title>
   
   <!-- Content Security Policy: Ochrona przed XSS i obcym kodem -->
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' https://unpkg.com https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://*.tile.openstreetmap.org https://*.basemaps.cartocdn.com; img-src 'self' data: https:; font-src https://cdnjs.cloudflare.com https://fonts.gstatic.com; connect-src 'self';">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' https://unpkg.com https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://*.tile.openstreetmap.org https://*.basemaps.cartocdn.com https://gibs.earthdata.nasa.gov https://*.arcgisonline.com; img-src 'self' data: https:; font-src https://cdnjs.cloudflare.com https://fonts.gstatic.com; connect-src 'self' https://gibs.earthdata.nasa.gov;">
 
   <!-- Tailwind CSS & FontAwesome -->
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -528,6 +528,15 @@
             <button onclick="setMapFilter('all')" id="mf-all" class="map-filter-btn px-2.5 py-1 rounded bg-slate-700 text-white font-semibold border border-slate-600">Wszystkie</button>
             <button onclick="setMapFilter('cross_check')" id="mf-cross_check" class="map-filter-btn px-2.5 py-1 rounded bg-emerald-950/60 text-emerald-300 border border-emerald-700/60 font-semibold"><i class="fa-solid fa-shield-halved text-xs mr-1"></i>🛡️ Wieloźródłowe</button>
             <button onclick="setMapFilter('fire')" id="mf-fire" class="map-filter-btn px-2.5 py-1 rounded bg-amber-950/60 text-amber-300 border border-amber-700/60 font-semibold"><i class="fa-solid fa-fire text-xs mr-1"></i>🔥 Pożary</button>
+            <button onclick="toggleNasaFirmsLayer()" id="btn-nasa-firms" class="map-filter-btn px-2.5 py-1 rounded bg-slate-800 text-orange-400 border border-orange-500/50 hover:bg-orange-950/40 font-semibold flex items-center space-x-1.5 transition cursor-pointer">
+              <i class="fa-solid fa-satellite text-xs animate-pulse text-orange-400"></i>
+              <span>🛰️ Satelita NASA FIRMS</span>
+              <span id="nasa-firms-status" class="px-1.5 py-0.2 rounded text-[10px] bg-slate-700 text-slate-300 font-mono">OFF</span>
+            </button>
+            <button onclick="toggleSatelliteBaseMap()" id="btn-sat-basemap" class="map-filter-btn px-2.5 py-1 rounded bg-slate-800 text-blue-400 border border-blue-500/50 hover:bg-blue-950/40 font-semibold flex items-center space-x-1.5 transition cursor-pointer">
+              <i class="fa-solid fa-earth-americas text-xs"></i>
+              <span>Foto Satelitarne</span>
+            </button>
             <button onclick="setMapFilter('explosions')" id="mf-explosions" class="map-filter-btn px-2.5 py-1 rounded bg-slate-800 text-slate-300 border border-slate-700">💥 Wybuchy/Ostrzał</button>
             <button onclick="setMapFilter('drones')" id="mf-drones" class="map-filter-btn px-2.5 py-1 rounded bg-slate-800 text-slate-300 border border-slate-700">🛸 Drony Kamikaze</button>
             <button onclick="setMapFilter('missiles')" id="mf-missiles" class="map-filter-btn px-2.5 py-1 rounded bg-slate-800 text-slate-300 border border-slate-700">🚀 Rakiety</button>
@@ -748,22 +757,101 @@
     }
 
     // -------------------------------------------------------------
-    // MAPA LEAFLET & FILTRY TAKTYCZNE
+    // MAPA LEAFLET, NASA FIRMS (SATELITA) & FILTRY TAKTYCZNE
     // -------------------------------------------------------------
     let markersLayer = null;
+    let darkBaseLayer = null;
+    let satelliteBaseLayer = null;
+    let nasaFirmsLayer = null;
+    let isNasaFirmsActive = false;
+    let isSatBaseActive = false;
     let currentMapFilter = 'all';
 
     function initMap() {
       const map = L.map('map-container').setView([42.0, 36.0], 4);
       window.leafletMap = map;
 
-      L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+      // 1. Domyślny ciemny podkład taktyczny
+      darkBaseLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
         attribution: '&copy; OpenStreetMap &copy; CARTO',
         maxZoom: 18
       }).addTo(map);
 
+      // 2. Podkład zdjęć satelitarnych wysokiej rozdzielczości (Esri World Imagery)
+      satelliteBaseLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+        attribution: 'Tiles &copy; Esri World Imagery',
+        maxZoom: 18
+      });
+
+      // 3. Darmowa Warstwa NASA FIRMS / GIBS (Anomalie Termiczne z Satelitów VIIRS 375m)
+      const todayIso = new Date().toISOString().split('T')[0];
+      nasaFirmsLayer = L.tileLayer.wms('https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi', {
+        layers: 'VIIRS_SNPP_Thermal_Anomalies_375m_All',
+        format: 'image/png',
+        transparent: true,
+        opacity: 0.85,
+        TIME: todayIso,
+        attribution: '&copy; NASA Earthdata / FIRMS / VIIRS Thermal Anomalies'
+      });
+
       markersLayer = L.layerGroup().addTo(map);
       renderMapMarkers('all');
+    }
+
+    function toggleNasaFirmsLayer() {
+      if (!window.leafletMap || !nasaFirmsLayer) return;
+      const statusEl = document.getElementById('nasa-firms-status');
+      const btn = document.getElementById('btn-nasa-firms');
+
+      if (isNasaFirmsActive) {
+        window.leafletMap.removeLayer(nasaFirmsLayer);
+        isNasaFirmsActive = false;
+        if (statusEl) {
+          statusEl.textContent = 'OFF';
+          statusEl.className = 'px-1.5 py-0.2 rounded text-[10px] bg-slate-700 text-slate-300 font-mono';
+        }
+        if (btn) {
+          btn.classList.remove('bg-orange-950/80', 'border-orange-500', 'text-orange-300');
+          btn.classList.add('bg-slate-800', 'text-orange-400');
+        }
+      } else {
+        nasaFirmsLayer.addTo(window.leafletMap);
+        if (markersLayer) markersLayer.bringToFront();
+        isNasaFirmsActive = true;
+        if (statusEl) {
+          statusEl.textContent = 'LIVE ON';
+          statusEl.className = 'px-1.5 py-0.2 rounded text-[10px] bg-orange-500 text-slate-950 font-bold font-mono';
+        }
+        if (btn) {
+          btn.classList.add('bg-orange-950/80', 'border-orange-500', 'text-orange-300');
+          btn.classList.remove('bg-slate-800', 'text-orange-400');
+        }
+      }
+    }
+
+    function toggleSatelliteBaseMap() {
+      if (!window.leafletMap || !satelliteBaseLayer || !darkBaseLayer) return;
+      const btn = document.getElementById('btn-sat-basemap');
+
+      if (isSatBaseActive) {
+        window.leafletMap.removeLayer(satelliteBaseLayer);
+        darkBaseLayer.addTo(window.leafletMap);
+        darkBaseLayer.bringToBack();
+        isSatBaseActive = false;
+        if (btn) {
+          btn.classList.remove('bg-blue-950/80', 'border-blue-400', 'text-blue-200');
+          btn.classList.add('bg-slate-800', 'text-blue-400');
+        }
+      } else {
+        window.leafletMap.removeLayer(darkBaseLayer);
+        satelliteBaseLayer.addTo(window.leafletMap);
+        satelliteBaseLayer.bringToBack();
+        isSatBaseActive = true;
+        if (btn) {
+          btn.classList.add('bg-blue-950/80', 'border-blue-400', 'text-blue-200');
+          btn.classList.remove('bg-slate-800', 'text-blue-400');
+        }
+      }
     }
 
     function getCountryColor(country) {
