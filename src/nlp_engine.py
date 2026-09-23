@@ -442,7 +442,7 @@ class MilitaryNLPEngine:
         c = channel_or_name.lower().strip().lstrip("#")
         
         KNOWN_NAMES = {
-            "kpszsu": "Dowództwo SP UA (kpszsu)",
+            "kpszsu": "SP UA (kpszsu)",
             "deepstateua": "DeepState",
             "rybar": "Rybar",
             "astrapress": "Astra",
@@ -451,9 +451,9 @@ class MilitaryNLPEngine:
             "clashreport": "Clash Report",
             "warmonitor3": "War Monitor",
             "uamap": "Liveuamap",
-            "vitaliy_klitschko": "W. Kliczko (Kijów)",
-            "dnipropetrovskaoda": "Dniepropietrowska ODA",
-            "syrianmilitary": "Syrian Military",
+            "vitaliy_klitschko": "Kliczko (Kijów)",
+            "dnipropetrovskaoda": "Dniepro ODA",
+            "syrianmilitary": "Syrian Mil",
             "hebrew_news": "Hebrew News",
             "almayadeen": "Al Mayadeen",
             "almanar": "Al-Manar",
@@ -533,6 +533,12 @@ class MilitaryNLPEngine:
             for j in range(i + 1, len(sorted_events)):
                 ev2 = sorted_events[j]
                 if ev2["id"] in used_ids:
+                    continue
+
+                # Nie łącz różnych wpisów z tego samego kanału (to są odrębne aktualizacje chronologiczne!)
+                ch1 = canonical.get("source_channel")
+                ch2 = ev2.get("source_channel")
+                if ch1 and ch2 and ch1 == ch2 and canonical.get("url") != ev2.get("url"):
                     continue
 
                 loc2 = (ev2.get("location_name") or "").lower().split(",")[0].split("/")[0].strip()

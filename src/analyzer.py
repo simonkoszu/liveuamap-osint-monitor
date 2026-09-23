@@ -82,28 +82,42 @@ class ConflictAnalyzer:
                 e["time_pl_short"] = ""
 
             # Standaryzacja i kompletowanie wieloźródłowych odnośników taktycznych (Tactical Sources)
-            tactical_sources = []
+            raw_sources = []
             seen_urls = set()
 
-            # 1. Źródła już obecne w obiekcie
+            def _extract_channel(url_str: str, fallback_ch: str = "") -> str:
+                if not url_str:
+                    return fallback_ch.lower().strip().lstrip("#")
+                if "firms.modaps.eosdis.nasa.gov" in url_str:
+                    return "nasa_firms"
+                m = re.search(r"t\.me/(?:s/)?([^/?#]+)", url_str)
+                if m:
+                    return m.group(1).lower().strip()
+                return fallback_ch.lower().strip().lstrip("#")
+
+            # 1. Główny link zdarzenia (url) jako priorytet #1
+            main_url = (e.get("url") or "").strip()
+            ch_name = e.get("source_channel") or "Źródło"
+            if main_url and main_url not in seen_urls:
+                seen_urls.add(main_url)
+                raw_sources.append({
+                    "name": MilitaryNLPEngine.format_source_name(ch_name, main_url),
+                    "url": main_url,
+                    "channel": _extract_channel(main_url, ch_name)
+                })
+
+            # 2. Źródła już obecne w obiekcie
             for ts in e.get("tactical_sources", []):
                 u = (ts.get("url") or "").strip()
                 if u and u not in seen_urls:
                     seen_urls.add(u)
-                    tactical_sources.append({
-                        "name": ts.get("name") or MilitaryNLPEngine.format_source_name_from_url(u),
-                        "url": u
+                    ch = _extract_channel(u)
+                    src_name = MilitaryNLPEngine.format_source_name(ch, u) if ch else (ts.get("name") or MilitaryNLPEngine.format_source_name_from_url(u))
+                    raw_sources.append({
+                        "name": src_name,
+                        "url": u,
+                        "channel": ch
                     })
-
-            # 2. Główny link zdarzenia (url)
-            main_url = (e.get("url") or "").strip()
-            if main_url and main_url not in seen_urls:
-                seen_urls.add(main_url)
-                ch_name = e.get("source_channel") or "Źródło"
-                tactical_sources.insert(0, {
-                    "name": MilitaryNLPEngine.format_source_name(ch_name, main_url),
-                    "url": main_url
-                })
 
             # 3. Wyciągnij dodatkowe odnośniki z treści zdarzenia (np. cytowane źródła, Kliczko itp.)
             full_text = f"{e.get('text', '')} {e.get('title', '')} {e.get('text_pl', '')}"
@@ -114,30 +128,64 @@ class ConflictAnalyzer:
                     if not any(ign in fu_clean for ign in ["?q=", "?start=", "t.me/s/", "t.me/share"]):
                         seen_urls.add(fu_clean)
                         src_name = MilitaryNLPEngine.format_source_name_from_url(fu_clean)
-                        tactical_sources.append({
+                        raw_sources.append({
                             "name": src_name,
-                            "url": fu_clean
+                            "url": fu_clean,
+                            "channel": _extract_channel(fu_clean)
                         })
 
             # 4. Potwierdzone kanały z multi_source_verified (verified_by_sources)
-            # Jeśli dane źródło nie ma jeszcze bezpośredniego linku w liście, wygeneruj link kanoniczny
             for v_src in e.get("verified_by_sources", []):
                 if not v_src or v_src in ["OSINT", "OSINT Multi-Radar", "Satelity"]:
                     continue
+                v_clean = v_src.lower().strip().lstrip("#")
                 has_channel_link = any(
-                    v_src.lower() in (ts.get("name", "").lower() + ts.get("url", "").lower())
-                    for ts in tactical_sources
+                    v_clean == s.get("channel") or v_clean in s.get("url", "").lower()
+                    for s in raw_sources
                 )
                 if not has_channel_link:
-                    chan_url = f"https://t.me/{v_src}"
+                    chan_url = f"https://t.me/{v_clean}"
                     if chan_url not in seen_urls:
                         seen_urls.add(chan_url)
-                        tactical_sources.append({
-                            "name": MilitaryNLPEngine.format_source_name(v_src, chan_url),
-                            "url": chan_url
+                        raw_sources.append({
+                            "name": MilitaryNLPEngine.format_source_name(v_clean, chan_url),
+                            "url": chan_url,
+                            "channel": v_clean
                         })
 
-            e["tactical_sources"] = tactical_sources
+            # Formatowanie i deduplikacja:
+            # - Ogranicz do max 2 linków z jednego kanału (dla satelitów NASA max 1)
+            # - Jeśli ten sam kanał występuje wielokrotnie, doklej numer wpisu #post, by uniknąć identycznych przycisków
+            channel_counts = {}
+            for s in raw_sources:
+                ch = s.get("channel") or "other"
+                channel_counts[ch] = channel_counts.get(ch, 0) + 1
+
+            tactical_sources = []
+            channel_used = {}
+            for s in raw_sources:
+                ch = s.get("channel") or "other"
+                limit_for_ch = 1 if "nasa" in ch else 2
+                count_for_ch = channel_used.get(ch, 0)
+                if ch != "other" and count_for_ch >= limit_for_ch:
+                    continue
+                channel_used[ch] = count_for_ch + 1
+
+                label = s["name"]
+                if channel_counts.get(ch, 0) > 1:
+                    m = re.search(r"t\.me/[^/]+/(\d+)", s["url"])
+                    if m:
+                        post_num = m.group(1)
+                        label = f"{label} #{post_num}"
+                    elif count_for_ch > 0:
+                        label = f"{label} ({count_for_ch + 1})"
+
+                tactical_sources.append({
+                    "name": label,
+                    "url": s["url"]
+                })
+
+            e["tactical_sources"] = tactical_sources[:5]
 
     def _parse_iso(self, ts_str: str) -> Optional[datetime]:
         if not ts_str:

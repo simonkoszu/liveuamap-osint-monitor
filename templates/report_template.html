@@ -565,13 +565,13 @@
         <div class="space-y-3 max-h-[750px] overflow-y-auto custom-scroll pr-2">
           {% for ev in data.all_events %}
           {% set is_nasa_ev = (ev.is_nasa or ev.country == 'Czujniki NASA' or ev.source_channel == 'NASA FIRMS' or (ev.id and ev.id.startswith('nasa_firms'))) %}
-          <div class="event-card bg-slate-800/40 hover:bg-slate-800/70 transition rounded-lg p-3.5 border {% if is_nasa_ev %}border-orange-500/40 bg-orange-950/10 hover:border-orange-400/60{% else %}border-slate-700/60{% endif %} flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3"
-               data-category="{{ ev.tactical_category }}"
-               data-is-nasa="{{ 'true' if is_nasa_ev else 'false' }}"
-               data-is-crosscheck="{{ 'true' if ev.multi_source_verified else 'false' }}"
-               data-is-fire="{{ 'true' if ev.is_fire else 'false' }}">
-            <div class="flex-1">
-              <div class="flex flex-wrap items-center gap-1.5 text-[11px] text-slate-400 mb-1">
+          <div class="event-card bg-slate-800/40 hover:bg-slate-800/70 transition rounded-lg p-3.5 border {% if is_nasa_ev %}border-orange-500/40 bg-orange-950/10 hover:border-orange-400/60{% else %}border-slate-700/60{% endif %} flex flex-col gap-2.5"
+                data-category="{{ ev.tactical_category }}"
+                data-is-nasa="{{ 'true' if is_nasa_ev else 'false' }}"
+                data-is-crosscheck="{{ 'true' if ev.multi_source_verified else 'false' }}"
+                data-is-fire="{{ 'true' if ev.is_fire else 'false' }}">
+            <div class="w-full">
+              <div class="flex flex-wrap items-center gap-1.5 text-[11px] text-slate-400 mb-1.5">
                 <span class="text-sm mr-1">{{ ev.flag or '🌐' }}</span>
                 <span class="font-bold text-slate-200">{{ ev.country }}</span>
                 <span class="text-slate-600">•</span>
@@ -596,28 +596,23 @@
                 <span class="px-1.5 py-0.5 rounded bg-emerald-950/60 text-emerald-300 border border-emerald-800/40 font-semibold text-[10px]">🛡️ Cross-Check</span>
                 {% endif %}
               </div>
-              <h4 class="font-semibold text-sm text-slate-200 mb-0.5">{{ ev.title_pl or ev.title }}</h4>
-              <p class="text-xs text-slate-400">{{ ev.text_pl or ev.text }}</p>
+              <h4 class="font-semibold text-sm text-slate-200 mb-1 leading-snug">{{ ev.title_pl or ev.title }}</h4>
+              <p class="text-xs text-slate-400 leading-relaxed">{{ ev.text_pl or ev.text }}</p>
             </div>
             {% set sources = ev.tactical_sources or [{'name': ev.source_channel or 'OSINT', 'url': ev.url}] %}
-            {% if sources|length > 1 %}
-            <div class="flex flex-wrap items-center gap-1.5 mt-2 sm:mt-0 max-w-full justify-start sm:justify-end">
-              <span class="text-[10px] font-semibold text-slate-400 uppercase mr-0.5">Źródła ({{ sources|length }}):</span>
+            {% if sources %}
+            <div class="w-full pt-2 border-t border-slate-700/40 flex flex-wrap items-center gap-1.5 mt-0.5">
+              <span class="text-[10px] font-semibold text-slate-400 uppercase mr-1">Źródła taktyczne ({{ sources|length }}):</span>
               {% for src in sources %}
-              <a href="{{ src.url }}" target="_blank" rel="noopener noreferrer" 
-                 class="inline-flex items-center space-x-1 px-2 py-0.5 rounded bg-slate-800/90 hover:bg-slate-700 text-emerald-400 hover:text-emerald-300 border border-emerald-500/30 text-[11px] font-medium transition whitespace-nowrap shadow-sm"
+              {% set safe_url = src.url if (src.url and (src.url.startswith('http://') or src.url.startswith('https://'))) else ('https://t.me/' ~ ev.source_channel if ev.source_channel else 'https://liveuamap.com') %}
+              <a href="{{ safe_url }}" target="_blank" rel="noopener noreferrer" 
+                 class="inline-flex items-center space-x-1 px-2.5 py-1 rounded bg-slate-800/90 hover:bg-slate-700 text-emerald-400 hover:text-emerald-300 border border-emerald-500/30 text-[11px] font-medium transition whitespace-nowrap shadow-sm"
                  title="Otwórz wpis źródłowy: {{ src.name }}">
                 <i class="fa-solid fa-arrow-up-right-from-square text-[9px] text-emerald-400"></i>
                 <span>{{ src.name }} &rarr;</span>
               </a>
               {% endfor %}
             </div>
-            {% else %}
-            {% set single_src = sources[0] if sources else {'name': 'OSINT', 'url': ev.url or 'https://liveuamap.com'} %}
-            {% set safe_url = single_src.url if (single_src.url and (single_src.url.startswith('http://') or single_src.url.startswith('https://'))) else ('https://t.me/' ~ ev.source_channel if ev.source_channel else 'https://liveuamap.com') %}
-            <a href="{{ safe_url }}" target="_blank" rel="noopener noreferrer" class="text-xs text-emerald-400 hover:text-emerald-300 font-medium whitespace-nowrap inline-flex items-center space-x-1">
-              <span>Źródło Taktyczne &rarr;</span>
-            </a>
             {% endif %}
           </div>
           {% endfor %}
@@ -881,9 +876,9 @@
         <div class="space-y-3 max-h-[850px] overflow-y-auto custom-scroll pr-2">
           {% for ev in c.recent_events %}
           {% set is_nasa_ev = (ev.is_nasa or ev.country == 'Czujniki NASA' or ev.source_channel == 'NASA FIRMS' or (ev.id and ev.id.startswith('nasa_firms'))) %}
-          <div class="bg-slate-800/40 hover:bg-slate-800/70 transition rounded-lg p-3.5 border {% if is_nasa_ev %}border-orange-500/40 bg-orange-950/10 hover:border-orange-400/60{% else %}border-slate-700/60{% endif %} flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
-            <div class="flex-1">
-              <div class="flex flex-wrap items-center gap-1.5 text-[11px] text-slate-400 mb-1">
+          <div class="event-card bg-slate-800/40 hover:bg-slate-800/70 transition rounded-lg p-3.5 border {% if is_nasa_ev %}border-orange-500/40 bg-orange-950/10 hover:border-orange-400/60{% else %}border-slate-700/60{% endif %} flex flex-col gap-2.5">
+            <div class="w-full">
+              <div class="flex flex-wrap items-center gap-1.5 text-[11px] text-slate-400 mb-1.5">
                 <span class="font-mono text-slate-300 font-semibold" title="Czas publikacji UTC: {{ ev.timestamp[:16].replace('T', ' ') if ev.timestamp else '' }} UTC">{{ ev.time_pl if ev.time_pl else (ev.timestamp[:16].replace('T', ' ') if ev.timestamp else '') }} <span class="text-[10px] text-slate-400 font-sans font-normal">czas PL</span></span>
                 {% if is_nasa_ev %}
                 <span class="px-1.5 py-0.5 rounded bg-orange-950/80 text-orange-300 border border-orange-700/50 font-semibold text-[10px]">🛰️ CZUJNIK NASA FIRMS</span>
@@ -905,28 +900,23 @@
                 <span class="px-1.5 py-0.5 rounded bg-emerald-950/60 text-emerald-300 border border-emerald-800/40 font-semibold text-[10px]">🛡️ Cross-Check ({{ (ev.verified_by_sources or [])|join('+') }})</span>
                 {% endif %}
               </div>
-              <h4 class="font-semibold text-sm text-slate-200 mb-0.5">{{ ev.title_pl or ev.title }}</h4>
-              <p class="text-xs text-slate-400">{{ ev.text_pl or ev.text }}</p>
+              <h4 class="font-semibold text-sm text-slate-200 mb-1 leading-snug">{{ ev.title_pl or ev.title }}</h4>
+              <p class="text-xs text-slate-400 leading-relaxed">{{ ev.text_pl or ev.text }}</p>
             </div>
             {% set sources = ev.tactical_sources or [{'name': ev.source_channel or 'OSINT', 'url': ev.url}] %}
-            {% if sources|length > 1 %}
-            <div class="flex flex-wrap items-center gap-1.5 mt-2 sm:mt-0 max-w-full justify-start sm:justify-end">
-              <span class="text-[10px] font-semibold text-slate-400 uppercase mr-0.5">Źródła ({{ sources|length }}):</span>
+            {% if sources %}
+            <div class="w-full pt-2 border-t border-slate-700/40 flex flex-wrap items-center gap-1.5 mt-0.5">
+              <span class="text-[10px] font-semibold text-slate-400 uppercase mr-1">Źródła taktyczne ({{ sources|length }}):</span>
               {% for src in sources %}
-              <a href="{{ src.url }}" target="_blank" rel="noopener noreferrer" 
-                 class="inline-flex items-center space-x-1 px-2 py-0.5 rounded bg-slate-800/90 hover:bg-slate-700 text-emerald-400 hover:text-emerald-300 border border-emerald-500/30 text-[11px] font-medium transition whitespace-nowrap shadow-sm"
+              {% set safe_url = src.url if (src.url and (src.url.startswith('http://') or src.url.startswith('https://'))) else ('https://t.me/' ~ ev.source_channel if ev.source_channel else 'https://liveuamap.com') %}
+              <a href="{{ safe_url }}" target="_blank" rel="noopener noreferrer" 
+                 class="inline-flex items-center space-x-1 px-2.5 py-1 rounded bg-slate-800/90 hover:bg-slate-700 text-emerald-400 hover:text-emerald-300 border border-emerald-500/30 text-[11px] font-medium transition whitespace-nowrap shadow-sm"
                  title="Otwórz wpis źródłowy: {{ src.name }}">
                 <i class="fa-solid fa-arrow-up-right-from-square text-[9px] text-emerald-400"></i>
                 <span>{{ src.name }} &rarr;</span>
               </a>
               {% endfor %}
             </div>
-            {% else %}
-            {% set single_src = sources[0] if sources else {'name': 'OSINT', 'url': ev.url or 'https://liveuamap.com'} %}
-            {% set safe_url = single_src.url if (single_src.url and (single_src.url.startswith('http://') or single_src.url.startswith('https://'))) else ('https://t.me/' ~ ev.source_channel if ev.source_channel else 'https://liveuamap.com') %}
-            <a href="{{ safe_url }}" target="_blank" rel="noopener noreferrer" class="text-xs text-emerald-400 hover:text-emerald-300 font-medium whitespace-nowrap inline-flex items-center space-x-1">
-              <span>Źródło Taktyczne &rarr;</span>
-            </a>
             {% endif %}
           </div>
           {% else %}
