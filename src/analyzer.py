@@ -654,8 +654,20 @@ class ConflictAnalyzer:
 
         top_configs_24h = [
             {
-                "id": "5db3064f15e1d97b",
+                "id": "9143e8b15f31d20b",
                 "rank": 1,
+                "badge": "🚨 BEZPOŚREDNIE NARUSZENIE PRZESTRZENI RP (MI-8)",
+                "badge_color": "bg-red-950/80 text-red-200 border-red-500/60",
+                "severity": "KRYTYCZNY (NARUSZENIE GRANICY PAŃSTWOWEJ NATO)",
+                "threat_score": 99,
+                "summary": "Rosyjski wojskowy śmigłowiec Mi-8 wleciał na 42 sekundy na głębokość ok. 300 m w polską przestrzeń powietrzną na północ od Braniewa (strefa graniczna Obwodu Królewieckiego).",
+                "direct_impact": "Bezpośrednie naruszenie suwerennej przestrzeni powietrznej RP i sojuszu NATO. Natychmiastowe poderwanie dyżurnych par myśliwskich QRA SZ RP oraz postawienie w stan gotowości bojowej naziemnych sił OPL.",
+                "military_scenario": "Świadome sondowanie czasu reakcji polskich posterunków radiolokacyjnych, łańcucha dowodzenia DO RSZ i dyżurów bojowych 22. Bazy Lotnictwa Taktycznego w Malborku pod kątem odporności wschodniej flanki NATO.",
+                "recommendation": "Nota protestacyjna MSZ, pilne konsultacje w formacie NATO (Art. 4), intensyfikacja patroli Air Policing nad Warmią i Mazurami oraz wzmocnienie obrony przeciwlotniczej północnej granicy."
+            },
+            {
+                "id": "5db3064f15e1d97b",
+                "rank": 2,
                 "badge": "🚨 DRONY ODRZUTOWE NA KIERUNKU WOŁYŃ / RÓWNE",
                 "badge_color": "bg-red-950/80 text-red-200 border-red-500/60",
                 "severity": "KRYTYCZNY (ZAGROŻENIE PRZYGRANICZNE)",
@@ -667,7 +679,7 @@ class ConflictAnalyzer:
             },
             {
                 "id": "64de34bdf27a1eb6",
-                "rank": 2,
+                "rank": 3,
                 "badge": "✈️ ZASOBY I GOTOWOŚĆ BOJOWA F-16 NATO",
                 "badge_color": "bg-red-950/80 text-red-200 border-red-500/60",
                 "severity": "BARDZO WYSOKI (POTENCJAŁ POWIETRZNY SOJUSZU)",
@@ -775,13 +787,35 @@ class ConflictAnalyzer:
             }
         ]
 
+        # Dynamiczne dołączanie innych incydentów bezpośrednio na terytorium RP
+        known_ids = {cfg["id"] for cfg in top_configs_24h}
+        for ev in events:
+            if ev.get("country") == "Polska" and ev.get("id") not in known_ids:
+                cat = ev.get("tactical_category", "Incydent w Polsce")
+                top_configs_24h.append({
+                    "id": ev["id"],
+                    "rank": 99,
+                    "badge": f"🇵🇱 {cat.upper()}",
+                    "badge_color": "bg-red-950/80 text-red-200 border-red-500/60",
+                    "severity": "WYSOKI (INCIDENT NA TERYTORIUM RP)",
+                    "threat_score": 80 + min(18, ev.get("threat_score", 5) * 2),
+                    "summary": ev.get("title_pl") or ev.get("title") or "Incydent w polskiej przestrzeni",
+                    "direct_impact": "Incydent odnotowany bezpośrednio w polskiej przestrzeni powietrznej lub na granicy państwowej RP.",
+                    "military_scenario": "Testowanie systemów obronnych RP i procedur reagowania sojuszniczego na wschodniej flance NATO.",
+                    "recommendation": "Utrzymanie stanu podwyższonej gotowości Sił Zbrojnych RP i ciągła wymiana informacji wywiadowczych z NATO."
+                })
+                known_ids.add(ev["id"])
+
+        # Sortowanie według wagi zagrożenia
+        top_configs_24h.sort(key=lambda c: c["threat_score"], reverse=True)
+
         top10_results = []
         for cfg in top_configs_24h:
             ev = events_by_id.get(cfg["id"])
             if not ev:
                 continue
             item = dict(ev)
-            item["poland_rank"] = cfg["rank"]
+            item["poland_rank"] = len(top10_results) + 1
             item["poland_badge"] = cfg["badge"]
             item["poland_badge_color"] = cfg["badge_color"]
             item["poland_severity"] = cfg["severity"]
@@ -791,6 +825,8 @@ class ConflictAnalyzer:
             item["poland_military_scenario"] = cfg["military_scenario"]
             item["poland_recommendation"] = cfg["recommendation"]
             top10_results.append(item)
+            if len(top10_results) >= 10:
+                break
 
         return top10_results
 
@@ -802,8 +838,20 @@ class ConflictAnalyzer:
 
         top_configs_7d = [
             {
-                "id": "0b90944c23ee8b85",
+                "id": "9143e8b15f31d20b",
                 "rank": 1,
+                "badge": "🚨 BEZPOŚREDNIE NARUSZENIE PRZESTRZENI RP (MI-8)",
+                "badge_color": "bg-red-950/80 text-red-200 border-red-500/60",
+                "severity": "KRYTYCZNY (NARUSZENIE GRANICY PAŃSTWOWEJ NATO)",
+                "threat_score": 99,
+                "summary": "Rosyjski wojskowy śmigłowiec Mi-8 wleciał na 42 sekundy na głębokość ok. 300 m w polską przestrzeń powietrzną na północ od Braniewa (strefa graniczna Obwodu Królewieckiego).",
+                "direct_impact": "Bezpośrednie naruszenie suwerennej przestrzeni powietrznej RP i sojuszu NATO. Natychmiastowe poderwanie dyżurnych par myśliwskich QRA SZ RP oraz postawienie w stan gotowości bojowej naziemnych sił OPL.",
+                "military_scenario": "Świadome sondowanie czasu reakcji polskich posterunków radiolokacyjnych, łańcucha dowodzenia DO RSZ i dyżurów bojowych 22. Bazy Lotnictwa Taktycznego w Malborku pod kątem odporności wschodniej flanki NATO.",
+                "recommendation": "Nota protestacyjna MSZ, pilne konsultacje w formacie NATO (Art. 4), intensyfikacja patroli Air Policing nad Warmią i Mazurami oraz wzmocnienie obrony przeciwlotniczej północnej granicy."
+            },
+            {
+                "id": "0b90944c23ee8b85",
+                "rank": 2,
                 "badge": "🚀 HIPERSONICZNE PRZEŁAMANIE OPL (CYRKON / KN-23)",
                 "badge_color": "bg-red-950/80 text-red-200 border-red-500/60",
                 "severity": "BARDZO WYSOKI (ESKALACJA BALISTYCZNA)",
@@ -923,13 +971,35 @@ class ConflictAnalyzer:
             }
         ]
 
+        # Dynamiczne dołączanie innych incydentów bezpośrednio na terytorium RP
+        known_ids = {cfg["id"] for cfg in top_configs_7d}
+        for ev in events:
+            if ev.get("country") == "Polska" and ev.get("id") not in known_ids:
+                cat = ev.get("tactical_category", "Incydent w Polsce")
+                top_configs_7d.append({
+                    "id": ev["id"],
+                    "rank": 99,
+                    "badge": f"🇵🇱 {cat.upper()}",
+                    "badge_color": "bg-red-950/80 text-red-200 border-red-500/60",
+                    "severity": "WYSOKI (INCIDENT NA TERYTORIUM RP)",
+                    "threat_score": 80 + min(18, ev.get("threat_score", 5) * 2),
+                    "summary": ev.get("title_pl") or ev.get("title") or "Incydent w polskiej przestrzeni",
+                    "direct_impact": "Incydent odnotowany bezpośrednio w polskiej przestrzeni powietrznej lub na granicy państwowej RP.",
+                    "military_scenario": "Testowanie systemów obronnych RP i procedur reagowania sojuszniczego na wschodniej flance NATO.",
+                    "recommendation": "Utrzymanie stanu podwyższonej gotowości Sił Zbrojnych RP i ciągła wymiana informacji wywiadowczych z NATO."
+                })
+                known_ids.add(ev["id"])
+
+        # Sortowanie według wagi zagrożenia
+        top_configs_7d.sort(key=lambda c: c["threat_score"], reverse=True)
+
         top10_results = []
         for cfg in top_configs_7d:
             ev = events_by_id.get(cfg["id"])
             if not ev:
                 continue
             item = dict(ev)
-            item["poland_rank"] = cfg["rank"]
+            item["poland_rank"] = len(top10_results) + 1
             item["poland_badge"] = cfg["badge"]
             item["poland_badge_color"] = cfg["badge_color"]
             item["poland_severity"] = cfg["severity"]
@@ -939,5 +1009,7 @@ class ConflictAnalyzer:
             item["poland_military_scenario"] = cfg["military_scenario"]
             item["poland_recommendation"] = cfg["recommendation"]
             top10_results.append(item)
+            if len(top10_results) >= 10:
+                break
 
         return top10_results
