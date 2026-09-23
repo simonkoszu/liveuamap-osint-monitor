@@ -312,6 +312,23 @@ class AegisOSINTScraper:
                         else:
                             primary_link = "https://liveuamap.com"
 
+                        # Wszystkie wykryte linki źródłowe i cytowane w poście (Tactical Sources)
+                        tactical_sources = []
+                        if primary_link:
+                            tactical_sources.append({
+                                "name": MilitaryNLPEngine.format_source_name(channel or "OSINT", primary_link),
+                                "url": primary_link
+                            })
+
+                        for link in links:
+                            if link and link != primary_link and not any(x.get("url") == link for x in tactical_sources):
+                                if not any(ign in link for ign in ["?q=", "?start=", "t.me/s/", "t.me/share"]):
+                                    src_name = MilitaryNLPEngine.format_source_name_from_url(link)
+                                    tactical_sources.append({
+                                        "name": src_name,
+                                        "url": link
+                                    })
+
                         # Zdjęcia / podglądy multimediów
                         media_urls = []
                         for photo in block.find_all("a", class_="tgme_widget_message_photo_wrap"):
@@ -360,6 +377,7 @@ class AegisOSINTScraper:
                             "lat": lat,
                             "lon": lon,
                             "url": primary_link,
+                            "tactical_sources": tactical_sources,
                             "media_urls": media_urls,
                             "weapons": weapons,
                             "target_type": target_type,

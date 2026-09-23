@@ -599,8 +599,26 @@
               <h4 class="font-semibold text-sm text-slate-200 mb-0.5">{{ ev.title_pl or ev.title }}</h4>
               <p class="text-xs text-slate-400">{{ ev.text_pl or ev.text }}</p>
             </div>
-            {% set safe_url = ev.url if (ev.url and (ev.url.startswith('http://') or ev.url.startswith('https://'))) else ('https://t.me/' ~ ev.source_channel if ev.source_channel else 'https://liveuamap.com') %}
-            <a href="{{ safe_url }}" target="_blank" rel="noopener noreferrer" class="text-xs text-emerald-400 hover:text-emerald-300 font-medium whitespace-nowrap">Źródło Taktyczne &rarr;</a>
+            {% set sources = ev.tactical_sources or [{'name': ev.source_channel or 'OSINT', 'url': ev.url}] %}
+            {% if sources|length > 1 %}
+            <div class="flex flex-wrap items-center gap-1.5 mt-2 sm:mt-0 max-w-full justify-start sm:justify-end">
+              <span class="text-[10px] font-semibold text-slate-400 uppercase mr-0.5">Źródła ({{ sources|length }}):</span>
+              {% for src in sources %}
+              <a href="{{ src.url }}" target="_blank" rel="noopener noreferrer" 
+                 class="inline-flex items-center space-x-1 px-2 py-0.5 rounded bg-slate-800/90 hover:bg-slate-700 text-emerald-400 hover:text-emerald-300 border border-emerald-500/30 text-[11px] font-medium transition whitespace-nowrap shadow-sm"
+                 title="Otwórz wpis źródłowy: {{ src.name }}">
+                <i class="fa-solid fa-arrow-up-right-from-square text-[9px] text-emerald-400"></i>
+                <span>{{ src.name }} &rarr;</span>
+              </a>
+              {% endfor %}
+            </div>
+            {% else %}
+            {% set single_src = sources[0] if sources else {'name': 'OSINT', 'url': ev.url or 'https://liveuamap.com'} %}
+            {% set safe_url = single_src.url if (single_src.url and (single_src.url.startswith('http://') or single_src.url.startswith('https://'))) else ('https://t.me/' ~ ev.source_channel if ev.source_channel else 'https://liveuamap.com') %}
+            <a href="{{ safe_url }}" target="_blank" rel="noopener noreferrer" class="text-xs text-emerald-400 hover:text-emerald-300 font-medium whitespace-nowrap inline-flex items-center space-x-1">
+              <span>Źródło Taktyczne &rarr;</span>
+            </a>
+            {% endif %}
           </div>
           {% endfor %}
         </div>
@@ -890,8 +908,26 @@
               <h4 class="font-semibold text-sm text-slate-200 mb-0.5">{{ ev.title_pl or ev.title }}</h4>
               <p class="text-xs text-slate-400">{{ ev.text_pl or ev.text }}</p>
             </div>
-            {% set safe_url = ev.url if (ev.url and (ev.url.startswith('http://') or ev.url.startswith('https://'))) else ('https://t.me/' ~ ev.source_channel if ev.source_channel else 'https://liveuamap.com') %}
-            <a href="{{ safe_url }}" target="_blank" rel="noopener noreferrer" class="text-xs text-emerald-400 hover:text-emerald-300 font-medium whitespace-nowrap">Źródło Taktyczne &rarr;</a>
+            {% set sources = ev.tactical_sources or [{'name': ev.source_channel or 'OSINT', 'url': ev.url}] %}
+            {% if sources|length > 1 %}
+            <div class="flex flex-wrap items-center gap-1.5 mt-2 sm:mt-0 max-w-full justify-start sm:justify-end">
+              <span class="text-[10px] font-semibold text-slate-400 uppercase mr-0.5">Źródła ({{ sources|length }}):</span>
+              {% for src in sources %}
+              <a href="{{ src.url }}" target="_blank" rel="noopener noreferrer" 
+                 class="inline-flex items-center space-x-1 px-2 py-0.5 rounded bg-slate-800/90 hover:bg-slate-700 text-emerald-400 hover:text-emerald-300 border border-emerald-500/30 text-[11px] font-medium transition whitespace-nowrap shadow-sm"
+                 title="Otwórz wpis źródłowy: {{ src.name }}">
+                <i class="fa-solid fa-arrow-up-right-from-square text-[9px] text-emerald-400"></i>
+                <span>{{ src.name }} &rarr;</span>
+              </a>
+              {% endfor %}
+            </div>
+            {% else %}
+            {% set single_src = sources[0] if sources else {'name': 'OSINT', 'url': ev.url or 'https://liveuamap.com'} %}
+            {% set safe_url = single_src.url if (single_src.url and (single_src.url.startswith('http://') or single_src.url.startswith('https://'))) else ('https://t.me/' ~ ev.source_channel if ev.source_channel else 'https://liveuamap.com') %}
+            <a href="{{ safe_url }}" target="_blank" rel="noopener noreferrer" class="text-xs text-emerald-400 hover:text-emerald-300 font-medium whitespace-nowrap inline-flex items-center space-x-1">
+              <span>Źródło Taktyczne &rarr;</span>
+            </a>
+            {% endif %}
           </div>
           {% else %}
           <div class="text-slate-500 text-xs italic py-4">Brak zarejestrowanych incydentów dla tego kraju.</div>
@@ -1976,6 +2012,39 @@
         const titleText = p.title_pl || p.title;
         const descText = p.text_pl || p.text;
 
+        let sourcesHtml = '';
+        const rawSources = (p.tactical_sources && p.tactical_sources.length > 0)
+          ? p.tactical_sources
+          : [{ name: p.source_channel || 'OSINT', url: (p.url && (p.url.startsWith('http://') || p.url.startsWith('https://'))) ? p.url : (p.source_channel ? 'https://t.me/' + p.source_channel : 'https://liveuamap.com') }];
+
+        if (rawSources.length > 1) {
+          sourcesHtml = `
+            <div class="mt-2 pt-1.5 border-t border-slate-700/60">
+              <div class="text-[9px] font-semibold text-slate-400 uppercase mb-1 flex items-center justify-between">
+                <span>Źródła taktyczne:</span>
+                <span class="text-emerald-400 font-mono font-bold">${rawSources.length} odnośniki</span>
+              </div>
+              <div class="flex flex-wrap gap-1">
+                ${rawSources.map(s => `
+                  <a href="${s.url}" target="_blank" rel="noopener noreferrer" 
+                     class="inline-flex items-center px-1.5 py-0.5 rounded bg-slate-800 hover:bg-slate-700 text-emerald-400 hover:text-emerald-300 border border-emerald-500/30 text-[9px] font-medium transition whitespace-nowrap">
+                    <i class="fa-solid fa-arrow-up-right-from-square text-[7px] mr-1"></i>${s.name} &rarr;
+                  </a>
+                `).join('')}
+              </div>
+            </div>
+          `;
+        } else {
+          const s = rawSources[0];
+          sourcesHtml = `
+            <div class="mt-1 text-right">
+              <a href="${s.url}" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:underline font-semibold text-[10px] inline-flex items-center">
+                <i class="fa-solid fa-arrow-up-right-from-square text-[8px] mr-1"></i>Źródło Taktyczne &rarr;
+              </a>
+            </div>
+          `;
+        }
+
         const popup = `
           <div class="p-1.5 text-xs max-w-[280px]">
             <div class="flex justify-between items-center mb-1">
@@ -1993,8 +2062,8 @@
             </div>
             <div class="flex justify-between items-center text-[10px] text-slate-500 pt-1 border-t border-slate-700">
               <span class="font-mono text-slate-300 font-semibold">${p.time_pl ? p.time_pl : (p.timestamp ? p.timestamp.substring(0, 16).replace('T', ' ') : '')} <span class="text-[9px] text-slate-400 font-sans font-normal">czas PL</span></span>
-              <a href="${(p.url && (p.url.startsWith('http://') || p.url.startsWith('https://'))) ? p.url : (p.source_channel ? 'https://t.me/' + p.source_channel : 'https://liveuamap.com')}" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:underline font-semibold">Źródło Taktyczne &rarr;</a>
             </div>
+            ${sourcesHtml}
           </div>
         `;
         circle.bindPopup(popup);

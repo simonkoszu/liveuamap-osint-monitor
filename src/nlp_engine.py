@@ -435,6 +435,59 @@ class MilitaryNLPEngine:
         return "Incydent Bojowy", "⚔️"
 
     @staticmethod
+    def format_source_name(channel_or_name: str, url: str = "") -> str:
+        """Formatuje nazwę kanału do czytelnej, eleganckiej etykiety źródła taktycznego."""
+        if not channel_or_name:
+            return "OSINT"
+        c = channel_or_name.lower().strip().lstrip("#")
+        
+        KNOWN_NAMES = {
+            "kpszsu": "Dowództwo SP UA (kpszsu)",
+            "deepstateua": "DeepState",
+            "rybar": "Rybar",
+            "astrapress": "Astra",
+            "bazabazon": "Baza",
+            "shot_shot": "Shot",
+            "clashreport": "Clash Report",
+            "warmonitor3": "War Monitor",
+            "uamap": "Liveuamap",
+            "vitaliy_klitschko": "W. Kliczko (Kijów)",
+            "dnipropetrovskaoda": "Dniepropietrowska ODA",
+            "syrianmilitary": "Syrian Military",
+            "hebrew_news": "Hebrew News",
+            "almayadeen": "Al Mayadeen",
+            "almanar": "Al-Manar",
+            "nasa firms": "Satelita NASA",
+            "nasa_firms": "Satelita NASA"
+        }
+        if c in KNOWN_NAMES:
+            return KNOWN_NAMES[c]
+        if url and "t.me/" in url:
+            return f"#{c}"
+        return c.capitalize()
+
+    @staticmethod
+    def format_source_name_from_url(url: str) -> str:
+        """Wyciąga czytelną nazwę taktyczną ze wskazanego adresu URL."""
+        if not url:
+            return "Źródło"
+        tg_match = re.search(r"t\.me/(?:s/)?([^/?#]+)", url)
+        if tg_match:
+            ch = tg_match.group(1).lower()
+            return MilitaryNLPEngine.format_source_name(ch, url)
+        dom_match = re.search(r"https?://(?:www\.)?([^/]+)", url)
+        if dom_match:
+            dom = dom_match.group(1).lower()
+            if "liveuamap" in dom:
+                return "Liveuamap"
+            if "reuters" in dom:
+                return "Reuters"
+            if "twitter" in dom or "x.com" in dom:
+                return "X / Twitter"
+            return dom
+        return "Źródło"
+
+    @staticmethod
     def deduplicate_and_merge_events(events: List[Dict[str, Any]]) -> Tuple[List[Dict[str, Any]], int]:
         """
         Inteligentna Deduplikacja i Łączenie Incydentów:
@@ -460,6 +513,17 @@ class MilitaryNLPEngine:
             canonical = dict(ev1)
             confirmed_sources = set([ev1.get("source_channel")] if ev1.get("source_channel") else ["OSINT"])
             all_media = set(ev1.get("media_urls", []))
+
+            # Inicjalizuj listę taktycznych źródeł (Tactical Sources)
+            tactical_sources = []
+            if ev1.get("url"):
+                tactical_sources.append({
+                    "name": MilitaryNLPEngine.format_source_name(ev1.get("source_channel") or "OSINT", ev1.get("url")),
+                    "url": ev1.get("url")
+                })
+            for ts in ev1.get("tactical_sources", []):
+                if ts.get("url") and not any(x.get("url") == ts["url"] for x in tactical_sources):
+                    tactical_sources.append(ts)
 
             loc1 = (canonical.get("location_name") or "").lower().split(",")[0].split("/")[0].strip()
             date1 = canonical.get("timestamp", "")[:10]
@@ -502,7 +566,7 @@ class MilitaryNLPEngine:
                 if not is_same_day:
                     continue
 
-                # 2. To samo konkretne miasto/obiekt (wykluczając nazwy całych teatrów)
+                # 2. To samo miasto/obiekt (wykluczając nazwy całych teatrów)
                 is_generic = (loc1 in GENERIC_LOCATIONS or loc2 in GENERIC_LOCATIONS or len(loc1) < 3 or len(loc2) < 3)
                 is_same_loc = not is_generic and (loc1 == loc2 or (len(loc1) >= 4 and len(loc2) >= 4 and (loc1 in loc2 or loc2 in loc1)))
 
@@ -518,11 +582,23 @@ class MilitaryNLPEngine:
 
                 common_target_keywords = [
                     "refinery", "нпз", "interpipe", "інтерпайп", "toropets", "торопец", "samara", "самар", 
-                    "kursk", "power", "grid", "blackout", "підстанц", "substation", "kuybyshevskyi"
+                    "kursk", "power", "grid", "blackout", "підстанц", "substation", "kuybyshevskyi",
+                    "туканс", "tukans", "вишнев", "вішнев", "трипольс", "трипільс"
                 ]
                 shares_target = any(kw in text1 and kw in text2 for kw in common_target_keywords)
 
-                is_duplicate = (is_same_loc or is_close_coord) and (shares_target or (cat1 == cat2 and is_same_loc and not is_generic))
+                words1 = set(re.findall(r'\b[a-zA-Zа-яА-Яіїєґ]{4,}\b', text1))
+                words2 = set(re.findall(r'\b[a-zA-Zа-яА-Яіїєґ]{4,}\b', text2))
+                overlap_count = len(words1.intersection(words2))
+                lexical_overlap = (overlap_count / max(1, min(len(words1), len(words2)))) if words1 and words2 else 0.0
+
+                is_duplicate = False
+                if shares_target:
+                    is_duplicate = True
+                elif is_same_loc and lexical_overlap >= 0.35 and (cat1 == cat2 or cat1 in ["Atak Dronów Kamikadze", "Eksplozja / Detonacja", "Uderzenie Balistyczne / Rakieta"]):
+                    is_duplicate = True
+                elif is_close_coord and lexical_overlap >= 0.40:
+                    is_duplicate = True
 
                 if is_duplicate:
                     # Scalanie: dodaj potwierdzenie ze źródła
@@ -532,9 +608,27 @@ class MilitaryNLPEngine:
                     for m in ev2.get("media_urls", []):
                         all_media.add(m)
 
-                    # Jeśli ev2 ma dłuższy/dokładniejszy tekst, uzupełnij
-                    if len(ev2.get("text", "")) > len(canonical.get("text", "")):
+                    # Zbierz linki taktyczne
+                    if ev2.get("url"):
+                        if not any(x.get("url") == ev2["url"] for x in tactical_sources):
+                            tactical_sources.append({
+                                "name": MilitaryNLPEngine.format_source_name(src2 or "OSINT", ev2["url"]),
+                                "url": ev2["url"]
+                            })
+                    for ts in ev2.get("tactical_sources", []):
+                        if ts.get("url") and not any(x.get("url") == ts["url"] for x in tactical_sources):
+                            tactical_sources.append(ts)
+
+                    # Uzupełnij spójnie jeśli ev2 ma znacznie bogatszy opis i spójny tytuł
+                    if len(ev2.get("text", "")) > len(canonical.get("text", "")) * 1.5:
                         canonical["text"] = ev2.get("text")
+                        if ev2.get("title"):
+                            canonical["title"] = ev2.get("title")
+                        if ev2.get("title_pl"):
+                            canonical["title_pl"] = ev2.get("title_pl")
+                        if ev2.get("text_pl"):
+                            canonical["text_pl"] = ev2.get("text_pl")
+
                     if ev2.get("is_fire"):
                         canonical["is_fire"] = True
 
@@ -545,7 +639,8 @@ class MilitaryNLPEngine:
             canonical["verified_by_sources"] = sorted(list(confirmed_sources))
             canonical["multi_source_verified"] = len(confirmed_sources) >= 2 or canonical.get("multi_source_verified", False)
             canonical["media_urls"] = list(all_media)
-            
+            canonical["tactical_sources"] = tactical_sources
+
             # Upewnij się, że ma precyzyjną kategorię taktyczną
             if "tactical_category" not in canonical or not canonical["tactical_category"]:
                 cat, icon = MilitaryNLPEngine.categorize_tactical_event(canonical.get("text", "") or canonical.get("title", ""))

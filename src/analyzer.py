@@ -1,3 +1,4 @@
+import re
 from datetime import datetime, timezone, timedelta
 from typing import List, Dict, Any, Optional
 from collections import Counter, defaultdict
@@ -79,6 +80,64 @@ class ConflictAnalyzer:
             else:
                 e["time_pl"] = ""
                 e["time_pl_short"] = ""
+
+            # Standaryzacja i kompletowanie wieloźródłowych odnośników taktycznych (Tactical Sources)
+            tactical_sources = []
+            seen_urls = set()
+
+            # 1. Źródła już obecne w obiekcie
+            for ts in e.get("tactical_sources", []):
+                u = (ts.get("url") or "").strip()
+                if u and u not in seen_urls:
+                    seen_urls.add(u)
+                    tactical_sources.append({
+                        "name": ts.get("name") or MilitaryNLPEngine.format_source_name_from_url(u),
+                        "url": u
+                    })
+
+            # 2. Główny link zdarzenia (url)
+            main_url = (e.get("url") or "").strip()
+            if main_url and main_url not in seen_urls:
+                seen_urls.add(main_url)
+                ch_name = e.get("source_channel") or "Źródło"
+                tactical_sources.insert(0, {
+                    "name": MilitaryNLPEngine.format_source_name(ch_name, main_url),
+                    "url": main_url
+                })
+
+            # 3. Wyciągnij dodatkowe odnośniki z treści zdarzenia (np. cytowane źródła, Kliczko itp.)
+            full_text = f"{e.get('text', '')} {e.get('title', '')} {e.get('text_pl', '')}"
+            found_urls = re.findall(r'https?://[^\s)\]"\'>]+', full_text)
+            for fu in found_urls:
+                fu_clean = fu.rstrip(".,;:!?)")
+                if fu_clean and fu_clean not in seen_urls:
+                    if not any(ign in fu_clean for ign in ["?q=", "?start=", "t.me/s/", "t.me/share"]):
+                        seen_urls.add(fu_clean)
+                        src_name = MilitaryNLPEngine.format_source_name_from_url(fu_clean)
+                        tactical_sources.append({
+                            "name": src_name,
+                            "url": fu_clean
+                        })
+
+            # 4. Potwierdzone kanały z multi_source_verified (verified_by_sources)
+            # Jeśli dane źródło nie ma jeszcze bezpośredniego linku w liście, wygeneruj link kanoniczny
+            for v_src in e.get("verified_by_sources", []):
+                if not v_src or v_src in ["OSINT", "OSINT Multi-Radar", "Satelity"]:
+                    continue
+                has_channel_link = any(
+                    v_src.lower() in (ts.get("name", "").lower() + ts.get("url", "").lower())
+                    for ts in tactical_sources
+                )
+                if not has_channel_link:
+                    chan_url = f"https://t.me/{v_src}"
+                    if chan_url not in seen_urls:
+                        seen_urls.add(chan_url)
+                        tactical_sources.append({
+                            "name": MilitaryNLPEngine.format_source_name(v_src, chan_url),
+                            "url": chan_url
+                        })
+
+            e["tactical_sources"] = tactical_sources
 
     def _parse_iso(self, ts_str: str) -> Optional[datetime]:
         if not ts_str:
@@ -278,7 +337,8 @@ class ConflictAnalyzer:
                     "threat_score": threat,
                     "source_channel": e.get("source_channel", "OSINT"),
                     "multi_source_verified": e.get("multi_source_verified", False),
-                    "verified_by_sources": e.get("verified_by_sources", [e.get("source_channel", "OSINT")])
+                    "verified_by_sources": e.get("verified_by_sources", [e.get("source_channel", "OSINT")]),
+                    "tactical_sources": e.get("tactical_sources", [])
                 })
 
         import hashlib
