@@ -421,13 +421,42 @@ class MilitaryNLPEngine:
                 date2 = ev2.get("timestamp", "")[:10]
                 cat2 = ev2.get("tactical_category") or ev2.get("event_type")
 
+                GENERIC_LOCATIONS = {
+                    "wojna w europie wschodniej",
+                    "wojna w europie wschodniej (obszar fr)",
+                    "ukraina i rosja",
+                    "bliski wschód",
+                    "bliski wschód (liban)",
+                    "bliski wschód (gaza / zachodni brzeg)",
+                    "inne / globalne",
+                    "syria",
+                    "jemen / morze czerwone",
+                    "afryka (sudan / sahel)",
+                    "iran",
+                    "rosja",
+                    "ukraina"
+                }
+
+                # Nie łącz zdarzeń dyplomatycznych ani ogólnych komunikatów, chyba że mają identyczny URL
+                is_diplomacy = (cat1 == "Komunikat Sztabowy / Dyplomacja" or cat2 == "Komunikat Sztabowy / Dyplomacja")
+                if is_diplomacy:
+                    continue
+
                 # Kryteria duplikatu:
-                # 1. Dokładnie ten sam dzień (lub sąsiedni)
+                # 1. Dokładnie ten sam dzień
                 is_same_day = (date1 == date2)
-                # 2. To samo miasto/obiekt LUB bliskie koordynaty (<0.25 stopnia ~25km)
-                is_same_loc = (loc1 and loc2 and (loc1 == loc2 or loc1 in loc2 or loc2 in loc1))
+                if not is_same_day:
+                    continue
+
+                # 2. To samo konkretne miasto/obiekt (wykluczając nazwy całych teatrów)
+                is_generic = (loc1 in GENERIC_LOCATIONS or loc2 in GENERIC_LOCATIONS or len(loc1) < 3 or len(loc2) < 3)
+                is_same_loc = not is_generic and (loc1 == loc2 or (len(loc1) >= 4 and len(loc2) >= 4 and (loc1 in loc2 or loc2 in loc1)))
+
                 coord_dist = abs(canonical.get("lat", 0) - ev2.get("lat", 0)) + abs(canonical.get("lon", 0) - ev2.get("lon", 0))
-                is_close_coord = (coord_dist < 0.25)
+                # Wyklucz koordynaty centroidów teatrów
+                is_centroid = (canonical.get("lat") in [48.8, 32.5, 35.2, 15.0, 15.5, 45.0, 48.5] and 
+                               canonical.get("lon") in [36.5, 35.2, 37.5, 44.0, 32.5, 35.0, 31.0])
+                is_close_coord = not is_centroid and (coord_dist < 0.15)
 
                 # 3. Zbieżność tematyczna (ten sam cel, kategoria lub słowa kluczowe)
                 text1 = canonical.get("text", "").lower()
@@ -439,7 +468,7 @@ class MilitaryNLPEngine:
                 ]
                 shares_target = any(kw in text1 and kw in text2 for kw in common_target_keywords)
 
-                is_duplicate = is_same_day and (is_same_loc or is_close_coord) and (cat1 == cat2 or shares_target or "Uderzenie" in str(cat1))
+                is_duplicate = (is_same_loc or is_close_coord) and (shares_target or (cat1 == cat2 and is_same_loc and not is_generic))
 
                 if is_duplicate:
                     # Scalanie: dodaj potwierdzenie ze źródła
