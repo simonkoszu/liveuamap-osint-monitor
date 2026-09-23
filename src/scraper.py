@@ -243,8 +243,7 @@ class AegisOSINTScraper:
             "DeepStateUA",     # Główna mapa zmian frontu w Ukrainie
             "rybar",           # Rosyjskie mapy operacyjne i weryfikacja krzyżowa
             "clashreport",     # Globalny radar starć bojowych (Bliski Wschód, Morze Czerwone, Sudan)
-            "liveuamap",       # Globalny strumień Liveuamap
-            "uamap"            # Archiwum Liveuamap
+            "liveuamap"        # Globalny strumień Liveuamap
         ]
 
         for channel in channels:
@@ -286,9 +285,16 @@ class AegisOSINTScraper:
                         if not MilitaryNLPEngine.is_military_event(raw_text):
                             continue
 
-                        # Wyciągnięcie znacznika czasu (ISO format)
-                        time_tag = block.find("time")
-                        timestamp = time_tag.get("datetime") if time_tag and time_tag.get("datetime") else datetime.now(timezone.utc).isoformat()
+                        # Wyciągnięcie prawdziwego znacznika czasu publikacji wiadomości
+                        time_tag = block.find(lambda t: t.name == "time" and t.has_attr("datetime"))
+                        if not time_tag:
+                            date_a = block.find("a", class_="tgme_widget_message_date")
+                            if date_a:
+                                time_tag = date_a.find("time")
+
+                        timestamp = time_tag.get("datetime") if time_tag and time_tag.get("datetime") else None
+                        if not timestamp:
+                            continue  # Pomiń wpisy bez weryfikowalnego znacznika czasu publikacji
 
                         # Linki w treści
                         links = [a.get("href") for a in text_div.find_all("a") if a.get("href")]
