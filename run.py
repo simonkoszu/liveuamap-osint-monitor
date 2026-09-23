@@ -67,6 +67,19 @@ def main():
     print("🧠 Analiza danych, redukcja szumów i inteligentna deduplikacja...")
     all_events = db.get_all_events()
 
+    # Oczyszczanie bazy: eliminacja spamu, szumu lifestyle i zdarzeń niemilitarnych
+    military_events = []
+    purged_count = 0
+    for ev in all_events:
+        raw_text = (ev.get("text") or "") + " " + (ev.get("title") or "")
+        if MilitaryNLPEngine.is_military_event(raw_text):
+            military_events.append(ev)
+        else:
+            purged_count += 1
+    if purged_count > 0:
+        print(f"   🧹 Filtr Antyszumowy: usunięto {purged_count} niemilitarnych wpisów tabloidowych/spamu z bazy.")
+        all_events = military_events
+
     # Inteligentne łączenie duplikatów z wielu kanałów
     deduplicated_events, merged_count = MilitaryNLPEngine.deduplicate_and_merge_events(all_events)
     print(f"   • Inteligentna deduplikacja: scalono {merged_count} zdublowanych raportów w unikalne zdarzenia wieloźródłowe.")

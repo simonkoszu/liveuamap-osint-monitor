@@ -263,16 +263,17 @@ class MilitaryNLPEngine:
     @staticmethod
     def is_military_event(text: str) -> bool:
         """
-        Filtr Antyszumowy (Noise Reduction Filter):
-        Odrzuca opinie polityczne, zbiórki pieniędzy, reklamy i ogólny czat.
-        Akceptuje wyłącznie meldunki o uderzeniach, ruchu wojsk, radarach, alarmach i eksplozjach.
+        Rygorystyczny Filtr Antyszumowy (Noise Reduction Filter):
+        Odrzuca plotki, celebrytów, motoryzację, zbiórki pieniędzy, reklamy i ogólny czat cywilny.
+        Akceptuje wyłącznie meldunki o uderzeniach, ruchu wojsk, radarach, alarmach, eksplozjach
+        oraz oświadczeniach dyplomacji wojennej.
         """
         if not text or len(text.strip()) < 20:
             return False
 
         t = text.lower()
 
-        # Odrzuć spam, reklamy, czyste zbiórki
+        # 1. Odrzuć spam, reklamy, czyste zbiórki
         spam_patterns = [
             r"підпишіться на канал", r"подпишитесь на канал", r"збір на", r"сбор на дроны",
             r"ставте лайк", r"ставим лайки", r"купити рекламу", r"реклама в канале",
@@ -281,18 +282,46 @@ class MilitaryNLPEngine:
         if any(re.search(p, t) for p in spam_patterns):
             return False
 
-        # Wskaźniki wojskowe i taktyczne (Musi wystąpić przynajmniej 1 kluczowy wskaźnik bojowy)
+        # 2. Bezwzględny filtr cywilno-tabloidowy (auta, celebryci, koncerty, sport, obyczaje)
+        civilian_noise_patterns = [
+            r"\b(bentley|lamborghini|rolls-royce|ferrari|mercedes-benz|bmw|porsche)\b",
+            r"\b(студент|студентк|университет|мгу|парковк|преподавател)\b",
+            r"\b(концерт|шоу|фестивал|кино|фильм|актер|актрис|селебрити|певиц|певец|рэпер|рэп|джокер)\b",
+            r"\b(футбол|хоккей|матч|чемпионат|спортсмен|лига|рпл|футболист|вагнер лав|vagner love)\b",
+            r"\b(гороскоп|астролог|погода на завтра|синоптик|стриптиз|стриптизерш)\b",
+            r"\b(хореограф|педофил|бикини|диета|похуден|аллерги|гайморит|медведь|зоопарк|вкуссвилл|vkusvill)\b"
+        ]
+        is_noise = any(re.search(p, t) for p in civilian_noise_patterns)
+        has_hard_combat = any(w in t for w in [
+            "ракета", "missile", "дрон", "drone", "бпла", "shahed", "шахед",
+            "атака", "удар", "strike", "обстрел", "обстріл", "взрыв", "вибух",
+            "пожар", "пожеж", "ппо", "пво", "air defense", "штурм", "наступ"
+        ])
+        if is_noise and not has_hard_combat:
+            return False
+
+        # 3. Wskaźniki wojskowe i taktyczne (usunięto samo słowo 'baza'/'база')
         military_indicators = [
             "rakiet", "ракета", "missile", "drone", "дрон", "бпла", "shahed", "шахед", "мопед", "бандерол",
             "kab", "каб", "fab", "фаб", "artillery", "артилер", "обстріл", "обстрел", "shelling",
             "strike", "удар", "приліт", "прилет", "вибух", "взрыв", "explosion", "fire", "пожар", "пожеж",
             "air defense", "ппо", "пво", "збито", "сбито", "intercepted", "front", "фронт", "assault",
-            "штурм", "наступ", "войск", "військ", "baza", "база", "refinery", "нпз", "depot", "склад",
+            "штурм", "наступ", "войск", "військ", "военн", "військов", "refinery", "нпз", "depot",
+            "склад боєприпас", "склад боеприпас", "нефтебаз", "нафтобаз", "арсенал", "грау",
             "radar", "радар", "тривога", "тревога", "сирена", "hezbollah", "houthi", "idf", "gaza",
-            "lebanon", "syria", "sudan", "kursk", "belgorod", "samara", "dnipro", "kyiv", "kharkiv"
+            "hamas", "хамас", "хезболл", "хусит", "nato", "baza wojskowa", "военная база", "авиабаза", "military"
         ]
 
-        return any(ind in t for ind in military_indicators)
+        # 4. Wskaźniki dyplomacji wojennej i oświadczeń sztabowych
+        diplomatic_indicators = [
+            "macron", "putin", "zelensky", "trump", "biden", "scholz", "rutte", "moratorium",
+            "sanctions", "санкци", "sankcje", "negocjac", "переговор", "aid", "пакет помощ", "peace", "мирн",
+            "zawieszenie broni", "ceasefire", "nato", "pentagon", "министерств", "генштаб", "штаб", "генерал",
+            "unga", "онн", "оон", "wymiana jeńców", "пленн", "обмен", "whitaker", "rubio", "syria", "sharaa",
+            "izrael", "israel", "palestyn", "katar", "qatar", "iran", "liban", "lebanon"
+        ]
+
+        return any(ind in t for ind in military_indicators) or any(ind in t for ind in diplomatic_indicators)
 
     @staticmethod
     def calculate_threat_score(text: str, event_type: str, country: str) -> int:
@@ -321,16 +350,35 @@ class MilitaryNLPEngine:
         Identyfikuje zdarzenia potwierdzone przez 2 lub więcej niezależnych kanałów/źródeł.
         Oznacza je flagą multi_source_verified=True i listą potwierdzających źródeł.
         """
-        # Słownik klastrów: klucz to (uproszczona_lokalizacja, data_dniowa, typ_celu)
+        GENERIC_THEATERS = {
+            "unknown",
+            "wojna w europie wschodniej",
+            "wojna w europie wschodniej (obszar fr)",
+            "ukraina i rosja",
+            "bliski wschód",
+            "bliski wschód (liban)",
+            "bliski wschód (gaza / zachodni brzeg)",
+            "inne / globalne",
+            "inne",
+            "syria",
+            "jemen / morze czerwone",
+            "afryka (sudan / sahel)",
+            "iran",
+            "rosja",
+            "ukraina"
+        }
+
+        # Słownik klastrów: klucz to (uproszczona_lokalizacja, data_dniowa)
         location_clusters: Dict[str, List[Dict[str, Any]]] = {}
 
         for ev in events:
             loc = ev.get("location_name", "Unknown").lower()
-            # uproszczenie lokalizacji do głównego członu
             main_loc = loc.split(",")[0].split("/")[0].strip()
             ts = ev.get("timestamp", "")[:10] # RRRR-MM-DD
-            target = ev.get("target_type", "")
-            channel = ev.get("source_channel", "unknown")
+
+            # Jeśli lokalizacja to ogólny teatr lub kraj, NIE klastruj z automatu
+            if main_loc in GENERIC_THEATERS or len(main_loc) < 3:
+                continue
 
             cluster_key = f"{main_loc}_{ts}"
             if cluster_key not in location_clusters:
@@ -348,9 +396,8 @@ class MilitaryNLPEngine:
             text_lower = ev.get("text", "").lower()
             ts = ev.get("timestamp", "")[:10]
             main_loc = loc_lower.split(",")[0].split("/")[0].strip()
-            cluster_key = f"{main_loc}_{ts}"
 
-            cluster = location_clusters.get(cluster_key, [])
+            cluster = location_clusters.get(f"{main_loc}_{ts}", []) if main_loc not in GENERIC_THEATERS else []
             distinct_channels = list(set([e.get("source_channel", "unknown") for e in cluster if e.get("source_channel")]))
 
             is_strategic = any(st in loc_lower or st in text_lower for st in verified_strategic_targets)
