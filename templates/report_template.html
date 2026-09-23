@@ -728,9 +728,44 @@
         </div>
       </div>
 
-      <!-- Lista TOP 10 Zdarzeń -->
-      <div class="space-y-4">
-        {% for item in data.poland_top10 %}
+      <!-- Przełącznik Horyzontu Czasowego: 24h vs 7 Dni -->
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-4 p-4 bg-slate-950/80 border border-slate-800 rounded-xl shadow-lg">
+        <div class="flex items-center space-x-3 text-xs text-slate-300">
+          <div class="w-8 h-8 rounded-lg bg-red-600/20 border border-red-500/40 flex items-center justify-center text-red-400">
+            <i class="fa-solid fa-clock-rotate-left"></i>
+          </div>
+          <div>
+            <div class="font-bold text-white uppercase tracking-wider text-[11px]">Zakres Analizy Sztabowej</div>
+            <div class="text-[11px] text-slate-400">Wybierz horyzont czasowy dla monitoringu zagrożeń RP i wschodniej flanki NATO</div>
+          </div>
+        </div>
+        <div class="flex items-center bg-slate-900 p-1.5 rounded-xl border border-slate-800 space-x-1.5 w-full sm:w-auto">
+          <button id="btn-poland-tf-24h" onclick="switchPolandTimeframe('24h')" 
+                  class="flex-1 sm:flex-initial px-4 py-2 rounded-lg font-mono text-xs font-bold transition flex items-center justify-center gap-2 bg-red-600 text-white shadow-lg shadow-red-950/50 cursor-pointer">
+            <i class="fa-solid fa-bolt text-amber-300 animate-pulse"></i>
+            <span>Ostatnie 24 Godziny</span>
+            <span class="px-1.5 py-0.5 text-[9px] bg-red-800/90 rounded font-sans tracking-wide">TAKTYCZNE</span>
+          </button>
+          <button id="btn-poland-tf-7d" onclick="switchPolandTimeframe('7d')" 
+                  class="flex-1 sm:flex-initial px-4 py-2 rounded-lg font-mono text-xs font-bold transition flex items-center justify-center gap-2 text-slate-400 hover:text-white hover:bg-slate-800 cursor-pointer">
+            <i class="fa-solid fa-calendar-week text-indigo-400"></i>
+            <span>Ostatnie 7 Dni</span>
+            <span class="px-1.5 py-0.5 text-[9px] bg-slate-800 rounded font-sans tracking-wide">STRATEGICZNE</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- KONTENER 1: OSTATNIE 24 GODZINY -->
+      <div id="poland-top10-container-24h" class="space-y-4">
+        <div class="flex items-center justify-between px-3 py-2 bg-red-950/30 border border-red-500/20 rounded-lg text-xs">
+          <div class="flex items-center gap-2 text-red-300 font-bold">
+            <i class="fa-solid fa-circle-exclamation animate-ping text-[10px]"></i>
+            <span>Bieżący monitoring ostatnich 24 godzin ({{ (data.poland_top10_24h or data.poland_top10)|length }} wyselekcjonowanych incydentów taktycznych)</span>
+          </div>
+          <span class="font-mono text-[10px] text-slate-400">Odświeżane na żywo</span>
+        </div>
+
+        {% for item in (data.poland_top10_24h or data.poland_top10) %}
         <div class="bg-slate-900/90 border border-slate-800 hover:border-red-500/40 transition rounded-xl p-5 shadow-lg space-y-4">
           <!-- Górny Pasek Karty -->
           <div class="flex flex-wrap items-center justify-between gap-3 pb-3 border-b border-slate-800/80">
@@ -813,6 +848,113 @@
               <a href="{{ safe_url }}" target="_blank" rel="noopener noreferrer" 
                  class="inline-flex items-center space-x-1 px-2.5 py-1 rounded bg-slate-800 hover:bg-slate-700 text-emerald-400 hover:text-emerald-300 border border-emerald-500/30 text-[11px] font-medium transition whitespace-nowrap shadow-sm">
                 <i class="fa-solid fa-arrow-up-right-from-square text-[9px] text-emerald-400"></i>
+                <span>{{ src.name }} &rarr;</span>
+              </a>
+              {% endfor %}
+            </div>
+            <button onclick="switchGlobalView('global')" class="text-slate-400 hover:text-slate-200 text-[11px] font-medium transition flex items-center gap-1 cursor-pointer">
+              <span>Wróć do Przeglądu Globalnego</span>
+              <i class="fa-solid fa-arrow-turn-up text-[10px]"></i>
+            </button>
+          </div>
+          {% endif %}
+        </div>
+        {% endfor %}
+      </div>
+
+      <!-- KONTENER 2: OSTATNIE 7 DNI -->
+      <div id="poland-top10-container-7d" class="space-y-4 hidden">
+        <div class="flex items-center justify-between px-3 py-2 bg-indigo-950/30 border border-indigo-500/20 rounded-lg text-xs">
+          <div class="flex items-center gap-2 text-indigo-300 font-bold">
+            <i class="fa-solid fa-chart-line text-[11px]"></i>
+            <span>Przegląd strategiczny z ostatnich 7 dni ({{ data.poland_top10_7d|length }} kluczowych wydarzeń o trwałym wpływie na doktrynę i obronę RP)</span>
+          </div>
+          <span class="font-mono text-[10px] text-slate-400">Horyzont Tygodniowy</span>
+        </div>
+
+        {% for item in data.poland_top10_7d %}
+        <div class="bg-slate-900/90 border border-slate-800 hover:border-indigo-500/40 transition rounded-xl p-5 shadow-lg space-y-4">
+          <!-- Górny Pasek Karty -->
+          <div class="flex flex-wrap items-center justify-between gap-3 pb-3 border-b border-slate-800/80">
+            <div class="flex items-center space-x-3">
+              <div class="w-10 h-10 rounded-xl bg-indigo-950/80 border border-indigo-500/40 text-indigo-300 flex items-center justify-center font-black font-mono text-base shadow-inner">
+                #{{ item.poland_rank }}
+              </div>
+              <div>
+                <div class="flex flex-wrap items-center gap-1.5 text-[11px]">
+                  <span class="px-2 py-0.5 rounded font-mono font-bold text-[10px] {{ item.poland_badge_color }} uppercase">{{ item.poland_badge }}</span>
+                  <span class="px-2 py-0.5 rounded font-mono font-bold text-[10px] bg-slate-800 text-slate-300 border border-slate-700 uppercase">{{ item.poland_severity }}</span>
+                  <span class="px-2 py-0.5 rounded font-mono font-bold text-[10px] bg-indigo-900/40 text-indigo-300 border border-indigo-700/40">Zagrożenie: {{ item.poland_threat_score }}/100</span>
+                </div>
+                <div class="text-[11px] text-slate-400 mt-1 flex items-center gap-2">
+                  <span class="text-sm">{{ item.flag or '🌐' }}</span>
+                  <span class="font-bold text-slate-200">{{ item.country }}</span>
+                  <span>•</span>
+                  <span class="font-mono text-slate-300">{{ item.time_pl or (item.timestamp[:16].replace('T', ' ') if item.timestamp else '') }} czas PL</span>
+                  {% if item.location_name %}
+                  <span>•</span>
+                  <span><i class="fa-solid fa-location-dot text-indigo-400 mr-1"></i>{{ item.location_name }}</span>
+                  {% endif %}
+                  {% if item.source_channel %}
+                  <span>•</span>
+                  <span class="font-mono text-indigo-300">[#{{ item.source_channel }}]</span>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Nagłówek i Treść Meldunku Wywiadowczego -->
+          <div>
+            <h3 class="text-base sm:text-lg font-bold text-white leading-snug mb-1.5">{{ item.title_pl or item.title }}</h3>
+            <p class="text-xs sm:text-sm text-slate-300 leading-relaxed bg-slate-950/50 p-3 rounded-lg border border-slate-800/60">{{ item.text_pl or item.text }}</p>
+          </div>
+
+          <!-- Specjalny Panel Analityczny: Wpływ na Polskę & Scenariusz Wojenny -->
+          <div class="bg-gradient-to-br from-indigo-950/25 via-slate-950/80 to-slate-950/80 border border-indigo-500/30 rounded-xl p-4 space-y-3">
+            <div class="text-xs font-bold text-indigo-300 uppercase tracking-wider flex items-center gap-2">
+              <i class="fa-solid fa-crosshairs text-indigo-400"></i>
+              <span>Ocena Sztabowa: Wpływ na Polskę i Scenariusz Konfliktu Zbrojnego</span>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs">
+              <div class="bg-slate-900/80 p-3 rounded-lg border border-slate-800">
+                <div class="font-bold text-amber-300 mb-1 flex items-center gap-1.5">
+                  <i class="fa-solid fa-bullseye text-amber-400"></i>
+                  <span>Bezpośredni Wpływ na Terytorium RP & NATO:</span>
+                </div>
+                <p class="text-slate-300 leading-relaxed">{{ item.poland_direct_impact }}</p>
+              </div>
+
+              <div class="bg-slate-900/80 p-3 rounded-lg border border-slate-800">
+                <div class="font-bold text-red-300 mb-1 flex items-center gap-1.5">
+                  <i class="fa-solid fa-skull-crossbones text-red-400"></i>
+                  <span>Scenariusz Eskalacyjny (Wojna z Rosją):</span>
+                </div>
+                <p class="text-slate-300 leading-relaxed">{{ item.poland_military_scenario }}</p>
+              </div>
+            </div>
+
+            <div class="bg-indigo-950/30 border border-indigo-500/30 p-3 rounded-lg text-xs">
+              <div class="font-bold text-indigo-300 mb-1 flex items-center gap-1.5">
+                <i class="fa-solid fa-shield-halved text-indigo-400"></i>
+                <span>Rekomendacja dla Sił Zbrojnych RP i Instytucji Bezpieczeństwa:</span>
+              </div>
+              <p class="text-slate-200 leading-relaxed">{{ item.poland_recommendation }}</p>
+            </div>
+          </div>
+
+          <!-- Dolna Belka Źródeł Taktycznych -->
+          {% set sources = item.tactical_sources or [{'name': item.source_channel or 'OSINT', 'url': item.url}] %}
+          {% if sources %}
+          <div class="w-full pt-2.5 border-t border-slate-800/80 flex flex-wrap items-center justify-between gap-2 text-xs">
+            <div class="flex flex-wrap items-center gap-1.5">
+              <span class="text-[10px] font-semibold text-slate-400 uppercase mr-1">Źródła Taktyczne ({{ sources|length }}):</span>
+              {% for src in sources %}
+              {% set safe_url = src.url if (src.url and (src.url.startswith('http://') or src.url.startswith('https://'))) else ('https://t.me/' ~ item.source_channel if item.source_channel else 'https://liveuamap.com') %}
+              <a href="{{ safe_url }}" target="_blank" rel="noopener noreferrer" 
+                 class="inline-flex items-center space-x-1 px-2.5 py-1 rounded bg-slate-800 hover:bg-slate-700 text-indigo-400 hover:text-indigo-300 border border-indigo-500/30 text-[11px] font-medium transition whitespace-nowrap shadow-sm">
+                <i class="fa-solid fa-arrow-up-right-from-square text-[9px] text-indigo-400"></i>
                 <span>{{ src.name }} &rarr;</span>
               </a>
               {% endfor %}
@@ -1822,6 +1964,33 @@
     function openNasaOnMap() {
       switchGlobalView('map');
       setMapFilter('nasa');
+    }
+
+    function switchPolandTimeframe(tf) {
+      const c24h = document.getElementById('poland-top10-container-24h');
+      const c7d = document.getElementById('poland-top10-container-7d');
+      const b24h = document.getElementById('btn-poland-tf-24h');
+      const b7d = document.getElementById('btn-poland-tf-7d');
+
+      if (tf === '24h') {
+        if (c24h) c24h.classList.remove('hidden');
+        if (c7d) c7d.classList.add('hidden');
+        if (b24h) {
+          b24h.className = "flex-1 sm:flex-initial px-4 py-2 rounded-lg font-mono text-xs font-bold transition flex items-center justify-center gap-2 bg-red-600 text-white shadow-lg shadow-red-950/50 cursor-pointer";
+        }
+        if (b7d) {
+          b7d.className = "flex-1 sm:flex-initial px-4 py-2 rounded-lg font-mono text-xs font-bold transition flex items-center justify-center gap-2 text-slate-400 hover:text-white hover:bg-slate-800 cursor-pointer";
+        }
+      } else if (tf === '7d') {
+        if (c24h) c24h.classList.add('hidden');
+        if (c7d) c7d.classList.remove('hidden');
+        if (b7d) {
+          b7d.className = "flex-1 sm:flex-initial px-4 py-2 rounded-lg font-mono text-xs font-bold transition flex items-center justify-center gap-2 bg-red-600 text-white shadow-lg shadow-red-950/50 cursor-pointer";
+        }
+        if (b24h) {
+          b24h.className = "flex-1 sm:flex-initial px-4 py-2 rounded-lg font-mono text-xs font-bold transition flex items-center justify-center gap-2 text-slate-400 hover:text-white hover:bg-slate-800 cursor-pointer";
+        }
+      }
     }
 
     function filterEventList(filterMode) {

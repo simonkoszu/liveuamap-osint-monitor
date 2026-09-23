@@ -434,7 +434,9 @@ class ConflictAnalyzer:
             },
             "map_points": map_points,
             "poland_threat": poland_threat,
-            "poland_top10": self._extract_poland_top10(self.all_events),
+            "poland_top10": self._extract_poland_top10_24h(self.all_events),
+            "poland_top10_24h": self._extract_poland_top10_24h(self.all_events),
+            "poland_top10_7d": self._extract_poland_top10_7d(self.all_events),
             "auth_salt": auth_salt,
             "auth_hash": auth_hash,
             "carto_api_key": carto_api_key
@@ -616,45 +618,170 @@ class ConflictAnalyzer:
         }
 
     def _extract_poland_top10(self, events: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        return self._extract_poland_top10_24h(events)
+
+    def _extract_poland_top10_24h(self, events: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         """
-        Identyfikuje i klasyfikuje TOP 10 incydentów z bazy danych
-        o najwyższym wpływie na bezpieczeństwo Rzeczypospolitej Polskiej
-        oraz ryzyko przyszłego konfliktu zbrojnego z Federacją Rosyjską.
+        TOP 10 incydentów z ostatnich 24 godzin o najwyższym wpływie na Polskę i NATO.
         """
         events_by_id = {e.get("id"): e for e in events if e.get("id")}
 
-        top_configs = [
+        top_configs_24h = [
             {
-                "id": "ac38ceabfd3ee861",
+                "id": "5db3064f15e1d97b",
                 "rank": 1,
-                "badge": "🚨 KINETYCZNY SABOTAŻ GRU W NATO",
+                "badge": "🚨 DRONY ODRZUTOWE NA KIERUNKU WOŁYŃ / RÓWNE",
                 "badge_color": "bg-red-950/80 text-red-200 border-red-500/60",
-                "severity": "KRYTYCZNY (POZIOM SZAREJ STREFY ART. 5)",
-                "threat_score": 98,
-                "summary": "Wykrycie uzbrojonego drona rosyjskiego wywiadu wojskowego GRU na lotnisku Lipsk/Halle w bezpośrednim sąsiedztwie ukraińskiego samolotu transportowego.",
-                "direct_impact": "Polska jest kluczowym hubem logistycznym (Port Lotniczy Rzeszów-Jasionka) obsługującym ponad 90% wojskowych transportów lotniczych dla Ukrainy. Potwierdzenie przygotowań GRU do kinetycznego ataku dronowego na lotnisko w Niemczech oznacza, że polskie lotniska wojskowe i cywilne (Jasionka, Dęblin, Krzesiny, Łask, Okęcie) są bezpośrednimi celami rosyjskich komórek dywersyjnych.",
-                "military_scenario": "W fazie poprzedzającej otwarty konflikt zbrojny z Polską, Rosja użyje nieoznaczonych dronów kamikadze i sabotażystów rekrutowanych lokalnie do sparaliżowania węzłów logistycznych NATO na terytorium RP, poniżej formalnego progu ogłoszenia wojny (procedura szarej strefy Art. 5).",
-                "recommendation": "Natychmiastowe objęcie strefy wokół Rzeszowa-Jasionki i baz lotniczych RP zintegrowanymi systemami antydronowymi (C-UAS SKYctrl / Pilica+), zagłuszaniem radioelektronicznym oraz zaostrzeniem osłony kontrwywiadowczej ABW i SKW."
+                "severity": "KRYTYCZNY (ZAGROŻENIE PRZYGRANICZNE)",
+                "threat_score": 96,
+                "summary": "Odrzutowy bezzałogowiec uderzeniowy Shahed-238 w zachodniej części obwodu żytomierskiego zmierzający bezpośrednio na zachód w kierunku obwodu rówieńskiego.",
+                "direct_impact": "Prędkość przelotowa (>450 km/h) drastycznie redukuje czas reakcji polskich stacji radiolokacyjnych i par dyżurnych F-16 w bazach Łask i Krzesiny. Wektor lotu w stronę Rówieńskiej Elektrowni Atomowej (zaledwie 150 km od granicy RP) stwarza bezpośrednie ryzyko wtargnięcia w polską przestrzeń powietrzną.",
+                "military_scenario": "Rosyjskie drony odrzutowe są wykorzystywane do badania luk w posterunkach radiolokacyjnych NATO wzdłuż granicy z Polską i Białorusią, a ewentualny błąd nawigacyjny grozi upadkiem aparatu na terytorium RP.",
+                "recommendation": "Utrzymanie dyżuru bojowego par myśliwskich F-16 w rejonie Lubelszczyzny oraz wzmożona czujność naziemnych radarów NUR-15M i baterii Patriot."
             },
             {
-                "id": "10a1aeec2ae396e4",
+                "id": "64de34bdf27a1eb6",
                 "rank": 2,
-                "badge": "💥 DYWERSJA W PRZEMYŚLE AMUNICJI",
+                "badge": "✈️ ZASOBY I GOTOWOŚĆ BOJOWA F-16 NATO",
                 "badge_color": "bg-red-950/80 text-red-200 border-red-500/60",
-                "severity": "KRYTYCZNY (ZAGROŻENIE PRZEMYSŁOWE)",
-                "threat_score": 95,
-                "summary": "Kolejna seria eksplozji w magazynach amunicyjnych bułgarskiej spółki EMCO, kluczowego dostawcy pocisków artyleryjskich dla sił sojuszniczych.",
-                "direct_impact": "Operacje dywersyjne GRU systematycznie eliminują europejskie moce produkcyjne amunicji 122 mm, 152 mm i 155 mm. Polskie zakłady amunicyjne i chemiczne (Mesko w Skarżysku-Kamiennej, Nitro-Chem w Bydgoszczy, Dezamet w Nowej Dębie) znajdują się pod stałym zagrożeniem sabotażem kinetycznym i podpaleniami ze strony rosyjskich agentów wpływu.",
-                "military_scenario": "Ewentualny konflikt zbrojny Polski z Rosją będzie wojną na wyniszczenie o gigantycznym zużyciu amunicji artyleryjskiej (od 5 000 do 10 000 pocisków dziennie). Zniszczenie polskich i sojuszniczych fabryk prochu i materiałów wybuchowych pozbawi Wojsko Polskie zapasów w pierwszych tygodniach walk.",
-                "recommendation": "Wdrożenie wojskowego reżimu ochrony obiektów infrastruktury krytycznej przemysłu obronnego PGZ, stały monitoring termowizyjny i antydronowy oraz rozproszenie magazynów strategicznych Agencji Rezerw Strategicznych (RARS)."
+                "severity": "BARDZO WYSOKI (POTENCJAŁ POWIETRZNY SOJUSZU)",
+                "threat_score": 92,
+                "summary": "Katastrofa amerykańskiego myśliwca F-16 w Niemczech w rejonie strategicznej bazy lotniczej Spangdahlem podczas misji operacyjnej.",
+                "direct_impact": "Baza Spangdahlem (52. Skrzydło Myśliwskie USAF) jest kluczowym filarem natowskiego wsparcia powietrznego dla Polski i państw bałtyckich w misjach przełamywania rosyjskiej obrony powietrznej (SEAD) w Obwodzie Królewieckim. Wypadek ten unaocznia problem przeciążenia zachodniego lotnictwa bojowego.",
+                "military_scenario": "W razie pełnoskalowego konfliktu Polska będzie polegać na natychmiastowym wsparciu eskadr USAF ze Spangdahlem. Utrata maszyn i zużycie resursów floty F-16 ogranicza rotację maszyn nad wschodnią flanką.",
+                "recommendation": "Intensyfikacja wdrażania polskich myśliwców F-35A Husarz, rozbudowa krajowych zapasów części zamiennych i uzbrojenia w bazach Krzesiny i Łask."
             },
+            {
+                "id": "9c07fe98863f1486",
+                "rank": 3,
+                "badge": "🌊 ZAGROŻENIE MORSKIE NA BAŁTYKU / BALTIC PIPE",
+                "badge_color": "bg-cyan-950/80 text-cyan-200 border-cyan-500/60",
+                "severity": "WYSOKI (INFRASTRUKTURA KRYTYCZNA NA MORZU)",
+                "threat_score": 90,
+                "summary": "Przekierowanie rosyjskiego eksportu surowców i operacji transportowych na Morze Bałtyckie i do portów arktycznych po utracie swobody żeglugi na Morzu Czarnym.",
+                "direct_impact": "Skokowy wzrost liczby tankowców tzw. 'rosyjskiej floty cieni' oraz okrętów Floty Bałtyckiej FR w Zatoce Fińskiej i przy polskim wybrzeżu. Bezpośrednie ryzyko asymetrycznych incydentów wobec gazociągu Baltic Pipe, kabla SwePol Link i terminala LNG w Świnoujściu.",
+                "military_scenario": "W fazie przedkonfliktowej Rosja może przeprowadzić operację sabotażu podwodnego lub sfingowaną kolizję tankowca w celu zablokowania toru podejściowego do polskich portów i odcięcia dostaw gazu z Norwegii.",
+                "recommendation": "Wzmożone patrole niszczycieli min Kormoran II Marynarki Wojennej RP, stały monitoring podwodny dna morskiego wzdłuż korytarzy rurociągów oraz ścisła współpraca z Marynarką Wojenną Szwecji i Danii."
+            },
+            {
+                "id": "adace3b1770730c9",
+                "rank": 4,
+                "badge": "🏛️ DOKTRYNA ODSTRASZANIA I SAMODZIELNOŚĆ RP",
+                "badge_color": "bg-indigo-950/80 text-indigo-200 border-indigo-500/60",
+                "severity": "STRATEGICZNY (WIARYGODNOŚĆ ART. 5)",
+                "threat_score": 88,
+                "summary": "Wystąpienie Sekretarza Generalnego NATO Marka Rutte na temat ograniczeń europejskich zdolności militarnych i konieczności drastycznego zwiększenia wydatków obronnych bez polegania wyłącznie na USA.",
+                "direct_impact": "Potwierdza zasadność polskich wydatków obronnych (>4,7% PKB) i stanowi ostrzeżenie: w razie kryzysu globalnego (np. równoczesny konflikt na Pacyfiku) Polska i państwa bałtyckie muszą być gotowe do samodzielnego odparcia pierwszego uderzenia FR przez 30-60 dni.",
+                "military_scenario": "Kalkulacja Kremla opiera się na założeniu, że w przypadku szybkiej aneksji kawałka terytorium (Przesmyk Suwalski) i szantażu atomowego, część stolic europejskich zawaha się przed wojną totalną.",
+                "recommendation": "Dalsze wzmacnianie autonomicznych zdolności SZ RP (K2PL, Krab, Himars, Borsuk) oraz dążenie do włączenia Polski w sojuszniczy program Nuclear Sharing."
+            },
+            {
+                "id": "a4e2cc62f321728f",
+                "rank": 5,
+                "badge": "💥 PARALIŻ INFRASTRUKTURY I ZAKŁÓCENIA EW",
+                "badge_color": "bg-purple-950/80 text-purple-200 border-purple-500/60",
+                "severity": "WYSOKI (ODPORNOŚĆ PAŃSTWA NA SZOK ENERGETYCZNY)",
+                "threat_score": 86,
+                "summary": "Zmasowany nocny atak rakietowo-dronowy na zakłady przemysłu chemicznego, metalurgicznego i kompleksu paliwowo-energetycznego z intensywną walką radioelektroniczną.",
+                "direct_impact": "Prezentacja rosyjskiej doktryny zmasowanych uderzeń w węzły energetyczne i transportowe. W Polsce Rafineria Gdańska, PKN Orlen w Płocku i stacje rozdzielcze PSE są potencjalnymi celami analogicznego ataku w pierwszej dobie wojny.",
+                "military_scenario": "Koordynacja kinetycznych ataków rakietowych z cyberatakami na system elektroenergetyczny w celu wywołania blackoutu i paraliżu mobilizacji rezerwistów.",
+                "recommendation": "Budowa fizycznych zapór przeciwodłamkowych i siatek antydronowych nad strategicznymi transformatorami sieci przesyłowej PSE oraz wzmocnienie obrony cywilnej."
+            },
+            {
+                "id": "f17c47495f84c0dc",
+                "rank": 6,
+                "badge": "⚠️ WEKTOR PRZEŁAMANIA POLESIA",
+                "badge_color": "bg-amber-950/80 text-amber-200 border-amber-500/60",
+                "severity": "WYSOKI (KORYTARZ PRZYGRANICZNY)",
+                "threat_score": 84,
+                "summary": "Odrzutowy bezzałogowiec uderzeniowy wykryty w rejonie strefy czarnobylskiej na kursie zachodnim.",
+                "direct_impact": "Wykorzystanie zalesionego korytarza Polesia i strefy przygranicznej z Białorusią do ukrywania niskiego lotu dronów przed radarami i manewrowania w stronę zachodnich granic Ukrainy i Polski.",
+                "military_scenario": "W korytarzu poleskim Rosja testuje trasy omijania radarów wczesnego ostrzegania, które w razie konfliktu posłużą do uderzeń na obiekty wojskowe na Podlasiu i Lubelszczyźnie.",
+                "recommendation": "Rozbudowa sieci pasywnych radarów wczesnego ostrzegania PCL-PET (SPL) na wschodniej granicy RP."
+            },
+            {
+                "id": "fb4a8aaa729c9a8d",
+                "rank": 7,
+                "badge": "🎯 SATURACJA OBRONY PRZECIWLOTNICZEJ (122 CELE)",
+                "badge_color": "bg-red-950/80 text-red-200 border-red-500/60",
+                "severity": "WYSOKI (ANALIZA PRACY OPL)",
+                "threat_score": 82,
+                "summary": "Zmasowany nalot saturacyjny na stolicę i centra przemysłowe: 122 cele powietrzne zestrzelone lub stłumione przez systemy walki radioelektronicznej.",
+                "direct_impact": "Doświadczenia z obrony przed jednoczesnym atakiem dziesiątek celów stanowią kluczowe studium dla polskiego systemu Narew i Pilica+. Zwraca uwagę gigantyczne zużycie pocisków przechwytujących.",
+                "military_scenario": "Rosyjska doktryna zakłada wystrzelenie setek tanich przynęt w celu wymuszenia zużycia kosztownych rakiet PAC-3 i CAMM, przed właściwym uderzeniem pociskami balistycznymi.",
+                "recommendation": "Wdrożenie wielowarstwowej obrony opartej na tanich armatach przeciwlotniczych kal. 35 mm z amunicją programowalną oraz systemach laserowych/mikrofalowych."
+            },
+            {
+                "id": "988e247d91157d35",
+                "rank": 8,
+                "badge": "🛡️ PARASOL OCHRONNY USA / NATO",
+                "badge_color": "bg-blue-950/80 text-blue-200 border-blue-500/60",
+                "severity": "STRATEGICZNY (DEKLARACJA SOJUSZNICZA)",
+                "threat_score": 80,
+                "summary": "Ambasador USA przy NATO Matthew Whitaker potwierdza strategiczne priorytety USA w zakresie obrony przeciwlotniczej i wzmocnienia wschodniej flanki Sojuszu.",
+                "direct_impact": "Kluczowa deklaracja polityczno-wojskowa potwierdzająca, że przestrzeń powietrzna Polski i państw bałtyckich pozostaje pod stałą osłoną zintegrowanego systemu dowodzenia NATO IAMD.",
+                "military_scenario": "Wzmocnienie odstraszania i jednoznaczny sygnał dla Kremla, że jakiekolwiek naruszenie polskiej przestrzeni powietrznej spotka się ze wspólną odpowiedzią Sojuszu.",
+                "recommendation": "Utrzymanie stałej interoperacyjności polskich dowództw z sojuszniczym dowództwem AIRCOM w Ramstein."
+            },
+            {
+                "id": "6253a27a9ed95ad7",
+                "rank": 9,
+                "badge": "⚡ WOJNA RADIOELEKTRONICZNA (EW)",
+                "badge_color": "bg-indigo-950/80 text-indigo-200 border-indigo-500/60",
+                "severity": "WYSOKI (ZAKŁÓCENIA NAWIGACJI GNSS)",
+                "threat_score": 78,
+                "summary": "Zmasowany nocny nalot dronów z intensywnym zagłuszaniem częstotliwości radarowych i łączności radiowej.",
+                "direct_impact": "Rozlewanie się zakłóceń GPS/GNSS na Morze Bałtyckie i północno-wschodnią Polskę, zakłócające nawigację lotnictwa cywilnego i operacje wojskowe.",
+                "military_scenario": "Próba sparaliżowania systemów precyzyjnego naprowadzania broni zachodniej (JDAM, HIMARS) za pomocą potężnych stacji Krasucha-4 i Żytiel z terenu Kaliningradu.",
+                "recommendation": "Wdrożenie systemów nawigacji inercyjnej (INS) odpornych na jamming oraz procedur walki w środowisku odciętego sygnału GPS dla jednostek Wojsk Lądowych i Sił Powietrznych."
+            },
+            {
+                "id": "fd5c838cc36014b9",
+                "rank": 10,
+                "badge": "🛰️ KORYTARZ PRZYGRANICZNY PÓŁNOC-ZACHÓD",
+                "badge_color": "bg-slate-900 text-slate-200 border-slate-700",
+                "severity": "OPERACYJNY (ROZPOZNANIE TRASY)",
+                "threat_score": 76,
+                "summary": "Odrzutowy BSP zmierzający w kierunku Korostenia od północy w pobliżu korytarza brzeskiego.",
+                "direct_impact": "Systematyczne testowanie północno-zachodniego skrzydła obrony przeciwlotniczej wzdłuż osi Białoruś – Polska.",
+                "military_scenario": "Wykorzystanie terytorium Białorusi jako platformy do wyprowadzania uderzeń dronowych na tyły polskich ugrupowań obronnych.",
+                "recommendation": "Rozbudowa stanowisk obrony przeciwlotniczej wzdłuż granicy z Białorusią w ramach Tarczy Wschód."
+            }
+        ]
+
+        top10_results = []
+        for cfg in top_configs_24h:
+            ev = events_by_id.get(cfg["id"])
+            if not ev:
+                continue
+            item = dict(ev)
+            item["poland_rank"] = cfg["rank"]
+            item["poland_badge"] = cfg["badge"]
+            item["poland_badge_color"] = cfg["badge_color"]
+            item["poland_severity"] = cfg["severity"]
+            item["poland_threat_score"] = cfg["threat_score"]
+            item["poland_summary"] = cfg["summary"]
+            item["poland_direct_impact"] = cfg["direct_impact"]
+            item["poland_military_scenario"] = cfg["military_scenario"]
+            item["poland_recommendation"] = cfg["recommendation"]
+            top10_results.append(item)
+
+        return top10_results
+
+    def _extract_poland_top10_7d(self, events: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        """
+        TOP 10 incydentów z ostatnich 7 dni o najwyższym wpływie na Polskę i NATO.
+        """
+        events_by_id = {e.get("id"): e for e in events if e.get("id")}
+
+        top_configs_7d = [
             {
                 "id": "0b90944c23ee8b85",
-                "rank": 3,
+                "rank": 1,
                 "badge": "🚀 HIPERSONICZNE PRZEŁAMANIE OPL (CYRKON / KN-23)",
                 "badge_color": "bg-red-950/80 text-red-200 border-red-500/60",
                 "severity": "BARDZO WYSOKI (ESKALACJA BALISTYCZNA)",
-                "threat_score": 93,
+                "threat_score": 98,
                 "summary": "Użycie hipersonicznych pocisków 3M22 Cyrkon (Mach 8-9) oraz północnokoreańskich rakiet balistycznych KN-23 w połączonym ataku na zakłady paliwa rakietowego i głowic w Pawłogradzie i Dnieprze.",
                 "direct_impact": "Rosja testuje w warunkach bojowych saturację i omijanie systemów obrony przeciwrakietowej Patriot PAC-3 CRI/MSE (będących fundamentem polskiego programu WISŁA). Czas dolotu pocisku Cyrkon lub Iskander-M z Obwodu Królewieckiego (Kaliningradu) do Warszawy wynosi poniżej 3 minut, a do Trójmiasta około 90 sekund.",
                 "military_scenario": "W pierwszym rzucie uderzenia na Polskę, Rosja nie użyje lotnictwa załogowego, lecz zmasowanej salwy hipersonicznej i balistycznej z wyrzutni Iskander w Kaliningradzie i na Białorusi w celu zniszczenia polskich stanowisk dowodzenia (Bydgoszcz, Warszawa, Kraków) i stacji radarowych Wisła/Narew.",
@@ -662,71 +789,47 @@ class ConflictAnalyzer:
             },
             {
                 "id": "5db3064f15e1d97b",
-                "rank": 4,
-                "badge": "⚠️ DRONY ODRZUTOWE NA KIERUNKU WOŁYŃ / RÓWNE",
-                "badge_color": "bg-amber-950/80 text-amber-200 border-amber-500/60",
-                "severity": "WYSOKI (RYZYKO PRZYGRANICZNE)",
-                "threat_score": 89,
+                "rank": 2,
+                "badge": "🚨 DRONY ODRZUTOWE NA KIERUNKU WOŁYŃ / RÓWNE",
+                "badge_color": "bg-red-950/80 text-red-200 border-red-500/60",
+                "severity": "KRYTYCZNY (ZAGROŻENIE PRZYGRANICZNE)",
+                "threat_score": 94,
                 "summary": "Zastosowanie nowej generacji bezzałogowców odrzutowych (Shahed-238) na kursie zachodnim przez obwód żytomierski w stronę obwodu rówieńskiego i granicy z Polską.",
                 "direct_impact": "Prędkość przelotowa dronów odrzutowych (ponad 450 km/h wobec 180 km/h wersji tłokowej) skraca czas reakcji polskich posterunków radiolokacyjnych i par dyżurnych F-16 do kilkudziesięciu sekund. Trajektoria lotu w pobliżu Rówieńskiej Elektrowni Jądrowej (150 km od Chełma/Lublina) stwarza ryzyko zboczenia z kursu i wtargnięcia w polską przestrzeń powietrzną.",
-                "military_scenario": "Rosja może wykorzystać drony odrzutowe do „sondowania” reakcji i częstotliwości pracy polskich radarów NATO (ELINT), a w razie prowokacji – sfingować uderzenie zbłąkanego aparatu w polskie obiekty graniczne jako test determinacji Sojuszu.",
+                "military_scenario": "Rosja może wykorzystać drony odrzutowe do 'sondowania' reakcji i częstotliwości pracy polskich radarów NATO (ELINT), a w razie prowokacji – sfingować uderzenie zbłąkanego aparatu w polskie obiekty graniczne jako test determinacji Sojuszu.",
                 "recommendation": "Ustanowienie stałych stref patrolowania powietrznego (CAP) przez myśliwce F-16/FA-50 wzdłuż granicy z Ukrainą i Białorusią oraz rozmieszczenie mobilnych armat przeciwlotniczych i systemów rakietowych Narew/Pilica."
             },
             {
-                "id": "03a84cd058177fad",
-                "rank": 5,
-                "badge": "🛡️ TARCZA WSCHÓD / BARIERA GRANICZNA NATO",
-                "badge_color": "bg-emerald-950/80 text-emerald-200 border-emerald-500/60",
-                "severity": "STRATEGICZNY (ODSTRASZANIE LĄDOWE)",
-                "threat_score": 86,
-                "summary": "Finlandia ukończyła 1300-kilometrową ufortyfikowaną barierę graniczną z Rosją, wyposażoną w zaawansowane sensory elektroniczne i strefy opóźniające.",
-                "direct_impact": "Zsynchronizowana fortyfikacja całej wschodniej flanki NATO. Fińska bariera jest bezpośrednim poligonem doświadczalnym dla polskiego Narodowego Programu Odstraszania i Obrony „Tarcza Wschód” o wartości 10 mld zł, realizowanego na granicy z Białorusią i Królewcem.",
-                "military_scenario": "Fizyczne i inżynieryjne zablokowanie kierunków natarcia zmechanizowanego (Przesmyk Suwalski, Brama Brzeska) uniemożliwia Rosji wykonanie szybkiego uderzenia pancernego (blitzkriegu) i zmusza przeciwnika do uwikłania się w długotrwałe walki przełamujące, dając NATO czas na dyslokację sił głównych.",
-                "recommendation": "Koordynacja polsko-fińsko-bałtyckiej sieci sensorów sejsmicznych, akustycznych i optoelektronicznych oraz przygotowanie infrastruktury mostowej i drogowej do natychmiastowego zaminowania i niszczenia."
-            },
-            {
-                "id": "9c07fe98863f1486",
-                "rank": 6,
-                "badge": "🌊 ZAGROŻENIE FLOTY NA BAŁTYKU / BALTIC PIPE",
-                "badge_color": "bg-cyan-950/80 text-cyan-200 border-cyan-500/60",
-                "severity": "WYSOKI (INFRASTRUKTURA KRYTYCZNA NA MORZU)",
-                "threat_score": 84,
-                "summary": "Przekierowanie rosyjskiego eksportu surowców i operacji transportowych na Morze Bałtyckie i do portów arktycznych po utracie swobody żeglugi na Morzu Czarnym.",
-                "direct_impact": "Skokowy wzrost liczby jednostek tzw. „rosyjskiej floty cieni” (przestarzałe tankowce bez zachodnich ubezpieczeń) oraz okrętów Floty Bałtyckiej FR operujących w Zatoce Fińskiej i w pobliżu polskich wód terytorialnych. Zwiększone ryzyko prowokacji wobec gazociągu Baltic Pipe, kabla SwePol Link oraz terminala LNG w Świnoujściu.",
-                "military_scenario": "W scenariuszu asymetrycznym Rosja może doprowadzić do „przypadkowej” katastrofy ekologicznej, zerwania kotwicą rurociągu Baltic Pipe lub uderzenia dronem podwodnym w kable komunikacyjne, odcinając Polskę od dostaw gazu z Norwegii tuż przed uderzeniem militarnym.",
-                "recommendation": "Wzmocnienie patroli okrętów Kormoran II Marynarki Wojennej RP, stały monitoring podwodny dna morskiego wzdłuż korytarzy rurociągów oraz ścisła współpraca z Marynarką Wojenną Szwecji i Danii w Cieśninach Duńskich."
-            },
-            {
-                "id": "9d133c3e5b5756ef",
-                "rank": 7,
-                "badge": "🤝 WĘZEŁ LOGISTYCZNY I WSPARCIE RAMSTEIN",
-                "badge_color": "bg-indigo-950/80 text-indigo-200 border-indigo-500/60",
-                "severity": "STRATEGICZNY (STATUS CELU WOJENNEGO)",
-                "threat_score": 82,
-                "summary": "Ustalenia 36. formatu Ramstein: sformowanie międzynarodowych koalicji dronowych, nowe pakiety amunicyjne i systemów Patriot oraz wsparcie floty myśliwców F-16.",
-                "direct_impact": "Polska formalnie i praktycznie stanowi kręgosłup logistyczny całej machiny obronnej Ukrainy. W rosyjskiej doktrynie sztabowej terytorium RP jest definiowane jako strona uczestnicząca w konflikcie (tzw. de facto belligerent), co w planach Sztabu Generalnego FR czyni z polskich węzłów przeładunkowych cele uderzeń rakietowych w razie eskalacji.",
-                "military_scenario": "W przypadku decyzji Kremla o eskalacji horyzontalnej, pierwszym celem uderzeń odwetowych będą stacje przeładunkowe na Podkarpaciu i Lubelszczyźnie oraz linie kolejowe łączące Polskę z zachodnią Ukrainą.",
-                "recommendation": "Wdrożenie wielowarstwowej obrony plot/prak nad kluczowymi stacjami kolejowymi (Medyka, Dorohusk, Rzeszów) i przygotowanie zapasowych, rozproszonych korytarzy transportowych."
-            },
-            {
                 "id": "64de34bdf27a1eb6",
-                "rank": 8,
+                "rank": 3,
                 "badge": "✈️ ZASOBY I GOTOWOŚĆ BOJOWA F-16 NATO",
                 "badge_color": "bg-blue-950/80 text-blue-200 border-blue-500/60",
                 "severity": "OPERACYJNY (POTENCJAŁ POWIETRZNY SOJUSZU)",
-                "threat_score": 78,
+                "threat_score": 91,
                 "summary": "Katastrofa amerykańskiego myśliwca F-16 w pobliżu strategicznej bazy lotniczej Spangdahlem w Niemczech podczas rutynowej misji szkoleniowo-operacyjnej.",
                 "direct_impact": "Baza Spangdahlem (52. Skrzydło Myśliwskie USAF) jest kluczową jednostką dedykowaną do misji SEAD (niszczenie rosyjskiej obrony powietrznej w Kaliningradzie i na Białorusi) oraz szybkiego wsparcia przestrzeni powietrznej Polski. Wypadki i zużycie resursów floty F-16 obnażają problem przeciążenia zachodniego lotnictwa wojskowego.",
                 "military_scenario": "Wojna z Rosją będzie wymagała od Sił Powietrznych RP i USAF generowania setek samoloto-wylotów dziennie. Braki w częściach zamiennych, wyeksploatowanie silników i ograniczona liczba pilotów mogą stać się wąskim gardłem obrony polskiego nieba już w drugim tygodniu intensywnych walk.",
                 "recommendation": "Przyspieszenie dostaw i wdrażania myśliwców F-35A Husarz, rozbudowa krajowych zapasów części zamiennych i uzbrojenia precyzyjnego (JASSM-ER, AMRAAM) w bazach Krzesiny i Łask."
             },
             {
+                "id": "9c07fe98863f1486",
+                "rank": 4,
+                "badge": "🌊 ZAGROŻENIE FLOTY NA BAŁTYKU / BALTIC PIPE",
+                "badge_color": "bg-cyan-950/80 text-cyan-200 border-cyan-500/60",
+                "severity": "WYSOKI (INFRASTRUKTURA KRYTYCZNA NA MORZU)",
+                "threat_score": 89,
+                "summary": "Przekierowanie rosyjskiego eksportu surowców i operacji transportowych na Morze Bałtyckie i do portów arktycznych po utracie swobody żeglugi na Morzu Czarnym.",
+                "direct_impact": "Skokowy wzrost liczby jednostek tzw. 'rosyjskiej floty cieni' (przestarzałe tankowce bez zachodnich ubezpieczeń) oraz okrętów Floty Bałtyckiej FR operujących w Zatoce Fińskiej i w pobliżu polskich wód terytorialnych. Zwiększone ryzyko prowokacji wobec gazociągu Baltic Pipe, kabla SwePol Link oraz terminala LNG w Świnoujściu.",
+                "military_scenario": "W scenariuszu asymetrycznym Rosja może doprowadzić do 'przypadkowej' katastrofy ekologicznej, zerwania kotwicą rurociągu Baltic Pipe lub uderzenia dronem podwodnym w kable komunikacyjne, odcinając Polskę od dostaw gazu z Norwegii tuż przed uderzeniem militarnym.",
+                "recommendation": "Wzmocnienie patroli okrętów Kormoran II Marynarki Wojennej RP, stały monitoring podwodny dna morskiego wzdłuż korytarzy rurociągów oraz ścisła współpraca z Marynarką Wojenną Szwecji i Danii w Cieśninach Duńskich."
+            },
+            {
                 "id": "adace3b1770730c9",
-                "rank": 9,
+                "rank": 5,
                 "badge": "🏛️ DOKTRYNA ODSTRASZANIA I SAMODZIELNOŚĆ RP",
                 "badge_color": "bg-slate-900 text-slate-200 border-slate-600",
                 "severity": "STRATEGICZNY (WIARYGODNOŚĆ ART. 5)",
-                "threat_score": 76,
+                "threat_score": 87,
                 "summary": "Wystąpienie Sekretarza Generalnego NATO Marka Rutte na temat ograniczeń europejskich zdolności militarnych i konieczności drastycznego zwiększenia wydatków obronnych bez polegania wyłącznie na USA.",
                 "direct_impact": "Polska jest europejskim liderem wydatków obronnych (ponad 4,7% PKB), jednak deklaracje kierownictwa NATO potwierdzają obawy o tempo pomocy sojuszniczej w pierwszych tygodniach wojny. W razie jednoczesnego konfliktu USA na Pacyfiku (Tajwan), Polska i kraje wschodniej flanki będą musiały samodzielnie powstrzymać uderzenie rosyjskie.",
                 "military_scenario": "Rosyjska kalkulacja wojenna opiera się na założeniu, że w przypadku szybkiej aneksji kawałka terytorium (np. Przesmyku Suwalskiego) i groźby użycia taktycznej broni jądrowej, część stolic europejskich zawaha się przed uruchomieniem Art. 5, doprowadzając do rozpadu NATO.",
@@ -734,20 +837,68 @@ class ConflictAnalyzer:
             },
             {
                 "id": "a4e2cc62f321728f",
-                "rank": 10,
+                "rank": 6,
                 "badge": "🎯 TAKTYKA PORAŻENIA INFRASTRUKTURY I WALKA EW",
                 "badge_color": "bg-purple-950/80 text-purple-200 border-purple-500/60",
                 "severity": "WYSOKI (ODPORNOŚĆ PAŃSTWA NA SZOK ENERGETYCZNY)",
-                "threat_score": 74,
+                "threat_score": 85,
                 "summary": "Zmasowane uderzenia rakietowo-dronowe na zakłady przemysłu chemicznego, metalurgicznego i kompleksu paliwowo-energetycznego z intensywnym zakłócaniem łączności i nawigacji.",
                 "direct_impact": "Rosja doskonali doktrynę całkowitego paraliżu gospodarczego kraju poprzez niszczenie elektrociepłowni, transformatorów WN, rafinerii i węzłów kolejowych. W Polsce obiekty takie jak Rafineria Gdańska, PKN Orlen w Płocku, Elektrownia Kozienice czy kluczowe stacje rozdzielcze PSE są podatne na analogiczne ataki rojów dronów i pocisków manewrujących Ch-101.",
                 "military_scenario": "Wybuch wojny zostanie poprzedzony lub skoordynowany z uderzeniem w polski system elektroenergetyczny (blackout) oraz zakłóceniem sieci komórkowych i łączności bankowej, wywołując panikę społeczną i paraliżując mobilizację rezerwistów.",
                 "recommendation": "Budowa odporności cywilnej (Ustawa o ochronie ludności), decentralizacja zasilania awaryjnego w szpitalach i jednostkach wojskowych oraz instalacja fizycznych siatek przeciwkumulacyjnych i przeciwodłamkowych nad transformatorami strategicznymi."
+            },
+            {
+                "id": "48eaf92ffe9b4110",
+                "rank": 7,
+                "badge": "⚠️ ROJE DRONÓW W KORYTARZU ZACHODNIM (WOŁYŃ)",
+                "badge_color": "bg-amber-950/80 text-amber-200 border-amber-500/60",
+                "severity": "WYSOKI (PRZYGRANICZNE SZLAKI LOGISTYCZNE)",
+                "threat_score": 83,
+                "summary": "Zmasowane uderzenia dronów 'Pelargonia' w infrastrukturę magazynową i produkcyjną na kierunkach zachodnich i w rejonie Wasilkowa.",
+                "direct_impact": "Uderzenia w pobliżu korytarzy transportowych łączących Polskę z centralną Ukrainą. Zagrożenie dla szlaków zaopatrzeniowych i węzłów kolejowych.",
+                "military_scenario": "Rosja ćwiczy odcinanie linii kolejowych i dróg przesyłowych na zachodzie Ukrainy tuż przy polskiej granicy.",
+                "recommendation": "Rozbudowa ochrony przeciwlotniczej korytarzy granicznych i posterunków celno-kolejowych po polskiej stronie."
+            },
+            {
+                "id": "b1f35747e5ba2787",
+                "rank": 8,
+                "badge": "⛽ NISZCZENIE BAZ PALIWOWYCH PRZY GRANICY RP",
+                "badge_color": "bg-red-950/80 text-red-300 border-red-700/50",
+                "severity": "WYSOKI (LOGISTYKA PALIWOWA)",
+                "threat_score": 81,
+                "summary": "Systematyczne uderzenia rakietowe i dronowe niszczące bazy paliwowo-energetyczne na zachodzie Ukrainy i Wołyniu.",
+                "direct_impact": "Ataki na magazyny paliw zaledwie 50-80 km od granicy z Polską. Zwiększone ryzyko pożarów przygranicznych i paraliżu dostaw paliwowych.",
+                "military_scenario": "Uderzenie w polskie magazyny paliw PERN i bazy paliwowe w razie konfliktu w celu unieruchomienia jednostek zmechanizowanych.",
+                "recommendation": "Objęcie baz paliwowych PERN i strategicznych rurociągów stałym monitoringiem antydronowym i obroną OPL."
+            },
+            {
+                "id": "29a57f6ee0ffd1ef",
+                "rank": 9,
+                "badge": "🛵 ODRZUTOWE BSP NAD TARNOPOLEM (180 KM OD RP)",
+                "badge_color": "bg-amber-950/80 text-amber-200 border-amber-500/60",
+                "severity": "WYSOKI (PRZEŁAMANIE GŁĘBOKIE)",
+                "threat_score": 79,
+                "summary": "Przelot odrzutowego drona Shahed przez Tarnopol na kursie zachodnim.",
+                "direct_impact": "Tarnopol znajduje się 180 km od granicy RP; uderzenia w tym rejonie wymuszają procedury poderwania polskich par F-16.",
+                "military_scenario": "Rosja testuje reakcję polskiego Dowództwa Operacyjnego RSZ na przeloty pocisków i dronów w bezpośrednim sąsiedztwie polskiej strefy FIR.",
+                "recommendation": "Utrzymanie procedury natychmiastowego startu (QRA) par F-16 podczas ataków na obwody tarnopolski i lwowski."
+            },
+            {
+                "id": "1bd211bd12e2eb58",
+                "rank": 10,
+                "badge": "💥 DETONACJE W WĘZŁACH PRZEŁADUNKOWYCH AMUNICJI",
+                "badge_color": "bg-slate-900 text-slate-200 border-slate-700",
+                "severity": "OPERACYJNY (ŁAŃCUCH LOGISTYCZNY)",
+                "threat_score": 77,
+                "summary": "Potężne pożary i detonacje magazynów amunicji i sprzętu po serii uderzeń rakietowych.",
+                "direct_impact": "Uderzenia w składy amunicyjne pokazują rosyjską skuteczność namierzania węzłów przeładunkowych z dostaw zachodnich.",
+                "military_scenario": "W razie wojny z Rosją polskie bazy logistyczne w Rzeszowie, Nisku i Lublinie będą pierwszymi celami uderzeń rakietowych.",
+                "recommendation": "Maksymalne rozproszenie składów amunicji i sprzętu Wojska Polskiego w małych, zamaskowanych magazynach polowych."
             }
         ]
 
         top10_results = []
-        for cfg in top_configs:
+        for cfg in top_configs_7d:
             ev = events_by_id.get(cfg["id"])
             if not ev:
                 continue
