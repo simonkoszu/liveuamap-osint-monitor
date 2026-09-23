@@ -678,18 +678,37 @@
     <!-- WIDOK MAPY OPERACYJNEJ -->
     <div id="view-map" class="country-view hidden space-y-4">
       <div class="bg-slate-900 border border-slate-800 rounded-xl p-4">
-        <div class="flex flex-wrap items-center justify-between gap-3 mb-3">
+        <!-- Nagłówek i Pasek Filtrów Czasowych -->
+        <div class="flex flex-wrap items-center justify-between gap-3 mb-4 pb-3 border-b border-slate-800/80">
           <div>
             <h2 class="text-lg font-bold text-white flex items-center space-x-2">
               <i class="fa-solid fa-map-location-dot text-red-500"></i>
               <span>Geolokalizacja Incydentów Wojennych</span>
             </h2>
-            <p class="text-xs text-slate-400">Interaktywny rozkład ognisk zapalnych z filtrowaniem wg państw i weryfikacji wieloźródłowej</p>
+            <p class="text-xs text-slate-400">Interaktywny rozkład ognisk zapalnych z filtrowaniem czasowym (24h / 7d / 14d / all) i taktycznym</p>
           </div>
-          <div class="flex flex-wrap items-center gap-1.5 text-xs">
-            <button onclick="setMapFilter('all')" id="mf-all" class="map-filter-btn px-2.5 py-1 rounded bg-slate-700 text-white font-semibold border border-slate-600">Wszystkie</button>
-            <button onclick="setMapFilter('cross_check')" id="mf-cross_check" class="map-filter-btn px-2.5 py-1 rounded bg-emerald-950/60 text-emerald-300 border border-emerald-700/60 font-semibold"><i class="fa-solid fa-shield-halved text-xs mr-1"></i>🛡️ Wieloźródłowe</button>
-            <button onclick="setMapFilter('fire')" id="mf-fire" class="map-filter-btn px-2.5 py-1 rounded bg-amber-950/60 text-amber-300 border border-amber-700/60 font-semibold"><i class="fa-solid fa-fire text-xs mr-1"></i>🔥 Pożary</button>
+
+          <!-- Filtr Czasowy (Time Filter: 24h, 7 dni, 14 dni, All) -->
+          <div class="flex flex-wrap items-center gap-2">
+            <div class="inline-flex items-center p-1 rounded-xl bg-slate-950/90 border border-slate-700/80 shadow-inner">
+              <span class="text-[11px] text-slate-400 font-mono px-2.5 flex items-center">
+                <i class="fa-solid fa-clock-rotate-left mr-1.5 text-indigo-400"></i>Zakres:
+              </span>
+              <button onclick="setTimeFilter('24h')" id="tf-24h" class="time-filter-btn px-3 py-1 rounded-lg text-xs font-semibold transition cursor-pointer text-slate-400 hover:text-white hover:bg-slate-800">24h</button>
+              <button onclick="setTimeFilter('7d')" id="tf-7d" class="time-filter-btn px-3 py-1 rounded-lg text-xs font-semibold transition cursor-pointer text-slate-400 hover:text-white hover:bg-slate-800">7 dni</button>
+              <button onclick="setTimeFilter('14d')" id="tf-14d" class="time-filter-btn px-3 py-1 rounded-lg text-xs font-semibold transition cursor-pointer text-slate-400 hover:text-white hover:bg-slate-800">14 dni</button>
+              <button onclick="setTimeFilter('all')" id="tf-all" class="time-filter-btn px-3 py-1 rounded-lg text-xs font-semibold transition cursor-pointer bg-indigo-600 text-white shadow-md">Wszystkie (All)</button>
+            </div>
+            <div class="bg-slate-950/90 border border-slate-700/80 px-3 py-1.5 rounded-xl text-xs font-mono text-slate-300">
+              Widoczne punkty: <strong id="map-active-count" class="text-emerald-400 font-bold">--</strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap items-center gap-1.5 text-xs mb-3">
+          <button onclick="setMapFilter('all')" id="mf-all" class="map-filter-btn px-2.5 py-1 rounded bg-slate-700 text-white font-semibold border border-slate-600">Wszystkie Kategorie</button>
+          <button onclick="setMapFilter('cross_check')" id="mf-cross_check" class="map-filter-btn px-2.5 py-1 rounded bg-emerald-950/60 text-emerald-300 border border-emerald-700/60 font-semibold"><i class="fa-solid fa-shield-halved text-xs mr-1"></i>🛡️ Wieloźródłowe</button>
+          <button onclick="setMapFilter('fire')" id="mf-fire" class="map-filter-btn px-2.5 py-1 rounded bg-amber-950/60 text-amber-300 border border-amber-700/60 font-semibold"><i class="fa-solid fa-fire text-xs mr-1"></i>🔥 Pożary</button>
             <button onclick="toggleClustering()" id="btn-cluster" class="map-filter-btn px-2.5 py-1 rounded bg-slate-800 text-indigo-400 border border-indigo-500/50 hover:bg-indigo-950/40 font-semibold flex items-center space-x-1.5 transition cursor-pointer">
               <i class="fa-solid fa-circle-nodes text-xs"></i>
               <span>Klastry</span>
@@ -1353,6 +1372,7 @@
     let isNasaFirmsActive = false;
     let currentBaseMap = 'voyager'; // 'voyager' | 'dark' | 'satellite' | 'topo'
     let currentMapFilter = 'all';
+    let currentTimeFilter = 'all'; // '24h' | '7d' | '14d' | 'all'
 
     function initMap() {
       const map = L.map('map-container').setView([42.0, 36.0], 4);
@@ -1579,6 +1599,20 @@
       return '#64748b';
     }
 
+    function setTimeFilter(timeMode) {
+      currentTimeFilter = timeMode;
+      document.querySelectorAll('.time-filter-btn').forEach(btn => {
+        btn.classList.remove('bg-indigo-600', 'text-white', 'shadow-md');
+        btn.classList.add('text-slate-400');
+      });
+      const activeBtn = document.getElementById(`tf-${timeMode}`);
+      if (activeBtn) {
+        activeBtn.classList.remove('text-slate-400');
+        activeBtn.classList.add('bg-indigo-600', 'text-white', 'shadow-md');
+      }
+      renderMapMarkers(currentMapFilter);
+    }
+
     function setMapFilter(filterMode) {
       currentMapFilter = filterMode;
       document.querySelectorAll('.map-filter-btn').forEach(btn => {
@@ -1587,6 +1621,11 @@
           btn.classList.add('bg-slate-800', 'text-slate-300');
         }
       });
+      const activeBtn = document.getElementById(`mf-${filterMode}`) || document.querySelector(`[onclick="setMapFilter('${filterMode}')"]`);
+      if (activeBtn) {
+        activeBtn.classList.remove('bg-slate-800', 'text-slate-300');
+        activeBtn.classList.add('bg-slate-700', 'text-white');
+      }
       renderMapMarkers(filterMode);
     }
 
@@ -1596,9 +1635,23 @@
       if (clusterGroup) clusterGroup.clearLayers();
 
       const heatPoints = [];
+      const refTimeStr = {{ data.generated_at | tojson }};
+      const nowTime = refTimeStr ? new Date(refTimeStr.replace(' UTC', 'Z').replace(' ', 'T')).getTime() : Date.now();
+      let matchedCount = 0;
 
       MAP_POINTS.forEach(p => {
-        // Filtracja
+        // 1. Filtr Czasowy (24h, 7 dni, 14 dni, All)
+        if (currentTimeFilter !== 'all') {
+          if (!p.timestamp) return;
+          const eventTime = new Date(p.timestamp).getTime();
+          if (isNaN(eventTime)) return;
+          const diffHours = (nowTime - eventTime) / (1000 * 3600);
+          if (currentTimeFilter === '24h' && diffHours > 24) return;
+          if (currentTimeFilter === '7d' && diffHours > (24 * 7)) return;
+          if (currentTimeFilter === '14d' && diffHours > (24 * 14)) return;
+        }
+
+        // 2. Filtracja tematyczna i regionalna
         if (filterMode === 'cross_check' && !p.multi_source_verified) return;
         if (filterMode === 'fire' && !p.has_fire) return;
         if (filterMode === 'explosions' && p.tactical_category !== 'explosions') return;
@@ -1606,6 +1659,8 @@
         if (filterMode === 'missiles' && p.tactical_category !== 'missiles') return;
         if (filterMode === 'infrastructure' && p.tactical_category !== 'infrastructure') return;
         if (filterMode.startsWith('country:') && p.country !== filterMode.replace('country:', '')) return;
+
+        matchedCount++;
 
         // Punkty na heatmapę
         heatPoints.push([p.lat, p.lon, (p.threat_score || 5) / 10]);
@@ -1652,7 +1707,7 @@
               ${weaponsBadge}
             </div>
             <div class="flex justify-between items-center text-[10px] text-slate-500 pt-1 border-t border-slate-700">
-              <span>${p.timestamp.substring(0, 16).replace('T', ' ')}</span>
+              <span>${p.timestamp ? p.timestamp.substring(0, 16).replace('T', ' ') : ''}</span>
               <a href="${p.url}" target="_blank" class="text-emerald-400 hover:underline font-semibold">Źródło Taktyczne &rarr;</a>
             </div>
           </div>
@@ -1668,6 +1723,11 @@
 
       if (heatLayer) {
         heatLayer.setLatLngs(heatPoints);
+      }
+
+      const countEl = document.getElementById('map-active-count');
+      if (countEl) {
+        countEl.textContent = `${matchedCount} / ${MAP_POINTS.length}`;
       }
     }
 
