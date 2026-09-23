@@ -27,6 +27,9 @@ class ConflictAnalyzer:
         self.now = datetime.now(timezone.utc)
         self.tracking_started_at = tracking_started_at or self.now.isoformat()
 
+        from zoneinfo import ZoneInfo
+        warsaw_tz = ZoneInfo("Europe/Warsaw")
+
         # Normalizacja pól timestamp dla każdego incydentu (np. NASA FIRMS ma pole 'date')
         for e in self.all_events:
             if not e.get("timestamp"):
@@ -34,6 +37,21 @@ class ConflictAnalyzer:
                 if isinstance(raw_date, str) and " " in raw_date and "T" not in raw_date:
                     raw_date = raw_date.replace(" ", "T") + "+00:00"
                 e["timestamp"] = raw_date
+
+            # Konwersja czasu do strefy polskiej (Warszawa: CEST = UTC+2 latem, CET = UTC+1 zimą)
+            ts = e.get("timestamp")
+            if ts:
+                try:
+                    dt = datetime.fromisoformat(ts.replace("Z", "+00:00"))
+                    dt_pl = dt.astimezone(warsaw_tz)
+                    e["time_pl"] = dt_pl.strftime("%Y-%m-%d %H:%M")
+                    e["time_pl_short"] = dt_pl.strftime("%H:%M")
+                except Exception:
+                    e["time_pl"] = ts[:16].replace("T", " ")
+                    e["time_pl_short"] = ts[11:16]
+            else:
+                e["time_pl"] = ""
+                e["time_pl_short"] = ""
 
     def _parse_iso(self, ts_str: str) -> Optional[datetime]:
         if not ts_str:
@@ -222,6 +240,8 @@ class ConflictAnalyzer:
                     "tactical_icon": e.get("tactical_icon", "⚔️"),
                     "location": e.get("location_name"),
                     "timestamp": e.get("timestamp"),
+                    "time_pl": e.get("time_pl"),
+                    "time_pl_short": e.get("time_pl_short"),
                     "url": e.get("url"),
                     "weapons": weapons,
                     "target_type": target,
@@ -234,6 +254,10 @@ class ConflictAnalyzer:
 
         import hashlib
         import os
+        from zoneinfo import ZoneInfo
+        warsaw_tz = ZoneInfo("Europe/Warsaw")
+        now_pl = self.now.astimezone(warsaw_tz)
+
         auth_salt = "aegis_tactical_salt_2026_osint"
         report_pin = os.getenv("REPORT_PIN", "7749").strip() or "7749"
         auth_hash = hashlib.sha256((auth_salt + report_pin).encode("utf-8")).hexdigest()
@@ -244,7 +268,9 @@ class ConflictAnalyzer:
 
         return {
             "generated_at": self.now.strftime("%Y-%m-%d %H:%M:%S UTC"),
+            "generated_at_pl": now_pl.strftime("%Y-%m-%d %H:%M:%S CEST"),
             "today_date": self.now.strftime("%Y-%m-%d"),
+            "today_date_pl": now_pl.strftime("%Y-%m-%d"),
             "total_events_in_db": len(self.all_events),
             "events_today_count": len(all_today),
             "multi_source_verified_count": verified_count,
