@@ -90,6 +90,12 @@ GEOLOCATION_DB = {
     "omdurman": (15.6500, 32.4833, "Omdurman, Sudan"),
     "el fasher": (13.6279, 25.3494, "Al-Faszir, Darfur, Sudan"),
     "port sudan": (19.6175, 37.2164, "Port Sudan, Sudan"),
+
+    # Azja Południowa & Inne
+    "waziristan": (32.3000, 69.8500, "Waziristan, Pakistan"),
+    "kurram": (33.8167, 70.1667, "Kurram, Pakistan"),
+    "duta khel": (32.9333, 69.8333, "Duta Khel, Waziristan, Pakistan"),
+    "pryluky": (50.5895, 32.3857, "Przyłuci, Obwód czernihowski, Ukraina"),
 }
 
 # Domyślne współrzędne centrów teatrów działań
@@ -99,6 +105,7 @@ THEATER_CENTROIDS = {
     "Syria": (35.2, 37.5),
     "Jemen / Morze Czerwone": (15.0, 44.0),
     "Afryka (Sudan / Sahel)": (15.5, 32.5),
+    "Azja Południowa": (33.0, 70.0),
     "Inne / Globalne": (45.0, 35.0),
 }
 
@@ -110,7 +117,7 @@ class AegisOSINTScraper:
     def __init__(self):
         self.telegram_channels = [
             "kpszsu", "war_monitor", "vanek_nikolaev", "astrapress", "bazabazon",
-            "shot_shot", "DeepStateUA", "rybar", "clashreport"
+            "shot_shot", "DeepStateUA", "rybar", "clashreport", "r_combatfootage"
         ]
 
     def _sanitize_string(self, text: str, max_len: int = 2000) -> str:
@@ -158,7 +165,11 @@ class AegisOSINTScraper:
         ]):
             return "Iran", "🇮🇷", "Bliski Wschód (Zatoka Perska)"
 
-        # 7. Rosja (rejony przygraniczne i uderzenia w głąb FR)
+        # 7. Pakistan i Afganistan
+        if any(w in text_lower for w in ["pakistan", "pakistani", "taliban", "afghanistan", "waziristan", "kurram"]):
+            return "Pakistan / Afganistan", "🇵🇰 🇦🇫", "Azja Południowa"
+
+        # 8. Rosja (rejony przygraniczne i uderzenia w głąb FR)
         if any(w in text_lower for w in [
             "samara", "kuybyshevskyi", "kursk", "belgorod", "bryansk", "rostov", "voronezh", 
             "lipetsk", "yaroslavl", "in russia", "russian territory", "tula", "kaluga", "ryazan",
@@ -166,7 +177,7 @@ class AegisOSINTScraper:
         ]):
             return "Rosja", "🇷🇺", "Wojna w Europie Wschodniej (Obszar FR)"
 
-        # 8. Ukraina (słowa kluczowe)
+        # 9. Ukraina (słowa kluczowe)
         if "ukraine.liveuamap" in links_str or any(w in text_lower for w in [
             "ukraine", "kyiv", "kharkiv", "pokrovsk", "donetsk", "luhansk", "sbu", 
             "crimea", "zaporizhzhia", "kherson", "dnipro", "odesa", "sumy", "poltava",
@@ -176,7 +187,7 @@ class AegisOSINTScraper:
         ]):
             return "Ukraina", "🇺🇦", "Wojna w Europie Wschodniej"
 
-        # 9. Kontekst specyficzny dla monitorowanego kanału
+        # 10. Kontekst specyficzny dla monitorowanego kanału
         if channel in ["kpszsu", "war_monitor", "vanek_nikolaev", "DeepStateUA", "uamap"]:
             return "Ukraina", "🇺🇦", "Wojna w Europie Wschodniej"
         if channel in ["astrapress", "bazabazon", "shot_shot"]:
@@ -193,11 +204,11 @@ class AegisOSINTScraper:
     def _determine_event_type(self, text: str) -> str:
         """Kategoryzuje typ incydentu wojskowego."""
         t = text.lower()
-        if any(w in t for w in ["missile", "drone", "shahed", "ballistic", "cruise missile", "air strike", "airstrike", "bomb", "fab-", "glide bomb", "бандерол", "мопед", "реактив"]):
+        if any(w in t for w in ["missile", "drone", "shahed", "ballistic", "cruise missile", "air strike", "airstrike", "bomb", "fab-", "glide bomb", "uav", "fpv", "бандерол", "мопед", "реактив"]):
             return "Uderzenie Rakietowe / Dron"
         if any(w in t for w in ["artillery", "shelling", "mortar", "mlrs", "grad", "howitzer", "fired at", "обстріл", "обстрел"]):
             return "Ostrzał Artyleryjski"
-        if any(w in t for w in ["clash", "assault", "offensive", "storming", "infantry", "troops", "trenches", "recaptured", "occupied", "repelled", "штурм", "наступ"]):
+        if any(w in t for w in ["clash", "assault", "offensive", "storming", "infantry", "troops", "soldiers", "combat", "taliban", "trenches", "recaptured", "occupied", "repelled", "firefight", "штурм", "наступ"]):
             return "Starcie Lądowe"
         if any(w in t for w in ["air defense", "intercepted", "shot down", "destroyed in air", "repelled attack", "ппо", "пво", "збито"]):
             return "Obrona Przeciwlotnicza"
@@ -243,7 +254,8 @@ class AegisOSINTScraper:
             "DeepStateUA",     # Główna mapa zmian frontu w Ukrainie
             "rybar",           # Rosyjskie mapy operacyjne i weryfikacja krzyżowa
             "clashreport",     # Globalny radar starć bojowych (Bliski Wschód, Morze Czerwone, Sudan)
-            "liveuamap"        # Globalny strumień Liveuamap
+            "liveuamap",       # Globalny strumień Liveuamap
+            "r_combatfootage"  # Reddit r/CombatFootage (autonomiczny strumień wideo i walk frontowych)
         ]
 
         for channel in channels:
@@ -301,9 +313,23 @@ class AegisOSINTScraper:
                             a.get("href") for a in text_div.find_all("a")
                             if a.get("href") and (a.get("href").startswith("http://") or a.get("href").startswith("https://"))
                         ]
+                        reddit_links = [l for l in links if "redd.it" in l or "reddit.com" in l]
 
-                        # Kanoniczny link do źródła taktycznego (bezpośredni post na Telegramie)
-                        if data_post:
+                        # Wykrywanie bezpośredniego wideo MP4 (np. z r/CombatFootage) i miniatury
+                        video_tag = block.find("video")
+                        video_url = video_tag.get("src") if video_tag and video_tag.get("src") else None
+
+                        video_thumb = None
+                        thumb_tag = block.find(class_=lambda c: c and "thumb" in c)
+                        if thumb_tag and thumb_tag.get("style"):
+                            m_thumb = re.search(r"background-image:url\('([^']+)'\)", thumb_tag.get("style"))
+                            if m_thumb:
+                                video_thumb = m_thumb.group(1)
+
+                        # Kanoniczny link do źródła taktycznego
+                        if channel == "r_combatfootage" and reddit_links:
+                            primary_link = reddit_links[0]
+                        elif data_post:
                             primary_link = f"https://t.me/{data_post}"
                         elif channel:
                             primary_link = f"https://t.me/{channel}"
@@ -315,10 +341,20 @@ class AegisOSINTScraper:
                         # Wszystkie wykryte linki źródłowe i cytowane w poście (Tactical Sources)
                         tactical_sources = []
                         if primary_link:
+                            src_name = "Reddit (r/CombatFootage)" if ("redd.it" in primary_link or "reddit.com" in primary_link) else MilitaryNLPEngine.format_source_name(channel or "OSINT", primary_link)
                             tactical_sources.append({
-                                "name": MilitaryNLPEngine.format_source_name(channel or "OSINT", primary_link),
+                                "name": src_name,
                                 "url": primary_link
                             })
+
+                        # Dodaj bezpośredni odnośnik Telegram jeśli główny to Reddit
+                        if channel == "r_combatfootage" and data_post:
+                            tg_url = f"https://t.me/{data_post}"
+                            if not any(x.get("url") == tg_url for x in tactical_sources):
+                                tactical_sources.append({
+                                    "name": "Telegram (#r_combatfootage)",
+                                    "url": tg_url
+                                })
 
                         for link in links:
                             if link and link != primary_link and not any(x.get("url") == link for x in tactical_sources):
@@ -331,10 +367,12 @@ class AegisOSINTScraper:
 
                         # Zdjęcia / podglądy multimediów
                         media_urls = []
+                        if video_thumb:
+                            media_urls.append(video_thumb)
                         for photo in block.find_all("a", class_="tgme_widget_message_photo_wrap"):
                             style = photo.get("style", "")
                             m = re.search(r"background-image:url\('([^']+)'\)", style)
-                            if m:
+                            if m and m.group(1) not in media_urls:
                                 media_urls.append(m.group(1))
 
                         # Unikalny deterministyczny identyfikator zdarzenia
@@ -342,6 +380,15 @@ class AegisOSINTScraper:
                         if event_hash in seen_ids:
                             continue
                         seen_ids.add(event_hash)
+
+                        # Oczyszczenie tekstu z URL i uchwytów kanału dla czystych tytułów
+                        clean_text = raw_text
+                        if channel == "r_combatfootage":
+                            clean_text = re.sub(r'https?://(?:redd\.it|reddit\.com|t\.me|m\.youtube\.com|youtube\.com)/\S+', '', clean_text)
+                            clean_text = re.sub(r'@r_combatfootage\b', '', clean_text).strip()
+                            clean_text = re.sub(r'\s+', ' ', clean_text).strip()
+                            if len(clean_text) < 15:
+                                clean_text = raw_text
 
                         # NLP & Geokodowanie wielojęzyczne (cyrylica + alfabet łaciński)
                         cyrillic_loc = MilitaryNLPEngine.resolve_cyrillic_location(raw_text)
@@ -353,7 +400,7 @@ class AegisOSINTScraper:
                             lat, lon, loc_name = self._extract_coordinates(raw_text, theater, event_hash)
 
                         event_type = self._determine_event_type(raw_text)
-                        title = raw_text[:120] + "..." if len(raw_text) > 120 else raw_text
+                        title = clean_text[:120] + "..." if len(clean_text) > 120 else clean_text
                         title = re.sub(r'\s+', ' ', title).strip()
 
                         weapons = MilitaryNLPEngine.extract_weapons(raw_text)
@@ -372,18 +419,20 @@ class AegisOSINTScraper:
                             "tactical_category": tactical_category,
                             "tactical_icon": tactical_icon,
                             "title": self._sanitize_string(title),
-                            "text": self._sanitize_string(raw_text),
+                            "text": self._sanitize_string(clean_text),
                             "location_name": loc_name,
                             "lat": lat,
                             "lon": lon,
                             "url": primary_link,
                             "tactical_sources": tactical_sources,
                             "media_urls": media_urls,
+                            "video_url": video_url,
+                            "is_video": bool(video_url),
                             "weapons": weapons,
                             "target_type": target_type,
                             "is_fire": is_fire,
                             "threat_score": threat_score,
-                            "source_channel": channel
+                            "source_channel": "r_combatfootage" if channel == "r_combatfootage" else channel
                         }
                         events.append(event)
 

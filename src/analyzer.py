@@ -13,8 +13,9 @@ COUNTRY_METADATA = {
     "Jemen": {"flag": "🇾🇪", "theater": "Jemen i Morze Czerwone", "priority": 6},
     "Iran": {"flag": "🇮🇷", "theater": "Bliski Wschód (Zatoka Perska)", "priority": 7},
     "Sudan": {"flag": "🇸🇩", "theater": "Afryka (Sudan)", "priority": 8},
-    "Czujniki NASA": {"flag": "🛰️", "theater": "Orbita Satelitarna / NASA FIRMS", "priority": 9},
-    "Inne / Globalne": {"flag": "🌐", "theater": "Inne", "priority": 10},
+    "Pakistan / Afganistan": {"flag": "🇵🇰 🇦🇫", "theater": "Azja Południowa", "priority": 9},
+    "Czujniki NASA": {"flag": "🛰️", "theater": "Orbita Satelitarna / NASA FIRMS", "priority": 10},
+    "Inne / Globalne": {"flag": "🌐", "theater": "Inne", "priority": 11},
 }
 
 class ConflictAnalyzer:
@@ -383,6 +384,8 @@ class ConflictAnalyzer:
                     "is_nasa": e.get("is_nasa", False),
                     "frp": e.get("frp", 0.0),
                     "threat_score": threat,
+                    "video_url": e.get("video_url"),
+                    "is_video": bool(e.get("video_url") or e.get("is_video")),
                     "source_channel": e.get("source_channel", "OSINT"),
                     "multi_source_verified": e.get("multi_source_verified", False),
                     "verified_by_sources": e.get("verified_by_sources", [e.get("source_channel", "OSINT")]),
@@ -402,6 +405,8 @@ class ConflictAnalyzer:
 
         all_events_sorted = sorted(self.all_events, key=lambda e: e.get("timestamp", ""), reverse=True)
         poland_threat = self._analyze_poland_threat(all_24h, all_7d)
+
+        video_events = [e for e in all_events_sorted if e.get("video_url") or e.get("is_video")]
 
         nasa_events = [e for e in all_events_sorted if e.get("is_nasa") or e.get("country") == "Czujniki NASA" or (e.get("id") or "").startswith("nasa_firms")]
         max_frp = 0.0
@@ -425,6 +430,8 @@ class ConflictAnalyzer:
             "global_monthly": self._calculate_period_stats(all_30d, all_prev_30d),
             "countries": countries_report,
             "all_events": all_events_sorted,
+            "video_events": video_events,
+            "video_events_count": len(video_events),
             "nasa_events": nasa_events,
             "nasa_events_count": len(nasa_events),
             "nasa_max_frp": round(max_frp, 1),

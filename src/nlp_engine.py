@@ -21,6 +21,7 @@ TACTICAL_CATEGORIES = {
         "icon": "🛸",
         "patterns": [
             r"\bshahed\b", r"\bgeran\b", r"\bkamikaze drone\b", r"\bdrone strike\b", r"\bdrone attack\b",
+            r"\buav\b", r"\bfpv\b",
             r"\bшахед\w*", r"\bшахід\w*", r"\bгерань\b", r"\bбпла\b", r"\bбеспилотник\w*", r"\bбезпілотник\w*",
             r"\bдрон\w*", r"\bмопед\w*", r"\bбандерол\w*", r"\bреактив\w*"
         ]
@@ -62,7 +63,8 @@ TACTICAL_CATEGORIES = {
         "icon": "⚔️",
         "patterns": [
             r"\bclash\b", r"\bassault\b", r"\boffensive\b", r"\bstorming\b", r"\btrenches\b", r"\binfantry\b",
-            r"\brecaptured\b", r"\badvance\b", r"\boccupied\b", r"\brepelled\b",
+            r"\brecaptured\b", r"\badvance\b", r"\boccupied\b", r"\brepelled\b", r"\bcombat\b", r"\bfirefight\b",
+            r"\btaliban\b", r"\btroops\b", r"\bsoldiers?\b", r"\btanks?\b", r"\bbmp\b", r"\bbtr\b",
             r"\bштурм\w*", r"\bнаступ\w*", r"\bконтрнаступ\w*", r"\bбої\b", r"\bбои\b", r"\bокопи\b", r"\bпросування\b"
         ]
     },
@@ -317,6 +319,7 @@ class MilitaryNLPEngine:
         # 3. Krótkie akronimy i specyficzne pojęcia wojskowe z granicą słowa \b
         short_mil_re = re.compile(
             r"\b(каб|кабы|кабом|фаб|фабы|фаб-\d+|нпз|ппо|пво|бпла|рсзо|грау|опу|тос-1|su-\d+|су-\d+|миг-\d+|f-16|f-35|atacms|camm|nato|нато|зсу|всу|вс рф|вкс|рэб|tsahal|цахал|idf|взрыв|взрывы|вибух|вибухи)\b|"
+            r"\b(uav|fpv|tank|tanks|combat|taliban|bmp|btr|air force|fighter jet|soldiers?|troops?|brigade|frontline|warfare|gunfire|firefight)\b|"
             r"\b(удар|удары|ударов|ударами|ударом)\b|"
             r"\b(firefight|artillery fire|missile strike|drone strike|air strike|naval strike)\b",
             re.IGNORECASE
@@ -334,7 +337,9 @@ class MilitaryNLPEngine:
             "склад боєприпас", "склад боеприпас", "нефтебаз", "нафтобаз", "арсенал",
             "radar", "радар", "тривога", "тревога", "сирена", "hezbollah", "houthi", "gaza",
             "hamas", "хамас", "хезболл", "хусит", "baza wojskowa", "военная база", "авиабаза", "military",
-            "беспилотник", "безпілотник", "морський дрон", "морской дрон", "авиабомб", "авіабомб"
+            "беспилотник", "безпілотник", "морський дрон", "морской дрон", "авиабомб", "авіабомб",
+            "taliban", "troops", "soldiers", "combat footage", "combat", "infantry", "tank", "uav", "fpv",
+            "fighter jet", "frontline", "warfare", "airstrike", "air strike", "bmp", "btr"
         ]
         if any(ind in t for ind in military_indicators):
             return True
@@ -477,6 +482,8 @@ class MilitaryNLPEngine:
             "clashreport": "Clash Report",
             "warmonitor3": "War Monitor",
             "uamap": "Liveuamap",
+            "r_combatfootage": "Reddit (r/CombatFootage)",
+            "reddit": "Reddit (r/CombatFootage)",
             "vitaliy_klitschko": "Kliczko (Kijów)",
             "dnipropetrovskaoda": "Dniepro ODA",
             "syrianmilitary": "Syrian Mil",
@@ -504,6 +511,8 @@ class MilitaryNLPEngine:
         dom_match = re.search(r"https?://(?:www\.)?([^/]+)", url)
         if dom_match:
             dom = dom_match.group(1).lower()
+            if "redd.it" in dom or "reddit.com" in dom:
+                return "Reddit (r/CombatFootage)"
             if "liveuamap" in dom:
                 return "Liveuamap"
             if "reuters" in dom:
@@ -663,6 +672,10 @@ class MilitaryNLPEngine:
 
                     if ev2.get("is_fire"):
                         canonical["is_fire"] = True
+
+                    if ev2.get("video_url") and not canonical.get("video_url"):
+                        canonical["video_url"] = ev2.get("video_url")
+                        canonical["is_video"] = True
 
                     used_ids.add(ev2["id"])
                     merged_count += 1

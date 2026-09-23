@@ -577,6 +577,7 @@
         <div class="flex flex-wrap items-center gap-1.5 mb-4 pb-3 border-b border-slate-800 text-xs">
           <span class="text-slate-400 text-[11px] font-semibold uppercase mr-1 flex items-center"><i class="fa-solid fa-filter text-indigo-400 mr-1"></i>Kategoria:</span>
           <button onclick="filterEventList('all')" id="elf-all" class="event-list-filter-btn px-2.5 py-1 rounded-lg bg-indigo-600 text-white font-semibold transition cursor-pointer">Wszystkie ({{ data.all_events | length }})</button>
+          <button onclick="filterEventList('video')" id="elf-video" class="event-list-filter-btn px-2.5 py-1 rounded-lg bg-slate-800 text-cyan-400 border border-cyan-500/50 hover:bg-cyan-950/40 font-semibold transition cursor-pointer flex items-center space-x-1.5"><i class="fa-solid fa-film text-xs mr-1 text-cyan-400"></i><span>🎬 Wideo z Frontu ({{ data.video_events_count }})</span></button>
           <button onclick="filterEventList('nasa')" id="elf-nasa" class="event-list-filter-btn px-2.5 py-1 rounded-lg bg-slate-800 text-orange-400 border border-orange-500/50 hover:bg-orange-950/40 font-semibold transition cursor-pointer flex items-center space-x-1.5"><i class="fa-solid fa-satellite text-xs mr-1 text-orange-400"></i><span>🛰️ Tylko Czujniki NASA ({{ data.nasa_events | length }})</span></button>
           <button onclick="filterEventList('cross_check')" id="elf-cross_check" class="event-list-filter-btn px-2.5 py-1 rounded-lg bg-slate-800 text-emerald-400 border border-emerald-500/30 hover:bg-emerald-950/40 font-semibold transition cursor-pointer">🛡️ Cross-Check ({{ data.multi_source_verified_count }})</button>
           <button onclick="filterEventList('fire')" id="elf-fire" class="event-list-filter-btn px-2.5 py-1 rounded-lg bg-slate-800 text-amber-400 border border-amber-500/30 hover:bg-amber-950/40 font-semibold transition cursor-pointer">🔥 Pożary / Termiczne</button>
@@ -587,11 +588,12 @@
         <div class="space-y-3 max-h-[750px] overflow-y-auto custom-scroll pr-2">
           {% for ev in data.all_events %}
           {% set is_nasa_ev = (ev.is_nasa or ev.country == 'Czujniki NASA' or ev.source_channel == 'NASA FIRMS' or (ev.id and ev.id.startswith('nasa_firms'))) %}
-          <div class="event-card bg-slate-800/40 hover:bg-slate-800/70 transition rounded-lg p-3.5 border {% if is_nasa_ev %}border-orange-500/40 bg-orange-950/10 hover:border-orange-400/60{% else %}border-slate-700/60{% endif %} flex flex-col gap-2.5"
+          <div class="event-card bg-slate-800/40 hover:bg-slate-800/70 transition rounded-lg p-3.5 border {% if is_nasa_ev %}border-orange-500/40 bg-orange-950/10 hover:border-orange-400/60{% elif ev.video_url %}border-cyan-500/40 bg-cyan-950/10 hover:border-cyan-400/60{% else %}border-slate-700/60{% endif %} flex flex-col gap-2.5"
                 data-category="{{ ev.tactical_category }}"
                 data-is-nasa="{{ 'true' if is_nasa_ev else 'false' }}"
                 data-is-crosscheck="{{ 'true' if ev.multi_source_verified else 'false' }}"
-                data-is-fire="{{ 'true' if ev.is_fire else 'false' }}">
+                data-is-fire="{{ 'true' if ev.is_fire else 'false' }}"
+                data-is-video="{{ 'true' if (ev.video_url or ev.is_video) else 'false' }}">
             <div class="w-full">
               <div class="flex flex-wrap items-center gap-1.5 text-[11px] text-slate-400 mb-1.5">
                 <span class="text-sm mr-1">{{ ev.flag or '🌐' }}</span>
@@ -608,10 +610,15 @@
                 {% else %}
                 <span class="px-1.5 py-0.5 rounded bg-slate-800 text-slate-300 border border-slate-700 text-[10px]">{{ ev.event_type }}</span>
                 {% endif %}
+                {% if ev.video_url %}
+                <span class="px-1.5 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-700/50 font-semibold text-[10px] flex items-center gap-1"><i class="fa-solid fa-play text-[9px] text-cyan-400"></i> WIDEO Z FRONTU</span>
+                {% endif %}
                 {% if ev.location_name %}
                 <span class="text-slate-400"><i class="fa-solid fa-location-dot text-red-400 mr-1"></i>{{ ev.location_name }}</span>
                 {% endif %}
-                {% if ev.source_channel and not is_nasa_ev %}
+                {% if ev.source_channel and ('reddit' in ev.source_channel|lower or 'combatfootage' in ev.source_channel|lower) %}
+                <span class="px-1.5 py-0.5 rounded bg-orange-950/70 text-orange-300 border border-orange-700/50 font-mono text-[10px] flex items-center gap-1"><i class="fa-brands fa-reddit text-[10px] text-orange-400"></i> r/CombatFootage</span>
+                {% elif ev.source_channel and not is_nasa_ev %}
                 <span class="px-1.5 py-0.5 rounded bg-indigo-950/60 text-indigo-300 border border-indigo-800/40 font-mono text-[10px]">[#{{ ev.source_channel }}]</span>
                 {% endif %}
                 {% if ev.multi_source_verified %}
@@ -620,6 +627,14 @@
               </div>
               <h4 class="font-semibold text-sm text-slate-200 mb-1 leading-snug">{{ ev.title_pl or ev.title }}</h4>
               <p class="text-xs text-slate-400 leading-relaxed">{{ ev.text_pl or ev.text }}</p>
+              {% if ev.video_url %}
+              <div class="w-full mt-2.5 rounded-lg overflow-hidden bg-black/90 border border-slate-700/80 shadow-md">
+                <video controls preload="metadata" {% if ev.media_urls and ev.media_urls|length > 0 %}poster="{{ ev.media_urls[0] }}"{% endif %} class="w-full max-h-[380px] rounded object-contain bg-black">
+                  <source src="{{ ev.video_url }}" type="video/mp4">
+                  Twoja przeglądarka nie obsługuje odtwarzacza wideo HTML5.
+                </video>
+              </div>
+              {% endif %}
             </div>
             {% set sources = ev.tactical_sources or [{'name': ev.source_channel or 'OSINT', 'url': ev.url}] %}
             {% if sources %}
@@ -1210,7 +1225,7 @@
         <div class="space-y-3 max-h-[850px] overflow-y-auto custom-scroll pr-2">
           {% for ev in c.recent_events %}
           {% set is_nasa_ev = (ev.is_nasa or ev.country == 'Czujniki NASA' or ev.source_channel == 'NASA FIRMS' or (ev.id and ev.id.startswith('nasa_firms'))) %}
-          <div class="event-card bg-slate-800/40 hover:bg-slate-800/70 transition rounded-lg p-3.5 border {% if is_nasa_ev %}border-orange-500/40 bg-orange-950/10 hover:border-orange-400/60{% else %}border-slate-700/60{% endif %} flex flex-col gap-2.5">
+          <div class="event-card bg-slate-800/40 hover:bg-slate-800/70 transition rounded-lg p-3.5 border {% if is_nasa_ev %}border-orange-500/40 bg-orange-950/10 hover:border-orange-400/60{% elif ev.video_url %}border-cyan-500/40 bg-cyan-950/10 hover:border-cyan-400/60{% else %}border-slate-700/60{% endif %} flex flex-col gap-2.5">
             <div class="w-full">
               <div class="flex flex-wrap items-center gap-1.5 text-[11px] text-slate-400 mb-1.5">
                 <span class="font-mono text-slate-300 font-semibold" title="Czas publikacji UTC: {{ ev.timestamp[:16].replace('T', ' ') if ev.timestamp else '' }} UTC">{{ ev.time_pl if ev.time_pl else (ev.timestamp[:16].replace('T', ' ') if ev.timestamp else '') }} <span class="text-[10px] text-slate-400 font-sans font-normal">czas PL</span></span>
@@ -1224,10 +1239,15 @@
                 {% else %}
                 <span class="px-1.5 py-0.5 rounded bg-slate-800 text-slate-300 border border-slate-700 text-[10px]">{{ ev.event_type }}</span>
                 {% endif %}
+                {% if ev.video_url %}
+                <span class="px-1.5 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-700/50 font-semibold text-[10px] flex items-center gap-1"><i class="fa-solid fa-play text-[9px] text-cyan-400"></i> WIDEO Z FRONTU</span>
+                {% endif %}
                 {% if ev.location_name %}
                 <span class="text-slate-400"><i class="fa-solid fa-location-dot text-red-400 mr-1"></i>{{ ev.location_name }}</span>
                 {% endif %}
-                {% if ev.source_channel and not is_nasa_ev %}
+                {% if ev.source_channel and ('reddit' in ev.source_channel|lower or 'combatfootage' in ev.source_channel|lower) %}
+                <span class="px-1.5 py-0.5 rounded bg-orange-950/70 text-orange-300 border border-orange-700/50 font-mono text-[10px] flex items-center gap-1"><i class="fa-brands fa-reddit text-[10px] text-orange-400"></i> r/CombatFootage</span>
+                {% elif ev.source_channel and not is_nasa_ev %}
                 <span class="px-1.5 py-0.5 rounded bg-indigo-950/60 text-indigo-300 border border-indigo-800/40 font-mono text-[10px]">[#{{ ev.source_channel }}]</span>
                 {% endif %}
                 {% if ev.multi_source_verified %}
@@ -1236,6 +1256,14 @@
               </div>
               <h4 class="font-semibold text-sm text-slate-200 mb-1 leading-snug">{{ ev.title_pl or ev.title }}</h4>
               <p class="text-xs text-slate-400 leading-relaxed">{{ ev.text_pl or ev.text }}</p>
+              {% if ev.video_url %}
+              <div class="w-full mt-2.5 rounded-lg overflow-hidden bg-black/90 border border-slate-700/80 shadow-md">
+                <video controls preload="metadata" {% if ev.media_urls and ev.media_urls|length > 0 %}poster="{{ ev.media_urls[0] }}"{% endif %} class="w-full max-h-[380px] rounded object-contain bg-black">
+                  <source src="{{ ev.video_url }}" type="video/mp4">
+                  Twoja przeglądarka nie obsługuje odtwarzacza wideo HTML5.
+                </video>
+              </div>
+              {% endif %}
             </div>
             {% set sources = ev.tactical_sources or [{'name': ev.source_channel or 'OSINT', 'url': ev.url}] %}
             {% if sources %}
@@ -2013,7 +2041,9 @@
       let count = 0;
       document.querySelectorAll('.event-card').forEach(card => {
         let show = true;
-        if (filterMode === 'nasa') {
+        if (filterMode === 'video') {
+          show = card.getAttribute('data-is-video') === 'true';
+        } else if (filterMode === 'nasa') {
           show = card.getAttribute('data-is-nasa') === 'true';
         } else if (filterMode === 'cross_check') {
           show = card.getAttribute('data-is-crosscheck') === 'true';
@@ -2370,6 +2400,7 @@
 
         const frpBadge = (isNasaPoint && p.frp) ? `<div class="text-[11px] text-amber-300 font-semibold">🔥 <strong>Moc Radiacyjna (FRP):</strong> ${p.frp} MW</div>` : '';
         const fireBadge = p.has_fire ? '<span class="inline-block px-1.5 py-0.5 rounded bg-amber-500/20 text-amber-400 border border-amber-500/30 text-[10px] font-bold mr-1">🔥 DETONACJA / POŻAR</span>' : '';
+        const videoBadge = p.video_url ? '<span class="inline-block px-1.5 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-700/50 text-[10px] font-bold mr-1">🎬 WIDEO</span>' : '';
         const weaponsBadge = (p.weapons && p.weapons.length > 0) ? `<div class="mt-1 text-[11px] text-indigo-300"><strong>Broń:</strong> ${p.weapons.join(', ')}</div>` : '';
         const targetBadge = p.target_type ? `<div class="text-[11px] text-slate-300"><strong>Cel:</strong> ${p.target_type}</div>` : '';
         const threatBadge = `<span class="px-1.5 py-0.2 rounded text-[10px] font-mono font-bold ${p.threat_score >= 8 ? 'bg-red-500/20 text-red-400 border border-red-500/30' : 'bg-slate-700 text-slate-300'}">Zagrożenie: ${p.threat_score || 5}/10</span>`;
@@ -2417,9 +2448,16 @@
               ${threatBadge}
             </div>
             ${crossCheckBadge}
-            <div class="mb-1 flex flex-wrap gap-1">${tacticalBadge}${fireBadge}</div>
+            <div class="mb-1 flex flex-wrap gap-1">${tacticalBadge}${fireBadge}${videoBadge}</div>
             <div class="font-semibold text-slate-200 mb-1 leading-snug">${titleText}</div>
             <div class="text-slate-400 mb-2 leading-tight">${descText}</div>
+            ${p.video_url ? `
+              <div class="my-1.5 rounded overflow-hidden bg-black border border-slate-700 shadow-sm">
+                <video controls preload="none" class="w-full max-h-[140px] object-contain">
+                  <source src="${p.video_url}" type="video/mp4">
+                </video>
+              </div>
+            ` : ''}
             <div class="bg-slate-900/80 p-2 rounded border border-slate-700/60 mb-2 space-y-0.5">
               ${frpBadge}
               ${targetBadge}
