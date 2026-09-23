@@ -577,9 +577,8 @@
               <h4 class="font-semibold text-sm text-slate-200 mb-0.5">{{ ev.title_pl or ev.title }}</h4>
               <p class="text-xs text-slate-400">{{ ev.text_pl or ev.text }}</p>
             </div>
-            {% if ev.url %}
-            <a href="{{ ev.url }}" target="_blank" rel="noopener noreferrer" class="text-xs text-emerald-400 hover:text-emerald-300 font-medium whitespace-nowrap">Źródło Taktyczne &rarr;</a>
-            {% endif %}
+            {% set safe_url = ev.url if (ev.url and (ev.url.startswith('http://') or ev.url.startswith('https://'))) else ('https://t.me/' ~ ev.source_channel if ev.source_channel else 'https://liveuamap.com') %}
+            <a href="{{ safe_url }}" target="_blank" rel="noopener noreferrer" class="text-xs text-emerald-400 hover:text-emerald-300 font-medium whitespace-nowrap">Źródło Taktyczne &rarr;</a>
           </div>
           {% endfor %}
         </div>
@@ -815,7 +814,8 @@
               <h4 class="font-semibold text-sm text-slate-200 mb-0.5">{{ ev.title_pl or ev.title }}</h4>
               <p class="text-xs text-slate-400">{{ ev.text_pl or ev.text }}</p>
             </div>
-            <a href="{{ ev.url }}" target="_blank" rel="noopener noreferrer" class="text-xs text-emerald-400 hover:text-emerald-300 font-medium whitespace-nowrap">Źródło Taktyczne &rarr;</a>
+            {% set safe_url = ev.url if (ev.url and (ev.url.startswith('http://') or ev.url.startswith('https://'))) else ('https://t.me/' ~ ev.source_channel if ev.source_channel else 'https://liveuamap.com') %}
+            <a href="{{ safe_url }}" target="_blank" rel="noopener noreferrer" class="text-xs text-emerald-400 hover:text-emerald-300 font-medium whitespace-nowrap">Źródło Taktyczne &rarr;</a>
           </div>
           {% else %}
           <div class="text-slate-500 text-xs italic py-4">Brak zarejestrowanych incydentów dla tego kraju.</div>
@@ -1869,7 +1869,7 @@
             </div>
             <div class="flex justify-between items-center text-[10px] text-slate-500 pt-1 border-t border-slate-700">
               <span class="font-mono text-slate-300 font-semibold">${p.time_pl ? p.time_pl : (p.timestamp ? p.timestamp.substring(0, 16).replace('T', ' ') : '')} <span class="text-[9px] text-slate-400 font-sans font-normal">czas PL</span></span>
-              <a href="${p.url}" target="_blank" class="text-emerald-400 hover:underline font-semibold">Źródło Taktyczne &rarr;</a>
+              <a href="${(p.url && (p.url.startsWith('http://') || p.url.startsWith('https://'))) ? p.url : (p.source_channel ? 'https://t.me/' + p.source_channel : 'https://liveuamap.com')}" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:underline font-semibold">Źródło Taktyczne &rarr;</a>
             </div>
           </div>
         `;

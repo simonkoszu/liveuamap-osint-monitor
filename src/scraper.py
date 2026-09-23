@@ -296,9 +296,21 @@ class AegisOSINTScraper:
                         if not timestamp:
                             continue  # Pomiń wpisy bez weryfikowalnego znacznika czasu publikacji
 
-                        # Linki w treści
-                        links = [a.get("href") for a in text_div.find_all("a") if a.get("href")]
-                        primary_link = links[0] if links else (f"https://t.me/{data_post}" if data_post else "https://liveuamap.com")
+                        # Linki w treści (wyciągamy tylko poprawne linki zewnętrzne, filtrując zapytania wewnętrzne typu ?q=...)
+                        links = [
+                            a.get("href") for a in text_div.find_all("a")
+                            if a.get("href") and (a.get("href").startswith("http://") or a.get("href").startswith("https://"))
+                        ]
+
+                        # Kanoniczny link do źródła taktycznego (bezpośredni post na Telegramie)
+                        if data_post:
+                            primary_link = f"https://t.me/{data_post}"
+                        elif channel:
+                            primary_link = f"https://t.me/{channel}"
+                        elif links:
+                            primary_link = links[0]
+                        else:
+                            primary_link = "https://liveuamap.com"
 
                         # Zdjęcia / podglądy multimediów
                         media_urls = []
