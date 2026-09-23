@@ -30,7 +30,7 @@ MILITARY_GLOSSARY = {
 _TRANSLATION_CACHE = {}
 
 def translate_to_polish(text: str) -> str:
-    """Tłumaczy pojedynczy ciąg znaków na język polski z obsługą cache."""
+    """Tłumaczy pojedynczy ciąg znaków na język polski z obsługą wielopoziomowego API i cache."""
     if not text or not text.strip():
         return ""
 
@@ -42,29 +42,64 @@ def translate_to_polish(text: str) -> str:
     if len(clean_text) < 3:
         return clean_text
 
+    encoded_text = urllib.parse.quote(clean_text)
+
+    # 1. Główny dostawca: Google Translate GTX API
     try:
-        url = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=pl&dt=t&q=" + urllib.parse.quote(clean_text)
+        url = f"https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=pl&dt=t&q={encoded_text}"
         req = urllib.request.Request(
             url, 
             headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"}
         )
-        with urllib.request.urlopen(req, timeout=4) as response:
+        with urllib.request.urlopen(req, timeout=5) as response:
             data = json.loads(response.read().decode("utf-8"))
             if data and data[0]:
                 translated = "".join([part[0] for part in data[0] if part and part[0]])
+                if translated and translated.strip():
+                    _TRANSLATION_CACHE[clean_text] = translated
+                    return translated
+    except Exception:
+        pass
+
+    # 2. Drugi dostawca: Google Translate Chrome Extension Client
+    try:
+        url = f"https://clients5.google.com/translate_a/t?client=dict-chrome-ex&sl=auto&tl=pl&q={encoded_text}"
+        req = urllib.request.Request(
+            url, 
+            headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+        )
+        with urllib.request.urlopen(req, timeout=5) as response:
+            data = json.loads(response.read().decode("utf-8"))
+            if data and isinstance(data, list) and len(data) > 0:
+                translated = data[0][0] if isinstance(data[0], list) else str(data[0])
+                if translated and translated.strip():
+                    _TRANSLATION_CACHE[clean_text] = translated
+                    return translated
+    except Exception:
+        pass
+
+    # 3. Trzeci dostawca: MyMemory API (zapasowe)
+    try:
+        url = f"https://api.mymemory.translated.net/get?q={encoded_text}&langpair=auto|pl"
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=5) as response:
+            data = json.loads(response.read().decode("utf-8"))
+            translated = data.get("responseData", {}).get("translatedText")
+            if translated and translated.strip() and not translated.startswith("MYMEMORY WARNING"):
                 _TRANSLATION_CACHE[clean_text] = translated
                 return translated
-    except Exception as e:
-        # Fallback na słownik terminologii wojskowej
-        translated = clean_text
-        for pattern, replacement in MILITARY_GLOSSARY.items():
-            translated = re.sub(pattern, replacement, translated, flags=re.IGNORECASE)
-        _TRANSLATION_CACHE[clean_text] = translated
-        return translated
+    except Exception:
+        pass
 
-    return clean_text
+    # Fallback na słownik terminologii wojskowej
+    translated = clean_text
+    for pattern, replacement in MILITARY_GLOSSARY.items():
+        translated = re.sub(pattern, replacement, translated, flags=re.IGNORECASE)
+    _TRANSLATION_CACHE[clean_text] = translated
+    return translated
 
-def translate_events_batch(events: List[Dict[str, Any]], max_to_translate: int = 150) -> int:
+
+def translate_events_batch(events: List[Dict[str, Any]], max_to_translate: int = 1000) -> int:
     """
     Tłumaczy zdarzenia w partii.
     Zapisuje przetłumaczone pola pod kluczami 'title_pl' oraz 'text_pl'.
@@ -74,7 +109,7 @@ def translate_events_batch(events: List[Dict[str, Any]], max_to_translate: int =
     print(f"[TRANSLATOR] Weryfikacja tłumaczeń polskich dla {len(events)} incydentów...")
 
     for ev in events:
-        if translated_count >= max_to_translate:
+        if max_to_translate and translated_count >= max_to_translate:
             break
 
         orig_title = (ev.get("title") or "").strip()
@@ -92,7 +127,7 @@ def translate_events_batch(events: List[Dict[str, Any]], max_to_translate: int =
             translated_count += 1
             if translated_count % 15 == 0:
                 print(f"[TRANSLATOR] Przetłumaczono {translated_count} zdarzeń na j. polski...")
-                time.sleep(0.15)  # Drobny odstęp, aby nie przekroczyć limitów API
+                time.sleep(0.12)  # Krótki odstęp chroniący przed rate-limitami
 
     print(f"[TRANSLATOR] Zakończono: {translated_count} nowych zdarzeń przetłumaczonych na język polski.")
     return translated_count

@@ -27,6 +27,14 @@ class ConflictAnalyzer:
         self.now = datetime.now(timezone.utc)
         self.tracking_started_at = tracking_started_at or self.now.isoformat()
 
+        # Normalizacja pól timestamp dla każdego incydentu (np. NASA FIRMS ma pole 'date')
+        for e in self.all_events:
+            if not e.get("timestamp"):
+                raw_date = e.get("date") or e.get("added_at") or self.now.isoformat()
+                if isinstance(raw_date, str) and " " in raw_date and "T" not in raw_date:
+                    raw_date = raw_date.replace(" ", "T") + "+00:00"
+                e["timestamp"] = raw_date
+
     def _parse_iso(self, ts_str: str) -> Optional[datetime]:
         if not ts_str:
             return None
@@ -155,7 +163,7 @@ class ConflictAnalyzer:
                 "daily": daily_stats,
                 "weekly": weekly_stats,
                 "monthly": monthly_stats,
-                "recent_events": ev_list[:10]
+                "recent_events": sorted(ev_list, key=lambda e: e.get("timestamp", ""), reverse=True)
             })
 
         # Globalne agregacje
@@ -188,7 +196,7 @@ class ConflictAnalyzer:
         map_points = []
         verified_count = sum(1 for e in self.all_events if e.get("multi_source_verified"))
 
-        for e in self.all_events[:600]:
+        for e in self.all_events:
             lat = e.get("lat")
             lon = e.get("lon")
             if lat and lon:
@@ -231,6 +239,8 @@ class ConflictAnalyzer:
         auth_hash = hashlib.sha256((auth_salt + report_pin).encode("utf-8")).hexdigest()
         carto_api_key = os.getenv("CARTO_API_KEY", "").strip() or "cb1_3u7r_1_3c8d42e4911c679a2d091c0d"
 
+        all_events_sorted = sorted(self.all_events, key=lambda e: e.get("timestamp", ""), reverse=True)
+
         return {
             "generated_at": self.now.strftime("%Y-%m-%d %H:%M:%S UTC"),
             "today_date": self.now.strftime("%Y-%m-%d"),
@@ -242,6 +252,7 @@ class ConflictAnalyzer:
             "global_weekly": self._calculate_period_stats(all_7d, all_prev_7d),
             "global_monthly": self._calculate_period_stats(all_30d, all_prev_30d),
             "countries": countries_report,
+            "all_events": all_events_sorted,
             "timeline": {
                 "days": timeline_days,
                 "counts": timeline_counts

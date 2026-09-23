@@ -76,7 +76,7 @@ def main():
 
     # 2d. Tłumaczenie incydentów na język polski (z buforowaniem)
     from translator import translate_events_batch
-    translate_events_batch(deduplicated_events, max_to_translate=300)
+    translate_events_batch(deduplicated_events, max_to_translate=1000)
 
     db.events = {ev["id"]: ev for ev in deduplicated_events}
     db.save()
