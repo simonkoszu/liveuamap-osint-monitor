@@ -95,6 +95,18 @@ def main():
         if c['total_events'] > 0:
             print(f"     - {c['flag']} {c['name']}: {c['total_events']} zdarzeń (24h: {c['daily']['count']}, 7d: {c['weekly']['count']})")
 
+    pt = analysis.get("poland_threat", {})
+    if pt:
+        print("=" * 60)
+        print(f"⏱️ ZEGAR ZAGROŻENIA WOJNĄ POLSKI Z ROSJĄ (NATO): {pt.get('threat_clock_time')} (Za {pt.get('minutes_to_midnight')} min do północy)")
+        print(f"   • Status: {pt.get('threat_level')} [{pt.get('defcon_equivalent')}]")
+        print(f"   • Wskaźnik Ryzyka Łącznego: {pt.get('threat_index')}/100 | Trend: {pt.get('trend')}")
+        if pt.get("alerts"):
+            print(f"   🚨 Aktywne Alerty Wczesnego Ostrzegania ({len(pt['alerts'])}):")
+            for al in pt["alerts"]:
+                print(f"      [{al.get('badge')}] {al.get('title')}")
+        print("=" * 60)
+
     # 4. Generowanie raportu HTML
     print("🎨 Renderowanie interaktywnego panelu taktycznego Aegis Radar...")
     generator = ReportGenerator(templates_dir, output_dir)

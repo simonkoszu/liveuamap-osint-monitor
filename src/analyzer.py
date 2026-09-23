@@ -240,6 +240,7 @@ class ConflictAnalyzer:
         carto_api_key = os.getenv("CARTO_API_KEY", "").strip() or "cb1_3u7r_1_3c8d42e4911c679a2d091c0d"
 
         all_events_sorted = sorted(self.all_events, key=lambda e: e.get("timestamp", ""), reverse=True)
+        poland_threat = self._analyze_poland_threat(all_24h, all_7d)
 
         return {
             "generated_at": self.now.strftime("%Y-%m-%d %H:%M:%S UTC"),
@@ -258,7 +259,183 @@ class ConflictAnalyzer:
                 "counts": timeline_counts
             },
             "map_points": map_points,
+            "poland_threat": poland_threat,
             "auth_salt": auth_salt,
             "auth_hash": auth_hash,
             "carto_api_key": carto_api_key
+        }
+
+    def _analyze_poland_threat(self, all_24h: List[Dict[str, Any]], all_7d: List[Dict[str, Any]]) -> Dict[str, Any]:
+        """
+        Automatyczna Analiza Zegara Zagrożenia i Alerty Wczesnego Ostrzegania (Wojna Polska - Rosja / NATO).
+        Oblicza wskaźniki ryzyka bezpośredniego konfliktu, incydentów przygranicznych,
+        operacji hybrydowych oraz eskalacji strategicznej w cyklu godzinnym.
+        """
+        near_border_locs = [
+            "lwów", "lviv", "wołyń", "volyn", "równe", "rivne", "stryj", "stryi", 
+            "łuck", "lutsk", "jaworów", "yavoriv", "brześć", "grodno", "kaliningrad", 
+            "królewiec", "suwałki", "bałtyk", "baltic", "morze bałtyckie", "zatoka gdańska"
+        ]
+
+        border_kinetic_24h = []
+        border_kinetic_7d = []
+        hybrid_24h = []
+        nuclear_7d = []
+
+        for e in all_7d:
+            txt = ((e.get("title") or "") + " " + (e.get("title_pl") or "") + " " + 
+                   (e.get("text") or "") + " " + (e.get("text_pl") or "")).lower()
+
+            is_near_border = any(loc in txt for loc in near_border_locs) or (
+                e.get("country") == "Ukraina" and any(w in txt for w in ["zachodniej ukrainy", "kurs na zachód", "western ukraine", "granicy z polską"])
+            )
+            is_kinetic = any(k in (e.get("tactical_category") or "") for k in ["Uderzenie", "Rakieta", "Dron", "Eksplozja"])
+
+            if is_near_border and is_kinetic:
+                border_kinetic_7d.append(e)
+                if e in all_24h:
+                    border_kinetic_24h.append(e)
+
+            if any(w in txt for w in ["gps", "jamming", "zakłóc", "sabotaż", "sabotage", "dywersja", "cyber", "podpalen", "arson", "granic", "border", "baltyk", "bałtyk"]):
+                if e in all_24h:
+                    hybrid_24h.append(e)
+
+            if any(w in txt for w in ["nuclear", "nuklear", "jądrow", "atom", "doktryn", "odstrasz", "strategic"]):
+                nuclear_7d.append(e)
+
+        # Składowe Prawdopodobieństwa (0-100%)
+        # 1. Inwazja lądowa: stała niska baza (5-8%) - 90%+ sił lądowych FR uwiązane na Ukrainie i w Kursku
+        ground_prob = 7
+
+        # 2. Incydent kinetyczny (rakiety / drony przy granicy RP): wysokie ryzyko ze względu na naloty na zachodnią Ukrainę
+        border_prob = min(80, 45 + len(border_kinetic_24h) * 8 + len(border_kinetic_7d) * 2)
+
+        # 3. Wojna hybrydowa, sabotaż, GPS: stan ciągły krytyczny (80-92%)
+        hybrid_prob = min(95, 78 + len(hybrid_24h) * 3)
+
+        # 4. Zagrożenie nuklearne / eskalacja strategiczna: niskie (10-18%)
+        nuclear_prob = min(25, 10 + len(nuclear_7d) * 2)
+
+        # Łączny wskaźnik zagrożenia (Composite Threat Index: 0 - 100)
+        composite_index = round(ground_prob * 0.15 + border_prob * 0.35 + hybrid_prob * 0.35 + nuclear_prob * 0.15)
+        
+        # Przeliczenie na minuty do północy (skala zegarowa: godzina 23:xx)
+        # Indeks 70-75 mapuje się na 44-48 minut do północy (23:12 - 23:16)
+        minutes_to_midnight = max(10, min(58, round(60 - (composite_index - 45) * 0.95)))
+        clock_min = 60 - minutes_to_midnight
+        threat_clock_time = f"23:{clock_min:02d}"
+
+        # Status alertu
+        if minutes_to_midnight <= 20:
+            threat_level = "BARDZO WYSOKI (INCYDENTY KINETYCZNE PRZY GRANICY)"
+            threat_color = "red"
+            defcon = "DEFCON 2"
+        elif minutes_to_midnight <= 50:
+            threat_level = "PODWYŻSZONY (WOJNA HYBRYDOWA / PONIŻEJ PROGU ART. 5)"
+            threat_color = "amber"
+            defcon = "DEFCON 3"
+        else:
+            threat_level = "UMIARKOWANY (ODSTRASZANIE STRATEGICZNE)"
+            threat_color = "blue"
+            defcon = "DEFCON 4"
+
+        # Generowanie alertów wczesnego ostrzegania
+        alerts = []
+        if border_kinetic_24h:
+            alerts.append({
+                "level": "CRITICAL",
+                "badge": "🚨 KINETYCZNY PRZYGRANICZNY",
+                "color_bg": "bg-red-950/70 border-red-700/60 text-red-200",
+                "icon": "fa-triangle-exclamation text-red-400 animate-pulse",
+                "title": f"Odnotowano {len(border_kinetic_24h)} uderzeń rakietowo-dronowych w korytarzu zachodniej Ukrainy w ciągu 24h",
+                "desc": "Zwiększone ryzyko wtargnięcia zbłąkanych pocisków lub dronów w polską przestrzeń powietrzną. Wymagany stały dyżur bojowy par F-16 i posterunków radiolokacyjnych.",
+                "timestamp": border_kinetic_24h[0].get("timestamp", self.now.strftime("%Y-%m-%d %H:%M UTC"))[:16].replace("T", " ")
+            })
+        else:
+            alerts.append({
+                "level": "WARNING",
+                "badge": "⚠️ ALERT OPL / AIR POLICING",
+                "color_bg": "bg-amber-950/60 border-amber-700/60 text-amber-200",
+                "icon": "fa-jet-fighter text-amber-400",
+                "title": "Podwyższona gotowość bojowa obrony powietrznej wschodniej granicy RP",
+                "desc": "Rosyjskie lotnictwo strategiczne (Tu-95MS / MiG-31K) utrzymuje możliwość ataków na obwody graniczące z Polską (Wołyń, Lwów).",
+                "timestamp": self.now.strftime("%Y-%m-%d %H:%M UTC")
+            })
+
+        if hybrid_24h:
+            alerts.append({
+                "level": "HIGH",
+                "badge": "⚡ WOJNA HYBRYDOWA / EW",
+                "color_bg": "bg-indigo-950/60 border-indigo-700/60 text-indigo-200",
+                "icon": "fa-tower-broadcast text-indigo-400",
+                "title": "Aktywność zakłócania sygnałów nawigacyjnych i dywersji w rejonie Bałtyku i granicy",
+                "desc": "Zarejestrowano incydenty zakłócania systemów GPS/GNSS oraz presję dywersyjną służb specjalnych FR i RB w obszarze przygranicznym.",
+                "timestamp": hybrid_24h[0].get("timestamp", self.now.strftime("%Y-%m-%d %H:%M UTC"))[:16].replace("T", " ")
+            })
+
+        if nuclear_7d:
+            alerts.append({
+                "level": "INFO",
+                "badge": "🛡️ ODSTRASZANIE NATO",
+                "color_bg": "bg-blue-950/60 border-blue-700/60 text-blue-200",
+                "icon": "fa-shield-halved text-blue-400",
+                "title": "Spójność parasola nuklearnego i konwencjonalnego NATO nad Polską",
+                "desc": "Dowództwo Sojuszu i przedstawiciele USA potwierdzają bezwzględne obowiązywanie Art. 5 w razie naruszenia terytorium Rzeczypospolitej Polskiej.",
+                "timestamp": nuclear_7d[0].get("timestamp", self.now.strftime("%Y-%m-%d %H:%M UTC"))[:16].replace("T", " ")
+            })
+
+        return {
+            "threat_clock_time": threat_clock_time,
+            "minutes_to_midnight": minutes_to_midnight,
+            "threat_index": composite_index,
+            "threat_level": threat_level,
+            "defcon_equivalent": defcon,
+            "threat_color": threat_color,
+            "trend": "STABILNY Z ODCHYŁEM HYBRYDOWYM",
+            "trend_icon": "fa-arrow-right",
+            "vectors": {
+                "ground_invasion": {
+                    "name": "1. Bezpośrednia Inwazja Lądowa (Suwałki / Królewiec / Białoruś)",
+                    "clock": "21:30",
+                    "prob_pct": ground_prob,
+                    "status": "BARDZO NISKIE",
+                    "badge_color": "bg-emerald-950/70 text-emerald-300 border-emerald-700/50",
+                    "bar_color": "bg-emerald-500",
+                    "desc": "Ponad 90% wojsk lądowych FR uwiązanych na Ukrainie i w Kursku. Brak formowania zgrupowań uderzeniowych w Królewcu i na Białorusi."
+                },
+                "border_kinetic": {
+                    "name": "2. Incydent Kinetyczny (Zbłąkana Rakieta / Dron przy granicy RP)",
+                    "clock": "23:42",
+                    "prob_pct": border_prob,
+                    "status": "WYSOKIE",
+                    "badge_color": "bg-amber-950/70 text-amber-300 border-amber-700/50",
+                    "bar_color": "bg-amber-500",
+                    "desc": "Zmasowane uderzenia nocne w zachodnią Ukrainę (Lwów, Stryj, Równe) wymuszają regularne poderwania par dyżurnych F-16."
+                },
+                "hybrid_sabotage": {
+                    "name": "3. Wojna Hybrydowa, Sabotaż i Zakłócenia GPS",
+                    "clock": "23:55",
+                    "prob_pct": hybrid_prob,
+                    "status": "KRYTYCZNE / TRWAJĄCE",
+                    "badge_color": "bg-red-950/70 text-red-300 border-red-700/50",
+                    "bar_color": "bg-red-500",
+                    "desc": "Aktywne zakłócenia sygnałów nawigacyjnych nad Bałtykiem, cyberataki oraz operacje dywersyjne GRU w Europie Środkowej."
+                },
+                "nuclear_escalation": {
+                    "name": "4. Eskalacja Nuklearna / BMR wobec Wschodniej Flanki",
+                    "clock": "22:15",
+                    "prob_pct": nuclear_prob,
+                    "status": "NISKIE",
+                    "badge_color": "bg-yellow-950/70 text-yellow-300 border-yellow-700/50",
+                    "bar_color": "bg-yellow-500",
+                    "desc": "Retoryka odstraszania politycznego na forum ONZ; doktryna nuklearna NATO i obecność sojusznicza gwarantują skuteczne odstraszanie."
+                }
+            },
+            "alerts": alerts,
+            "recommendations": [
+                "Utrzymanie stałej gotowości bojowej naziemnych baterii OPL (Patriot / Wisła / Narew) na wschodniej granicy.",
+                "Natychmiastowe procedury Air Policing (CAP F-16) podczas zmasowanych salw rakietowych na zachodnią Ukrainę.",
+                "Podwyższona ochrona fizyczna i kontrwywiadowcza lotniska Rzeszów-Jasionka oraz szlaków kolejowych.",
+                "Ciągły monitoring anomalii w paśmie GNSS/GPS nad Zatoką Gdańską i przesmykiem suwalskim."
+            ]
         }

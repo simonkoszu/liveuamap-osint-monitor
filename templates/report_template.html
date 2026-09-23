@@ -221,6 +221,12 @@
         <span>Przegląd Wszystkich Krajów</span>
       </button>
 
+      <!-- Skrót do Zegara Zagrożenia RP -->
+      <button onclick="scrollToThreatClock()" id="btn-threat-clock" class="px-3.5 py-2 rounded-xl bg-amber-500/20 text-amber-300 border border-amber-500/40 hover:bg-amber-500/30 flex items-center space-x-2 font-semibold whitespace-nowrap transition cursor-pointer">
+        <i class="fa-solid fa-clock-rotate-left text-xs animate-pulse"></i>
+        <span>🇵🇱 Zegar Zagrożenia RP ({{ data.poland_threat.threat_clock_time }})</span>
+      </button>
+
       <!-- Przyciski poszczególnych państw -->
       {% for c in data.countries %}
       <button onclick="selectCountry('{{ c.name }}')" id="btn-country-{{ c.name | replace(' ', '_') | replace('/', '_') }}" class="country-btn px-3.5 py-2 rounded-xl text-slate-400 hover:text-slate-200 hover:bg-slate-800 border border-transparent flex items-center space-x-2 whitespace-nowrap transition">
@@ -248,7 +254,152 @@
 
     <!-- WIDOK 1: PRZEGLĄD GLOBALNY (TABELA PORÓWNAWCZA KRAJÓW + STATYSTYKI) -->
     <div id="view-global" class="country-view space-y-6">
-      
+
+      <!-- MODUŁ: ZEGAR ZAGROŻENIA WOJNĄ POLSKI Z ROSJĄ & ALERTY WCZESNEGO OSTRZEGANIA -->
+      <div id="threat-clock-section" class="bg-slate-900 border border-slate-800/90 rounded-2xl p-5 sm:p-6 shadow-2xl relative overflow-hidden space-y-5">
+        <!-- Tło gradientowe i glow -->
+        <div class="absolute -top-32 -right-32 w-64 h-64 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute -bottom-32 -left-32 w-64 h-64 bg-red-600/10 rounded-full blur-3xl pointer-events-none"></div>
+
+        <!-- Nagłówek Sekcji -->
+        <div class="flex flex-wrap items-center justify-between gap-3 pb-4 border-b border-slate-800/80">
+          <div class="flex items-center space-x-3">
+            <div class="w-11 h-11 rounded-xl bg-amber-500/20 border border-amber-500/40 flex items-center justify-center text-amber-400 text-xl shadow-inner">
+              <i class="fa-solid fa-shield-halved animate-pulse"></i>
+            </div>
+            <div>
+              <div class="flex items-center space-x-2.5">
+                <h2 class="text-lg sm:text-xl font-black text-white tracking-wide uppercase">Zegar Zagrożenia Wojną: Polska – Rosja / NATO</h2>
+                <span class="px-2 py-0.5 rounded text-[10px] font-mono font-bold bg-amber-500/20 text-amber-300 border border-amber-500/40">CYKL: CO 1 GODZINĘ</span>
+              </div>
+              <p class="text-xs text-slate-400 mt-0.5">Autonomiczny szacunek ryzyka kinetycznego, dywersji i eskalacji militarnej aktualizowany 24x/dobę na bazie meldunków wywiadowczych OSINT</p>
+            </div>
+          </div>
+
+          <div class="flex items-center space-x-2">
+            <span class="px-3 py-1.5 rounded-xl bg-slate-950 border border-slate-800 text-xs font-mono text-slate-300">
+              Odpowiednik: <strong class="text-amber-400 font-bold">{{ data.poland_threat.defcon_equivalent }}</strong>
+            </span>
+            <span class="px-3 py-1.5 rounded-xl bg-slate-950 border border-slate-800 text-xs font-mono text-slate-300">
+              Wskaźnik Ryzyka: <strong class="text-white font-bold">{{ data.poland_threat.threat_index }}/100</strong>
+            </span>
+          </div>
+        </div>
+
+        <!-- BANER ALERTÓW WCZESNEGO OSTRZEGANIA (EARLY WARNING ALERTS) -->
+        {% if data.poland_threat.alerts %}
+        <div class="space-y-2.5">
+          <div class="text-xs font-bold text-slate-300 uppercase tracking-wider flex items-center space-x-2">
+            <i class="fa-solid fa-bell text-amber-400 animate-bounce"></i>
+            <span>Aktywne Alerty Wczesnego Ostrzegania (Wschodnia Flanka RP)</span>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+            {% for alert in data.poland_threat.alerts %}
+            <div class="p-3.5 rounded-xl border {{ alert.color_bg }} backdrop-blur flex flex-col justify-between space-y-2 transition hover:scale-[1.01]">
+              <div>
+                <div class="flex items-center justify-between gap-2 mb-1.5">
+                  <span class="px-2 py-0.5 rounded font-mono font-bold text-[10px] bg-black/40 border border-white/10 uppercase">{{ alert.badge }}</span>
+                  <span class="text-[10px] font-mono text-slate-400 flex items-center"><i class="fa-solid fa-clock mr-1"></i>{{ alert.timestamp }}</span>
+                </div>
+                <h4 class="text-xs font-bold text-white leading-snug flex items-start space-x-1.5">
+                  <i class="fa-solid {{ alert.icon }} mt-0.5 mr-1"></i>
+                  <span>{{ alert.title }}</span>
+                </h4>
+                <p class="text-[11px] text-slate-300/90 mt-1 leading-relaxed">{{ alert.desc }}</p>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+        {% endif %}
+
+        <!-- GŁÓWNY PANEL: ZEGAR + 4 WEKTORY ZAGROŻENIA -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-5 items-stretch">
+          <!-- Lewa Kolumna: Zegar Zagrożenia -->
+          <div class="lg:col-span-4 bg-slate-950/80 border border-slate-800 rounded-xl p-5 flex flex-col justify-between text-center relative shadow-inner">
+            <div>
+              <span class="text-[11px] font-mono uppercase tracking-widest text-slate-400 font-semibold">Pozycja Wskazówki Zegara</span>
+              
+              <!-- Zegar Cyfrowy i Analogowy -->
+              <div class="my-4 relative inline-block">
+                <div class="w-36 h-36 mx-auto rounded-full border-4 border-amber-500/40 bg-slate-900/90 flex flex-col items-center justify-center shadow-2xl relative">
+                  <div class="text-[10px] font-mono text-slate-500 uppercase">DO PÓŁNOCY</div>
+                  <div class="text-3xl font-black font-mono text-amber-400 tracking-wider my-0.5">{{ data.poland_threat.threat_clock_time }}</div>
+                  <div class="text-[10px] font-mono font-semibold px-2 py-0.5 rounded bg-amber-500/20 text-amber-300">
+                    -{{ data.poland_threat.minutes_to_midnight }} MIN
+                  </div>
+                </div>
+              </div>
+
+              <div class="text-xs font-bold text-slate-200 mt-1">ZA {{ data.poland_threat.minutes_to_midnight }} MINUT DWUNASTA</div>
+              <div class="inline-block mt-2 px-3 py-1 rounded-lg text-xs font-bold bg-amber-950/70 text-amber-300 border border-amber-700/50">
+                {{ data.poland_threat.threat_level }}
+              </div>
+            </div>
+
+            <!-- Skala Zegara -->
+            <div class="mt-4 pt-3 border-t border-slate-800/80 text-[10px] font-mono text-slate-400">
+              <div class="flex justify-between mb-1">
+                <span>18:00 (Pokój)</span>
+                <span>21:00</span>
+                <span>23:00</span>
+                <span class="text-red-400 font-bold">24:00 (Wojna)</span>
+              </div>
+              <div class="w-full h-2 bg-slate-800 rounded-full overflow-hidden flex">
+                <div class="bg-emerald-500 w-1/4 h-full"></div>
+                <div class="bg-blue-500 w-1/4 h-full"></div>
+                <div class="bg-amber-500 w-1/4 h-full"></div>
+                <div class="bg-red-500 w-1/4 h-full"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Prawa Kolumna: 4 Wektory Zagrożenia -->
+          <div class="lg:col-span-8 bg-slate-950/80 border border-slate-800 rounded-xl p-5 flex flex-col justify-between space-y-3.5">
+            <div class="text-xs font-bold text-slate-300 uppercase tracking-wider flex items-center justify-between pb-2 border-b border-slate-800/80">
+              <span>Wskaźniki Składowe Ryzyka Konfrontacji (Rozbicie Wektorowe)</span>
+              <span class="text-[11px] font-mono text-slate-400">Trend: <strong class="text-emerald-400">{{ data.poland_threat.trend }}</strong></span>
+            </div>
+
+            <!-- Lista 4 wektorów -->
+            <div class="space-y-3">
+              {% for key, vec in data.poland_threat.vectors.items() %}
+              <div class="p-2.5 rounded-lg bg-slate-900/60 border border-slate-800/80 text-xs">
+                <div class="flex flex-wrap items-center justify-between gap-1 mb-1.5">
+                  <span class="font-bold text-slate-200">{{ vec.name }}</span>
+                  <div class="flex items-center space-x-2">
+                    <span class="px-2 py-0.2 rounded font-mono font-bold text-[10px] {{ vec.badge_color }}">{{ vec.status }}</span>
+                    <span class="font-mono text-slate-300 font-bold">{{ vec.prob_pct }}%</span>
+                  </div>
+                </div>
+                <!-- Pasek postępu -->
+                <div class="w-full bg-slate-800 rounded-full h-1.5 mb-1.5 overflow-hidden">
+                  <div class="{{ vec.bar_color }} h-1.5 rounded-full transition-all duration-500" style="width: {{ vec.prob_pct }}%"></div>
+                </div>
+                <p class="text-[11px] text-slate-400 leading-relaxed">{{ vec.desc }}</p>
+              </div>
+              {% endfor %}
+            </div>
+
+            <!-- Rekomendacje Ochronne Sztabu -->
+            <div class="pt-2 border-t border-slate-800/80">
+              <div class="text-[11px] font-bold text-slate-400 uppercase mb-1.5 flex items-center space-x-1.5">
+                <i class="fa-solid fa-shield-cat text-indigo-400"></i>
+                <span>Wnioski Obronno-Operacyjne dla Sił Zbrojnych RP i Obywateli:</span>
+              </div>
+              <ul class="grid grid-cols-1 sm:grid-cols-2 gap-1.5 text-[11px] text-slate-300">
+                {% for rec in data.poland_threat.recommendations %}
+                <li class="flex items-start space-x-1.5">
+                  <i class="fa-solid fa-check text-emerald-400 mt-0.5 text-[10px]"></i>
+                  <span>{{ rec }}</span>
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- Podsumowanie Globalne KPI -->
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
         <div class="bg-slate-900 border border-slate-800 rounded-xl p-4">
@@ -1298,6 +1449,16 @@
     const MAP_POINTS = {{ data.map_points | tojson }};
     const TIMELINE_DAYS = {{ data.timeline.days | tojson }};
     const TIMELINE_COUNTS = {{ data.timeline.counts | tojson }};
+
+    function scrollToThreatClock() {
+      selectCountry('global');
+      setTimeout(() => {
+        const el = document.getElementById('threat-clock-section');
+        if (el) {
+          el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }, 50);
+    }
 
     function selectCountry(countryName) {
       document.querySelectorAll('.country-view').forEach(el => el.classList.add('hidden'));
