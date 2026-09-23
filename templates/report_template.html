@@ -1581,133 +1581,217 @@
             <i class="fa-solid fa-database text-amber-400"></i>
             Rejestr i Specyfikacja Źródeł Informacji
           </h3>
-          <span class="text-xs text-slate-500 font-mono">9 Kanałów Głównych + Satelity</span>
+          <span class="text-xs text-slate-500 font-mono">14 Aktywnych Źródeł / Sensorów</span>
         </div>
 
         <div class="overflow-x-auto">
           <table class="w-full text-left text-xs border-collapse">
             <thead>
               <tr class="border-b border-slate-800 text-slate-400 font-mono bg-slate-950/50">
-                <th class="py-3 px-4">Źródło / System</th>
-                <th class="py-3 px-4">Teatr / Zasięg</th>
-                <th class="py-3 px-4">Typ Danych &amp; Telemetria</th>
-                <th class="py-3 px-4">Częstotliwość Próbkowania</th>
-                <th class="py-3 px-4">Poziom Wiarygodności</th>
-                <th class="py-3 px-4">Zastosowany Filtr / Algorytm</th>
+                <th class="py-3 px-4">Źródło / Identyfikator</th>
+                <th class="py-3 px-4">Typ / Protokół</th>
+                <th class="py-3 px-4">Teatr / Obszar</th>
+                <th class="py-3 px-4">Główny Cel Operacyjny</th>
+                <th class="py-3 px-4">Wiarygodność</th>
+                <th class="py-3 px-4">Status</th>
               </tr>
             </thead>
             <tbody class="divide-y divide-slate-800/60 text-slate-300">
               
               <tr class="hover:bg-slate-800/40 transition">
-                <td class="py-3 px-4 font-semibold text-white flex items-center space-x-2">
-                  <span class="text-base">🇺🇦</span>
-                  <span>Ukraina / Front Wschodni</span>
+                <td class="py-3 px-4 font-semibold text-white">
+                  <a href="https://defence24.pl" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:underline flex items-center gap-1.5">
+                    <span>🇵🇱 Defence24</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square text-[10px] text-slate-500"></i>
+                  </a>
                 </td>
-                <td class="py-3 px-4 text-slate-300">Donbas, Charków, Krym, Zaporoże</td>
-                <td class="py-3 px-4 text-slate-400">Ostrzał artyleryjski, drony FPV/Shahed, naloty KAB, linia frontu</td>
-                <td class="py-3 px-4 text-slate-300 font-mono">Co 12h (Cron) + Push</td>
-                <td class="py-3 px-4">
-                  <span class="px-2 py-0.5 rounded text-[10px] bg-emerald-950 text-emerald-400 border border-emerald-500/30 font-semibold">Wysoki (OSINT Wieloźródłowy)</span>
-                </td>
-                <td class="py-3 px-4 text-slate-400">Deduplikacja &lt;25 km, filtr anty-duplikatów, translacja PL</td>
+                <td class="py-3 px-4 text-slate-400 font-mono">RSS (defence24.pl/rss)</td>
+                <td class="py-3 px-4 text-slate-300">Wschodnia Flanka NATO (Polska)</td>
+                <td class="py-3 px-4 text-slate-300">Naruszenia przestrzeni powietrznej, komunikaty DO RSZ, MON, Straż Graniczna</td>
+                <td class="py-3 px-4"><span class="px-2 py-0.5 rounded text-[10px] bg-emerald-950 text-emerald-400 border border-emerald-500/30 font-semibold">Oficjalne / Branżowe</span></td>
+                <td class="py-3 px-4"><span class="px-2 py-0.5 rounded text-[10px] bg-emerald-950 text-emerald-400 border border-emerald-500/30 font-mono">Aktywne</span></td>
               </tr>
 
               <tr class="hover:bg-slate-800/40 transition">
-                <td class="py-3 px-4 font-semibold text-white flex items-center space-x-2">
-                  <span class="text-base">🇮🇱</span>
-                  <span>Bliski Wschód / Izrael &amp; Gaza</span>
+                <td class="py-3 px-4 font-semibold text-white">
+                  <a href="https://t.me/kpszsu" target="_blank" rel="noopener noreferrer" class="text-sky-400 hover:underline flex items-center gap-1.5">
+                    <span>🇺🇦 @kpszsu</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square text-[10px] text-slate-500"></i>
+                  </a>
                 </td>
-                <td class="py-3 px-4 text-slate-300">Strefa Gazy, Zachodni Brzeg, Południowy Liban</td>
-                <td class="py-3 px-4 text-slate-400">Ataki rakietowe, operacje IDF, ostrzał Hezbollahu, uderzenia lotnicze</td>
-                <td class="py-3 px-4 text-slate-300 font-mono">Co 12h (Cron) + Push</td>
-                <td class="py-3 px-4">
-                  <span class="px-2 py-0.5 rounded text-[10px] bg-emerald-950 text-emerald-400 border border-emerald-500/30 font-semibold">Wysoki (Radary Taktyczne)</span>
-                </td>
-                <td class="py-3 px-4 text-slate-400">Klasyfikacja pocisków/dronów, geolokalizacja miast</td>
+                <td class="py-3 px-4 text-slate-400 font-mono">Telegram Web Stream</td>
+                <td class="py-3 px-4 text-slate-300">Ukraina</td>
+                <td class="py-3 px-4 text-slate-300">Raporty Dowództwa Sił Powietrznych UA, alarmy rakietowe, zestrzelenia Shahedów</td>
+                <td class="py-3 px-4"><span class="px-2 py-0.5 rounded text-[10px] bg-emerald-950 text-emerald-400 border border-emerald-500/30 font-semibold">Sztabowe (Dowództwo UA)</span></td>
+                <td class="py-3 px-4"><span class="px-2 py-0.5 rounded text-[10px] bg-emerald-950 text-emerald-400 border border-emerald-500/30 font-mono">Aktywne</span></td>
               </tr>
 
               <tr class="hover:bg-slate-800/40 transition">
-                <td class="py-3 px-4 font-semibold text-white flex items-center space-x-2">
-                  <span class="text-base">🇾🇪</span>
-                  <span>Morze Czerwone &amp; Jemen</span>
+                <td class="py-3 px-4 font-semibold text-white">
+                  <a href="https://t.me/war_monitor" target="_blank" rel="noopener noreferrer" class="text-sky-400 hover:underline flex items-center gap-1.5">
+                    <span>📡 @war_monitor</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square text-[10px] text-slate-500"></i>
+                  </a>
                 </td>
-                <td class="py-3 px-4 text-slate-300">Cieśnina Bab el-Mandeb, Zatoka Adeńska, Jemen</td>
-                <td class="py-3 px-4 text-slate-400">Ataki na statki handlowe, drony morskie, uderzenia koalicji US/UK</td>
-                <td class="py-3 px-4 text-slate-300 font-mono">Co 12h (Cron) + Push</td>
-                <td class="py-3 px-4">
-                  <span class="px-2 py-0.5 rounded text-[10px] bg-emerald-950 text-emerald-400 border border-emerald-500/30 font-semibold">Zweryfikowane (UKMTO / CENTCOM)</span>
-                </td>
-                <td class="py-3 px-4 text-slate-400">Korelacja pozycji AIS z meldunkami uderzeń rakietowych</td>
+                <td class="py-3 px-4 text-slate-400 font-mono">Telegram Web Stream</td>
+                <td class="py-3 px-4 text-slate-300">Ukraina / Rosja</td>
+                <td class="py-3 px-4 text-slate-300">Radar wczesnego ostrzegania, trajektorie rakiet i bombowców strategicznych (Tu-95MS)</td>
+                <td class="py-3 px-4"><span class="px-2 py-0.5 rounded text-[10px] bg-emerald-950 text-emerald-400 border border-emerald-500/30 font-semibold">Wysoki (Radar Wczesny)</span></td>
+                <td class="py-3 px-4"><span class="px-2 py-0.5 rounded text-[10px] bg-emerald-950 text-emerald-400 border border-emerald-500/30 font-mono">Aktywne</span></td>
               </tr>
 
               <tr class="hover:bg-slate-800/40 transition">
-                <td class="py-3 px-4 font-semibold text-white flex items-center space-x-2">
-                  <span class="text-base">🇸🇾</span>
-                  <span>Syria, Irak &amp; Iran</span>
+                <td class="py-3 px-4 font-semibold text-white">
+                  <a href="https://t.me/vanek_nikolaev" target="_blank" rel="noopener noreferrer" class="text-sky-400 hover:underline flex items-center gap-1.5">
+                    <span>🛡️ @vanek_nikolaev</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square text-[10px] text-slate-500"></i>
+                  </a>
                 </td>
-                <td class="py-3 px-4 text-slate-300">Lewant, bazy Al-Tanf, Erbil, Damaszek, Teheran</td>
-                <td class="py-3 px-4 text-slate-400">Ataki grup proirańskich, uderzenia precyzyjne, obrona przeciwlotnicza</td>
-                <td class="py-3 px-4 text-slate-300 font-mono">Co 12h (Cron) + Push</td>
-                <td class="py-3 px-4">
-                  <span class="px-2 py-0.5 rounded text-[10px] bg-cyan-950 text-cyan-400 border border-cyan-500/30 font-semibold">Średni-Wysoki</span>
-                </td>
-                <td class="py-3 px-4 text-slate-400">Klasyfikacja celów strategicznych (magazyny, lotniska)</td>
+                <td class="py-3 px-4 text-slate-400 font-mono">Telegram Web Stream</td>
+                <td class="py-3 px-4 text-slate-300">Ukraina</td>
+                <td class="py-3 px-4 text-slate-300">Radar operacyjny obrony przeciwlotniczej (OPL), bezpośrednie meldunki o celach</td>
+                <td class="py-3 px-4"><span class="px-2 py-0.5 rounded text-[10px] bg-emerald-950 text-emerald-400 border border-emerald-500/30 font-semibold">Wysoki (Sieć OPL)</span></td>
+                <td class="py-3 px-4"><span class="px-2 py-0.5 rounded text-[10px] bg-emerald-950 text-emerald-400 border border-emerald-500/30 font-mono">Aktywne</span></td>
               </tr>
 
               <tr class="hover:bg-slate-800/40 transition">
-                <td class="py-3 px-4 font-semibold text-white flex items-center space-x-2">
-                  <span class="text-base">🇦🇿</span>
-                  <span>Południowy Kaukaz</span>
+                <td class="py-3 px-4 font-semibold text-white">
+                  <a href="https://t.me/DeepStateUA" target="_blank" rel="noopener noreferrer" class="text-sky-400 hover:underline flex items-center gap-1.5">
+                    <span>🗺️ @DeepStateUA</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square text-[10px] text-slate-500"></i>
+                  </a>
                 </td>
-                <td class="py-3 px-4 text-slate-300">Armenia, Azerbejdżan, korytarz Zangezur</td>
-                <td class="py-3 px-4 text-slate-400">Incydenty graniczne, ostrzał snajperski, ruchy wojsk</td>
-                <td class="py-3 px-4 text-slate-300 font-mono">Co 12h (Cron) + Push</td>
-                <td class="py-3 px-4">
-                  <span class="px-2 py-0.5 rounded text-[10px] bg-cyan-950 text-cyan-400 border border-cyan-500/30 font-semibold">Weryfikowane Raporty</span>
-                </td>
-                <td class="py-3 px-4 text-slate-400">Filtr dezinformacyjny, weryfikacja geolokalizacji</td>
+                <td class="py-3 px-4 text-slate-400 font-mono">Telegram Web Stream</td>
+                <td class="py-3 px-4 text-slate-300">Ukraina</td>
+                <td class="py-3 px-4 text-slate-300">Dynamika i zmiany linii frontu, fortyfikacje, potwierdzenia terenowe geolokalizacji</td>
+                <td class="py-3 px-4"><span class="px-2 py-0.5 rounded text-[10px] bg-emerald-950 text-emerald-400 border border-emerald-500/30 font-semibold">Wysoki (Potwierdzone)</span></td>
+                <td class="py-3 px-4"><span class="px-2 py-0.5 rounded text-[10px] bg-emerald-950 text-emerald-400 border border-emerald-500/30 font-mono">Aktywne</span></td>
               </tr>
 
               <tr class="hover:bg-slate-800/40 transition">
-                <td class="py-3 px-4 font-semibold text-white flex items-center space-x-2">
-                  <span class="text-base">🇸🇩</span>
-                  <span>Afryka Subsaharyjska &amp; Sahel</span>
+                <td class="py-3 px-4 font-semibold text-white">
+                  <a href="https://t.me/astrapress" target="_blank" rel="noopener noreferrer" class="text-sky-400 hover:underline flex items-center gap-1.5">
+                    <span>🔥 @astrapress</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square text-[10px] text-slate-500"></i>
+                  </a>
                 </td>
-                <td class="py-3 px-4 text-slate-300">Sudan (Chartum, Darfur), Mali, Niger, Burkina Faso</td>
-                <td class="py-3 px-4 text-slate-400">Starcia SAF vs RSF, ataki grup zbrojnych, blokady humanitarne</td>
-                <td class="py-3 px-4 text-slate-300 font-mono">Co 12h (Cron) + Push</td>
-                <td class="py-3 px-4">
-                  <span class="px-2 py-0.5 rounded text-[10px] bg-amber-950 text-amber-400 border border-amber-500/30 font-semibold">Mieszany (OSINT / NGO)</span>
-                </td>
-                <td class="py-3 px-4 text-slate-400">Filtr promienia miast, eliminacja doniesień bez współrzędnych</td>
+                <td class="py-3 px-4 text-slate-400 font-mono">Telegram Web Stream</td>
+                <td class="py-3 px-4 text-slate-300">Rosja (Głąb FR)</td>
+                <td class="py-3 px-4 text-slate-300">Niezależny OSINT – uderzenia w rafinerie (NPZ), bazy lotnicze i arsenały GRAU</td>
+                <td class="py-3 px-4"><span class="px-2 py-0.5 rounded text-[10px] bg-emerald-950 text-emerald-400 border border-emerald-500/30 font-semibold">Niezależny OSINT</span></td>
+                <td class="py-3 px-4"><span class="px-2 py-0.5 rounded text-[10px] bg-emerald-950 text-emerald-400 border border-emerald-500/30 font-mono">Aktywne</span></td>
               </tr>
 
               <tr class="hover:bg-slate-800/40 transition">
-                <td class="py-3 px-4 font-semibold text-white flex items-center space-x-2">
-                  <span class="text-base">🛰️</span>
-                  <span>NASA FIRMS / GIBS</span>
+                <td class="py-3 px-4 font-semibold text-white">
+                  <a href="https://t.me/bazabazon" target="_blank" rel="noopener noreferrer" class="text-sky-400 hover:underline flex items-center gap-1.5">
+                    <span>📹 @bazabazon</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square text-[10px] text-slate-500"></i>
+                  </a>
                 </td>
-                <td class="py-3 px-4 text-slate-300">Globalne strefy walk (Ukraina, Bliski Wschód, Afryka)</td>
-                <td class="py-3 px-4 text-slate-400">Anomalie termiczne VIIRS 375m (pożary po eksplozjach i uderzeniach)</td>
-                <td class="py-3 px-4 text-slate-300 font-mono">Co 3–6h (Przelot satelitów)</td>
-                <td class="py-3 px-4">
-                  <span class="px-2 py-0.5 rounded text-[10px] bg-purple-950 text-purple-300 border border-purple-500/30 font-semibold">Sensor Fizyczny (NASA Suomi-NPP)</span>
-                </td>
-                <td class="py-3 px-4 text-slate-400">Warstwa kafelkowa WMS EPSG:3857, automatyczne pobieranie daty bieżącej</td>
+                <td class="py-3 px-4 text-slate-400 font-mono">Telegram Web Stream</td>
+                <td class="py-3 px-4 text-slate-300">Rosja (Głąb FR)</td>
+                <td class="py-3 px-4 text-slate-300">Materiały wideo, pożary infrastruktury krytycznej i energetycznej w FR</td>
+                <td class="py-3 px-4"><span class="px-2 py-0.5 rounded text-[10px] bg-cyan-950 text-cyan-400 border border-cyan-500/30 font-semibold">Średni-Wysoki (Wideo)</span></td>
+                <td class="py-3 px-4"><span class="px-2 py-0.5 rounded text-[10px] bg-emerald-950 text-emerald-400 border border-emerald-500/30 font-mono">Aktywne</span></td>
               </tr>
 
               <tr class="hover:bg-slate-800/40 transition">
-                <td class="py-3 px-4 font-semibold text-white flex items-center space-x-2">
-                  <span class="text-base">🗺️</span>
-                  <span>OpenTopoMap &amp; Esri Imagery</span>
+                <td class="py-3 px-4 font-semibold text-white">
+                  <a href="https://t.me/shot_shot" target="_blank" rel="noopener noreferrer" class="text-sky-400 hover:underline flex items-center gap-1.5">
+                    <span>📍 @shot_shot</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square text-[10px] text-slate-500"></i>
+                  </a>
                 </td>
-                <td class="py-3 px-4 text-slate-300">Globalne podkłady kartograficzne</td>
-                <td class="py-3 px-4 text-slate-400">Model rzeźby terenu SRTM, zdjęcia satelitarne wysokiej rozdzielczości</td>
-                <td class="py-3 px-4 text-slate-300 font-mono">Na bieżąco (CDN)</td>
-                <td class="py-3 px-4">
-                  <span class="px-2 py-0.5 rounded text-[10px] bg-blue-950 text-blue-300 border border-blue-500/30 font-semibold">Oficjalne Zasoby Kartograficzne</span>
+                <td class="py-3 px-4 text-slate-400 font-mono">Telegram Web Stream</td>
+                <td class="py-3 px-4 text-slate-300">Rosja (Pogranicze)</td>
+                <td class="py-3 px-4 text-slate-300">Raporty z rosyjskich stref przygranicznych (Kursk, Biełgorod, Briańsk)</td>
+                <td class="py-3 px-4"><span class="px-2 py-0.5 rounded text-[10px] bg-cyan-950 text-cyan-400 border border-cyan-500/30 font-semibold">Średni-Wysoki</span></td>
+                <td class="py-3 px-4"><span class="px-2 py-0.5 rounded text-[10px] bg-emerald-950 text-emerald-400 border border-emerald-500/30 font-mono">Aktywne</span></td>
+              </tr>
+
+              <tr class="hover:bg-slate-800/40 transition">
+                <td class="py-3 px-4 font-semibold text-white">
+                  <a href="https://t.me/rybar" target="_blank" rel="noopener noreferrer" class="text-sky-400 hover:underline flex items-center gap-1.5">
+                    <span>⚔️ @rybar</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square text-[10px] text-slate-500"></i>
+                  </a>
                 </td>
-                <td class="py-3 px-4 text-slate-400">Integracja Leaflet.js, kafelkowanie bezkluczowe open-source</td>
+                <td class="py-3 px-4 text-slate-400 font-mono">Telegram Web Stream</td>
+                <td class="py-3 px-4 text-slate-300">Rosja / Ukraina</td>
+                <td class="py-3 px-4 text-slate-300">Wojskowy kanał analityczny, weryfikacja krzyżowa (cross-check) danych strony rosyjskiej</td>
+                <td class="py-3 px-4"><span class="px-2 py-0.5 rounded text-[10px] bg-amber-950 text-amber-400 border border-amber-500/30 font-semibold">Wymaga Cross-Checku</span></td>
+                <td class="py-3 px-4"><span class="px-2 py-0.5 rounded text-[10px] bg-emerald-950 text-emerald-400 border border-emerald-500/30 font-mono">Aktywne</span></td>
+              </tr>
+
+              <tr class="hover:bg-slate-800/40 transition">
+                <td class="py-3 px-4 font-semibold text-white">
+                  <a href="https://t.me/clashreport" target="_blank" rel="noopener noreferrer" class="text-sky-400 hover:underline flex items-center gap-1.5">
+                    <span>🌍 @clashreport</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square text-[10px] text-slate-500"></i>
+                  </a>
+                </td>
+                <td class="py-3 px-4 text-slate-400 font-mono">Telegram Web Stream</td>
+                <td class="py-3 px-4 text-slate-300">Globalnie / Bliski Wschód</td>
+                <td class="py-3 px-4 text-slate-300">Starcia zbrojne: Izrael, Liban, Gaza, Morze Czerwone (Huti), Jemen, Sudan</td>
+                <td class="py-3 px-4"><span class="px-2 py-0.5 rounded text-[10px] bg-emerald-950 text-emerald-400 border border-emerald-500/30 font-semibold">Wysoki (Global Radar)</span></td>
+                <td class="py-3 px-4"><span class="px-2 py-0.5 rounded text-[10px] bg-emerald-950 text-emerald-400 border border-emerald-500/30 font-mono">Aktywne</span></td>
+              </tr>
+
+              <tr class="hover:bg-slate-800/40 transition">
+                <td class="py-3 px-4 font-semibold text-white">
+                  <a href="https://t.me/liveuamap" target="_blank" rel="noopener noreferrer" class="text-sky-400 hover:underline flex items-center gap-1.5">
+                    <span>🌐 @liveuamap</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square text-[10px] text-slate-500"></i>
+                  </a>
+                </td>
+                <td class="py-3 px-4 text-slate-400 font-mono">Telegram Web Stream</td>
+                <td class="py-3 px-4 text-slate-300">Globalnie</td>
+                <td class="py-3 px-4 text-slate-300">Oficjalny globalny strumień zdarzeń i incydentów Liveuamap</td>
+                <td class="py-3 px-4"><span class="px-2 py-0.5 rounded text-[10px] bg-emerald-950 text-emerald-400 border border-emerald-500/30 font-semibold">Wysoki (OSINT Live)</span></td>
+                <td class="py-3 px-4"><span class="px-2 py-0.5 rounded text-[10px] bg-emerald-950 text-emerald-400 border border-emerald-500/30 font-mono">Aktywne</span></td>
+              </tr>
+
+              <tr class="hover:bg-slate-800/40 transition">
+                <td class="py-3 px-4 font-semibold text-white">
+                  <a href="https://www.reddit.com/r/CombatFootage/" target="_blank" rel="noopener noreferrer" class="text-orange-400 hover:underline flex items-center gap-1.5">
+                    <span>🎯 Reddit r/CombatFootage</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square text-[10px] text-slate-500"></i>
+                  </a>
+                </td>
+                <td class="py-3 px-4 text-slate-400 font-mono">Telegram Bridge / Web</td>
+                <td class="py-3 px-4 text-slate-300">Globalnie / Front UA</td>
+                <td class="py-3 px-4 text-slate-300">Weryfikowalne wideo z walk naziemnych, dronów FPV, uderzeń morskich</td>
+                <td class="py-3 px-4"><span class="px-2 py-0.5 rounded text-[10px] bg-emerald-950 text-emerald-400 border border-emerald-500/30 font-semibold">Bezpośrednie Wideo</span></td>
+                <td class="py-3 px-4"><span class="px-2 py-0.5 rounded text-[10px] bg-emerald-950 text-emerald-400 border border-emerald-500/30 font-mono">Aktywne</span></td>
+              </tr>
+
+              <tr class="hover:bg-slate-800/40 transition">
+                <td class="py-3 px-4 font-semibold text-white">
+                  <a href="https://firms.modaps.eosdis.nasa.gov/" target="_blank" rel="noopener noreferrer" class="text-amber-400 hover:underline flex items-center gap-1.5">
+                    <span>🛰️ NASA FIRMS (VIIRS 375m)</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square text-[10px] text-slate-500"></i>
+                  </a>
+                </td>
+                <td class="py-3 px-4 text-slate-400 font-mono">REST API (Satelity NRT)</td>
+                <td class="py-3 px-4 text-slate-300">Globalnie / Strefy Walk</td>
+                <td class="py-3 px-4 text-slate-300">Detekcja anomalii termicznych i pożarów po uderzeniach (FRP ≥ 25 MW)</td>
+                <td class="py-3 px-4"><span class="px-2 py-0.5 rounded text-[10px] bg-purple-950 text-purple-300 border border-purple-500/30 font-semibold">Sensor Fizyczny NASA</span></td>
+                <td class="py-3 px-4"><span class="px-2 py-0.5 rounded text-[10px] bg-purple-950 text-purple-300 border border-purple-500/30 font-mono">Opcjonalny Klucz</span></td>
+              </tr>
+
+              <tr class="hover:bg-slate-800/40 transition">
+                <td class="py-3 px-4 font-semibold text-white">
+                  <a href="https://translate.google.com/" target="_blank" rel="noopener noreferrer" class="text-indigo-400 hover:underline flex items-center gap-1.5">
+                    <span>🔄 Google / MyMemory API</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square text-[10px] text-slate-500"></i>
+                  </a>
+                </td>
+                <td class="py-3 px-4 text-slate-400 font-mono">REST API</td>
+                <td class="py-3 px-4 text-slate-300">Wielojęzyczne (UA/RU/EN → PL)</td>
+                <td class="py-3 px-4 text-slate-300">Automatyczna translacja depesz z zachowaniem słownika wojskowego</td>
+                <td class="py-3 px-4"><span class="px-2 py-0.5 rounded text-[10px] bg-indigo-950 text-indigo-300 border border-indigo-500/30 font-semibold">Silnik Pomocniczy</span></td>
+                <td class="py-3 px-4"><span class="px-2 py-0.5 rounded text-[10px] bg-emerald-950 text-emerald-400 border border-emerald-500/30 font-mono">Aktywne</span></td>
               </tr>
 
             </tbody>

@@ -59,6 +59,29 @@ Dedykowane panele analityczne i raporty wielookresowe (**24h dzienny**, **7d tyg
 
 ---
 
+## 📡 Rejestr Aktywnych Źródeł Danych Wywiadowczych (Sensors & Feeds)
+
+System autonomicznie agreguje zdarzenia w czasie rzeczywistym, filtruje antyszumowo przy użyciu dedykowanych reguł NLP oraz dokonuje fuzji wieloźródłowej z następujących kanałów:
+
+| Źródło / Identyfikator | Typ / Protokół | Obszar / Teatr Działań | Główny Cel Operacyjny | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| [**Defence24**](https://defence24.pl) | RSS (`defence24.pl/rss`) | 🇵🇱 Polska / Wschodnia Flanka NATO | Naruszenia przestrzeni powietrznej RP, komunikaty DO RSZ, MON, Straż Graniczna | `Aktywne` |
+| [**@kpszsu**](https://t.me/kpszsu) | Telegram Web Stream | 🇺🇦 Ukraina | Raporty Dowództwa Sił Powietrznych UA, alarmy rakietowe, Shahedy | `Aktywne` |
+| [**@war_monitor**](https://t.me/war_monitor) | Telegram Web Stream | 🇺🇦 Ukraina / 🇷🇺 Rosja | Radar wczesnego ostrzegania, trajektorie rakiet i bombowców strategicznych | `Aktywne` |
+| [**@vanek_nikolaev**](https://t.me/vanek_nikolaev) | Telegram Web Stream | 🇺🇦 Ukraina | Radar operacyjny obrony przeciwlotniczej (OPL), meldunki bezpośrednie | `Aktywne` |
+| [**@DeepStateUA**](https://t.me/DeepStateUA) | Telegram Web Stream | 🇺🇦 Ukraina | Dynamika i zmiany linii frontu, fortyfikacje, potwierdzenia terenowe | `Aktywne` |
+| [**@astrapress**](https://t.me/astrapress) | Telegram Web Stream | 🇷🇺 Rosja | Niezależny OSINT – uderzenia w rafinerie (NPZ), bazy lotnicze i arsenały GRAU | `Aktywne` |
+| [**@bazabazon**](https://t.me/bazabazon) | Telegram Web Stream | 🇷🇺 Rosja | Materiały wideo, pożary infrastruktury krytycznej i energetycznej w FR | `Aktywne` |
+| [**@shot_shot**](https://t.me/shot_shot) | Telegram Web Stream | 🇷🇺 Rosja | Raporty z rosyjskich stref przygranicznych (Kursk, Biełgorod, Briańsk) | `Aktywne` |
+| [**@rybar**](https://t.me/rybar) | Telegram Web Stream | 🇷🇺 Rosja / 🇺🇦 Ukraina | Wojskowy kanał analityczny, weryfikacja krzyżowa (cross-check) danych | `Aktywne` |
+| [**@clashreport**](https://t.me/clashreport) | Telegram Web Stream | 🌐 Globalnie / Bliski Wschód | Starcia zbrojne: Izrael, Liban, Gaza, Morze Czerwone (Huti), Jemen, Sudan | `Aktywne` |
+| [**@liveuamap**](https://t.me/liveuamap) | Telegram Web Stream | 🌐 Globalnie | Oficjalny globalny strumień zdarzeń i incydentów Liveuamap | `Aktywne` |
+| [**Reddit r/CombatFootage**](https://www.reddit.com/r/CombatFootage/) | Telegram Bridge / Web | 🌐 Globalnie / Front UA | Weryfikowalne wideo z walk naziemnych, dronów FPV, uderzeń morskich | `Aktywne` |
+| [**NASA FIRMS (VIIRS 375m)**](https://firms.modaps.eosdis.nasa.gov/) | REST API (Satelity) | 🛰️ Globalnie / Strefy Walk | Detekcja anomalii termicznych i pożarów po uderzeniach (FRP ≥ 25 MW) | `Aktywne (klucz opcjonalny)` |
+| [**Google Translate / MyMemory**](https://translate.google.com/) | REST API | 🔄 Pomocnicze | Automatyczne tłumaczenie depesz obcojęzycznych na język polski | `Aktywne` |
+
+---
+
 ## 🚀 Wdrożenie Online (GitHub Pages + Actions)
 
 Projekt jest w pełni skonfigurowany pod darmowy hosting GitHub Pages i automatyzację GitHub Actions na koncie użytkownika.
