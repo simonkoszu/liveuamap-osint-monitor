@@ -3,6 +3,13 @@ from typing import Dict, Any, List, Tuple
 
 # Precyzyjna Taksonomia Zdarzeń Bojowych
 TACTICAL_CATEGORIES = {
+    "Czujnik NASA FIRMS": {
+        "icon": "🛰️",
+        "patterns": [
+            r"\bnasa\b", r"\bfirms\b", r"\bviirs\b", r"\banomali[ae]\s+termiczn\w*",
+            r"\bthermal\s+anomaly\b", r"\bczujnik\s+nasa\b", r"\bsatelit[ay]\s+nasa\b"
+        ]
+    },
     "Eksplozja / Detonacja": {
         "icon": "💥",
         "patterns": [

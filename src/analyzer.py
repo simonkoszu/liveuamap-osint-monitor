@@ -12,7 +12,8 @@ COUNTRY_METADATA = {
     "Jemen": {"flag": "🇾🇪", "theater": "Jemen i Morze Czerwone", "priority": 6},
     "Iran": {"flag": "🇮🇷", "theater": "Bliski Wschód (Zatoka Perska)", "priority": 7},
     "Sudan": {"flag": "🇸🇩", "theater": "Afryka (Sudan)", "priority": 8},
-    "Inne / Globalne": {"flag": "🌐", "theater": "Inne", "priority": 9},
+    "Czujniki NASA": {"flag": "🛰️", "theater": "Orbita Satelitarna / NASA FIRMS", "priority": 9},
+    "Inne / Globalne": {"flag": "🌐", "theater": "Inne", "priority": 10},
 }
 
 class ConflictAnalyzer:
@@ -30,8 +31,34 @@ class ConflictAnalyzer:
         from zoneinfo import ZoneInfo
         warsaw_tz = ZoneInfo("Europe/Warsaw")
 
-        # Normalizacja pól timestamp dla każdego incydentu (np. NASA FIRMS ma pole 'date')
+        # Normalizacja pól zdarzeń (w tym NASA FIRMS i znaczniki czasu)
         for e in self.all_events:
+            eid = str(e.get("id", ""))
+            src = str(e.get("source", ""))
+            ch = str(e.get("source_channel", ""))
+            cat = str(e.get("tactical_category", ""))
+            title = str(e.get("title", ""))
+
+            is_nasa = (
+                eid.startswith("nasa_firms") or
+                "NASA FIRMS" in src or
+                "NASA" in ch or
+                "NASA" in cat or
+                "NASA Satellites" in title or
+                "Satelita NASA" in title
+            )
+
+            if is_nasa:
+                e["is_nasa"] = True
+                e["country"] = "Czujniki NASA"
+                e["flag"] = "🛰️"
+                e["source_channel"] = "NASA FIRMS"
+                e["tactical_category"] = "Czujnik NASA FIRMS"
+                e["tactical_icon"] = "🛰️"
+                e["is_fire"] = True
+                if not e.get("lon") and e.get("lng"):
+                    e["lon"] = e.get("lng")
+
             if not e.get("timestamp"):
                 raw_date = e.get("date") or e.get("added_at") or self.now.isoformat()
                 if isinstance(raw_date, str) and " " in raw_date and "T" not in raw_date:
@@ -216,13 +243,13 @@ class ConflictAnalyzer:
 
         for e in self.all_events:
             lat = e.get("lat")
-            lon = e.get("lon")
+            lon = e.get("lon") or e.get("lng")
             if lat and lon:
                 c = e.get("country", "Inne")
                 text = e.get("text", "")
                 weapons = MilitaryNLPEngine.extract_weapons(text)
                 target = MilitaryNLPEngine.extract_target_type(text)
-                has_fire = MilitaryNLPEngine.detect_fire_or_thermal(text)
+                has_fire = MilitaryNLPEngine.detect_fire_or_thermal(text) or e.get("is_fire", False)
                 threat = MilitaryNLPEngine.calculate_threat_score(text, e.get("event_type", ""), c)
 
                 map_points.append({
@@ -246,6 +273,8 @@ class ConflictAnalyzer:
                     "weapons": weapons,
                     "target_type": target,
                     "has_fire": has_fire,
+                    "is_nasa": e.get("is_nasa", False),
+                    "frp": e.get("frp", 0.0),
                     "threat_score": threat,
                     "source_channel": e.get("source_channel", "OSINT"),
                     "multi_source_verified": e.get("multi_source_verified", False),
@@ -266,6 +295,14 @@ class ConflictAnalyzer:
         all_events_sorted = sorted(self.all_events, key=lambda e: e.get("timestamp", ""), reverse=True)
         poland_threat = self._analyze_poland_threat(all_24h, all_7d)
 
+        nasa_events = [e for e in all_events_sorted if e.get("is_nasa") or e.get("country") == "Czujniki NASA" or (e.get("id") or "").startswith("nasa_firms")]
+        max_frp = 0.0
+        for ne in nasa_events:
+            try:
+                max_frp = max(max_frp, float(ne.get("frp", 0.0) or 0.0))
+            except (ValueError, TypeError):
+                pass
+
         return {
             "generated_at": self.now.strftime("%Y-%m-%d %H:%M:%S UTC"),
             "generated_at_pl": now_pl.strftime("%Y-%m-%d %H:%M:%S CEST"),
@@ -280,6 +317,9 @@ class ConflictAnalyzer:
             "global_monthly": self._calculate_period_stats(all_30d, all_prev_30d),
             "countries": countries_report,
             "all_events": all_events_sorted,
+            "nasa_events": nasa_events,
+            "nasa_events_count": len(nasa_events),
+            "nasa_max_frp": round(max_frp, 1),
             "timeline": {
                 "days": timeline_days,
                 "counts": timeline_counts

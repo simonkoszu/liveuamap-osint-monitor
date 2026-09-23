@@ -547,19 +547,41 @@
             <p class="text-xs text-slate-400 mt-0.5">Kompletna baza wywiadowcza posortowana chronologicznie od najnowszych incydentów</p>
           </div>
           <span class="text-xs font-mono text-slate-300 bg-slate-800 px-3 py-1.5 rounded-lg border border-slate-700">
-            Zarejestrowane zdarzenia: <strong class="text-emerald-400">{{ data.all_events | length }}</strong>
+            Wyświetlane zdarzenia: <strong id="visible-events-count" class="text-emerald-400">{{ data.all_events | length }}</strong> / {{ data.all_events | length }}
           </span>
         </div>
+
+        <!-- Filtry Kategorii i Źródeł w Rejestrze Zdarzeń -->
+        <div class="flex flex-wrap items-center gap-1.5 mb-4 pb-3 border-b border-slate-800 text-xs">
+          <span class="text-slate-400 text-[11px] font-semibold uppercase mr-1 flex items-center"><i class="fa-solid fa-filter text-indigo-400 mr-1"></i>Kategoria:</span>
+          <button onclick="filterEventList('all')" id="elf-all" class="event-list-filter-btn px-2.5 py-1 rounded-lg bg-indigo-600 text-white font-semibold transition cursor-pointer">Wszystkie ({{ data.all_events | length }})</button>
+          <button onclick="filterEventList('nasa')" id="elf-nasa" class="event-list-filter-btn px-2.5 py-1 rounded-lg bg-slate-800 text-orange-400 border border-orange-500/50 hover:bg-orange-950/40 font-semibold transition cursor-pointer flex items-center space-x-1.5"><i class="fa-solid fa-satellite text-xs mr-1 text-orange-400"></i><span>🛰️ Tylko Czujniki NASA ({{ data.nasa_events | length }})</span></button>
+          <button onclick="filterEventList('cross_check')" id="elf-cross_check" class="event-list-filter-btn px-2.5 py-1 rounded-lg bg-slate-800 text-emerald-400 border border-emerald-500/30 hover:bg-emerald-950/40 font-semibold transition cursor-pointer">🛡️ Cross-Check ({{ data.multi_source_verified_count }})</button>
+          <button onclick="filterEventList('fire')" id="elf-fire" class="event-list-filter-btn px-2.5 py-1 rounded-lg bg-slate-800 text-amber-400 border border-amber-500/30 hover:bg-amber-950/40 font-semibold transition cursor-pointer">🔥 Pożary / Termiczne</button>
+          <button onclick="filterEventList('drones')" id="elf-drones" class="event-list-filter-btn px-2.5 py-1 rounded-lg bg-slate-800 text-slate-300 border border-slate-700 hover:bg-slate-700 font-semibold transition cursor-pointer">🛸 Drony Kamikaze</button>
+          <button onclick="filterEventList('missiles')" id="elf-missiles" class="event-list-filter-btn px-2.5 py-1 rounded-lg bg-slate-800 text-slate-300 border border-slate-700 hover:bg-slate-700 font-semibold transition cursor-pointer">🚀 Rakiety</button>
+        </div>
+
         <div class="space-y-3 max-h-[750px] overflow-y-auto custom-scroll pr-2">
           {% for ev in data.all_events %}
-          <div class="bg-slate-800/40 hover:bg-slate-800/70 transition rounded-lg p-3.5 border border-slate-700/60 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
+          {% set is_nasa_ev = (ev.is_nasa or ev.country == 'Czujniki NASA' or ev.source_channel == 'NASA FIRMS' or (ev.id and ev.id.startswith('nasa_firms'))) %}
+          <div class="event-card bg-slate-800/40 hover:bg-slate-800/70 transition rounded-lg p-3.5 border {% if is_nasa_ev %}border-orange-500/40 bg-orange-950/10 hover:border-orange-400/60{% else %}border-slate-700/60{% endif %} flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3"
+               data-category="{{ ev.tactical_category }}"
+               data-is-nasa="{{ 'true' if is_nasa_ev else 'false' }}"
+               data-is-crosscheck="{{ 'true' if ev.multi_source_verified else 'false' }}"
+               data-is-fire="{{ 'true' if ev.is_fire else 'false' }}">
             <div class="flex-1">
               <div class="flex flex-wrap items-center gap-1.5 text-[11px] text-slate-400 mb-1">
                 <span class="text-sm mr-1">{{ ev.flag or '🌐' }}</span>
                 <span class="font-bold text-slate-200">{{ ev.country }}</span>
                 <span class="text-slate-600">•</span>
                 <span class="font-mono text-slate-300 font-semibold" title="Czas publikacji UTC: {{ ev.timestamp[:16].replace('T', ' ') if ev.timestamp else '' }} UTC">{{ ev.time_pl if ev.time_pl else (ev.timestamp[:16].replace('T', ' ') if ev.timestamp else '') }} <span class="text-[10px] text-slate-400 font-sans font-normal">czas PL</span></span>
-                {% if ev.tactical_category %}
+                {% if is_nasa_ev %}
+                <span class="px-1.5 py-0.5 rounded bg-orange-950/80 text-orange-300 border border-orange-700/50 font-semibold text-[10px]">🛰️ CZUJNIK NASA FIRMS</span>
+                {% if ev.frp %}
+                <span class="px-1.5 py-0.5 rounded bg-red-950/80 text-red-300 border border-red-700/50 font-mono text-[10px]">🔥 FRP: {{ ev.frp }} MW</span>
+                {% endif %}
+                {% elif ev.tactical_category %}
                 <span class="px-1.5 py-0.5 rounded bg-red-950/70 text-red-300 border border-red-800/50 font-semibold text-[10px]">{{ ev.tactical_category|upper }}</span>
                 {% else %}
                 <span class="px-1.5 py-0.5 rounded bg-slate-800 text-slate-300 border border-slate-700 text-[10px]">{{ ev.event_type }}</span>
@@ -567,7 +589,7 @@
                 {% if ev.location_name %}
                 <span class="text-slate-400"><i class="fa-solid fa-location-dot text-red-400 mr-1"></i>{{ ev.location_name }}</span>
                 {% endif %}
-                {% if ev.source_channel %}
+                {% if ev.source_channel and not is_nasa_ev %}
                 <span class="px-1.5 py-0.5 rounded bg-indigo-950/60 text-indigo-300 border border-indigo-800/40 font-mono text-[10px]">[#{{ ev.source_channel }}]</span>
                 {% endif %}
                 {% if ev.multi_source_verified %}
@@ -624,11 +646,55 @@
           </div>
         </div>
 
-        <button onclick="selectCountry('global')" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs text-slate-300 border border-slate-700 transition flex items-center space-x-1.5">
-          <i class="fa-solid fa-arrow-left"></i>
-          <span>Wróć do wszystkich krajów</span>
-        </button>
+        <div class="flex items-center space-x-2">
+          {% if c.name == 'Czujniki NASA' %}
+          <button onclick="openNasaOnMap()" class="px-3.5 py-1.5 rounded-lg bg-orange-600 hover:bg-orange-500 text-xs font-bold text-white shadow-lg shadow-orange-600/20 transition flex items-center space-x-1.5 cursor-pointer">
+            <i class="fa-solid fa-map-location-dot"></i>
+            <span>Pokaż na Mapie Taktycznej</span>
+          </button>
+          {% endif %}
+          <button onclick="selectCountry('global')" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs text-slate-300 border border-slate-700 transition flex items-center space-x-1.5 cursor-pointer">
+            <i class="fa-solid fa-arrow-left"></i>
+            <span>Wróć do wszystkich krajów</span>
+          </button>
+        </div>
       </div>
+
+      {% if c.name == 'Czujniki NASA' %}
+      <!-- Baner Telemetrii Satelitarnej NASA FIRMS -->
+      <div class="bg-gradient-to-r from-slate-900 via-orange-950/30 to-slate-900 border border-orange-500/40 rounded-xl p-5 shadow-xl">
+        <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+          <div class="flex items-center space-x-4">
+            <div class="w-12 h-12 rounded-xl bg-orange-500/20 border border-orange-500/40 flex items-center justify-center text-orange-400 text-2xl shadow-inner">
+              <i class="fa-solid fa-satellite animate-pulse"></i>
+            </div>
+            <div>
+              <h3 class="text-base font-bold text-white flex items-center space-x-2">
+                <span>System Satelitarnego Wczesnego Wykrywania Pożarów i Eksplozji (NASA FIRMS)</span>
+                <span class="px-2 py-0.5 rounded text-[10px] bg-orange-500/20 text-orange-300 border border-orange-500/40 font-mono font-bold">VIIRS 375m NRT</span>
+              </h3>
+              <p class="text-xs text-slate-400 mt-1">
+                Autonomiczny pobór danych z radiometru obrazującego VIIRS (Satelity Suomi-NPP i NOAA-20). Wykrywa sygnatury termiczne pożarów instalacji wojskowych, rafinerii i składów amunicji na bazie mocy promieniowania (FRP w MW).
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-wrap items-center gap-3">
+            <div class="px-3 py-2 rounded-xl bg-slate-950/80 border border-slate-800 text-center">
+              <div class="text-[10px] text-slate-500 uppercase font-semibold">Max Moc FRP</div>
+              <div class="text-base font-black font-mono text-red-400">{{ data.nasa_max_frp }} MW</div>
+            </div>
+            <div class="px-3 py-2 rounded-xl bg-slate-950/80 border border-slate-800 text-center">
+              <div class="text-[10px] text-slate-500 uppercase font-semibold">Rozdzielczość</div>
+              <div class="text-base font-black font-mono text-orange-400">375 m</div>
+            </div>
+            <div class="px-3 py-2 rounded-xl bg-slate-950/80 border border-slate-800 text-center">
+              <div class="text-[10px] text-slate-500 uppercase font-semibold">Status Czujników</div>
+              <div class="text-base font-black font-mono text-emerald-400">AKTYWNY</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endif %}
 
       <!-- 3 SEKCJE RAPORTÓW: DZIENNY, TYGODNIOWY, MIESIĘCZNY DLA TEGO KRAJU -->
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
@@ -768,7 +834,11 @@
             <div class="space-y-3">
               <div class="text-xs font-semibold text-slate-400 uppercase">Podsumowanie taktyczne:</div>
               <p class="text-xs text-slate-400 leading-relaxed">
+                {% if c.name == 'Czujniki NASA' %}
+                Satelitarny monitoring NASA FIRMS (radiometry VIIRS/MODIS) wykrywa anomalie termiczne, pożary powybuchowe oraz ogniska uderzeń kinetycznych w rozdzielczości 375m. Wszelkie odczyty są automatycznie synchronizowane z radarem.
+                {% else %}
                 Rejestr incydentów dla {{ c.name }} dokumentuje ciągłą wymianę ognia i zmiany linii frontu. Wszelkie nowe incydenty od dnia dzisiejszego są na bieżąco archiwizowane.
+                {% endif %}
               </p>
             </div>
           </div>
@@ -784,7 +854,7 @@
         <div class="flex flex-wrap items-center justify-between gap-2 mb-4">
           <h3 class="text-sm font-bold text-white flex items-center space-x-2">
             <i class="fa-solid fa-list-check text-indigo-400"></i>
-            <span>Pełny Rejestr Zdarzeń Taktycznych: {{ c.name }}</span>
+            <span>{% if c.name == 'Czujniki NASA' %}Rejestr Detekcji Satelitarnych NASA FIRMS{% else %}Pełny Rejestr Zdarzeń Taktycznych: {{ c.name }}{% endif %}</span>
           </h3>
           <span class="text-xs font-mono text-slate-300 bg-slate-800 px-3 py-1 rounded-lg border border-slate-700">
             Zarejestrowane incydenty: <strong class="text-emerald-400">{{ c.recent_events | length }}</strong>
@@ -792,11 +862,17 @@
         </div>
         <div class="space-y-3 max-h-[850px] overflow-y-auto custom-scroll pr-2">
           {% for ev in c.recent_events %}
-          <div class="bg-slate-800/40 hover:bg-slate-800/70 transition rounded-lg p-3.5 border border-slate-700/60 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
+          {% set is_nasa_ev = (ev.is_nasa or ev.country == 'Czujniki NASA' or ev.source_channel == 'NASA FIRMS' or (ev.id and ev.id.startswith('nasa_firms'))) %}
+          <div class="bg-slate-800/40 hover:bg-slate-800/70 transition rounded-lg p-3.5 border {% if is_nasa_ev %}border-orange-500/40 bg-orange-950/10 hover:border-orange-400/60{% else %}border-slate-700/60{% endif %} flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
             <div class="flex-1">
               <div class="flex flex-wrap items-center gap-1.5 text-[11px] text-slate-400 mb-1">
                 <span class="font-mono text-slate-300 font-semibold" title="Czas publikacji UTC: {{ ev.timestamp[:16].replace('T', ' ') if ev.timestamp else '' }} UTC">{{ ev.time_pl if ev.time_pl else (ev.timestamp[:16].replace('T', ' ') if ev.timestamp else '') }} <span class="text-[10px] text-slate-400 font-sans font-normal">czas PL</span></span>
-                {% if ev.tactical_category %}
+                {% if is_nasa_ev %}
+                <span class="px-1.5 py-0.5 rounded bg-orange-950/80 text-orange-300 border border-orange-700/50 font-semibold text-[10px]">🛰️ CZUJNIK NASA FIRMS</span>
+                {% if ev.frp %}
+                <span class="px-1.5 py-0.5 rounded bg-red-950/80 text-red-300 border border-red-700/50 font-mono text-[10px]">🔥 FRP: {{ ev.frp }} MW</span>
+                {% endif %}
+                {% elif ev.tactical_category %}
                 <span class="px-1.5 py-0.5 rounded bg-red-950/70 text-red-300 border border-red-800/50 font-semibold text-[10px]">{{ ev.tactical_category|upper }}</span>
                 {% else %}
                 <span class="px-1.5 py-0.5 rounded bg-slate-800 text-slate-300 border border-slate-700 text-[10px]">{{ ev.event_type }}</span>
@@ -804,7 +880,7 @@
                 {% if ev.location_name %}
                 <span class="text-slate-400"><i class="fa-solid fa-location-dot text-red-400 mr-1"></i>{{ ev.location_name }}</span>
                 {% endif %}
-                {% if ev.source_channel %}
+                {% if ev.source_channel and not is_nasa_ev %}
                 <span class="px-1.5 py-0.5 rounded bg-indigo-950/60 text-indigo-300 border border-indigo-800/40 font-mono text-[10px]">[#{{ ev.source_channel }}]</span>
                 {% endif %}
                 {% if ev.multi_source_verified %}
@@ -859,6 +935,7 @@
         <div class="flex flex-wrap items-center gap-1.5 text-xs mb-3">
           <button onclick="setMapFilter('all')" id="mf-all" class="map-filter-btn px-2.5 py-1 rounded bg-slate-700 text-white font-semibold border border-slate-600">Wszystkie Kategorie</button>
           <button onclick="setMapFilter('cross_check')" id="mf-cross_check" class="map-filter-btn px-2.5 py-1 rounded bg-emerald-950/60 text-emerald-300 border border-emerald-700/60 font-semibold"><i class="fa-solid fa-shield-halved text-xs mr-1"></i>🛡️ Wieloźródłowe</button>
+          <button onclick="setMapFilter('nasa')" id="mf-nasa" class="map-filter-btn px-2.5 py-1 rounded bg-slate-800 text-orange-400 border border-orange-500/50 hover:bg-orange-950/40 font-semibold flex items-center space-x-1.5 transition cursor-pointer"><i class="fa-solid fa-satellite text-xs mr-1 text-orange-400"></i><span>🛰️ Czujniki NASA ({{ data.nasa_events | length }})</span></button>
           <button onclick="setMapFilter('fire')" id="mf-fire" class="map-filter-btn px-2.5 py-1 rounded bg-amber-950/60 text-amber-300 border border-amber-700/60 font-semibold"><i class="fa-solid fa-fire text-xs mr-1"></i>🔥 Pożary</button>
             <button onclick="toggleClustering()" id="btn-cluster" class="map-filter-btn px-2.5 py-1 rounded bg-slate-800 text-indigo-400 border border-indigo-500/50 hover:bg-indigo-950/40 font-semibold flex items-center space-x-1.5 transition cursor-pointer">
               <i class="fa-solid fa-circle-nodes text-xs"></i>
@@ -1516,6 +1593,46 @@
       }
     }
 
+    function openNasaOnMap() {
+      switchGlobalView('map');
+      setMapFilter('nasa');
+    }
+
+    function filterEventList(filterMode) {
+      document.querySelectorAll('.event-list-filter-btn').forEach(b => {
+        b.classList.remove('bg-indigo-600', 'text-white');
+        b.classList.add('bg-slate-800');
+      });
+      const activeBtn = document.getElementById(`elf-${filterMode}`);
+      if (activeBtn) {
+        activeBtn.classList.remove('bg-slate-800');
+        activeBtn.classList.add('bg-indigo-600', 'text-white');
+      }
+
+      let count = 0;
+      document.querySelectorAll('.event-card').forEach(card => {
+        let show = true;
+        if (filterMode === 'nasa') {
+          show = card.getAttribute('data-is-nasa') === 'true';
+        } else if (filterMode === 'cross_check') {
+          show = card.getAttribute('data-is-crosscheck') === 'true';
+        } else if (filterMode === 'fire') {
+          show = card.getAttribute('data-is-fire') === 'true';
+        } else if (filterMode === 'drones') {
+          const cat = card.getAttribute('data-category') || '';
+          show = cat.includes('Dron');
+        } else if (filterMode === 'missiles') {
+          const cat = card.getAttribute('data-category') || '';
+          show = cat.includes('Rakieta') || cat.includes('Balistycz');
+        }
+        card.style.display = show ? '' : 'none';
+        if (show) count++;
+      });
+
+      const countEl = document.getElementById('visible-events-count');
+      if (countEl) countEl.textContent = count;
+    }
+
     // -------------------------------------------------------------
     // MAPA LEAFLET, GITHUB OPEN SOURCE (CLUSTERS, HEATMAP, TOPO) & NASA FIRMS
     // -------------------------------------------------------------
@@ -1750,6 +1867,7 @@
     }
 
     function getCountryColor(country) {
+      if (country === 'Czujniki NASA') return '#f97316';
       if (country === 'Ukraina') return '#ef4444';
       if (country === 'Liban') return '#f97316';
       if (country.includes('Izrael') || country.includes('Palestyna')) return '#eab308';
@@ -1815,10 +1933,11 @@
         // 2. Filtracja tematyczna i regionalna
         if (filterMode === 'cross_check' && !p.multi_source_verified) return;
         if (filterMode === 'fire' && !p.has_fire) return;
-        if (filterMode === 'explosions' && p.tactical_category !== 'explosions') return;
-        if (filterMode === 'drones' && p.tactical_category !== 'drones') return;
-        if (filterMode === 'missiles' && p.tactical_category !== 'missiles') return;
-        if (filterMode === 'infrastructure' && p.tactical_category !== 'infrastructure') return;
+        if (filterMode === 'nasa' && !p.is_nasa && p.country !== 'Czujniki NASA' && p.source_channel !== 'NASA FIRMS' && p.tactical_category !== 'Czujnik NASA FIRMS') return;
+        if (filterMode === 'explosions' && !p.tactical_category?.includes('Eksplozja') && p.tactical_category !== 'explosions') return;
+        if (filterMode === 'drones' && !p.tactical_category?.includes('Dron') && p.tactical_category !== 'drones') return;
+        if (filterMode === 'missiles' && !p.tactical_category?.includes('Rakieta') && !p.tactical_category?.includes('Balistycz') && p.tactical_category !== 'missiles') return;
+        if (filterMode === 'infrastructure' && !p.tactical_category?.includes('Infrastruktura') && !p.tactical_category?.includes('Rafineria') && p.tactical_category !== 'infrastructure') return;
         if (filterMode.startsWith('country:') && p.country !== filterMode.replace('country:', '')) return;
 
         matchedCount++;
@@ -1826,25 +1945,29 @@
         // Punkty na heatmapę
         heatPoints.push([p.lat, p.lon, (p.threat_score || 5) / 10]);
 
-        const color = getCountryColor(p.country);
-        const radius = p.threat_score >= 8 ? 9 : 7;
+        const isNasaPoint = p.is_nasa || p.country === 'Czujniki NASA' || p.source_channel === 'NASA FIRMS';
+        const color = isNasaPoint ? '#f97316' : getCountryColor(p.country);
+        const radius = isNasaPoint ? 9 : (p.threat_score >= 8 ? 9 : 7);
         const circle = L.circleMarker([p.lat, p.lon], {
           radius: radius,
           fillColor: color,
-          color: p.has_fire ? '#f59e0b' : (p.multi_source_verified ? '#10b981' : '#ffffff'),
-          weight: (p.has_fire || p.multi_source_verified) ? 2.5 : 1,
+          color: isNasaPoint ? '#ea580c' : (p.has_fire ? '#f59e0b' : (p.multi_source_verified ? '#10b981' : '#ffffff')),
+          weight: isNasaPoint ? 2.5 : ((p.has_fire || p.multi_source_verified) ? 2.5 : 1),
           opacity: 1,
-          fillOpacity: 0.85
+          fillOpacity: isNasaPoint ? 0.95 : 0.85
         });
 
-        const crossCheckBadge = p.multi_source_verified 
-          ? `<div class="mb-1"><span class="inline-block px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 text-[10px] font-bold">🛡️ POTWIERDZONE WIELOŹRÓDŁOWO: ${(p.verified_by_sources || []).join(' + ')}</span></div>` 
-          : `<div class="mb-1"><span class="inline-block px-1.5 py-0.5 rounded bg-indigo-950/60 text-indigo-300 text-[10px] font-mono border border-indigo-800/40">Radar: [${p.source_channel || 'OSINT'}]</span></div>`;
+        const crossCheckBadge = isNasaPoint 
+          ? `<div class="mb-1"><span class="inline-block px-1.5 py-0.5 rounded bg-orange-950/80 text-orange-300 border border-orange-600/50 text-[10px] font-bold">🛰️ CZUJNIK SATELITARNY NASA FIRMS (VIIRS 375m)</span></div>`
+          : (p.multi_source_verified 
+            ? `<div class="mb-1"><span class="inline-block px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 text-[10px] font-bold">🛡️ POTWIERDZONE WIELOŹRÓDŁOWO: ${(p.verified_by_sources || []).join(' + ')}</span></div>` 
+            : `<div class="mb-1"><span class="inline-block px-1.5 py-0.5 rounded bg-indigo-950/60 text-indigo-300 text-[10px] font-mono border border-indigo-800/40">Radar: [${p.source_channel || 'OSINT'}]</span></div>`);
 
         const tacticalBadge = p.tactical_category 
           ? `<span class="inline-block px-1.5 py-0.5 rounded bg-red-950/80 text-red-300 border border-red-800/40 text-[10px] font-bold mr-1">${p.tactical_icon || '🎯'} ${p.tactical_category.toUpperCase()}</span>` 
           : '';
 
+        const frpBadge = (isNasaPoint && p.frp) ? `<div class="text-[11px] text-amber-300 font-semibold">🔥 <strong>Moc Radiacyjna (FRP):</strong> ${p.frp} MW</div>` : '';
         const fireBadge = p.has_fire ? '<span class="inline-block px-1.5 py-0.5 rounded bg-amber-500/20 text-amber-400 border border-amber-500/30 text-[10px] font-bold mr-1">🔥 DETONACJA / POŻAR</span>' : '';
         const weaponsBadge = (p.weapons && p.weapons.length > 0) ? `<div class="mt-1 text-[11px] text-indigo-300"><strong>Broń:</strong> ${p.weapons.join(', ')}</div>` : '';
         const targetBadge = p.target_type ? `<div class="text-[11px] text-slate-300"><strong>Cel:</strong> ${p.target_type}</div>` : '';
@@ -1864,6 +1987,7 @@
             <div class="font-semibold text-slate-200 mb-1 leading-snug">${titleText}</div>
             <div class="text-slate-400 mb-2 leading-tight">${descText}</div>
             <div class="bg-slate-900/80 p-2 rounded border border-slate-700/60 mb-2 space-y-0.5">
+              ${frpBadge}
               ${targetBadge}
               ${weaponsBadge}
             </div>

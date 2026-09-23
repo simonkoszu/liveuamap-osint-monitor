@@ -103,19 +103,32 @@ def fetch_nasa_firms_hotspots(map_key=None, days=1):
                             hour, minute = acq_time[:2], acq_time[2:]
 
                             ev_id = f"nasa_firms_{lat:.3f}_{lon:.3f}_{acq_date}_{acq_time}"
+                            iso_ts = f"{acq_date}T{hour}:{minute}:00+00:00"
                             ev = {
                                 "id": ev_id,
                                 "title": f"NASA Satellites detect intense thermal anomaly (FRP {frp:.1f} MW) near {area_name}",
                                 "title_pl": f"Satelita NASA VIIRS zarejestrował anomalię termiczną / eksplozję (FRP: {frp:.1f} MW) w rejonie {area_name} [{lat:.3f}, {lon:.3f}]",
                                 "text": f"NASA FIRMS VIIRS sensor detected an active thermal signature with {frp:.1f} MW radiative power on {acq_date} at {hour}:{minute} UTC. Likely impact, explosion, or industrial facility blaze.",
                                 "text_pl": f"Czujnik NASA FIRMS VIIRS 375m zarejestrował punktową anomalię termiczną o mocy {frp:.1f} MW w dniu {acq_date} o {hour}:{minute} UTC. Prawdopodobne miejsce uderzenia, eksplozji lub pożaru instalacji przemysłowej.",
+                                "timestamp": iso_ts,
                                 "date": f"{acq_date} {hour}:{minute}:00",
                                 "lat": lat,
+                                "lon": lon,
                                 "lng": lon,
+                                "country": "Czujniki NASA",
+                                "flag": "🛰️",
+                                "theater": f"Monitoring Satelitarny ({area_name})",
+                                "location_name": f"{area_name} [{lat:.2f}, {lon:.2f}]",
                                 "url": f"https://firms.modaps.eosdis.nasa.gov/map/#d:{acq_date}..{acq_date};l:viirs_snpp_nrt;@{lon:.2f},{lat:.2f},11z",
-                                "category": "Eksplozja / Detonacja",
+                                "event_type": "Anomalia Termiczna",
+                                "tactical_category": "Czujnik NASA FIRMS",
+                                "tactical_icon": "🛰️",
                                 "threat_score": 0.90,
-                                "source": "NASA FIRMS Satellite VIIRS"
+                                "source": "NASA FIRMS Satellite VIIRS",
+                                "source_channel": "NASA FIRMS",
+                                "is_fire": True,
+                                "is_nasa": True,
+                                "frp": frp
                             }
                             satellite_events.append(ev)
         except urllib.error.HTTPError as e:
