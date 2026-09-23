@@ -291,7 +291,39 @@ class MilitaryNLPEngine:
         if any(re.search(p, t) for p in spam_patterns):
             return False
 
-        # 2. Bezwzględny filtr cywilno-tabloidowy (auta, celebryci, koncerty, sport, obyczaje, cywilne wypadki)
+        # 2. Bezwzględny filtr satyry, zwierząt, rozrywki, marketingu i spraw cywilnych
+        # Odrzuca wiralowe filmiki, koty/psy strącające drony, felietony Lego, sprawy karne celebrytów
+        absolute_satire_and_viral_patterns = [
+            # Zwierzęta & humorystyczne "uzbrojenie"
+            r"\b(хвостат\w*\s+пво|боевой\s+кот|боевой\s+хомяк|боевой\s+енот|пушистик\w*|котик\w*)\b",
+            r"\b(кот|кошка|собак\w*|щенок|щенк\w*|п[её]с|хомяк\w*|попугай\w*|енот\w*|обезьян\w*)\s+(перехватил\w*|сбил\w*|поймал\w*|атаковал\w*|укусил\w*|прыгнул\w*)",
+            r"\b(дрон|квадрокоптер|беспилотник)\s+(во\s+время\s+съ[её]мк\w*|свадебн\w*|видеооператор\w*|в\s+мечети|в\s+храме|на\s+свадьб\w*|в\s+квартир\w*)",
+            r"съ[её]мк[аи]\s+(в\s+мечети|в\s+храме|клипа|фильма|свадьбы|передачи|шоу|ролика)",
+            r"во\s+время\s+съ[её]мк\w*",
+            # Finanse, taryfy, rachunki, e-commerce, ubezpieczenia
+            r"#shotфинансы\b",
+            r"в\s+плат[её]жках\s+(россиян|за\s+электричество|жкх|коммуналк\w*)",
+            r"(маркетплейс\w*|селлеры|ozon|wildberries|яндекс\s+маркет)\s+(расширяют|ввели|компенсирует|программ\w*\s+поддержки)",
+            r"страховк\w*\s+от\s+бпла",
+            # Metaforyczne użycie słów bojowych w medycynie i sklepach
+            r"штурм\w*\s+(аптек\w*|магазин\w*|очеред\w*|прилавк\w*|касс\w*|распродаж\w*|тц\b)",
+            r"(паническ\w*|сердечн\w*)\s+атак\w*",
+            r"атак\w*\s+(акулы|собак\w*|медведя|клещ\w*|пч[её]л)",
+            r"(скупили|дефицит)\s+лекарств\w*",
+            r"\b(простуд\w*|соплив\w*\s+сезон|грипп\w*|орви)\b",
+            # Rozrywka, blogerzy, lifestyle i Lego
+            r"собирает\s+lego\b",
+            r"(блогер|тиктокер|инфлюенсер)\s+(некоглай|nekoglai|литвин|меллстрой|инстасамка|милохин|даня|моргенштерн)",
+            r"(задержан|арестован)\s+за\s+(наркотик\w*|взятк\w*|мошенничеств\w*|пьян\w*|неуплат\w*\s+налогов)",
+            r"(заатаковал|напал\s+на)\s+полици\w*",
+            # Wewnętrzne procesy sądowe o "fejki" i cenzurę
+            r"(запросили\s+\d+\s+лет\s+(колонии|тюрьмы|лишения\s+свободы)|дело\s+о\s+«?фейках»?|приговор\s+по\s+делу\s+о\s+дискредитации)",
+            r"внесен\s+в\s+перечень\s+(террористов|экстремистов)\s+росфинмониторинга"
+        ]
+        if any(re.search(p, t) for p in absolute_satire_and_viral_patterns):
+            return False
+
+        # 3. Filtr cywilno-tabloidowy (auta, celebryci, koncerty, sport, obyczaje, cywilne wypadki)
         civilian_noise_patterns = [
             r"\b(bentley|lamborghini|rolls-royce|ferrari|mercedes-benz|bmw|porsche)\b",
             r"\b(студент|студентк\w*|университет\w*|мгу|парковк\w*|преподавател\w*)\b",
@@ -304,19 +336,20 @@ class MilitaryNLPEngine:
         ]
         has_hard_combat = bool(re.search(
             r"\b(ракета|ракеты|ракет\w*|missiles?|"
-            r"дрон|дроны|дронов|drones?|бпла|shahed|шахед\w*|шахід\w*|герань\w*|мопед\w*|бандерол\w*|беспилотник\w*|безпілотник\w*|"
-            r"атака|атаки|атакован\w*|обстрел\w*|обстріл\w*|shelling|"
+            r"shahed|шахед\w*|шахід\w*|герань\w*|мопед\w*|бандерол\w*|"
+            r"ударн\w*\s+бпла|ударн\w*\s+дрон\w*|дрон-камикадзе|fpv-дрон\w*|сбит\w*\s+дрон\w*|сбит\w*\s+бпла|"
+            r"обстрел\w*|обстріл\w*|shelling|"
             r"взрыв|взрывы|взрывов|вибух\w*|explosions?|детонац\w*|"
-            r"ппо|пво|air defense|збито|сбито|intercepted|"
-            r"штурм\w*|наступ\w*|assault|offensive|"
+            r"air defense|збито|сбито|перехоплен\w*|"
+            r"штурм\w*\s+(позиций|окопов|села|города|всу|вс\s+рф)|наступ\w*|assault|offensive|"
             r"каб|кабы|кабом|фаб|фабы|фаб-\d+)\b|"
-            r"\b(удар|удары|ударов|ударами|ударом)\b",
+            r"\b(ракетн\w*\s+удар|авиаудар\w*|авіаудар\w*|удар\s+баллистик|удар\s+по\s+нпз)\b",
             t
         ))
         if any(re.search(p, t) for p in civilian_noise_patterns) and not has_hard_combat:
             return False
 
-        # 3. Krótkie akronimy i specyficzne pojęcia wojskowe z granicą słowa \b
+        # 4. Krótkie akronimy i specyficzne pojęcia wojskowe z granicą słowa \b
         short_mil_re = re.compile(
             r"\b(каб|кабы|кабом|фаб|фабы|фаб-\d+|нпз|ппо|пво|бпла|рсзо|грау|опу|тос-1|su-\d+|су-\d+|миг-\d+|f-16|f-35|atacms|camm|nato|нато|зсу|всу|вс рф|вкс|рэб|tsahal|цахал|idf|взрыв|взрывы|вибух|вибухи)\b|"
             r"\b(uav|fpv|tank|tanks|combat|taliban|bmp|btr|air force|fighter jet|soldiers?|troops?|brigade|frontline|warfare|gunfire|firefight)\b|"
