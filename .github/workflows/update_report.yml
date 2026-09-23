@@ -2,8 +2,8 @@ name: Aktualizacja Raportu Aegis OSINT Tactical Radar
 
 on:
   schedule:
-    # Uruchamianie w chmurze codziennie o 06:00 UTC oraz 18:00 UTC (100% darmowe)
-    - cron: '0 6,18 * * *'
+    # Automatyczna aktualizacja co 1 godzinę (24x/dobę) — mieści się w darmowym GitHub Actions (2000 min/mies.)
+    - cron: '0 * * * *'
   push:
     branches:
       - main

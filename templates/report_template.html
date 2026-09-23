@@ -55,8 +55,8 @@
 </head>
 <body class="min-h-screen flex flex-col">
 
-  <!-- SECURITY GATE / EKRAN AUTORYZACJI PIN -->
-  <div id="security-gate" class="fixed inset-0 z-[9999] bg-[#070b14]/95 backdrop-blur-2xl flex items-center justify-center p-4">
+  <!-- SECURITY GATE / EKRAN AUTORYZACJI PIN (tymczasowo wyłączony — do naprawy) -->
+  <div id="security-gate" class="fixed inset-0 z-[9999] bg-[#070b14]/95 backdrop-blur-2xl flex items-center justify-center p-4" style="display: none;">
     <div class="max-w-md w-full bg-slate-900/95 border border-slate-700/80 rounded-2xl p-6 sm:p-8 shadow-2xl text-center relative overflow-hidden">
       <!-- Glow effect -->
       <div class="absolute -top-24 -left-24 w-48 h-48 bg-red-600/20 rounded-full blur-3xl pointer-events-none"></div>
@@ -170,7 +170,7 @@
           </div>
           <div class="flex justify-between">
             <span class="text-slate-400">Automatyczny cykl:</span>
-            <span class="text-slate-300">Co 4 godziny (GitHub Actions Cron)</span>
+            <span class="text-slate-300">Co 1 godzinę (GitHub Actions Cron)</span>
           </div>
           <div class="flex justify-between">
             <span class="text-slate-400">Połączone źródła:</span>
