@@ -1,9 +1,9 @@
 {
   "manifest": {
-    "total_archived": 93,
+    "total_archived": 110,
     "retention_days": 14,
     "first_archived_at": "2026-09-23T16:43:07.215300+00:00",
-    "last_archived_at": "2026-09-23T16:43:07.215300+00:00",
+    "last_archived_at": "2026-09-23T16:48:44.500375+00:00",
     "oldest_event_timestamp": "2023-06-05T21:48:13+00:00",
     "newest_event_timestamp": "2026-09-09T16:40:38+00:00",
     "cloud_sync_enabled": false
@@ -3398,6 +3398,689 @@
         }
       ],
       "archived_at": "2026-09-23T16:43:07.215153+00:00"
+    },
+    "a114346f62a15e89": {
+      "id": "a114346f62a15e89",
+      "timestamp": "2026-09-09T16:40:38+00:00",
+      "country": "Syria",
+      "flag": "🇸🇾",
+      "theater": "Syria",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Eksplozja / Detonacja",
+      "tactical_icon": "💥",
+      "title": "Death toll of the devastating explosion in Sarmada (Northern Idlib) has risen to 17. Among them are several high-ranking...",
+      "text": "Death toll of the devastating explosion in Sarmada (Northern Idlib) has risen to 17. Among them are several high-ranking Officers - the Colonel pictured was a Rebel leader overseeing ATGMs - belonging to the Defense Ministry. Ammunition depot that detonated contained many anti-tank missiles - TOWs, Konkurs, Kornets - in addition to mortars, mines and other military equipment https://syria.liveuamap.com/en/2026/9-september-14-death-toll-of-the-devastating-explosion-in",
+      "location_name": "Idlib, Syria",
+      "lat": 35.9306,
+      "lon": 36.6339,
+      "url": "https://t.me/liveuamap/12342",
+      "tactical_sources": [
+        {
+          "name": "#liveuamap",
+          "url": "https://t.me/liveuamap/12342"
+        },
+        {
+          "name": "Liveuamap",
+          "url": "https://syria.liveuamap.com/en/2026/9-september-14-death-toll-of-the-devastating-explosion-in"
+        }
+      ],
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Skład Amunicji / Arsenał",
+      "is_fire": true,
+      "threat_score": 5,
+      "source_channel": "liveuamap",
+      "added_at": "2026-09-23T16:45:28.504748+00:00",
+      "verified_by_sources": [
+        "liveuamap"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Liczba ofiar śmiertelnych niszczycielskiej eksplozji w Sarmadzie (północny Idlib) wzrosła do 17. Wśród nich jest kilku wysokich rangą...",
+      "text_pl": "Liczba ofiar śmiertelnych niszczycielskiej eksplozji w Sarmada (północny Idlib) wzrosła do 17. Wśród nich jest kilku wysokich rangą oficerów – pułkownik na zdjęciu był przywódcą Rebeliantów nadzorującym PPK – należących do Ministerstwa Obrony. Skład amunicji, który zdetonował, zawierał wiele rakiet przeciwpancernych – TOW, Konkurs, Kornet – a także moździerze, miny i inny sprzęt wojskowy",
+      "archived_at": "2026-09-23T16:48:44.500037+00:00"
+    },
+    "48c041b4f77c3706": {
+      "id": "48c041b4f77c3706",
+      "timestamp": "2026-09-08T09:28:57+00:00",
+      "country": "Jemen",
+      "flag": "🇾🇪",
+      "theater": "Jemen i Morze Czerwone",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Uderzenie Balistyczne / Rakieta",
+      "tactical_icon": "🚀",
+      "title": "Houthis claimed targeting Aramco facilities in Abha and Najran, the economic zone and Aramco in Jizan, and Khamis Mushai...",
+      "text": "Houthis claimed targeting Aramco facilities in Abha and Najran, the economic zone and Aramco in Jizan, and Khamis Mushait Air Base with dozens of ballistic missiles and drones https://yemen.liveuamap.com/en/2026/8-september-08-houthis-claimed-targeting-aramco-facilities",
+      "location_name": "Jemen i Morze Czerwone",
+      "lat": 48.1512,
+      "lon": 35.141,
+      "url": "https://t.me/liveuamap/12340",
+      "tactical_sources": [
+        {
+          "name": "#liveuamap",
+          "url": "https://t.me/liveuamap/12340"
+        },
+        {
+          "name": "Liveuamap",
+          "url": "https://yemen.liveuamap.com/en/2026/8-september-08-houthis-claimed-targeting-aramco-facilities"
+        }
+      ],
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 8,
+      "source_channel": "liveuamap",
+      "added_at": "2026-09-23T16:45:28.504750+00:00",
+      "verified_by_sources": [
+        "liveuamap"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Houthi twierdził, że atakuje obiekty Aramco w Abha i Najran, strefę ekonomiczną i Aramco w Jizan oraz Khamis Mushai…",
+      "text_pl": "Houthi twierdził, że za cel wziął dziesiątki rakiet balistycznych i dronów obiekty Aramco w Abha i Najran, strefę ekonomiczną i Aramco w Jizan oraz bazę lotniczą Khamis Mushait",
+      "archived_at": "2026-09-23T16:48:44.500037+00:00"
+    },
+    "48a3c3b7988d0835": {
+      "id": "48a3c3b7988d0835",
+      "timestamp": "2026-09-04T13:16:10+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "A Russian drone hit the central building of the Security Service of Ukraine (SBU) on Volodymyrska Street in Kyiv, opposi...",
+      "text": "A Russian drone hit the central building of the Security Service of Ukraine (SBU) on Volodymyrska Street in Kyiv, opposite St. Sophia Cathedral, - Zelenskyy https://liveuamap.com/en/2026/4-september-13-a-russian-drone-hit-the-central-building-of",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/liveuamap/12336",
+      "tactical_sources": [
+        {
+          "name": "#liveuamap",
+          "url": "https://t.me/liveuamap/12336"
+        },
+        {
+          "name": "Liveuamap",
+          "url": "https://liveuamap.com/en/2026/4-september-13-a-russian-drone-hit-the-central-building-of"
+        }
+      ],
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "liveuamap",
+      "added_at": "2026-09-23T16:45:28.504754+00:00",
+      "verified_by_sources": [
+        "liveuamap"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Rosyjski dron uderzył w centralny budynek Służby Bezpieczeństwa Ukrainy (SBU) przy ulicy Wołodymyrskiej w Kijowie, naprzeciw...",
+      "text_pl": "Rosyjski dron uderzył w centralny budynek Służby Bezpieczeństwa Ukrainy (SBU) przy ulicy Wołodymyrskiej w Kijowie, naprzeciwko Soboru Św. Zofii, - Zełenski",
+      "archived_at": "2026-09-23T16:48:44.500037+00:00"
+    },
+    "369b1ca618e46abc": {
+      "id": "369b1ca618e46abc",
+      "timestamp": "2026-09-04T08:44:58+00:00",
+      "country": "Izrael i Palestyna",
+      "flag": "🇵🇸 🇮🇱",
+      "theater": "Bliski Wschód (Gaza / Zachodni Brzeg)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Reporter: The army is carrying out a large-scale demolition operation within its controlled areas east of Khan Younis in...",
+      "text": "Reporter: The army is carrying out a large-scale demolition operation within its controlled areas east of Khan Younis in the southern Gaza Strip. https://israelpalestine.liveuamap.com/en/2026/4-september-07-reporter-the-army-is-carrying-out-a-largescale",
+      "location_name": "Strefa Gazy",
+      "lat": 31.5017,
+      "lon": 34.4668,
+      "url": "https://t.me/liveuamap/12335",
+      "tactical_sources": [
+        {
+          "name": "#liveuamap",
+          "url": "https://t.me/liveuamap/12335"
+        },
+        {
+          "name": "Liveuamap",
+          "url": "https://israelpalestine.liveuamap.com/en/2026/4-september-07-reporter-the-army-is-carrying-out-a-largescale"
+        }
+      ],
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "liveuamap",
+      "added_at": "2026-09-23T16:45:28.504756+00:00",
+      "verified_by_sources": [
+        "liveuamap"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Reporter: Armia przeprowadza zakrojoną na szeroką skalę operację rozbiórki na kontrolowanych obszarach na wschód od Khan Younis w...",
+      "text_pl": "Reporter: Armia przeprowadza zakrojoną na szeroką skalę operację rozbiórki na kontrolowanych przez siebie obszarach na wschód od Khan Younis w południowej Strefie Gazy. https://israelpalestine.liveuamap.com/en/2026/4-wrzesień-07-reporter-armia-przeprowadza-na-dużą skalę",
+      "archived_at": "2026-09-23T16:48:44.500037+00:00"
+    },
+    "d0daa3557b679cf2": {
+      "id": "d0daa3557b679cf2",
+      "timestamp": "2026-09-01T12:57:56+00:00",
+      "country": "Syria",
+      "flag": "🇸🇾",
+      "theater": "Syria",
+      "event_type": "Infrastruktura & Logistyka",
+      "tactical_category": "Eksplozja / Detonacja",
+      "tactical_icon": "💥",
+      "title": "The death toll has risen to 5 following an explosion at an ammunition depot in Binnish, in the Idlib countryside of nort...",
+      "text": "The death toll has risen to 5 following an explosion at an ammunition depot in Binnish, in the Idlib countryside of northwestern Syria. https://syria.liveuamap.com/en/2026/1-september-12-the-death-toll-has-risen-to-5-following-an",
+      "location_name": "Idlib, Syria",
+      "lat": 35.9306,
+      "lon": 36.6339,
+      "url": "https://t.me/liveuamap/12329",
+      "tactical_sources": [
+        {
+          "name": "#liveuamap",
+          "url": "https://t.me/liveuamap/12329"
+        },
+        {
+          "name": "Liveuamap",
+          "url": "https://syria.liveuamap.com/en/2026/1-september-12-the-death-toll-has-risen-to-5-following-an"
+        }
+      ],
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Skład Amunicji / Arsenał",
+      "is_fire": true,
+      "threat_score": 5,
+      "source_channel": "liveuamap",
+      "added_at": "2026-09-23T16:45:28.504760+00:00",
+      "verified_by_sources": [
+        "liveuamap"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Liczba ofiar śmiertelnych wzrosła do 5 w wyniku eksplozji w składzie amunicji w Binnish na wsi Idlib na północy...",
+      "text_pl": "Liczba ofiar śmiertelnych wzrosła do 5 w wyniku eksplozji w składzie amunicji w Binnish na wsi Idlib w północno-zachodniej Syrii. https://syria.liveuamap.com/en/2026/1-września-12-liczba-śmierci-has-risen-to-5-following-an",
+      "archived_at": "2026-09-23T16:48:44.500037+00:00"
+    },
+    "ab8471b8c1cae357": {
+      "id": "ab8471b8c1cae357",
+      "timestamp": "2026-08-31T12:27:14+00:00",
+      "country": "Izrael i Palestyna",
+      "flag": "🇵🇸 🇮🇱",
+      "theater": "Bliski Wschód (Gaza / Zachodni Brzeg)",
+      "event_type": "Komunikat / Dyplomacja",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Sources in Gaza hospitals: 5 dead in Israeli raids on several areas of Gaza City since this morning https://israelpalest...",
+      "text": "Sources in Gaza hospitals: 5 dead in Israeli raids on several areas of Gaza City since this morning https://israelpalestine.liveuamap.com/en/2026/31-august-12-sources-in-gaza-hospitals-5-dead-in-israeli",
+      "location_name": "Strefa Gazy",
+      "lat": 31.5017,
+      "lon": 34.4668,
+      "url": "https://t.me/liveuamap/12324",
+      "tactical_sources": [
+        {
+          "name": "#liveuamap",
+          "url": "https://t.me/liveuamap/12324"
+        },
+        {
+          "name": "Liveuamap",
+          "url": "https://israelpalestine.liveuamap.com/en/2026/31-august-12-sources-in-gaza-hospitals-5-dead-in-israeli"
+        }
+      ],
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "liveuamap",
+      "added_at": "2026-09-23T16:45:28.504766+00:00",
+      "verified_by_sources": [
+        "liveuamap"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Źródła w szpitalach w Gazie: od dzisiejszego ranka w izraelskich nalotach na kilka obszarów miasta Gaza zginęło 5 osób https://israelpalest...",
+      "text_pl": "Źródła w szpitalach w Gazie: od dzisiejszego ranka w izraelskich nalotach na kilka obszarów miasta Gaza zginęło 5 osób",
+      "archived_at": "2026-09-23T16:48:44.500037+00:00"
+    },
+    "7d9370556033c11f": {
+      "id": "7d9370556033c11f",
+      "timestamp": "2026-08-31T11:56:40+00:00",
+      "country": "Iran",
+      "flag": "🇮🇷",
+      "theater": "Bliski Wschód (Zatoka Perska)",
+      "event_type": "Komunikat / Dyplomacja",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "A US official told Reuters that the US military did not target Iran&#x27;s Kharg Island during its night raids. https://iran....",
+      "text": "A US official told Reuters that the US military did not target Iran&#x27;s Kharg Island during its night raids. https://iran.liveuamap.com/en/2026/31-august-11-a-us-official-told-reuters-that-the-us-military",
+      "location_name": "Bliski Wschód (Zatoka Perska)",
+      "lat": 48.0676,
+      "lon": 34.946,
+      "url": "https://t.me/liveuamap/12323",
+      "tactical_sources": [
+        {
+          "name": "#liveuamap",
+          "url": "https://t.me/liveuamap/12323"
+        },
+        {
+          "name": "Liveuamap",
+          "url": "https://iran.liveuamap.com/en/2026/31-august-11-a-us-official-told-reuters-that-the-us-military"
+        }
+      ],
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "liveuamap",
+      "added_at": "2026-09-23T16:45:28.504768+00:00",
+      "verified_by_sources": [
+        "liveuamap"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Urzędnik amerykański powiedział agencji Reuters, że wojsko amerykańskie nie obierało za cel irańskiej wyspy Kharg podczas swoich nocnych nalotów. https://iran....",
+      "text_pl": "Urzędnik amerykański powiedział agencji Reuters, że wojsko amerykańskie nie obierało za cel irańskiej wyspy Kharg podczas swoich nocnych nalotów. https://iran.liveuamap.com/en/2026/31-sierpnia-11-a-us-official-told-reuters-that-the-nas-wojsko",
+      "archived_at": "2026-09-23T16:48:44.500037+00:00"
+    },
+    "f89e7298b83f3344": {
+      "id": "f89e7298b83f3344",
+      "timestamp": "2026-08-30T08:41:15+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Ostrzał Artyleryjski",
+      "tactical_category": "Infrastruktura Krytyczna / Rafineria",
+      "tactical_icon": "🏭",
+      "title": "General Staff of Armed forces of Ukraine confirms hits at the Kirishy oil refinery in Leningrad region and Yeysk airbase...",
+      "text": "General Staff of Armed forces of Ukraine confirms hits at the Kirishy oil refinery in Leningrad region and Yeysk airbase https://liveuamap.com/en/2026/30-august-08-general-staff-of-armed-forces-of-ukraine-confirms",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.0688,
+      "lon": 34.955,
+      "url": "https://t.me/liveuamap/12321",
+      "tactical_sources": [
+        {
+          "name": "#liveuamap",
+          "url": "https://t.me/liveuamap/12321"
+        },
+        {
+          "name": "Liveuamap",
+          "url": "https://liveuamap.com/en/2026/30-august-08-general-staff-of-armed-forces-of-ukraine-confirms"
+        }
+      ],
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Rafineria / Skład Paliw",
+      "is_fire": false,
+      "threat_score": 8,
+      "source_channel": "liveuamap",
+      "added_at": "2026-09-23T16:45:28.504770+00:00",
+      "verified_by_sources": [
+        "liveuamap"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Sztab Generalny Sił Zbrojnych Ukrainy potwierdza trafienia w rafinerię Kirisz w obwodzie leningradzkim i bazę lotniczą w Yejsk…",
+      "text_pl": "Sztab Generalny Sił Zbrojnych Ukrainy potwierdza trafienia w rafinerię Kiriszy w obwodzie leningradzkim i bazę lotniczą w Jejsku",
+      "archived_at": "2026-09-23T16:48:44.500037+00:00"
+    },
+    "e87c1a1203c77443": {
+      "id": "e87c1a1203c77443",
+      "timestamp": "2026-08-28T14:37:18+00:00",
+      "country": "Izrael i Palestyna",
+      "flag": "🇵🇸 🇮🇱",
+      "theater": "Bliski Wschód (Gaza / Zachodni Brzeg)",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "The Israeli army announced the killing of three Palestinians in Jenin, one of whom was a local Hamas leader in the &quot;Jeni...",
+      "text": "The Israeli army announced the killing of three Palestinians in Jenin, one of whom was a local Hamas leader in the &quot;Jenin camp,&quot; along with two of his aides, in a drone strike. https://israelpalestine.liveuamap.com/en/2026/28-august-14-the-israeli-army-announced-the-killing-of-three",
+      "location_name": "Dżanin, Zachodni Brzeg",
+      "lat": 32.4608,
+      "lon": 35.3006,
+      "url": "https://t.me/liveuamap/12320",
+      "tactical_sources": [
+        {
+          "name": "#liveuamap",
+          "url": "https://t.me/liveuamap/12320"
+        },
+        {
+          "name": "Liveuamap",
+          "url": "https://israelpalestine.liveuamap.com/en/2026/28-august-14-the-israeli-army-announced-the-killing-of-three"
+        }
+      ],
+      "media_urls": [],
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "liveuamap",
+      "added_at": "2026-09-23T16:45:28.504772+00:00",
+      "verified_by_sources": [
+        "liveuamap"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Armia izraelska ogłosiła zabicie trzech Palestyńczyków w Dżeninie, z których jeden był lokalnym przywódcą Hamasu w „Jeni…",
+      "text_pl": "Armia izraelska ogłosiła zabicie w ataku dronów trzech Palestyńczyków w Dżeninie, z których jeden był lokalnym przywódcą Hamasu w „obozie w Dżeninie” wraz z dwoma jego pomocnikami. https://israelpalestine.liveuamap.com/en/2026/28-sierpnia-14-armia-izraelska-ogłoszona-zabicie-trzech",
+      "archived_at": "2026-09-23T16:48:44.500037+00:00"
+    },
+    "4fe41c3da56d28fa": {
+      "id": "4fe41c3da56d28fa",
+      "timestamp": "2026-08-26T09:21:38+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Infrastruktura & Logistyka",
+      "tactical_category": "Infrastruktura Krytyczna / Rafineria",
+      "tactical_icon": "🏭",
+      "title": "General Staff of the Armed Forces of Ukraine: Lukoil-Nizhegorodnefteorgsintez refinery in Kstovo, Nizhny Novgorod region...",
+      "text": "General Staff of the Armed Forces of Ukraine: Lukoil-Nizhegorodnefteorgsintez refinery in Kstovo, Nizhny Novgorod region, Russian Federation, was hit overnight https://liveuamap.com/en/2026/26-august-09-general-staff-of-the-armed-forces-of-ukraine",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.0324,
+      "lon": 35.069,
+      "url": "https://t.me/liveuamap/12317",
+      "tactical_sources": [
+        {
+          "name": "#liveuamap",
+          "url": "https://t.me/liveuamap/12317"
+        },
+        {
+          "name": "Liveuamap",
+          "url": "https://liveuamap.com/en/2026/26-august-09-general-staff-of-the-armed-forces-of-ukraine"
+        }
+      ],
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Rafineria / Skład Paliw",
+      "is_fire": false,
+      "threat_score": 8,
+      "source_channel": "liveuamap",
+      "added_at": "2026-09-23T16:45:28.504776+00:00",
+      "verified_by_sources": [
+        "liveuamap"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Sztab Generalny Sił Zbrojnych Ukrainy: Rafineria Lukoil-Nizhegorodnefteorgsintez w Kstovie, obwód Niżny Nowogród...",
+      "text_pl": "Sztab Generalny Sił Zbrojnych Ukrainy: Rafineria Lukoil-Nizhegorodnefteorgsintez w Kstovie, obwód Niżny Nowogród, Federacja Rosyjska, została zaatakowana w nocy",
+      "archived_at": "2026-09-23T16:48:44.500037+00:00"
+    },
+    "17ddb9f5563b7004": {
+      "id": "17ddb9f5563b7004",
+      "timestamp": "2026-08-24T16:26:07+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump: Canada has been ripping off the United States of America for years. Their ridiculously high tariffs on our Farmer...",
+      "text": "Trump: Canada has been ripping off the United States of America for years. Their ridiculously high tariffs on our Farmers and farm products has made life impossible for these great American Patriots, and has long created a 60 Billion Dollar Deficit between our two Countries. Not sustainable, and NOT ANYMORE. On January First, 2027, Tariffs on all Cars, Trucks, both large and small, Automotive Parts, and Steel, will be increased to 50%. Build in the U.S. and there are ZERO TARIFFS. Canada will be treated like a State no longer. On Trade, and in other ways, also, they are among the worst Nations in the World to deal with. They feel entitled, and yet, WE DON&#x27;T NEED CANADA, THEY NEED US. They do 95% of their business with the U.S., with us, the exact opposite https://canada.liveuamap.com/en/2026/24-august-13-trump-canada-has-been-ripping-off-the-united",
+      "location_name": "Inne",
+      "lat": 48.084,
+      "lon": 34.913,
+      "url": "https://t.me/liveuamap/12311",
+      "tactical_sources": [
+        {
+          "name": "#liveuamap",
+          "url": "https://t.me/liveuamap/12311"
+        },
+        {
+          "name": "Liveuamap",
+          "url": "https://canada.liveuamap.com/en/2026/24-august-13-trump-canada-has-been-ripping-off-the-united"
+        }
+      ],
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "liveuamap",
+      "added_at": "2026-09-23T16:45:28.504783+00:00",
+      "verified_by_sources": [
+        "liveuamap"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump: Kanada od lat oszukuje Stany Zjednoczone Ameryki. Ich absurdalnie wysokie cła na naszego Farmera...",
+      "text_pl": "Trump: Kanada od lat oszukuje Stany Zjednoczone Ameryki. Ich absurdalnie wysokie cła na naszych rolników i produkty rolne uniemożliwiły życie tym wielkim amerykańskim patriotom i od dawna powodują deficyt w wysokości 60 miliardów dolarów między naszymi dwoma krajami. Nietrwałe i WIĘCEJ. Pierwszego stycznia 2027 r. cła na wszystkie samochody osobowe i ciężarowe, zarówno duże, jak i małe, części samochodowe i stal, zostaną zwiększone do 50%. Buduj w USA i nie ma ZERO TARYF. Kanada nie będzie już traktowana jak państwo. Jeśli chodzi o handel, a także pod innymi względami, należą one do najgorszych narodów na świecie, z którymi można sobie poradzić. Czują się uprawnieni, a jednak MY NIE POTRZEBUJEMY KANADY, ONA POTRZEBUJE NAS. Robią 95% swoich interesów z USA, z nami, dokładnie odwrotnie https://canada.liveuamap.com/en/2026/24-august-13-trump-canada-has-been-ripping-off-the-united",
+      "archived_at": "2026-09-23T16:48:44.500037+00:00"
+    },
+    "f83dbae622de6d4d": {
+      "id": "f83dbae622de6d4d",
+      "timestamp": "2026-08-20T13:08:51+00:00",
+      "country": "Izrael i Palestyna",
+      "flag": "🇵🇸 🇮🇱",
+      "theater": "Bliski Wschód (Gaza / Zachodni Brzeg)",
+      "event_type": "Komunikat / Dyplomacja",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Israel&#x27;s Prime Minister&#x27;s Office says it has not approved the entry of the Board of Peace&#x27;s International Stabilization ...",
+      "text": "Israel&#x27;s Prime Minister&#x27;s Office says it has not approved the entry of the Board of Peace&#x27;s International Stabilization Force (ISF) into the Gaza Strip. &quot;Israel has made it clear that there will be no reconstruction in the Strip before Hamas is fully disarmed,&quot; the PMO says https://israelpalestine.liveuamap.com/en/2026/20-august-08-israels-prime-ministers-office-says-it-has-not",
+      "location_name": "Strefa Gazy",
+      "lat": 31.5017,
+      "lon": 34.4668,
+      "url": "https://t.me/liveuamap/12307",
+      "tactical_sources": [
+        {
+          "name": "#liveuamap",
+          "url": "https://t.me/liveuamap/12307"
+        },
+        {
+          "name": "Liveuamap",
+          "url": "https://israelpalestine.liveuamap.com/en/2026/20-august-08-israels-prime-ministers-office-says-it-has-not"
+        }
+      ],
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "liveuamap",
+      "added_at": "2026-09-23T16:45:28.504785+00:00",
+      "verified_by_sources": [
+        "liveuamap"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Biuro Premiera Izraela twierdzi, że nie zatwierdziło wpisu Międzynarodowej Rady Stabilizacji Pokoju…",
+      "text_pl": "Biuro Premiera Izraela twierdzi, że nie zatwierdziło wejścia Międzynarodowych Sił Stabilizacyjnych Zarządu Pokoju (ISF) do Strefy Gazy. „Izrael dał jasno do zrozumienia, że ​​nie będzie żadnej odbudowy Strefy Gazy, dopóki Hamas nie zostanie całkowicie rozbrojony” – mówi PMO",
+      "archived_at": "2026-09-23T16:48:44.500037+00:00"
+    },
+    "a58ce6f6bc715901": {
+      "id": "a58ce6f6bc715901",
+      "timestamp": "2026-08-18T10:32:35+00:00",
+      "country": "Syria",
+      "flag": "🇸🇾",
+      "theater": "Syria",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "The Syrian Foreign Ministry: We condemn in the strongest terms the Israeli airstrikes that targeted Abu al-Duhur militar...",
+      "text": "The Syrian Foreign Ministry: We condemn in the strongest terms the Israeli airstrikes that targeted Abu al-Duhur military airport in Idlib. https://syria.liveuamap.com/en/2026/18-august-10-the-syrian-foreign-ministry-we-condemn-in-the",
+      "location_name": "Idlib, Syria",
+      "lat": 35.9306,
+      "lon": 36.6339,
+      "url": "https://t.me/liveuamap/12304",
+      "tactical_sources": [
+        {
+          "name": "#liveuamap",
+          "url": "https://t.me/liveuamap/12304"
+        },
+        {
+          "name": "Liveuamap",
+          "url": "https://syria.liveuamap.com/en/2026/18-august-10-the-syrian-foreign-ministry-we-condemn-in-the"
+        }
+      ],
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "liveuamap",
+      "added_at": "2026-09-23T16:45:28.504789+00:00",
+      "verified_by_sources": [
+        "liveuamap"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Syryjskie Ministerstwo Spraw Zagranicznych: Z całą stanowczością potępiamy izraelskie naloty, których celem były siły zbrojne Abu al-Duhur…",
+      "text_pl": "Syryjskie Ministerstwo Spraw Zagranicznych: Z całą stanowczością potępiamy izraelskie naloty, których celem było lotnisko wojskowe Abu al-Duhur w Idlib. https://syria.liveuamap.com/en/2026/18-sierpnia-10-syryjskiego-ministerstwa-zagranicznego-potępiamy-w-",
+      "archived_at": "2026-09-23T16:48:44.500037+00:00"
+    },
+    "661d1da7d0b40d19": {
+      "id": "661d1da7d0b40d19",
+      "timestamp": "2026-08-15T09:20:55+00:00",
+      "country": "Liban",
+      "flag": "🇱🇧",
+      "theater": "Bliski Wschód (Liban)",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Bombardowanie Lotnicze (KAB / FAB)",
+      "tactical_icon": "💣",
+      "title": "Lebanese Prime Minister: Those killed in the Israeli airstrike in southern Lebanon were not &quot;military infrastructure&quot; ht...",
+      "text": "Lebanese Prime Minister: Those killed in the Israeli airstrike in southern Lebanon were not &quot;military infrastructure&quot; https://lebanon.liveuamap.com/en/2026/15-august-09-lebanese-prime-minister-those-killed-in-the",
+      "location_name": "Południowy Liban",
+      "lat": 33.2721,
+      "lon": 35.3854,
+      "url": "https://t.me/liveuamap/12302",
+      "tactical_sources": [
+        {
+          "name": "#liveuamap",
+          "url": "https://t.me/liveuamap/12302"
+        },
+        {
+          "name": "Liveuamap",
+          "url": "https://lebanon.liveuamap.com/en/2026/15-august-09-lebanese-prime-minister-those-killed-in-the"
+        }
+      ],
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "liveuamap",
+      "added_at": "2026-09-23T16:45:28.504792+00:00",
+      "verified_by_sources": [
+        "liveuamap"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Premier Libanu: Ci, którzy zginęli w izraelskim nalocie w południowym Libanie, nie stanowili „infrastruktury wojskowej”…",
+      "text_pl": "Premier Libanu: Ci, którzy zginęli w izraelskim nalocie na południowy Liban, nie stanowili „infrastruktury wojskowej”",
+      "archived_at": "2026-09-23T16:48:44.500037+00:00"
+    },
+    "84bfefdac6d4cce8": {
+      "id": "84bfefdac6d4cce8",
+      "timestamp": "2026-08-13T15:20:46+00:00",
+      "country": "Jemen",
+      "flag": "🇾🇪",
+      "theater": "Jemen i Morze Czerwone",
+      "event_type": "Działania Morskie",
+      "tactical_category": "Działania Morskie / Drony Nawodne",
+      "tactical_icon": "🚢",
+      "title": "The Yemeni naval forces announce the destruction of 3 Houthi boats loaded with explosives in the Red Sea. https://yemen....",
+      "text": "The Yemeni naval forces announce the destruction of 3 Houthi boats loaded with explosives in the Red Sea. https://yemen.liveuamap.com/en/2026/13-august-15-the-yemeni-naval-forces-announce-the-destruction",
+      "location_name": "Morze Czerwone",
+      "lat": 18.0,
+      "lon": 39.5,
+      "url": "https://t.me/liveuamap/12300",
+      "tactical_sources": [
+        {
+          "name": "#liveuamap",
+          "url": "https://t.me/liveuamap/12300"
+        },
+        {
+          "name": "Liveuamap",
+          "url": "https://yemen.liveuamap.com/en/2026/13-august-15-the-yemeni-naval-forces-announce-the-destruction"
+        }
+      ],
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "liveuamap",
+      "added_at": "2026-09-23T16:45:28.504794+00:00",
+      "verified_by_sources": [
+        "liveuamap"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Jemeńskie siły morskie ogłaszają zniszczenie na Morzu Czerwonym 3 łodzi Houthi załadowanych materiałami wybuchowymi. https://jemen....",
+      "text_pl": "Jemeńskie siły morskie ogłaszają zniszczenie na Morzu Czerwonym 3 łodzi Houthi załadowanych materiałami wybuchowymi. https://yemen.liveuamap.com/en/2026/13-sierpnia-15-jemen-naval-forces-announce-the-destruction",
+      "archived_at": "2026-09-23T16:48:44.500037+00:00"
+    },
+    "a7e1ed2ab82998c1": {
+      "id": "a7e1ed2ab82998c1",
+      "timestamp": "2026-08-12T15:07:43+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Starcie Lądowe",
+      "tactical_category": "Starcie Lądowe / Szturm",
+      "tactical_icon": "⚔️",
+      "title": "The Air Assault Forces of the Armed Forces of Ukraine, assault units, and other involved units liberated 26 settlements ...",
+      "text": "The Air Assault Forces of the Armed Forces of Ukraine, assault units, and other involved units liberated 26 settlements in the Dnipropetrovsk, Donetsk, and Zaporizhzhia regions along the Oleksandrivka direction: Berezove, Voskresenka, Hrushivske, Zaporizke, Zelenyi Hai, Zirka, Zlahoda, Kalynivske, Krasnohirske, Maliivka, Myrne, Novoheorhiivka, Novohryhorivka, Novomykolaivka, Novokhatske, Oleksandrohrad, Piddubne, Pryvillia, Pryvilne, Rybne, Sichneve, Stepove, Ternove, Tolstoi, Tsehelne, and Yalta. https://liveuamap.com/en/2026/12-august-14-the-air-assault-forces-of-the-armed-forces-of",
+      "location_name": "Zaporoże",
+      "lat": 47.8388,
+      "lon": 35.1396,
+      "url": "https://t.me/liveuamap/12299",
+      "tactical_sources": [
+        {
+          "name": "#liveuamap",
+          "url": "https://t.me/liveuamap/12299"
+        },
+        {
+          "name": "Liveuamap",
+          "url": "https://liveuamap.com/en/2026/12-august-14-the-air-assault-forces-of-the-armed-forces-of"
+        }
+      ],
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "liveuamap",
+      "added_at": "2026-09-23T16:45:28.504796+00:00",
+      "verified_by_sources": [
+        "liveuamap",
+        "OSINT Multi-Radar"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "Powietrzne Siły Szturmowe Sił Zbrojnych Ukrainy, jednostki szturmowe i inne zaangażowane jednostki wyzwoliły 26 osad ...",
+      "text_pl": "Powietrzne Siły Szturmowe Sił Zbrojnych Ukrainy, jednostki szturmowe i inne zaangażowane jednostki wyzwoliły 26 osad w obwodach dniepropietrowskim, donieckim i zaporoskim wzdłuż kierunku Oleksandrivka: Berezove, Voskresenka, Hruszivske, Zaporizke, Zelenyi Hai, Zirka, Zlahoda, Kalynivske, Krasnohirske, Maliivka, Myrne, Novoheorhiivka, Nowohryhorivka, Nowomykołaivka, Nowokhatske, Oleksandrohrad, Piddubne, Pryvillia, Pryvilne, Rybne, Sichneve, Stepove, Ternove, Tołstoj, Tsehelne i Jałta. https://liveuamap.com/en/2026/12-sierpnia-14-siły-szturmowe-powietrzne-siły-zbrojne",
+      "archived_at": "2026-09-23T16:48:44.500037+00:00"
+    },
+    "cfee876f9566efc5": {
+      "id": "cfee876f9566efc5",
+      "timestamp": "2026-08-11T08:11:16+00:00",
+      "country": "Jemen",
+      "flag": "🇾🇪",
+      "theater": "Jemen i Morze Czerwone",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Uderzenie Balistyczne / Rakieta",
+      "tactical_icon": "🚀",
+      "title": "Sky News Arabia sources: Two Pakistanis and an Indonesian killed in a Houthi missile attack on a commercial vessel near ...",
+      "text": "Sky News Arabia sources: Two Pakistanis and an Indonesian killed in a Houthi missile attack on a commercial vessel near Bab al-Mandab https://yemen.liveuamap.com/en/2026/11-august-07-sky-news-arabia-sources-two-pakistanis-and-an",
+      "location_name": "Jemen i Morze Czerwone",
+      "lat": 48.0212,
+      "lon": 34.9274,
+      "url": "https://t.me/liveuamap/12295",
+      "tactical_sources": [
+        {
+          "name": "#liveuamap",
+          "url": "https://t.me/liveuamap/12295"
+        },
+        {
+          "name": "Liveuamap",
+          "url": "https://yemen.liveuamap.com/en/2026/11-august-07-sky-news-arabia-sources-two-pakistanis-and-an"
+        }
+      ],
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "liveuamap",
+      "added_at": "2026-09-23T16:45:28.504799+00:00",
+      "verified_by_sources": [
+        "liveuamap"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Źródła Sky News Arabia: Dwóch Pakistańczyków i Indonezyjczyk zginęło w ataku rakietowym Houthi na statek handlowy w pobliżu…",
+      "text_pl": "Źródła Sky News Arabia: Dwóch Pakistańczyków i Indonezyjczyk zginęło w ataku rakietowym Houthi na statek handlowy w pobliżu Bab al-Mandab",
+      "archived_at": "2026-09-23T16:48:44.500037+00:00"
     }
   }
 }
