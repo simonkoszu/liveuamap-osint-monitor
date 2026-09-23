@@ -271,8 +271,8 @@ class MilitaryNLPEngine:
     def is_military_event(text: str) -> bool:
         """
         Rygorystyczny Filtr Antyszumowy (Noise Reduction Filter):
-        Odrzuca plotki, celebrytów, motoryzację, zbiórki pieniędzy, reklamy i ogólny czat cywilny.
-        Akceptuje wyłącznie meldunki o uderzeniach, ruchu wojsk, radarach, alarmach, eksplozjach
+        Odrzuca plotki, celebrytów, motoryzację, zbiórki pieniędzy, reklamy, cywilne wypadki i ogólny czat.
+        Akceptuje wyłącznie zweryfikowane meldunki o uderzeniach, ruchu wojsk, radarach, alarmach, eksplozjach
         oraz oświadczeniach dyplomacji wojennej.
         """
         if not text or len(text.strip()) < 20:
@@ -289,46 +289,72 @@ class MilitaryNLPEngine:
         if any(re.search(p, t) for p in spam_patterns):
             return False
 
-        # 2. Bezwzględny filtr cywilno-tabloidowy (auta, celebryci, koncerty, sport, obyczaje)
+        # 2. Bezwzględny filtr cywilno-tabloidowy (auta, celebryci, koncerty, sport, obyczaje, cywilne wypadki)
         civilian_noise_patterns = [
             r"\b(bentley|lamborghini|rolls-royce|ferrari|mercedes-benz|bmw|porsche)\b",
-            r"\b(студент|студентк|университет|мгу|парковк|преподавател)\b",
-            r"\b(концерт|шоу|фестивал|кино|фильм|актер|актрис|селебрити|певиц|певец|рэпер|рэп|джокер)\b",
-            r"\b(футбол|хоккей|матч|чемпионат|спортсмен|лига|рпл|футболист|вагнер лав|vagner love)\b",
-            r"\b(гороскоп|астролог|погода на завтра|синоптик|стриптиз|стриптизерш)\b",
-            r"\b(хореограф|педофил|бикини|диета|похуден|аллерги|гайморит|медведь|зоопарк|вкуссвилл|vkusvill)\b"
+            r"\b(студент|студентк\w*|университет\w*|мгу|парковк\w*|преподавател\w*)\b",
+            r"\b(концерт\w*|шоу|фестивал\w*|кино|фильм\w*|актер\w*|актрис\w*|селебрити|певиц\w*|певец|рэпер\w*|рэп|джокер)\b",
+            r"\b(футбол\w*|хоккей\w*|матч\w*|чемпионат\w*|спортсмен\w*|лига|рпл|футболист\w*|вагнер лав|vagner love)\b",
+            r"\b(гороскоп\w*|астролог\w*|погода на завтра|синоптик\w*|стриптиз\w*|стриптизерш\w*)\b",
+            r"\b(хореограф\w*|педофил\w*|бикини|диета|похуден\w*|аллерги\w*|гайморит|медведь|зоопарк|вкуссвилл|vkusvill)\b",
+            r"\b(электроскутер\w*|скутер\w*|дтп|авари\w* на скутер\w*|альпинист\w*|турист\w*|кабардино-балкар\w*|эскалатор|тц\b|торговый центр)\b",
+            r"\b(миллиардер\w*|тодд боэли|активов «лукойла»|сделк\w* по покупк\w*|сбор с авиапассажиров|выбор\w* в госдуму|фальсификац\w* на выбор\w*)\b"
         ]
-        is_noise = any(re.search(p, t) for p in civilian_noise_patterns)
-        has_hard_combat = any(w in t for w in [
-            "ракета", "missile", "дрон", "drone", "бпла", "shahed", "шахед",
-            "атака", "удар", "strike", "обстрел", "обстріл", "взрыв", "вибух",
-            "пожар", "пожеж", "ппо", "пво", "air defense", "штурм", "наступ"
-        ])
-        if is_noise and not has_hard_combat:
+        has_hard_combat = bool(re.search(
+            r"\b(ракета|ракеты|ракет\w*|missiles?|"
+            r"дрон|дроны|дронов|drones?|бпла|shahed|шахед\w*|шахід\w*|герань\w*|мопед\w*|бандерол\w*|беспилотник\w*|безпілотник\w*|"
+            r"атака|атаки|атакован\w*|обстрел\w*|обстріл\w*|shelling|"
+            r"взрыв|взрывы|взрывов|вибух\w*|explosions?|детонац\w*|"
+            r"ппо|пво|air defense|збито|сбито|intercepted|"
+            r"штурм\w*|наступ\w*|assault|offensive|"
+            r"каб|кабы|кабом|фаб|фабы|фаб-\d+)\b|"
+            r"\b(удар|удары|ударов|ударами|ударом)\b",
+            t
+        ))
+        if any(re.search(p, t) for p in civilian_noise_patterns) and not has_hard_combat:
             return False
 
-        # 3. Wskaźniki wojskowe i taktyczne (usunięto samo słowo 'baza'/'база')
+        # 3. Krótkie akronimy i specyficzne pojęcia wojskowe z granicą słowa \b
+        short_mil_re = re.compile(
+            r"\b(каб|кабы|кабом|фаб|фабы|фаб-\d+|нпз|ппо|пво|бпла|рсзо|грау|опу|тос-1|su-\d+|су-\d+|миг-\d+|f-16|f-35|atacms|camm|nato|нато|зсу|всу|вс рф|вкс|рэб|tsahal|цахал|idf|взрыв|взрывы|вибух|вибухи)\b|"
+            r"\b(удар|удары|ударов|ударами|ударом)\b|"
+            r"\b(firefight|artillery fire|missile strike|drone strike|air strike|naval strike)\b",
+            re.IGNORECASE
+        )
+        if short_mil_re.search(t):
+            return True
+
+        # Bezpieczne dłuższe wskaźniki wojskowe
         military_indicators = [
-            "rakiet", "ракета", "missile", "drone", "дрон", "бпла", "shahed", "шахед", "мопед", "бандерол",
-            "kab", "каб", "fab", "фаб", "artillery", "артилер", "обстріл", "обстрел", "shelling",
-            "strike", "удар", "приліт", "прилет", "вибух", "взрыв", "explosion", "fire", "пожар", "пожеж",
-            "air defense", "ппо", "пво", "збито", "сбито", "intercepted", "front", "фронт", "assault",
-            "штурм", "наступ", "войск", "військ", "военн", "військов", "refinery", "нпз", "depot",
-            "склад боєприпас", "склад боеприпас", "нефтебаз", "нафтобаз", "арсенал", "грау",
-            "radar", "радар", "тривога", "тревога", "сирена", "hezbollah", "houthi", "idf", "gaza",
-            "hamas", "хамас", "хезболл", "хусит", "nato", "baza wojskowa", "военная база", "авиабаза", "military"
+            "rakiet", "ракета", "missile", "drone", "дрон", "shahed", "шахед", "мопед", "бандерол",
+            "artillery", "артилер", "обстріл", "обстрел", "shelling",
+            "приліт", "прилет", "explosion", "детонац", "пожеж", "пожар",
+            "air defense", "збито", "сбито", "intercepted", "фронт", "assault",
+            "штурм", "наступ", "войск", "військ", "военн", "військов", "refinery",
+            "склад боєприпас", "склад боеприпас", "нефтебаз", "нафтобаз", "арсенал",
+            "radar", "радар", "тривога", "тревога", "сирена", "hezbollah", "houthi", "gaza",
+            "hamas", "хамас", "хезболл", "хусит", "baza wojskowa", "военная база", "авиабаза", "military",
+            "беспилотник", "безпілотник", "морський дрон", "морской дрон", "авиабомб", "авіабомб"
         ]
+        if any(ind in t for ind in military_indicators):
+            return True
 
         # 4. Wskaźniki dyplomacji wojennej i oświadczeń sztabowych
+        short_diplo_re = re.compile(
+            r"\b(оон|унга|unga|nato|нато|пентагон|pentagon|генштаб|штаб|генерал)\b|"
+            r"\b(military aid|военная помощь|військова допомога|санкции|санкций|санкциями|sanctions|sankcje)\b|"
+            r"\b(ceasefire|перемирие|перемир\'я|zawieszenie broni|обмен пленными|обмін полоненими)\b",
+            re.IGNORECASE
+        )
+        if short_diplo_re.search(t):
+            return True
+
         diplomatic_indicators = [
             "macron", "putin", "zelensky", "trump", "biden", "scholz", "rutte", "moratorium",
-            "sanctions", "санкци", "sankcje", "negocjac", "переговор", "aid", "пакет помощ", "peace", "мирн",
-            "zawieszenie broni", "ceasefire", "nato", "pentagon", "министерств", "генштаб", "штаб", "генерал",
-            "unga", "онн", "оон", "wymiana jeńców", "пленн", "обмен", "whitaker", "rubio", "syria", "sharaa",
-            "izrael", "israel", "palestyn", "katar", "qatar", "iran", "liban", "lebanon"
+            "negocjac", "переговор", "пакет помощ", "мирн",
+            "whitaker", "rubio", "sharaa", "палестин", "palestyn"
         ]
-
-        return any(ind in t for ind in military_indicators) or any(ind in t for ind in diplomatic_indicators)
+        return any(ind in t for ind in diplomatic_indicators)
 
     @staticmethod
     def calculate_threat_score(text: str, event_type: str, country: str) -> int:
