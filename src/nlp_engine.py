@@ -59,6 +59,17 @@ TACTICAL_CATEGORIES = {
             r"\bарсенал\b", r"\bсклад боєприпас\w*", r"\bзнеструмлен\w*", r"\bрезервуар\w*"
         ]
     },
+    "Incydent Powietrzny / Naruszenie Granicy": {
+        "icon": "🚨",
+        "patterns": [
+            r"\b(naruszeni\w*|naruszył\w*|wtargn\w*)\b.*?\bprzestrze\w*",
+            r"\bprzestrze[ńn]\s+powietrzn\w*\b", r"\bprzestrzeni\s+powietrzn\w*\b",
+            r"\bairspace\s+violation\b",
+            r"\bвторгся\s+в\s+.*воздушное\s+пространство\b", r"\bнарушил\s+.*воздушное\s+пространство\b",
+            r"\bpoderwane\s+myśliwce\b", r"\bpary\s+dyżurn\w*\b", r"\bpara\s+dyżurna\b",
+            r"\bscrambled\b", r"\bincydent\s+graniczn\w*\b", r"\bniezidentyfikowan\w*\s+obiekt\b"
+        ]
+    },
     "Starcie Lądowe / Szturm": {
         "icon": "⚔️",
         "patterns": [
@@ -116,6 +127,12 @@ WEAPON_PATTERNS = {
     ],
     "Pociski Hezbollah / Huti": [
         r"\bfadi-\d+", r"\bburkan\b", r"\bquds\b", r"\bkatyusha\b"
+    ],
+    "Śmigłowiec Wojskowy": [
+        r"\bmi-8\b", r"\bmi-24\b", r"\bmi-28\b", r"\bka-52\b", r"\bśmigłowiec\w*", r"\bвертолет\w*", r"\bвертоліт\w*", r"\bblack hawk\b"
+    ],
+    "Myśliwiec Bojowy": [
+        r"\bf-16\b", r"\bf-35\b", r"\bf-22\b", r"\bmi-29\b", r"\bsu-27\b", r"\bsu-30\b", r"\bsu-34\b", r"\bsu-35\b", r"\bmyśliwiec\w*", r"\bmyśliwce\b", r"\bистребител\w*"
     ]
 }
 
@@ -208,6 +225,16 @@ CYRILLIC_CITIES: Dict[str, Tuple[float, float, str, str, str]] = {
     "кропивниц": (48.5079, 32.2623, "Kropywnycki", "Ukraina", "🇺🇦"),
     "димер": (50.7833, 30.3167, "Dymer, Kijowszczyzna", "Ukraina", "🇺🇦"),
     "чорнобиль": (51.2763, 30.2218, "Czarnobyl", "Ukraina", "🇺🇦"),
+
+    # Polska / Granica NATO
+    "бранево": (54.3804, 19.8242, "Braniewo, Warmia, Polska", "Polska", "🇵🇱"),
+    "браневе": (54.3804, 19.8242, "Braniewo, Warmia, Polska", "Polska", "🇵🇱"),
+    "мальборк": (54.0359, 19.0266, "Malbork, Polska", "Polska", "🇵🇱"),
+    "пшеводув": (50.4706, 23.9317, "Przewodów, Lubelszczyzna, Polska", "Polska", "🇵🇱"),
+    "жешув": (50.0412, 21.9991, "Rzeszów-Jasionka, Polska", "Polska", "🇵🇱"),
+    "ясионка": (50.1100, 22.0194, "Jasionka (Hub NATO), Polska", "Polska", "🇵🇱"),
+    "варшав": (52.2297, 21.0122, "Warszawa, Polska", "Polska", "🇵🇱"),
+    "сувалк": (54.1115, 22.9309, "Suwałki, Polska", "Polska", "🇵🇱"),
 }
 
 # Slang taktyczny i radary wczesnego ostrzegania
@@ -351,7 +378,8 @@ class MilitaryNLPEngine:
 
         # 4. Krótkie akronimy i specyficzne pojęcia wojskowe z granicą słowa \b
         short_mil_re = re.compile(
-            r"\b(каб|кабы|кабом|фаб|фабы|фаб-\d+|нпз|ппо|пво|бпла|рсзо|грау|опу|тос-1|su-\d+|су-\d+|миг-\d+|f-16|f-35|atacms|camm|nato|нато|зсу|всу|вс рф|вкс|рэб|tsahal|цахал|idf|взрыв|взрывы|вибух|вибухи)\b|"
+            r"\b(каб|кабы|кабом|фаб|фабы|фаб-\d+|нпz|нпз|ппо|пво|бпла|рсзо|грау|опу|тос-1|su-\d+|су-\d+|миг-\d+|"
+            r"mi-\d+|ми-\d+|f-16|f-35|f-22|f-15|jas-39|gripen|atacms|camm|opl|dorsz|mon|szrp|wot|ppzr|krab|borsuk|k2|abrams|himars|patriot|nato|нато|зсу|всу|вс рф|вкс|рэб|tsahal|цахал|idf|взрыв|взрывы|вибух|вибухи)\b|"
             r"\b(uav|fpv|tank|tanks|combat|taliban|bmp|btr|air force|fighter jet|soldiers?|troops?|brigade|frontline|warfare|gunfire|firefight)\b|"
             r"\b(удар|удары|ударов|ударами|ударом)\b|"
             r"\b(firefight|artillery fire|missile strike|drone strike|air strike|naval strike)\b",
@@ -363,16 +391,23 @@ class MilitaryNLPEngine:
         # Bezpieczne dłuższe wskaźniki wojskowe
         military_indicators = [
             "rakiet", "ракета", "missile", "drone", "дрон", "shahed", "шахед", "мопед", "бандерол",
-            "artillery", "артилер", "обстріл", "обстрел", "shelling",
+            "artillery", "артилер", "artyleri", "обстріл", "обстрел", "shelling",
             "приліт", "прилет", "explosion", "детонац", "пожеж", "пожар",
             "air defense", "збито", "сбито", "intercepted", "фронт", "assault",
             "штурм", "наступ", "войск", "військ", "военн", "військов", "refinery",
             "склад боєприпас", "склад боеприпас", "нефтебаз", "нафтобаз", "арсенал",
-            "radar", "радар", "тривога", "тревога", "сирена", "hezbollah", "houthi", "gaza",
+            "radar", "радар", "тривоga", "тривога", "тревога", "сирена", "hezbollah", "houthi", "gaza",
             "hamas", "хамас", "хезболл", "хусит", "baza wojskowa", "военная база", "авиабаза", "military",
             "беспилотник", "безпілотник", "морський дрон", "морской дрон", "авиабомб", "авіабомб",
             "taliban", "troops", "soldiers", "combat footage", "combat", "infantry", "tank", "uav", "fpv",
-            "fighter jet", "frontline", "warfare", "airstrike", "air strike", "bmp", "btr"
+            "fighter jet", "frontline", "warfare", "airstrike", "air strike", "bmp", "btr",
+            # Polskie wskaźniki militarne i obrony powietrznej
+            "śmigłow", "myśliwiec", "myśliwce", "siły zbrojne", "sił zbrojnych", "sił powietrzn", "siły powietrzn",
+            "wojsko polskie", "wojska polskiego", "dowództwo operacyjne", "sztab generalny",
+            "obrona powietrzna", "obrony powietrznej", "przestrzeń powietrzn", "przestrzeni powietrzn",
+            "naruszenie granic", "naruszenia granic", "strefa nadgraniczn", "incydent graniczny",
+            "pary dyżurn", "para dyżurna", "straż graniczna", "straży granicznej", "pocisk", "amunicj",
+            "poligon", "polityka obronna", "stan gotowości", "niezidentyfikowan", "zbrojeni", "uzbrojeni"
         ]
         if any(ind in t for ind in military_indicators):
             return True
@@ -399,6 +434,10 @@ class MilitaryNLPEngine:
         """Kalkuluje poziom zagrożenia i eskalacji w skali 1-10."""
         score = 5
         t = text.lower()
+
+        # Alert granicy NATO / Polski
+        if country == "Polska" and any(w in t for w in ["naruszen", "przestrzeń", "granic", "wtargn", "incydent", "obiekt", "вторгся", "нарушил"]):
+            score = 7
 
         # Broń strategiczna / masowa
         if any(w in t for w in ["ballistic", "балістич", "баллистич", "iskander", "іскандер", "нпз", "refinery", "arsenal", "арсенал"]):

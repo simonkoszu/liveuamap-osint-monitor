@@ -5,6 +5,7 @@ from collections import Counter, defaultdict
 from nlp_engine import MilitaryNLPEngine
 
 COUNTRY_METADATA = {
+    "Polska": {"flag": "🇵🇱", "theater": "Wschodnia Flanka NATO (Polska)", "priority": 0},
     "Ukraina": {"flag": "🇺🇦", "theater": "Wojna w Europie Wschodniej", "priority": 1},
     "Rosja": {"flag": "🇷🇺", "theater": "Wojna w Europie Wschodniej (Obszar FR)", "priority": 2},
     "Liban": {"flag": "🇱🇧", "theater": "Bliski Wschód (Liban)", "priority": 3},
@@ -458,13 +459,15 @@ class ConflictAnalyzer:
         near_border_locs = [
             "lwów", "lviv", "wołyń", "volyn", "równe", "rivne", "stryj", "stryi", 
             "łuck", "lutsk", "jaworów", "yavoriv", "brześć", "grodno", "kaliningrad", 
-            "królewiec", "suwałki", "bałtyk", "baltic", "morze bałtyckie", "zatoka gdańska"
+            "królewiec", "suwałki", "bałtyk", "baltic", "morze bałtyckie", "zatoka gdańska",
+            "braniewo", "malbork", "przewodów", "dorohusk", "hrebenne", "jasionka"
         ]
 
         border_kinetic_24h = []
         border_kinetic_7d = []
         hybrid_24h = []
         nuclear_7d = []
+        direct_poland_24h = []
 
         for e in all_7d:
             txt = ((e.get("title") or "") + " " + (e.get("title_pl") or "") + " " + 
@@ -472,13 +475,17 @@ class ConflictAnalyzer:
 
             is_near_border = any(loc in txt for loc in near_border_locs) or (
                 e.get("country") == "Ukraina" and any(w in txt for w in ["zachodniej ukrainy", "kurs na zachód", "western ukraine", "granicy z polską"])
-            )
-            is_kinetic = any(k in (e.get("tactical_category") or "") for k in ["Uderzenie", "Rakieta", "Dron", "Eksplozja"])
+            ) or (e.get("country") == "Polska")
+            is_kinetic = any(k in (e.get("tactical_category") or "") for k in ["Uderzenie", "Rakieta", "Dron", "Eksplozja", "Incydent Powietrzny"])
 
             if is_near_border and is_kinetic:
                 border_kinetic_7d.append(e)
                 if e in all_24h:
                     border_kinetic_24h.append(e)
+
+            if e.get("country") == "Polska" and any(k in (e.get("tactical_category") or "") for k in ["Incydent Powietrzny", "Naruszenie", "Dron"]):
+                if e in all_24h:
+                    direct_poland_24h.append(e)
 
             if any(w in txt for w in ["gps", "jamming", "zakłóc", "sabotaż", "sabotage", "dywersja", "cyber", "podpalen", "arson", "granic", "border", "baltyk", "bałtyk"]):
                 if e in all_24h:
@@ -491,8 +498,8 @@ class ConflictAnalyzer:
         # 1. Inwazja lądowa: stała niska baza (5-8%) - 90%+ sił lądowych FR uwiązane na Ukrainie i w Kursku
         ground_prob = 7
 
-        # 2. Incydent kinetyczny (rakiety / drony przy granicy RP): wysokie ryzyko ze względu na naloty na zachodnią Ukrainę
-        border_prob = min(80, 45 + len(border_kinetic_24h) * 8 + len(border_kinetic_7d) * 2)
+        # 2. Incydent kinetyczny (rakiety / drony / śmigłowce przy granicy RP): wysokie ryzyko ze względu na naloty i testowanie OPL
+        border_prob = min(88, 45 + len(border_kinetic_24h) * 8 + len(border_kinetic_7d) * 2 + len(direct_poland_24h) * 10)
 
         # 3. Wojna hybrydowa, sabotaż, GPS: stan ciągły krytyczny (80-92%)
         hybrid_prob = min(95, 78 + len(hybrid_24h) * 3)
@@ -510,8 +517,8 @@ class ConflictAnalyzer:
         threat_clock_time = f"23:{clock_min:02d}"
 
         # Status alertu
-        if minutes_to_midnight <= 20:
-            threat_level = "BARDZO WYSOKI (INCYDENTY KINETYCZNE PRZY GRANICY)"
+        if direct_poland_24h or minutes_to_midnight <= 20:
+            threat_level = "BARDZO WYSOKI (INCYDENTY KINETYCZNE / NARUSZENIE GRANICY)"
             threat_color = "red"
             defcon = "DEFCON 2"
         elif minutes_to_midnight <= 50:
@@ -525,6 +532,18 @@ class ConflictAnalyzer:
 
         # Generowanie alertów wczesnego ostrzegania
         alerts = []
+        if direct_poland_24h:
+            top_ev = direct_poland_24h[0]
+            alerts.append({
+                "level": "CRITICAL",
+                "badge": "🚨 NARUSZENIE PRZESTRZENI RP",
+                "color_bg": "bg-red-950/80 border-red-600 text-red-100",
+                "icon": "fa-triangle-exclamation text-red-500 animate-pulse",
+                "title": "Naruszenie polskiej przestrzeni powietrznej / Incydent graniczny",
+                "desc": f"{top_ev.get('title_pl') or top_ev.get('title')}. Poderwano dyżurne pary QRA SZ RP, naziemna OPL w pełnej gotowości.",
+                "timestamp": top_ev.get("timestamp", self.now.strftime("%Y-%m-%d %H:%M UTC"))[:16].replace("T", " ")
+            })
+
         if border_kinetic_24h:
             alerts.append({
                 "level": "CRITICAL",

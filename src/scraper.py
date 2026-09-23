@@ -2,6 +2,8 @@ import re
 import html
 import random
 import hashlib
+import email.utils
+import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from typing import List, Dict, Any, Optional
 from bs4 import BeautifulSoup
@@ -96,10 +98,60 @@ GEOLOCATION_DB = {
     "kurram": (33.8167, 70.1667, "Kurram, Pakistan"),
     "duta khel": (32.9333, 69.8333, "Duta Khel, Waziristan, Pakistan"),
     "pryluky": (50.5895, 32.3857, "Przyłuci, Obwód czernihowski, Ukraina"),
+
+    # Polska & Wschodnia Flanka NATO
+    "braniewo": (54.3804, 19.8242, "Braniewo, Warmia, Polska"),
+    "braniewa": (54.3804, 19.8242, "Braniewo, Warmia, Polska"),
+    "braniewie": (54.3804, 19.8242, "Braniewo, Warmia, Polska"),
+    "malbork": (54.0359, 19.0266, "Malbork (Baza Lotnicza), Polska"),
+    "malborka": (54.0359, 19.0266, "Malbork (Baza Lotnicza), Polska"),
+    "malborku": (54.0359, 19.0266, "Malbork (Baza Lotnicza), Polska"),
+    "przewodów": (50.4706, 23.9317, "Przewodów, Lubelszczyzna, Polska"),
+    "przewodowa": (50.4706, 23.9317, "Przewodów, Lubelszczyzna, Polska"),
+    "przewodowie": (50.4706, 23.9317, "Przewodów, Lubelszczyzna, Polska"),
+    "przewodow": (50.4706, 23.9317, "Przewodów, Lubelszczyzna, Polska"),
+    "suwałki": (54.1115, 22.9309, "Przesmyk Suwalski, Polska"),
+    "suwałk": (54.1115, 22.9309, "Przesmyk Suwalski, Polska"),
+    "suwałkach": (54.1115, 22.9309, "Przesmyk Suwalski, Polska"),
+    "suwalki": (54.1115, 22.9309, "Przesmyk Suwalski, Polska"),
+    "suwalk": (54.1115, 22.9309, "Przesmyk Suwalski, Polska"),
+    "suwalszczyzn": (54.1115, 22.9309, "Przesmyk Suwalski, Polska"),
+    "warszawa": (52.2297, 21.0122, "Warszawa, Polska"),
+    "warszawy": (52.2297, 21.0122, "Warszawa, Polska"),
+    "warszawie": (52.2297, 21.0122, "Warszawa, Polska"),
+    "rzeszów": (50.0412, 21.9991, "Rzeszów-Jasionka (Hub NATO), Polska"),
+    "rzeszowa": (50.0412, 21.9991, "Rzeszów-Jasionka (Hub NATO), Polska"),
+    "rzeszowie": (50.0412, 21.9991, "Rzeszów-Jasionka (Hub NATO), Polska"),
+    "rzeszow": (50.0412, 21.9991, "Rzeszów-Jasionka (Hub NATO), Polska"),
+    "jasionka": (50.1100, 22.0194, "Jasionka (Hub NATO), Polska"),
+    "jasionki": (50.1100, 22.0194, "Jasionka (Hub NATO), Polska"),
+    "jasionce": (50.1100, 22.0194, "Jasionka (Hub NATO), Polska"),
+    "dorohusk": (51.1569, 23.8078, "Dorohusk (Granica), Polska"),
+    "dorohuska": (51.1569, 23.8078, "Dorohusk (Granica), Polska"),
+    "dorohusku": (51.1569, 23.8078, "Dorohusk (Granica), Polska"),
+    "hrebenne": (50.2869, 23.5856, "Hrebenne (Granica), Polska"),
+    "hrebennem": (50.2869, 23.5856, "Hrebenne (Granica), Polska"),
+    "hrebennego": (50.2869, 23.5856, "Hrebenne (Granica), Polska"),
+    "mierzeja wiślana": (54.3500, 19.3167, "Mierzeja Wiślana, Polska"),
+    "mierzei wiślanej": (54.3500, 19.3167, "Mierzeja Wiślana, Polska"),
+    "mierzeja wislana": (54.3500, 19.3167, "Mierzeja Wiślana, Polska"),
+    "mierzei wislanej": (54.3500, 19.3167, "Mierzeja Wiślana, Polska"),
+    "bałtyk": (54.8000, 18.5000, "Morze Bałtyckie"),
+    "bałtyku": (54.8000, 18.5000, "Morze Bałtyckie"),
+    "baltyk": (54.8000, 18.5000, "Morze Bałtyckie"),
+    "baltyku": (54.8000, 18.5000, "Morze Bałtyckie"),
+    "królewiec": (54.7104, 20.4522, "Obwód Królewiecki"),
+    "królewca": (54.7104, 20.4522, "Obwód Królewiecki"),
+    "królewcu": (54.7104, 20.4522, "Obwód Królewiecki"),
+    "krolewiec": (54.7104, 20.4522, "Obwód Królewiecki"),
+    "krolewca": (54.7104, 20.4522, "Obwód Królewiecki"),
+    "kaliningrad": (54.7104, 20.4522, "Obwód Królewiecki"),
+    "kaliningradu": (54.7104, 20.4522, "Obwód Królewiecki"),
 }
 
 # Domyślne współrzędne centrów teatrów działań
 THEATER_CENTROIDS = {
+    "Wschodnia Flanka NATO (Polska)": (52.2, 21.0),
     "Ukraina i Rosja": (48.8, 36.5),
     "Bliski Wschód (Izrael / Liban / Gaza)": (32.5, 35.2),
     "Syria": (35.2, 37.5),
@@ -137,6 +189,21 @@ class AegisOSINTScraper:
         """
         text_lower = text.lower()
         links_str = " ".join(links).lower()
+
+        # 0. Polska / Wschodnia Flanka NATO (Naruszenia przestrzeni, incydenty graniczne)
+        if any(w in text_lower for w in [
+            "braniewo", "malbork", "przewodów", "przewodow", "suwałki", "suwalki", "mierzeja wiślana",
+            "dorohusk", "hrebenne", "jasionka", "rzeszów", "do rsz", "dorsz", "dowództwo operacyjne",
+            "polska", "polski", "polską", "polskie", "polskiej", "polsce", "poland", "polish", "польш",
+            "straż graniczna", "sztab generalny wp"
+        ]):
+            if any(w in text_lower for w in [
+                "braniewo", "malbork", "przewod", "suwał", "suwal", "jasionk", "rzeszów", "rzeszow", "do rsz", "dorsz",
+                "przestrzen", "granic", "wtargn", "narusz", "poderwan", "w polsce", "do polski", "nad polską",
+                "nad polska", "w pobliżu polski", "przy granicy z polską", "polskie siły", "wojsko polskie", "defence24",
+                "вторгся", "нарушил", "бранево"
+            ]):
+                return "Polska", "🇵🇱", "Wschodnia Flanka NATO (Polska)"
 
         # 1. Liban
         if "lebanon.liveuamap" in links_str or any(w in text_lower for w in ["lebanon", "lebanese", "beirut", "dahieh", "hezbollah", "southern lebanon", "nabatieh", "bekaa", "tyre", "sidon"]):
@@ -194,6 +261,8 @@ class AegisOSINTScraper:
             return "Rosja", "🇷🇺", "Wojna w Europie Wschodniej (Obszar FR)"
         if channel in ["rybar"]:
             return "Ukraina", "🇺🇦", "Wojna w Europie Wschodniej"
+        if channel in ["defence24"]:
+            return "Polska", "🇵🇱", "Wschodnia Flanka NATO (Polska)"
 
         # Domyślnie domena liveuamap.com często dotyczy Ukrainy
         if "liveuamap.com" in links_str and any(w in text_lower for w in ["missile", "drone", "air defense", "army", "forces"]):
@@ -204,6 +273,8 @@ class AegisOSINTScraper:
     def _determine_event_type(self, text: str) -> str:
         """Kategoryzuje typ incydentu wojskowego."""
         t = text.lower()
+        if any(w in t for w in ["naruszeni", "przestrzeń powietrzn", "przestrzeni powietrzn", "airspace", "wtargn", "вторгся", "нарушил воздуш", "niezidentyfikowan"]):
+            return "Incydent Powietrzny / Naruszenie Granicy"
         if any(w in t for w in ["missile", "drone", "shahed", "ballistic", "cruise missile", "air strike", "airstrike", "bomb", "fab-", "glide bomb", "uav", "fpv", "бандерол", "мопед", "реактив"]):
             return "Uderzenie Rakietowe / Dron"
         if any(w in t for w in ["artillery", "shelling", "mortar", "mlrs", "grad", "howitzer", "fired at", "обстріл", "обстрел"]):
@@ -394,7 +465,12 @@ class AegisOSINTScraper:
                         cyrillic_loc = MilitaryNLPEngine.resolve_cyrillic_location(raw_text)
                         if cyrillic_loc:
                             lat, lon, loc_name, country, flag = cyrillic_loc
-                            theater = "Wojna w Europie Wschodniej (Obszar FR)" if country == "Rosja" else "Wojna w Europie Wschodniej"
+                            if country == "Rosja":
+                                theater = "Wojna w Europie Wschodniej (Obszar FR)"
+                            elif country == "Polska":
+                                theater = "Wschodnia Flanka NATO (Polska)"
+                            else:
+                                theater = "Wojna w Europie Wschodniej"
                         else:
                             country, flag, theater = self._determine_country_and_theater(raw_text, links, channel)
                             lat, lon, loc_name = self._extract_coordinates(raw_text, theater, event_hash)
@@ -445,7 +521,135 @@ class AegisOSINTScraper:
                     print(f"[AEGIS RADAR] Błąd w kanale {channel}, strona {page}: {e}")
                     break
 
+        # 2. Pobieranie z polskiego radaru wojskowo-obronnego Defence24 (RSS)
+        print("[AEGIS RADAR] Skanowanie polskiego feedu wojskowego Defence24 RSS...")
+        try:
+            d24_events = self._fetch_defence24_rss(max_items=35)
+            d24_added = 0
+            for dev in d24_events:
+                if dev["id"] not in seen_ids:
+                    seen_ids.add(dev["id"])
+                    events.append(dev)
+                    d24_added += 1
+            print(f"[AEGIS RADAR] Zaimportowano {d24_added} meldunków operacyjnych z Defence24.")
+        except Exception as e:
+            print(f"[AEGIS RADAR] Błąd pobierania feedu Defence24: {e}")
+
         print(f"[AEGIS RADAR] Łącznie pobrano {len(events)} unikalnych zdarzeń z monitorowanych radarów.")
+        return events
+
+    def _fetch_defence24_rss(self, max_items: int = 35) -> List[Dict[str, Any]]:
+        """
+        Pobiera najświeższe depesze obronne i meldunki wojskowe z polskiego portalu Defence24 (RSS).
+        Błyskawiczny czas reakcji dla incydentów w polskiej przestrzeni powietrznej, komunikatów DO RSZ i MON.
+        """
+        events = []
+        rss_url = "https://defence24.pl/rss"
+        try:
+            r = requests.get(rss_url, impersonate="chrome120", timeout=15)
+            if r.status_code != 200:
+                print(f"[AEGIS RADAR] Defence24 RSS zwrócił kod {r.status_code}")
+                return events
+
+            root = ET.fromstring(r.content)
+            channel = root.find("channel")
+            if channel is None:
+                return events
+
+            items = channel.findall("item")
+            for it in items[:max_items]:
+                title = it.findtext("title", "").strip()
+                desc = it.findtext("description", "").strip()
+                link = it.findtext("link", "").strip()
+                pub_date_str = it.findtext("pubDate", "").strip()
+                guid = it.findtext("guid", "").strip() or link
+
+                full_text = f"{title}. {desc}".strip()
+                if not full_text or len(full_text) < 15:
+                    continue
+
+                # Filtr antyszumowy NLP dla wydarzeń militarnych
+                if not MilitaryNLPEngine.is_military_event(full_text):
+                    continue
+
+                # Konwersja czasu do formatu ISO 8601 UTC
+                timestamp = None
+                if pub_date_str:
+                    try:
+                        dt = email.utils.parsedate_to_datetime(pub_date_str)
+                        timestamp = dt.astimezone(timezone.utc).isoformat()
+                    except Exception:
+                        pass
+                if not timestamp:
+                    timestamp = datetime.now(timezone.utc).isoformat()
+
+                # Zdjęcie / media (Yahoo MRSS)
+                media_urls = []
+                for child in it:
+                    if child.tag.endswith("content") and "url" in child.attrib:
+                        media_urls.append(child.attrib["url"])
+                    elif child.tag.endswith("thumbnail") and "url" in child.attrib:
+                        if not media_urls:
+                            media_urls.append(child.attrib["url"])
+                    elif child.tag == "enclosure" and "url" in child.attrib:
+                        media_urls.append(child.attrib["url"])
+
+                # Określenie kraju i teatru działań
+                country, flag, theater = self._determine_country_and_theater(full_text, [link], "defence24")
+                event_hash = hashlib.sha256(f"defence24_{guid}".encode()).hexdigest()[:16]
+
+                # Geokodowanie
+                lat, lon, loc_name = self._extract_coordinates(full_text, theater, event_hash)
+
+                event_type = self._determine_event_type(full_text)
+                tactical_category, tactical_icon = MilitaryNLPEngine.categorize_tactical_event(full_text)
+                weapons = MilitaryNLPEngine.extract_weapons(full_text)
+                target_type = MilitaryNLPEngine.extract_target_type(full_text)
+                is_fire = MilitaryNLPEngine.detect_fire_or_thermal(full_text)
+                threat_score = MilitaryNLPEngine.calculate_threat_score(full_text, event_type, country)
+
+                clean_title = self._sanitize_string(title[:120] + "..." if len(title) > 120 else title)
+                clean_text = self._sanitize_string(full_text)
+
+                event = {
+                    "id": event_hash,
+                    "timestamp": timestamp,
+                    "country": country,
+                    "flag": flag,
+                    "theater": theater,
+                    "event_type": event_type,
+                    "tactical_category": tactical_category,
+                    "tactical_icon": tactical_icon,
+                    "title": clean_title,
+                    "text": clean_text,
+                    "title_pl": clean_title,
+                    "text_pl": clean_text,
+                    "location_name": loc_name,
+                    "lat": lat,
+                    "lon": lon,
+                    "url": link,
+                    "tactical_sources": [
+                        {
+                            "name": "Defence24",
+                            "url": link
+                        }
+                    ],
+                    "media_urls": media_urls,
+                    "video_url": None,
+                    "is_video": False,
+                    "weapons": weapons,
+                    "target_type": target_type,
+                    "is_fire": is_fire,
+                    "threat_score": threat_score,
+                    "source_channel": "defence24",
+                    "verified_by_sources": ["defence24"],
+                    "multi_source_verified": False
+                }
+                events.append(event)
+
+        except Exception as e:
+            print(f"[AEGIS RADAR] Błąd pobierania Defence24 RSS: {e}")
+
         return events
 
 # Alias dla wstecznej kompatybilności

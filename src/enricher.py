@@ -291,15 +291,21 @@ def enrich_database(db):
         text = ev.get("text", "") or ev.get("title", "")
         # Sprawdź cyrylicę
         cyrillic_loc = MilitaryNLPEngine.resolve_cyrillic_location(text)
-        if cyrillic_loc and (ev.get("country") == "Inne / Globalne" or ev.get("lat") == 45.0):
-            lat, lon, loc_name, country, flag = cyrillic_loc
-            ev["lat"] = lat
-            ev["lon"] = lon
-            ev["location_name"] = loc_name
-            ev["country"] = country
-            ev["flag"] = flag
-            ev["theater"] = "Wojna w Europie Wschodniej (Obszar FR)" if country == "Rosja" else "Wojna w Europie Wschodniej"
-            reclassified += 1
+        if cyrillic_loc and (ev.get("country") in ["Inne / Globalne", "Rosja"] or ev.get("lat") == 45.0):
+            if cyrillic_loc[3] == "Polska" or ev.get("country") == "Inne / Globalne" or ev.get("lat") == 45.0:
+                lat, lon, loc_name, country, flag = cyrillic_loc
+                ev["lat"] = lat
+                ev["lon"] = lon
+                ev["location_name"] = loc_name
+                ev["country"] = country
+                ev["flag"] = flag
+                if country == "Rosja":
+                    ev["theater"] = "Wojna w Europie Wschodniej (Obszar FR)"
+                elif country == "Polska":
+                    ev["theater"] = "Wschodnia Flanka NATO (Polska)"
+                else:
+                    ev["theater"] = "Wojna w Europie Wschodniej"
+                reclassified += 1
         elif ev.get("country") == "Inne / Globalne":
             ch = ev.get("source_channel", "")
             country, flag, theater = scraper._determine_country_and_theater(text, [ev.get("url", "")], ch)

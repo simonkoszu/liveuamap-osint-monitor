@@ -115,8 +115,16 @@ def translate_events_batch(events: List[Dict[str, Any]], max_to_translate: int =
         orig_title = (ev.get("title") or "").strip()
         orig_text = (ev.get("text") or "").strip()
 
-        needs_title = (not ev.get("title_pl") or ev.get("title_pl") == orig_title) and orig_title
-        needs_text = (not ev.get("text_pl") or ev.get("text_pl") == orig_text) and orig_text
+        # Zdarzenia z polskich źródeł (np. Defence24) są natywnie w języku polskim
+        if ev.get("source_channel") == "defence24" or ev.get("country") == "Polska":
+            if not ev.get("title_pl"):
+                ev["title_pl"] = orig_title
+            if not ev.get("text_pl"):
+                ev["text_pl"] = orig_text
+            continue
+
+        needs_title = not ev.get("title_pl") and bool(orig_title)
+        needs_text = not ev.get("text_pl") and bool(orig_text)
 
         if needs_title or needs_text:
             if needs_title:
