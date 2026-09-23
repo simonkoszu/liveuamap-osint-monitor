@@ -1,9 +1,9 @@
 {
   "manifest": {
-    "total_archived": 121,
+    "total_archived": 122,
     "retention_days": 14,
     "first_archived_at": "2026-09-23T16:43:07.215300+00:00",
-    "last_archived_at": "2026-09-23T18:31:51.006684+00:00",
+    "last_archived_at": "2026-09-23T18:38:43.599162+00:00",
     "oldest_event_timestamp": "2023-06-05T21:48:13+00:00",
     "newest_event_timestamp": "2026-09-09T18:29:55+00:00",
     "cloud_sync_enabled": false
@@ -4552,6 +4552,48 @@
         }
       ],
       "archived_at": "2026-09-23T18:31:51.006553+00:00"
+    },
+    "36b8da9b18f5ffb9": {
+      "id": "36b8da9b18f5ffb9",
+      "timestamp": "2026-09-09T18:17:58+00:00",
+      "country": "Jemen",
+      "flag": "🇾🇪",
+      "theater": "Jemen i Morze Czerwone",
+      "event_type": "Komunikat / Dyplomacja",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Pakistan has delivered a Saudi warning to Iran to rein in its Yemeni Houthi allies after they stepped up attacks on the ...",
+      "text": "Pakistan has delivered a Saudi warning to Iran to rein in its Yemeni Houthi allies after they stepped up attacks on the kingdom, in a coordinated effort to prevent the crisis from spiralling, Saudi, Pakistani and Iranian sources said https://iran.liveuamap.com/en/2026/9-september-18-pakistan-has-delivered-a-saudi-warning-to",
+      "location_name": "Jemen i Morze Czerwone",
+      "lat": 47.924,
+      "lon": 34.9772,
+      "url": "https://t.me/liveuamap/12345",
+      "tactical_sources": [
+        {
+          "name": "#liveuamap",
+          "url": "https://t.me/liveuamap/12345"
+        },
+        {
+          "name": "Liveuamap",
+          "url": "https://iran.liveuamap.com/en/2026/9-september-18-pakistan-has-delivered-a-saudi-warning-to"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "liveuamap",
+      "added_at": "2026-09-23T18:34:03.349381+00:00",
+      "verified_by_sources": [
+        "liveuamap"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Pakistan wydał saudyjskie ostrzeżenie dla Iranu, aby powstrzymał swoich sojuszników z Jemenu Houthi po tym, jak nasilili oni ataki na…",
+      "text_pl": "Pakistan przekazał Iranowi saudyjskie ostrzeżenie, aby powstrzymał swoich jemeńskich sojuszników Houthi po tym, jak nasilili oni ataki na królestwo, w ramach skoordynowanych wysiłków mających na celu zapobieżenie nakręcaniu się kryzysu, podają źródła saudyjskie, pakistańskie i irańskie https://iran.liveuamap.com/en/2026/9-wrzesień-18-pakistan-dostarczył-ostrzeżenie-do-saudyjskiego",
+      "archived_at": "2026-09-23T18:38:43.598951+00:00"
     }
   }
 }
