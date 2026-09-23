@@ -91,11 +91,20 @@ def main():
     from translator import translate_events_batch
     translate_events_batch(deduplicated_events, max_to_translate=1000)
 
-    db.events = {ev["id"]: ev for ev in deduplicated_events}
+    # 2e. Retencja 14 dni & Archiwizacja do Bazy Historycznej (ML Training Dataset / Google Drive)
+    from archiver import HistoricalArchiver
+    archiver = HistoricalArchiver(base_dir=BASE_DIR)
+    active_events, newly_archived, archive_stats = archiver.process_retention(deduplicated_events, retention_days=14)
+    print(f"📦 [RETENCJA 14 DNI] Aktywne incydenty operacyjne: {len(active_events)} | Zarchiwizowane łącznie: {archive_stats['total_archived']} (nowych: {len(newly_archived)})")
+
+    db.events = {ev["id"]: ev for ev in active_events}
+    db.meta["retention_days"] = 14
+    db.meta["archived_count"] = archive_stats["total_archived"]
     db.save()
 
-    analyzer = ConflictAnalyzer(deduplicated_events, tracking_started_at=db.meta.get("tracking_started_at"))
+    analyzer = ConflictAnalyzer(active_events, tracking_started_at=db.meta.get("tracking_started_at"))
     analysis = analyzer.analyze()
+    analysis["archive_stats"] = archive_stats
 
     print(f"   • Aktywne unikalne incydenty po deduplikacji: {analysis['total_events_in_db']}")
     print(f"   • Ostatnie 24h (Globalnie): {analysis['global_daily']['count']} zdarzeń")

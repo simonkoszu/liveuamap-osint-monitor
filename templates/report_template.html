@@ -124,10 +124,16 @@
           <div class="text-slate-400">Stan na dzień:</div>
           <div class="font-mono text-slate-200 font-semibold">{{ data.today_date_pl or data.today_date }} ({{ data.generated_at_pl or data.generated_at }})</div>
         </div>
-        <div class="bg-slate-800 border border-slate-700 px-3 py-1.5 rounded-lg flex items-center space-x-2">
-          <i class="fa-solid fa-database text-indigo-400"></i>
-          <span class="text-slate-300 font-medium">Baza Incydentów: <span class="text-white font-bold">{{ data.total_events_in_db }}</span></span>
+        <div class="bg-slate-800 border border-slate-700 px-3 py-1.5 rounded-lg flex items-center space-x-2" title="Aktywne incydenty operacyjne w oknie 14 dni">
+          <i class="fa-solid fa-satellite-dish text-indigo-400"></i>
+          <span class="text-slate-300 font-medium">Radar (14 dni): <span class="text-white font-bold">{{ data.total_events_in_db }}</span></span>
         </div>
+        {% if data.archive_stats and data.archive_stats.total_archived %}
+        <div class="bg-slate-800/80 border border-slate-700/80 px-2.5 py-1.5 rounded-lg hidden lg:flex items-center space-x-1.5 text-slate-400" title="Zbiór danych w bazie historycznej pod Machine Learning / Google Drive">
+          <i class="fa-solid fa-box-archive text-amber-400 text-xs"></i>
+          <span class="text-[11px] font-mono">Baza Historyczna ML: <span class="text-amber-300 font-bold">{{ data.archive_stats.total_archived }}</span></span>
+        </div>
+        {% endif %}
         <div class="bg-slate-800 border border-slate-700 px-3 py-1.5 rounded-lg flex items-center space-x-1.5 text-emerald-400 font-medium">
           <i class="fa-solid fa-circle text-[8px] animate-pulse"></i>
           <span>Live OSINT</span>

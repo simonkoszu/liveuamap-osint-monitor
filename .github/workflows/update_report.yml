@@ -48,15 +48,16 @@ jobs:
           FIRMS_MAP_KEY: ${{ secrets.FIRMS_MAP_KEY }}
           REPORT_PIN: ${{ secrets.REPORT_PIN }}
           CARTO_API_KEY: ${{ secrets.CARTO_API_KEY }}
+          GDRIVE_WEBHOOK_URL: ${{ secrets.GDRIVE_WEBHOOK_URL }}
         run: |
-          python run.py --pages 5
+          python run.py --pages 3
 
-      - name: 💾 Bezpieczne zapisanie bazy zdarzeń w repozytorium
+      - name: 💾 Bezpieczne zapisanie bazy zdarzeń i archiwum w repozytorium
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "Aegis OSINT Bot"
-          git add data/events.json
-          git diff --staged --quiet || git commit -m "Auto-update: Baza zdarzeń taktycznych [$(date -u +'%Y-%m-%d %H:%M UTC')]"
+          git add data/events.json data/archive/
+          git diff --staged --quiet || git commit -m "Auto-update: Baza operacyjna & Archiwum ML [$(date -u +'%Y-%m-%d %H:%M UTC')]"
           git push
 
       - name: 🌐 Publikacja Raportu na darmowym GitHub Pages
