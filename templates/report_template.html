@@ -240,30 +240,79 @@
           <div class="flex-1 h-px bg-slate-800"></div>
         </div>
 
-        <!-- Akcja 2: GitHub Actions -->
+        <!-- Akcja 2: GitHub Actions (1-Klik API lub przejście bezpośrednie) -->
         <div class="group relative bg-slate-800/50 hover:bg-slate-800/80 border border-slate-700/50 hover:border-emerald-500/50 rounded-xl p-4 transition-all duration-200">
           <div class="flex items-start space-x-3">
             <div class="w-9 h-9 rounded-lg bg-emerald-500/15 border border-emerald-500/30 flex items-center justify-center text-emerald-400 shrink-0 mt-0.5">
-              <i class="fa-brands fa-github text-sm"></i>
+              <i id="workflow-trigger-icon" class="fa-solid fa-cloud-arrow-up text-sm"></i>
             </div>
             <div class="min-w-0 flex-1">
-              <div class="flex items-center gap-2 flex-wrap">
-                <span class="text-sm font-semibold text-white">Uruchom Nowy Skan (GitHub Actions)</span>
-                <span class="px-1.5 py-0.5 text-[10px] rounded font-mono bg-emerald-950 text-emerald-400 border border-emerald-500/30">~2 min</span>
+              <div class="flex items-center justify-between flex-wrap gap-1">
+                <div class="flex items-center gap-2 flex-wrap">
+                  <span class="text-sm font-semibold text-white">2. Uruchom Nowy Skan Chmurowy</span>
+                  <span class="px-1.5 py-0.5 text-[10px] rounded font-mono bg-emerald-950 text-emerald-400 border border-emerald-500/30">~2 min</span>
+                </div>
+                <div id="gh-token-badge" class="hidden items-center gap-1.5 text-[10px] text-emerald-400 font-mono bg-emerald-950/80 px-2 py-0.5 rounded-full border border-emerald-500/30">
+                  <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+                  <span>1-Klik Aktywny</span>
+                </div>
               </div>
-              <p class="text-[11px] text-slate-400 mt-1 leading-relaxed">Otwiera panel GitHub Actions. Kliknij <strong class="text-slate-200">„Run workflow"</strong> → nowy scraping Telegrama, Defence24 RSS, satelity NASA FIRMS i translacja PL. Raport pojawi się automatycznie po ~2 minutach.</p>
-              <div class="mt-2 flex items-center gap-1.5 text-[10px] text-slate-500">
-                <i class="fa-solid fa-circle-info"></i>
-                <span>Wymagane zalogowanie do GitHub jako <strong class="text-slate-400">simonkoszu</strong></span>
+              <p class="text-[11px] text-slate-400 mt-1 leading-relaxed">
+                Uruchamia w chmurze GitHub: scraping Telegrama, Defence24 RSS, satelity NASA FIRMS i translację PL.
+              </p>
+
+              <!-- Stan A: Gdy token jest skonfigurowany (1-Kliknięcie) -->
+              <div id="gh-trigger-ready-section" class="mt-3 hidden space-y-2">
+                <button onclick="triggerGitHubWorkflow()" id="btn-trigger-workflow" class="w-full py-2.5 px-4 bg-emerald-600 hover:bg-emerald-500 active:scale-[0.99] text-white font-semibold rounded-lg text-xs flex items-center justify-center space-x-2 transition-all shadow-lg shadow-emerald-600/20 cursor-pointer">
+                  <i id="btn-trigger-icon" class="fa-solid fa-play"></i>
+                  <span id="btn-trigger-text">🚀 Uruchom Skan w Chmurze Teraz (1-Klik)</span>
+                </button>
+                <div class="flex items-center justify-between text-[10px] text-slate-500 pt-1">
+                  <button onclick="toggleTokenConfig(true)" class="text-slate-400 hover:text-indigo-300 underline cursor-pointer">
+                    <i class="fa-solid fa-key mr-1"></i>Zmień token GitHub
+                  </button>
+                  <a href="https://github.com/simonkoszu/liveuamap-osint-monitor/actions/workflows/update_report.yml" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-white flex items-center gap-1">
+                    <span>Podgląd na żywo w GitHub Actions</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square text-[9px]"></i>
+                  </a>
+                </div>
               </div>
+
+              <!-- Stan B: Konfiguracja tokena PAT (gdy brak) -->
+              <div id="gh-token-config-section" class="mt-3 space-y-2 bg-slate-900/90 border border-slate-700/60 rounded-xl p-3">
+                <div class="flex items-center justify-between text-[11px]">
+                  <span class="font-semibold text-slate-200 flex items-center gap-1.5">
+                    <i class="fa-solid fa-key text-amber-400"></i>
+                    Podłącz 1-Kliknięcie (GitHub Token)
+                  </span>
+                  <a href="https://github.com/settings/tokens/new?scopes=workflow,repo&description=Aegis+OSINT+Trigger" target="_blank" rel="noopener noreferrer" class="text-indigo-400 hover:text-indigo-300 underline text-[10px] flex items-center gap-1">
+                    <span>Wygeneruj w 30 sek</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square text-[8px]"></i>
+                  </a>
+                </div>
+                <p class="text-[10px] text-slate-400 leading-tight">
+                  Wklej jednorazowo swój token GitHub z uprawnieniem <code class="text-amber-300 font-mono">workflow</code>. Zapisuje się wyłącznie lokalnie w Twojej przeglądarce.
+                </p>
+                <div class="flex gap-2">
+                  <input type="password" id="gh-token-input" placeholder="ghp_xxxxxxxxxxxxxxxxxxxx" class="flex-1 bg-slate-950 border border-slate-700 focus:border-emerald-500 rounded-lg px-2.5 py-1.5 text-xs text-white font-mono placeholder:text-slate-600 focus:outline-none">
+                  <button onclick="saveTokenAndTrigger()" class="py-1.5 px-3 bg-emerald-600 hover:bg-emerald-500 text-white font-semibold rounded-lg text-xs flex items-center gap-1.5 transition cursor-pointer whitespace-nowrap">
+                    <i class="fa-solid fa-floppy-disk text-xs"></i>
+                    <span>Zapisz i Odpal</span>
+                  </button>
+                </div>
+                <div class="flex items-center justify-between pt-1 text-[10px] text-slate-500 border-t border-slate-800">
+                  <a href="https://github.com/simonkoszu/liveuamap-osint-monitor/actions/workflows/update_report.yml" target="_blank" rel="noopener noreferrer" class="hover:text-slate-300 flex items-center gap-1">
+                    <span>Albo otwórz w GitHub Actions bez tokena</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square text-[8px]"></i>
+                  </a>
+                  <button id="btn-cancel-token" onclick="toggleTokenConfig(false)" class="hidden text-slate-400 hover:text-white cursor-pointer">Anuluj</button>
+                </div>
+              </div>
+
+              <!-- Status wiadomości / Alert z API -->
+              <div id="gh-trigger-feedback" class="hidden mt-2.5 p-2.5 rounded-lg text-xs flex items-start space-x-2"></div>
+
             </div>
-          </div>
-          <div class="mt-3 flex gap-2">
-            <a href="https://github.com/simonkoszu/liveuamap-osint-monitor/actions/workflows/update_report.yml" target="_blank" rel="noopener noreferrer" class="flex-1 py-2.5 px-4 bg-emerald-600 hover:bg-emerald-500 active:scale-[0.99] text-white font-semibold rounded-lg text-xs flex items-center justify-center space-x-2 transition-all shadow-lg shadow-emerald-600/20 cursor-pointer" onclick="toggleRefreshMenu()">
-              <i class="fa-solid fa-play"></i>
-              <span>Otwórz GitHub Actions → Run Workflow</span>
-              <i class="fa-solid fa-arrow-up-right-from-square text-[9px] opacity-60"></i>
-            </a>
           </div>
         </div>
 
@@ -2021,10 +2070,167 @@
       if (modal.classList.contains('hidden')) {
         modal.classList.remove('hidden');
         modal.classList.add('flex');
+        initGitHubTriggerUI();
       } else {
         modal.classList.add('hidden');
         modal.classList.remove('flex');
       }
+    }
+
+    /* --- GitHub Actions 1-Click Remote Trigger Engine --- */
+    const GH_REPO = "simonkoszu/liveuamap-osint-monitor";
+    const GH_WORKFLOW = "update_report.yml";
+    const GH_BRANCH = "main";
+
+    function initGitHubTriggerUI() {
+      const token = localStorage.getItem('aegis_gh_pat');
+      const readySec = document.getElementById('gh-trigger-ready-section');
+      const configSec = document.getElementById('gh-token-config-section');
+      const badge = document.getElementById('gh-token-badge');
+      const cancelBtn = document.getElementById('btn-cancel-token');
+
+      if (token && token.trim().length > 10) {
+        if (readySec) readySec.classList.remove('hidden');
+        if (configSec) configSec.classList.add('hidden');
+        if (badge) { badge.classList.remove('hidden'); badge.classList.add('flex'); }
+        if (cancelBtn) cancelBtn.classList.remove('hidden');
+      } else {
+        if (readySec) readySec.classList.add('hidden');
+        if (configSec) configSec.classList.remove('hidden');
+        if (badge) badge.classList.add('hidden');
+        if (cancelBtn) cancelBtn.classList.add('hidden');
+      }
+    }
+
+    function toggleTokenConfig(show) {
+      const readySec = document.getElementById('gh-trigger-ready-section');
+      const configSec = document.getElementById('gh-token-config-section');
+      const tokenInput = document.getElementById('gh-token-input');
+      const feedback = document.getElementById('gh-trigger-feedback');
+      if (feedback) feedback.classList.add('hidden');
+
+      if (show) {
+        if (readySec) readySec.classList.add('hidden');
+        if (configSec) configSec.classList.remove('hidden');
+        if (tokenInput) {
+          tokenInput.value = localStorage.getItem('aegis_gh_pat') || '';
+          tokenInput.focus();
+        }
+      } else {
+        initGitHubTriggerUI();
+      }
+    }
+
+    function saveTokenAndTrigger() {
+      const input = document.getElementById('gh-token-input');
+      const token = input ? input.value.trim() : '';
+      if (!token || token.length < 15) {
+        showWorkflowFeedback('error', 'Wklej poprawny token GitHub Personal Access Token (np. ghp_... lub github_pat_...).');
+        return;
+      }
+      localStorage.setItem('aegis_gh_pat', token);
+      initGitHubTriggerUI();
+      triggerGitHubWorkflow();
+    }
+
+    async function triggerGitHubWorkflow() {
+      const token = localStorage.getItem('aegis_gh_pat');
+      if (!token) {
+        toggleTokenConfig(true);
+        return;
+      }
+
+      const btn = document.getElementById('btn-trigger-workflow');
+      const btnIcon = document.getElementById('btn-trigger-icon');
+      const btnText = document.getElementById('btn-trigger-text');
+      const cardIcon = document.getElementById('workflow-trigger-icon');
+
+      // Stan ładowania
+      if (btn) { btn.disabled = true; btn.classList.add('opacity-70', 'cursor-not-allowed'); }
+      if (btnIcon) btnIcon.className = "fa-solid fa-circle-notch animate-spin";
+      if (cardIcon) cardIcon.className = "fa-solid fa-circle-notch animate-spin text-sm text-emerald-400";
+      if (btnText) btnText.textContent = "Wysyłanie zlecenia do chmury GitHub...";
+      showWorkflowFeedback('info', 'Wysyłanie polecenia startu do GitHub Actions API...');
+
+      try {
+        const resp = await fetch(`https://api.github.com/repos/${GH_REPO}/actions/workflows/${GH_WORKFLOW}/dispatches`, {
+          method: 'POST',
+          headers: {
+            'Accept': 'application/vnd.github+json',
+            'Authorization': `Bearer ${token}`,
+            'X-GitHub-Api-Version': '2022-11-28'
+          },
+          body: JSON.stringify({ ref: GH_BRANCH })
+        });
+
+        if (resp.status === 204) {
+          // Sukces: GitHub przyjął dispatch (zwraca HTTP 204 No Content)
+          showWorkflowFeedback('success', '🚀 Skan pomyślnie uruchomiony w GitHub Actions! Przetwarzanie i publikacja zajmie ~2 minuty.');
+          if (btnText) btnText.textContent = "Skan w toku w chmurze (~2 min)...";
+          if (btnIcon) btnIcon.className = "fa-solid fa-check text-emerald-300";
+
+          // Odliczanie 120 sekund z aktualizacją statusu
+          let secondsLeft = 120;
+          const timer = setInterval(() => {
+            secondsLeft -= 5;
+            if (secondsLeft <= 0) {
+              clearInterval(timer);
+              resetTriggerButton();
+              showWorkflowFeedback('success', '✅ Czas skanu dobiegł końca! Kliknij przycisk „Przeładuj stronę (Bypass CDN)” u góry, aby pobrać nowy raport.');
+            } else {
+              if (btnText) btnText.textContent = `Skan w chmurze (~${secondsLeft}s)...`;
+            }
+          }, 5000);
+
+        } else if (resp.status === 401) {
+          showWorkflowFeedback('error', 'Błąd 401: Nieprawidłowy token GitHub. Token mógł wygasnąć lub zawiera literówkę.');
+          toggleTokenConfig(true);
+          resetTriggerButton();
+        } else if (resp.status === 403 || resp.status === 404) {
+          const errData = await resp.json().catch(() => ({}));
+          showWorkflowFeedback('error', `Błąd ${resp.status}: Brak uprawnień do repozytorium. Upewnij się, że token posiada uprawnienie 'workflow' (lub 'repo'). ${errData.message || ''}`);
+          resetTriggerButton();
+        } else {
+          const errData = await resp.json().catch(() => ({}));
+          showWorkflowFeedback('error', `Błąd HTTP ${resp.status}: ${errData.message || 'Nie udało się uruchomić workflow.'}`);
+          resetTriggerButton();
+        }
+      } catch (err) {
+        showWorkflowFeedback('error', `Błąd sieci: ${err.message}. Sprawdź połączenie z internetem.`);
+        resetTriggerButton();
+      }
+    }
+
+    function resetTriggerButton() {
+      const btn = document.getElementById('btn-trigger-workflow');
+      const btnIcon = document.getElementById('btn-trigger-icon');
+      const btnText = document.getElementById('btn-trigger-text');
+      const cardIcon = document.getElementById('workflow-trigger-icon');
+      if (btn) { btn.disabled = false; btn.classList.remove('opacity-70', 'cursor-not-allowed'); }
+      if (btnIcon) btnIcon.className = "fa-solid fa-play";
+      if (cardIcon) cardIcon.className = "fa-solid fa-cloud-arrow-up text-sm";
+      if (btnText) btnText.textContent = "🚀 Uruchom Skan w Chmurze Teraz (1-Klik)";
+    }
+
+    function showWorkflowFeedback(type, text) {
+      const fb = document.getElementById('gh-trigger-feedback');
+      if (!fb) return;
+      fb.classList.remove('hidden', 'bg-emerald-950/80', 'text-emerald-300', 'border-emerald-500/40', 'bg-red-950/80', 'text-red-300', 'border-red-500/40', 'bg-indigo-950/80', 'text-indigo-300', 'border-indigo-500/40');
+      fb.classList.add('border');
+
+      let iconHtml = '';
+      if (type === 'success') {
+        fb.classList.add('bg-emerald-950/80', 'text-emerald-300', 'border-emerald-500/40');
+        iconHtml = '<i class="fa-solid fa-circle-check text-emerald-400 mt-0.5 shrink-0"></i>';
+      } else if (type === 'error') {
+        fb.classList.add('bg-red-950/80', 'text-red-300', 'border-red-500/40');
+        iconHtml = '<i class="fa-solid fa-triangle-exclamation text-red-400 mt-0.5 shrink-0"></i>';
+      } else {
+        fb.classList.add('bg-indigo-950/80', 'text-indigo-300', 'border-indigo-500/40');
+        iconHtml = '<i class="fa-solid fa-circle-info text-indigo-400 mt-0.5 shrink-0"></i>';
+      }
+
+      fb.innerHTML = `${iconHtml}<span class="leading-relaxed">${text}</span>`;
     }
 
     function hardRefreshReport() {
