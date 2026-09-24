@@ -1,11 +1,11 @@
 {
   "manifest": {
-    "total_archived": 122,
+    "total_archived": 123,
     "retention_days": 14,
     "first_archived_at": "2026-09-23T16:43:07.215300+00:00",
-    "last_archived_at": "2026-09-23T19:19:20.552582+00:00",
+    "last_archived_at": "2026-09-24T18:07:07.618440+00:00",
     "oldest_event_timestamp": "2023-06-05T21:48:13+00:00",
-    "newest_event_timestamp": "2026-09-09T18:29:55+00:00",
+    "newest_event_timestamp": "2026-09-10T16:48:55+00:00",
     "cloud_sync_enabled": false
   },
   "events": {
@@ -4594,6 +4594,44 @@
       "title_pl": "Pakistan wydał saudyjskie ostrzeżenie dla Iranu, aby powstrzymał swoich sojuszników z Jemenu Houthi po tym, jak nasilili oni ataki na…",
       "text_pl": "Pakistan przekazał Iranowi saudyjskie ostrzeżenie, aby powstrzymał swoich jemeńskich sojuszników Houthi po tym, jak nasilili oni ataki na królestwo, w ramach skoordynowanych wysiłków mających na celu zapobieżenie spirali kryzysu, podają źródła saudyjskie, pakistańskie i irańskie https://iran.liveuamap.com/en/2026/9-wrzesień-18-pakistan-dostarczył-ostrzeżenie-do-saudyjskiego",
       "archived_at": "2026-09-23T19:19:20.552298+00:00"
+    },
+    "f5b5f874cf5f115c": {
+      "id": "f5b5f874cf5f115c",
+      "timestamp": "2026-09-10T16:48:55+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "‼️ Увага — фішинг! У Signal військовослужбовці почали отримувати повідомлення із зловмисним софтом під виглядом мапи Dee...",
+      "text": "‼️ Увага — фішинг! У Signal військовослужбовці почали отримувати повідомлення із зловмисним софтом під виглядом мапи DeepStateMap 🤷🏻‍♂️ Нам невідомі масштаби, але нагадуємо, що ми не розсилаємо подібне і у нас нема ніяких архівів. Подібне здійснюють злоумисники для заволодіння вашим аккаунтом. Ні в якому разі не скачуйте і, не дай Бог, не відкривайте архіви. 🤝 Будемо вдячні за поширення інформації про потенційну небезпеку. Мапа 🛑 Блог 🛑 Написати нам 🛑 ЗСУHelp 🛑 Підтримати нас",
+      "location_name": "Krzywy Róg",
+      "lat": 47.9105,
+      "lon": 33.3918,
+      "url": "https://t.me/DeepStateUA/23822",
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/NwrbFM0EulCNQIkJbE-xLhkRXZrZ_V1gWUwUIKs-mVmctTQQAnHf20f-zJfB3Cf4SKNQNgI2qkEo16pHgK_opEJ53oCXNdQtYBUccYMLPWxCmi8xc9ZasyYyWbYvHi92Qma0A58xaLmhd90CgSAWJFleJv0YUaSQd9PpYRzJHl2tBPBKGhVpDdl5qGF3E1XY-3U2lSTYAlOfdr-CX2sIHIQn-FbooBQUr2PPEmtANdQoK1BNF3G6mUKRljXlsg-k9SNRJ-UWBQmMKbBHV-m1g6dFqKLnmOx9_YN_bdhncuzl10SQMMwYFSQHfsezd-aansAJT7Go2oQKefTPUA0iDQ.jpg"
+      ],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "DeepStateUA",
+      "added_at": "2026-09-22T18:08:12.196978+00:00",
+      "verified_by_sources": [
+        "DeepStateUA"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "‼️ Uwaga - phishing! W Signal personel wojskowy zaczął otrzymywać wiadomości zawierające złośliwe oprogramowanie pod postacią mapy Dee…",
+      "text_pl": "‼️ Uwaga - phishing! W Signal personel wojskowy zaczął otrzymywać wiadomości ze złośliwym oprogramowaniem w postaci mapy DeepStateMap 🤷🏻‍♂️ Nie znamy skali, ale przypominamy, że nie wysyłamy takich rzeczy i nie posiadamy żadnego archiwum. Oto, co robią napastnicy, aby przejąć Twoje konto. W żadnym wypadku nie pobieraj i, nie daj Boże, nie otwieraj archiwów. 🤝 Będziemy wdzięczni za rozpowszechnienie informacji o potencjalnym niebezpieczeństwie. Mapa 🛑 Blog 🛑 Napisz do nas 🛑 ZSUHelp 🛑 Wesprzyj nas",
+      "tactical_sources": [
+        {
+          "name": "DeepState",
+          "url": "https://t.me/DeepStateUA/23822"
+        }
+      ],
+      "archived_at": "2026-09-24T18:07:07.618010+00:00"
     }
   }
 }
