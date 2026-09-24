@@ -21,9 +21,9 @@ let lastTriggerTime = 0;
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
-    const repo = env.GH_REPO || DEFAULT_REPO;
-    const workflow = env.GH_WORKFLOW || DEFAULT_WORKFLOW;
-    const token = env.GH_TOKEN;
+    const repo = env?.GH_REPO || globalThis?.GH_REPO || DEFAULT_REPO;
+    const workflow = env?.GH_WORKFLOW || globalThis?.GH_WORKFLOW || DEFAULT_WORKFLOW;
+    const token = env?.GH_TOKEN || globalThis?.GH_TOKEN || env?.GITHUB_TOKEN || globalThis?.GITHUB_TOKEN;
 
     // Nagłówki CORS - zezwalają na wywołanie z GitHub Pages i localhost
     const corsHeaders = {
@@ -163,11 +163,13 @@ export default {
     // Informacja powitalna na GET /
     return new Response(JSON.stringify({
       name: "Aegis OSINT Radar - Cloudflare Relay API",
+      status: "ready",
+      has_token: !!token,
+      detected_vars: Object.keys(env || {}),
       endpoints: {
         "POST /trigger": "Uruchamia workflow GitHub Actions",
         "GET /status": "Sprawdza status trwającego zadania w chmurze"
-      },
-      status: "ready"
+      }
     }, null, 2), {
       status: 200,
       headers: { ...corsHeaders, "Content-Type": "application/json; charset=utf-8" }
