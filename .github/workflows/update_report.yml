@@ -8,6 +8,8 @@ on:
     branches:
       - main
   workflow_dispatch: # Możliwość ręcznego uruchomienia raportu 1 kliknięciem w GitHub
+  repository_dispatch:
+    types: [refresh-radar]
 
 # Rygorystyczna zasada najniższych uprawnień (Least Privilege Security)
 permissions:

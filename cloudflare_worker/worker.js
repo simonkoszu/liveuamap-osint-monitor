@@ -66,18 +66,29 @@ export default {
       }
 
       try {
-        // Wywołanie workflow_dispatch w GitHub REST API
-        const ghResponse = await fetch(`https://api.github.com/repos/${repo}/actions/workflows/${workflow}/dispatches`, {
+        const ghHeaders = {
+          "Accept": "application/vnd.github+json",
+          "Authorization": `Bearer ${token}`,
+          "User-Agent": "Aegis-OSINT-Cloudflare-Relay",
+          "X-GitHub-Api-Version": "2022-11-28",
+          "Content-Type": "application/json"
+        };
+
+        // Próba 1: repository_dispatch (wymaga tylko repo:write, nie wymaga praw Admina)
+        let ghResponse = await fetch(`https://api.github.com/repos/${repo}/dispatches`, {
           method: "POST",
-          headers: {
-            "Accept": "application/vnd.github+json",
-            "Authorization": `Bearer ${token}`,
-            "User-Agent": "Aegis-OSINT-Cloudflare-Relay",
-            "X-GitHub-Api-Version": "2022-11-28",
-            "Content-Type": "application/json"
-          },
-          body: JSON.stringify({ ref: "main" })
+          headers: ghHeaders,
+          body: JSON.stringify({ event_type: "refresh-radar", client_payload: { trigger: "cloudflare_relay" } })
         });
+
+        // Próba 2: workflow_dispatch jako fallback
+        if (ghResponse.status !== 204) {
+          ghResponse = await fetch(`https://api.github.com/repos/${repo}/actions/workflows/${workflow}/dispatches`, {
+            method: "POST",
+            headers: ghHeaders,
+            body: JSON.stringify({ ref: "main" })
+          });
+        }
 
         if (ghResponse.status === 204) {
           lastTriggerTime = now;
