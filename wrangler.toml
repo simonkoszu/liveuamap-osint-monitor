@@ -2,7 +2,4 @@ name = "liveuamap-osint-monitor"
 main = "cloudflare_worker/worker.js"
 compatibility_date = "2024-09-24"
 
-# Zmienne środowiskowe domyślne (GH_TOKEN dodaj jako Secret w panelu Cloudflare)
-[vars]
-GH_REPO = "simonkoszu/liveuamap-osint-monitor"
-GH_WORKFLOW = "update_report.yml"
+
