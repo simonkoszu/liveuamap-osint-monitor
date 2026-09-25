@@ -2011,10 +2011,15 @@
     }
 
     /* --- Cloudflare Worker Relay Trigger Engine (Wariant A - 1-Klik bez logowania) --- */
+    const DEFAULT_RELAY_URL = "https://liveuamap-osint-monitor.szkohut.workers.dev";
     let relayPollInterval = null;
 
+    function getRelayUrl() {
+      return localStorage.getItem('aegis_relay_url') || DEFAULT_RELAY_URL;
+    }
+
     function initRelayUI() {
-      const relayUrl = localStorage.getItem('aegis_relay_url');
+      const relayUrl = getRelayUrl();
       const readyBox = document.getElementById('relay-ready-box');
       const configBox = document.getElementById('relay-config-box');
       const badge = document.getElementById('relay-status-badge');
@@ -2073,7 +2078,7 @@
     }
 
     async function triggerCloudflareRelay() {
-      let relayUrl = localStorage.getItem('aegis_relay_url');
+      let relayUrl = getRelayUrl();
       if (!relayUrl) {
         toggleRelaySettings(true);
         return;
