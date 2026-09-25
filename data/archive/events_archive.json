@@ -1,11 +1,11 @@
 {
   "manifest": {
-    "total_archived": 123,
+    "total_archived": 124,
     "retention_days": 14,
     "first_archived_at": "2026-09-23T16:43:07.215300+00:00",
-    "last_archived_at": "2026-09-24T18:07:07.618440+00:00",
+    "last_archived_at": "2026-09-25T09:16:40.566673+00:00",
     "oldest_event_timestamp": "2023-06-05T21:48:13+00:00",
-    "newest_event_timestamp": "2026-09-10T16:48:55+00:00",
+    "newest_event_timestamp": "2026-09-11T08:06:14+00:00",
     "cloud_sync_enabled": false
   },
   "events": {
@@ -4632,6 +4632,42 @@
         }
       ],
       "archived_at": "2026-09-24T18:07:07.618010+00:00"
+    },
+    "f89954029a1c4f84": {
+      "id": "f89954029a1c4f84",
+      "timestamp": "2026-09-11T08:06:14+00:00",
+      "country": "Liban",
+      "flag": "🇱🇧",
+      "theater": "Bliski Wschód (Liban)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Israeli Army Radio: Our forces will control Ali Al-Taher Heights and will confront any Hezbollah attempt to return to th...",
+      "text": "Israeli Army Radio: Our forces will control Ali Al-Taher Heights and will confront any Hezbollah attempt to return to them. https://lebanon.liveuamap.com/en/2026/11-september-07-israeli-army-radio-our-forces-will-control",
+      "location_name": "Bliski Wschód (Liban)",
+      "lat": 48.058,
+      "lon": 34.8908,
+      "url": "https://lebanon.liveuamap.com/en/2026/11-september-07-israeli-army-radio-our-forces-will-control",
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "liveuamap",
+      "added_at": "2026-09-23T09:08:12.338415+00:00",
+      "verified_by_sources": [
+        "liveuamap"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Radio armii izraelskiej: Nasze siły będą kontrolować Wzgórza Ali Al-Taher i przeciwstawią się wszelkim próbom powrotu Hezbollahu na...",
+      "text_pl": "Radio armii izraelskiej: Nasze siły będą kontrolować Wzgórza Ali Al-Taher i przeciwstawią się wszelkim próbom powrotu do nich Hezbollahu. https://lebanon.liveuamap.com/en/2026/11-wrzesnia-07-izraelska-armia-radio-nasze-sily-wola-kontroli",
+      "tactical_sources": [
+        {
+          "name": "Liveuamap",
+          "url": "https://lebanon.liveuamap.com/en/2026/11-september-07-israeli-army-radio-our-forces-will-control"
+        }
+      ],
+      "archived_at": "2026-09-25T09:16:40.566256+00:00"
     }
   }
 }
