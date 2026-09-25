@@ -171,6 +171,28 @@ export default {
       }
     }
 
+    // Endpoint 3: GET /whoami (identyfikacja konta GitHub)
+    if (request.method === "GET" && url.pathname === "/whoami") {
+      if (!token) return new Response(JSON.stringify({ error: "Brak tokena" }), { status: 400, headers: corsHeaders });
+      try {
+        const ghResp = await fetch("https://api.github.com/user", {
+          headers: {
+            "Accept": "application/vnd.github+json",
+            "Authorization": `Bearer ${token}`,
+            "User-Agent": "Aegis-OSINT-Cloudflare-Relay"
+          }
+        });
+        const ghUser = await ghResp.json();
+        return new Response(JSON.stringify({
+          authenticated_user: ghUser.login,
+          repo_target: repo,
+          status_code: ghResp.status
+        }), { status: 200, headers: { ...corsHeaders, "Content-Type": "application/json" } });
+      } catch (e) {
+        return new Response(JSON.stringify({ error: e.message }), { status: 500, headers: corsHeaders });
+      }
+    }
+
     // Informacja powitalna na GET /
     return new Response(JSON.stringify({
       name: "Aegis OSINT Radar - Cloudflare Relay API",
