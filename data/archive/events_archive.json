@@ -1,11 +1,11 @@
 {
   "manifest": {
-    "total_archived": 131,
+    "total_archived": 133,
     "retention_days": 14,
     "first_archived_at": "2026-09-23T16:43:07.215300+00:00",
-    "last_archived_at": "2026-09-28T08:00:36.822772+00:00",
+    "last_archived_at": "2026-09-28T16:21:57.224986+00:00",
     "oldest_event_timestamp": "2023-06-05T21:48:13+00:00",
-    "newest_event_timestamp": "2026-09-14T05:59:58+00:00",
+    "newest_event_timestamp": "2026-09-14T15:09:44+00:00",
     "cloud_sync_enabled": false
   },
   "events": {
@@ -4930,6 +4930,75 @@
         }
       ],
       "archived_at": "2026-09-28T08:00:36.821767+00:00"
+    },
+    "66b3cb61ba629b9c": {
+      "id": "66b3cb61ba629b9c",
+      "timestamp": "2026-09-14T15:09:44+00:00",
+      "theater": "Ukraina i Rosja",
+      "event_type": "Incydent Bojowy",
+      "title": "Trump: Ukraine has agreed not to hit Russian Energy targets",
+      "text": "Trump: Ukraine has agreed not to hit Russian Energy targets. Russia has agreed to do, likewise. The World&#x27;s Diesel price rise is mostly caused by the Russia/Ukraine War, not Iranhttps://liveuamap.com/en/2026/14-september-15-trump-ukraine-has-agreed-not-to-hit-russian",
+      "location_name": "Ukraina i Rosja",
+      "lat": 48.7724,
+      "lon": 36.434,
+      "url": "https://liveuamap.com/en/2026/14-september-15-trump-ukraine-has-agreed-not-to-hit-russian",
+      "media_urls": [],
+      "added_at": "2026-09-22T16:27:15.021186+00:00",
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "multi_source_verified": false,
+      "verified_by_sources": [
+        "OSINT"
+      ],
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title_pl": "Trump: Ukraina zgodziła się nie uderzać w rosyjskie cele energetyczne",
+      "text_pl": "Trump: Ukraina zgodziła się nie uderzać w rosyjskie cele energetyczne. Rosja zgodziła się zrobić to samo. Światowy wzrost cen oleju napędowego jest głównie spowodowany wojną rosyjsko-ukraińską, a nie Iranem",
+      "tactical_sources": [
+        {
+          "name": "Osint",
+          "url": "https://liveuamap.com/en/2026/14-september-15-trump-ukraine-has-agreed-not-to-hit-russian"
+        }
+      ],
+      "archived_at": "2026-09-28T16:21:57.224036+00:00"
+    },
+    "cb8bd03d1e7ba23a": {
+      "id": "cb8bd03d1e7ba23a",
+      "timestamp": "2026-09-14T15:09:44+00:00",
+      "country": "Iran",
+      "flag": "🇮🇷",
+      "theater": "Bliski Wschód (Zatoka Perska)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump: Ukraine has agreed not to hit Russian Energy targets. Russia has agreed to do, likewise. The World&#x27;s Diesel price...",
+      "text": "Trump: Ukraine has agreed not to hit Russian Energy targets. Russia has agreed to do, likewise. The World&#x27;s Diesel price rise is mostly caused by the Russia/Ukraine War, not Iran https://liveuamap.com/en/2026/14-september-15-trump-ukraine-has-agreed-not-to-hit-russian",
+      "location_name": "Bliski Wschód (Zatoka Perska)",
+      "lat": 47.8808,
+      "lon": 34.9538,
+      "url": "https://liveuamap.com/en/2026/14-september-15-trump-ukraine-has-agreed-not-to-hit-russian",
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "liveuamap",
+      "added_at": "2026-09-23T10:51:33.585457+00:00",
+      "verified_by_sources": [
+        "liveuamap"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump: Ukraina zgodziła się nie uderzać w rosyjskie cele energetyczne. Rosja zgodziła się zrobić to samo. Światowa cena oleju napędowego...",
+      "text_pl": "Trump: Ukraina zgodziła się nie uderzać w rosyjskie cele energetyczne. Rosja zgodziła się zrobić to samo. Światowy wzrost cen oleju napędowego jest głównie spowodowany wojną rosyjsko-ukraińską, a nie Iranem",
+      "tactical_sources": [
+        {
+          "name": "Liveuamap",
+          "url": "https://liveuamap.com/en/2026/14-september-15-trump-ukraine-has-agreed-not-to-hit-russian"
+        }
+      ],
+      "archived_at": "2026-09-28T16:21:57.224036+00:00"
     }
   }
 }
