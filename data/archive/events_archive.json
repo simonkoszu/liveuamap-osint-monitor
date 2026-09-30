@@ -1,11 +1,11 @@
 {
   "manifest": {
-    "total_archived": 138,
+    "total_archived": 139,
     "retention_days": 14,
     "first_archived_at": "2026-09-23T16:43:07.215300+00:00",
-    "last_archived_at": "2026-09-30T13:13:21.154259+00:00",
+    "last_archived_at": "2026-09-30T18:45:57.842264+00:00",
     "oldest_event_timestamp": "2023-06-05T21:48:13+00:00",
-    "newest_event_timestamp": "2026-09-16T11:03:23+00:00",
+    "newest_event_timestamp": "2026-09-16T16:03:35+00:00",
     "cloud_sync_enabled": false
   },
   "events": {
@@ -5277,6 +5277,56 @@
       "title_pl": "Moment wyeliminowania rosyjskiego generała przez ukraiński dron (16 września 2026 r.)",
       "text_pl": "Moment wyeliminowania rosyjskiego generała przez ukraiński dron (16 września 2026 r.)",
       "archived_at": "2026-09-30T13:13:21.153034+00:00"
+    },
+    "7c9476888c173edf": {
+      "id": "7c9476888c173edf",
+      "timestamp": "2026-09-16T16:03:35+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "SIGUM unit middle strike drone targets a Russian truck carrying Uragan MLRS rockets, Summer 2026",
+      "text": "SIGUM unit middle strike drone targets a Russian truck carrying Uragan MLRS rockets, Summer 2026",
+      "location_name": "Inne",
+      "lat": 48.0396,
+      "lon": 34.7492,
+      "url": "https://redd.it/1wi0bl1",
+      "tactical_sources": [
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://redd.it/1wi0bl1"
+        },
+        {
+          "name": "Telegram (#r_combatfootage)",
+          "url": "https://t.me/r_combatfootage/42364"
+        },
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://t.me/r_combatfootage"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/bgbFHTZ5dUaouQkx20EC9Zg3tKl-hHsdOW4S3QnSnwo-rPoIEwDVAwPZTdnxzpEdb26Cgj-wA1S6nhr7IZzUrF_JLKrAdVM8rhmqoRl-6fwWOOR8zwXjeWVoyxui6SG_FJSxwAOtH0RE2goWF6d2weS4NxyI4OLSSz3UmfrqGvy5uQCt5gqRWIfQZie86CqeUOSsvs9bsFpvIw55odyaiMY4RjayhPcx3Gtl-uBfMOWPOU4noXXlPRjBnRWZisb5skJTEjhtuns0gP8G2U8I8tMyS8IMu0vg9XPXo0wfZCLV1D_sUDTAmVhE0-PrENX4aTfbOCh7c4dJu1FmSlhyzw"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/565e3d483b.mp4?token=HLVlXSDMSSWCZ9uq5k0a-b4aYtsS_-upK3RXUxzkyNJp750TbWRjGu4nr4U1tE3eLKgHFXov7I3vToJjS0kUEbu6poASFNtWCB7ujNTZG7Wm3F1myP8Z_Ik6dzGEkk_2E_v6nlc86IcHik2rlgiisKoxBSLQs9p6Q49ir96SoI-c3FXxkoYWFSNgO7VQygMNWUjfnz3Ds9jfQniPQKbEm7MH4QtjGOUkyfLJnq-IWnpW7ZZjt7Lv6iIYbY6lR50xlooOO2ASy6H0OurS9myRMqezW7i2P4W8Nb23Wo2uvlySEQPFrUD9tJ5ze1tiXS1FL7gyVTefhFuDdJK3zgB1LL00XFMM2iud821wfFOzmxr6fBtvkKML8scU32o1v6dNTWtN38rhSMEpHhKhsipZKPvaMGERYBgPsC4yJyGBiYwLIAC4rxApokv_lysvWaDuI2OnS1P5qk9ZFbMnHtiyhSfd9TlM2xc9dT_bwA9FBo3GuhQzMrwghJutoR3vDX1dyxWJs-relxitpuXlUotOPURNZSn1DNoUBtKPv61WGyse1e1GZLNaviwqh_OZxGfr0SR0_svkCLUIC-e9dzCtF64tvDO7t8vah4QfxU_H5jHzJTc6ZnpeHZBzIccgf06WeTpNqZALhihSnSOL9-gF1SX4cFqb0ea3btKYjFezPv0",
+      "is_video": true,
+      "weapons": [
+        "System Artyleryjski / MLRS"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "r_combatfootage",
+      "added_at": "2026-09-23T17:51:25.848923+00:00",
+      "verified_by_sources": [
+        "r_combatfootage"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "SIGUM unit middle strike drone targets a Russian truck carrying Uragan wieloprowadnicowe wyrzutnie rakietowe (MLRS) rockets, Summer 2026",
+      "text_pl": "SIGUM unit middle strike drone targets a Russian truck carrying Uragan wieloprowadnicowe wyrzutnie rakietowe (MLRS) rockets, Summer 2026",
+      "archived_at": "2026-09-30T18:45:57.840982+00:00"
     }
   }
 }
