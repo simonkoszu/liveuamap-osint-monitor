@@ -1,11 +1,11 @@
 {
   "manifest": {
-    "total_archived": 135,
+    "total_archived": 138,
     "retention_days": 14,
     "first_archived_at": "2026-09-23T16:43:07.215300+00:00",
-    "last_archived_at": "2026-09-29T16:17:31.085452+00:00",
+    "last_archived_at": "2026-09-30T13:13:21.154259+00:00",
     "oldest_event_timestamp": "2023-06-05T21:48:13+00:00",
-    "newest_event_timestamp": "2026-09-15T15:01:33+00:00",
+    "newest_event_timestamp": "2026-09-16T11:03:23+00:00",
     "cloud_sync_enabled": false
   },
   "events": {
@@ -5133,6 +5133,150 @@
         }
       ],
       "archived_at": "2026-09-29T16:17:31.084211+00:00"
+    },
+    "e020b4f57a08b6c6": {
+      "id": "e020b4f57a08b6c6",
+      "timestamp": "2026-09-16T11:03:23+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "A Russian logistics driver films himself falling out of a vehicle during an FPV attack",
+      "text": "A Russian logistics driver films himself falling out of a vehicle during an FPV attack",
+      "location_name": "Inne",
+      "lat": 48.194,
+      "lon": 34.754,
+      "url": "https://redd.it/1whsiwl",
+      "tactical_sources": [
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://redd.it/1whsiwl"
+        },
+        {
+          "name": "Telegram (#r_combatfootage)",
+          "url": "https://t.me/r_combatfootage/42363"
+        },
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://t.me/r_combatfootage"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/em0wEfz_CgDMvd0IybqkkK5mvZ90dhiHDp1HAhjaXiRII50e2cKcBBfIv2k-AH5ZgR8WUf7Udqcuf5ezRXtKBGy1_H6LLe7gx7uFGUZ0UCx5SppY29qI3QzJ3idVOzHkjWLCOa-mOy6dZJnTmKq26sw7dcWWBDnZ5Ss-MViHcag24c_e_MSZOvDgZ1ZbCNDnsjnUoUi0qnYXSsXbanONhBm_j2pi9c6aoqrJYOmFVlXQDSCpQnJMgg3_chKizdIsO7ANJbiNdKrFB7i-OcoPV-NNbfklUByv60e8_yf4XWHLedy3y6Ozjhhc15rWt_JbRSRe4B0cPvLcm48lUHOxHw"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/0acc8fdc31.mp4?token=DK1tfUVWs81Rq9SA46e8sUz9eeJ1UEvczohVbzX79J_MqjGA5WTrJSBp6yQtiY1S-jKLJGukESkMANAYvA1Oe6gsSTmglGxzjk0URnw1t5YtYg_QzZ5J5n7Qd0NyZxeZNqEBKDCO20QXr4TqX3DXYa8RcIo8HTfeG8Ye7Z-kzyPJLRsRXyb3-C0qyJP7JXFs1ktIaOdua-hkxcmvdwrxvXrTd-PNN7efM2S4pzzCex7G8LMddnWjjE-Q6XyI44C-zKZaCjzPf_rTF_UUCUUAlMSlYI4o4FEo0zhSNMfxYSjnSZ1l8UAn6P-3WTtbD1oztBa3NNrhbl-29bpDlrn01Q",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "r_combatfootage",
+      "added_at": "2026-09-23T17:51:25.848924+00:00",
+      "verified_by_sources": [
+        "r_combatfootage"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Rosyjski kierowca logistyki filmuje, jak wypada z pojazdu podczas ataku FPV",
+      "text_pl": "Rosyjski kierowca logistyki filmuje, jak wypada z pojazdu podczas ataku FPV",
+      "archived_at": "2026-09-30T13:13:21.153034+00:00"
+    },
+    "3dc21c020c055598": {
+      "id": "3dc21c020c055598",
+      "timestamp": "2026-09-16T10:03:19+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "Drone footage of a Ukrainian medium-range UAV destroying a Russian field ammunition depot, along with a now-rare MT-LB p...",
+      "text": "Drone footage of a Ukrainian medium-range UAV destroying a Russian field ammunition depot, along with a now-rare MT-LB parked right in front of it.",
+      "location_name": "Inne",
+      "lat": 48.0564,
+      "lon": 35.1752,
+      "url": "https://redd.it/1whrxjy",
+      "tactical_sources": [
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://redd.it/1whrxjy"
+        },
+        {
+          "name": "Telegram (#r_combatfootage)",
+          "url": "https://t.me/r_combatfootage/42362"
+        },
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://t.me/r_combatfootage"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/qdBT1a8jfTv01pjI82SPMDvM0_zyX3r0S7foVmBAVwcFi3286NaR2ygYlmlx0ASQ4Sl4WzkQn8Uuk2L8FfPiFs6EmRwL9WTF-qyiBy3-n8DeEuEII44132ywtEfHu8AkNAXcf5L-Txj8osWXX-suw8W_DtdX_FG-Jmf5n4aCpoUZ5Gwe4Z2JikrKRmWUADEbqoHdvUWzMq_XSZDR44fxxeS6apJKLj5u_zK_Fbl_R78c0HtYbBNu-cWYb0M582U1fBS9yhW68usdSvbHd8gp_iPWw7hOisPxIZWcuPotiNPF5kXRjk9tFrSvzG-ozXb5iajr8qBeQBhssuBrDzWfTA"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/af172f83bf.mp4?token=Iv8gQvLIh65Cc2jDx51VpammQGGXBvO_g6Ey70gJxpFjMUt6kpHCfFN23DvcsllJzHPsef_y9MJPUgq0Pc9m4wvL8EXgSUksTcuyR56rXLRyfGV4vrfiIr3djtsP3eq6HZUXYPMemL0pwkMwXo25cRh09ODLBIaL0QLpgkk5BsbzNt95E4_hEZSgr7qWe7UnEkedGUqiw7Ky1vpbR8FLdeFFqqf3EVnQyRj48eNy0aWN15IZ9fEzRTYB3fqUITPU-gcsfGnbkbCqryy-4nDGFCNwoiTXg7FcXzhBYILBHD01k2uhln22bsdPmslzLVNxJ3xemzyJuXjgbfB9fNRaRw",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Skład Amunicji / Arsenał",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "r_combatfootage",
+      "added_at": "2026-09-23T17:51:25.848926+00:00",
+      "verified_by_sources": [
+        "r_combatfootage"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Materiał z drona przedstawiający ukraiński UAV średniego zasięgu niszczący rosyjski skład amunicji polowej wraz z obecnie rzadkim samolotem MT-LB...",
+      "text_pl": "Materiał z drona przedstawiający ukraiński UAV średniego zasięgu niszczący rosyjski skład amunicji polowej wraz z zaparkowanym tuż przed nim obecnie rzadkim MT-LB.",
+      "archived_at": "2026-09-30T13:13:21.153034+00:00"
+    },
+    "4dd3cf7194ae4ab5": {
+      "id": "4dd3cf7194ae4ab5",
+      "timestamp": "2026-09-16T09:03:25+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "The moment a Russian general was eliminated by a Ukrainian drone (September 16, 2026)",
+      "text": "The moment a Russian general was eliminated by a Ukrainian drone (September 16, 2026)",
+      "location_name": "Inne",
+      "lat": 48.0748,
+      "lon": 35.135,
+      "url": "https://redd.it/1whrqvk",
+      "tactical_sources": [
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://redd.it/1whrqvk"
+        },
+        {
+          "name": "Telegram (#r_combatfootage)",
+          "url": "https://t.me/r_combatfootage/42361"
+        },
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://t.me/r_combatfootage"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/hLq8htBcwy__ttvdWiiEwXYH5srcJZ_UEa1FT__FHyd4bmo5mXKXHILcfGI4Gw5DBwP8UpqlaFjqQEvxV3zn6MeFPBSzo5xPEwbx5paGcyrvs9yUMZmoTQfrJJ_s1RkC3KqwsY47IDhmIZP_bRADi12vBzcXz-fSz_8ZgXpt_8tn6PZFzLb5reULvzFgzko0sUeEmvY1SLWWOFal-N4YmseFc8O0DIDlGkKYxkC1JylRePa4LsXdM0oIXviEA_wl8jHh7EttNRfAtMG6cBHsOQKbgnIhz_93T8w_sSSQyu4x6BDIwoj3I-LdmRiOZHrrqCUXJMAUSPL54tMCko2A0Q"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/6a5546e477.mp4?token=MFzJ_44gVI2BvNIEcToJnApjmtGX6dPzAysc7C4P-q79TnM9-KBVKe13PkepenTUL4_VK99w_XkAakaJai0smd6qPt2G9nanIo1Hz246DNkVwVsKhkyOvQBrp_vUtblEKn3d2DvAzELtmq3qbEG5d7mvIaW0eFishZ6TqXoyzV4kXeMK0cdwEgjFi0g4259HUyQGKAhGJ5ZYf4_6UdzVcNzuVuRZouNO85OnxfrZ80nIm7Dm3V8ZkJ7Wia3mIZw5wuXr6UtAc1ZUAbjJMVcSXAU5N5p9pqXq51uKmSsMmT4R3IwKN15KrG9ecofJs7X50qkDJY3T_FLEkneNCTsl3A",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "r_combatfootage",
+      "added_at": "2026-09-23T17:51:25.848927+00:00",
+      "verified_by_sources": [
+        "r_combatfootage"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Moment wyeliminowania rosyjskiego generała przez ukraiński dron (16 września 2026 r.)",
+      "text_pl": "Moment wyeliminowania rosyjskiego generała przez ukraiński dron (16 września 2026 r.)",
+      "archived_at": "2026-09-30T13:13:21.153034+00:00"
     }
   }
 }
