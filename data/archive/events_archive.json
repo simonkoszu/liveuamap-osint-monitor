@@ -1,11 +1,11 @@
 {
   "manifest": {
-    "total_archived": 139,
+    "total_archived": 140,
     "retention_days": 14,
     "first_archived_at": "2026-09-23T16:43:07.215300+00:00",
-    "last_archived_at": "2026-09-30T18:45:57.842264+00:00",
+    "last_archived_at": "2026-09-30T22:45:12.861961+00:00",
     "oldest_event_timestamp": "2023-06-05T21:48:13+00:00",
-    "newest_event_timestamp": "2026-09-16T16:03:35+00:00",
+    "newest_event_timestamp": "2026-09-16T20:03:34+00:00",
     "cloud_sync_enabled": false
   },
   "events": {
@@ -5327,6 +5327,57 @@
       "title_pl": "SIGUM unit middle strike drone targets a Russian truck carrying Uragan wieloprowadnicowe wyrzutnie rakietowe (MLRS) rockets, Summer 2026",
       "text_pl": "SIGUM unit middle strike drone targets a Russian truck carrying Uragan wieloprowadnicowe wyrzutnie rakietowe (MLRS) rockets, Summer 2026",
       "archived_at": "2026-09-30T18:45:57.840982+00:00"
+    },
+    "79a3b76899f5297b": {
+      "id": "79a3b76899f5297b",
+      "timestamp": "2026-09-16T20:03:34+00:00",
+      "country": "Iran",
+      "flag": "🇮🇷",
+      "theater": "Bliski Wschód (Zatoka Perska)",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "A civilian records high-res footage of an Iranian/Russian Shahed UAV getting shot down while approaching Odesa. publishe...",
+      "text": "A civilian records high-res footage of an Iranian/Russian Shahed UAV getting shot down while approaching Odesa. published 16/09/2026",
+      "location_name": "Odessa",
+      "lat": 46.4825,
+      "lon": 30.7233,
+      "url": "https://redd.it/1wi7jr7",
+      "tactical_sources": [
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://redd.it/1wi7jr7"
+        },
+        {
+          "name": "Telegram (#r_combatfootage)",
+          "url": "https://t.me/r_combatfootage/42365"
+        },
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://t.me/r_combatfootage"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/BQ3XUFAiEfCA9qpGZ1B8TqW8cJ3pRVadO06KZz3Lmax3QSBf3M-4WIzOaPTOerFY_AysClBtQJpi7NKhVL1km72DjhsHB9S1aaRtMCchb0Bc8-5N2WQexvPzKr8wOMJ2GWaGguyDZw5nSW5Y-44SSHulAyq8u-gxTlmydJtrzMUHCLx4VoxzUUElyl-DAafneZdz1E4cCjSIFlFU3vKI_7C8z6Z3-peuqXQzKTPeb2n9ZSLfDuBjzZy-p1EsR6omK23yq62kRx6rctbsH-xFR2HMKG7Nm__gIGunLogyLfbrb7fge5LYWzH8FfV5xKjPW7JmDbiloZhzWvSuBDLLTg"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/90b8d94700.mp4?token=kQu8LfSng0BbyMQUw8O9aRipiS-GdK7jHpBELjsUOmLpOZNhGJ5j1CYz9vwKjBC1kavFnH-PWqCwDFs5wHuDBhJdCGLV7BCYj3_DfddML3Gqq8znpzPBicWneLLuVI-aiEY7Gl0_cGfM-H3ccRM3kU3fXiGq1vGZQ4IPm66zyKdf4OvUNecw5L9Um9qwVfjSALIlVWFeqIPvYI3NFepxlPg1KxgbWrfogmXG1q2UmsGbBgl9VY_kNpqHPw_kDO4AXmSlYrXdfn_omKZTgH-e6EvbLtQsa-mQcoE4GNO08u7S5_oKdQ6wUNrIjAkE6tL0YWZNfolV6cRcFpN0mekm6Q",
+      "is_video": true,
+      "weapons": [
+        "Shahed / Dron Kamikadze",
+        "Obrona Przeciwlotnicza (OPL)"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "r_combatfootage",
+      "added_at": "2026-09-23T17:51:25.848922+00:00",
+      "verified_by_sources": [
+        "r_combatfootage"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Cywil nagrywa materiał filmowy w wysokiej rozdzielczości przedstawiający irańsko-rosyjski UAV Shahed, który zostaje zestrzelony podczas zbliżania się do Odessy. publikuj...",
+      "text_pl": "Cywil nagrywa materiał filmowy w wysokiej rozdzielczości przedstawiający irańsko-rosyjski UAV Shahed, który zostaje zestrzelony podczas zbliżania się do Odessy. opublikowano 16.09.2026",
+      "archived_at": "2026-09-30T22:45:12.860621+00:00"
     }
   }
 }
