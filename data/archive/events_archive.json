@@ -1,11 +1,11 @@
 {
   "manifest": {
-    "total_archived": 140,
+    "total_archived": 141,
     "retention_days": 14,
     "first_archived_at": "2026-09-23T16:43:07.215300+00:00",
-    "last_archived_at": "2026-09-30T22:45:12.861961+00:00",
+    "last_archived_at": "2026-10-01T08:03:10.919668+00:00",
     "oldest_event_timestamp": "2023-06-05T21:48:13+00:00",
-    "newest_event_timestamp": "2026-09-16T20:03:34+00:00",
+    "newest_event_timestamp": "2026-09-17T07:48:25+00:00",
     "cloud_sync_enabled": false
   },
   "events": {
@@ -5378,6 +5378,42 @@
       "title_pl": "Cywil nagrywa materiał filmowy w wysokiej rozdzielczości przedstawiający irańsko-rosyjski UAV Shahed, który zostaje zestrzelony podczas zbliżania się do Odessy. publikuj...",
       "text_pl": "Cywil nagrywa materiał filmowy w wysokiej rozdzielczości przedstawiający irańsko-rosyjski UAV Shahed, który zostaje zestrzelony podczas zbliżania się do Odessy. opublikowano 16.09.2026",
       "archived_at": "2026-09-30T22:45:12.860621+00:00"
+    },
+    "6600d606f5499170": {
+      "id": "6600d606f5499170",
+      "timestamp": "2026-09-17T07:48:25+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Infrastruktura & Logistyka",
+      "title": "Zelensky: Overnight, strikes were carried out against the Yaroslavl oil refinery, as well as a military airfield in Rost...",
+      "text": "Zelensky: Overnight, strikes were carried out against the Yaroslavl oil refinery, as well as a military airfield in Rostov – an An-12 aircraft, two An-26 aircraft, and three helicopters have been confirmed as hit https://liveuamap.com/en/2026/17-september-07-zelensky-overnight-strikes-were-carried-out",
+      "location_name": "Jarosław, Rosja",
+      "lat": 57.6261,
+      "lon": 39.8845,
+      "url": "https://liveuamap.com/en/2026/17-september-07-zelensky-overnight-strikes-were-carried-out",
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Rafineria / Skład Paliw",
+      "is_fire": false,
+      "threat_score": 8,
+      "source_channel": "liveuamap",
+      "added_at": "2026-09-22T17:23:11.774575+00:00",
+      "multi_source_verified": false,
+      "verified_by_sources": [
+        "liveuamap"
+      ],
+      "tactical_category": "Infrastruktura Krytyczna / Rafineria",
+      "tactical_icon": "🏭",
+      "title_pl": "Zełenski: W nocy przeprowadzono strajki na rafinerię ropy naftowej w Jarosławiu i na lotnisko wojskowe w Rost...",
+      "text_pl": "Zełenski: W nocy przeprowadzono ataki na rafinerię ropy naftowej w Jarosławiu oraz na lotnisko wojskowe w Rostowie – potwierdzono, że trafiono samolot An-12, dwa samoloty An-26 i trzy helikoptery",
+      "tactical_sources": [
+        {
+          "name": "Liveuamap",
+          "url": "https://liveuamap.com/en/2026/17-september-07-zelensky-overnight-strikes-were-carried-out"
+        }
+      ],
+      "archived_at": "2026-10-01T08:03:10.918248+00:00"
     }
   }
 }
