@@ -1,11 +1,11 @@
 {
   "manifest": {
-    "total_archived": 151,
+    "total_archived": 153,
     "retention_days": 14,
     "first_archived_at": "2026-09-23T16:43:07.215300+00:00",
-    "last_archived_at": "2026-10-02T00:22:20.941607+00:00",
+    "last_archived_at": "2026-10-02T06:28:25.688948+00:00",
     "oldest_event_timestamp": "2023-06-05T21:48:13+00:00",
-    "newest_event_timestamp": "2026-09-18T00:03:38+00:00",
+    "newest_event_timestamp": "2026-09-18T01:56:33+00:00",
     "cloud_sync_enabled": false
   },
   "events": {
@@ -5846,6 +5846,87 @@
       "title_pl": "Udany ukraiński szturm zmechanizowany pod Lymanem w ramach operacji „Vivaldi”, lato 2026 r., 66. Brygada Mech. 3. Brygady Mech.",
       "text_pl": "Udany ukraiński szturm zmechanizowany pod Lymanem w ramach operacji „Vivaldi”, lato 2026, 66. Brygada Mech. 3. AC",
       "archived_at": "2026-10-02T00:22:20.940376+00:00"
+    },
+    "d3434f412803881a": {
+      "id": "d3434f412803881a",
+      "timestamp": "2026-09-18T01:56:33+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "title": "2 управляемых реактивных мопеда подлетают к Одессе с разных сторон может быть громко!",
+      "text": "3 КАБа (УМПБ-5) с моря летят в сторону Каролино-Бугаза/Овидиополя/моста возле Затоки  3 бандероли полетели дальше в сторону Виноградара Одесской области",
+      "location_name": "Odessa",
+      "lat": 46.4825,
+      "lon": 30.7233,
+      "url": "https://t.me/vanek_nikolaev/43059",
+      "media_urls": [],
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "vanek_nikolaev",
+      "added_at": "2026-09-22T17:46:50.226429+00:00",
+      "multi_source_verified": false,
+      "verified_by_sources": [
+        "vanek_nikolaev"
+      ],
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title_pl": "2 sterowane motorowery odrzutowe zbliżają się do Odessy z różnych stron, może być głośno!",
+      "text_pl": "3 KABA (UMPB-5) z morza lecą w kierunku Karolino-Bugaz/Ovidiopol/most koło Zatoki 3 paczki poleciały dalej w stronę Vinogradaru w obwodzie odeskim",
+      "tactical_sources": [
+        {
+          "name": "#vanek_nikolaev",
+          "url": "https://t.me/vanek_nikolaev/43059"
+        },
+        {
+          "name": "#vanek_nikolaev",
+          "url": "https://t.me/vanek_nikolaev/43058"
+        }
+      ],
+      "archived_at": "2026-10-02T06:28:25.687510+00:00"
+    },
+    "5e863f023e27eb9b": {
+      "id": "5e863f023e27eb9b",
+      "timestamp": "2026-09-18T01:12:41+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "бандеролям минуса Маяки под обстрелом КАБов (УМПБ-5) ещё одни пуски КАБ (УМПБ-5) в сторону Каролино-Бугаза/Овидиополя/...",
+      "text": "бандеролям минуса  Маяки под обстрелом КАБов (УМПБ-5)  ещё одни пуски КАБ (УМПБ-5) в сторону Каролино-Бугаза/Овидиополя/Маяков",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.8644,
+      "lon": 35.093,
+      "url": "https://t.me/vanek_nikolaev/43057",
+      "media_urls": [],
+      "weapons": [
+        "Shahed / Dron Kamikadze",
+        "Bomba Szybująca (KAB / FAB)"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "vanek_nikolaev",
+      "added_at": "2026-09-23T09:08:12.338108+00:00",
+      "verified_by_sources": [
+        "vanek_nikolaev"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "minus paczki Latarnie morskie pod ostrzałem z KAB-ów (UMPB-5) kolejne starty z KAB-ów (UMPB-5) w kierunku Karolino-Bugaz/Ovidiopol/...",
+      "text_pl": "minus paczki Latarnie morskie pod ostrzałem z KAB (UMPB-5) Kolejne starty z KAB (UMPB-5) w kierunku Karolino-Bugaz/Ovidiopol/Majaków",
+      "tactical_sources": [
+        {
+          "name": "#vanek_nikolaev",
+          "url": "https://t.me/vanek_nikolaev/43057"
+        }
+      ],
+      "archived_at": "2026-10-02T06:28:25.687510+00:00"
     }
   }
 }
