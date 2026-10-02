@@ -1,11 +1,11 @@
 {
   "manifest": {
-    "total_archived": 150,
+    "total_archived": 151,
     "retention_days": 14,
     "first_archived_at": "2026-09-23T16:43:07.215300+00:00",
-    "last_archived_at": "2026-10-01T20:44:06.384189+00:00",
+    "last_archived_at": "2026-10-02T00:22:20.941607+00:00",
     "oldest_event_timestamp": "2023-06-05T21:48:13+00:00",
-    "newest_event_timestamp": "2026-09-17T17:34:01+00:00",
+    "newest_event_timestamp": "2026-09-18T00:03:38+00:00",
     "cloud_sync_enabled": false
   },
   "events": {
@@ -5800,6 +5800,52 @@
       "title_pl": "Żołnierz Jemeńskiej Armii Narodowej odpiera atak bojowników Houthi w pobliżu szczytu góry Al-Balaq Al-Sharqi, front Marib, grudzień…",
       "text_pl": "Żołnierz Jemeńskiej Armii Narodowej odpiera atak bojowników Houthi w pobliżu szczytu góry Al-Balaq Al-Sharqi, front Marib, grudzień 2021 r.",
       "archived_at": "2026-10-01T20:44:06.382533+00:00"
+    },
+    "ef2c72bdfade1b82": {
+      "id": "ef2c72bdfade1b82",
+      "timestamp": "2026-09-18T00:03:38+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Starcie Lądowe",
+      "tactical_category": "Starcie Lądowe / Szturm",
+      "tactical_icon": "⚔️",
+      "title": "Successful Ukrainian mechanised assault near Lyman as part of operation “Vivaldi”, summer 2026, 66th Mech Brigade of 3rd...",
+      "text": "Successful Ukrainian mechanised assault near Lyman as part of operation “Vivaldi”, summer 2026, 66th Mech Brigade of 3rd AC",
+      "location_name": "Inne",
+      "lat": 47.9956,
+      "lon": 34.8566,
+      "url": "https://redd.it/1wja457",
+      "tactical_sources": [
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://redd.it/1wja457"
+        },
+        {
+          "name": "Telegram (#r_combatfootage)",
+          "url": "https://t.me/r_combatfootage/42372"
+        },
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://t.me/r_combatfootage"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "r_combatfootage",
+      "added_at": "2026-09-23T17:51:25.848915+00:00",
+      "verified_by_sources": [
+        "r_combatfootage"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Udany ukraiński szturm zmechanizowany pod Lymanem w ramach operacji „Vivaldi”, lato 2026 r., 66. Brygada Mech. 3. Brygady Mech.",
+      "text_pl": "Udany ukraiński szturm zmechanizowany pod Lymanem w ramach operacji „Vivaldi”, lato 2026, 66. Brygada Mech. 3. AC",
+      "archived_at": "2026-10-02T00:22:20.940376+00:00"
     }
   }
 }
