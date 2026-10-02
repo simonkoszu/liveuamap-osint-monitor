@@ -1,11 +1,11 @@
 {
   "manifest": {
-    "total_archived": 153,
+    "total_archived": 156,
     "retention_days": 14,
     "first_archived_at": "2026-09-23T16:43:07.215300+00:00",
-    "last_archived_at": "2026-10-02T06:28:25.688948+00:00",
+    "last_archived_at": "2026-10-02T13:27:17.359651+00:00",
     "oldest_event_timestamp": "2023-06-05T21:48:13+00:00",
-    "newest_event_timestamp": "2026-09-18T01:56:33+00:00",
+    "newest_event_timestamp": "2026-09-18T12:15:01+00:00",
     "cloud_sync_enabled": false
   },
   "events": {
@@ -5927,6 +5927,129 @@
         }
       ],
       "archived_at": "2026-10-02T06:28:25.687510+00:00"
+    },
+    "f068153bf8dcff3b": {
+      "id": "f068153bf8dcff3b",
+      "timestamp": "2026-09-18T12:15:01+00:00",
+      "theater": "Ukraina i Rosja",
+      "event_type": "Komunikat / Dyplomacja",
+      "title": "French President Emmanuel Macron after meeting with France’s political leaders and presidential candidates at the Élysée",
+      "text": "French President Emmanuel Macron after meeting with France’s political leaders and presidential candidates at the Élysée Palace: &quot;The Russian threat has intensified in recent weeks.&quot;https://liveuamap.com/en/2026/18-september-12-french-president-emmanuel-macron-after-meeting",
+      "location_name": "Ukraina i Rosja",
+      "lat": 48.6212,
+      "lon": 36.65,
+      "url": "https://liveuamap.com/en/2026/18-september-12-french-president-emmanuel-macron-after-meeting",
+      "media_urls": [],
+      "added_at": "2026-09-22T16:27:15.021181+00:00",
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "multi_source_verified": false,
+      "verified_by_sources": [
+        "OSINT"
+      ],
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title_pl": "Prezydent Francji Emmanuel Macron po spotkaniu z przywódcami politycznymi Francji i kandydatami na prezydenta w Pałacu Elizejskim",
+      "text_pl": "Prezydent Francji Emmanuel Macron po spotkaniu z francuskimi przywódcami politycznymi i kandydatami na prezydenta w Pałacu Elizejskim: „W ostatnich tygodniach rosyjskie zagrożenie nasiliło się”.",
+      "tactical_sources": [
+        {
+          "name": "Osint",
+          "url": "https://liveuamap.com/en/2026/18-september-12-french-president-emmanuel-macron-after-meeting"
+        }
+      ],
+      "archived_at": "2026-10-02T13:27:17.358093+00:00"
+    },
+    "a6b36be4c29bfb40": {
+      "id": "a6b36be4c29bfb40",
+      "timestamp": "2026-09-18T12:15:01+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Komunikat / Dyplomacja",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "French President Emmanuel Macron after meeting with France’s political leaders and presidential candidates at the Élysée...",
+      "text": "French President Emmanuel Macron after meeting with France’s political leaders and presidential candidates at the Élysée Palace: &quot;The Russian threat has intensified in recent weeks.&quot; https://liveuamap.com/en/2026/18-september-12-french-president-emmanuel-macron-after-meeting",
+      "location_name": "Inne",
+      "lat": 48.1408,
+      "lon": 34.7858,
+      "url": "https://t.me/liveuamap/12352",
+      "tactical_sources": [
+        {
+          "name": "#liveuamap",
+          "url": "https://t.me/liveuamap/12352"
+        },
+        {
+          "name": "Liveuamap",
+          "url": "https://liveuamap.com/en/2026/18-september-12-french-president-emmanuel-macron-after-meeting"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "liveuamap",
+      "added_at": "2026-09-23T17:51:25.848824+00:00",
+      "verified_by_sources": [
+        "liveuamap"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Prezydent Francji Emmanuel Macron po spotkaniu z przywódcami politycznymi Francji i kandydatami na prezydenta w Pałacu Elizejskim...",
+      "text_pl": "Prezydent Francji Emmanuel Macron po spotkaniu z francuskimi przywódcami politycznymi i kandydatami na prezydenta w Pałacu Elizejskim: „W ostatnich tygodniach rosyjskie zagrożenie nasiliło się”. https://liveuamap.com/en/2026/18-wrzesnia-12-francuskiego-prezydenta-emmanuela-macron-po-spotkaniu",
+      "archived_at": "2026-10-02T13:27:17.358093+00:00"
+    },
+    "01ece35c62987cee": {
+      "id": "01ece35c62987cee",
+      "timestamp": "2026-09-18T09:03:33+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "Interceptor drone pilots of the &quot;Signum&quot; Drone Battalion (59th Assault Brigade) struck several Russian targets, destroyi...",
+      "text": "Interceptor drone pilots of the &quot;Signum&quot; Drone Battalion (59th Assault Brigade) struck several Russian targets, destroying four Gerbera, three Shahed, one Molniya, and three Lancet UAVs.",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.9088,
+      "lon": 34.9244,
+      "url": "https://redd.it/1wjkvxr",
+      "tactical_sources": [
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://redd.it/1wjkvxr"
+        },
+        {
+          "name": "Telegram (#r_combatfootage)",
+          "url": "https://t.me/r_combatfootage/42374"
+        },
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://t.me/r_combatfootage"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "r_combatfootage",
+      "added_at": "2026-09-23T17:51:25.848913+00:00",
+      "verified_by_sources": [
+        "r_combatfootage"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Piloci dronów przechwytujących z batalionu dronów „Signum” (59. Brygada Szturmowa) zaatakowali kilka rosyjskich celów, niszcząc...",
+      "text_pl": "Piloci dronów przechwytujących z batalionu dronów „Signum” (59. Brygada Szturmowa) zaatakowali kilka rosyjskich celów, niszcząc cztery Gerbery, trzy Shahed, jeden Molniya i trzy UAV Lancet.",
+      "archived_at": "2026-10-02T13:27:17.358093+00:00"
     }
   }
 }
