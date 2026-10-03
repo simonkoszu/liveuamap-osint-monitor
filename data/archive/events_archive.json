@@ -1,11 +1,11 @@
 {
   "manifest": {
-    "total_archived": 166,
+    "total_archived": 167,
     "retention_days": 14,
     "first_archived_at": "2026-09-23T16:43:07.215300+00:00",
-    "last_archived_at": "2026-10-03T01:36:30.109897+00:00",
+    "last_archived_at": "2026-10-03T07:19:18.621041+00:00",
     "oldest_event_timestamp": "2023-06-05T21:48:13+00:00",
-    "newest_event_timestamp": "2026-09-19T01:12:06+00:00",
+    "newest_event_timestamp": "2026-09-19T03:20:00+00:00",
     "cloud_sync_enabled": false
   },
   "events": {
@@ -6446,6 +6446,43 @@
         }
       ],
       "archived_at": "2026-10-03T01:36:30.108590+00:00"
+    },
+    "ru_toropets_ammo_depot_20260919": {
+      "id": "ru_toropets_ammo_depot_20260919",
+      "timestamp": "2026-09-19T03:20:00+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Infrastruktura & Logistyka",
+      "title": "Massive secondary detonations at Russian GRAU ammunition depot in Tver region",
+      "text": "Ukrainian drone strike triggered massive secondary explosions at the 107th GRAU arsenal in Toropets, Tver region. Seismic monitors recorded tremors equivalent to minor earthquakes as missile storage bunkers caught fire.",
+      "location_name": "Toropiec, Obwód twerski, Rosja",
+      "lat": 56.4975,
+      "lon": 31.6367,
+      "url": "https://liveuamap.com/en/2026/19-september-massive-detonations-at-ammunition-depot",
+      "media_urls": [],
+      "added_at": "2026-09-22T17:14:32.038361+00:00",
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Skład Amunicji / Arsenał",
+      "is_fire": true,
+      "threat_score": 10,
+      "multi_source_verified": true,
+      "verified_by_sources": [
+        "OSINT Multi-Radar"
+      ],
+      "tactical_category": "Eksplozja / Detonacja",
+      "tactical_icon": "💥",
+      "title_pl": "Masowe wtórne detonacje w rosyjskim składzie amunicji GRAU w obwodzie twerskim",
+      "text_pl": "Ukraiński atak dronów wywołał masowe wtórne eksplozje w 107. arsenale GRAU w Toropets w obwodzie twerskim. Monitory sejsmiczne zarejestrowały wstrząsy odpowiadające niewielkim trzęsieniom ziemi, gdy zapaliły się bunkry do przechowywania rakiet.",
+      "tactical_sources": [
+        {
+          "name": "Osint",
+          "url": "https://liveuamap.com/en/2026/19-september-massive-detonations-at-ammunition-depot"
+        }
+      ],
+      "archived_at": "2026-10-03T07:19:18.619399+00:00"
     }
   }
 }
