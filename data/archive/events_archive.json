@@ -1,11 +1,11 @@
 {
   "manifest": {
-    "total_archived": 161,
+    "total_archived": 166,
     "retention_days": 14,
     "first_archived_at": "2026-09-23T16:43:07.215300+00:00",
-    "last_archived_at": "2026-10-02T18:51:26.938279+00:00",
+    "last_archived_at": "2026-10-03T01:36:30.109897+00:00",
     "oldest_event_timestamp": "2023-06-05T21:48:13+00:00",
-    "newest_event_timestamp": "2026-09-18T17:18:29+00:00",
+    "newest_event_timestamp": "2026-09-19T01:12:06+00:00",
     "cloud_sync_enabled": false
   },
   "events": {
@@ -6248,6 +6248,204 @@
         }
       ],
       "archived_at": "2026-10-02T18:51:26.936334+00:00"
+    },
+    "9e6edb1a42d0d88e": {
+      "id": "9e6edb1a42d0d88e",
+      "timestamp": "2026-09-19T01:12:06+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "по всем этим бандеролям минуса 1 новая бандероль летит курсом на/через Черноморское - вероятно полетит тем же курсом К...",
+      "text": "по всем этим бандеролям минуса  1 новая бандероль летит курсом на/через Черноморское - вероятно полетит тем же курсом  КАБы так и летят в сторону Маяков, больше пусков не было, петухи уходят",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.8372,
+      "lon": 35.021,
+      "url": "https://t.me/vanek_nikolaev/43069",
+      "media_urls": [],
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "vanek_nikolaev",
+      "added_at": "2026-09-23T09:08:12.338096+00:00",
+      "verified_by_sources": [
+        "vanek_nikolaev"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "dla wszystkich tych przesyłek minus 1 nowa przesyłka leci kursem do/przez Czernomorskoje - prawdopodobnie poleci tym samym kursem do K...",
+      "text_pl": "w przypadku wszystkich tych paczek minus 1 nowa paczka leci kursem do/przez Morze Czarne – prawdopodobnie będzie leciała tym samym kursem. KAB-y nadal lecą w stronę Majakowa, nie było już startów, koguty odlatują",
+      "tactical_sources": [
+        {
+          "name": "#vanek_nikolaev",
+          "url": "https://t.me/vanek_nikolaev/43069"
+        }
+      ],
+      "archived_at": "2026-10-03T01:36:30.108590+00:00"
+    },
+    "3198ee2501a75734": {
+      "id": "3198ee2501a75734",
+      "timestamp": "2026-09-19T01:04:53+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Eksplozja / Detonacja",
+      "tactical_icon": "💥",
+      "title": "3 бандероли летят в сторону Беляевки/Маяков все остальные летят в сторону Днестровска/Раздельной всё ещё может быть гр...",
+      "text": "3 бандероли летят в сторону Беляевки/Маяков  все остальные летят в сторону Днестровска/Раздельной  всё ещё может быть громко!",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.8876,
+      "lon": 35.231,
+      "url": "https://t.me/vanek_nikolaev/43068",
+      "media_urls": [],
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "vanek_nikolaev",
+      "added_at": "2026-09-23T09:08:12.338098+00:00",
+      "verified_by_sources": [
+        "vanek_nikolaev"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "3 paczki lecą w stronę Bielajewki/Majakowa, cała reszta leci w stronę Dniestrowska/Razdelnej, może jeszcze być grupa...",
+      "text_pl": "3 paczki lecą w stronę Bielajewki/Majakowa, cała reszta leci w stronę Dniestrowska/Razdelnej, nadal może być głośno!",
+      "tactical_sources": [
+        {
+          "name": "#vanek_nikolaev",
+          "url": "https://t.me/vanek_nikolaev/43068"
+        }
+      ],
+      "archived_at": "2026-10-03T01:36:30.108590+00:00"
+    },
+    "2c03a299aa7d8feb": {
+      "id": "2c03a299aa7d8feb",
+      "timestamp": "2026-09-19T01:03:29+00:00",
+      "country": "Iran",
+      "flag": "🇮🇷",
+      "theater": "Bliski Wschód (Zatoka Perska)",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "A Ukrainian drone manages to hit a Russian Nebo-M radar station 120km away from the frontline despite the intense jammin...",
+      "text": "A Ukrainian drone manages to hit a Russian Nebo-M radar station 120km away from the frontline despite the intense jamming (Published September 18, 2026)",
+      "location_name": "Bliski Wschód (Zatoka Perska)",
+      "lat": 47.8096,
+      "lon": 34.7114,
+      "url": "https://redd.it/1wk6yks",
+      "tactical_sources": [
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://redd.it/1wk6yks"
+        },
+        {
+          "name": "Telegram (#r_combatfootage)",
+          "url": "https://t.me/r_combatfootage/42378"
+        },
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://t.me/r_combatfootage"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje Wojskowe / Sztab",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "r_combatfootage",
+      "added_at": "2026-09-23T17:51:25.848909+00:00",
+      "verified_by_sources": [
+        "r_combatfootage"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Ukraińskiemu dronowi udaje się trafić w rosyjską stację radarową Nebo-M 120 km od linii frontu, pomimo intensywnych zakłóceń...",
+      "text_pl": "Pomimo intensywnego zakłócania ukraińskiemu dronowi udaje się trafić w rosyjską stację radarową Nebo-M znajdującą się 120 km od linii frontu (opublikowano 18 września 2026 r.)",
+      "archived_at": "2026-10-03T01:36:30.108590+00:00"
+    },
+    "4bfc27fe3cff2dbf": {
+      "id": "4bfc27fe3cff2dbf",
+      "timestamp": "2026-09-19T00:58:06+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Eksplozja / Detonacja",
+      "tactical_icon": "💥",
+      "title": "12 бандеролей пролетают Черноморское в сторону Августовки/Усатово - может быть громко!",
+      "text": "12 бандеролей пролетают Черноморское в сторону Августовки/Усатово - может быть громко!",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.9608,
+      "lon": 34.7594,
+      "url": "https://t.me/vanek_nikolaev/43067",
+      "media_urls": [],
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "vanek_nikolaev",
+      "added_at": "2026-09-23T09:08:12.338100+00:00",
+      "verified_by_sources": [
+        "vanek_nikolaev"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "12 działek leci nad Czernomorskoje w kierunku Augustówki/Usatowa – może być głośno!",
+      "text_pl": "12 działek leci nad Czernomorskoje w kierunku Augustówki/Usatowa – może być głośno!",
+      "tactical_sources": [
+        {
+          "name": "#vanek_nikolaev",
+          "url": "https://t.me/vanek_nikolaev/43067"
+        }
+      ],
+      "archived_at": "2026-10-03T01:36:30.108590+00:00"
+    },
+    "11f066c1e278300d": {
+      "id": "11f066c1e278300d",
+      "timestamp": "2026-09-19T00:55:24+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Eksplozja / Detonacja",
+      "tactical_icon": "💥",
+      "title": "12 бандеролей пролетают Черноморское в сторону Августовки/Усатово - может быть громко!",
+      "text": "12 бандеролей пролетают Черноморское в сторону Августовки/Усатово - может быть громко!",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.8784,
+      "lon": 35.0576,
+      "url": "https://t.me/vanek_nikolaev/43065",
+      "media_urls": [],
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "vanek_nikolaev",
+      "added_at": "2026-09-23T09:08:12.338103+00:00",
+      "verified_by_sources": [
+        "vanek_nikolaev"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "12 działek leci nad Czernomorskoje w kierunku Augustówki/Usatowa – może być głośno!",
+      "text_pl": "12 działek leci nad Czernomorskoje w kierunku Augustówki/Usatowa – może być głośno!",
+      "tactical_sources": [
+        {
+          "name": "#vanek_nikolaev",
+          "url": "https://t.me/vanek_nikolaev/43065"
+        }
+      ],
+      "archived_at": "2026-10-03T01:36:30.108590+00:00"
     }
   }
 }
