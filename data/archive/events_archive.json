@@ -1,11 +1,11 @@
 {
   "manifest": {
-    "total_archived": 167,
+    "total_archived": 169,
     "retention_days": 14,
     "first_archived_at": "2026-09-23T16:43:07.215300+00:00",
-    "last_archived_at": "2026-10-03T07:19:18.621041+00:00",
+    "last_archived_at": "2026-10-03T12:55:31.990419+00:00",
     "oldest_event_timestamp": "2023-06-05T21:48:13+00:00",
-    "newest_event_timestamp": "2026-09-19T03:20:00+00:00",
+    "newest_event_timestamp": "2026-09-19T12:03:33+00:00",
     "cloud_sync_enabled": false
   },
   "events": {
@@ -6483,6 +6483,102 @@
         }
       ],
       "archived_at": "2026-10-03T07:19:18.619399+00:00"
+    },
+    "43dd350b7da9969f": {
+      "id": "43dd350b7da9969f",
+      "timestamp": "2026-09-19T12:03:33+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Starcie Lądowe",
+      "tactical_category": "Obrona Przeciwlotnicza (OPL)",
+      "tactical_icon": "🛡️",
+      "title": "Ukraine&#x27;s Unmanned Systems Forces struck their 37th Russian air defense system so far this month, hitting a BUK-M3 SAM s...",
+      "text": "Ukraine&#x27;s Unmanned Systems Forces struck their 37th Russian air defense system so far this month, hitting a BUK-M3 SAM system near Ukrainka, Zaporizhzhia region. This marks 300 such targets hit this year so far. Posted September 19, 2026",
+      "location_name": "Zaporoże",
+      "lat": 47.8388,
+      "lon": 35.1396,
+      "url": "https://redd.it/1wkiuyf",
+      "tactical_sources": [
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://redd.it/1wkiuyf"
+        },
+        {
+          "name": "Telegram (#r_combatfootage)",
+          "url": "https://t.me/r_combatfootage/42382"
+        },
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://t.me/r_combatfootage"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Obrona Przeciwlotnicza (OPL)"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "r_combatfootage",
+      "added_at": "2026-09-23T17:51:25.848904+00:00",
+      "verified_by_sources": [
+        "r_combatfootage"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Ukraine&#x27;s Unmanned Systems Forces struck their 37th Russian obrona powietrzna system so far this month, hitting a BUK-M3 SAM s...",
+      "text_pl": "Ukraine&#x27;s Unmanned Systems Forces struck their 37th Russian obrona powietrzna system so far this month, hitting a BUK-M3 SAM system near Ukrainka, Zaporizhzhia region. This marks 300 such targets hit this year so far. Posted September 19, 2026",
+      "archived_at": "2026-10-03T12:55:31.989024+00:00"
+    },
+    "ec2a56dade2145ef": {
+      "id": "ec2a56dade2145ef",
+      "timestamp": "2026-09-19T11:03:29+00:00",
+      "country": "Pakistan / Afganistan",
+      "flag": "🇵🇰 🇦🇫",
+      "theater": "Azja Południowa",
+      "event_type": "Starcie Lądowe",
+      "tactical_category": "Starcie Lądowe / Szturm",
+      "tactical_icon": "⚔️",
+      "title": "CTD (spec police) trying to clear a compound occupied by Taliban,Kohat, Pakistan",
+      "text": "CTD (spec police) trying to clear a compound occupied by Taliban,Kohat, Pakistan",
+      "location_name": "Azja Południowa",
+      "lat": 33.1544,
+      "lon": 70.1362,
+      "url": "https://redd.it/1wkhb2b",
+      "tactical_sources": [
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://redd.it/1wkhb2b"
+        },
+        {
+          "name": "Telegram (#r_combatfootage)",
+          "url": "https://t.me/r_combatfootage/42381"
+        },
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://t.me/r_combatfootage"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/vaNutPDizbhvO8k5PVxetmz1Kq6YCuzI8xRQu2kTv1quw6pXCBU6HmbIpc3XHbSyq3C9G5YVToH9oV_-o6CvuTfNEDwSOKJUElf89SM0LBVGKx03pupu120EKGsoyqGFNPOQjeMrF3V5EfKATXQO2RKrbgEHsNXTe5wREeR1mvrvT3WkBxncIqvsRuK-q_ZgTswLX_cqfj9_RPTSSN7K9DzNtkJQ1I19a7Z6ri18wZQWnMK0dwN5Ovje2cgPUonZsvdd4hJXE4ElGYjfd8M_2D9A2kcoHYETU863YGSXfC4DsjnkEgO4Um5IKsPhl2FratWlJP61nHyW6qJlR0H9xg"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/79ebc4d687.mp4?token=D4SKYlsh6_Qvg1CFneuOYJCvvWLXH4r8X9ZgqTZJM2NFlaQ5eJVN6YtnjVsL3OYs-tR024GpubOmMGUX7DtsIUHosGWXSFsXFa0iRONXpsMtM49ivNb2pOl4ppoyxoGp4A8Ll4e6hRpCe-53_V1ykBaXW5fCCRpA7gPGliVl13fyp58W-B8JQ0Hlp0a4FRyZhVbAgHp4pbi5SnwHNPvqOTZQSCDQNiFpiRTP0tEPAA4yWOzr7_38jpwIZUpolukF9zRtWG9UTFPK2sLKejmdI7oGfAo_4KkZuQnPCrNhPmemdXcd7P0T7qXpYMdmil16KMN7i7CKVIRmHDRhpWPqAg",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "r_combatfootage",
+      "added_at": "2026-09-23T17:51:25.848905+00:00",
+      "verified_by_sources": [
+        "r_combatfootage"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "CTD (policja specjalistyczna) próbuje oczyścić teren okupowany przez talibów, Kohat, Pakistan",
+      "text_pl": "CTD (policja specjalistyczna) próbuje oczyścić teren okupowany przez talibów, Kohat, Pakistan",
+      "archived_at": "2026-10-03T12:55:31.989024+00:00"
     }
   }
 }
