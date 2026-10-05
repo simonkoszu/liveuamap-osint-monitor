@@ -1,11 +1,11 @@
 {
   "manifest": {
-    "total_archived": 212,
+    "total_archived": 215,
     "retention_days": 14,
     "first_archived_at": "2026-09-23T16:43:07.215300+00:00",
-    "last_archived_at": "2026-10-04T22:07:39.842905+00:00",
+    "last_archived_at": "2026-10-05T01:25:05.010129+00:00",
     "oldest_event_timestamp": "2023-06-05T21:48:13+00:00",
-    "newest_event_timestamp": "2026-09-20T20:32:25+00:00",
+    "newest_event_timestamp": "2026-09-21T01:03:23+00:00",
     "cloud_sync_enabled": false
   },
   "events": {
@@ -8434,6 +8434,135 @@
         }
       ],
       "archived_at": "2026-10-04T22:07:39.841155+00:00"
+    },
+    "b33f9a472adc3fcb": {
+      "id": "b33f9a472adc3fcb",
+      "timestamp": "2026-09-21T01:03:23+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "First-person view of Russian Soldiers on Motorcycles Ambushed by Ukrainian “Waiting” FPV Drone in Donetsk — one is hit b...",
+      "text": "First-person view of Russian Soldiers on Motorcycles Ambushed by Ukrainian “Waiting” FPV Drone in Donetsk — one is hit but the drone fails to detonate",
+      "location_name": "Donieck",
+      "lat": 48.0159,
+      "lon": 37.8028,
+      "url": "https://redd.it/1wlvp68",
+      "tactical_sources": [
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://redd.it/1wlvp68"
+        },
+        {
+          "name": "Telegram (#r_combatfootage)",
+          "url": "https://t.me/r_combatfootage/42399"
+        },
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://t.me/r_combatfootage"
+        }
+      ],
+      "media_urls": [],
+      "video_url": "https://cdn4.telesco.pe/file/bb8ab9a82b.mp4?token=rXWJD4KSVmtj4lBG_KYnq-1qTO1_HweIKtUhEiZRCLki3hYoz5aagJ1Tpt9ywLpsN_Hjb6mfXT-RPPJhETsO-uHrSaC7TnNovAAICiMnV8Hjq7iefZKOL8Gk8AN2xqojGZ-N6LSXC3cBZh10xOARe0h0ROIVCgb6S3824aQAPaDhAmE_cnBNgkuvViTgAPv9kEgFi6fFTanzRQb2NpRloKBJOF8wuBMPlYOmTdDStJDFh68VjfmLZpulQKx9sjPz_IIBV6rWRngJQ0VpmzWU60BUCT9IscERjcuKc2w-_-_SKCqc90u8TjDOaPQpviXA1sGAo_m0TqvkdvCiIYgiRyf36-VHuvIrlaZMDhU1Jiir3pXKf89SH3T7wyvQpWV62VazyzzDGR--n-1UpsI-g25wnlakGOaUR0ODvVd3DV7k7TtP-Ws1J08jioWOQk7J1Q2uVbXgZlc9Iw6byU9zUnmv2IvJeRvBLlXkBWuHtqUpKbxMcaPdP9aSOwnVXQk_elwaWVs2ZwuRWECIMGEjlWvrCudQMS4ddjuT8plft-QuN-RIU7bCvCrqWVYLuuEqMqZ2assInADH5n9Ta0wJTRRefFvd8VYZkZp6ReaReuZ3ibIA_2wsjQuP3N9Gt5bG2hT2pnY1yUnD_zQ4Ge8kR2uoTXxQTQKpK4q5iG077cE",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "r_combatfootage",
+      "added_at": "2026-09-23T17:51:25.848887+00:00",
+      "verified_by_sources": [
+        "r_combatfootage"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Widok z perspektywy pierwszej osoby na rosyjskich żołnierzy na motocyklach zaatakowanych przez ukraińskiego „czekającego” drona FPV w Doniecku — jeden został trafiony...",
+      "text_pl": "Widok z perspektywy pierwszej osoby na rosyjskich żołnierzy na motocyklach zaatakowanych przez ukraińskiego „czekającego” drona FPV w Doniecku — jeden zostaje trafiony, ale dron nie wybucha",
+      "archived_at": "2026-10-05T01:25:05.008656+00:00"
+    },
+    "7424d4bb7b624e50": {
+      "id": "7424d4bb7b624e50",
+      "timestamp": "2026-09-21T00:03:25+00:00",
+      "country": "Syria",
+      "flag": "🇸🇾",
+      "theater": "Syria",
+      "event_type": "Starcie Lądowe",
+      "tactical_category": "Eksplozja / Detonacja",
+      "tactical_icon": "💥",
+      "title": "Footage Posted in the Last Hour Showing a Massive Explosion Today at an Ammo Depot in Aleppo, Syria.",
+      "text": "Footage Posted in the Last Hour Showing a Massive Explosion Today at an Ammo Depot in Aleppo, Syria.",
+      "location_name": "Aleppo, Syria",
+      "lat": 36.2021,
+      "lon": 37.1343,
+      "url": "https://redd.it/1wlvvdw",
+      "tactical_sources": [
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://redd.it/1wlvvdw"
+        },
+        {
+          "name": "Telegram (#r_combatfootage)",
+          "url": "https://t.me/r_combatfootage/42398"
+        },
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://t.me/r_combatfootage"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/nJo0Tg8oQK6eHqD5qNhO69uYSSDsxf_LIm8mtIojY4xci1lgrO4wZODt4SUYUq11dRSM-V8wDFEDhx07dmbSSBEvwzxRxGPfOR56ReCTRuEhzl0r4nZWAVINeFz4kGg2l8ixteGT1XwD8VW_q3RLc12Tdvlf4RJ0vZnZ-_UrU7ZytPSUKh-tWYTO-p-QW9eQ7ApjQu7FroJG9MbTGixvVBsPt3PxofsCQFB6rmDFCs-YD0LaIjHCBy2J-FURqo3ciZUwCsrGaDMgxBs6C6Df0Pi5AmjomgUkSZnjCCHVHyLCuVymi5nqwsCTWkuD4-nn0yOFVWioMwb9gNcPY_amzA"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/4886be2c8b.mp4?token=PNI3ee7Wi6K-Nu6X_nSzG--8kQtCsHoo21gTPTykdv-LfepgqqsBbaSARQ2uig_mphDwcbV-Vo-UrAMo0DzK3YFa9wyHXcjrMQjtuAAqXDrWFdJuVfbF_2zJefaXv9k4qct_49LNQeHbsnSxJNMebuQHXYRyRttZDGd-caehqmB9OfD27Z17BGQZXNq9ZAyTysrykH_OJzqJcUKaIzUeV8tRDg-WA0t8nhEgsBKcFo6yIw2Oe0QPylgALCakMH2yqYM1zDNVxqCzLK1Kz3CS5_GeWiOhMX4gJTC04tOhT5co_4OSAnqOTAjWL_Juef69WhVRKtnk7t5pI-UTqB2kXg",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Skład Amunicji / Arsenał",
+      "is_fire": true,
+      "threat_score": 5,
+      "source_channel": "r_combatfootage",
+      "added_at": "2026-09-23T17:51:25.848888+00:00",
+      "verified_by_sources": [
+        "r_combatfootage"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Materiał opublikowany w ostatniej godzinie przedstawiający potężną eksplozję dzisiaj w składzie amunicji w Aleppo w Syrii.",
+      "text_pl": "Materiał opublikowany w ostatniej godzinie przedstawiający potężną eksplozję dzisiaj w składzie amunicji w Aleppo w Syrii.",
+      "archived_at": "2026-10-05T01:25:05.008656+00:00"
+    },
+    "sy_deir_ezzor_strikes_20260920": {
+      "id": "sy_deir_ezzor_strikes_20260920",
+      "timestamp": "2026-09-20T22:30:00+00:00",
+      "country": "Syria",
+      "flag": "🇸🇾",
+      "theater": "Syria",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "title": "Airstrikes hit Iranian-backed militia arms depot near Deir ez-Zor and Bukamal",
+      "text": "Unidentified warplanes conducted precision strikes against weapons convoys and warehouse installations operated by pro-Iranian militias in eastern Syria near the Iraqi border.",
+      "location_name": "Dajr az-Zaur, Syria",
+      "lat": 35.3359,
+      "lon": 40.1408,
+      "url": "https://syria.liveuamap.com/en/2026/20-september-airstrikes-near-deir-ezzor",
+      "media_urls": [],
+      "added_at": "2026-09-23T17:51:25.864196+00:00",
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "verified_by_sources": [
+        "OSINT"
+      ],
+      "multi_source_verified": false,
+      "tactical_sources": [
+        {
+          "name": "Osint",
+          "url": "https://syria.liveuamap.com/en/2026/20-september-airstrikes-near-deir-ezzor"
+        }
+      ],
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title_pl": "Naloty uderzyły w skład broni wspieranej przez Iran milicji w pobliżu Deir ez-Zor i Bukamal",
+      "text_pl": "Niezidentyfikowane samoloty bojowe przeprowadziły precyzyjne ataki na konwoje broni i instalacje magazynowe obsługiwane przez proirańskie bojówki we wschodniej Syrii, w pobliżu granicy z Irakiem.",
+      "archived_at": "2026-10-05T01:25:05.008656+00:00"
     }
   }
 }
