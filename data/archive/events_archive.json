@@ -1,11 +1,11 @@
 {
   "manifest": {
-    "total_archived": 323,
+    "total_archived": 355,
     "retention_days": 14,
     "first_archived_at": "2026-09-23T16:43:07.215300+00:00",
-    "last_archived_at": "2026-10-06T16:26:22.834575+00:00",
+    "last_archived_at": "2026-10-06T21:26:52.737362+00:00",
     "oldest_event_timestamp": "2023-06-05T21:48:13+00:00",
-    "newest_event_timestamp": "2026-09-22T16:07:32+00:00",
+    "newest_event_timestamp": "2026-09-22T21:19:04+00:00",
     "cloud_sync_enabled": false
   },
   "events": {
@@ -13195,6 +13195,1330 @@
       "title_pl": "Report: Ukrainian drone raid against Russia&#x27;s Kuibyshev rafineria ropy naftowej, in the Samara region. (Warning: Loud Noises) Night...",
       "text_pl": "Report: Ukrainian drone raid against Russia&#x27;s Kuibyshev rafineria ropy naftowej, in the Samara region. (Warning: Loud Noises) Night of September 21-22, 2026",
       "archived_at": "2026-10-06T16:26:22.832555+00:00"
+    },
+    "7bba06f78d135a75": {
+      "id": "7bba06f78d135a75",
+      "timestamp": "2026-09-22T21:19:04+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Чернігівщина: реактивний БпЛА повз Славутич курсом на південь",
+      "text": "🏍 Чернігівщина: реактивний БпЛА повз Славутич курсом на південь",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.976,
+      "lon": 34.8698,
+      "url": "https://t.me/kpszsu/79601",
+      "media_urls": [],
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-09-23T09:08:12.337992+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Obwód czernihowski: odrzutowy UAV mija Sławutycz w kierunku południowym",
+      "text_pl": "🏍 Obwód czernihowski: odrzutowy UAV mija Sławutycz w kierunku południowym",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/79601"
+        }
+      ],
+      "archived_at": "2026-10-06T21:26:52.735517+00:00"
+    },
+    "67d804d61bc61b76": {
+      "id": "67d804d61bc61b76",
+      "timestamp": "2026-09-22T21:03:44+00:00",
+      "country": "Pakistan / Afganistan",
+      "flag": "🇵🇰 🇦🇫",
+      "theater": "Azja Południowa",
+      "event_type": "Starcie Lądowe",
+      "tactical_category": "Starcie Lądowe / Szturm",
+      "tactical_icon": "⚔️",
+      "title": "Pakistani soldiers eliminate 4 Taliban hiding in a compound, Duta Khel, Waziristan",
+      "text": "Pakistani soldiers eliminate 4 Taliban hiding in a compound, Duta Khel, Waziristan",
+      "location_name": "Waziristan, Pakistan",
+      "lat": 32.3,
+      "lon": 69.85,
+      "url": "https://redd.it/1wngit5",
+      "tactical_sources": [
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://redd.it/1wngit5"
+        },
+        {
+          "name": "Telegram (#r_combatfootage)",
+          "url": "https://t.me/r_combatfootage/42416"
+        },
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://t.me/r_combatfootage"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "r_combatfootage",
+      "added_at": "2026-09-23T17:51:25.848869+00:00",
+      "verified_by_sources": [
+        "r_combatfootage"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Żołnierze pakistańscy eliminują 4 talibów ukrywających się na terenie Duta Khel w Waziristanie",
+      "text_pl": "Żołnierze pakistańscy eliminują 4 talibów ukrywających się na terenie Duta Khel w Waziristanie",
+      "archived_at": "2026-10-06T21:26:52.735517+00:00"
+    },
+    "613aaadab1d7ded9": {
+      "id": "613aaadab1d7ded9",
+      "timestamp": "2026-09-22T20:59:00+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Infrastruktura & Logistyka",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "📝 Хроника специальной военной операции 📝 за 22 сентября 2026 года 🧨 Российские войска нанесли серию ударов по промышленн...",
+      "text": "📝 Атака на Москву 📝 Рекордный налет ВСУ В ночь на 20 сентября киевский режим провёл самую массированную атаку БПЛА на Москву и Подмосковье . С субботы сбиты более 1600 беспилотников, из них 450 — на подлёте к столице, сообщил мэр столицы. По словам Сергея Собянина, беспрецедентная атака была спланирована с целью срыва выборов, но противнику это не удалось. 🔻 Какие повреждения на земле? ▪️ Несколько украинских беспилотников достигли территории Московского НПЗ , повреждён один из объектов, пострадавших нет. Один дрон попал в жилой дом в столице, ещё один — в здание в районе Орехового бульвара . В подмосковных Котельниках БЛА попали в три многоквартирных дома, повреждены частный дом и складское помещение. ▪️ В Софьино беспилотник попал в жилой дом, погибла женщина, пятеро пострадали, среди них двое детей. В Орехово-Зуевском районе мужчина погиб из-за попадания дрона в частный дом. ▪️ На Северном шоссе загорелась кровля 21-этажного дома, эвакуированы 400 человек, из них 70 детей, повреждены 20 автомобилей. ▪️ В Раменском , Коломне и Егорьевске повреждены частные дома, в Ленинском , Люберцах и Лыткарино горели многоквартирные дома, в Истре — жилой дом и здание предприятия. ▪️ Губернатор Подмосковья заявил о двух погибших и шести пострадавших в регионе. ▪️ Более 30 рейсов не смогли приземлиться в московских аэропортах и ушли на запасные аэродромы в Нижний Новгород , Казань , Чебоксары , Санкт-Петербург , Самару и Нижнекамск . 🖍 Масштаб налёта превзошёл все предыдущие атаки на столичный регион, но основная масса дронов была перехвачена на дальних подступах. Ущерб ограничился несколькими попаданиями по жилой застройке и возгоранием на НПЗ в Капотне . Украинские каналы включились в максимальный пиар удара по столице России. Всё-таки поводов для радости у них в последние месяцы было немного, поэтому сегодня информационный шум особенно вокруг выборов будет максимальный. ❗️ При этом противник копил ресурсы на протяжении нескольких недель, и крылатые ракеты «Фламинго» практическ",
+      "location_name": "Samara, Rosja",
+      "lat": 53.1959,
+      "lon": 50.1002,
+      "url": "https://t.me/rybar/83381",
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/Brj8n-P_SvVq5V0dSolr0kqeLlBKKi1vYIIqFR6AcMIoF4Y0zPM-jKQvKWY6eIXt23bL2Lu1FEKtZ9AIDEyzFv2RDrplqz881c8b5jDLlOQzxm6Zi-HfpGSX3-5Bb5xui_1R1uIeqL10HRVJzcK3wfkYWJs59tXNCfE66F8cigJPVVvppL00C7KRV1136ltWIQ8jtmHwl9Lin-pFSjojk33pftSsWrqBw2A3vb42XkUdRFzK06xow94g9TZz_UDyEMmnL0JQ52dn0afU26nNCmed5PhuRNmbQyrbWR7vipJuqrRyueFasWVvPpgNPheTSTU_SVJX7y3IEC6D9RXU0w",
+        "https://cdn4.telesco.pe/file/VzIgUzrNLl-tqhwHnfuUqfVW4bSv8szBq-e5a69wwgW2Y_GB7e0EfUTUWrAb0LtM7nYuAnQLzt6vJlrHz9W9ucPeSj3lY6H9fZOC1fFzPiBhbpr4F26v_CSCdEqTa4sNSEhOQAtf7DuKc1zHkS8TA7SDyrw45zW-3JyHStyEjjH9gdARzPy4NZjTk3wK9dlC7muOU5dbvw7D891mu6QMLNIjAtEY-NXQy5Szq_U_wnu_DkFM-jv3mr-atWek1dbo6RtSO1nAvZ3bA7kNDym3RJDSMDJLtl7IoWcfDvdFljFCFuAJQKhHotcheq3PgQsMswB35aTc7UIw9F13eCcBvg",
+        "https://cdn4.telesco.pe/file/SUU7GRyHg0HR5mF2WmnIvqLS2Cqnl-pRrflSjG0gkUanko68Hu_rk62p7AKvDm-jhemsSqGbgSCRC7e7eNXSAFXBQMCdPSpnkW-Drc5IN6h55QSQCz6anXQRiRRWOJZF5gl90ZH0EHdZKhXN_KKIULGnJvEKkDCBgjlnESaHHbwYxvN1DgtousaNECyL6sMXBdqSTLmjkCAZDPGlKn_s2qvU7mKZGvi_bDjT-2CShC5gN8E7BcxTPtRbsoAdzBgptC2YINQ8zCvMlK_OZIckXaPspX3dUM_aQrXIjG4jAqiq2SeJeBgDAKddv0qamB4JdvMD0l1E7qEziefACd7xDg.jpg",
+        "https://cdn4.telesco.pe/file/IyQ_ygp0pIwC-sF0IgfMznSWCIqHf6md0VM0hWYBY1TXnQF_CnysGqQu9rC7DZFF9LUqZH5YI8BO2aEbIyxuZcNDcLnlBiE8A6e9i9zhIqhsD4auI0Tx1pBftFpiltKjY5lnclMXC_IAongT2lNQkMd14diPHca1iSIJ8X26Lh9IFB1I4YHPijQBvDHYIN_bC79V9eLX4bSYYrEFQzdY502t6QS0lRcRg-T4CwaDzvcAuCe3lhLixTI_l15TyEA2UKIGJYN4xtYFvGe3SfkW4qW540BG4tF9fOG8w2GUahP_R0TWlDpTyScSBWaEh-E5ODjT3Ug_C4ZBxjY1LMJQkg.jpg",
+        "https://cdn4.telesco.pe/file/M1mmeLEl_UYYdzwRkWQRoCC7Fhd19yCocMAIK7MojzFNuzSUVOcN-lGASIvODsjvxRU70fE1TDDqPdD2uh6yU5lzp_jdNOGJncrq6CLly0gGwqtRIrHwPG6zslljRMKRQ-T0VZ1HbVFUyV92CxaBVdlFwggftOfrykjRj-pAWOvPmEOIfEe6XL-5PsUFSK535NWJfQWsAA1yx3VrW7t6naQwcU3aMsPKBkbztt9OqJdIOPU43WmvTxOc1WrqoC3fOgkkiZq2Ry5D5apy2c5EXVzUwb0Btq1EBAEZdL7afn_4B7Khux40G46I3CzgHFqvaMvlwJESZIVB1AQ7PPuQWg.jpg",
+        "https://cdn4.telesco.pe/file/fF7bH2glNkO1xm5ghoYT_8JP5Hj8jRUfZw1cZoRgyQzrfAtdhjxPfZbgeudgVmhX2lBlxduU_XkJW2dF96obtqf7TUcc0jrIGMl2t1TuKcaMM7eoU5Dushw5ycM55XBLdDh9xFfmziBJYaMIfFkTvYv0lZJJwxhhaTAhfUH4SrqjsmZQEFIJuVkE6NOqgn98LVDA6_vJJ0rTKmBPfAaXb0V4on0A4IfVIFbZms2gcfMIJ-hVCJQTScgAlbbUP2epevGqYKIZ3Ellc_EYv7oXX69vYKF1ngmMYPrWMlMCJjuWRIcGkP_yAYfDZeE--AdICemJ0nSMwnUvE5TL8n52MQ.jpg",
+        "https://cdn4.telesco.pe/file/U6c8T75ztGkFFWV5QDn7wEZ3E20gHGzLZ-1XtvYQZ18JE_2AiK2iGRIZd2bAcrzUnMerEvaEFfYW6b6JUg1Oikttv7rTrWHKxrBvSTd3JHGgQALH6CvkqC0PPwqT0U5lyaLTq3vcnxKk2q91nBCSfYNEyQRzRNSp7Rwm1k_pegYcE4HwP-1OQ3FZ0m9N2-hyb55kb0mkKjQL9d1CBJS14x8QrjuJ9zqOgYeiSZ-_G_DNPRkkZCJc-JP5dla9mqh8ym50pQOXNj3Pex1dtz2X4Hh37u-wj2QEnC_xrq9fXm-dnNFu-wRZVHpwEoy4FnBNa_Gid-4K9M2efWrdc3Ob0A.jpg",
+        "https://cdn4.telesco.pe/file/Q4cKh30SrmrbvAgi3-Ozikqq7oew3sv_AWa_KEgQKxpTL6FqiCu7A7cyqcskhMVWg6lWDz28MgrB5izlVs2v9uoDZxK0QzFHs6gsHa_w5aHKrgHmjbrGv5WamKclPf67M1tCH4NImZ25zqRVLRTTvtRtEDhtxZng_Phm05U9k1xQg6gM2VEYL0xHNYGnbvmTxQXaOyxHzxzXgM_eGmXdXkR-cLXoiAlZF8U3lQraVIyETpFvhU5k4Ocm_WIEEz1YP75JzXzVKx2aQe2-yAneAZhURYpTeT_oIQKktN62jvPhCLwg2RkcOrfAuZCdlR6e_4pScldJ7QUl_mufxxCyIg.jpg",
+        "https://cdn4.telesco.pe/file/uQ4QCAX3-RDOsUV8QwgMO5HpdWaLUlUDW5SAS4WXZfTbNqxfZiQ5obOAiDvGAEqHfGfbY5mm51Q_EtLHMzNvbuyUCpbKCw2esr-_GxTSMwLgsY2YZqGWKAU7Uo4r_JI6lX1_1SLYVKvl49mDSVwXK84nvgAGqK6ZGSroSv7gRV2E_yMnLehjHZf3ZQlBVhL_6k5QaVRycUJ-f-ZHyrjLxCzB-z0vgra4mJ7GaNHXuPPvqxgWKS3hU0Wbs7U0zskD3DUHm14fprW0U0u_p8A0LjotZ9tBvC1zFubiPUziPAlZADTm2PNypgELqugRWkpFYlIer2op0MOQTuyS1gV68g.jpg",
+        "https://cdn4.telesco.pe/file/RwA5jF_Bfg3_GxIEKZO_ZLYuwkJc8MaaFjsV5s3C75pE5oR7KNfaq2a3ksc5JQAWQrzFYQAq2VLbu1iU2sDuwTsxajdFGvbgPwJ4-0hHBFiRUgRrSxEnPY6B6SmLqxB1hY_jZgfp-CPz-szS9nqIpJEp4EtjGugBqkmaPYgIesB77niFmHrFHzo0oozACfUJX6FJbt8lY6aC2DkrWQccJQpXgOnU3MlPQfSVN-iy-GPIiVRwq8Z7LuDuLdsHff8mUOYVWOch_dwycMxJsqnxCJ5ANm7Lt7a5CxeyMxNC8EafWwr27Ha_Wln3l-GaEcTLUwbMOPW_X0od6qwUoKliuQ.jpg",
+        "https://cdn1.telesco.pe/file/Q8hxnMPH-2fN68eD_g-jULm0eSo0kjAm0YKtkMVyHS8ZqCLMD0MsB5EQ_A81KeI6kIyi5hVkofuN8XD6K6mxpVR4fTKOfXPjoi-gqA8aKD347Awv-NPlQlZ1pUhLqBdbftyCxlS2gcvp95KuHqBJixeEGhxUtz_NuSIJfJj2ERKwnxaowLXiNfwbIAPaCOYHPP6Yd-5ESoG9rdiPs86fxAdxnKsoIxM0mXX-q7MCQqgwmDjKYjRvE5xEoHMQmt2eoJf-bfCwVjttAt8SxhYD63Eij6Ue6oiTClK4zOhNRKxEA6vfh6Kcr09KN0-0AXSSAGJR-KkPLI9CbLVlDCs12Q.jpg",
+        "https://cdn4.telesco.pe/file/Ef7ndt5172HFxzX0WSFp0pODkpVgc_E3CxhWHlot-TQ7qhbi6LnleypwpOUGf2FFv41v0jvXcLtxMMtJV1_FTV8G-nq2qp6xljro90u9FF8uaTQCZzdHb0aA4sUxQ9ETe97tne9QTDiUO8sh-3q8uTb4HAAgs_VX2HJ9dLtr6b4RCoRwdCKdOJYHwutvrqqovPPs3B2bXlZ4ovG2RszO-CLZfir5f0qn-aE5DkWexi_vkj3CoyUmINLqW1yScx462LxOziGqjcwq0e_Um2RN1yF37p4qYEoQK0C_cheWVVxBmKdoU2Cc7-tLBYaJ_Bxs-M8LBW_510YiqYbHHRAxhg.jpg",
+        "https://cdn4.telesco.pe/file/Og_4IVMjkKx8U7u0dOyVOemXHkqPy6wZgIcnM2qYWQ4biN9iFT_TH1qK3--IhARt1sfGnMR4B6QT4DFT1wR-8P8MWH71sh-9dam_aqeOF52OGrIma_u3_cLQgD-3iOB9OZUIhb1-XU8RufxxjzT_s2xoAQ2UNJhqvt4MlycBQ3tSq11HNJ9celq6Wc2pM_tlQ8tMQHBxUJnKJZIWUwjxG270XgKtntqYpwWOsYomv8Q3Pm5BIayOLVMpKfmJ_ksb_WY9fUBshV64JZEHRiuEFBT6dktIAOBw8AszXeofurMrIw2FjcJ6d25AutFQvhH4pbyMVd_zHOhVp-E0h9kWiw.jpg",
+        "https://cdn4.telesco.pe/file/EZZbL_7gEElzGbsFyQWjF6UtoqbDNsS_ANZf5hj1C5klLWRAn2j3_yl2WT059rAdP8hlS8DtORS7lTL9WbH_nLj4cRDpvRpJQ0VFoInvN00KqrMETUTmws0YC-Y0SlnVbl1C1tpGyUZguaps7MscL2-l8bDx3utR2SewAPtWbEQK8psJA6g-2t4Z_cox5AUfi2MLKFGpT3prjPQ_mloAQQZCcgD0v8G7BThrBc7CRANA763EDdk2cYok6UlRU20_v1-0jTPm7ToyTRB0YSa46Y6VI1urT7MB-xDrjEQ8hV1AoKovorbg07gCyj-fqJWsglsxDcO6u8zUQpquwyYGiA.jpg",
+        "https://cdn4.telesco.pe/file/Kc5RKBK3gldH4tSbFNCyLRLJVYvowOw0QVvX2A9bbFaps0ATdcq4qDm-HBAXrHgw7ANitTJcGzG7IDj__mmj8HNAcWqUL_tqsCFGfFi1N_Cb84oRcZewUzgdZJY9Ftfzo83GtjEBfB_NO9ZdK9H4pS8nQysq_Ptyn_Zw46HpemXwVxEcCxXG_Lx3qBaZRk0CwngcxpJOmfyZU5wr8QET-WqyvcIehc9V4ERwCZJWnF2WHNHSJgN3_Os_Yct0cDDq9v9KNE1D577BJE_XddbNLPpgkcM5ojXM2rn-ENNTI4wcgIxpDUZQ5af6PvdSpFCvC-hgcZ6FfjOr1tF-JTecCQ.jpg",
+        "https://cdn4.telesco.pe/file/GHck8o2Sed8uFZmL19Ey0Tn36RsZ_kfkS36ZydxGrf99HBlUxGvn_4clT2LhC0BEHWaLxE7NB1Is9B-puc3gaFh9EKyeHZydcjwXo1F1XoWtD-e8s-eXlOKKQe5r6cUFxMfH9txVpeqmVvz7eYoKmpV7unR69M4-TNj_6FkKum-EuATgwJogn6KIDW4NmzJe7dMkw4QFaZUhdmn7fP7qwS5biahe2N2AtKYSMcFSpQh8RQmvWldtX3GGlZynI2ckFY3OYKg3apF0_qPmUBzZCIuIZ5ck9aege6PtLYbLLV_wd65T_Oiay08kQx32po1JIcszkUfXW3FYMXVJY-NAAQ.jpg",
+        "https://cdn4.telesco.pe/file/hsyg1aLUtlSHOhtZ3aiidkxBS4ZhQid4gWfbpU0JaE7z-DLkrTy724tgZNEm78-u6Nl_WPWgUBZvvSZh_BtP9NUwYB8kGeDTkxl9rEEy-eRoW_leoAxBJlJfXMeZjYpU9ETqGTO-6JqGNS1d5kPJH1fwh6CExoTA5gATzCQ-t-Shp1mMArICY5mNFlN6msgfYR8OQU7Hw9PO_3xPmGTcpYV3StCfvqoB3rp3-RojmeY3BDHoTYXxhzGRKLmVL9qLDBwdimDAHLr9TUcURQ1Q4icK3A7bl5JQ7sJ6iuh2D1_H3RDJA0ExbWmfayLP9Q7_PY3wSmCoRbA8KruPpHgBSw.jpg",
+        "https://cdn4.telesco.pe/file/rrxuQyoJkx-ou_ui3cgfxxC7J9PJ0zn3hKM7n1cJezDUP_p_ed9XQbfnYeHxgImsMySud4rBWWfbOUpbi4RcBHxDCf_JVBzteMMbwa8E8hthOH_G7Zi3DVteBxEwFvUZ65dBhebjTG5stN-Ec5aKpBEW3hI32PfzoMFVyA6vZmZy0bZ15Rp5V131fVPLU9o3CgdCHuApc408Y6oZpCnqrwVVD1ZrtxLPpONDiTrEmsK9PFEw8AVoH6z_I6gqAHVoDKRishApAJTGz_m8myOmTN4W9V3DTcPVcpahkKzm0BQhj-fwqdPo2734gPKWQF6gC26eRS1gGGU8I3Bb7r8eow.jpg",
+        "https://cdn4.telesco.pe/file/QrnxLr81h5H-Vd072_XHozZMV5S8Ubn8pLnzMuClhiCLRU52LQxFSZkCurt-rAL1QrO9SP1Opp_3TENVgFCvT6BmisdW2zppD6vbOVeARI2BeMZHDIS-idqhddY0MtnGzvELD6Yg7tinkku7sAYMwfuzW3-5rD5Qe_xcZjFDE0oOGuS6q0J4koUqk8QnDuzuYN3LoTO8tqyhbKgYCmIgC6e-CRlH3ZTa2HGkPeeNZeL4DBCTqOgf7SO-YssLUckr2GpTm6tmGXad8lrTKMtwD4Pz7Q8SAmOqFtHvpxxoNTZOnhrIc_Mf4l0tJT76obzWAqF-0wgzDYsLVNt0EldvCA.jpg",
+        "https://cdn4.telesco.pe/file/P6n2aSTPMKcmtOMQgS_AGCH46N_meMMbCyIiQZjARCvMC20AD60scGeJG_0xmZkhywMHHyzXhykMJ38SjsdV4LGzT3_dyLFCStArR-x5XVBBBVmYfrKhMFRsSXQ8BwEgdRyAdcHvDZRQpBHP5fu9SAm0nmBu8Zius_IqCPxwT9msfJPdu0XCZqlIeowmSkMLye4IiyAki-u3RRGD-cDBnC1cAo-Yy5CZd1m2LJyZfa5bVxceVGbvCYU8vmrEOpwCyRbq4-2VMsJHnf1js16GoyWV9mhaixnfg1K6KMujnMuJX_LEsWBVSKwY1CPfHw2nCwiMcBQ9NG9KNMHUwE5Zng.jpg",
+        "https://cdn1.telesco.pe/file/Ty1hF5AH59BSLJ8SxvkCsOM54XHcajApr04I-dBCEOFkbQZ86hdhlzR7H1SHC8B0ZqP4UVA6dok2dXi73RyQxMxb5hEM5KZfxmfqmwMbETijNs-25m9L4tcbp_gsmIE9dck7XBO4FNnVMSyMh80j0uubdoYQJzi8myz1pgPb5lbmTjNrdOI7NynOTBeHcj1zwq8PiyoEEfk5uQwUBUabv2T-pAxAqzDXkIDRkeOT0FfXrubWtBALy6qYZhysuZY7_6FD8JCd2ssppYyMZg2_nkXpglwK7f7f9ie7cIj-A1cPaH2B6w3TmyqyhxGoyrzNBhvofCsT3T8QhHFe6_IKfQ.jpg",
+        "https://cdn4.telesco.pe/file/cvsZG5qGmBx8pz_6FapqfQzD5mQGb4TlS64uiJu77gVx-sFtz_3gyHvtkuTd32FOvME_L02AF2P0JCCoHP4OZYGMab9BB1I2hrbwEhbtA7bAzDtmqryaKVU4umLtu-IUC2_Zene_PjlWy7V0cOqjQa7xqBhl_uSg5nc5D_j6v5mAeyAHo6dGRPtuCIAmk30q0UltHf2nCKEL62w1xTHuvvWfCAVd120oQbmBYn78GLk582wnvEfvFXiTxyJiv58FoPO4WipErTFw7UKLO14OSrGzTDMATKh597cKbC_F_mOpY7ov1X3yirBswf1IB5KBuAXNkjRJKoAMuNmD7mgGQg.jpg",
+        "https://cdn4.telesco.pe/file/tNlJOEXxcwT46YUsUSLZkk3ulH1v_F_wJ2X6yr_J4_UEkxGqcnBYso4YcCcZ2oVEl1lsMEhswq-3O-Ui0m4W4VELcFpyLTD0qNZTpzRCtBOc6-OxlvPW-oIcbTuvS_gvidrFf56twbZvRgz6MYPOkZCHAUDukt_CzgrLiqwD_E2o4Kw8QM47kE1oTqlWdlpSflO91tw823jjMO56NmBoLQJreo8KGtmTfgJzcy3_lpRSUAED06H-aGUXcx5C22NragqmYf5bY7k-g0Hp71sxgAsEKwVM5shIppfRhRrWl1O_ELIt1XLkVRB_zBHMxA7pL_hR9lMxaNCB1shHStpUEw.jpg",
+        "https://cdn4.telesco.pe/file/i6pkDIAj2NWtdgZCXqJI9IFCGcyfCHRD6fWXUfCvgdalcrBvS6PegNxjOtKpHoIqo7QPonZpYqW19TV_A7RdhXO8hn1aj509BlOobNxXHpvlx2Bxf_nQEy150IpkBSQqanS_OBPe4XSEHkfBftQwnFMrBLqQeLzOsw3sgVPKWXXOFwgZtVZWV_0CwiMTMEaGSsN6N6bziCStfOxonV9FEtmRQM-UHrQYs-BgYw00M4Ug8jcR_5MmgEQC8MEIWZoELC6aGxC0M2krJAbIwsGJRggbB5PsBWzWcccRV8XONZ5bI1TSBR-2hI2HPrpKdhCRTw96ad6I84_z-gk9HZukwA.jpg",
+        "https://cdn4.telesco.pe/file/LDnK97xBpaS3Rt5kA004OAdDqp7YeoOj2BBzdeX_JVYtUEmJvqyoDNyFC_tejUQczia4Lc1is4ah1aTF8V-mPHnhFShoftl4BDx6z7oqeyT-oK94FMQt41pefzebcndIhJXW3jipI5VOUrOmsqrB6bkwA0F_XonPoFfvOj9e_bXlX8T33KgZPWGImzi1SKcY9xcviY6YcrylYNAE-xNeJNIvvSif4YiPXHcR2_pnMh_-uWV67ESrNJL-HkweYCGhCwfpzN1xd0WZaZYj4LlSBCYQmW6lNCcfIuKE--U13HaVy0ZZUSVh-htXxt7ZVq9P8RTQISxAWXOSjjM5zMV8Qg.jpg",
+        "https://cdn4.telesco.pe/file/vxhCQBkM2b5roUz8tvawdL_t2iMH-BM72Ib8YSN9dYvyzRowJmXmPG616lNEZAjQUnn6goA9tWYoU6EmP2U-FmBAjRSgpXRC20ibIQ7jyc_CkzlsImClw-Uos_8Jj2GKCf-viUJLAaWgeFgGuIkwC1vsO_DSv9fMXGtTToH381ukdWk1UElV9Q5OFskRZ922UaFR9_8I7PrcUnT9a8eKRRR8TlQs4JUPTmLZ_sPhOSszPPezuKVgenR90Hpu1ioNT-raNFahoyTpllw5dlDaoVBbk8hmh1agZEWHZEy5Qm_KKZEFglBkfxwlC1T80B4mYSFSkVBA2_7BC-ViydCaxA.jpg",
+        "https://cdn4.telesco.pe/file/Sb7VcPaYGKBNK0QCHKSoAn14eJbuUzPCbjsoeSAE3kjLVGmliXUBh-fEPPN3FhlVkM4k78lvg_JtGK4ANyXEJHScPnfeHqsLPoTbwVR-5R7xJPGDRZb8vldEyIv7dI16e2pCDvjFbGjrm2HXmNODLJ55-NrMrox09Wgoqve6mBzzidI8qCLeAfiDL-MEzKXshm3eBtEXm3ZM7FPaz8mr-M_7s92sEpINMjT86qH1o8XlJoSn4eml1O75L6TxJpEXdvSSv0ImLBvxpcg1bEVFMKoNt92UbmsRst1KDcEzEo5K17-GqGlQLQ5fwVmiQ9e20HYFGcINpqEXIAa13P46ig",
+        "https://cdn4.telesco.pe/file/vHqA7P4xiJB0Gs5Iy49DGUWPVv2X5w11oxfhjk6Ii2Ih7DoODS5vBd2EevDsMG3TOnTiLNc7biytY81dRtSGWjOhrypPICgM6Zh4Hs1RgX_hLskvRD1vGaY9ZUkgJW0sjvxAURY36dVJc0s36NrY8bPW2tm6PvtAll1kspEpZgkzwzvXvymGiS_SApbER8i7sUEzh3oEhm-SVtZh_whEg0nCznJZXh543WfFy0ehu_gOprWnFzHkDczj7AGFYME56WgoqLSrPpabJMz8Ineq49jVQ-vIQdtWwHqU2T_z-z6eynW8Q8ii8t_DBSc4OVknLANIuBV2r-7HWgzK1q23BQ.jpg",
+        "https://cdn1.telesco.pe/file/em7kEDej19TdMcfrk_jwT2XCr6GqJVdok8xZNw57qzrrecnDxaajRV-i6g3WuV4MnIsB9S3J_CEY6fuV2M9tAwbXRvF40evqTZHe9tEFUjjmOOigZnR9v9Wm8_3xj5j96ISOAvIkBsJ2BrisDOkeefvy3Aq3Ue13NP0xsIneHgloRBZ_iFaG8q2ZR4JFbmZJmUqJ_zkdZ0dLZcwMPuhGlRGGIBvdfli-aaV9ub-6EYrz93ugkFOhZBqKCQg1HsW2aLyOrwQpm7W1e-LxmdL3l4HEWeMZXXfZ6GV1_xG9JSuc_U9IcqbY1DuwPJ9lPm7BIrgXi_KiAmils1dH1cEa4A.jpg",
+        "https://cdn4.telesco.pe/file/a1BsgvTfeTdbwT2odwfHjTKQ1DwVKmFicVWWfmmZXwLbM4jeXk4XbPpvkXaV63vTGiy_D8lcufHV8f9WWUmazd6sR5bjYUskQa-WZUjzB8ArQAWJ20x2Hcp1Mp8OdeRGpEBEhFc4qaIDHFKIMnRuF-8L8mfakVBxc2-eoi0W-BEOYNT7dbWF3L6WwNRGq8eGQUGJCWpKZGBvP7t-DfYeKqsfsA3IG5MhH-LpFPy9unHQtZHUsbzBhNCrWmVc3pAZpgKKslJPAcO3ynjaim6TtmxzfTaEqegb-L7PKuYzAjVLsCpa1ddPZ301xnunQiEFxRehBptNUG4mMtJJlX-NhA",
+        "https://cdn4.telesco.pe/file/ODAzCOWfyUzPIsUvmnHqZnzgGxZu5DcQQx0Q1DcvpIj22vpAfuCu0dPCDEqMB9M2ppdEUaso6KqZROhX2z3Strv-MyKY4RZlzonCHkxJqg_KjctSTZre_nYx_s_ow8r-xXBSytAkrg5F8zoNl1EJkxKHBdWlDY2no0tzxQecj1LDWu0ozmRI6iJWowwTh6g5KL0gjL7lVR9z-6I6HyUkwJ291jVdskQNg8STdhQNCUQrnmuUUEt_srm1z8tkbCG8vgqe7qWdcf_eSaYTB4X_I52nwCbo81YqvnH9J3hRtRNhOG3HSSEIZeW1CqWqO3lFkdlngvWc7ZW_dMOQnmSYSg.jpg",
+        "https://cdn4.telesco.pe/file/GaKx6vbH4ccNA42FtJ7aG5vgHxnXcv2B1A_F1rKPn95hs-S38BNXJuE_3sHt2LorM3h1rDMAKvEh49j__Fqz4gqx4oYLXpBt85Qd6U2GhfyLgIvkElK_1zbJLfPn23gBf3NALyGAeNJ4cxkJMZrjkCHgRKBdwiz9nwTA9FfiSHdVxryLjLg4ORSBCiWIV4n6NPhj-BpGm_ec_SgtI2l_DwQyVWbRJ16taxcOzoyo1Z_7BX9k0cyi-Cmr5M0tTZv5OuZLqT8Usg8ii3D_dN0auTk7F5oDoUXfk8pHAv3nCfr0_Ru6h0VOLdq7RZyR-o2nV9hd7bMoTU_Sef9ogMwMSw",
+        "https://cdn4.telesco.pe/file/l4g9zNPRTTn6VXGwgeOUtNoFEmhRyY7W9W1TIpuNCTDtqcoVwg70QkJoLjIxW7X6MOp4g_byupo5o67m8e1PD4oEaCuxHXlVwUw10J3g9ZNFFCFJia5wwND2CpV670g1jd07hExfkMAzW7DGHZsGHfb7ngzYiCxCTt6NTYKGdBiIsocznjm6HoWZPeIQSET3Gyfau_a6YP_tGrE56MK6m7SMHZnqKqaWsyHNm6cA1pVvrVI4tjWE5WoShIBK0ezm8A_htWHR4PGf5g5lecKhxeaCWdeZADS1l2VPvj442NzRooy6_tDPf-aWEPvQ3O1-G6FYd81ELb6l16IV93SePg.jpg",
+        "https://cdn4.telesco.pe/file/S33MR9XSlDmeQJ1QgERRts1lGFolykptNyuyzs6wvHYmF6Oqu8VkPl5VXp2PRd0ns1FhFbTai2PGSvDDSsMroL5TjhzKwHAtEurBKuPG6h75GWKc2OzxL7E7fTaV5sTtzSTC21O--fnj1V4o6-pWDiiU2KmigTHyVo0LpJV8tqsMutslaBGXtOSN57t2Omp3-Q78ZDKVoCBAdqgv4AZqPzL2RBk00B-GuCll5mU0NGqsdI1OLFBb4BUQaDfVDMv516V_PSsbwAhT9cfxc6KHkFy1HMa9RdorR8tRnPM4HYzZPvcYKNds2z-1TdCDf-FxgUBobKgiBeqmIzig8SJKiA.jpg",
+        "https://cdn1.telesco.pe/file/JOF5lAFMbgAoQr2rfuOv_4y3JEpgKoFXw2OMo854NFLCejgjhohSQ9xRS1gJPjhYdwF36x8NluvBcOS4ouKBjRDhbaIBF_8eEe8GcGrjON6KLLjA6XInDskfIyUs0V8w671vMxUrbrleLYDmmgRgzbTls-msy2l79ewTQZ7uY5GJ3DK84EUAk8wje-XOIIFg8sgEHYqT4gJU3QkKN-l1ZYVfN3qf9oOm_WqfJpnkETTZLr_dC_wUBpwW2Mt8G7-F-Kd68CQ2b0AhymSveZsVFT6S92YbH_5G9LmamWKCYm_YakDih3xyhXdnjdaGa82uybOHd17J_cnGJhnTRLbRXw.jpg",
+        "https://cdn4.telesco.pe/file/n5d3gU4TKPpA4X2bgnJpAJNIneYoofhXO7CdM3OnjDOndXqYcYFtBTomSk9rAqehu8QJCPqLCZWZK_Bpb3VLxyvLW1PBb-vZuLMjo592VcoReV0WkgqL1cELhpO5RSf0ticIXVlRX1iph3YyosAJRreTUNEQG950YS7gkVZyWkMCIKMZoz52ms_H_mP1Xemh4glr5TeWv5CDK0EXlAzDTHTptEt4Zn3fAFbWGGGk-2exjK6NmkBZvPAMxc8WbBTxylM9PTAzMOkKxMj1XcJuVKDEyVysjniuf3Thks83NW01I7Vak8JFfGqtzWStMbfh5ZqgSGpXvk7qD9fshr1zvg.jpg",
+        "https://cdn4.telesco.pe/file/lEfRH6G6wFgBh6RRNXcAacKYLlFZhIy4IhtZegww-GqV0xIBw6EuI7nDZFBk8mlAsyyRxKkC-JWNLwdUS2ZiDf2frm05VslbRfBqtIWhTzke1GplOgXhrdObh5BuQesV-Cwc4SVlqaQ99wOy-Q76foMsZp96uxhOrTVKjDqTA4ZmoZl8gr6Mj-tngSYBZpT7-fvzjUSx0eMzWa1Z7FQeYdY_kHRocdyaniObbPuZFEApml8hxv3nctL9kuAqfyIOBtAy_KHdE6VcLJ9T5lDO5AWi8MENsR3Cd7saGwUJRsFhcyb2VgUOd61BTAfPXgbq6vmrmaQmjlIiRRu1GxnU1A.jpg"
+      ],
+      "weapons": [
+        "Shahed / Dron Kamikadze",
+        "Rakieta Manewrująca"
+      ],
+      "target_type": "Rafineria / Skład Paliw",
+      "is_fire": true,
+      "threat_score": 10,
+      "source_channel": "rybar",
+      "added_at": "2026-09-23T06:29:16.749449+00:00",
+      "verified_by_sources": [
+        "rybar",
+        "OSINT Multi-Radar"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "📝Kronika specjalnej operacji wojskowej 📝 na 22 września 2026 🧨 Wojska rosyjskie przeprowadziły serię ataków na zakłady przemysłowe...",
+      "text_pl": "📝 Atak na Moskwę 📝 Rekordowy nalot Sił Zbrojnych Ukrainy W nocy 20 września reżim kijowski przeprowadził najbardziej zmasowany atak BSP na Moskwę i obwód moskiewski. Od soboty zestrzelono ponad 1600 dronów, z czego 450 w pobliżu stolicy – ​​powiedział burmistrz stolicy. Według Siergieja Sobianina bezprecedensowy atak miał na celu zakłócenie wyborów, ale wróg poniósł porażkę. 🔻 Jakie są uszkodzenia na ziemi? ▪️ Kilka ukraińskich dronów dotarło na teren Moskiewskiej Rafinerii Nafty, jeden z obiektów został uszkodzony, ale nie było ofiar. Jeden dron uderzył w budynek mieszkalny w stolicy, drugi w budynek przy bulwarze Orekhovoy. W Kotelnikach pod Moskwą UAV uderzył w trzy budynki mieszkalne, uszkadzając prywatny dom i magazyn. ▪️W Sofyino dron uderzył w budynek mieszkalny, zabijając kobietę i raniąc pięcioro, w tym dwoje dzieci. W dzielnicy Orekhovo-Zuevsky mężczyzna zginął w wyniku uderzenia drona w prywatny dom. ▪️Na Autostradzie Północnej spłonął dach 21-piętrowego budynku, ewakuowano 400 osób, w tym 70 dzieci, a 20 samochodów zostało uszkodzonych. ▪️ W Ramenskoje, Kołomnej i Jegoriewsku uszkodzone zostały domy prywatne, w Leninskich, Łubertsach i Łytkarino spłonęły budynki mieszkalne, na Istrii spłonął budynek mieszkalny i budynek przedsiębiorstwa. ▪️ Gubernator obwodu moskiewskiego ogłosił, że w regionie dwie osoby nie żyją, a sześć jest rannych. ▪️ Ponad 30 samolotów nie mogło wylądować na moskiewskich lotniskach i skierowało się na lotniska zapasowe w Niżnym Nowogrodzie, Kazaniu, Czeboksarach, Petersburgu, Samarze i Niżniekamsku. 🖍Skala nalotu przewyższyła wszystkie dotychczasowe ataki na region stołeczny, jednak większość dronów została przechwycona na odległych podejściach. Uszkodzenia ograniczyły się do kilku trafień w budynki mieszkalne i pożaru w rafinerii Kapotnya. Kanały ukraińskie włączyły się w maksymalny PR uderzenia w stolicę Rosji. Mimo to w ostatnich miesiącach nie mieli powodów do radości, więc dziś szum informacyjny, zwłaszcza wokół wyborów, będzie maksymalny. ❗️ Jednocześnie wróg od kilku tygodni gromadzi zasoby, a rakiety manewrujące Flamingo są praktycznie",
+      "tactical_sources": [
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/83381"
+        },
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/125976"
+        },
+        {
+          "name": "#vanek_nikolaev",
+          "url": "https://t.me/vanek_nikolaev/43143"
+        }
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/efce585a41.mp4?token=UMAbvUvUqRwwkdxBv4FxiPnyO7PkGI-Ap2Bx_dl2Xq4FsmN1h1OHOz7tx1yTR01UPtPmr_9FNUrsbSkWyVzy0WM1b3KaBfJ0BZHCsXfS1ChasTU2Zre5ZV2bIBdiX4wGmVlxEsFzGyj4zUrMe_jLAVOQqCpSQy16qFfd2lZOPuoLCRE6Ky_5uYXIDG7oQZTrtLG8npQVjlVy29ezpnPQw1pupLoive2rUd2ei5pjra9mbk_FzKUxPZ-BDAMC0MLQNNMtf3WwujmGhpnsDjaXONwxpP6iEp7kFi4rqG39NZ74R8PTNnTYe1bWh7zzlUk0glfnEqyivib7HlJFS9vfYIWOpGPPJgrUDPjvR3m_yJOfwRxPGsEpzEljmzYPM_ib305LxFaLPd8quvZ40nG9StDJNw4Nax8aoRuL-b8n-6oBPvwGr8dv3EhiyaKqNfG_gV9yGSa5ZYGah72x-eD3NdPOT5KFLz0rHzzCgVpF21iBWL2Mh-pu7emhKtuQ6RrzYc-exPxNBiFoTJJ4PSz4BcA7I0RbPUvvLPVvJS478EhQjqh_St8RHpk-3Wpaz8lMgpmY2V0l6NDEKTgkiX0IrwOxzwQ6jsb7EQRO3f6H6YGX2g2aDZYSErWvG97giqxzjDm64dEXG5M0_9VmmbDUMpm4EEasNpxSft6FvnJPxA8",
+      "is_video": true,
+      "archived_at": "2026-10-06T21:26:52.735517+00:00"
+    },
+    "df0c378ecd134796": {
+      "id": "df0c378ecd134796",
+      "timestamp": "2026-09-22T20:40:00+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Starcie Lądowe",
+      "tactical_category": "Starcie Lądowe / Szturm",
+      "tactical_icon": "⚔️",
+      "title": "📝 Главное от Рыбаря 📝 дайджест материалов за 22 сентября Судя по видео с прилетами, за последние сутки ВС РФ устроили на...",
+      "text": "📝 Главное от Рыбаря 📝 дайджест материалов за 22 сентября Судя по видео с прилетами, за последние сутки ВС РФ устроили настоящий армагеддон нескольким регионам т.н. Украины. ❗️ Подробнее об этих и других темах читайте в нашем дайджесте. ➡️ Рыбарь @rybar — говорим о сложном просто. Основной ресурс нашего аналитического центра. Самые важные и интересные материалы. ▪️ Хроника СВО , удар по украинской промышленности , штурмовики теснят ВСУ под Добропольем ▪️ Русское вечное: Феофан Грек ▪️ Зачем готовиться к мобилизации ➡️ АЗИАТАРЬ @rybar_Pacific Южнокорейский президент одаривает американцев новыми предложениями по возобновлению диалога с северным соседом. В США хотят все больше взаимодействовать с китайцами, при этом оттесняя тайваньское руководство в сторону. ➡️ АМЕРИКАРЬ @rybar_america Пока рейтинги Трампа продолжают падать, ведущие телеканалы устроили ему бойкот , а в Конгрессе разворачивается бунт законодателей, покидающих Капитолийский холм. ➡️ АФРИКАРЬ @rybar_Africa В Конго не соскучишься. Пока повстанцы на востоке страны выполняют роль государства и на своё усмотрение закрывают золотые прииски, от западных доноров наконец поступает вакцина от Эболы — правда, с нюансом. ➡️ ЕВРОПАРЬ @evropar Проблемы с саудовским нефтепроводом «Восток — Запад» продолжают влиять на поставки в Европу. Вечеринку в честь победы «Левых» в Берлине посетили интересные гости. ➡️ КАВКАЗАРЬ @caucasar Рассказали о греко-израильских морских учениях и о том, почему в Азербайджане держат сухопутные границы под замком. ➡️ ЛАТИНАРЬ @rybar_latam Международные кредиторы интересуются Венесуэлой, американцы берут под прицел небо Панамы, власти Бразилии пока не стали отвечать США зеркальными тарифами. ➡️ ОРИЕНТАРЬ @rybar_mena Йеменские хуситы наступают на крупный город Таиз. Президент России провел телефонный разговор с наследным принцем Саудовской Аравии. ➡️ ТУРАНАРЬ @rybar_stan Узбеки присоединились к военным учениям турок и азербайджанцев (и все это у границ России). А в Киргизии решили не наказывать",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 48.0148,
+      "lon": 34.919,
+      "url": "https://t.me/rybar/83371",
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/TldFA-hXORJmlE9XFD6mGi_uGKjiMwgBrPAlfspyhQoXQ0MFhWDPoU3OCGtBVYfzUykE8fwVDcfgJHC5UBSQeJyYYwpWPLRO33af3u-WL3_tCkM1P8ZPcvmjNN_Rqm0UJTPFBA6N0xMC422fFXrpkgIQbZbcMKWMDaadqU_66bMVe_SrEfI8sdWHkQXz6UTcIK0qp2T3pAdTSuJ2ou68oHfGPjygXozsFw1hwqCb6brhqe8ASGJSvD5mwXdKcREEMRVfxgg5EjzCkE4mxIbQ0h3N5Y1ykGMAaqHvj1yfGAxcoHxgm_ozmzKPsEhaetvcyyLhGGP-fIp99ZcHsrVnFw.jpg"
+      ],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "rybar",
+      "added_at": "2026-09-23T06:29:16.749451+00:00",
+      "verified_by_sources": [
+        "rybar"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "📝 Najważniejsze z Rybara 📝 skrót materiałów na 22 września Sądząc po nagraniu wideo przylotów, w ciągu ostatnich 24 godzin Siły Zbrojne Rosji zorganizowały...",
+      "text_pl": "📝 Najważniejsze z Rybara 📝 skrót materiałów na 22 września Sądząc po nagraniu wideo przybyszów, w ciągu ostatnich 24 godzin Siły Zbrojne Rosji zorganizowały prawdziwy armagedon dla kilku regionów tzw. Ukraina. ❗️Więcej na te i inne tematy przeczytasz w naszym podsumowaniu. ➡️ Rybak @rybar - o skomplikowanych rzeczach mówimy po prostu. Główny zasób naszego centrum analitycznego. Najważniejsze i najciekawsze materiały. ▪️Kronika Północnego Okręgu Wojskowego, cios dla ukraińskiego przemysłu, samoloty szturmowe spychają Siły Zbrojne Ukrainy w okolice Dobropola ▪️Rosyjski Wieczny: Teofan Grek ▪️Po co przygotowywać się do mobilizacji ➡️ AZJATYCZNY @rybar_Pacific Prezydent Korei Południowej przedstawia Amerykanom nowe propozycje wznowienia dialogu z północnym sąsiadem. Stany Zjednoczone chcą coraz bardziej wchodzić w interakcje z Chińczykami, jednocześnie odsuwając na bok tajwańskie przywództwo. ➡️ AMERYKAŃSKI @rybar_america Podczas gdy notowania Trumpa nadal spadają, wiodące stacje telewizyjne go zbojkotowały, a w Kongresie rozwija się bunt prawodawców opuszczających Kapitol. ➡️ AFRYKA @rybar_Africa W Kongo nie będziesz się nudzić. Podczas gdy rebelianci na wschodzie kraju odgrywają rolę państwa i zamykają kopalnie złota według własnego uznania, szczepionka przeciwko wirusowi Ebola w końcu dociera od zachodnich darczyńców – choć z pewnymi niuansami. ➡️ EUROPAR @evropar Problemy z saudyjskim ropociągiem Wschód-Zachód w dalszym ciągu wpływają na dostawy do Europy. W przyjęciu na cześć zwycięstwa „lewicy” w Berlinie uczestniczyli ciekawi goście. ➡️ CAUCASAR @caucasar Rozmawiali o grecko-izraelskich ćwiczeniach morskich i o tym, dlaczego Azerbejdżan utrzymuje zamknięte granice lądowe. ➡️ ŁACIŃSKI @rybar_latam Międzynarodowi wierzyciele interesują się Wenezuelą, Amerykanie celują w niebo Panamy, władze brazylijskie nie zaczęły jeszcze odpowiadać Stanom Zjednoczonym lustrzanymi cłami. ➡️ ORIENTARY @rybar_mena Jemeńscy Houthi zbliżają się do dużego miasta Taiz. Prezydent Rosji odbył rozmowę telefoniczną z księciem koronnym Arabii Saudyjskiej. ➡️ TURANAR @rybar_stan Uzbecy dołączyli do ćwiczeń wojskowych Turków i Azerbejdżanów (a to wszystko w pobliżu granic Rosji). Ale w Kirgistanie postanowiono nie karać",
+      "tactical_sources": [
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/83371"
+        }
+      ],
+      "archived_at": "2026-10-06T21:26:52.735517+00:00"
+    },
+    "ddd39596ad43c37f": {
+      "id": "ddd39596ad43c37f",
+      "timestamp": "2026-09-22T20:17:30+00:00",
+      "country": "Izrael i Palestyna",
+      "flag": "🇵🇸 🇮🇱",
+      "theater": "Bliski Wschód (Gaza / Zachodni Brzeg)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Canadian PM Mark Carney: In Gaza, immense human suffering continues. Next door, Israelis continue to live with existenti...",
+      "text": "Jordan’s King Abdullah II on Gaza: President Trump has pushed hard for a path to end this war. But this Israeli government keeps moving the goalposts, continuing its attacks and destruction of civilian infrastructure, refusing to withdraw, and squeezing Palestinians into barely a third of Gaza. This can no longer be dismissed as temporary military measures or a consequence of war. Accountability begins when we call things for what they are: an attempt to erase Palestinian life and impose a new territorial reality in Gaza.",
+      "location_name": "Strefa Gazy",
+      "lat": 31.5017,
+      "lon": 34.4668,
+      "url": "https://t.me/ClashReport/97791",
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/vaYJIOoRvYU1UOmGFQXIpRy-5md7ooQHbcHiDCC76TjuKNDYkKfLmlnliywZ3Gvn0vvZoorsjLFbYOUMFegfugbsE5XuIK_dODT3dxi6sEyxuO7_RzoKY4b3Ij37qlH9new9eTiub_ZvXlL82N_QooNr13yIDplGcN8h7WZkq4wsMrqo72-oEwabzLC28Nv-R3nDnavJshXPCYsVl0q2J83RE7AgLcw-cHh98tTLQ3u5Fo6rkcRRVua1NHrpMPy3oFVOPwmiS0FxpwJCTs2X3KWm8NBLCOuyq2suNmi92PKd1uRbSRaS3Y3TZo2D5VJI-I5TZCuXOlKZRRJJt63p_Q.jpg"
+      ],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-09-23T06:52:40.796223+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Premier Kanady Mark Carney: W Gazie trwa ogromne cierpienie ludzkie. Obok Izraelczycy nadal żyją egzystencją...",
+      "text_pl": "Król Jordanii Abdullah II o Strefie Gazy: Prezydent Trump zdecydowanie nalegał na znalezienie sposobu zakończenia tej wojny. Ale ten izraelski rząd wciąż przesuwa bramki, kontynuując ataki i niszczenie infrastruktury cywilnej, odmawiając wycofania się i wciskając Palestyńczyków w zaledwie jedną trzecią Gazy. Nie można już tego lekceważyć jako tymczasowych środków wojskowych lub konsekwencji wojny. Odpowiedzialność zaczyna się, gdy nazywamy rzeczy takimi, jakie są: próbą wymazania życia Palestyńczyków i narzucenia nowej rzeczywistości terytorialnej w Gazie.",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/97791"
+        }
+      ],
+      "archived_at": "2026-10-06T21:26:52.735517+00:00"
+    },
+    "0c94480481c0b274": {
+      "id": "0c94480481c0b274",
+      "timestamp": "2026-09-22T20:15:20+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🛵 Ударний БпЛА з Чорного моря на південь Одещини у напрямку Вилкового.",
+      "text": "🛵 Ударний БпЛА з Чорного моря на південь Одещини у напрямку Вилкового.",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.108,
+      "lon": 34.8446,
+      "url": "https://t.me/kpszsu/79599",
+      "media_urls": [],
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-09-23T09:08:12.337996+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🛵 Uderzenie UAV z Morza Czarnego na południe od Odessy w kierunku Vylkovo.",
+      "text_pl": "🛵 Uderzenie UAV z Morza Czarnego na południe od Odessy w kierunku Vylkovo.",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/79599"
+        }
+      ],
+      "archived_at": "2026-10-06T21:26:52.735517+00:00"
+    },
+    "19ced348dd19299f": {
+      "id": "19ced348dd19299f",
+      "timestamp": "2026-09-22T20:05:06+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Зеленский: Украина готова к энергетическому перемирию, но только в двустороннем порядке После встречи с президентом США...",
+      "text": "Зеленский: Украина готова к энергетическому перемирию, но только в двустороннем порядке  После встречи с президентом США Дональдом Трампом украинский лидер Владимир Зеленский заявил, что они обсуждали энергетическое перемирие.  «Мы не хотим вдаваться в подробности…",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.9508,
+      "lon": 35.2064,
+      "url": "https://t.me/astrapress/125989",
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "astrapress",
+      "added_at": "2026-09-23T10:51:33.585215+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Zełenski: Ukraina jest gotowa na rozejm energetyczny, ale tylko dwustronnie Po spotkaniu z prezydentem USA...",
+      "text_pl": "Zełenski: Ukraina jest gotowa na rozejm energetyczny, ale tylko dwustronnie Po spotkaniu z prezydentem USA Donaldem Trumpem ukraiński przywódca Władimir Zełenski powiedział, że omawiali rozejm energetyczny.  „Nie chcemy wchodzić w szczegóły…",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/125989"
+        }
+      ],
+      "archived_at": "2026-10-06T21:26:52.735517+00:00"
+    },
+    "fd49bdfded4d7dd8": {
+      "id": "fd49bdfded4d7dd8",
+      "timestamp": "2026-09-22T20:03:34+00:00",
+      "country": "Jemen",
+      "flag": "🇾🇪",
+      "theater": "Jemen i Morze Czerwone",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Eksplozja / Detonacja",
+      "tactical_icon": "💥",
+      "title": "Yemen National Army drone bomber targets several Houthi positions, triggering a large explosion after hitting an ammo ca...",
+      "text": "Yemen National Army drone bomber targets several Houthi positions, triggering a large explosion after hitting an ammo cache, Marib front, September 2026",
+      "location_name": "Jemen i Morze Czerwone",
+      "lat": 48.022,
+      "lon": 35.0576,
+      "url": "https://redd.it/1wnjnjv",
+      "tactical_sources": [
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://redd.it/1wnjnjv"
+        },
+        {
+          "name": "Telegram (#r_combatfootage)",
+          "url": "https://t.me/r_combatfootage/42415"
+        },
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://t.me/r_combatfootage"
+        }
+      ],
+      "media_urls": [],
+      "video_url": "https://cdn4.telesco.pe/file/e8592cccb5.mp4?token=mFBhLnyMI8tsHl8D7eVkCgm1ODof5aSQRd3c1uGOF845FHpvzskT1lPj9lTA8aWPKUgcKGjYEfYp599LFshTTXDaBA-Jn8EMZQu5KZ234MxAG5mObm-ZagIyKVVmF39WaJcEozGB17XQ3sqr1Bh8Z3WWsafMURCx5CqDwHS35sucTQR4ZjgIx7OdSWLNY0qOHkAAbolzgmorlCUkiFt0M_1kQp2aOJF3K0GwXY95tCZ53FCVDZL7O-ndSVA__HAd73vQ5JuOlEbibJF4rpOjPVK6EaA_AKzHD1WTsokGKuzqEXWSY3JQVwNdBAqrESjGleuitLH49JactwaCwZ-n8YNR-fIf7OWuwNY1utU5R_3SdOR1uxVnpVBs7uLQ0IUOCnRXZrwQFYOshzCzKODoqP0VH4XVNL2NEld0IV0IfAnfYwqcny4Noz8QsTFAcAcJ2wIran3kYk-ond4SesKp3G6edLVnjcmNtAzqf80h1A6O-RsxjsqaEXez7VbWjTPeEenDKuTtdwfDlEvIi6PAx_zq58eEgOurvl6VODIGJan2t3QVbmG59ddTQNfbV48nfvf0eS34aUR5cM36bcK4dwSig7bPgfOdnRc98y44wrdQB1q-Y9wg067P1BWkjg5LRHwGhgCoz6Nt6rWuCNzWaf6wsquS7Io8q6Uibz27Zfk",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": true,
+      "threat_score": 5,
+      "source_channel": "r_combatfootage",
+      "added_at": "2026-09-23T17:51:25.848870+00:00",
+      "verified_by_sources": [
+        "r_combatfootage"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Bombowiec dronowy Armii Narodowej Jemenu celuje w kilka pozycji Houthi, wywołując dużą eksplozję po trafieniu w amunicję...",
+      "text_pl": "Bombowiec dronowy Armii Narodowej Jemenu celuje w kilka pozycji Houthi, wywołując dużą eksplozję po uderzeniu w skład amunicji na froncie Marib, wrzesień 2026 r.",
+      "archived_at": "2026-10-06T21:26:52.735517+00:00"
+    },
+    "42f9301f8edb2add": {
+      "id": "42f9301f8edb2add",
+      "timestamp": "2026-09-22T19:53:45+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА на Кропивницький з південного сходу.",
+      "text": "🏍 Кіровоградщина: реактивний БпЛА курсом на/повз Кропивницький.",
+      "location_name": "Kropywnycki",
+      "lat": 48.5079,
+      "lon": 32.2623,
+      "url": "https://t.me/kpszsu/79596",
+      "media_urls": [],
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-09-23T06:29:16.749049+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Reaktywne BpLA na Kropywnickim od południowego wschodu.",
+      "text_pl": "🏍 Obwód kirowogradzki: odrzutowy UAV w kursie do/za Kropywnickim.",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/79596"
+        }
+      ],
+      "archived_at": "2026-10-06T21:26:52.735517+00:00"
+    },
+    "27690e57190829f2": {
+      "id": "27690e57190829f2",
+      "timestamp": "2026-09-22T19:50:17+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "Россия во вторую декаду сентября почти в четыре раза сократила экспортные отгрузки пшеницы из-за украинских атак на черн...",
+      "text": "Россия во вторую декаду сентября почти в четыре раза сократила экспортные отгрузки пшеницы из-за украинских атак на черноморские зерновые терминалы и суда «Сокращение отгрузок, начавшееся в июле, продолжается. За вторую декаду сентября на экспорт было отправлено 347 тысяч тонн пшеницы против 1,3 млн за аналогичный период прошлого года. То есть падение почти в четыре раза», — приводит «Интерфакс» директор аналитического департамента Российского зернового союза Елену Тюрину. Отгрузки ячменя снизились в 9,9 раза, до 21,9 тыс. тонн, кукурузы — в 3,3 раза, до 11,8 тыс. тонн. Всего за этот период экспортировали 381 тыс. тонн основных видов зерна против почти 1,6 млн тонн годом ранее, свидетельствуют данные мониторинга  Российского зернового союза. Тюрина прогнозирует, что по итогам сентября экспорт пшеницы составит «порядка 1 млн тонн, не больше». Годом ранее было отгружено 5,7 млн тонн, в августе 2026 года — 1,3 млн тонн. Число стран — покупателей российской пшеницы за декаду сократилось до 8 против 29 годом ранее. Основным импортером был Египет, однако поставки туда упали в 3,6 раза, до 81 тыс. тонн. Кения снизила закупки в 2,3 раза, до 50 тыс. тонн, Йемен получил 32,4 тыс. тонн — в 1,6 раза меньше прошлогоднего, поставки в Нигерию также сократились в 1,6 раза, до 30 тыс. тонн. При этом экспорт в Иран вырос до 28,6 тыс. тонн с 1 тыс. тонн годом ранее. Новым направлением стала Мексика — туда отгрузили 25 тыс. тонн. Турция, ранее входившая в число крупных покупателей, приобрела лишь 6,1 тыс. тонн против более 200 тыс. тонн год назад. Пшеницу экспортировали только 10 компаний против 51 в прошлом сезоне. Зерновые и зернобобовые отгружались через 9 портов против 35 годом ранее. Отгрузки через черноморские порты, инфраструктура которых была повреждена в результате атак украинских беспилотников, резко сократились. Перевалка через Новороссийск упала в 9,6 раза, до 72,5 тыс. тонн, а через Туапсе — в 9,3 раза, до 6,1 тыс. тонн, отметила директор аналитического департамента Россий",
+      "location_name": "Tuapse (Rafineria), Rosja",
+      "lat": 44.0975,
+      "lon": 39.0761,
+      "url": "https://t.me/astrapress/121995",
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/fcOVyRiQKWmxIQ3W-8dibSGkjbRZjQTCswPsaW8W7PzaVNKXVcZi4qhxAYotUjFyD6NHRGyITcrTdrEHT96PwbLmYtkfMixtZE6Slprp-nsCJB9_FVsqrlTyFn9A0Fmst1kkX1fTsC35jZ4P45qt397UjfmwVGRO05Z-GiayU_WOLb_Tb2Q6Cl-jez6HL97XNxo2gaHT_i1h4IQpgDL-StPlc2xxt_iCofjgYb_NOnf0AAjGxeDku4QLs6r-bfqtZ7HUNREeo0Go4l8OGAFKWD43RBAlJb1IAhsq0HyiD_hMr7zw6Gl6cJESdj7MSNA34MZr92FQmj5Gd4hb1hfH6g.jpg"
+      ],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "astrapress",
+      "added_at": "2026-09-23T10:51:33.585217+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "W drugiej dekadzie września Rosja prawie czterokrotnie ograniczyła eksport pszenicy w związku z ukraińskimi atakami na...",
+      "text_pl": "W drugiej dekadzie września Rosja prawie czterokrotnie ograniczyła dostawy eksportowe pszenicy w związku z ukraińskimi atakami na terminale i statki zbożowe nad Morzem Czarnym. \"Redukcja dostaw zapoczątkowana w lipcu trwa nadal. W drugiej dekadzie września wyeksportowano 347 tysięcy ton pszenicy w porównaniu z 1,3 miliona w tym samym okresie ubiegłego roku. To prawie czterokrotny spadek\" - cytuje Interfax Elena Tyurina, dyrektor departamentu analitycznego Rosyjskiej Unii Zbożowej. Przesyłki jęczmienia spadły 9,9-krotnie, do 21,9 tys. ton, kukurydzy - 3,3-krotnie, do 11,8 tys. ton. Łącznie w tym okresie wyeksportowano 381 tys. ton głównych gatunków zbóż wobec prawie 1,6 mln ton rok wcześniej, jak wynika z danych monitoringowych Rosyjskiej Unii Zbożowej. Tyurina przewiduje, że do końca września eksport pszenicy wyniesie „około 1 miliona ton, nie więcej”. Rok wcześniej przewieziono 5,7 mln ton, w sierpniu 2026 r. – 1,3 mln ton. Liczba krajów skupujących rosyjską pszenicę w ciągu ostatniej dekady spadła do 8 w porównaniu z 29 rok wcześniej. Głównym importerem był Egipt, ale tamtejsze dostawy spadły 3,6-krotnie, do 81 tys. ton. Kenia ograniczyła zakupy 2,3-krotnie, do 50 tys. ton, Jemen otrzymał 32,4 tys. ton - 1,6 razy mniej niż przed rokiem, dostawy do Nigerii również spadły 1,6-krotnie, do 30 tys. ton. Jednocześnie eksport do Iranu wzrósł do 28,6 tys. ton z 1 tys. ton rok wcześniej. Nowym kierunkiem stał się Meksyk – przewieziono tam 25 tys. ton. Türkiye, dotychczas jeden z głównych odbiorców, zakupiła zaledwie 6,1 tys. ton wobec ponad 200 tys. ton rok temu. Tylko 10 firm eksportowało pszenicę w porównaniu do 51 w zeszłym sezonie. Zboża i rośliny strączkowe przewożono przez 9 portów w porównaniu do 35 rok wcześniej. Gwałtownie spadły przesyłki przez porty Morza Czarnego, których infrastruktura została uszkodzona w wyniku ataków ukraińskich dronów. Przeładunek przez Noworosyjsk spadł 9,6-krotnie, do 72,5 tys. ton, a przez Tuapse - 9,3-krotnie, do 6,1 tys. ton, zauważył dyrektor Rosyjskiego Departamentu Analitycznego",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/121995"
+        }
+      ],
+      "archived_at": "2026-10-06T21:26:52.735517+00:00"
+    },
+    "78eb436ac3e5ccd4": {
+      "id": "78eb436ac3e5ccd4",
+      "timestamp": "2026-09-22T19:49:23+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА курсом на Одесу.",
+      "text": "по бандеролям на Кременчуг минуса  общая по дерьму на сейчас:  1 пролетел Николаев к Дмитровке  1 управляемый реактивный летит с моря в сторону Одессы/Фонтанки  4 курсом на/через Тузлы с моря  1 в районе Сараты Одесской области  1 управляемый реактивный с…",
+      "location_name": "Odessa",
+      "lat": 46.4825,
+      "lon": 30.7233,
+      "url": "https://t.me/kpszsu/79595",
+      "media_urls": [],
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-09-23T06:29:16.749052+00:00",
+      "verified_by_sources": [
+        "kpszsu",
+        "astrapress"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🏍 Odrzutowy UAV skierował się do Odessy.",
+      "text_pl": "paczkami do Krzemieńczuka minus totalna bzdura na razie: 1 leciał z Nikołajewa do Dmitrowki 1 kontrolowany odrzutowiec leci od morza w kierunku Odessy/Fontanka 4 kieruje się do/przez Tuzly od morza 1 w rejonie Saraty w obwodzie odeskim 1 kontrolowany odrzutowiec z...",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/79595"
+        },
+        {
+          "name": "#vanek_nikolaev",
+          "url": "https://t.me/vanek_nikolaev/43139"
+        },
+        {
+          "name": "#vanek_nikolaev",
+          "url": "https://t.me/vanek_nikolaev/43138"
+        }
+      ],
+      "archived_at": "2026-10-06T21:26:52.735517+00:00"
+    },
+    "4685ac858247d111": {
+      "id": "4685ac858247d111",
+      "timestamp": "2026-09-22T19:47:25+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА в р-ні Кагарлика північним курсом у напрямку Києва.",
+      "text": "🏍 Реактивний БпЛА в р-ні Кагарлика північним курсом у напрямку Києва.",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.1232,
+      "lon": 34.9916,
+      "url": "https://t.me/kpszsu/79594",
+      "media_urls": [],
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-09-23T09:08:12.338002+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy BSP w obwodzie kagarłyckim na kursie północnym w kierunku Kijowa.",
+      "text_pl": "🏍 Odrzutowy BSP w obwodzie kagarłyckim na kursie północnym w kierunku Kijowa.",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/79594"
+        },
+        {
+          "name": "Dowództwo SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/79590"
+        }
+      ],
+      "archived_at": "2026-10-06T21:26:52.735517+00:00"
+    },
+    "a4e2cc62f321728f": {
+      "id": "a4e2cc62f321728f",
+      "timestamp": "2026-09-22T19:44:20+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Obrona Przeciwlotnicza",
+      "tactical_category": "Eksplozja / Detonacja",
+      "tactical_icon": "💥",
+      "title": "📝 Удар по промышленности 📝 Ночью на 22 сентября российские войска нанесли комбинированный массированный ракетно-дроновый...",
+      "text": "📝 Удар по промышленности 📝 Ночью на 22 сентября российские войска нанесли комбинированный массированный ракетно-дроновый удар. В Минобороны заявили о поражении предприятий металлургической и химической промышленности, ТЭК, ВПК, портовой инфраструктуры и судов, связанных с интересами ВСУ. 🔻 Цели удара: ▪️ В Киеве целью стало промышленное предприятие «Файер Поинт», производившее комплектующие и боевые части для крылатых ракет большой дальности FP-5 «Фламинго», а также склад горюче-смазочных материалов «Грандтерминал», использовавшийся ВСУ как логистический узел для приёма и распределения дизельного топлива. ▪️ В Днепропетровской области удар пришёлся по металлургическому комбинату в Кривом Роге , выпускавшему продукцию для военного производства, и трубопрокатному заводу «Интерпайп Сталь» в Днепропетровске — производителю металлопроката. В Павлограде поражено предприятие «Соврахим», выпускавшее твёрдое ракетное топливо, пороха и боевые части для баллистических ракет. Также заявлено о поражении трёх логистических центров «Сириус Экстружен» в Днепропетровске . ▪️ В Полтавской области целями стали нефтеперерабатывающий завод в Кременчуге — ключевое предприятие ТЭК, выпускавшее топливо для ВСУ, и табачная фабрика «JTI Украина», на мощностях которой организован выпуск боеприпасов для стрелкового оружия. В Винницкой области поражён объект железнодорожной инфраструктуры в Виннице . ▪️ В Одесской области заявлено о поражении двух логистических центров в Одессе и центра «Новая Почта» в Ильичевске , где хранились и распределялись грузы военного и двойного назначения. В порту Рени поражены объекты портовой инфраструктуры, использовавшиеся для разгрузки военных грузов и ГСМ. Кроме того, на переходе морем поражён сухогруз. ➡️ Часть заявленного постепенно уже подтверждается. Работа ПВО и взрывы зафиксированы в Днепропетровске , Кривом Роге и Павлограде — именно там находятся несколько важных для противника предприятий. В Киеве загорелся склад, по некоторым данным поражён склад ГСМ, ",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/rybar/83371",
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/t4cEPTiJBkMlE7Qrp3YmHnQ5h2Lxipk80u2jaEoLYIElLI4YBBjxLt1U0lbTLbpHEQQM5AerDrtYUNQmYi9Fz0L12JbrTvU49LNMy-ar6aguptPB_z1YVnJ8e_0ycFzmiDaNJfXyrHiBqzp02xy0JCTEEPPkN7_YR1J1kzpCE8y7UC7QhkZI-xooIjuckZ8lVBUdaJkm6Lc4xpR6l9iwQyeG3sQERdUkd_LbtKP5E1ArnLqnv92LeDRqbb5TeIoxSFi93ZXh4Yz_bkDLGKMVUSIBQkVQPeWSM4mB-0H_vUdd3aSfNJ1A1nmOJFTdjojMjO_aGYefTwdBZ7UwLycc8Q.jpg",
+        "https://cdn4.telesco.pe/file/Wm2IARMe2Cr_RbIVVJBmA3tMlzI89_ARlO5Io6L4vW9lk9U1fBwTgVRoYwca1PIm0ZqI3Oo1iQTa9ksbUPw6DI2AcyopIbX-8PHSUsNNw0c82-M7wHHF0j9cuzPd2h4S6mTSXLDQ_AirWDFsKIlc2WyFbEnm2gWl8viPu2vkL_eERI-ZN1N9IH9Aha5iXZrQ6HnWxzgbYiERUN379CT8BaHbo53thDmCUOS6kaw3f3793vezOV8G9YZznPUuePV1gxSOjR9F_hFY6wqKgl2w1Pz_yNZ6WrhiyGkpFBlNyyM-hwp8T4ysOimWsWJ8Abud1_rMq2YQM_TczCz2F7_hyQ.jpg",
+        "https://cdn4.telesco.pe/file/eUHh0Wdrvvb-DDZS7WRluTuSyWiwmoMsOO1PYy0Wz3UlWP7J_gxFB_DjVRHVbmOx_J21WGjvvz86GfM8iRyRWeaWa_8Xcehc1zk7ZPhAi0Cs8kpkg6sOXr4glUbF76XLLaoOkGrU5SAEokJG_gOnF1Y1UIifKprLTEQqtrWo65GJF0FnNfK5DCIfT99XfZKSyJEVblP2uPeyWq_MIggoBt3F3NzHFe4hbsN_0u-Ljq5K3fuHEbeCpw7NlQMl1QZ2kfQhUmoezKO_5PJ8dQQsjOfNgXw7RjjHYKBk05RM51gb_aeQtFErhHrWQw1_VvfqJ4U-z3oz8lw4WpZIFU9SGg.jpg"
+      ],
+      "weapons": [
+        "Rakieta Balistyczna",
+        "Rakieta Manewrująca"
+      ],
+      "target_type": "Obiekt Przemysłowy / Fabryka",
+      "is_fire": true,
+      "threat_score": 8,
+      "source_channel": "rybar",
+      "added_at": "2026-09-22T19:44:30.144639+00:00",
+      "verified_by_sources": [
+        "kpszsu",
+        "rybar"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "📝 Cios w przemysł 📝 W nocy 22 września wojska rosyjskie wystrzeliły połączony potężny rakietowo-dronowy...",
+      "text_pl": "📝 Cios w przemysł 📝 W nocy 22 września wojska rosyjskie przeprowadziły połączony zmasowany atak rakietowy i dronów. Ministerstwo Obrony ogłosiło klęskę przedsiębiorstw przemysłu metalurgicznego i chemicznego, kompleksu paliwowo-energetycznego, kompleksu wojskowo-przemysłowego, infrastruktury portowej i statków związanych z interesami Sił Zbrojnych Ukrainy. 🔻 Cele strajku: ▪️ W Kijowie celem było przedsiębiorstwo przemysłowe Fire Point, produkujące komponenty i głowice bojowe do rakiet manewrujących dalekiego zasięgu FP-5 Flamingo, a także magazyn paliw i smarów Grandterminal, wykorzystywany przez Siły Zbrojne Ukrainy jako węzeł logistyczny do odbioru i dystrybucji oleju napędowego. ▪️W obwodzie dniepropietrowskim cios padł na zakład metalurgiczny w Krzywym Rogu, który produkował wyroby na potrzeby produkcji wojskowej oraz walcownię rur Interpipe Steel w Dniepropietrowsku, producenta walcówki metalowej. W Pawłogradzie uderzono w przedsiębiorstwo Sowrakhim, produkujące stałe paliwo rakietowe, proch strzelniczy i głowice do rakiet balistycznych. Ogłoszono także porażkę trzech centrów logistycznych Sirius Extrusion w Dniepropietrowsku. ▪️ W obwodzie połtawskim celem była rafineria ropy naftowej w Krzemieńczugu, kluczowe przedsiębiorstwo kompleksu paliwowo-energetycznego produkujące paliwo dla Sił Zbrojnych Ukrainy oraz fabryka tytoniu JTI Ukraine, w której zakładach produkowano amunicję do broni strzeleckiej. W obwodzie winnickim uderzono w obiekt infrastruktury kolejowej w Winnicy. ▪️ W obwodzie odeskim trafiono dwa centra logistyczne w Odessie oraz centrum Novaya Poshta w Iljiczewsku, w których przechowywano i dystrybuowano ładunki wojskowe i podwójnego zastosowania. W porcie Reni uszkodzone zostały obiekty infrastruktury portowej służące do rozładunku ładunków wojskowych oraz paliw i smarów. Ponadto podczas przeprawy statek do przewozu ładunków suchych został uderzony przez morze. ➡️ Część tego, co zostało powiedziane, stopniowo się potwierdza. Działania obrony powietrznej i eksplozje odnotowano w Dniepropietrowsku, Krzywym Rogu i Pawłogradzie – tutaj znajduje się kilka ważnych dla wroga przedsiębiorstw. W Kijowie zapalił się magazyn; według niektórych doniesień trafiony został magazyn paliw i smarów,",
+      "tactical_sources": [
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/83371"
+        }
+      ],
+      "archived_at": "2026-10-06T21:26:52.735517+00:00"
+    },
+    "f68835d7341ba8c3": {
+      "id": "f68835d7341ba8c3",
+      "timestamp": "2026-09-22T19:44:09+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Infrastruktura & Logistyka",
+      "tactical_category": "Uderzenie Balistyczne / Rakieta",
+      "tactical_icon": "🚀",
+      "title": "Трамп заявил, что хочет снова встретиться с Путиным — по его словам, формат может быть похож на встречу на Аляске. Заявл...",
+      "text": "📝 Историческая милитаризация 📝 Пока внимание мировых медиа приковано к другим точкам, в Восточном Средиземноморье руководство Греции реализует самую масштабную программу модернизации армии в истории страны. Общий бюджет оборонных контрактов до 2030 года превысит $30–40 млрд . Страна официально вошла в топ-10 мировых импортёров оружия . 🔻 Собрали всю ключевую информацию по мега-закупкам греческого ВПК: ➡️ Воздух: Кулак 5-го поколения : • Американские стелсы F-35A: Заключен контракт на $8–10 млрд на покупку от 20 до 40 истребителей. Производство греческих машин стартует в рамках Lot 20, первые поставки — в 2028 году. • Французские Rafale: К уже имеющимся Афины докупили еще 12 истребителей новейшей модификации Rafale F4 (~€1,5 млрд). К 2028 году флот «Рафалей» вырастет до 36 единиц. • Модернизация F-16 Viper: Прямо сейчас 83 греческих истребителя F-16 обновляются до топового стандарта Block 70/72 ($1,5+ млрд). • Вертолёты: Идут закупки американских AH-64E Apache, UH-60M Black Hawk и противолодочных MH-60R Seahawk. ➡️ Земля: Ракеты и тяжелая броня : • РСЗО PULS (Израиль): Контракт на €650 млн на 36 высокоточных систем с дальностью управляемых ракет до 300 км. • Танки M1A2 Abrams (США): Финализируется закупка до 100 тяжелых «Абрамсов» из запасов США ($2–3 млрд). • Модернизация Leopard 2 (Германия): Обсуждается контракт на €1+ млрд по доведению 170+ греческих танков до уровня 2A7+. ➡️ Море: Цифровые новинки и итальянский б/у импорт : • Фрегаты FDI (Франция): €3,5–4 млрд за 4 новейших цифровых корабля от Naval Group. Головной уже спущен на воду, передача флоту — в 2026–2028 гг. • Фрегаты FREMM (Италия): Свежая сделка в формате «2+2». Афины забирают два подержанных итальянских фрегата (Carlo Bergamini и Virginio Fasan 2013 года) за €460 млн. Итальянские противокорабельные ракеты греки планируют заменить на свои Exocet или Harpoon. • Подлодки: €500+ млн выделено Германии на глубокое обновление четырех субмарин Type 214. Основным поставщиком оружия в Грецию остаются США , кон",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 47.976,
+      "lon": 34.8926,
+      "url": "https://t.me/bazabazon/49340",
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/q-2mhUmOT9zpqcqvSbIS_uGcdgsRXmNmtPuDkwq0WbadE09h8QLZ0JHVl6FNpb2q3lE1kjWmghw-KLK11y2VfaW2t_aGrkRNq5a5vHITH8Fd88dpUlG3jWhiYTkEdamvTVIHDyb4-cL4612U-JvNdK53wK5T6nFJf3GzPHsG_9Edu6rwQpXLT5UwHyhFg7jdknODSyoIIwlaBCzckP9E_fFjMVDM_42-Kn03aKPjRThLinWCMCg7QpezQIyA3KUcowYi0VGJdL2SMtKU2Kq3fJqQRbgY-xEg6Lv3YSz_G71lbjZpHaJlmnpYb5HIEXNlX_VvwBckFYFUJSMM6_LUQw.jpg",
+        "https://cdn4.telesco.pe/file/v9l_0C4CyhGZ9LEF2ODX1jtpkqsXEOA3a3rhotcxYf598iq4Mg9RO8_pGw9COqqaqh8i5Bf7kgZho4dka5sSsxL0ZJDkhtQM6N3uXvOYYG88lTX8aLk5BwsHIMcmy_klQxx9ZQpbjIHZQontiYPPr081-bqS254cOQ269EQW5bE9v3ZkgBjr6A4XkTHYioqiSDR6fPwSGs8Zmqcy60it1RBvKV7GLSYCyXUWLiJADSHaw4UtCtDL3AFC3cZLoYnuVfqcDlSHA3MMDU3EkKL1xdzV4SHM-SkqE9Io1_hFJSs3rRWQ9xlvvim3-h-SY4pr4Qkqs3ck125kfT6cAm6yQA.jpg",
+        "https://cdn4.telesco.pe/file/QoQB1LZakkPxqPK_b7QEUAvY-pehtDH85phEoa6sTBFNsVa79GdBKafQe5H_VrFuRf7R1aRA66m6JBWO8lk51zXOQjwRVLu4oXNhm-oK8qxpZuflzVMENCe5Dh7j2G3Dv8xwpkhH0LyZ1XEUKqh24tJy7YSg8AVSCayIuoXYqdhscYeULFzseSUmEEPAbT847KJJD8Ndp4Vpfs9x1M-LqIj4Q2krAH_toNWbrDh2ERA-45RQMFWiugEpE3qw4ISDrg_93HIJhEV1jMGZueHkA2RrBJLjSrpH2WeTnIgO-6eNGwKEQWtmeGFsG0Z-lMH6Dh_Z0w71dhzk0FtitsPxlQ.jpg",
+        "https://cdn1.telesco.pe/file/LzQWowWRpefMqesE1AvEO_uJVYs9ry62rhaxZjp_VS09Hu6xOz5p1nUjH0JH_nqztnH4dm8_i2IxzFCett-JY5gHLG_S4-HVeK9-N457Kfh4zIh6hIVVn4BP4WmmwtMs2vOBFgoTh-PYMu2JREfOsAu5OUWc3GC4DorByGYv7XyJ5Wwl8NXGJgHTq8ijPax9DFTJau4hJK0V0um7C9i72wxs96PgAozzQDhbsGdq6DB77W2orenUt-F6W-r98WXtoORC1bBIYB4lPuwgJncoL6faVkl_el5-cIXCnlCgXILFWsq92rlb9gawQCeR5mTyrPNUWxSUyfYp7m9fnnEhew.jpg",
+        "https://cdn4.telesco.pe/file/Wb70dgqrkgWuOMy-Ule4kqllNcaJS7aLmwTq7GFz7SVdY2tT5-auhI9vqmHd10V88HQb3tXwQ8MVFD8yy0v6x2Jn1fgGWE5nIWoWzAtCtsMTQkIxTi7JzbKQsNW8UcJBkglVGSIPgikKiudGoI49ZFcbtMC-YCIo3tKWoxU7pVRdMzHTqLihLYYvZhHRoDZ9-0ieV7-_nhhJlnOtznWi8uKH4tCARajItbnfQOassbS4vOpeI0MQkFS0OhcJag2quYR_CjOTNyF17z-EkHYC_Pd5sWVXT2OBwC4y56hD2c0O8gDbh7w1Oe3rG8ittng1TjdtfQBTPZY5ZYCjGllsKQ.jpg",
+        "https://cdn4.telesco.pe/file/czbocvb5pQKJewy8oIY7MKmx80O-VTTJVDXnQKbeEoCQrxQoLEW7Y2EPrQEvpCSuOS-uNQ-a2YWDMSTTxI2JjnSZerMNPu-KSGLAELYX3XoBaB9U1u-40_qL7FMDuM_wi_6Imx3DsRTMyQPWp_GvD5QjzeuzKPvpE9IiwblXEDrRCAHec6mVfi2-DQnr_dZSwSgNg_dtanco9iVfejSy9nQJEEaDzMTFwh7SOxOiiWlkiJOHmybGIpjFRNwdjj1aXtHM_uEVqOHvTN60EADdC0hkIKf_F9AnvzPH0RPSCGjZ2U18X44DmI9dJVTQqFv0r2HG9U7qmZXdy8aoNFmo4A.jpg",
+        "https://cdn4.telesco.pe/file/HO3pEHuuV6kyAv5N9vbi1UkZsG8hn0cZlGk59WVWJHbM_ySOrIO_6yiGBTaAu-pMDHhzL_9mM23UBV3KDxyO4K_wfnl5WSHP5C246DcBPThhgwiqLUAsOBytsz3Ai2rqclKRVqKFIEyTBE-2e1vPAmo9pBDwRJBeTHGAsjQhWa8uJgj0gU4PzzNo4vUJ_TZ4ihek8DllrUOCbFMfTgADflmjI_4PIyKis3Dyag9VlmhT-1uBKpwVyD4iTT8jxVKHrafGJpOZ6BqtdtB7tupmBitK0sbH69YPKesJIQkGmdrF20x1LGFAhoNI-oyL10V-MvNHlDjX7fNboKrtDhUKlw.jpg",
+        "https://cdn4.telesco.pe/file/UC2JQstpngj27KtsxHPyx4gLwg-li1JB-cTspbvmbHRTVIdj_00LMmreRxGzA6-MZxa2Mozcek2P3pecUT2qnXB1vzu8Bz36Fi7JeNBIUlcmh-9OQymy5WjQ-eGiAPkJEgXoYX5qM3z8MqPOQPDGVWzHzGhrHH0NlZ0BHUN6ufdqOYuJGRXGfiS3Qp5-_JyVdErdnrm1HcAANR4nyW-w9z1P2wBxA3OrvLStrPdcA54IA1gCPMyeb-tiYEX9_Qn1sQGsVA0l9W2nBl7QLr4JOmSKKKBCptmjqItrMbLmCRrae1468cbReD39VNCVSC-G-58OzFgq0AzX9wYoPSmUvQ.jpg",
+        "https://cdn1.telesco.pe/file/GBXR48DCECrFtAVX5gwR0uFitaZF9hvxKgBp-lGtXrHa-VYAPb8nA6_IYDZf9yT_6IL7Biw__Q4Eb55HevQ6LYKFjKIJPk7WTXCW4d0nFpvfNs5L34Zr67o2n-v_KC8id5Ya3e0Q4nA-e-kxGYh5gkMKYi1HeLtOHL6Xe81FB7aKpyP_KHE15LQfjwpPz4m4fj4X97Dy65R3cbcIwdiRvL9-a0-nqvrQ9VjIhbPb_dAw2xtq8Wr26PzEp8RvUWnlQjpTu66e1L7eavIXY3Yxb_tQmWOgvQuP13LprYUZ7FLT0UTHiKV-IaHI4GYLL_56QlY3nbRDnCmsGPtG11hAyA.jpg",
+        "https://cdn4.telesco.pe/file/GAiXqdvkOziP11sDLXTGNe03sl0243ubhSS2xtqy5GzLha3F7GDBaPdA_1sfD9bszLUHSaHZ37mXW9VcY5Bll5fffzMNQ8NfA36d9he6QM52o2eIRPwmB2MgxQy0rskTJUEpCiw1qQRzVg1ReNQVyMRZwBdltl-Zz53yZ9X9hkcoR7GCW_LppNsLb6Ali5TZBMP5w-bacYZ8fVhuC_iNj2e2jPADjwHnp0spvBh60j7SiJ_bQS9Ud3eCfGnwQGAquwtBdQ5vgT9Xtd1yHzyMMVe-jDim3a3QlKPfFGczG5KTSYhyKR8UFqgEb2upgblTg5Z4m8mKSMdHq3XLLk_m-A.jpg",
+        "https://cdn4.telesco.pe/file/v3BYHvffr-JXR5TzqUCFM-WhgpglQJGzM9-V_nnFdz92FTGSIO5tI_FIqF3RENnnMBimi4WsgD_ogl6ZAueif8eJpMcpLBGvPBtEIGjkUunALPOwXWnhLfOZHvOlHLCV1TfUPR5TYtgwpNQc64Cv_xb5J0us5ICQ47w7YiowjkQsz8YTNGcJHL2ElBoMRSuDl3nFGLt5bLdYOjboaL0EKPSSUkXW2s_jMyICam39zy4ZMFsP1jPSFz3UfBgqBcZk_dRak5PW6jv4WsQ0dHu77MvWVwApPU1gAYRQPkoKUnnrjo8_uQS8fyOA_dxTFA1yget0Hj9lFLSUXSbvo14zbA.jpg",
+        "https://cdn4.telesco.pe/file/IyhgADmhT2XvAi2BvkneCHu-E38-xWa0EkfW74mvAOrqm4536Pt1aq4VstYMed1S8ZDcRrnIMqxLLtuWTSsBU84eIZ90ry2E4A5TnBmoTZJqhsq6dLE6ErUg1KxUZuXJL-rpt9aNKoY1d245oUrHGqaqlZEPVNLix5HephIsYSggiURWPyHRMiF8SxIkoKOwUVExPuNn86FA2CJOj-rwrjueitHeUVoKbyJ0V6J9LD_KeC60vmE9toh6wN61H9FoF5kXIjQ24IXyXDGNYlQLCSkZI4NBIe66SBIcfSq2kxaUD67Q1xkKzm9s2s-2rMY9fj5Dmsff9KgcI2Ll2FUZbw.jpg",
+        "https://cdn4.telesco.pe/file/AkNi8AfNCvZdX3ZC7hNsjZ82WIPp_sR-Cfa_2cyJ4Q4qP4f4FiE1XpwT8b_sGcditV2Y54n22Fob4AizNEym8VV9C0BeCKkhEKrryLRTN1il7j-H4tviGMAjSF_-bEH98DZLE3ywSbhjgoeLAIiIqFaGhfRJYh5EgPK9ubNTVocA9bW-IXwQ0M39CLaxtRNMl2m9UwFkmPqTKmT2hVklkwHR6rwj2xYAwv5IwDmsvVdNOqfMg7xEAmrm8CtzEe4vVmndnw5KUr5DMS4Tfw5Tb63_Bo5VZj0Dln_T3-KohzFAJ7TL1O2whyzyX8SnODZmIJGyfvG7ltND8RRPZM1hVA.jpg",
+        "https://cdn4.telesco.pe/file/hQBAKNv01Lruc0H5T8EQPhyEMa9MCySngQ9vTWbp7rtHo-0klINLevVQabgO2K9AEdY3XPya1lcWGP8r-oKJ9eICAaJu54pykfbOiz_NIBhrtbW4Fq2yArUMcNKwttAK8mvbSY-ufMSDHvMht2eRHGFjjcXKrpQ8jlIDF16pjFa7OOwPWQYliSEPg47LSNAOvOPFc3BquSucSay2rXJyDez0wY-5U3ebGwvTNA1rGTSnUMX35uBdfbtvkIbf8cot5fIr_FHpXuWLF1yjTyh55Tk-ytvOqmSVvh7ZDPIEDV5G_kJrb639iQczpkCIhUV5jVibL27OgGjTjxRFMPm6iA.jpg",
+        "https://cdn4.telesco.pe/file/n0SLhDRgYkcaATHrzYbEhfQT0FKlfkFetCAUq1WN2FECOZBGlzHmp6397ZXBLfef5MkBIQI6KW_uwrhclzAFlnzjvkbvfhgDs02sSecoR5JWiG0VJhHD6mZ15o3UvPuj-7UmdXuGQtzzgqdMGzSnyN2_nX8lxUI8dxVpul6NOJ_9zJpP7dP7NWKeT5jp6d8UNTlILnsmlUwr5t8NgydDKyJ89sk2nFpbcGCq9uXGSsRiKqGJ43eOEeZzEc30FgQLJczujpqOr50A9GkD3feVhc6nugtweTgPA3gjDl0i9Twg2QLlr-OmA4c9vxeuR1Wb7ExB6wIus8zbEuNBUD6kNA.jpg",
+        "https://cdn4.telesco.pe/file/MWkS9C1A5AxsNnquZKCo5t_9pzOXIWoU11C4hEX2Q34ekNRjr0W3n2JP5GuY7568uoWka8GPAhL0X56FxktZTUFNAYAk-0IzQlbrWQ99Slq5T6MwVgk9he4ozbVBTbcWCS0hjD8WsCqWfA9NlpmRGheV92OQkTfSo7VGXtEP30N3PZUv040hcPyS6maUky0RdGxSv3Ww44qXWxJU5z7ITxcpCLSsQIy-ZuzRYt7enXQw-kBt7UHJQohEaetbJsr1cDSjwZsGstutV4hWs60jLrQJyaUod-mjrXjVAhhpA9DKtJaCAe2CkgZswRHAFu-N0GUFY-o-2tmuY95Km1r94A.jpg",
+        "https://cdn4.telesco.pe/file/eeSeMEtlCl_rGXrK6SwXbZHU9PMV6VuVH5eo2Tkexcip3Y_K_y9_YcmOlRKJvd_rggzONOBRqj3FnmocfrrmDf2AzBUmXLiMVLYfYWKQK8SBSt7DTKIJ4KuzECMdk0T2ndpbk_JhkrV0TVGA_4XAjMWy5kdgk83V3VK8zyNLeTUpftzXmusrlJEkEfVImiTMDhpGgpAOuJ7R6YXLVezAujChNGtxvjiy4d3iL6x_FI-WPRhnPcV__kcnF_q2jm1meZPpAcKVHbuiJC4F7AwC6hpPWKa-8tOGgYEz3HszRxfyxph7D1zPKUunaVWAPSrmbDqDHPUn5jDVFpIBunfgMQ.jpg",
+        "https://cdn4.telesco.pe/file/V9RYf2DAKsndQaIusdjTcksO6lb_25L7tCWPYyZKmaowavXGC6OImmM3RRZA85sr6nwgcmHrpDzQGunLymEfbcZfePKCwqMGJOCTbgGj6lGxO-gWwKdZbeTwdBCUR5V76PBYHnUsnKjWGbypHjc06Qdhdbhd8GaFKRlwXpeX4TLdXFL6wDpC6UupaKw_60xsB4UIOVZqSHAm2fUDqZSQsrOA7x6UCEKf9ldULDsEFO01jpHc53byKVi5X8AwxB4uo-XqlLS71piE6wDWnFM4WZm_DkB1FvhM06lWoRCLInJZCZfiK6bfVFOolOB2kY0OOKeGs3JrRgMM6u3xUxlEVQ.jpg",
+        "https://cdn4.telesco.pe/file/NcfUlx7McefKqA95lCnm5gy11QUaq47Cvrm7OEBrehkZzx-uYiUiGRJ44Pv6-2hGTxC5YsyKeFMONdF3NFf-XujnqsuwMyP317ZyCWcm1hkqu0Bqt3_XJORUBXL_4jE9GvDeBLyr6AUkwIDR9nefcdvMTfMrDgyItrMGk0YgE2UJutXTKYrG2vxd4PSzn3k7tVfVyrJqz8VtZe5I6L_ZI70uDuN8kipkCKD9BnhBqf5ouvLS-J3fl6y49QnAZrLdyCweZ_hGQI0br2U8lj2v9EXoUl7UP8ekRJBRCK3a8MBd3QBCL2gXB2dOVL1xxhFTYmi1HHpdLbzvs8R_wn1bUA.jpg",
+        "https://cdn4.telesco.pe/file/apFwkchXGxbI3-zTwVcP1RrgolMOSfEpUs9YKebxXn6ttj0N1NN-JaQfs_-L70ffi3yoRr_r0-hWIGyw8GWnxH1dintaHcRdfX2sPZVaiGsDb8R9xRLAQE6AGfTUAi8X_wSaW_28RRkQuzqiE53uiLIl5adVh198USez3QPOWyulUS26iSy3yUxbmcWho7gAHONyHuEYR6ejuIOSDf49jLWHMn9DTkyeOeryG1fLki2Cv7MwFCuUY8TT4UcuYEn3ecVf-w_ti1e0c-o6TJm7U4VFgbi-9V3A94ZKMZZ3sljYX2oaq7qRwYtHqzAhL149EKQFNJVSwcOSaL2j4CKupA.jpg",
+        "https://cdn4.telesco.pe/file/sItecnY0yxpgtOVKmgIECI-Ak3nqLcJ1l5Zbp8ad_Aivn5Q5NgAOImF1pczHTCDXBgUFuVdLupc_svaCXDQgp4C8f-7R4i2kvHhErCQ_I6juD8KpiSZ56y55TcZiAijqFT2nzfVMKoa5ngWu_dYJ4wfTacqEU3bVARzC_JpcNaGDNXRqoEn8I-wwxilzC6ncqwLPmUIalNHUFUQgfviQoSnU9-ukuvkz1v6dPdIRT_fPxiMgtT2seTh0Of9oWv1ddqNYmTtul_FvrU52ADgXIUwVkd3uKpygFHqymHxfMboDnXeFwgAjgEvTmXKotX0J7M9tfvVH4yI3LpPcqgQybg.jpg",
+        "https://cdn4.telesco.pe/file/BLVTcdEF_1OIV3K6TslfZi47W2BJm5kpWVqmKp33koUs0i54JKvHilfH3NeBGqR7rH7slo8G1tVXdyuBiFZ21_E-XS7JMA_sxEFrclnKwz52RW4wBNESGEMPMXVqGVYdQkmKSNPOu7N8V5F8iiPwCHmazZJyaFiCp6XrurUye_8MM15hhhxrMMNzU3G_XylAo06UH_bg50ZPi1pCvZl5KCJChCNVquwNlKyL3emezt-vtM3Ed75fpwzdZWgSJkKSPPfaJC5GQ5igYBYoD87Pc81yFCz0mamq1o5xw2bBgu4X6DpzAIr5_oWK02nATMxLGEaF48QWf_rGXKdsiWaPVg.jpg",
+        "https://cdn4.telesco.pe/file/QrnxLr81h5H-Vd072_XHozZMV5S8Ubn8pLnzMuClhiCLRU52LQxFSZkCurt-rAL1QrO9SP1Opp_3TENVgFCvT6BmisdW2zppD6vbOVeARI2BeMZHDIS-idqhddY0MtnGzvELD6Yg7tinkku7sAYMwfuzW3-5rD5Qe_xcZjFDE0oOGuS6q0J4koUqk8QnDuzuYN3LoTO8tqyhbKgYCmIgC6e-CRlH3ZTa2HGkPeeNZeL4DBCTqOgf7SO-YssLUckr2GpTm6tmGXad8lrTKMtwD4Pz7Q8SAmOqFtHvpxxoNTZOnhrIc_Mf4l0tJT76obzWAqF-0wgzDYsLVNt0EldvCA.jpg",
+        "https://cdn4.telesco.pe/file/s6yHd_eHC3hAfY_GN_3DEbsjz-RkIpsi9QgA-Zi9_32Iaz1w5BSVDFiXd7N4-g1G2MySWzoVFqzmL9peSFEHueJRk7zMI8EDtnDRsEtcgrZeOJsDvsQ1kJwLCS1sGvWJztfRPBQyTnW-laMPBYURRKQXNtijy7Fmq-3xWQ_nZNc-sgULYVIkedu7RAyN10MCyvrwkOvJE_ZRPt2pJjUcB-Or6XiMbUXOfDG3fz-nWBP24C1mCFRdKheYHzoGJGzcLXFdEFr0OjsaBk2YBXdZo3O_x6FUsDhBU5vGBhSYaHAk6vuoa8atmTLIxxhR6TBB9IPAuyPDx2LhSrs1Won64Q.jpg",
+        "https://cdn4.telesco.pe/file/ojbmF3muqiCz9KlxltsmG3977paX14D7ewbhr9IGQSy6tUejw8WyLRcnb8x_9nU7yogb-cT6W9usVXU7RyWknJV6QwZUMd6pxoh0-3jmOQFGT5hgwZjeTus1Yd_9AILXRd61FkHXnhYM93e5VOF_wbQHdIAe6EzROBcEkghBl1T82bGhKGOjwUGLDPzpIEfSW89xfBuRxK73rhxi3HCULgBNDnz8xwvU_xXU8r2TpsRtijBYKDL3OGqu4hj3Se_10Otzw62bjgBLOahdkxz2JEtYXt8oY--G5rB1dyr143JViGND5qOZoNfXdsgFBniT8t6tgareD7Sta14jG0ylmg.jpg",
+        "https://cdn4.telesco.pe/file/LXY4n8cuXHXesFbPgutxV1Sg6G8556M-gx69DQJgmePQWOGdkSXApa_Mf3FZBvI2hiDOrf5OYk418jxTkV6NdvyL1oEl0alffkl04GO2SlIpVBpPTAGOhA0KAvlX7fkQ35UO4Hl_krzFmUpe1GEDfba_WrJCmJzStIGUWb7CrY4NKCaQG7KYW332QX6oRr9qRjqBWCLSq3J9P3hEvRXq86YhpoQrMARv8wFFtIsUjioNIXmqm5zYj_KHLlGtdb3cpXMihbtcBhzX1UlNwavQBoWuPC0qTCzm2wZ3mynPBeK6bRVBeDrbeNCsBCEPxzpEIkjtyXFOqwk-x0ORrqn53A.jpg",
+        "https://cdn4.telesco.pe/file/nKhBB973Si0HFnPhllnPT5o4uQ4WVrkV6wS9XCq2E0Udzha-Tyfl8ejj2SBCvzIIJDtRQW9z174H1xXPJ0BwXStZ67jZGlTNhOZQihC14GdADUfzZH96_7Cb-Kg8qGjpp6JSJASt4W1BM7tRUDBEWeJGBlkbAZ2B4X9AaPKr__eogU8YPauKmRD6qkqYJdMW5pRgIjHdoRPzzkND-9w0Jbu4CvZytkiYfro00Pq-IFKyAKnqV4eiC0SfyI1LFHMgtESDgBgcJQBrrv5eHorvc3O9nlX2Uk5BPTIs6voXYxOnSnluMYZn-U_jEghdyANDK2QVPuhvQkRPr_bmH7S60A.jpg",
+        "https://cdn4.telesco.pe/file/chU27JYBnc2XYXhQSVQ_72k9Z0jUMpDQ1p5TdFNTNNvdA5n05Pupk7tl-MKE2BXeic-NzJqmvdDbAvKgJNwsh8kFpjjMnMsWC9ERMRIjKyFmFKEV9m9BroMGwhf2S_l1sJiRcHfdlyHBhod-uNg7BhvP1uF3oxCS4qyL8f3tgEUWJes1HCB95f4fncVzJA4VcztDZDSbuOV_hE9fqJX0qto9DvyDE21I16h_zEEy5qdXP4ePEPZYS82N72SIRIa05ov3cE-e0zcR7MHfIA3L2hkgUBTFWzF3rijfq5htLMMEWxA6fXcpT7I-OcSOvUWiHHJooasWS4UEijCFxDzxsw.jpg",
+        "https://cdn4.telesco.pe/file/f0A3bmy0KNnpYrZ-vDo__8nUrkiLDP2RrkDIpNLyGUsrTU5ad_4mQA5-9YBkG2Ur_IQW_qnUm7h_sI2bTT7ZTBfAi54QZGXOP0UWoLf1b85iFxxjdnnA5gRneFFpF9OVgfLC-tyS3Kb9xL2dK5p5muNf_Hp8vG3ATD-U2vjoKnzLTzs5ESk2Uil1M8dd0tV1-xTEwVTP7vMSrUuIDfE2Z63mHRr8DHp4XFQPacQvMRiUhmaxpVfFS9Z0nFOMpxqH3HGcgAK7qLkTdUstDH2pVi6vqODgNJryg8GHH4X2bvFMuHrBl8UcB_o8f9AVCk0fcgr3mXSmy1aPCipWNvjHpg.jpg",
+        "https://cdn4.telesco.pe/file/h3DgasNf4bMj5LiW2Div6O5u9Bt9VpHSxLmcIgyOyAMywDhzALmlqaLWBaBiaT9cRXWZH-U3PcJ4r8flNpqZOLLpznU5E80Gi7oZlmGHH9AVx29lxTmgtbQ1g9MjNuQrzCBlI2xSU4A5I9VRqXUJlsCSWdn2GSmCZ_IyXh8jGtbAn3q7UT8mB5A0GnEqTJVyGxl9XyfAK6VVEOCg3p0zcWL9VJgp7I623mObuxoKGreEyESlQL5UZPjHxMWSrshpB2Muh3OVFa9lqQTLj7sdIOD-xoOrrdAG7U4vlt-7QjpJsVyI3_B4YtGjIOxM1qcUMAHivW_xTzenX5nnZ92gNg.jpg",
+        "https://cdn4.telesco.pe/file/iWYW8Rn2TX51lqdZC-xsx5wFS8Ph7osqKW9B4OGWu5OEc2aY7lZKdlIzjUgc-OccCPdE_qSSzNCleQ9Rmxz5XXSnH6TWFD4JMiLpO3YjCLm5yyw5lNNJ3ReXmsHcTr0is1Ck2nPVjSZmIhEo9MsDVRUFhmgykWUvx4aUGGV_3Q9bGSkkvs5BgaSdmT-oTGBs7vL0w50wg_CkAHv0L6NPjuZhEFcnjBX-ncQfwakKQ_Hwu7nZS7TO3sgl_URyLoLNn1VW1K3lvMPN16a_3Hu9xKUCuadb1WBcXsh9zARxcLMrOEb6dsOWBte0o0zhxkEhEHFPMqfpZzboR17l1PMHLQ.jpg",
+        "https://cdn4.telesco.pe/file/Gzx42Y5MjojHzvmR_hQ4e1dwztVLEsnsjJ0JlA13rhtbUI3I8_vAiFAcV-klPSYOyOPCcfVTMzIChyFkE8LYTSehkB_NqqgvOJWcvkn1-6McAn5uoQKzvxodRXojT-r2bkGyLd_2AyXDTOjHWYyLUPEmhQgILldKgHrB-efsFblBGMFM_wnh2K9rHO4PjgXXXZ-KtPD_jKpizTyEfF57GvDHIBYaHUrUJ8Zv57SdJ69YZxpTw168Yhfj0vM3SljGpvZWi2A5hXUBP01fEalDTOwtfuqSVGiK-5loHuBPJhXFh2keKt-UYaC3kHHaPtAATf5pPY3gHiWvxPB4xZ9bjw.jpg",
+        "https://cdn4.telesco.pe/file/Achv1Ajc26uNT71VNODcjE1SL9fhDHaPQpfNU1c4RwaihdcQ8JhYZ22j8K9BLIxT6ejMNFEK5T-U51h0Bc4y4WlkjEOY-Ev9x6bM8j_fTMHahAycMgiuUSDoeyHsPECaaADzq_OK_5_rY-X6XvPamkWznTEJf3K58_yHVQy5QgD19xbUhT5m61SETWiTJQ2YRNpWhyYsjTBpPvgCVy_7rPedS0AsapYE5cwoVq0kOGsco3auYS8xjXwGLMxB_hh016Y4pyFDYDj9g9t-LkVO71JNy42FY8o4S8eB6qsRq80G7ro6po_3BgbLv-wLt9PL6cFH-haBoZagAQzYM0b-Pw.jpg",
+        "https://cdn4.telesco.pe/file/Lfv5XXhR1mSJHdsXVy80j_9X2KuwaMdQvgD6Paflt9_J5pw1T2nazhFfDIhcVB-UcOlLSpOXkNAGxnuMx2YkLNi2bn5GGt7uREjVKDj5CBRDuQPAywYahY9wDH4ifYaI5Cp8D2SuhNH15nBH90n5cf5f7VzX1TxjfI9lVIC6_OneQvVCUiTm0Jwnm5o94oK7AhYs28SXZdhSFQZzDyrCrQ1kGdGQZNRw8gpopFtKp5bODw6Nxc4g8fWf-05wV2a0NssGLBolABclhq-s-5iKoBZEpv3PXmHEfe484ebXR0dFy9JoBLyXyjV4fz_gHeeePpyoqL9ytwXwbTzHy_HARA.jpg"
+      ],
+      "weapons": [
+        "Obrona Przeciwlotnicza (OPL)"
+      ],
+      "target_type": "Rafineria / Skład Paliw",
+      "is_fire": true,
+      "threat_score": 8,
+      "source_channel": "bazabazon",
+      "added_at": "2026-09-22T19:44:30.144469+00:00",
+      "verified_by_sources": [
+        "bazabazon"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump powiedział, że chce ponownie spotkać się z Putinem – jego zdaniem format może być podobny do spotkania na Alasce. Aplikacja...",
+      "text_pl": "📝Historyczna militaryzacja 📝 Podczas gdy uwaga światowych mediów skupiona jest gdzie indziej, we wschodniej części Morza Śródziemnego greccy przywódcy realizują największy w historii kraju program modernizacji armii. Całkowity budżet na kontrakty obronne do 2030 roku przekroczy 30–40 miliardów dolarów. Kraj oficjalnie znalazł się w pierwszej dziesiątce światowych importerów broni. 🔻 Zebraliśmy wszystkie kluczowe informacje na temat megazakupów greckiego kompleksu wojskowo-przemysłowego: ➡️ Powietrze: 5. generacji Pięść: • Amerykański stealth F-35A: Podpisano kontrakt za 8-10 miliardów dolarów na zakup od 20 do 40 myśliwców. Produkcja greckich samochodów rozpocznie się w ramach Lotu 20, a pierwsze dostawy w 2028 r. • Francuski Rafale: Oprócz istniejących, Ateny zakupiły kolejnych 12 myśliwców najnowszej modyfikacji Rafale F4 (~1,5 miliarda euro). Do 2028 roku flota Rafale powiększy się do 36 jednostek. • Modernizacja F-16 Viper: Obecnie 83 greckie myśliwce F-16 są modernizowane do najwyższej klasy standardu Block 70/72 (ponad 1,5 miliarda dolarów). • Helikoptery: Trwają zakupy amerykańskich samolotów AH-64E Apache, UH-60M Black Hawk i przeciw okrętom podwodnym MH-60R Seahawk. ➡️ Ziemia: Rakiety i ciężki pancerz: • MLRS PULS (Izrael): kontrakt o wartości 650 mln euro na 36 precyzyjnych systemów o zasięgu rakiet kierowanych do 300 km. • Czołgi M1A2 Abrams (USA): Finalizowany jest zakup do 100 ciężkich Abramsów z zapasów amerykańskich (2-3 miliardy dolarów). • Modernizacja Leoparda 2 (Niemcy): omawiany jest kontrakt o wartości ponad miliarda euro na doprowadzenie ponad 170 greckich czołgów do poziomu 2A7+. ➡️ Morze: Nowe cyfrowe produkty i import z Włoch: • Fregaty BIZ (Francja): 3,5–4 miliardy euro na 4 najnowsze cyfrowe statki z Naval Group. Wiodący został już uruchomiony; transfer do floty nastąpi w latach 2026-2028. • Fregaty FREMM (Włochy): Świeża transakcja w formacie „2+2”. Ateny przejmują dwie używane włoskie fregaty (Carlo Bergamini i Virginio Fasan 2013) za 460 mln euro. Grecy planują zastąpić włoskie rakiety przeciwokrętowe Exocetem lub Harpunem. • Okręty podwodne: ponad 500 milionów euro przyznane Niemcom na głęboką modernizację czterech okrętów podwodnych typu 214. USA pozostają głównym dostawcą broni do Grecji, con",
+      "tactical_sources": [
+        {
+          "name": "Baza",
+          "url": "https://t.me/bazabazon/49340"
+        }
+      ],
+      "archived_at": "2026-10-06T21:26:52.735517+00:00"
+    },
+    "b1662d18a6cbd126": {
+      "id": "b1662d18a6cbd126",
+      "timestamp": "2026-09-22T19:30:49+00:00",
+      "country": "Iran",
+      "flag": "🇮🇷",
+      "theater": "Bliski Wschód (Zatoka Perska)",
+      "event_type": "Działania Morskie",
+      "tactical_category": "Działania Morskie / Drony Nawodne",
+      "tactical_icon": "🚢",
+      "title": "Iranian state media reported that U.S. envoy Steve Witkoff’s meeting with Iranian Foreign Minister Abbas Araghchi on the...",
+      "text": "NEW: Türkiye&#x27;s Bayraktar TB3 drone successfully demonstrated a new anti-submarine warfare capability during the Denizkurdu-I/2026 exercise. After taking off from TCG ANADOLU, the drone deployed two sonobuoys using Baykar’s SAS POD while operating alongside a maritime patrol aircraft. The TB3 processed data from both its own sonobuoys and those deployed by the patrol aircraft, providing real-time underwater information during the exercise.",
+      "location_name": "Bliski Wschód (Zatoka Perska)",
+      "lat": 48.0104,
+      "lon": 35.297,
+      "url": "https://t.me/ClashReport/97783",
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-09-22T19:44:30.144694+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Irańskie media państwowe podały, że spotkanie wysłannika USA Steve'a Witkoffa z ministrem spraw zagranicznych Iranu Abbasem Araghchi w sprawie...",
+      "text_pl": "NOWOŚĆ: Dron Bayraktar TB3 firmy Türkiye z powodzeniem zademonstrował nową zdolność zwalczania okrętów podwodnych podczas ćwiczeń Denizkurdu-I/2026. Po wystartowaniu z TCG ANADOLU dron umieścił dwa sonobuoe za pomocą czujnika SAS POD firmy Baykar, współpracując z morskim samolotem patrolowym. TB3 przetwarzał dane zarówno z własnych sonobui, jak i tych rozmieszczonych przez samolot patrolowy, dostarczając podczas ćwiczeń informacje podwodne w czasie rzeczywistym.",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/97783"
+        }
+      ],
+      "archived_at": "2026-10-06T21:26:52.735517+00:00"
+    },
+    "b4ccb9228af360e4": {
+      "id": "b4ccb9228af360e4",
+      "timestamp": "2026-09-22T19:29:01+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Макрон предложил двойной мораторий по российско-украинской войне: на удары по энергетической и гражданской инфраструктур...",
+      "text": "Макрон предложил двойной мораторий по российско-украинской войне: на удары по энергетической и гражданской инфраструктуре и на атаки по судам в Черном море «В то же время мы приложим все усилия, чтобы как можно скорее начались конструктивные переговоры между Россией и Украиной. С приближением зимы нам как никогда важно защитить украинцев. Мы должны защищать их на энергетическом фронте. Мы должны предоставить им больше перехватчиков. Мы должны защищать гражданское население. И именно поэтому мы хотели бы выразить свою поддержку. Двойной мораторий. Во-первых, мораторий на удары по энергетической и гражданской инфраструктуре, а во-вторых, мораторий в Черном море, который позволил бы нам обеспечить отгрузку зерна, решив проблемы продовольственной безопасности, которая имеет столь важное значение для многих стран с формирующейся экономикой и для многих развивающихся стран», — заявил президент Франции Эммануэль Макрон с трибуны Генассамблеи ООН.",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 48.1704,
+      "lon": 34.865,
+      "url": "https://t.me/astrapress/125982",
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "astrapress",
+      "added_at": "2026-09-23T09:08:12.338139+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Macron zaproponował podwójne moratorium na wojnę rosyjsko-ukraińską: na ataki na infrastrukturę energetyczną i cywilną...",
+      "text_pl": "Macron zaproponował podwójne moratorium na wojnę rosyjsko-ukraińską: na ataki na infrastrukturę energetyczną i cywilną oraz na ataki na statki na Morzu Czarnym. \"Jednocześnie dołożymy wszelkich starań, aby konstruktywne negocjacje między Rosją a Ukrainą rozpoczęły się jak najszybciej. W miarę zbliżania się zimy ochrona Ukraińców jest dla nas ważniejsza niż kiedykolwiek. Musimy ich chronić na froncie energetycznym. Musimy zapewnić im więcej przechwytywaczy. Musimy chronić ludność cywilną. I dlatego chcielibyśmy wyrazić nasze wsparcie. Podwójne moratorium. Po pierwsze moratorium na ataki na infrastrukturę energetyczną i cywilną, a po drugie moratorium na Morzu Czarnym, które pozwolą nam zapewnić dostawę zboża, rozwiązując problemy bezpieczeństwa żywnościowego, tak ważnego dla wielu gospodarek wschodzących i dla wielu krajów rozwijających się” – powiedział prezydent Francji Emmanuel Macron z mównicy Zgromadzenia Ogólnego ONZ.",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/125982"
+        }
+      ],
+      "archived_at": "2026-10-06T21:26:52.735517+00:00"
+    },
+    "9f8b99c991df8546": {
+      "id": "9f8b99c991df8546",
+      "timestamp": "2026-09-22T18:59:41+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Starcie Lądowe",
+      "tactical_category": "Starcie Lądowe / Szturm",
+      "tactical_icon": "⚔️",
+      "title": "▶ Итоги 22 сентября видеосводка от руководителя проекта @rybar Михаила Звинчука специально для @SolovievLive Российские ...",
+      "text": "▶ Итоги 22 сентября видеосводка от руководителя проекта @rybar Михаила Звинчука специально для @SolovievLive Российские войска продолжают давить на противника сразу на нескольких направлениях. Ночью был нанесён массированный удар по объектам промышленности, энергетики и ВПК, а на фронте подразделения продвигаются под Сумами и Добропольем , одновременно нарушая снабжение противника огневым контролем дорог. В Вашингтоне тем временем решили усилить давление на Москву и одновременно открыли новый фронт уже внутри страны. Дональд Трамп подписал закон о новых санкциях против России , но оставил за собой возможность отказаться от их введения. Параллельно Белый дом ограничил доступ CNN , Politico и MS NOW , спровоцировав очередной конфликт администрации с американскими СМИ. На Ближнем Востоке американцы, напротив, не спешат втягиваться в новый конфликт: Трамп вновь отказался от операции против хуситов, пока «Ансаралла» продолжает наступление в районе Таиза. А в Восточном Средиземноморье в Греции на фоне противостояния с Турцией ускоряют перевооружение и делает ставку на американские, французские и израильские системы. Подробнее о продвижении российских войск, новых санкциях США, конфликте Трампа с американскими СМИ, боях в Йемене и милитаризации Греции — в новом выпуске «Разборов Рыбаря — Итоги дня» . #дайджест #разбор #эфиры ✈ RU | ✈ EN | ✉ MAX ✉ VK | ✉ RuTube | ✉ ОК | ✉ Дзен 💸 Поддержать нас",
+      "location_name": "Sumy",
+      "lat": 50.9077,
+      "lon": 34.7981,
+      "url": "https://t.me/rybar/83383",
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/MO_UWmGelex1wWZveYlcZLZfySouvg_16rAWKKUEckWj68Y2lW7hcrREN6KR7sX_b97eL0QZZti32jJ4lmYCIJIWaBbF-fTOcEBCTXe3ocigjOmGXCTjdeIffM9Dsq9ZB5xr4pWuqutcHpiC3gMc401hQa2ZP3gheC8Db53iovAAOslpjJDDidAJCMcoPaS-XagvSeI__O0OStsECpGPG7c7rj_OE6wL8O-SS-q1vKK7oKQbLYe7eMUsL00nEhY3mwQ8sLdAAYzmSwRENeea5nDn-Bm9QIMIOJiSsJgkwFKRGoFoXoiXf2FPyl61RnWgfSv_4llipCI6vawuAvZ-hQ.jpg"
+      ],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "rybar",
+      "added_at": "2026-09-22T19:03:48.820978+00:00",
+      "verified_by_sources": [
+        "rybar"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "▶ Wyniki Podsumowanie wideo z 22 września od kierownika projektu @rybar Michaiła Zvinchuka specjalnie dla @SolovievLive Russian ...",
+      "text_pl": "▶ Wyniki Podsumowanie wideo z 22 września autorstwa kierownika projektu @rybar Michaiła Zwinczuka specjalnie dla @SolovievLive Rosyjskie wojska w dalszym ciągu wywierają presję na wroga w kilku kierunkach jednocześnie. W nocy przeprowadzono masowy atak na obiekty przemysłowe, energetyczne i wojskowo-przemysłowe, a na froncie jednostki posuwają się w pobliżu Sum i Dobropola, jednocześnie zakłócając zaopatrzenie wroga poprzez kontrolę ogniową dróg. Tymczasem w Waszyngtonie postanowiono zwiększyć presję na Moskwę, otwierając jednocześnie nowy front wewnątrz kraju. Donald Trump podpisał ustawę o nowych sankcjach wobec Rosji, ale zastrzegł sobie możliwość odmowy ich wprowadzenia. Jednocześnie Biały Dom ograniczył dostęp do CNN, Politico i MS NOW, wywołując kolejny konflikt pomiędzy administracją a amerykańskimi mediami. Z kolei na Bliskim Wschodzie Amerykanom nie spieszy się z wciągnięciem w nowy konflikt: Trump ponownie porzucił operację przeciwko Houthi, podczas gdy Ansarallah kontynuuje ofensywę w rejonie Taiz. Natomiast we wschodniej części Morza Śródziemnego Grecja na tle konfrontacji z Turcją przyspiesza zbrojenia i opiera się na systemach amerykańskich, francuskich i izraelskich. Więcej o awansie wojsk rosyjskich, nowych sankcjach USA, konflikcie Trumpa z amerykańskimi mediami, bitwach w Jemenie i militaryzacji Grecji przeczytasz w nowym numerze Analizy Rybara – Wyniki Dnia. #skrót #analiza #transmisje ✈ RU | ✈ PL | ✉ MAKS ✉ VK | ✉ Rurka | ✉ OK | ✉ Zen 💸 Wesprzyj nas",
+      "tactical_sources": [
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/83383"
+        }
+      ],
+      "archived_at": "2026-10-06T21:26:52.735517+00:00"
+    },
+    "08ce72e337e07c13": {
+      "id": "08ce72e337e07c13",
+      "timestamp": "2026-09-22T18:59:33+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "Загальна оцінка загроз для України на ніч 23 вересня. 🟩 Стратегічна авіація не активна . 🟧 Загроза ударних БпЛА на серед...",
+      "text": "Загальна оцінка загроз для України на ніч 23 вересня. 🟩 Стратегічна авіація не активна . 🟧 Загроза ударних БпЛА на середньому рівні. Ударні БпЛА продовжують атакувати Київщину. Впродовж ночі ймовірні додаткові запуски груп з північного південного напрямків. 🟧 Балістичні загрози на ніч на середньому рівні — противник активно присутній на Брянщині, Курщині, Ростовщині із запасом БК. Запуск Іскандер/С-400/Циркон/Онікс може відбутись у будь-який момент. Сили оборони протидіють намірам та регулярно зривають такі атаки! #обстановка@war_monitor",
+      "location_name": "Rostów nad Donem, Rosja",
+      "lat": 47.2357,
+      "lon": 39.7015,
+      "url": "https://t.me/war_monitor/45508",
+      "media_urls": [],
+      "weapons": [
+        "Shahed / Dron Kamikadze",
+        "Rakieta Balistyczna"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 8,
+      "source_channel": "war_monitor",
+      "added_at": "2026-09-22T19:03:48.820639+00:00",
+      "verified_by_sources": [
+        "war_monitor"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Ogólna ocena zagrożeń dla Ukrainy w nocy 23 września. 🟩 Lotnictwo strategiczne nie jest czynne. 🟧 Groźba strajku UAV w środę...",
+      "text_pl": "Ogólna ocena zagrożeń dla Ukrainy w nocy 23 września. 🟩 Lotnictwo strategiczne nie jest czynne. 🟧 Zagrożenie atakiem UAV jest na średnim poziomie. Atak UAV nadal atakuje obwód kijowski. Dodatkowe wystrzelenia grup z kierunków północ-południe są prawdopodobne w nocy. 🟧 Zagrożenie balistyczne w nocy na średnim poziomie — wróg jest aktywnie obecny w obwodzie briańskim, kurskim, rostowskim z rezerwą BC. Premiera Iskandera/S-400/Zirkonu/Onyxu może nastąpić w dowolnym momencie. Siły obronne przeciwdziałają temu zamiarowi i rutynowo udaremniają takie ataki! #обстановка@war_monitor",
+      "tactical_sources": [
+        {
+          "name": "#war_monitor",
+          "url": "https://t.me/war_monitor/45508"
+        }
+      ],
+      "archived_at": "2026-10-06T21:26:52.735517+00:00"
+    },
+    "3f3564937b8fcd7c": {
+      "id": "3f3564937b8fcd7c",
+      "timestamp": "2026-09-22T18:58:14+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Переговоры Трампа и Зеленского после общения с прессой продолжаются в закрытом формате В состав украинской делегации вх...",
+      "text": "Переговоры Трампа и Зеленского после общения с прессой продолжаются в закрытом формате  В состав украинской делегации входят глава офиса президента Украины Кирилл Буданов, глава МИД Андрей Сибига, глава Службы внешней разведки Украины Рустем Умеров и глава…",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 47.9356,
+      "lon": 35.2664,
+      "url": "https://t.me/astrapress/125979",
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "astrapress",
+      "added_at": "2026-09-23T10:51:33.585223+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Negocjacje Trumpa i Zełenskiego po rozmowie z prasą nadal mają charakter zamknięty. W skład delegacji ukraińskiej wchodzą...",
+      "text_pl": "Negocjacje Trumpa i Zełenskiego po rozmowie z prasą nadal mają charakter zamknięty. W skład delegacji ukraińskiej wchodzą szef Kancelarii Prezydenta Ukrainy Cyryl Budanow, minister spraw zagranicznych Andriej Sibiga, szef Służby Wywiadu Zagranicznego Ukrainy Rustem Umerow oraz szef...",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/125979"
+        }
+      ],
+      "archived_at": "2026-10-06T21:26:52.735517+00:00"
+    },
+    "f6d0f43f67a287e4": {
+      "id": "f6d0f43f67a287e4",
+      "timestamp": "2026-09-22T18:40:59+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Komunikat Sztabowy / Dyplomacja",
+      "tactical_category": "Komunikat Sztabowy / Dyplomacja",
+      "tactical_icon": "🕊️",
+      "title": "French President Macron on Ukraine: We will spare no effort to ensure that useful negotiations between Russia and Ukraine begin as soon as possible...",
+      "title_pl": "Prezydent Francji Macron o Ukrainie: Nie będziemy szczędzić wysiłków, aby zapewnić, że przydatne negocjacje między Rosją a Ukrainą rozpoczną się tak szybko, jak to możliwe...",
+      "text": "French President Macron on Ukraine: We will spare no effort to ensure that useful negotiations between Russia and Ukraine begin as soon as possible. We must defend the Ukrainians more than ever. As winter arrives, we must defend them on the energy front. We must give them more interceptors. We must protect civilian populations, and that is why I would like to express our support for the double moratorium. First, a moratorium on strikes on energy and civilian infrastructure and a moratorium on the Black Sea, which would allow us to free up grain deliveries, solving food security problems.",
+      "text_pl": "Prezydent Francji Macron o Ukrainie: Dołożymy wszelkich starań, aby pożyteczne negocjacje między Rosją a Ukrainą rozpoczęły się tak szybko, jak to możliwe. Musimy bronić Ukraińców bardziej niż kiedykolwiek. Ponieważ nadchodzi zima, musimy ich bronić na froncie energetycznym. Musimy dać im więcej przechwytywaczy. Musimy chronić ludność cywilną i dlatego chciałbym wyrazić nasze poparcie dla podwójnego moratorium. Po pierwsze moratorium na strajki w energetyce i infrastrukturze cywilnej oraz moratorium na Morzu Czarnym, które umożliwiłoby nam uwolnienie dostaw zboża, rozwiązując problemy bezpieczeństwa żywnościowego.",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.5,
+      "lon": 31.0,
+      "url": "https://t.me/ClashReport/97765",
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Infrastruktura Cywilna / Energetyka",
+      "is_fire": false,
+      "threat_score": 4,
+      "source_channel": "clashreport",
+      "added_at": "2026-09-22T19:44:30.144717+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/97765"
+        }
+      ],
+      "archived_at": "2026-10-06T21:26:52.735517+00:00"
+    },
+    "7197a7715a4c0f1e": {
+      "id": "7197a7715a4c0f1e",
+      "timestamp": "2026-09-22T18:37:27+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Obrona Przeciwlotnicza",
+      "tactical_category": "Obrona Przeciwlotnicza (OPL)",
+      "tactical_icon": "🛡️",
+      "title": "📝 Выгода России в Йемене? 📝 о посреднической роли в йеменском конфликте Сегодня Владимир Путин провел телефонный разгово...",
+      "text": "📝 Выгода России в Йемене? 📝 о посреднической роли в йеменском конфликте Сегодня Владимир Путин провел телефонный разговор с наследным принцем Саудовской Аравии Мухаммадом бен Салманом . Cтороны обсудили «положение в зоне Персидского залива» и отметили «важность безопасного прохода судов через международные водные артерии на Ближнем Востоке». 🖍 Разговор был про хуситов. Саудиты столкнулись с тем, что удары по энергетической инфраструктуре и судоходству в Красном море бьют по бюджету и репутации Королевства и с этим властям нужно что-то делать. В Эр-Рияде уже запрашивали помощь у США , Франции , Великобритании , Пакистана и Египта по развертыванию систем ПВО, но «союзники» колеблются. Оманский трек прямых переговоров с хуситами дает очень ограниченные результаты. 🚩 А вот у России есть редкая и удачная комбинация каналов связи : российские дипломаты поддерживают неформальные контакты с хуситами, принимая их делегации, и одновременно координируют с саудитами политику в рамках ОПЕК+ и других вопросов региональной безопасности. Эти каналы можно задействовать, чтобы стать посреднической площадкой для саудитов и хуситов. С помощью дипломатического влияния реально попробовать подвести обе стороны к компромиссу по перемирию или отдельным ограничениям атак на судоходство. ❓ Зачем Москве посредничество? Это игра вдолгую: успешное содействие в Йемене даст России дополнительный канал влияния на саудитов. Его стоит использовать по трем трекам: торговому — для долгих контрактов на зерно и продовольствие; логистическому — для доступа к портам и перевозкам через Залив; политическому — для нейтральной позиции саудитов по антироссийским инициативам и снижения ее участия в западном санкционном давлении. ❗️ Самое главное — предложить четкую сделку и обозначить дивиденды, чтобы не потратить силы на посредничество и по итогу не получить ничего. #Йемен #Россия #СаудовскаяАравия 🧨 @rybar_mena — о ближневосточном хаосе с любовью 💸 Поддержать нас",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 48.0268,
+      "lon": 34.7456,
+      "url": "https://t.me/rybar/83382",
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/n0SLhDRgYkcaATHrzYbEhfQT0FKlfkFetCAUq1WN2FECOZBGlzHmp6397ZXBLfef5MkBIQI6KW_uwrhclzAFlnzjvkbvfhgDs02sSecoR5JWiG0VJhHD6mZ15o3UvPuj-7UmdXuGQtzzgqdMGzSnyN2_nX8lxUI8dxVpul6NOJ_9zJpP7dP7NWKeT5jp6d8UNTlILnsmlUwr5t8NgydDKyJ89sk2nFpbcGCq9uXGSsRiKqGJ43eOEeZzEc30FgQLJczujpqOr50A9GkD3feVhc6nugtweTgPA3gjDl0i9Twg2QLlr-OmA4c9vxeuR1Wb7ExB6wIus8zbEuNBUD6kNA.jpg"
+      ],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "rybar",
+      "added_at": "2026-09-23T09:08:12.338335+00:00",
+      "verified_by_sources": [
+        "rybar"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "📝 Benefit dla Rosji w Jemenie? 📝 o roli mediacyjnej w konflikcie jemeńskim Władimir Putin przeprowadził dziś rozmowę telefoniczną...",
+      "text_pl": "📝 Benefit dla Rosji w Jemenie? 📝 o roli mediacyjnej w konflikcie jemeńskim Władimir Putin odbył dziś rozmowę telefoniczną z księciem koronnym Arabii Saudyjskiej Muhammadem bin Salmanem. Strony omówiły „sytuację w rejonie Zatoki Perskiej” i zauważyły ​​„znaczenie bezpiecznego przepływu statków międzynarodowymi drogami wodnymi na Bliskim Wschodzie”. 🖍 Rozmowa dotyczyła Huti. Saudyjczycy stają w obliczu faktu, że ataki na infrastrukturę energetyczną i żeglugę na Morzu Czerwonym wpływają na budżet i reputację Królestwa, i władze muszą coś z tym zrobić. Riyad zwrócił się już do Stanów Zjednoczonych, Francji, Wielkiej Brytanii, Pakistanu i Egiptu o pomoc w rozmieszczeniu systemów obrony powietrznej, ale „sojusznicy” się wahają. Prowadzone przez Oman bezpośrednie negocjacje z Houthi dają bardzo ograniczone rezultaty. 🚩 Ale Rosja ma rzadkie i skuteczne połączenie kanałów komunikacji: rosyjscy dyplomaci utrzymują nieformalne kontakty z Houthi, przyjmując ich delegacje, a jednocześnie koordynują politykę z Saudyjczykami w ramach OPEC+ i innych kwestii bezpieczeństwa regionalnego. Kanały te można wykorzystać, aby stać się platformą mediacyjną dla Saudyjczyków i Houthi. Realistyczna jest próba doprowadzenia obu stron do kompromisu w sprawie rozejmu lub indywidualnych ograniczeń ataków na żeglugę przy pomocy wpływów dyplomatycznych. ❓ Dlaczego Moskwa potrzebuje mediacji? To długa gra: skuteczna pomoc w Jemenie zapewni Rosji dodatkowy kanał wpływu na Saudyjczyków. Należy go stosować w trzech kierunkach: handel – w przypadku kontraktów długoterminowych na zboże i żywność; logistyka – dostęp do portów i transport przez Zatokę; polityczny – za neutralnym stanowiskiem Saudyjczyków w sprawie inicjatyw antyrosyjskich i ograniczeniem ich udziału w presji zachodnich sankcji. ❗️Najważniejsze to zaproponować jasną transakcję i wskazać dywidendy, aby nie marnować energii na mediacje i nic nie zyskać. #Jemen #Rosja #Arabia Saudyjska 🧨 @rybar_mena - z miłością o chaosie na Bliskim Wschodzie 💸 Wesprzyj nas",
+      "tactical_sources": [
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/83382"
+        }
+      ],
+      "archived_at": "2026-10-06T21:26:52.735517+00:00"
+    },
+    "1945240fec43e900": {
+      "id": "1945240fec43e900",
+      "timestamp": "2026-09-22T18:26:01+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Один человек погиб, еще два получили ранения в результате российских ударов по складам в Одесской области, — ГСЧС «В теч...",
+      "text": "Один человек погиб, еще два получили ранения в результате российских ударов по складам в Одесской области, — ГСЧС «В течение дня российские войска атаковали складские помещения по разным адресам, что привело к масштабным пожарам. Спасателям приходилось работать в крайне сложных условиях: из-за угрозы повторных атак и постоянных тревог, тушение пожаров периодически приостанавливалось, чтобы уйти в укрытия», — сообщили в ГСЧС Украины.",
+      "location_name": "Odessa",
+      "lat": 46.4825,
+      "lon": 30.7233,
+      "url": "https://t.me/astrapress/125977",
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": true,
+      "threat_score": 5,
+      "source_channel": "astrapress",
+      "added_at": "2026-09-23T06:29:16.749233+00:00",
+      "verified_by_sources": [
+        "kpszsu",
+        "astrapress"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "W wyniku rosyjskich ataków na magazyny w obwodzie odeskim zginęła jedna osoba, a dwie zostały ranne, - Państwowe Służby Ratunkowe „Podczas...",
+      "text_pl": "W wyniku rosyjskich ataków na magazyny w obwodzie odeskim zginęła jedna osoba, a dwie kolejne zostały ranne, - Państwowa Służba Ratunkowa \"W ciągu dnia wojska rosyjskie zaatakowały magazyny pod różnymi adresami, co doprowadziło do pożarów na dużą skalę. Ratownicy musieli pracować w niezwykle trudnych warunkach: ze względu na zagrożenie powtarzającymi się atakami i ciągłymi alarmami okresowo wstrzymywano gaszenie, aby udać się do schronów\" - podała Państwowa Służba Ratunkowa Ukrainy.",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/125977"
+        }
+      ],
+      "archived_at": "2026-10-06T21:26:52.735517+00:00"
+    },
+    "cf439ca9b4bb5c3a": {
+      "id": "cf439ca9b4bb5c3a",
+      "timestamp": "2026-09-22T18:15:56+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Встреча Дональда Трампа и Зеленского началась в Нью-Йорке. Украинская делегация прибыла на место сильно раньше и около п...",
+      "text": "Встреча Дональда Трампа и Зеленского началась в Нью-Йорке. Украинская делегация прибыла на место сильно раньше и около получаса ждала американского президента.  Предварительно, главной  темой разговора станет энергетическое перемирие. Госсекретарь США Марко…",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 48.1836,
+      "lon": 35.087,
+      "url": "https://t.me/shot_shot/100321",
+      "tactical_sources": [
+        {
+          "name": "Shot",
+          "url": "https://t.me/shot_shot/100321"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/UhpTb87MHiCN1WWNXmdx3rjVux6OCxl2TOrYqM5ijHgagxEm_oBkNhDE2T9QL5dGho5HXAY5UnFd_jhnVUOT3mq1xONVDv0aX41y2tn6cRfLYNJdxxNbSYm8gahCV4tr0naixbN08VydJ8TX-xnSvZrzL126c_f5qhgujsyuICBZpu93x1LykCTRud2bF1LNwMelhdC3ZdipgaTea6F3kKPXdjvNusg5DWKHDCig1_2g1Yt7puypFeJIZp84gVfrhNvLdlC-Gd7qBkSzIpkASXw47mAK-VtH61mGNAotp2I5agcDLgKHUJmEFsNEaVWcO4W5B9bCYNBauNIm9Zdyyg"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/e045161bbc.mp4?token=iHuSSBan8DyO8YRjmN9nixZDStq09FnV3yy4wQ22Ldu_xXYgJO3BiU5ezbfXiJHXO4vVUYwyyKiK9jJBtkVXi0m7VLI9bkGdU3HaDbDBKG-91Dc3b8mTxoFhzV7mPDsaA9p4Efd3TJFcsh8wAkvFhqG9pMKljS9JfHfPOJ0qfmP77EJlaHtVqQz5AjKLtjzoXHCXupG-TL59Mf50xknY8bCq48wGbdXcKMwfW--chqSGSmVkXG014u49BYtthP7sho8aFxVQX3mn45v5v-ATYiQFsQ4Meaw_5cebDG4VOFbsUAgu5vfye6Z6ZPZizArVbwZ0mdqULjiSdCvce-5Qkg",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "shot_shot",
+      "added_at": "2026-09-23T17:51:25.848757+00:00",
+      "verified_by_sources": [
+        "shot_shot"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "W Nowym Jorku rozpoczęło się spotkanie Donalda Trumpa i Zełenskiego. Delegacja ukraińska przybyła na miejsce znacznie wcześniej i około...",
+      "text_pl": "W Nowym Jorku rozpoczęło się spotkanie Donalda Trumpa i Zełenskiego. Delegacja ukraińska przybyła na miejsce znacznie wcześniej i czekała na amerykańskiego prezydenta około pół godziny.  Wstępnie głównym tematem rozmów będzie rozejm energetyczny. Sekretarz stanu USA Marco...",
+      "archived_at": "2026-10-06T21:26:52.735517+00:00"
+    },
+    "e5a3c72e9c7f1442": {
+      "id": "e5a3c72e9c7f1442",
+      "timestamp": "2026-09-22T17:57:08+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА на Черкаси зі сходу.",
+      "text": "🏍 Реактивний БпЛА на Черкаси зі сходу.",
+      "location_name": "Czerkasy",
+      "lat": 49.4444,
+      "lon": 32.0598,
+      "url": "https://t.me/kpszsu/79585",
+      "media_urls": [],
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-09-22T18:08:12.196615+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy UAV na Czerkasy od wschodu.",
+      "text_pl": "🏍 Odrzutowy UAV na Czerkasy od wschodu.",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/79585"
+        }
+      ],
+      "archived_at": "2026-10-06T21:26:52.735517+00:00"
+    },
+    "09bdb1168726ca6f": {
+      "id": "09bdb1168726ca6f",
+      "timestamp": "2026-09-22T17:50:53+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Встреча Дональда Трампа и Зеленского началась в Нью-Йорке. Украинская делегация прибыла на место сильно раньше и около п...",
+      "text": "Встреча Дональда Трампа и Зеленского началась в Нью-Йорке. Украинская делегация прибыла на место сильно раньше и около получаса ждала американского президента. Предварительно, главной  темой разговора станет энергетическое перемирие. Госсекретарь США Марко Рубио ранее пояснял: Вашингтон предлагает, чтобы Россия и Украина взаимно отказались от ударов по объектам энергетической инфраструктуры. Сам Зеленский тоже говорил, что рассчитывает обсудить шаги по прекращению атак на энергетическую и критическую инфраструктуру. При этом Рубио отмечал сложность задачи: для такого шага нужно согласие обеих сторон. На встречу с Зеленский Трамп выделил около часа — далее в его программе на Генассамблее ООН стоят уже следующие мероприятия. ☺️ SHOT в MAX: https://max.ru/shot",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 48.0204,
+      "lon": 34.853,
+      "url": "https://t.me/shot_shot/100320",
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "shot_shot",
+      "added_at": "2026-09-23T09:08:12.338282+00:00",
+      "verified_by_sources": [
+        "shot_shot"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "W Nowym Jorku rozpoczęło się spotkanie Donalda Trumpa i Zełenskiego. Delegacja ukraińska przybyła na miejsce znacznie wcześniej i około...",
+      "text_pl": "W Nowym Jorku rozpoczęło się spotkanie Donalda Trumpa i Zełenskiego. Delegacja ukraińska przybyła na miejsce znacznie wcześniej i czekała na amerykańskiego prezydenta około pół godziny. Wstępnie głównym tematem rozmów będzie rozejm energetyczny. Sekretarz stanu USA Marco Rubio wyjaśnił wcześniej: Waszyngton proponuje, aby Rosja i Ukraina wzajemnie wyrzekły się ataków na infrastrukturę energetyczną. Sam Zełenski powiedział też, że spodziewa się omówienia kroków mających na celu powstrzymanie ataków na infrastrukturę energetyczną i krytyczną. Jednocześnie Rubio zwrócił uwagę na złożoność zadania: taki krok wymaga zgody obu stron. Trump przeznaczył na spotkanie z Zełenskim około godziny – w jego programie na Zgromadzeniu Ogólnym ONZ przewidziano następujące wydarzenia. ☺️ STRZAŁ W MAXIE: https://max.ru/shot",
+      "tactical_sources": [
+        {
+          "name": "Shot",
+          "url": "https://t.me/shot_shot/100320"
+        }
+      ],
+      "archived_at": "2026-10-06T21:26:52.735517+00:00"
+    },
+    "e03db80d557d131b": {
+      "id": "e03db80d557d131b",
+      "timestamp": "2026-09-22T17:46:27+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Obrona Przeciwlotnicza",
+      "title": "вже 300 ‼️ Операція “ППОпад” від СБС: 19 вересня Птахи досягли відмітки 300 знищених/уражених одиниць/комплексів протипо...",
+      "text": "вже 300 ‼️ Операція “ППОпад” від СБС: 19 вересня Птахи досягли відмітки 300 знищених/уражених одиниць/комплексів протиповітряної оборони противника протягом 261 діб 2026 року. +26 одиниць комплексів ворожого ППО впольовано у ТОТ та на території рф протягом 10-18 вересня (37 одиниць протягом 01-18 вересня). Всього з початку операції “ППОпад-2026” за 261 добу результативно відпрацьовано з відео підтвердженням рівно 300 одиниць: •162 ЗРК, ЗГРК •124 комплекси РЛС •14 комплексів РЕБ Ювілейним, 300-м знищено установку ЗРК БУК-М3 поблизу нп Українка, ТОТ Запорізької обл. Серед цілей ППО 10-18 вересня: 🔥 ЗРК «Бук-М1», нп. Водяне, Донецька область, 1 бат 414 Обр СБС «Птахи Мадяра» 🔥 РЛС «Терек», нп Молчалине, Донецька обл., 4 бат 414 ОБр СБС «Птахи Мадяра» 🔥 ЗРК «Тор-М2», нп Євгенівка, Донецька обл., 2 бат 414 ОБр СБС «Птахи Мадяра» 🔥 ЗРГК «Тунгуска», нп Дорожнянка, Запорізька обл., 3 бат 414 ОБр СБС «Птахи Мадяра» 🔥 РЛС «Імбір», нп Калинове, Донецька обл., 7 бат 414 ОБр СБС «Птахи Мадяра» 🔥 РЛС «Небо-М», нп Долотінка, ростовська обл., рф, 429 ОБр СБС «Ахіллес» 🔥 РЛС «Терек», нп Веселе, Донецька обл., 412 ОБр СБС «Nemesis» 🔥 РЛС «Терек», нп Веселе, Донецька обл., 3 бат 414 ОБр СБС «Птахи Мадяра» 🔥 РЛС “Каста 2Е2” , нп Чорногорівка, Луганська обл., 427 ОБр СБС «Рарог» 🔥 РЛС “Каста 2Е2”, нп Чорногорівка, Луганська обл., 7 бат 414 ОБр СБС «Птахи Мадяра» 🔥 Командно-штабна машина РЛС “Каста 2Е2”,  нп Чорногорівка, Луганська обл., 7 бат 414 ОБр СБС «Птахи Мадяра» 🔥 РЛС, нп. Благодатний, бєлгородська обл., рф, 429 ОБр БпС «Ахіллес» 🔥 РЛС «Каста 2Е2», нп. Шабельське, краснодарський край, рф, 1 ОЦ СБС 🔥 РЛС “Надгробок64Н6”, нп Чалтир, ростовська обл., рф, 1 ОЦ СБС 🔥 РЛС &quot;Установка-510&quot;, нп Сніжне, Донецька обл., 1 ОЦ СБС 🔥 РЛС &quot;Небо-СВ&quot;, нп Сніжне, Донецька обл., 59 ОШБр СБС «Степові Хижаки» 🔥 ЗРУ, нп Веселе, Запорізька обл., 3 бат 414 ОБр СБС «Птахи Мадяра» 🔥 ЗРУ “ОСА”, нп Новодонецьке, Донецька обл., 59 ОШБр СБС «Степові Хижаки» 🔥 РЛС &quot;Небо-СВ&quot;, нп Сні",
+      "location_name": "Biełgorod, Rosja",
+      "lat": 50.5954,
+      "lon": 36.5873,
+      "url": "https://t.me/vanek_nikolaev/43070",
+      "media_urls": [],
+      "weapons": [
+        "Obrona Przeciwlotnicza (OPL)"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "vanek_nikolaev",
+      "added_at": "2026-09-22T17:46:50.226415+00:00",
+      "multi_source_verified": false,
+      "verified_by_sources": [
+        "vanek_nikolaev"
+      ],
+      "tactical_category": "Obrona Przeciwlotnicza (OPL)",
+      "tactical_icon": "🛡️",
+      "title_pl": "już 300 ‼️ Akcja „PPOpad” z SBS: 19 września Ptaki osiągnęły granicę 300 zniszczonych/uszkodzonych jednostek/zespołów przeciwlotniczych...",
+      "text_pl": "już 300 ‼️ Operacja „PPOpad” z SBS: 19 września Ptaki osiągnęły poziom 300 zniszczonych/uszkodzonych jednostek/kompleksów obrony powietrznej wroga w ciągu 261 dni 2026 r. W TOT i na terytorium Federacji Rosyjskiej w dniach 10-18 września użyto +26 jednostek wrogich systemów przeciwlotniczych. W sumie od rozpoczęcia operacji „PPOpad-2026” w ciągu 261 dni pomyślnie rozmieszczono dokładnie 300 jednostek, co zostało potwierdzone wideo: • 162 systemy obrony powietrznej, systemy obrony powietrznej • 124 kompleksy radarowe • 14 systemów obrony powietrznej firmy Juvileynym, 300. zniszczył system obrony powietrznej BUK-M3 w pobliżu bazy wojskowej Ukrainka, TOT obwodu zaporoskiego. Wśród celów przeciwlotniczych w dniach 10-18 września: 🔥 Zestaw przeciwlotniczy Buk-M1, m.in. Vodyane, obwód doniecki, 1 baht 414 SBS „Ptaki Magyar” 🔥 Radar „Terek”, n.p. Mołczałyne, obwód doniecki, 4 bahty 414 SBS „Ptaki Magyaru” 🔥 SAM „Tor-M2”, Jewgienijka, obwód doniecki, 2 bahty 414 SBS „Ptaki Madyara” 🔥 ZRGK „Tunguska”, Dorożnianka, obwód zaporoski, 3 bahty 414 OBr SBS „Ptaki Madziarów” 🔥 Radar „Imbirowy”, obwód kalinowski, obwód doniecki, 7 bahtów 414 OBr SBS „Ptaki madziarskie” 🔥 Radar Nebo-M, Dolotinka, obwód rostowski, Federacja Rosyjska, 429 OBr SBS „Achilles” 🔥 Radar „Terek”, n.p. Vesele, obwód doniecki, 412 Obr SBS „Nemesis” 🔥 RLS „Terek”, n.p. Vesele, obwód doniecki, 3 bat 414 Obr SBS „Ptaki Madyara” 🔥 RLS „Kasta 2E2” , n.p. Czornohorivka, obwód ługański, 427 Obr SBS „Rarog” 🔥 RLS „Kasta 2E2”, n.p. Czornohorivka, obwód ługański, 7 bahtów 414 OBr SBS „Ptaki Madziarów” 🔥 Pojazd dowodzenia i sztabu radaru „Kasta 2E2”, n.p. Czornohorivka, obwód ługański, 7 bahtów 414 OBr SBS „Ptaki Madziarów” 🔥 Radar, e. Błagodatny, obwód Biełgorod, Federacja Rosyjska, 429 OBr BpS „Achilles” 🔥 Radar „Kasta 2E2”, m.in. Szabelske, obwód krasnodarski, Federacja Rosyjska, 1 ośrodek SBS 🔥 Stacja radarowa „Nadgrobok64N6”, Czałtyr, obwód rostowski, Federacja Rosyjska, 1 ośrodek SBS 🔥 Stacja SBS „Ustanovka-510”, Śnieżne, obwód doniecki, 1 ośrodek SBS 🔥 Stacja SBS „Nebo-SV”, Śnieżne, obwód doniecki, 59 OSHBr SBS „Drapieżniki Stepowe” 🔥 ZRU, n.p. Vesele, obwód zaporoski, 3 bat 414 OBr SBS „Ptakhy Magyar” 🔥 ZRU „OSA”, n.p. Nowodonieck, obwód doniecki, 59 OSHBr SBS „Steppe Predators” 🔥 Radar „Nebo-SV”, n.p. Sni",
+      "tactical_sources": [
+        {
+          "name": "#vanek_nikolaev",
+          "url": "https://t.me/vanek_nikolaev/43070"
+        }
+      ],
+      "archived_at": "2026-10-06T21:26:52.735517+00:00"
+    },
+    "871cbbd2d097a5be": {
+      "id": "871cbbd2d097a5be",
+      "timestamp": "2026-09-22T17:44:02+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА на Кременчук з південного сходу.",
+      "text": "🏍 Реактивний БпЛА на Кременчук з південного сходу.",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.0196,
+      "lon": 35.1728,
+      "url": "https://t.me/kpszsu/79583",
+      "media_urls": [],
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-09-23T09:08:12.338014+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy UAV na Krzemieńczuk od południowego wschodu.",
+      "text_pl": "🏍 Odrzutowy UAV na Krzemieńczuk od południowego wschodu.",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/79583"
+        }
+      ],
+      "archived_at": "2026-10-06T21:26:52.735517+00:00"
+    },
+    "75998421c408e155": {
+      "id": "75998421c408e155",
+      "timestamp": "2026-09-22T17:39:36+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА на Коростень з півночі.",
+      "text": "🏍 Реактивний БпЛА на Коростень з півночі.",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.882,
+      "lon": 35.1374,
+      "url": "https://t.me/kpszsu/79581",
+      "media_urls": [],
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-09-23T09:08:12.338018+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy UAV na Korosteń od północy.",
+      "text_pl": "🏍 Odrzutowy UAV na Korosteń od północy.",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/79581"
+        },
+        {
+          "name": "Dowództwo SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/79579"
+        }
+      ],
+      "archived_at": "2026-10-06T21:26:52.735517+00:00"
+    },
+    "dd32fcc23da22af0": {
+      "id": "dd32fcc23da22af0",
+      "timestamp": "2026-09-22T17:17:01+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Медведев заявил, что Литва в случае военного конфликта может «исчезнуть с карты мира» Так заместитель председателя Сове...",
+      "text": "Медведев заявил, что Литва в случае военного конфликта может «исчезнуть с карты мира»  Так заместитель председателя Совета безопасности РФ Дмитрий Медведев прокомментировал намерение Литвы снять запрет на размещение ядерного оружия на своей территории.  «В…",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 48.142,
+      "lon": 34.9856,
+      "url": "https://t.me/astrapress/125971",
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/sVq5nV_xve-NIft_ZMlWnJyDw9F6oKJOWw1X-4JNQ9HZPMd6Goqe-x3zr8DC77-TgWyCntbnA7NZ-MQQoHunn73i35PBe7d0j5L0Q7tZFPmccb243ebsmUbgZ31jzd11jAOyJ2gTSYUoYBbvkAUd5Bu1S5K54bCfsockHRKFL4F3N5SEhdsieytLYOxeSPvzxi-FkGANKkLAD1sN75kfFOPd4huEE-_JDcx3aU1e_axeuJrateAYn77d5M_cWBineP_JJ7gtY2_Bd3AYdIB-X6kFLcbgvyGi1_kOoDIPV4CWFifVy1qlaL_YodX4NFl-r7lLWGVN861U9UVauTeI0A.jpg"
+      ],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "astrapress",
+      "added_at": "2026-09-23T10:51:33.585226+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Miedwiediew powiedział, że w przypadku konfliktu zbrojnego Litwa może „zniknąć z mapy świata”. Wiceprzewodniczący Rady...",
+      "text_pl": "Miedwiediew powiedział, że w przypadku konfliktu zbrojnego Litwa może „zniknąć z mapy świata”. Wiceprzewodniczący Rady Bezpieczeństwa Rosji Dmitrij Miedwiediew tak skomentował zamiar Litwy zniesienia zakazu rozmieszczania broni nuklearnej na jej terytorium.  \"W…",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/125971"
+        }
+      ],
+      "archived_at": "2026-10-06T21:26:52.735517+00:00"
+    },
+    "cea6b01cc6159c93": {
+      "id": "cea6b01cc6159c93",
+      "timestamp": "2026-09-22T16:48:42+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Эрдоган заявил о желании завершить российско-украинскую войну с сохранением суверенитета и территориальной целостности У...",
+      "text": "Эрдоган заявил о желании завершить российско-украинскую войну с сохранением суверенитета и территориальной целостности Украины «Искренне желаем, чтобы российско-украинская война завершилась сохранением суверенитета и территориальной целостности Украины. Мы продолжаем контакты со сторонами для восстановления безопасности судоходства в Черном море, обеспечения продовольственной безопасности и предотвращения распространения войны на более обширную территорию», — заявил президент Турции Реджеп Тайип Эрдоган с трибуны Генассамблеи ООН в Нью-Йорке. Он добавил, что любые атаки, независимо от того, кто их осуществляет, на торговые суда в Черноморском регионе, в Эгейском море и в Восточном Средиземноморье неприемлемы.",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 48.0604,
+      "lon": 35.2676,
+      "url": "https://t.me/astrapress/125970",
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "astrapress",
+      "added_at": "2026-09-23T10:51:33.585228+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Erdogan wyraził chęć zakończenia wojny rosyjsko-ukraińskiej przy jednoczesnym zachowaniu suwerenności i integralności terytorialnej...",
+      "text_pl": "Erdogan wyraził chęć zakończenia wojny rosyjsko-ukraińskiej przy jednoczesnym zachowaniu suwerenności i integralności terytorialnej Ukrainy \"Szczerze życzymy, aby wojna rosyjsko-ukraińska zakończyła się zachowaniem suwerenności i integralności terytorialnej Ukrainy. Kontynuujemy kontakty ze stronami, aby przywrócić bezpieczeństwo żeglugi na Morzu Czarnym, zapewnić bezpieczeństwo żywnościowe i zapobiec rozprzestrzenieniu się wojny na szerszy obszar\" - powiedział prezydent Turcji Recep Tayyip Erdogan z mównicy Zgromadzenia Ogólnego ONZ w Nowym Jorku. Dodał, że jakiekolwiek ataki, niezależnie od tego, kto je przeprowadza, na statki handlowe w regionie Morza Czarnego, Morza Egejskiego i wschodniej części Morza Śródziemnego są niedopuszczalne.",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/125970"
+        }
+      ],
+      "archived_at": "2026-10-06T21:26:52.735517+00:00"
+    },
+    "ru_samara_refinery_strike_20260922": {
+      "id": "ru_samara_refinery_strike_20260922",
+      "timestamp": "2026-09-22T06:15:00+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "title": "Smoke rising from the Kuybyshevskyi oil refinery in Samara following Ukrainian drone strike",
+      "text": "Smoke rising from the Kuybyshevskyi oil refinery in Samara. Ukrainian long-range strike drones targeted the petrochemical processing facility deep inside Russian territory, triggering fires at primary refining units.",
+      "location_name": "Samara (Rafineria Kujbyszewska), Rosja",
+      "lat": 53.1959,
+      "lon": 50.1002,
+      "url": "https://liveuamap.com/en/2026/22-september-smoke-rising-from-the-kuybyshevskyi-oil-refinery",
+      "media_urls": [],
+      "added_at": "2026-10-06T21:23:00.186821+00:00",
+      "weapons": [],
+      "target_type": "Rafineria / Skład Paliw",
+      "is_fire": true,
+      "threat_score": 10,
+      "verified_by_sources": [
+        "OSINT Multi-Radar"
+      ],
+      "multi_source_verified": true,
+      "tactical_sources": [
+        {
+          "name": "Osint",
+          "url": "https://liveuamap.com/en/2026/22-september-smoke-rising-from-the-kuybyshevskyi-oil-refinery"
+        }
+      ],
+      "tactical_category": "Infrastruktura Krytyczna / Rafineria",
+      "tactical_icon": "🏭",
+      "title_pl": "Dym unoszący się z rafinerii ropy naftowej w Kujbyszewskim w Samarze po ataku ukraińskiego drona",
+      "text_pl": "Dym unoszący się z rafinerii ropy naftowej w Kujbyszewskim w Samarze. Ukraińskie drony uderzeniowe dalekiego zasięgu wycelowały w zakład przetwórstwa petrochemicznego w głębi terytorium Rosji, wywołując pożary w głównych zakładach rafineryjnych.",
+      "archived_at": "2026-10-06T21:26:52.735517+00:00"
+    },
+    "ua_cherkasy_explosions_20260922": {
+      "id": "ua_cherkasy_explosions_20260922",
+      "timestamp": "2026-09-22T04:10:00+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Obrona Przeciwlotnicza",
+      "title": "Explosions reported in Cherkasy during overnight missile and drone barrage",
+      "text": "Explosions sounded in Cherkasy as air defense systems engaged incoming Russian aerial targets. Wreckage caused fires in open terrain; emergency services deployed.",
+      "location_name": "Czerkasy, Ukraina",
+      "lat": 49.4444,
+      "lon": 32.0598,
+      "url": "https://liveuamap.com/en/2026/22-september-explosions-in-cherkasy",
+      "media_urls": [],
+      "added_at": "2026-10-06T21:23:00.186850+00:00",
+      "weapons": [
+        "Obrona Przeciwlotnicza (OPL)"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": true,
+      "threat_score": 5,
+      "verified_by_sources": [
+        "OSINT"
+      ],
+      "multi_source_verified": false,
+      "tactical_sources": [
+        {
+          "name": "Osint",
+          "url": "https://liveuamap.com/en/2026/22-september-explosions-in-cherkasy"
+        }
+      ],
+      "tactical_category": "Eksplozja / Detonacja",
+      "tactical_icon": "💥",
+      "title_pl": "W Czerkasach odnotowano eksplozje podczas nocnego ostrzału rakiet i dronów",
+      "text_pl": "W Czerkasach rozległy się eksplozje, gdy systemy obrony powietrznej zaatakowały nadlatujące rosyjskie cele powietrzne. Wrak spowodował pożary na otwartym terenie; rozmieszczone służby ratunkowe.",
+      "archived_at": "2026-10-06T21:26:52.735517+00:00"
     }
   }
 }
