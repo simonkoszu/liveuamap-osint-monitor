@@ -1,11 +1,11 @@
 {
   "manifest": {
-    "total_archived": 355,
+    "total_archived": 383,
     "retention_days": 14,
     "first_archived_at": "2026-09-23T16:43:07.215300+00:00",
-    "last_archived_at": "2026-10-06T21:26:52.737362+00:00",
+    "last_archived_at": "2026-10-07T01:09:37.615329+00:00",
     "oldest_event_timestamp": "2023-06-05T21:48:13+00:00",
-    "newest_event_timestamp": "2026-09-22T21:19:04+00:00",
+    "newest_event_timestamp": "2026-09-23T00:33:09+00:00",
     "cloud_sync_enabled": false
   },
   "events": {
@@ -14519,6 +14519,1175 @@
       "title_pl": "W Czerkasach odnotowano eksplozje podczas nocnego ostrzału rakiet i dronów",
       "text_pl": "W Czerkasach rozległy się eksplozje, gdy systemy obrony powietrznej zaatakowały nadlatujące rosyjskie cele powietrzne. Wrak spowodował pożary na otwartym terenie; rozmieszczone służby ratunkowe.",
       "archived_at": "2026-10-06T21:26:52.735517+00:00"
+    },
+    "5e4d1a704aaae892": {
+      "id": "5e4d1a704aaae892",
+      "timestamp": "2026-09-23T00:33:09+00:00",
+      "country": "Izrael i Palestyna",
+      "flag": "🇵🇸 🇮🇱",
+      "theater": "Bliski Wschód (Gaza / Zachodni Brzeg)",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Reza Pahlavi: Before the Islamic Revolution, we had daily flights from Tel Aviv to Tehran instead of having missiles hit...",
+      "text": "Reza Pahlavi: Before the Islamic Revolution, we had daily flights from Tel Aviv to Tehran instead of having missiles hitting Tel Aviv every day under this regime.",
+      "location_name": "Tel Awiw, Izrael",
+      "lat": 32.0853,
+      "lon": 34.7818,
+      "url": "https://t.me/ClashReport/97843",
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-09-23T06:29:16.749509+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Reza Pahlavi: Przed rewolucją islamską zamiast trafiać rakietami, mieliśmy codzienne loty z Tel Awiwu do Teheranu…",
+      "text_pl": "Reza Pahlavi: Przed rewolucją islamską za czasów tego reżimu mieliśmy codzienne loty z Tel Awiwu do Teheranu, zamiast codziennie uderzać rakietami w Tel Awiw.",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/97843"
+        }
+      ],
+      "archived_at": "2026-10-07T01:09:37.613211+00:00"
+    },
+    "d387f12be8d45174": {
+      "id": "d387f12be8d45174",
+      "timestamp": "2026-09-23T00:25:22+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Komunikat / Dyplomacja",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Finland’s President Alexander Stubb: The message that we have to the Russians is that, listen: You guys are not gonna wi...",
+      "text": "Finland’s President Alexander Stubb: The message that we have to the Russians is that, listen: You guys are not gonna win this, so let’s try to end it. Zelensky wants peace. Trump wants peace, and now we need to get Putin to the peace table.",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.9148,
+      "lon": 34.7402,
+      "url": "https://t.me/ClashReport/97841",
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-09-23T10:51:33.585414+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Prezydent Finlandii Alexander Stubb: Przesłanie, które mamy dla Rosjan jest takie, słuchajcie: nie zamierzacie...",
+      "text_pl": "Prezydent Finlandii Alexander Stubb: Przesłanie, które mamy dla Rosjan jest takie, posłuchajcie: nie wygracie tego, więc spróbujmy to zakończyć. Zełenski chce pokoju. Trump chce pokoju, a teraz musimy zaprosić Putina do stołu pokojowego.",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/97841"
+        }
+      ],
+      "archived_at": "2026-10-07T01:09:37.613211+00:00"
+    },
+    "ef864dd00b7fe81d": {
+      "id": "ef864dd00b7fe81d",
+      "timestamp": "2026-09-23T00:10:28+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Связанная с Кремлем платежная система A7 прокачала 6,9 млрд долларов через мировые банки в обход санкций, — FT Среди пол...",
+      "text": "Связанная с Кремлем платежная система A7 прокачала 6,9 млрд долларов через мировые банки в обход санкций, — FT Среди получателей средств оказались клиенты известных западных и азиатских банков, в частности Standard Chartered, Citigroup и Deutsche Bank. Часть платежей касалась крайне чувствительных товаров, связанных с войной, таких как военное оборудование и закупки российских спецслужб. Об этом свидетельствуют сотни тысяч файлов A7, с которыми ознакомилась Financial Times. A7 была создана в конце 2024 года беглым молдавским олигархом Иланом Шором (находится под санкциями стран ЕС и Канады) при поддержке государственного Промсвязьбанка, тесно связанного с оборонной промышленностью РФ, как альтернатива платежной системе Swift, от которой банки РФ отрезали после полномасштабного вторжения в Украину в 2022 году. Кремль продвигает A7 как главного провайдера международных платежей за импорт, в компании утверждают, что через нее проходит около пятой части валютных операций России. FT нашла подтверждения платежей через сеть ста подставных компаний, которые открывали счета в банках по всему миру и подделывали инвойсы, чтобы скрыть реальный характер платежей. Также в документах есть упоминания о еще десятках: 61 находится в ОАЭ, 87 — в Гонконге, 16 — в Кыргызстане и 14 — в Индонезии. Больше половины итоговых денежных потоков оседало на счетах в китайских банках. Так, через счета в Standard Chartered в Гонконге прошло 1,1 млрд долларов за период с конца 2024 года, когда A7 создали, до августа 2025-го. Через DBS в Гонконге за тот же период прошло 273 млн долларов, через Citigroup — 74 млн, через Deutsche Bank в Европе — около 18 млн долларов. А в First Abu Dhabi, крупнейшем банке ОАЭ, A7 открыла счета для 17 различных структур, которые отправили за рубеж более 1,8 млрд долларов. Сотрудники A7, по данным утечки, изготавливали поддельные счета-фактуры, изменяли описания и таможенные коды, чтобы скрыть транзакции от проверок на предмет отмывания денег. First Abu Dhabi Bank и DBS ",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 47.9424,
+      "lon": 35.2934,
+      "url": "https://t.me/astrapress/125994",
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "astrapress",
+      "added_at": "2026-09-23T09:08:12.338136+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Powiązany z Kremlem system płatniczy A7 przepompował przez światowe banki 6,9 miliarda dolarów, omijając sankcje - FT Wśród...",
+      "text_pl": "Powiązany z Kremlem system płatniczy A7 przepompował przez światowe banki 6,9 miliarda dolarów z pominięciem sankcji - FT Wśród odbiorców środków byli klienci znanych banków zachodnich i azjatyckich, w szczególności Standard Chartered, Citigroup i Deutsche Bank. Część płatności dotyczyła niezwykle wrażliwych towarów związanych z wojną, takich jak sprzęt wojskowy oraz zakupy przez rosyjskie służby wywiadowcze. Świadczą o tym setki tysięcy plików A7 recenzowanych przez „Financial Times”. A7 został stworzony pod koniec 2024 roku przez zbiegłego mołdawskiego oligarchę Ilana Shora (pod sankcjami UE i Kanady) przy wsparciu państwowego Promswiazbanku, ściśle powiązanego z rosyjskim przemysłem obronnym, jako alternatywa dla systemu płatności Swift, od którego rosyjskie banki zostały odcięte po inwazji na Ukrainę na pełną skalę w 2022 roku. Kreml promuje A7 jako głównego dostawcę międzynarodowych płatności za import, co twierdzi firma obsługuje około jednej piątej rosyjskich transakcji walutowych. FT znalazła dowody płatności za pośrednictwem sieci 100 firm fasadowych, które otwierały rachunki bankowe na całym świecie i fałszowały faktury, aby ukryć prawdziwy charakter płatności. W dokumentach znajdują się także wzmianki o kilkudziesięciu kolejnych: 61 znajduje się w Zjednoczonych Emiratach Arabskich, 87 w Hongkongu, 16 w Kirgistanie i 14 w Indonezji. Ponad połowa całkowitych przepływów pieniężnych trafiała na rachunki w chińskich bankach. Tym samym w okresie od końca 2024 r., kiedy utworzono A7, do sierpnia 2025 r. na konta Standard Chartered w Hongkongu przeszło 1,1 miliarda dolarów. W tym samym okresie przez DBS w Hongkongu przeszło 273 miliony dolarów, 74 miliony dolarów przez Citigroup i około 18 milionów dolarów przez Deutsche Bank w Europie. Natomiast w First Abu Dhabi, największym banku Zjednoczonych Emiratów Arabskich, A7 otworzył rachunki dla 17 różnych podmiotów, które wysłały za granicę ponad 1,8 miliarda dolarów. Z przecieku wynika, że ​​pracownicy A7 wystawiali fałszywe faktury, zmieniali opisy i kody celne, aby ukryć transakcje przed kontrolami dotyczącymi prania pieniędzy. Najpierw Abu Zabi Bank i DBS",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/125994"
+        }
+      ],
+      "archived_at": "2026-10-07T01:09:37.613211+00:00"
+    },
+    "f17c47495f84c0dc": {
+      "id": "f17c47495f84c0dc",
+      "timestamp": "2026-09-22T23:57:06+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА в р-ні Чорнобиля курс західний.",
+      "text": "📝 Историческая милитаризация 📝 Пока внимание мировых медиа приковано к другим точкам, в Восточном Средиземноморье руководство Греции реализует самую масштабную программу модернизации армии в истории страны. Общий бюджет оборонных контрактов до 2030 года превысит $30–40 млрд . Страна официально вошла в топ-10 мировых импортёров оружия . 🔻 Собрали всю ключевую информацию по мега-закупкам греческого ВПК: ➡️ Воздух: Кулак 5-го поколения : • Американские стелсы F-35A: Заключен контракт на $8–10 млрд на покупку от 20 до 40 истребителей. Производство греческих машин стартует в рамках Lot 20, первые поставки — в 2028 году. • Французские Rafale: К уже имеющимся Афины докупили еще 12 истребителей новейшей модификации Rafale F4 (~€1,5 млрд). К 2028 году флот «Рафалей» вырастет до 36 единиц. • Модернизация F-16 Viper: Прямо сейчас 83 греческих истребителя F-16 обновляются до топового стандарта Block 70/72 ($1,5+ млрд). • Вертолёты: Идут закупки американских AH-64E Apache, UH-60M Black Hawk и противолодочных MH-60R Seahawk. ➡️ Земля: Ракеты и тяжелая броня : • РСЗО PULS (Израиль): Контракт на €650 млн на 36 высокоточных систем с дальностью управляемых ракет до 300 км. • Танки M1A2 Abrams (США): Финализируется закупка до 100 тяжелых «Абрамсов» из запасов США ($2–3 млрд). • Модернизация Leopard 2 (Германия): Обсуждается контракт на €1+ млрд по доведению 170+ греческих танков до уровня 2A7+. ➡️ Море: Цифровые новинки и итальянский б/у импорт : • Фрегаты FDI (Франция): €3,5–4 млрд за 4 новейших цифровых корабля от Naval Group. Головной уже спущен на воду, передача флоту — в 2026–2028 гг. • Фрегаты FREMM (Италия): Свежая сделка в формате «2+2». Афины забирают два подержанных итальянских фрегата (Carlo Bergamini и Virginio Fasan 2013 года) за €460 млн. Итальянские противокорабельные ракеты греки планируют заменить на свои Exocet или Harpoon. • Подлодки: €500+ млн выделено Германии на глубокое обновление четырех субмарин Type 214. Основным поставщиком оружия в Грецию остаются США , кон",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.8684,
+      "lon": 35.0102,
+      "url": "https://t.me/kpszsu/79614",
+      "media_urls": [
+        "https://cdn1.telesco.pe/file/afUbWcxJ88D7NRu-1hNeSJ0OiS0sUQNH0XWiR5Jqa9fin7gnKHlaDJvMDBNUaePbwlG3iZVy405kGpNH1LLmkDpGOXyPQjzm5fQMbNjYVWBqZFeOw4Z6GxAFlwRfVd75cUvWPnAeecVYFrymStL6I5wvLLdPjlsDdV7vM2KmolWRkPM1lc6K5sSAzgoycBKKUf_43nNRFhMsiSxvJdh1B_BChYilsUW11dj9cOZJ9LW3rKU4dNTDBqCG8eBgOa9ty0WTiIWhQ2H8hWT9DWRDN-IDVMc9Zpw1b8njsNVcFT8DBuIKj7Ii8D33N10Oaa5B0Sy7DWte4GAdXPswKRi_rA.jpg",
+        "https://cdn4.telesco.pe/file/BLVTcdEF_1OIV3K6TslfZi47W2BJm5kpWVqmKp33koUs0i54JKvHilfH3NeBGqR7rH7slo8G1tVXdyuBiFZ21_E-XS7JMA_sxEFrclnKwz52RW4wBNESGEMPMXVqGVYdQkmKSNPOu7N8V5F8iiPwCHmazZJyaFiCp6XrurUye_8MM15hhhxrMMNzU3G_XylAo06UH_bg50ZPi1pCvZl5KCJChCNVquwNlKyL3emezt-vtM3Ed75fpwzdZWgSJkKSPPfaJC5GQ5igYBYoD87Pc81yFCz0mamq1o5xw2bBgu4X6DpzAIr5_oWK02nATMxLGEaF48QWf_rGXKdsiWaPVg.jpg",
+        "https://cdn4.telesco.pe/file/R7WGPAeJ3mswf9od5Bdornq9-x56waJ7lmpBgSOKQWi6rxW8QXoQ2gpDjRUW4M81daxk4fGhn-8ATsMC5ALGflRCEQGV1smx5Y37u0hKT409NYjyQBNRBtPPEpbTZAFcpGePwmAHvuicKug_d0tnDnmVDZ82pMwSWJwrsqQwOPMt_YiTE53-xoFV8cE0MY5J3LDluVsaStQRlIJaBGzDtBSxQdF5YRvESjjGiKNpMCkQRaziGAhN--PF3CuzxzId0kqkXSFlegNaKVriGxGLikSv4zDUJI9BTrHs8Q3bRcMtvD38vpVYc_rlxmq2A6_zk0KlL3ZpiHspoqIZ0TzHsw.jpg",
+        "https://cdn4.telesco.pe/file/NcfUlx7McefKqA95lCnm5gy11QUaq47Cvrm7OEBrehkZzx-uYiUiGRJ44Pv6-2hGTxC5YsyKeFMONdF3NFf-XujnqsuwMyP317ZyCWcm1hkqu0Bqt3_XJORUBXL_4jE9GvDeBLyr6AUkwIDR9nefcdvMTfMrDgyItrMGk0YgE2UJutXTKYrG2vxd4PSzn3k7tVfVyrJqz8VtZe5I6L_ZI70uDuN8kipkCKD9BnhBqf5ouvLS-J3fl6y49QnAZrLdyCweZ_hGQI0br2U8lj2v9EXoUl7UP8ekRJBRCK3a8MBd3QBCL2gXB2dOVL1xxhFTYmi1HHpdLbzvs8R_wn1bUA.jpg",
+        "https://cdn4.telesco.pe/file/GAiXqdvkOziP11sDLXTGNe03sl0243ubhSS2xtqy5GzLha3F7GDBaPdA_1sfD9bszLUHSaHZ37mXW9VcY5Bll5fffzMNQ8NfA36d9he6QM52o2eIRPwmB2MgxQy0rskTJUEpCiw1qQRzVg1ReNQVyMRZwBdltl-Zz53yZ9X9hkcoR7GCW_LppNsLb6Ali5TZBMP5w-bacYZ8fVhuC_iNj2e2jPADjwHnp0spvBh60j7SiJ_bQS9Ud3eCfGnwQGAquwtBdQ5vgT9Xtd1yHzyMMVe-jDim3a3QlKPfFGczG5KTSYhyKR8UFqgEb2upgblTg5Z4m8mKSMdHq3XLLk_m-A.jpg"
+      ],
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-09-23T06:29:16.749015+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy UAV w rejonie Czarnobyla kurs na zachód.",
+      "text_pl": "📝Historyczna militaryzacja 📝 Podczas gdy uwaga światowych mediów skupiona jest gdzie indziej, we wschodniej części Morza Śródziemnego greccy przywódcy realizują największy w historii kraju program modernizacji armii. Całkowity budżet na kontrakty obronne do 2030 roku przekroczy 30–40 miliardów dolarów. Kraj oficjalnie znalazł się w pierwszej dziesiątce światowych importerów broni. 🔻 Zebraliśmy wszystkie kluczowe informacje na temat megazakupów greckiego kompleksu wojskowo-przemysłowego: ➡️ Powietrze: 5. generacji Pięść: • Amerykański stealth F-35A: Podpisano kontrakt za 8-10 miliardów dolarów na zakup od 20 do 40 myśliwców. Produkcja greckich samochodów rozpocznie się w ramach Lotu 20, a pierwsze dostawy w 2028 r. • Francuski Rafale: Oprócz istniejących, Ateny zakupiły kolejnych 12 myśliwców najnowszej modyfikacji Rafale F4 (~1,5 miliarda euro). Do 2028 roku flota Rafale powiększy się do 36 jednostek. • Modernizacja F-16 Viper: Obecnie 83 greckie myśliwce F-16 są modernizowane do najwyższej klasy standardu Block 70/72 (ponad 1,5 miliarda dolarów). • Helikoptery: Trwają zakupy amerykańskich samolotów AH-64E Apache, UH-60M Black Hawk i przeciw okrętom podwodnym MH-60R Seahawk. ➡️ Ziemia: Rakiety i ciężki pancerz: • MLRS PULS (Izrael): kontrakt o wartości 650 mln euro na 36 precyzyjnych systemów o zasięgu rakiet kierowanych do 300 km. • Czołgi M1A2 Abrams (USA): Finalizowany jest zakup do 100 ciężkich Abramsów z zapasów amerykańskich (2-3 miliardy dolarów). • Modernizacja Leoparda 2 (Niemcy): omawiany jest kontrakt o wartości ponad miliarda euro na doprowadzenie ponad 170 greckich czołgów do poziomu 2A7+. ➡️ Morze: Nowe cyfrowe produkty i import z Włoch: • Fregaty BIZ (Francja): 3,5–4 miliardy euro na 4 najnowsze cyfrowe statki z Naval Group. Wiodący został już uruchomiony; transfer do floty nastąpi w latach 2026-2028. • Fregaty FREMM (Włochy): Świeża transakcja w formacie „2+2”. Ateny przejmują dwie używane włoskie fregaty (Carlo Bergamini i Virginio Fasan 2013) za 460 mln euro. Grecy planują zastąpić włoskie rakiety przeciwokrętowe Exocetem lub Harpunem. • Okręty podwodne: ponad 500 milionów euro przyznane Niemcom na głęboką modernizację czterech okrętów podwodnych typu 214. USA pozostają głównym dostawcą broni do Grecji, con",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/79614"
+        }
+      ],
+      "archived_at": "2026-10-07T01:09:37.613211+00:00"
+    },
+    "17f494085ac78f5b": {
+      "id": "17f494085ac78f5b",
+      "timestamp": "2026-09-22T23:39:14+00:00",
+      "country": "Iran",
+      "flag": "🇮🇷",
+      "theater": "Bliski Wschód (Zatoka Perska)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Steve Witkoff: Today, on the sidelines of the United Nations General Assembly, we engaged in lengthy talks with the Iran...",
+      "text": "📝 Вводить или не вводить? 📝 Итак, Дональд Трамп подписал законопроект об «адских санкциях», ставший последней пакостью признанного в России террористом и экстремистом сенатора-республиканца Линдси Грэма . Что дальше? 🔻 Что подразумевает закон? ▪️ Обязательные санкции : президент США обязан ввести визовые и блокирующие санкции против президента России Владимира Путина , российских военных и лиц, работающих на оборонный комплекс РФ. ▪️ Тарифы : обязательное повышение тарифов на весь импорт из России до 500% от стоимости. Кроме того, введение до 100% тарифов в отношении пяти крупнейших стран-импортёров российской нефти и газа, если они продолжат закупки после вступления закона в силу. ▪️ Санкции против финансового сектора : блокирующие санкции против российских банков, частично или полностью принадлежащих государству. ▪️ «Теневой флот» : санкции против судов, перевозящих российские нефть, уран и уголь. ▪️ Ограничения для США : запрет на экспорт энергопродукции в Россию, новые инвестиции, покупку российского госдолга, торговлю акциями связанных с государством российских компаний на биржах США. ▪️ Исключения : Страны, импортирующие менее 15% газа из России и сокращающие импорт, освобождаются от тарифов. По закону президент США должен ввести санкции и пошлины в течение 30 дней со дня подписания. Однако за Трампом остаётся право заморозить применение этих мер . Для этого ему достаточно до вступления ограничений в силу направить Конгрессу письменное уведомление о том, что отказ от санкций отвечает национальным интересам США. Никакого отдельного разрешения или голосования законодателей для этого не требуется. 📌 Закон разработан с целью придушить экспортные доходы России и ограничить ее доступ к военным технологиям за счет обязательных пошлин для импортеров энергоресурсов и удара по «теневому флоту». Однако жесткое применение этих мер, особенно против Индии, может спровоцировать глобальные торговые осложнения и ответные действия Китая . ❗️ В итоге новые ограничения усилят дол",
+      "location_name": "Bliski Wschód (Zatoka Perska)",
+      "lat": 48.0564,
+      "lon": 34.7888,
+      "url": "https://t.me/ClashReport/97828",
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/v9l_0C4CyhGZ9LEF2ODX1jtpkqsXEOA3a3rhotcxYf598iq4Mg9RO8_pGw9COqqaqh8i5Bf7kgZho4dka5sSsxL0ZJDkhtQM6N3uXvOYYG88lTX8aLk5BwsHIMcmy_klQxx9ZQpbjIHZQontiYPPr081-bqS254cOQ269EQW5bE9v3ZkgBjr6A4XkTHYioqiSDR6fPwSGs8Zmqcy60it1RBvKV7GLSYCyXUWLiJADSHaw4UtCtDL3AFC3cZLoYnuVfqcDlSHA3MMDU3EkKL1xdzV4SHM-SkqE9Io1_hFJSs3rRWQ9xlvvim3-h-SY4pr4Qkqs3ck125kfT6cAm6yQA.jpg",
+        "https://cdn4.telesco.pe/file/TldFA-hXORJmlE9XFD6mGi_uGKjiMwgBrPAlfspyhQoXQ0MFhWDPoU3OCGtBVYfzUykE8fwVDcfgJHC5UBSQeJyYYwpWPLRO33af3u-WL3_tCkM1P8ZPcvmjNN_Rqm0UJTPFBA6N0xMC422fFXrpkgIQbZbcMKWMDaadqU_66bMVe_SrEfI8sdWHkQXz6UTcIK0qp2T3pAdTSuJ2ou68oHfGPjygXozsFw1hwqCb6brhqe8ASGJSvD5mwXdKcREEMRVfxgg5EjzCkE4mxIbQ0h3N5Y1ykGMAaqHvj1yfGAxcoHxgm_ozmzKPsEhaetvcyyLhGGP-fIp99ZcHsrVnFw.jpg",
+        "https://cdn4.telesco.pe/file/sItecnY0yxpgtOVKmgIECI-Ak3nqLcJ1l5Zbp8ad_Aivn5Q5NgAOImF1pczHTCDXBgUFuVdLupc_svaCXDQgp4C8f-7R4i2kvHhErCQ_I6juD8KpiSZ56y55TcZiAijqFT2nzfVMKoa5ngWu_dYJ4wfTacqEU3bVARzC_JpcNaGDNXRqoEn8I-wwxilzC6ncqwLPmUIalNHUFUQgfviQoSnU9-ukuvkz1v6dPdIRT_fPxiMgtT2seTh0Of9oWv1ddqNYmTtul_FvrU52ADgXIUwVkd3uKpygFHqymHxfMboDnXeFwgAjgEvTmXKotX0J7M9tfvVH4yI3LpPcqgQybg.jpg",
+        "https://cdn4.telesco.pe/file/Lfv5XXhR1mSJHdsXVy80j_9X2KuwaMdQvgD6Paflt9_J5pw1T2nazhFfDIhcVB-UcOlLSpOXkNAGxnuMx2YkLNi2bn5GGt7uREjVKDj5CBRDuQPAywYahY9wDH4ifYaI5Cp8D2SuhNH15nBH90n5cf5f7VzX1TxjfI9lVIC6_OneQvVCUiTm0Jwnm5o94oK7AhYs28SXZdhSFQZzDyrCrQ1kGdGQZNRw8gpopFtKp5bODw6Nxc4g8fWf-05wV2a0NssGLBolABclhq-s-5iKoBZEpv3PXmHEfe484ebXR0dFy9JoBLyXyjV4fz_gHeeePpyoqL9ytwXwbTzHy_HARA.jpg",
+        "https://cdn4.telesco.pe/file/W00QuHso9IYXasbtSrvBjRkvrhxSs_rJP8UtykqQCsS1UyWaAFUNpJaFcsbhvYVzNHWV8nsMvLL11d-2nVkwoBhXaNj3eyK998g8QdVEBdb5JfJi_N2YSDkMKpF0j7ej5wrCMr-dqqbLvH-00b0adSItmg-f9y_a1GDndYt451QI_rqH7mLv05dBRWIuszVUcxpySUh8poxownTDMhOfG4Z1iNqXXx9mRDA2ind0RLHFN4EU8D9vUgRLYB4ijH3ENhZA9fkvky_lQVwAWuHhxCao0crdZ5LlLPXH5ARE9tojgp8mqBIG_taBgsurtXE_EfyJhzc-VCwbBvlReSXiPA.jpg",
+        "https://cdn1.telesco.pe/file/LzQWowWRpefMqesE1AvEO_uJVYs9ry62rhaxZjp_VS09Hu6xOz5p1nUjH0JH_nqztnH4dm8_i2IxzFCett-JY5gHLG_S4-HVeK9-N457Kfh4zIh6hIVVn4BP4WmmwtMs2vOBFgoTh-PYMu2JREfOsAu5OUWc3GC4DorByGYv7XyJ5Wwl8NXGJgHTq8ijPax9DFTJau4hJK0V0um7C9i72wxs96PgAozzQDhbsGdq6DB77W2orenUt-F6W-r98WXtoORC1bBIYB4lPuwgJncoL6faVkl_el5-cIXCnlCgXILFWsq92rlb9gawQCeR5mTyrPNUWxSUyfYp7m9fnnEhew.jpg",
+        "https://cdn4.telesco.pe/file/q-2mhUmOT9zpqcqvSbIS_uGcdgsRXmNmtPuDkwq0WbadE09h8QLZ0JHVl6FNpb2q3lE1kjWmghw-KLK11y2VfaW2t_aGrkRNq5a5vHITH8Fd88dpUlG3jWhiYTkEdamvTVIHDyb4-cL4612U-JvNdK53wK5T6nFJf3GzPHsG_9Edu6rwQpXLT5UwHyhFg7jdknODSyoIIwlaBCzckP9E_fFjMVDM_42-Kn03aKPjRThLinWCMCg7QpezQIyA3KUcowYi0VGJdL2SMtKU2Kq3fJqQRbgY-xEg6Lv3YSz_G71lbjZpHaJlmnpYb5HIEXNlX_VvwBckFYFUJSMM6_LUQw.jpg",
+        "https://cdn4.telesco.pe/file/LRvLiHUOkC1JQ6YU3DndKsFrGZL0nKWEUl8j6ER63NlLOtx6XdoSo_E5m8aZCyNmV2qJwxv0jDnDN5enymyR3Rq_o8WtvT7_Kztbnrl69BFKJt-RldbKK82ELS4eW4O5v3tmeSq0lANnqauQ8MxAt--o3uw-2X4beSO9HKVobBj9ZgAVIgY0ItXLIAYXT5v6x5T1AQKOgXkSbqiSSehFRwKtOKWOBVvtOLpLq2ZbJEPyoDoi6HjgzMycprJNnKRli3tJW-88jsgCALWmXZI4cAkd7YRwhT6xPRbyZPseAFVo6p_MH2ZFyRCHHGKzeabJ5LcgqV-mdDEtiLoLNV7IeA.jpg",
+        "https://cdn4.telesco.pe/file/KSQAnbGkskQ5Uf9PRY8l4MPlGGWnLozjMwhXTH5US6bQyrsEjaDjcTWYbyv3cHZBmXCpREbDagbRLwcOfaUlm98p-iG2RBFmEk0qWiPBIZTxxWbBKxoAraoF6KhcvEHY7TxgEOniODDlCextYy-Ry9iivuUbC9GnVx9u0SD9jfCovnAAGE6oEnWMrZ-Gxp2Zucsh0wT_wNzoUIhrON6d1_z_JYGtqRPHHg8ck3NIe7NpTgt3a1CAVJG929GzOSqDM40l9hKF_W7vp0S45-DiTuUP-RkDNc3p1HnrheCNhZ7VRW0T_D9Mn2PLiBYDz5_EHaegZEoJOHLFEYKUQtWw8g.jpg",
+        "https://cdn4.telesco.pe/file/i753qgJ8WtMzh3phBRLAECWXpUB8E9dwuGAT_stngQiGw9HmfUDqrcMXrHh0PGdTAIiZH_jJQt78TxrPP-p5iq96bPwp84v8V7pgWL-zz0uMIFXMHPGgYhem53_dblANHcz92HhJAwCAvv8LDMDItVcUImenQjYjXrGytGDsE70o1VkMrs46Il48ZuZLQpLk_pms3VKERvNj5EkJdEKMyAm2wskoo1R6Ox67TVbmnWRC3GE5KdDF5R-fU2VrHToBoR2CY0tQmPZMtvh4wdsMVfc_Rz5-Raz_wyBdya8M98SPWWswHG1t8xbOq5a72cegDVMc6csJ2izkPZdZnUywaw.jpg",
+        "https://cdn4.telesco.pe/file/glT1BL6xfdaWmjE1ttdlg8g46OPJlFzEA05MhIHOlnQ4u3GHY7--Lm_p-9yvf_p-90RLPCXTtKwmojSlVSOPiTkwl3qKJxor1kaRrgnFQY6n0WuIZByEjVGYB42Gsbgf2ZxLE4Gov6RrC11EQbRx3W4xfU8zDjjCsLwyTdaQTLQ73GPng6g_G555SIWjrbxPMtP1V14mPrbpXa0dMoNRBckdAWwN7BmYQwZEixcXt8DpP49m1A78CClNc8O6gwIPATvTlraEmwZsbpk9wrqrAf8kj8hlzTrKMYXAByCPf1P-Qutoql2NNSEjUu-v6FC6mAAEknTGjfoRpOMrl1JDCg.jpg",
+        "https://cdn4.telesco.pe/file/qiPkzAOTL6_0dWX2RR3kIHVLS_5SqUzh2U6ebXuioivbfqwOTvGVW-DKELtTkGvejDYR_c3tOY6MPhCrW8hDL2tz-CtpTTyaCO8OGxL61tBTbin_HyZ50hfFJAzNERYTuIJMAwT0i1tRW2ciz2moewkYqkE6oT8qNw3EqrXcqyJxQ-7JiWZId0lrEewSjkoOPlImhsNH0Ijsc7SQ48lQ0Oj-DLl8BJ_8FJlTgL9GMAqDFYNCE5dKOcDhmPYZ5P_OrYDLVrrnn1nBmuHcwRgBdqMoPJKUBwOwuO4gkjHKWJoLtu0eI7K4X41ZgzWaGeGH0zyWPgmAdMLo_tupoPHXwA.jpg",
+        "https://cdn4.telesco.pe/file/ecG6bx0wTjvQx79Odyd2-nQXaaPF9Qf-91-gSoD-FiikDeHMuLEWbtIxFx9tjYXzcgyP57aIf-aU351wC0f10HZd227xaJUiF72-KUCUf7ZZWZSxkzVxqCgoF4y_one6ffTiuNBiyk7EH2552xpm4rtm7VpV_OdX2JJwpo7tJHtx5pHxoGZkU_ElXw5CDXd2VoZlH707LJ68F0Tc0NC2_PjvpnTcJ5z38txUhyJdD-tV3iWTcDpi50XTvsrytMkOVYJ2jdsx5XKCSFTtuPEvdc4H05H1yX2ILXJgSdeAfjWhDaIKJHcIiBKZRE7oGKd8JfXAZbXaoFJY1b1AEcaQNg.jpg",
+        "https://cdn4.telesco.pe/file/Achv1Ajc26uNT71VNODcjE1SL9fhDHaPQpfNU1c4RwaihdcQ8JhYZ22j8K9BLIxT6ejMNFEK5T-U51h0Bc4y4WlkjEOY-Ev9x6bM8j_fTMHahAycMgiuUSDoeyHsPECaaADzq_OK_5_rY-X6XvPamkWznTEJf3K58_yHVQy5QgD19xbUhT5m61SETWiTJQ2YRNpWhyYsjTBpPvgCVy_7rPedS0AsapYE5cwoVq0kOGsco3auYS8xjXwGLMxB_hh016Y4pyFDYDj9g9t-LkVO71JNy42FY8o4S8eB6qsRq80G7ro6po_3BgbLv-wLt9PL6cFH-haBoZagAQzYM0b-Pw.jpg",
+        "https://cdn4.telesco.pe/file/f5bpsayML7WRUE-K-UuGe0_M2L0Dvc99pZEg4wxs82iIjT7oQKfOKR1rSIrPxSIy1nDeA8rG1tgTHEyvXIX-4e69xFrm4XMnxk5cIxLLVqMnt3JaSE63OAmGwKMu_XML8FSndEvrYbs-PnBbEW2DyOy-y4OfgqbsZHGUSri0Edp66dfl3OaZUpWIPvnGF1xPvrd5cwXU0LQVDkTnWsAA95h2bfrVlcynboeU4o0qSu7AlNqLAjIlF5fZ_4JGjTpddWPXrAdmQhj4DBrLRnjlkot5zaHpTelvKj3f4zVHtQlbI1cO0QixXIWekKBEYz5d_pAx8ytrA0CqklQjcZvCTw.jpg",
+        "https://cdn4.telesco.pe/file/sVq5nV_xve-NIft_ZMlWnJyDw9F6oKJOWw1X-4JNQ9HZPMd6Goqe-x3zr8DC77-TgWyCntbnA7NZ-MQQoHunn73i35PBe7d0j5L0Q7tZFPmccb243ebsmUbgZ31jzd11jAOyJ2gTSYUoYBbvkAUd5Bu1S5K54bCfsockHRKFL4F3N5SEhdsieytLYOxeSPvzxi-FkGANKkLAD1sN75kfFOPd4huEE-_JDcx3aU1e_axeuJrateAYn77d5M_cWBineP_JJ7gtY2_Bd3AYdIB-X6kFLcbgvyGi1_kOoDIPV4CWFifVy1qlaL_YodX4NFl-r7lLWGVN861U9UVauTeI0A.jpg",
+        "https://cdn1.telesco.pe/file/QVRMkJbq-he4szgsTWClhxbbMTyAQXojsY_Sqo8pGIAMywd8D5tU08SD0AAp4xzIIwFIaMHB1ifgr6Uj0Ut1Fm2RWpaJMa89paIM0aVXfFcOsPOKrMOmZ3pJCPODl0iqWbMpiG4xDzCt3YGQkTy9yP9qGCJe_7qYT6nZh2nZVo7xV8SAo5fmjcBe9P5BwOpdkloTbYbFf9INOz2Hi2UfYdfD0NSPgV7ZhewFoRXlCQ6G50OhzEgvHO8KRTHz5APiERgUIfTmc1LQQ3Tc7tPIqaKW3_jBJJmX06CsD15WXimfXFHTV2E70_YsOaaPMEDB5-zprP5WCrFj9tjYHGwNlA.jpg",
+        "https://cdn4.telesco.pe/file/tYv49tC9Ytr5NOVXFnp72-6H7RDy9qvl-CJYahEfGYJWt9DRHjfJkAjwV9BWfUAVblFJVoGLKAbR6d50mnDcDHlhlrP0fVkgFEXH6ZSvTTRQ0lM_tXOT78rQAlaIDrMOrluJ-hWGMKMyagmtN2Km386n4XZX9fxut5JSBkfBctl3yjIv8eZ7Of2vxOnZcZuOsajVoLwC5D-1o8NrH8XLRcFpLmVRtvYRgRaOKklGdW3xrBU4RcSF6Xaw-uHcrIYyNe0kboABok8tkASzSZbG59sske-ntVldT8cIHCiRh8BxDM9_zPQIUCt7ijos-5NnqjNO_sU-grDZhA1NEyWeNA.jpg",
+        "https://cdn4.telesco.pe/file/Qj3SEGc1WuuWQJSb5gNSAun78ogNtZWAyZQN-2muV9aWm0lNRbhjpNEbao8Ipfs0hYHClSROtehpVrS-1cwFVsGWPx7OjZWRsxXO-xJX6LgcQvvy3vbjCE3yLuRdq-q5z-4Yusd5KUjsjN0kbXyj6cbsEDBgl9D0Jgqikh0Nw7EtzBlmEUz8-hrrLa-479-ah0eKqaR7-20fIQfI_nfTI9oeHzSFRqEy7h0OC9Iuvt6D-zbt0EUbF6gEoWfdJhCUNZV2h75A0qTrbIoBzi_eMR3lukXNqDOjk8XGBimAQFQcLCTWCgW6SMIEaZ_zmii7mXygRZTGrim0di2Y69N3Vg.jpg",
+        "https://cdn4.telesco.pe/file/V9RYf2DAKsndQaIusdjTcksO6lb_25L7tCWPYyZKmaowavXGC6OImmM3RRZA85sr6nwgcmHrpDzQGunLymEfbcZfePKCwqMGJOCTbgGj6lGxO-gWwKdZbeTwdBCUR5V76PBYHnUsnKjWGbypHjc06Qdhdbhd8GaFKRlwXpeX4TLdXFL6wDpC6UupaKw_60xsB4UIOVZqSHAm2fUDqZSQsrOA7x6UCEKf9ldULDsEFO01jpHc53byKVi5X8AwxB4uo-XqlLS71piE6wDWnFM4WZm_DkB1FvhM06lWoRCLInJZCZfiK6bfVFOolOB2kY0OOKeGs3JrRgMM6u3xUxlEVQ.jpg",
+        "https://cdn4.telesco.pe/file/f0A3bmy0KNnpYrZ-vDo__8nUrkiLDP2RrkDIpNLyGUsrTU5ad_4mQA5-9YBkG2Ur_IQW_qnUm7h_sI2bTT7ZTBfAi54QZGXOP0UWoLf1b85iFxxjdnnA5gRneFFpF9OVgfLC-tyS3Kb9xL2dK5p5muNf_Hp8vG3ATD-U2vjoKnzLTzs5ESk2Uil1M8dd0tV1-xTEwVTP7vMSrUuIDfE2Z63mHRr8DHp4XFQPacQvMRiUhmaxpVfFS9Z0nFOMpxqH3HGcgAK7qLkTdUstDH2pVi6vqODgNJryg8GHH4X2bvFMuHrBl8UcB_o8f9AVCk0fcgr3mXSmy1aPCipWNvjHpg.jpg",
+        "https://cdn4.telesco.pe/file/MWkS9C1A5AxsNnquZKCo5t_9pzOXIWoU11C4hEX2Q34ekNRjr0W3n2JP5GuY7568uoWka8GPAhL0X56FxktZTUFNAYAk-0IzQlbrWQ99Slq5T6MwVgk9he4ozbVBTbcWCS0hjD8WsCqWfA9NlpmRGheV92OQkTfSo7VGXtEP30N3PZUv040hcPyS6maUky0RdGxSv3Ww44qXWxJU5z7ITxcpCLSsQIy-ZuzRYt7enXQw-kBt7UHJQohEaetbJsr1cDSjwZsGstutV4hWs60jLrQJyaUod-mjrXjVAhhpA9DKtJaCAe2CkgZswRHAFu-N0GUFY-o-2tmuY95Km1r94A.jpg",
+        "https://cdn4.telesco.pe/file/BLVTcdEF_1OIV3K6TslfZi47W2BJm5kpWVqmKp33koUs0i54JKvHilfH3NeBGqR7rH7slo8G1tVXdyuBiFZ21_E-XS7JMA_sxEFrclnKwz52RW4wBNESGEMPMXVqGVYdQkmKSNPOu7N8V5F8iiPwCHmazZJyaFiCp6XrurUye_8MM15hhhxrMMNzU3G_XylAo06UH_bg50ZPi1pCvZl5KCJChCNVquwNlKyL3emezt-vtM3Ed75fpwzdZWgSJkKSPPfaJC5GQ5igYBYoD87Pc81yFCz0mamq1o5xw2bBgu4X6DpzAIr5_oWK02nATMxLGEaF48QWf_rGXKdsiWaPVg.jpg",
+        "https://cdn4.telesco.pe/file/iAWYFMp3RdEM29BU6YTLcyOtC1gfpJPT42D-aWYtU2uVbGG2IRtMIVTVUKPXg-cvyj-toGqCxC8kM5daKX-NDyaTNppHNNLmNDBSsShxtJYRLUxVZkLDagIDdvfQN0G3l0NQ7egfIFioWV1x1Bx_3dk-dExQYhIUPZlWrWMOndGgr3_4CFT01F1mpyJZ2-Fa-FoxDu5kOmG7vSA7jKzxYxr5_3bYbyKKTowhaW1rj8_TOKMHIni5Gn9-oMCIeevOn_YSzn24h5i42Fl1BRamgmLATG-d4UivTGO1XUkiDLUhNwSjKLXiJpRezeUKulLGJflEBgZ5KfXhNWusoHBU5A.jpg",
+        "https://cdn4.telesco.pe/file/OQUmBSi_nyt5HohuOCU4fv7fqHyp29QszlFOTZT73demf85vou8dsiyN16pwsjq3sic2rRrvFBefOG-d-Qh1Co_AhDJajynPLCDPEY4GvOz9xvzARtdO7fqzlj4lS7eY-mA8EQh32i7g34qbZd4GOQz266O0CT3dNFhPMmPIrkPKlq4TIVqfWR_IQj0jJ8fDj3tLnYAAK2h1JMrOncMxfWiKicI68K6dT1BAicop4yqFro_jpmAylB4X41hNm096QXaYoz9wcrnQg4at_D9lBDBQFfAmySk-OY6r-e2nMNbf_crHdcyEH0-6wZ743fO39GVvz11IJEwByF5m0yzvOg.jpg",
+        "https://cdn4.telesco.pe/file/vKHhMAblgL05U8Rj-btubl9Zz_V2HyLedDWd5UcOavWcdYYU1zdxILq2VjmjBfDJc4eXIlh7F2-bwDIx1GKJcfCdmyLAhPuzM3phjTN8ErJKQXvutfFA3WRHRSM35BA4pPEdqAR-q8wQj1M1jsPNaHaNq_cHHAkY_kRm34Zi_rkKhAc3YbY-tZIf7WP1a0xdzwFaYO_P8OfzHKHmi8t110OBAz21374w8tGUti_onolp1xH4SCJtqREEKhtqwx2tXmSh137BmMA1CPUrkAsGRTXheeqHjXKBvlDTE_NEBo5zU9qlbxAzduPgRzNnQaDebot1Q5nu91SB2DQpRK0FyA.jpg",
+        "https://cdn4.telesco.pe/file/nKhBB973Si0HFnPhllnPT5o4uQ4WVrkV6wS9XCq2E0Udzha-Tyfl8ejj2SBCvzIIJDtRQW9z174H1xXPJ0BwXStZ67jZGlTNhOZQihC14GdADUfzZH96_7Cb-Kg8qGjpp6JSJASt4W1BM7tRUDBEWeJGBlkbAZ2B4X9AaPKr__eogU8YPauKmRD6qkqYJdMW5pRgIjHdoRPzzkND-9w0Jbu4CvZytkiYfro00Pq-IFKyAKnqV4eiC0SfyI1LFHMgtESDgBgcJQBrrv5eHorvc3O9nlX2Uk5BPTIs6voXYxOnSnluMYZn-U_jEghdyANDK2QVPuhvQkRPr_bmH7S60A.jpg",
+        "https://cdn4.telesco.pe/file/WY3zAaEzhd95J7sodI6Wluf0SSW6PDVVS8LTelgdsQ3TV1O2n0KWBwrip-kRV5RTZ_fox0IOnOhovjI1iCeOclELx1L_GpEDMkS5O3h2zu3INwMzW_EKZb-BLGYyX2SS6k3aSxzqEqpGvfMO2U8T2QIZJJJKFS49m-HTtWctsqauewvIUvyDleazkzeNFAEqFlKG42jnpwLasAMqBGc-UCg8inBLIcw-K-OgHTM7GAudeMJmz3s8Soo9Ai_UUq9aYvaZ7oYNcQvlDt7_E4TTebyjJ6SMR037TJTiLyDfNcwxs87YEgwaQEnGYp2X_2adwxmmtzB72Z6-XmUe3qDtUA.jpg",
+        "https://cdn4.telesco.pe/file/Gzx42Y5MjojHzvmR_hQ4e1dwztVLEsnsjJ0JlA13rhtbUI3I8_vAiFAcV-klPSYOyOPCcfVTMzIChyFkE8LYTSehkB_NqqgvOJWcvkn1-6McAn5uoQKzvxodRXojT-r2bkGyLd_2AyXDTOjHWYyLUPEmhQgILldKgHrB-efsFblBGMFM_wnh2K9rHO4PjgXXXZ-KtPD_jKpizTyEfF57GvDHIBYaHUrUJ8Zv57SdJ69YZxpTw168Yhfj0vM3SljGpvZWi2A5hXUBP01fEalDTOwtfuqSVGiK-5loHuBPJhXFh2keKt-UYaC3kHHaPtAATf5pPY3gHiWvxPB4xZ9bjw.jpg",
+        "https://cdn4.telesco.pe/file/IyhgADmhT2XvAi2BvkneCHu-E38-xWa0EkfW74mvAOrqm4536Pt1aq4VstYMed1S8ZDcRrnIMqxLLtuWTSsBU84eIZ90ry2E4A5TnBmoTZJqhsq6dLE6ErUg1KxUZuXJL-rpt9aNKoY1d245oUrHGqaqlZEPVNLix5HephIsYSggiURWPyHRMiF8SxIkoKOwUVExPuNn86FA2CJOj-rwrjueitHeUVoKbyJ0V6J9LD_KeC60vmE9toh6wN61H9FoF5kXIjQ24IXyXDGNYlQLCSkZI4NBIe66SBIcfSq2kxaUD67Q1xkKzm9s2s-2rMY9fj5Dmsff9KgcI2Ll2FUZbw.jpg",
+        "https://cdn4.telesco.pe/file/FYWApSB8NYJBRh2yCCDOHBhI7VZPTuMFmE-ILBIk54TskJpr55mfuPIUVbtHitDu67XC_lFqHyM2GL_iuY1J5JdrS-W32frOa4p3bd3Pl5avHDNwMvK9VR5idU1iDwTvDPeFBBMBoq5qj9WmbfcOxAwv9t3crCacHuY0gKGu2G_iD2xPzDTNs3LNFRGk60dSkXIgtCqlo051jc34dTP5FyUyZk9_eUGZTRmiHsg3Nr_71JUfJgc3q_8bVTG4zTdbVpsueVrrn3bIuSVfupi0eeuD67NML4aQVo6gcuTH46QjktKNHC7Wn7mVICbHb-Xks_ErtWQuRDr4VU2MgejdEQ.jpg",
+        "https://cdn4.telesco.pe/file/CUrRstFEP_ul1ESapoo8C5cHC0PNE5VBGN0kBhJ0wXNhz63s2mmbRnztQx7UJnPgB7iO1GMPDMSnNhkF1Lj_7jhE-1gtPyMKK8JVLyoetMRci-gwm8iXPhWWsHyiyHvNhyTqmHtRDf5hsWTre7ZaDnL6W4IjXk8OfGbg8SPaE_d4Dz16d1KqQk-6G3e3BQ1HbI0jCM4Qlq5a4lnM8jaR3HpKW5hilNUj-9_0csovLkhS2y5K7HT5SIIlVoYA8vPKNR0To5f_85qhjRFGaznuXYb177CXzS0ShQ-xODwOKVnWYd1dq_Clpfi8UOkI55xzodQM0e5aCO_yopTKV6rm5Q.jpg",
+        "https://cdn4.telesco.pe/file/i3DAi-scQZUo4hi-YeC49U7TKLNg2XvZ7cmWpVbg1xszeACgTTZRNwetocxZRKsY9dJouB3v812vtl01UAaQY6bVGQAFAPxT3DruQDSS6mkq2V1Z_cbTRzfzE1bvTrWipcmPDqwsUKMnFTOhEQV0EbFu7ZA6tj4uLHAR_UT39kPMq9Hjav5xIwV140ZGJBcIMzK9J7f46RQz_knYkikrdEY4Fzu9cXm88HToiLoPAG-ZJPnOaCq75SY_lJ8GQ_3R3-o6ZJ_tJSiAjx24XWIXvS6b2_mhtLBJN0gMZnWyecZUmz4iz9Hj6HTw3YWQtc-DXiZl-1otGFKqF43i9elhcg.jpg",
+        "https://cdn4.telesco.pe/file/chU27JYBnc2XYXhQSVQ_72k9Z0jUMpDQ1p5TdFNTNNvdA5n05Pupk7tl-MKE2BXeic-NzJqmvdDbAvKgJNwsh8kFpjjMnMsWC9ERMRIjKyFmFKEV9m9BroMGwhf2S_l1sJiRcHfdlyHBhod-uNg7BhvP1uF3oxCS4qyL8f3tgEUWJes1HCB95f4fncVzJA4VcztDZDSbuOV_hE9fqJX0qto9DvyDE21I16h_zEEy5qdXP4ePEPZYS82N72SIRIa05ov3cE-e0zcR7MHfIA3L2hkgUBTFWzF3rijfq5htLMMEWxA6fXcpT7I-OcSOvUWiHHJooasWS4UEijCFxDzxsw.jpg",
+        "https://cdn4.telesco.pe/file/s6yHd_eHC3hAfY_GN_3DEbsjz-RkIpsi9QgA-Zi9_32Iaz1w5BSVDFiXd7N4-g1G2MySWzoVFqzmL9peSFEHueJRk7zMI8EDtnDRsEtcgrZeOJsDvsQ1kJwLCS1sGvWJztfRPBQyTnW-laMPBYURRKQXNtijy7Fmq-3xWQ_nZNc-sgULYVIkedu7RAyN10MCyvrwkOvJE_ZRPt2pJjUcB-Or6XiMbUXOfDG3fz-nWBP24C1mCFRdKheYHzoGJGzcLXFdEFr0OjsaBk2YBXdZo3O_x6FUsDhBU5vGBhSYaHAk6vuoa8atmTLIxxhR6TBB9IPAuyPDx2LhSrs1Won64Q.jpg",
+        "https://cdn4.telesco.pe/file/czbocvb5pQKJewy8oIY7MKmx80O-VTTJVDXnQKbeEoCQrxQoLEW7Y2EPrQEvpCSuOS-uNQ-a2YWDMSTTxI2JjnSZerMNPu-KSGLAELYX3XoBaB9U1u-40_qL7FMDuM_wi_6Imx3DsRTMyQPWp_GvD5QjzeuzKPvpE9IiwblXEDrRCAHec6mVfi2-DQnr_dZSwSgNg_dtanco9iVfejSy9nQJEEaDzMTFwh7SOxOiiWlkiJOHmybGIpjFRNwdjj1aXtHM_uEVqOHvTN60EADdC0hkIKf_F9AnvzPH0RPSCGjZ2U18X44DmI9dJVTQqFv0r2HG9U7qmZXdy8aoNFmo4A.jpg",
+        "https://cdn4.telesco.pe/file/ggU2n9HLiP9NXnPFUt0vW3QB7HQ_x3yz_ZFESVq7923jy7nbB_nj13NVaT7rfYlHyn-WJeJgLh73mOq3anjgBvS27rVwuW2Z6WeVGP8scLpwGRSsq6lt_-ed4WNO3KDzetUH6VZZ-c9gx06h_uB0MSkcj90_DEwo7POdBIebMP_8pP2oChazObkt2-PGiDZuhNc73K1c4kffR1RrD8JAM_ytqMOASB4v06UG3umHALkKSuzWNs1prwqZlFenNtggpTXTMAGwBzIwCdMMrc88v9Hh7nI-18Ti5PlrixQBOdVaD73vFs8hfhaexJq8hdrMyaepGBg5n-qkD_nyk5kDDA.jpg",
+        "https://cdn4.telesco.pe/file/NcfUlx7McefKqA95lCnm5gy11QUaq47Cvrm7OEBrehkZzx-uYiUiGRJ44Pv6-2hGTxC5YsyKeFMONdF3NFf-XujnqsuwMyP317ZyCWcm1hkqu0Bqt3_XJORUBXL_4jE9GvDeBLyr6AUkwIDR9nefcdvMTfMrDgyItrMGk0YgE2UJutXTKYrG2vxd4PSzn3k7tVfVyrJqz8VtZe5I6L_ZI70uDuN8kipkCKD9BnhBqf5ouvLS-J3fl6y49QnAZrLdyCweZ_hGQI0br2U8lj2v9EXoUl7UP8ekRJBRCK3a8MBd3QBCL2gXB2dOVL1xxhFTYmi1HHpdLbzvs8R_wn1bUA.jpg",
+        "https://cdn4.telesco.pe/file/HG3l6ystR5ZfJ4V0Fv26OuQJspwVV8Z_jeEIeIaMdFdut-Z7wcUHPMDZJIm_1ZX4Kz6wIGFdZrI0M08h7co8HNTBt9AwlaO6SXEe3C9WncShfyVzHPt2jG8OerxTsY0oz1IgNtxnfpyxvaj8Sg6RXIM7Krojlc96sRjPO8lTf_g9ubNBYzC6gv7CdZAAMVbKkH7-qFwdO5cf_WqYTIq8m8y0sdmDs7I3ygiEiHZUyfdZsUrEaBgjPKGpPYssDwYfFrwpf8aAQOL6zmmMEmdn8QqhnqMpgE9U4VIiMuDcuIFI2s2uRZY-tKqYkCEc7tv9AbaZlJqkFA8NNcfpIRwDKQ.jpg",
+        "https://cdn4.telesco.pe/file/mPSp8vv3PDd2_lJcHXeEoo2ju0t3LEx2wPG9zsfvO5pLYptSEgtcjp-m7LjnKqaNHFZ55XcXechJtMZtL6lUZuP4IQrParV9Ef0B-cw5s5QksYEoHrif37V986-E0lrN0eczcE2csbABWED_WQjYnCiGv4KJN5RJe43Sw3_gButrz8luJBSGj93AYPVuE6efU30gBbES87qH4Fl59Rts_lXNwRp9s8K5EoaHApU8HQXWRNaZBkWdrru7n4PAN3C6yfHfqd_a3FdOnQYAyCmEgsy98VwSu8MBCkAx_gwgh7M6q4hTPWr4QrZJCVGMMZFY0MaJpg6GDj-uzowedbKEBw.jpg",
+        "https://cdn4.telesco.pe/file/t_m6HhvFbcInjUeUNDS8GN0i86JMqkBOXG-Ftbn3xTTYLlnPfXErm3lCktpYQ28uQmXzC4nIe7t9EC_1K4ZM2XVznEKxKEqomj6qxWNRXEXqegXWxJhJdfS5XA_TqgdezjR4PJQpRee67xRxFoHSEutbLmQ4PbYYKQI0BP0U4jFcOpuQ9nOpDQ_bldna0PgckJLzFBAtpzGO_gDQV31rVBFN1BqzjxOpBhbbzwydnl9qZjBFuwRRRiNsTCCA870ZQhxTbGYO8iShygO4PKvzH45W8qBaNjv_3h_8jwuHdzRZaeXa-p6gCnp9HOAFs51kauZtUrW8OzMt3o3rHuQs2w.jpg",
+        "https://cdn4.telesco.pe/file/TG2yP-9lFbLb2jna-lMbzsRItmglF0pyHgLkEPvYOUr18hbArrKryrE-EHGKvoTnOdrskuQmcUpbqyGSdCWSF8XxlHbj80jrp8hCon_Nqx0uB9LZU94gPchr-5MAPrAtdlKf_2SfNSriMhvzGlk_exI8rt57OECkmO3V_EPGeypjGcl1aQZzH2HnjvA9271Z2SjIQUQIAR2WM7EKtqRE79K_56tqyQRd_1hIRDpmm1IJXReA1u15_tZUmpdkN5JgT73DOR8FpBbNaBTkTOFJ_eWAOBLI8muuyZdKVVX5T1ZSzSxfTWZqrdiBSkqIhKBPyv7yVSE9aN2T63gICZxO_Q.jpg",
+        "https://cdn4.telesco.pe/file/GJRTexQsuk0Xh3Pv0RNCmBok5vzTCyx1dDQRJNcXYhbaxM4FH3js3qg3P-lL3NfaEBS2BJ0rudyytHSxtxUXoYSuFcRkk6jn6j6SG3UY0qeAk62hLoJKslzsQfve19Y3TqHfd51vK0zuAy01sXyzhOReM740BK-MPzAMoRYZA5nqzJsNWfeK8K8LsiKvRI3MaQlYnUNcxlBCuM-oHTD5tKhuKj0BDn6oz15vnchMWAzYz9jFG4iqCxKwAt0_NTsOKexg1UD29PwnGJrBZd7Yuvjdmc3RFfvUNjPAXPxOKpPSPdBzZpm32FOnaEde8yKYSSkM39wB_c0sYl0qHb8vbQ.jpg",
+        "https://cdn4.telesco.pe/file/e-ngc-LseR8ybK5zqB6DIHLPXV0G9xKpWbDSkvD4dcbGQusj6bz6v79CX8-PlmS9-DZigA5woIFxTd21DSsFYhtnbsFGN45ASIcGlChIbdCJpaT7iVYeIHrFYRYkNhwjI0d4JHD5WlSUUPWHSqXIIvH6rEXsVAuI3wQTLmtclWbIP_qcxU9PrVIrDpjJKg5bBsW_083qy5q2CEAYRJLblrehihMHPgEjZXpe6rtYzhKCHlSAYuO1d0fXVhAlRqCZ4B9lSQ7Oniio5oXx_hNJ5UqHVWXtDBL1VjhMz1heZk2tuS5jP3NdwKKjIWe91Hs03JQj11CNJWp7WxG0sbEeRQ.jpg",
+        "https://cdn4.telesco.pe/file/GAiXqdvkOziP11sDLXTGNe03sl0243ubhSS2xtqy5GzLha3F7GDBaPdA_1sfD9bszLUHSaHZ37mXW9VcY5Bll5fffzMNQ8NfA36d9he6QM52o2eIRPwmB2MgxQy0rskTJUEpCiw1qQRzVg1ReNQVyMRZwBdltl-Zz53yZ9X9hkcoR7GCW_LppNsLb6Ali5TZBMP5w-bacYZ8fVhuC_iNj2e2jPADjwHnp0spvBh60j7SiJ_bQS9Ud3eCfGnwQGAquwtBdQ5vgT9Xtd1yHzyMMVe-jDim3a3QlKPfFGczG5KTSYhyKR8UFqgEb2upgblTg5Z4m8mKSMdHq3XLLk_m-A.jpg",
+        "https://cdn4.telesco.pe/file/WsJpV26h5SVbJOfSaL64jc9HK8HflSzgzU15Pby3yH646_7Lnr6y59aCH6EY4zIJwDgJjol9nkx_BfOGYRu7raULexnE1PeNs4RO7P3epPJRMxf9TjC0YX8RPj6N4TXHdGoNDXwcaTBZyPL_9iqaR_r-cx4dR3sQAP_9EJO6xHmGwtKu56Ab03_UMl2ytyCVudIm15o4uTX_8VdqHFqPSFi4aPaZWgGDJ0rr7Sxi0X1meVi_iaywDDgR9xD07l7aG0BQbOSMnfJ3wHzCT3OpgU-AFyvy7SrPyg9xm1EBWMxv1tZX-fyuJZDDZeWBX9SC8aKKilVeL0xJJUkgXWr0hg.jpg",
+        "https://cdn4.telesco.pe/file/h9FfKkquxa8rQqjIiPWZsYBt0ubQMptheLmR1E8Qr8DbJjOPoCC6c6dainMvWw5XwXenW0VYITg6pwNDz-oBJlnz4KAdcRzzWbxpfRN6ltPDv3p3T9UmSmHCLXG8aXITqO8oFq78g19TvanPI2GiBsNT9FG61UpQ5cSEOp8n3U4iFMJwuAP1_UX-VR37MNfzma_mV1icqb0tEXnqm-pd8CSdoE5-tC5I_FRqOTnxZ89VYgqEcLhacOV5tvdK0nb72gOuFfUPXKsJFTh7J1E10Bjn4wPUJ9ybHQP_G1CoLHfWTRgXMGUJb1ErFEovDxzk1UCvy2O2REffbD4X52_NNQ.jpg",
+        "https://cdn4.telesco.pe/file/AkNi8AfNCvZdX3ZC7hNsjZ82WIPp_sR-Cfa_2cyJ4Q4qP4f4FiE1XpwT8b_sGcditV2Y54n22Fob4AizNEym8VV9C0BeCKkhEKrryLRTN1il7j-H4tviGMAjSF_-bEH98DZLE3ywSbhjgoeLAIiIqFaGhfRJYh5EgPK9ubNTVocA9bW-IXwQ0M39CLaxtRNMl2m9UwFkmPqTKmT2hVklkwHR6rwj2xYAwv5IwDmsvVdNOqfMg7xEAmrm8CtzEe4vVmndnw5KUr5DMS4Tfw5Tb63_Bo5VZj0Dln_T3-KohzFAJ7TL1O2whyzyX8SnODZmIJGyfvG7ltND8RRPZM1hVA.jpg",
+        "https://cdn4.telesco.pe/file/h3DgasNf4bMj5LiW2Div6O5u9Bt9VpHSxLmcIgyOyAMywDhzALmlqaLWBaBiaT9cRXWZH-U3PcJ4r8flNpqZOLLpznU5E80Gi7oZlmGHH9AVx29lxTmgtbQ1g9MjNuQrzCBlI2xSU4A5I9VRqXUJlsCSWdn2GSmCZ_IyXh8jGtbAn3q7UT8mB5A0GnEqTJVyGxl9XyfAK6VVEOCg3p0zcWL9VJgp7I623mObuxoKGreEyESlQL5UZPjHxMWSrshpB2Muh3OVFa9lqQTLj7sdIOD-xoOrrdAG7U4vlt-7QjpJsVyI3_B4YtGjIOxM1qcUMAHivW_xTzenX5nnZ92gNg.jpg",
+        "https://cdn1.telesco.pe/file/YMA7tZqhy-aMoGpYD69OjZJPkfny9K3ZVB4u407r3WmVY_7l8CCvT1O3QK-BBVZQ4WnNBx3wI81kAjZT2BVuIVCnqAnLgvplRln7_u5NSAfGrkasq-UwNZqcF9gg-QcNoQdAtUMMFp9qO5AHMyz9RsmGNU56h74216m5qloXhhCOj3N9cnW1k0KVOatXQZpV9qKuP7mQrUR5xTF6Ka-Qw1i9JZYVqiZxasKB8_WELjv7GbdM9ksP1abHyfdn-piYKUPv3CTrH0jT1KPkukbzKtPgFKrTDXE69xuaPdhP2alSdo9q3kjKINjJQqcKqIqqVeJE4to7ekVC-6KsY6hpfg.jpg",
+        "https://cdn1.telesco.pe/file/GBXR48DCECrFtAVX5gwR0uFitaZF9hvxKgBp-lGtXrHa-VYAPb8nA6_IYDZf9yT_6IL7Biw__Q4Eb55HevQ6LYKFjKIJPk7WTXCW4d0nFpvfNs5L34Zr67o2n-v_KC8id5Ya3e0Q4nA-e-kxGYh5gkMKYi1HeLtOHL6Xe81FB7aKpyP_KHE15LQfjwpPz4m4fj4X97Dy65R3cbcIwdiRvL9-a0-nqvrQ9VjIhbPb_dAw2xtq8Wr26PzEp8RvUWnlQjpTu66e1L7eavIXY3Yxb_tQmWOgvQuP13LprYUZ7FLT0UTHiKV-IaHI4GYLL_56QlY3nbRDnCmsGPtG11hAyA.jpg",
+        "https://cdn4.telesco.pe/file/apFwkchXGxbI3-zTwVcP1RrgolMOSfEpUs9YKebxXn6ttj0N1NN-JaQfs_-L70ffi3yoRr_r0-hWIGyw8GWnxH1dintaHcRdfX2sPZVaiGsDb8R9xRLAQE6AGfTUAi8X_wSaW_28RRkQuzqiE53uiLIl5adVh198USez3QPOWyulUS26iSy3yUxbmcWho7gAHONyHuEYR6ejuIOSDf49jLWHMn9DTkyeOeryG1fLki2Cv7MwFCuUY8TT4UcuYEn3ecVf-w_ti1e0c-o6TJm7U4VFgbi-9V3A94ZKMZZ3sljYX2oaq7qRwYtHqzAhL149EKQFNJVSwcOSaL2j4CKupA.jpg",
+        "https://cdn4.telesco.pe/file/gXJUGXqc9su_Jq35qxJILKRwRpVWxo27bwd6hEek9wYpsEyQUn6LOO4SneCXFMKmtX8FJyZUaKzGQnIx3TYPBUh40klMF14y2vU1ekcR2KaMoYtZ2ViR1Vje0bl1XdmAPxbCVY87HAY-xyEoBsKighg6Awkvk0R5_-ng6ovHI24oiNbju3qR2cIk_R7HvjMdL2Kvameb82E2UfmjcOKAS8A3EJ0I4wwRYm8aUSww4PVLmmTOvher5fhI66Kvk6w5u0n-XdsgBQwjqQqaI0P9ZL7FW5AYapcjbvcmCHcNEXf-6GLRhpqUxulZjL2WpQbkZDege3OC_fg6TTfc6nwsaA.jpg",
+        "https://cdn4.telesco.pe/file/HO3pEHuuV6kyAv5N9vbi1UkZsG8hn0cZlGk59WVWJHbM_ySOrIO_6yiGBTaAu-pMDHhzL_9mM23UBV3KDxyO4K_wfnl5WSHP5C246DcBPThhgwiqLUAsOBytsz3Ai2rqclKRVqKFIEyTBE-2e1vPAmo9pBDwRJBeTHGAsjQhWa8uJgj0gU4PzzNo4vUJ_TZ4ihek8DllrUOCbFMfTgADflmjI_4PIyKis3Dyag9VlmhT-1uBKpwVyD4iTT8jxVKHrafGJpOZ6BqtdtB7tupmBitK0sbH69YPKesJIQkGmdrF20x1LGFAhoNI-oyL10V-MvNHlDjX7fNboKrtDhUKlw.jpg",
+        "https://cdn4.telesco.pe/file/DtL-bqCfZspaxCFri51HBaGSHgf5qtIb4V2e-DTeCGm9eeZ89LHrEtXXu4Y-HwJTgWSdqpYoWps2LTuxVqrCLtQHOLvPbjYdLb7Gpynk3L6C6FMkmaEaGCuAuiG7RZnf9soKJluOq_i6xWC_q5L758uNePcT5dK79qVFxVlghkGknFmhbtMx6hNOsENmM5Vu6xq5xTqrtAER_vn3nfUSgbXK_HzB9wYn1gl7jUokY5lkityFbvl9evNITjSDwMpJVaToPQsYuSSis3q-l_UUGDkl40I4Dq4TjPNpQka9V4idAiu-eGCIpZh2S64HO5nztxVQpSNdraVSBThYAAYFeg.jpg",
+        "https://cdn4.telesco.pe/file/j-Z_zj-eqnDk6wuDSac-MR3tTeH90c0g_jJEf-ezWKXVuhBbhO-q0cs8Ze2kEElH--5zs9m-BHbNGIm4ZUm3l60aaw5v7RksbTAbANePk6Y1Lx36ktqXw-8YhrW3kNhbR2u_0m1l8lvHH1pgZpDgfWKSWNGJf8aSLp0EkfL5eRPMsg61BzH6or6z3mHZ5_iA1OqtXHD3B-IF1FodZqz81S8tmEB8XKUeH78slIWm5a3Lr6uzw4Wl7Q00JBjeNW8oZS4tPfdzZzCkWmtIm78jFMV-EgxqEwV2vUnDLfXOyTkNqW_dzJSdgWBo21wnAaabX3_7QB5fpmhzjF-v3MhxaA.jpg",
+        "https://cdn4.telesco.pe/file/HzsGxVxO4jWhIKNsvVEOf8wlNtS4-GG-Fn7g58nrRX0BJz-wz5j1F99Cgc-kYeDA5mZjO67RTozgDylA-azr67T41VGYj5JTx08fyfdMyJCAGNwVu0S8hDko_GQ7_At7Q3cUKMJRQgVp3H_qRfxoYz9yhkb7X2oppedMc5OHLpY5Vl3shxMO9zdFJfyYUXeKeBRLOXIBkzTWhT-OOaBcPRvnJr7BTbu5FKQQgZIK1wcsSu2wF3lD-J0Ch98Hff10lj2giVCEsJJhznkJZL2NbsqfG8TCW5rUkUk_pGzb63pwBP62WSJhwcN13NQU9DhqjPgbBvxVi7sP_0Pf4C8E8Q.jpg",
+        "https://cdn4.telesco.pe/file/T571CkSQGR4J7vKe1Ly9bPOZ_ocduoxvLbnOMA7uZlp96weffKMaly7WWPE8CuGwLtggzPVvi2SXaWXCvgKv7Eaws0WynG0UM34d-sXvkdVME-lnjnyGBDCYUusmf491v5UBwr21A0HnoDZ6c43x_xXHPQQQyg2Ur9PIOSYLEqavslcJttsmooAOhASpuNnnfriI0JK6k2NybOxQhcD7QIVfOnjWGCcF6DFuvecaUbM4sA3uD2-G5mtFVGAS6JxtgnxIgqJYyr_ZQR96MOj4N-7m3ux7eyLCzAmjp_srw0URmNOpWC0Pu6e54aJMTtlAgZVq_oAsUlEY2MVS-y21GA.jpg",
+        "https://cdn4.telesco.pe/file/hQBAKNv01Lruc0H5T8EQPhyEMa9MCySngQ9vTWbp7rtHo-0klINLevVQabgO2K9AEdY3XPya1lcWGP8r-oKJ9eICAaJu54pykfbOiz_NIBhrtbW4Fq2yArUMcNKwttAK8mvbSY-ufMSDHvMht2eRHGFjjcXKrpQ8jlIDF16pjFa7OOwPWQYliSEPg47LSNAOvOPFc3BquSucSay2rXJyDez0wY-5U3ebGwvTNA1rGTSnUMX35uBdfbtvkIbf8cot5fIr_FHpXuWLF1yjTyh55Tk-ytvOqmSVvh7ZDPIEDV5G_kJrb639iQczpkCIhUV5jVibL27OgGjTjxRFMPm6iA.jpg",
+        "https://cdn4.telesco.pe/file/C6N8ey2eHp8_RValkO3ohHbpB6F9MisMwy7Qo1UKeetPd6O6xJ3bbo6fmySU8FcB_t4trJl_ioT-V4CcxBhHPf_QuHWKplGjFW9k69Fwmy7bbhVkkDZcbXRW5W0inDBYks9JIwCmlnqA_NllTbu8q2PDgNXS_T9dU0qOZne8Nf9Wah-H7EKkoO-I4tGhrsqBUtsVOOu-F6lWFrSFx5fxUfKCdWxeWsfUEOJgcMPCg9kJ4fnGMa84CzOs6Hn3_mnEAhdFJZquWUacC2XUJecapmWzC-SJL2pb5AwA-D6oQH85mHdZtXKa25ZRx4FTSiNR2dInALd8H8aL2KFwN1ZLcA.jpg",
+        "https://cdn4.telesco.pe/file/f_rplY0xHOzIhYnNojQpWurclph32ERoQPg2CwdnN39y0aDe6eXu_a3fOgx5dOxpXxZmbvQUGqlKEB5_-gbcwp_6PWCbqH3xoAxWX6YQ_U8sqzCyRmbTJlmWAAjX-y_GWs_EWXhTwUciJfZoLM855uEtcmfxNq2S1W3FoNG0DDvRapU6MHDePcQL50k6XqHaDlnjHuJa5xt7R4Z6w1yY-RMWocbyeh3ZHX59LkfK_lwSMBayt_KiPXZJSwjbf34Pc1_AZfQ00_gtkSPev63zY3eP7FDc7ovSJsIXsecV66hfCMOdeh1ljjTbdX4R4MqaXNWQFBBPz5nV5Oe2oWesPQ.jpg",
+        "https://cdn4.telesco.pe/file/Wb70dgqrkgWuOMy-Ule4kqllNcaJS7aLmwTq7GFz7SVdY2tT5-auhI9vqmHd10V88HQb3tXwQ8MVFD8yy0v6x2Jn1fgGWE5nIWoWzAtCtsMTQkIxTi7JzbKQsNW8UcJBkglVGSIPgikKiudGoI49ZFcbtMC-YCIo3tKWoxU7pVRdMzHTqLihLYYvZhHRoDZ9-0ieV7-_nhhJlnOtznWi8uKH4tCARajItbnfQOassbS4vOpeI0MQkFS0OhcJag2quYR_CjOTNyF17z-EkHYC_Pd5sWVXT2OBwC4y56hD2c0O8gDbh7w1Oe3rG8ittng1TjdtfQBTPZY5ZYCjGllsKQ.jpg",
+        "https://cdn4.telesco.pe/file/v3BYHvffr-JXR5TzqUCFM-WhgpglQJGzM9-V_nnFdz92FTGSIO5tI_FIqF3RENnnMBimi4WsgD_ogl6ZAueif8eJpMcpLBGvPBtEIGjkUunALPOwXWnhLfOZHvOlHLCV1TfUPR5TYtgwpNQc64Cv_xb5J0us5ICQ47w7YiowjkQsz8YTNGcJHL2ElBoMRSuDl3nFGLt5bLdYOjboaL0EKPSSUkXW2s_jMyICam39zy4ZMFsP1jPSFz3UfBgqBcZk_dRak5PW6jv4WsQ0dHu77MvWVwApPU1gAYRQPkoKUnnrjo8_uQS8fyOA_dxTFA1yget0Hj9lFLSUXSbvo14zbA.jpg",
+        "https://cdn4.telesco.pe/file/nTs1t_fItk2sWnzthn2LJz2pa9O50ZW5EF8-yrYdoahTDtF63nrDLgPcoAXLzg5Xfg5pJrzIizGNSLzF7U1eWoEVCL4ISWsH4-j3iIoZltfZciHXsi-8y28L9O1xuhfK93YE06onrQ4ZgtKFXzBD6_U0RxFNFNwyB6pnFQXUltCVNRwJL2DjDFEQQKGERYKJt3shR42hPOEykc4J_4Iv0E03DeDLrp-sXw0k417BRsyAVef2JBz3iWi7700rwMFb9hpxIhX0Tpn0tt5-eJVbb4wI70-xOp8n0TRK6M-kdwUIwHS2XJ64UR5jURvCFRH0ppz97VQ5f4betLGRxBmwxg.jpg"
+      ],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": true,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-09-23T10:51:33.585425+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Steve Witkoff: Dziś na marginesie Zgromadzenia Ogólnego ONZ prowadziliśmy długie rozmowy z Iranem…",
+      "text_pl": "📝 Wejść czy nie wejść? 📝 Tak więc Donald Trump podpisał ustawę o „piekielnych sankcjach”, co stało się najnowszym brudnym chwytem republikańskiej senator Lindsey Graham, uznanej w Rosji za terrorystkę i ekstremistę. Co dalej? 🔻 Co oznacza prawo? ▪️ Sankcje obowiązkowe: Prezydent USA jest zobowiązany do nałożenia sankcji wizowych i blokujących na prezydenta Rosji Władimira Putina, rosyjski personel wojskowy oraz osoby pracujące dla rosyjskiego kompleksu obronnego. ▪️Cła: obowiązkowe podwyższenie ceł na cały import z Rosji do 500% kosztów. Ponadto wprowadzenie aż do 100% ceł na pięć największych krajów importujących rosyjską ropę i gaz, jeśli będą one kontynuowały zakupy po wejściu w życie ustawy. ▪️ Sankcje wobec sektora finansowego: blokowanie sankcji wobec rosyjskich banków, które są częściowo lub w całości własnością państwa. ▪️ „Flota Cienia”: sankcje wobec statków przewożących rosyjską ropę, uran i węgiel. ▪️Ograniczenia dla USA: zakaz eksportu produktów energetycznych do Rosji, nowe inwestycje, wykup rosyjskiego długu rządowego, obrót akcjami rosyjskich spółek powiązanych z państwem na giełdach amerykańskich. ▪️Wyjątki: Kraje importujące mniej niż 15% gazu z Rosji i redukujące import są zwolnione z ceł. Zgodnie z prawem prezydent USA musi nałożyć sankcje i cła w ciągu 30 dni od daty podpisania umowy. Trump zachowuje jednak prawo do zamrożenia stosowania tych środków. Aby to zrobić, wystarczy, że przed wejściem ograniczeń w życie wyśle ​​do Kongresu pisemną notyfikację, że odstąpienie od sankcji leży w interesie narodowym Stanów Zjednoczonych. Nie jest do tego wymagane żadne osobne zezwolenie ani głosowanie legislacyjne. 📌 Ustawa miała na celu zdławienie wpływów z eksportu Rosji i ograniczenie jej dostępu do technologii wojskowych poprzez obowiązkowe cła na importerów energii i uderzenie w „flotę cieni”. Jednak surowe egzekwowanie tych środków, zwłaszcza wobec Indii, może wywołać komplikacje w handlu światowym i chiński odwet. ❗️W efekcie nowe ograniczenia zwiększą zadłużenie",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/97828"
+        }
+      ],
+      "archived_at": "2026-10-07T01:09:37.613211+00:00"
+    },
+    "d1040d1489d3522c": {
+      "id": "d1040d1489d3522c",
+      "timestamp": "2026-09-22T23:19:33+00:00",
+      "country": "Syria",
+      "flag": "🇸🇾",
+      "theater": "Syria",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Syrian President Ahmad al-Sharaa: The Syrian state, I believe, very soon will not have the necessity to have any foreign...",
+      "text": "Syrian President Ahmad al-Sharaa: When I visited Trump at the White House, when he said the Golan Heights belongs to Israel, I made the joke, “Why don’t you give New Jersey to the Israelis? You don’t own the Golan Heights to give, but you own New Jersey.” I believe New Jersey is full of Democrats, and they are not voting for Trump, so it would be good to give it to the Israelis. At least this is something you own. Trump doesn’t own the Golan Heights. Regardless of this joke, the Golan Heights is owned by its own people. It is neither the Syrian president’s, the American president’s, nor any other person’s to abandon or give up to others.",
+      "location_name": "Syria",
+      "lat": 35.1192,
+      "lon": 37.605,
+      "url": "https://t.me/ClashReport/97825",
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-09-23T06:52:40.796203+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Prezydent Syrii Ahmad al-Sharaa: Wierzę, że państwo syryjskie już wkrótce nie będzie musiało mieć żadnych obcych…",
+      "text_pl": "Prezydent Syrii Ahmad al-Sharaa: Kiedy odwiedziłem Trumpa w Białym Domu, kiedy powiedział, że Wzgórza Golan należą do Izraela, zażartowałem: „Dlaczego nie oddasz New Jersey Izraelczykom? Nie jesteś właścicielem Wzgórz Golan, ale jesteś właścicielem New Jersey”. Uważam, że w New Jersey jest pełno Demokratów, którzy nie głosują na Trumpa, więc dobrze byłoby dać to Izraelczykom. Przynajmniej to jest coś, co posiadasz. Trump nie jest właścicielem Wzgórz Golan. Niezależnie od tego żartu, Wzgórza Golan są własnością swoich ludzi. Porzucanie lub oddawanie się innym nie jest zadaniem ani prezydenta Syrii, ani prezydenta amerykańskiego, ani żadnej innej osoby.",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/97825"
+        }
+      ],
+      "archived_at": "2026-10-07T01:09:37.613211+00:00"
+    },
+    "935086140b6a1059": {
+      "id": "935086140b6a1059",
+      "timestamp": "2026-09-22T23:14:54+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА на/повз Дніпро південним курсом",
+      "text": "6 человек получили ранения в результате российских атак в Днепропетровской области, в Кривом Роге повреждено промышленное предприятие, — ОВА «Более 40 раз противник атаковал три района области беспилотниками и артиллерией. В Никопольском районе пострадали Никополь, Марганецкая, Покровская, Мировская и Червоногригоровская общины. Повреждены музей, многоквартирные дома, частные дома, инфраструктура, автомобили. В тяжелом состоянии в больницу доставили 49-летнюю женщину и 72-летнего мужчину. В Кривом Роге повреждено промышленное предприятие. В Зеленодольской общине Кривого Рога поврежден частный дом. Четыре человека получили ранения. Среди них – 37-летний мужчина, который госпитализирован в тяжелом состоянии. В Днепровском районе произошли пожары», — написал в тг-канале глава Днепропетровской ОВА Александр Ганжа.",
+      "location_name": "Dniepr",
+      "lat": 48.4647,
+      "lon": 35.0462,
+      "url": "https://t.me/kpszsu/79613",
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/cVanOZ7dgK4K5Fb9ljgJfaauE0IT0V1mKd04RnQfJ-_wDmpxE8dy2sg5duoU5-u8OiPmchmDka7kdJoLwBj-lydW2LABWiyP-CMKq7GhrmBZfKAOouDvU_5Q1BIaC9ZWVrHvMSsu7RzI-FU78B7YHbcDRpDGX2TSidbgJv_omtAjE7dHoj73uIwu_F2K2TtMJblOTbKEY_ClK49mbZlrqI_7NoeKK7D4BT3KY0LFs41tvNpRXJHjuvgHnpLvgmmH6nsonsYyvTBIt1fOHW9cEex8DzSjMArzwWavnW5K5lqxQRwdKddQmD-5Nb59CmJBJib49kJ8lL_V9cPQToPD2A.jpg",
+        "https://cdn4.telesco.pe/file/be7cYOLRiaQ2DbmpYf_Vp3RAU_B4t7l4nCAg-S9Agje_muX92URKPAJ2dddVlQQAzPyJ-0iXRaPXuAhjmGm-y3-TVhW6PpCM5S5DiE-gPBCBWtP6A2hzLR82RJ8Iq7RuhmjrIuR0jxbNR5yp70RxkWU5ESug75wZuoxy2qRho7US_y_ib6DcyqNAX3fhNOvt949P9B68xsvPfXMfEHYcN9B7fft2kV-WgjajEeLWwApENHXnjdygkXaAUOSE5M0tfD59PIu7-5OCDMmE8HymexJtppxf-w38VbxQKSxhuZ-JtjFUNljpe0jpbYmsyEyaqliIzCZoywNfrzTDECsibQ.jpg",
+        "https://cdn1.telesco.pe/file/qJwprz3K9TWk_KqLYa3CmOwGT-DbdWs9uU_xVo2zoh5EQODTCwp4yTpqCpcjYw9pZXG_5Q_eMEw2UBzUWL3FGKj1rXTPey0q68p_mRIurNj2GeuOpmFnsXxuQ_2sC6k7860IBDfIb7BfZHrxWpElyX_nKVOgMoz0722-INoxNX8MGzVd_AN9tybOW04rtdCqkp3e8kjWvQLBcoiJHnHek2HVovUp9DyrY31wwa2xBnVO7Uu9Re_LL8OcJTzTnHxIcTdFzPOJ9DtsmpG_rMhM93TbEKsfwawA1Z3I0ai2_n3VAOuFk-w22vrk_Py5LXA8BCcERj8WtrhSBDpiUVSFCw.jpg",
+        "https://cdn4.telesco.pe/file/Vd7P_lg0j8wzUfszKxqXoqKogElUDxIQHwXUpJJ1kgEBqY5ZW2KMvT4OV_Cfr3sESM9VH2lTyO0_C_qouaxlUDardL04MI31a3WOSyP6DgGFGcVg902A4jH_LM_n79lhXoo3egPCTK-yCIteY8Yea5ghA2iR-IjpdlezRilLkE0pRjXGbz6_KDRzxiVoD1EQFwS-qftiMOyfZlPjuMIXoSpuGf6PFWfJJU3Hn23SzlXv5y9Dc7ud0W_7UYnh-973zKYVk-6u3iscZJRAy1DnuAsj5dB-fhi0CdUxepPmK2wEUHR8TcaHNyHNKqegqpIlQhuK5cKm5iM3A2OOxl-J1w.jpg",
+        "https://cdn4.telesco.pe/file/B8PmXFsXByIrtKkpku7UPgW5xlkckx3_SgxNgzrKDvpCgIQcFyUMt10uk715RrwksNnMkRZ4XNkH6MBEux2hqZ1awznUFZhE4SAPUOIKCr0l8rQrnyIl_VT1SWlUWiqaYVsl8vRm2TO1P0nnave59ZtfzE6VrryBrkMWZY9_uq81Tda5hUcc7sy2sqq_q3ea5Wmzr9dj6tBvIEfJjed41yUAex0nTW3aoLNamYon99fRR55zaa55joNXyxW51t1tLHC0mJrZnLwhfdFllyHg_XOaoKVOflm5e2wADbLkmY76BXbi_cesBFLvuuaB7YqTw-07D_VES5RvXNR_9-lC5Q.jpg",
+        "https://cdn1.telesco.pe/file/axvpF8Yg36Twjme-m1yWlEDvXOWBCwVR2PHNwXLluchXEognf943pro6VVlVTI1HLR4lken09sPcYBzARgwkhZdXxu5Q12jMowqHAoaaIR9ChFl0FPkfAzzqbRY0JFylgNxJyuZx_znFjR1FbO1Sp8RYd3pzEqiCpqlI7Eu0XAqxyGuHPO6ek73td35tTBCo01BBYMv3WXD1wlXXOgrish5eYzbc6u3lh47GI1M231l9hkHkRqBGAQFT6hoF1zb1ZNbz-JW3kYKXtZmHHYS6u-6dIko2YpljazhE2u9LkMl7ZUqoNitNsHUTLaBPASUWrnwT9LNRRbb4bqP-97tHkw.jpg",
+        "https://cdn4.telesco.pe/file/ucpqurlRL9a0sPAl7_VtmowEFeejbIASCRu9lGo0Uq8JngcRZP5LAySLzFox_s2WTIoFn8h4sK58rLApgKqF7R_l3f9fXnf6M_fYZzAsEmesgbPZXQ2vOGYT78_X6ckHVtqb5DP6LFHzWtc-x4t4H6EElnHtQoUc8XHwhk6ADcF7VHbgvOcwdebb_yVZr46WXHz-Ge14P7DlfmYUT9TWrqQOhmfgfkOGZ1heoF05pZrWs8gTCjesBxVpmNAS4u0gDvM1XqAYp6GW8MFwFvS5KBwCFRq6iN6og4rqWQUle2S0wGf6ThndMc8cIl6RoB6o7UGYgHcx7KjXKh4b9JOO8A.jpg",
+        "https://cdn4.telesco.pe/file/KRS1BClIqfSwnHvAyA1P5Asa0pyn0VC4F26cijfetJYFlqtqEnXhbf0To5S2ysqyE1WweRkvMcniwlp_IhvE3yvDjO1RkDXH7kjEz8ae2uugYVVbtzY0efhjshQHXeiGnWuejPFkvbRIMawJ81NsEmCYlpyNGQOTzZ6HMmWnA0yP5vPEe1fpRX7fcUhVF6GtpZWTUghYRc8dzP9FRpl-wphFNoYFBltZPK4E0nSjptiCVcMObMi-gmUSxTM-XlhtcLA9OwLakS-zkRDk1rz79DIg_X-OdxBgEmWXcFTnAOnBA0eb9jkHG2Xaa51bbefvA_JOcXFRaXsVnQf-Jl6UdA.jpg",
+        "https://cdn4.telesco.pe/file/do70GbHO6IQ38poIuKkdLshIAqepOr61Q4J__aDf5u9IUX8cvbrEjc7ojKcTPQbDaLoNjMnL8bbNVjQLiKFsY-R68b4Urhvq_VDPZ7Xg6IpifkWdZ-V2mJz7Al9k88M832aot5iBdIW-wHLvzMQ2c63b2ThG-KxBx8rwy8sEv3IKVQQsfqcBiPPoHDewfnquQyZkep4itDNJUgbeTtJJwL_6RrfBFeQJS4YvgvFR4tnIgaz1MTPwW47oUw54jLx-E0yvDi-hDFMVPowm-1U8QzJ_pfc3kuVZcShxiy200wluKaIllfahGiDt9bEag9nRAsrh4AIgnlBuLlKRWShVNQ.jpg",
+        "https://cdn4.telesco.pe/file/mv5p5skHAqPqkHz9zh0TdwaZWvT0X3vZKbrKwTo5fId1GHh7O5025zVXHe2l5di0gjCGXbm9Z07wvIZ2HgLw9diHWI-Cmn9nKkuNSeNylCaD5AY8ib9fNcaZdcUB9hxa8MSV6ZX-EAQyPTKcvrsdUkNiu_HQqoH63EgFVtnQwQOSxe1suIeoZ9Zd1y0CbYZzMU3N_ayljqYTm0eVBN4fM29tjTkz0STB9BX85cS1tKnEsZy781999iC706bg49yzinfOJ6r4S1UOsOF9leMXNvMLqR64SiYdz0U6LdtDpk3-NOAmVx4f97LlaI_gLAzLLPnH1JFsBfvbjj5PWi3RWw.jpg",
+        "https://cdn4.telesco.pe/file/qDMFRumRvSMaG47s0RC-vHMGDGFVZRX0JmZsqDtzE5OT_LYyvSBMfaMG6HwZRnnrBIRhXAiP_imtz8lHLavZDrCWXld7eLN2wE-rt6dYnIRqRiYDumKfuybXd9-5IUbcQzelTm2tYZEGEg5jnm6aMMieQnGK6YCttnezywbUJ4luwY1qIdKdRhz-s4A4imdm1Y7-QkvNTQFCbsuO3VWXRzWkkXRiXDvJF_HD_Hqfz6vv1YXrpTPni8qQ2_cVncGhnSdphnOrF_nGHGsaLie1mfrANxr00hIZpktymch-J5vo92Rqd2YUcJ9zSgd5m4OV0JDMTsLVQRo_RCvD0oIYzA.jpg",
+        "https://cdn4.telesco.pe/file/YHHXz18ri7Gr-taVMZmHZuUhdYtEzqJOvqHEfxPIunSlxuli4Gew0xXGgsoWOxfgUztwx1hHRsh5crAH9T-d_-8TDSmfoMfbfYXhbteKWNr-zfgYd-J8dh_vVBOXY6xZ_jVT4ifTthkwj0dvz6R2AzH73lA_fBZrF7pDJzw1Yp-FUeD5xjpZNO6Dy6CPwmpYGvYFWfgeqmrWENT1LlI9nT14MdrUB1FrbB1rkYSBZLTO2VN0-5ea27Vqmbj7IWPdI3UPvF6kBXsvbcjZ0DQ7pw10mw6eF2KLJ7eDs4e2UDQEqYs5rPKo509k-PIq0VGULoHLxpZuuHtwC4JU_Htbog.jpg",
+        "https://cdn1.telesco.pe/file/G3w7MlUiO87em4kNmmBJ4e8XCllPS2lFnQH228uVL5hO1GJzZmOZjXT2sENP6ABYn6EDimrBMdykTT9ga_oDaeFYkNeI2JAqlg7wF2_p5cPHQr00OlDaCRMtLJssun_fZOXE7PqU_wxYJ3yDLcePz-uQMe1LoeBKuy37DiqkmAxk0AhgObpteQVFrpylkmB14yAQ_yNAvjsgervgASKXojU13-RtFQYN9-adtlyXF7-IDcKD7vX88ecFGDKn_cm_DDT1ICLyuvW8sSZ-ZJgpJSjSds_J9fnYR-iHzPHeQ6Gx8eKGicoZ0SBS7HP_1QEg85FXTERNhhcOv8grwzNQJA.jpg"
+      ],
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Obiekt Przemysłowy / Fabryka",
+      "is_fire": true,
+      "threat_score": 9,
+      "source_channel": "kpszsu",
+      "added_at": "2026-09-23T06:29:16.749017+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy UAV nad Dnieprem na kursie południowym",
+      "text_pl": "W wyniku rosyjskich ataków w obwodzie dniepropietrowskim rannych zostało 6 osób, w Krzywym Rogu uszkodzone zostało przedsiębiorstwo przemysłowe - OVA „Ponad 40 razy wróg zaatakował dronami i artylerią trzy dzielnice regionu. W obwodzie Nikopola ucierpiały gminy Nikopol, Marganiecka, Pokrowska, Mirowska i Czerwonogrigorowska. Uszkodzone zostały muzeum, budynki mieszkalne, domy prywatne, infrastruktura i samochody. A 49-letnia kobieta i 72-letni mężczyzna w poważnym stanie zostali przewiezieni do szpitala w Krzywym Rogu. W gminie Zelenodolsk w Krzywym Rogu uszkodzony został prywatny dom. Cztery osoby zostały ranne. Wśród nich jest 37-letni mężczyzna, który w poważnym stanie jest hospitalizowany. W obwodzie dnieprowskim doszło do pożarów” – napisał szef Zarządu Obwodu w Dniepropietrowsku Aleksander Ganzha, na kanale TG.",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/79613"
+        },
+        {
+          "name": "Osint",
+          "url": "https://liveuamap.com/en/2026/22-september-russian-missile-strikes-in-dnipro-targeted"
+        }
+      ],
+      "archived_at": "2026-10-07T01:09:37.613211+00:00"
+    },
+    "fbf8d5a51d1f9335": {
+      "id": "fbf8d5a51d1f9335",
+      "timestamp": "2026-09-22T23:14:04+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🛵 Ударні БпЛА на Харківщині в р-ні Богодухова, Шарівки, Валків, Нової Водолаги та Златополя курсом на захід.",
+      "text": "🛵 Ударні БпЛА на Харківщині в р-ні Богодухова, Шарівки, Валків, Нової Водолаги та Златополя курсом на захід.",
+      "location_name": "Charków",
+      "lat": 49.9935,
+      "lon": 36.2304,
+      "url": "https://t.me/kpszsu/79612",
+      "media_urls": [],
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-09-23T06:29:16.749019+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🛵 Uderz drony w obwodzie charkowskim w obwodach Bogodukhov, Sharivka, Valkiv, Novaya Vodolaga i Zlatopol w kierunku zachodnim.",
+      "text_pl": "🛵 Uderz drony w obwodzie charkowskim w obwodach Bogodukhov, Sharivka, Valkiv, Novaya Vodolaga i Zlatopol w kierunku zachodnim.",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/79612"
+        }
+      ],
+      "archived_at": "2026-10-07T01:09:37.613211+00:00"
+    },
+    "4484b8e6e51f124d": {
+      "id": "4484b8e6e51f124d",
+      "timestamp": "2026-09-22T23:09:05+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Zelensky warned that Russia is preparing a “massive attack” on Ukraine, citing intelligence reports.",
+      "text": "Zelensky warned that Russia is preparing a “massive attack” on Ukraine, citing intelligence reports.",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.9948,
+      "lon": 34.934,
+      "url": "https://t.me/ClashReport/97822",
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-09-23T10:51:33.585429+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Zełenski ostrzegł, że Rosja przygotowuje „zmasowany atak” na Ukrainę, powołując się na raporty wywiadu.",
+      "text_pl": "Zełenski ostrzegł, że Rosja przygotowuje „zmasowany atak” na Ukrainę, powołując się na raporty wywiadu.",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/97822"
+        }
+      ],
+      "archived_at": "2026-10-07T01:09:37.613211+00:00"
+    },
+    "219616fbe69de879": {
+      "id": "219616fbe69de879",
+      "timestamp": "2026-09-22T22:56:18+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Marco Rubio on Russia: The war is terrible for Russia. I mean, they’re not doing well in this war. They just aren’t. So ...",
+      "text": "📝 Авария на базе США 📝 На американской базе Шпангдалем в Германии , по предварительным данным, разбился военный самолёт. Жители соседних населённых пунктов видели чёрный столб дыма, к месту стянули пожарных и полицию. Предполагаемая точка падения находится на территории базы либо у продолжения её взлётной полосы. Официального подтверждения от ВВС США и немецких властей пока нет. Из источников следует, что после старта двух самолётов один из них потерпел крушение; пилот, предположительно, успел катапультироваться. Официально не названы ни тип самолёта, ни причина аварии, ни сведения о пострадавших. Поэтому версия об F-16, которая уже циркулирует в медиа, остаётся рабочей, но не подтверждённой: хотя эти истребители действительно базируются в Шпангдалеме. 📌 Для региона это не первый подобный случай. В 2019 году F-16 из Шпангдалема рухнул возле Земмер-Родта после отказа электросистемы; пилот тогда катапультировался. В 2006-м другой самолёт упал у Оберкайля — позднее это квалифицировали как контролируемое падение в рамках аварийной процедуры. Пока нет оснований связывать нынешний инцидент с диверсией или внешней атакой. Однако на фоне разговоров о «гибридных угрозах» авария на американской базе может стать очередным удобным поводом для новой порции тревожной риторики — даже если итоговое объяснение окажется столь же приземлённым, как техническая неисправность или ошибка экипажа. #Германия #США 👁 @evropar — на пороге смерти Европы 💸 Поддержать нас",
+      "location_name": "Inne",
+      "lat": 47.8076,
+      "lon": 34.9556,
+      "url": "https://t.me/ClashReport/97819",
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/v9l_0C4CyhGZ9LEF2ODX1jtpkqsXEOA3a3rhotcxYf598iq4Mg9RO8_pGw9COqqaqh8i5Bf7kgZho4dka5sSsxL0ZJDkhtQM6N3uXvOYYG88lTX8aLk5BwsHIMcmy_klQxx9ZQpbjIHZQontiYPPr081-bqS254cOQ269EQW5bE9v3ZkgBjr6A4XkTHYioqiSDR6fPwSGs8Zmqcy60it1RBvKV7GLSYCyXUWLiJADSHaw4UtCtDL3AFC3cZLoYnuVfqcDlSHA3MMDU3EkKL1xdzV4SHM-SkqE9Io1_hFJSs3rRWQ9xlvvim3-h-SY4pr4Qkqs3ck125kfT6cAm6yQA.jpg",
+        "https://cdn4.telesco.pe/file/q-2mhUmOT9zpqcqvSbIS_uGcdgsRXmNmtPuDkwq0WbadE09h8QLZ0JHVl6FNpb2q3lE1kjWmghw-KLK11y2VfaW2t_aGrkRNq5a5vHITH8Fd88dpUlG3jWhiYTkEdamvTVIHDyb4-cL4612U-JvNdK53wK5T6nFJf3GzPHsG_9Edu6rwQpXLT5UwHyhFg7jdknODSyoIIwlaBCzckP9E_fFjMVDM_42-Kn03aKPjRThLinWCMCg7QpezQIyA3KUcowYi0VGJdL2SMtKU2Kq3fJqQRbgY-xEg6Lv3YSz_G71lbjZpHaJlmnpYb5HIEXNlX_VvwBckFYFUJSMM6_LUQw.jpg",
+        "https://cdn4.telesco.pe/file/KSQAnbGkskQ5Uf9PRY8l4MPlGGWnLozjMwhXTH5US6bQyrsEjaDjcTWYbyv3cHZBmXCpREbDagbRLwcOfaUlm98p-iG2RBFmEk0qWiPBIZTxxWbBKxoAraoF6KhcvEHY7TxgEOniODDlCextYy-Ry9iivuUbC9GnVx9u0SD9jfCovnAAGE6oEnWMrZ-Gxp2Zucsh0wT_wNzoUIhrON6d1_z_JYGtqRPHHg8ck3NIe7NpTgt3a1CAVJG929GzOSqDM40l9hKF_W7vp0S45-DiTuUP-RkDNc3p1HnrheCNhZ7VRW0T_D9Mn2PLiBYDz5_EHaegZEoJOHLFEYKUQtWw8g.jpg",
+        "https://cdn4.telesco.pe/file/Achv1Ajc26uNT71VNODcjE1SL9fhDHaPQpfNU1c4RwaihdcQ8JhYZ22j8K9BLIxT6ejMNFEK5T-U51h0Bc4y4WlkjEOY-Ev9x6bM8j_fTMHahAycMgiuUSDoeyHsPECaaADzq_OK_5_rY-X6XvPamkWznTEJf3K58_yHVQy5QgD19xbUhT5m61SETWiTJQ2YRNpWhyYsjTBpPvgCVy_7rPedS0AsapYE5cwoVq0kOGsco3auYS8xjXwGLMxB_hh016Y4pyFDYDj9g9t-LkVO71JNy42FY8o4S8eB6qsRq80G7ro6po_3BgbLv-wLt9PL6cFH-haBoZagAQzYM0b-Pw.jpg",
+        "https://cdn4.telesco.pe/file/tYv49tC9Ytr5NOVXFnp72-6H7RDy9qvl-CJYahEfGYJWt9DRHjfJkAjwV9BWfUAVblFJVoGLKAbR6d50mnDcDHlhlrP0fVkgFEXH6ZSvTTRQ0lM_tXOT78rQAlaIDrMOrluJ-hWGMKMyagmtN2Km386n4XZX9fxut5JSBkfBctl3yjIv8eZ7Of2vxOnZcZuOsajVoLwC5D-1o8NrH8XLRcFpLmVRtvYRgRaOKklGdW3xrBU4RcSF6Xaw-uHcrIYyNe0kboABok8tkASzSZbG59sske-ntVldT8cIHCiRh8BxDM9_zPQIUCt7ijos-5NnqjNO_sU-grDZhA1NEyWeNA.jpg",
+        "https://cdn4.telesco.pe/file/V9RYf2DAKsndQaIusdjTcksO6lb_25L7tCWPYyZKmaowavXGC6OImmM3RRZA85sr6nwgcmHrpDzQGunLymEfbcZfePKCwqMGJOCTbgGj6lGxO-gWwKdZbeTwdBCUR5V76PBYHnUsnKjWGbypHjc06Qdhdbhd8GaFKRlwXpeX4TLdXFL6wDpC6UupaKw_60xsB4UIOVZqSHAm2fUDqZSQsrOA7x6UCEKf9ldULDsEFO01jpHc53byKVi5X8AwxB4uo-XqlLS71piE6wDWnFM4WZm_DkB1FvhM06lWoRCLInJZCZfiK6bfVFOolOB2kY0OOKeGs3JrRgMM6u3xUxlEVQ.jpg",
+        "https://cdn4.telesco.pe/file/MWkS9C1A5AxsNnquZKCo5t_9pzOXIWoU11C4hEX2Q34ekNRjr0W3n2JP5GuY7568uoWka8GPAhL0X56FxktZTUFNAYAk-0IzQlbrWQ99Slq5T6MwVgk9he4ozbVBTbcWCS0hjD8WsCqWfA9NlpmRGheV92OQkTfSo7VGXtEP30N3PZUv040hcPyS6maUky0RdGxSv3Ww44qXWxJU5z7ITxcpCLSsQIy-ZuzRYt7enXQw-kBt7UHJQohEaetbJsr1cDSjwZsGstutV4hWs60jLrQJyaUod-mjrXjVAhhpA9DKtJaCAe2CkgZswRHAFu-N0GUFY-o-2tmuY95Km1r94A.jpg",
+        "https://cdn4.telesco.pe/file/nKhBB973Si0HFnPhllnPT5o4uQ4WVrkV6wS9XCq2E0Udzha-Tyfl8ejj2SBCvzIIJDtRQW9z174H1xXPJ0BwXStZ67jZGlTNhOZQihC14GdADUfzZH96_7Cb-Kg8qGjpp6JSJASt4W1BM7tRUDBEWeJGBlkbAZ2B4X9AaPKr__eogU8YPauKmRD6qkqYJdMW5pRgIjHdoRPzzkND-9w0Jbu4CvZytkiYfro00Pq-IFKyAKnqV4eiC0SfyI1LFHMgtESDgBgcJQBrrv5eHorvc3O9nlX2Uk5BPTIs6voXYxOnSnluMYZn-U_jEghdyANDK2QVPuhvQkRPr_bmH7S60A.jpg",
+        "https://cdn4.telesco.pe/file/Gzx42Y5MjojHzvmR_hQ4e1dwztVLEsnsjJ0JlA13rhtbUI3I8_vAiFAcV-klPSYOyOPCcfVTMzIChyFkE8LYTSehkB_NqqgvOJWcvkn1-6McAn5uoQKzvxodRXojT-r2bkGyLd_2AyXDTOjHWYyLUPEmhQgILldKgHrB-efsFblBGMFM_wnh2K9rHO4PjgXXXZ-KtPD_jKpizTyEfF57GvDHIBYaHUrUJ8Zv57SdJ69YZxpTw168Yhfj0vM3SljGpvZWi2A5hXUBP01fEalDTOwtfuqSVGiK-5loHuBPJhXFh2keKt-UYaC3kHHaPtAATf5pPY3gHiWvxPB4xZ9bjw.jpg",
+        "https://cdn4.telesco.pe/file/IyhgADmhT2XvAi2BvkneCHu-E38-xWa0EkfW74mvAOrqm4536Pt1aq4VstYMed1S8ZDcRrnIMqxLLtuWTSsBU84eIZ90ry2E4A5TnBmoTZJqhsq6dLE6ErUg1KxUZuXJL-rpt9aNKoY1d245oUrHGqaqlZEPVNLix5HephIsYSggiURWPyHRMiF8SxIkoKOwUVExPuNn86FA2CJOj-rwrjueitHeUVoKbyJ0V6J9LD_KeC60vmE9toh6wN61H9FoF5kXIjQ24IXyXDGNYlQLCSkZI4NBIe66SBIcfSq2kxaUD67Q1xkKzm9s2s-2rMY9fj5Dmsff9KgcI2Ll2FUZbw.jpg",
+        "https://cdn4.telesco.pe/file/CUrRstFEP_ul1ESapoo8C5cHC0PNE5VBGN0kBhJ0wXNhz63s2mmbRnztQx7UJnPgB7iO1GMPDMSnNhkF1Lj_7jhE-1gtPyMKK8JVLyoetMRci-gwm8iXPhWWsHyiyHvNhyTqmHtRDf5hsWTre7ZaDnL6W4IjXk8OfGbg8SPaE_d4Dz16d1KqQk-6G3e3BQ1HbI0jCM4Qlq5a4lnM8jaR3HpKW5hilNUj-9_0csovLkhS2y5K7HT5SIIlVoYA8vPKNR0To5f_85qhjRFGaznuXYb177CXzS0ShQ-xODwOKVnWYd1dq_Clpfi8UOkI55xzodQM0e5aCO_yopTKV6rm5Q.jpg",
+        "https://cdn4.telesco.pe/file/chU27JYBnc2XYXhQSVQ_72k9Z0jUMpDQ1p5TdFNTNNvdA5n05Pupk7tl-MKE2BXeic-NzJqmvdDbAvKgJNwsh8kFpjjMnMsWC9ERMRIjKyFmFKEV9m9BroMGwhf2S_l1sJiRcHfdlyHBhod-uNg7BhvP1uF3oxCS4qyL8f3tgEUWJes1HCB95f4fncVzJA4VcztDZDSbuOV_hE9fqJX0qto9DvyDE21I16h_zEEy5qdXP4ePEPZYS82N72SIRIa05ov3cE-e0zcR7MHfIA3L2hkgUBTFWzF3rijfq5htLMMEWxA6fXcpT7I-OcSOvUWiHHJooasWS4UEijCFxDzxsw.jpg",
+        "https://cdn4.telesco.pe/file/czbocvb5pQKJewy8oIY7MKmx80O-VTTJVDXnQKbeEoCQrxQoLEW7Y2EPrQEvpCSuOS-uNQ-a2YWDMSTTxI2JjnSZerMNPu-KSGLAELYX3XoBaB9U1u-40_qL7FMDuM_wi_6Imx3DsRTMyQPWp_GvD5QjzeuzKPvpE9IiwblXEDrRCAHec6mVfi2-DQnr_dZSwSgNg_dtanco9iVfejSy9nQJEEaDzMTFwh7SOxOiiWlkiJOHmybGIpjFRNwdjj1aXtHM_uEVqOHvTN60EADdC0hkIKf_F9AnvzPH0RPSCGjZ2U18X44DmI9dJVTQqFv0r2HG9U7qmZXdy8aoNFmo4A.jpg",
+        "https://cdn4.telesco.pe/file/mPSp8vv3PDd2_lJcHXeEoo2ju0t3LEx2wPG9zsfvO5pLYptSEgtcjp-m7LjnKqaNHFZ55XcXechJtMZtL6lUZuP4IQrParV9Ef0B-cw5s5QksYEoHrif37V986-E0lrN0eczcE2csbABWED_WQjYnCiGv4KJN5RJe43Sw3_gButrz8luJBSGj93AYPVuE6efU30gBbES87qH4Fl59Rts_lXNwRp9s8K5EoaHApU8HQXWRNaZBkWdrru7n4PAN3C6yfHfqd_a3FdOnQYAyCmEgsy98VwSu8MBCkAx_gwgh7M6q4hTPWr4QrZJCVGMMZFY0MaJpg6GDj-uzowedbKEBw.jpg",
+        "https://cdn4.telesco.pe/file/HG3l6ystR5ZfJ4V0Fv26OuQJspwVV8Z_jeEIeIaMdFdut-Z7wcUHPMDZJIm_1ZX4Kz6wIGFdZrI0M08h7co8HNTBt9AwlaO6SXEe3C9WncShfyVzHPt2jG8OerxTsY0oz1IgNtxnfpyxvaj8Sg6RXIM7Krojlc96sRjPO8lTf_g9ubNBYzC6gv7CdZAAMVbKkH7-qFwdO5cf_WqYTIq8m8y0sdmDs7I3ygiEiHZUyfdZsUrEaBgjPKGpPYssDwYfFrwpf8aAQOL6zmmMEmdn8QqhnqMpgE9U4VIiMuDcuIFI2s2uRZY-tKqYkCEc7tv9AbaZlJqkFA8NNcfpIRwDKQ.jpg",
+        "https://cdn4.telesco.pe/file/WsJpV26h5SVbJOfSaL64jc9HK8HflSzgzU15Pby3yH646_7Lnr6y59aCH6EY4zIJwDgJjol9nkx_BfOGYRu7raULexnE1PeNs4RO7P3epPJRMxf9TjC0YX8RPj6N4TXHdGoNDXwcaTBZyPL_9iqaR_r-cx4dR3sQAP_9EJO6xHmGwtKu56Ab03_UMl2ytyCVudIm15o4uTX_8VdqHFqPSFi4aPaZWgGDJ0rr7Sxi0X1meVi_iaywDDgR9xD07l7aG0BQbOSMnfJ3wHzCT3OpgU-AFyvy7SrPyg9xm1EBWMxv1tZX-fyuJZDDZeWBX9SC8aKKilVeL0xJJUkgXWr0hg.jpg",
+        "https://cdn1.telesco.pe/file/GBXR48DCECrFtAVX5gwR0uFitaZF9hvxKgBp-lGtXrHa-VYAPb8nA6_IYDZf9yT_6IL7Biw__Q4Eb55HevQ6LYKFjKIJPk7WTXCW4d0nFpvfNs5L34Zr67o2n-v_KC8id5Ya3e0Q4nA-e-kxGYh5gkMKYi1HeLtOHL6Xe81FB7aKpyP_KHE15LQfjwpPz4m4fj4X97Dy65R3cbcIwdiRvL9-a0-nqvrQ9VjIhbPb_dAw2xtq8Wr26PzEp8RvUWnlQjpTu66e1L7eavIXY3Yxb_tQmWOgvQuP13LprYUZ7FLT0UTHiKV-IaHI4GYLL_56QlY3nbRDnCmsGPtG11hAyA.jpg",
+        "https://cdn4.telesco.pe/file/apFwkchXGxbI3-zTwVcP1RrgolMOSfEpUs9YKebxXn6ttj0N1NN-JaQfs_-L70ffi3yoRr_r0-hWIGyw8GWnxH1dintaHcRdfX2sPZVaiGsDb8R9xRLAQE6AGfTUAi8X_wSaW_28RRkQuzqiE53uiLIl5adVh198USez3QPOWyulUS26iSy3yUxbmcWho7gAHONyHuEYR6ejuIOSDf49jLWHMn9DTkyeOeryG1fLki2Cv7MwFCuUY8TT4UcuYEn3ecVf-w_ti1e0c-o6TJm7U4VFgbi-9V3A94ZKMZZ3sljYX2oaq7qRwYtHqzAhL149EKQFNJVSwcOSaL2j4CKupA.jpg",
+        "https://cdn4.telesco.pe/file/HO3pEHuuV6kyAv5N9vbi1UkZsG8hn0cZlGk59WVWJHbM_ySOrIO_6yiGBTaAu-pMDHhzL_9mM23UBV3KDxyO4K_wfnl5WSHP5C246DcBPThhgwiqLUAsOBytsz3Ai2rqclKRVqKFIEyTBE-2e1vPAmo9pBDwRJBeTHGAsjQhWa8uJgj0gU4PzzNo4vUJ_TZ4ihek8DllrUOCbFMfTgADflmjI_4PIyKis3Dyag9VlmhT-1uBKpwVyD4iTT8jxVKHrafGJpOZ6BqtdtB7tupmBitK0sbH69YPKesJIQkGmdrF20x1LGFAhoNI-oyL10V-MvNHlDjX7fNboKrtDhUKlw.jpg",
+        "https://cdn4.telesco.pe/file/hQBAKNv01Lruc0H5T8EQPhyEMa9MCySngQ9vTWbp7rtHo-0klINLevVQabgO2K9AEdY3XPya1lcWGP8r-oKJ9eICAaJu54pykfbOiz_NIBhrtbW4Fq2yArUMcNKwttAK8mvbSY-ufMSDHvMht2eRHGFjjcXKrpQ8jlIDF16pjFa7OOwPWQYliSEPg47LSNAOvOPFc3BquSucSay2rXJyDez0wY-5U3ebGwvTNA1rGTSnUMX35uBdfbtvkIbf8cot5fIr_FHpXuWLF1yjTyh55Tk-ytvOqmSVvh7ZDPIEDV5G_kJrb639iQczpkCIhUV5jVibL27OgGjTjxRFMPm6iA.jpg",
+        "https://cdn4.telesco.pe/file/Wb70dgqrkgWuOMy-Ule4kqllNcaJS7aLmwTq7GFz7SVdY2tT5-auhI9vqmHd10V88HQb3tXwQ8MVFD8yy0v6x2Jn1fgGWE5nIWoWzAtCtsMTQkIxTi7JzbKQsNW8UcJBkglVGSIPgikKiudGoI49ZFcbtMC-YCIo3tKWoxU7pVRdMzHTqLihLYYvZhHRoDZ9-0ieV7-_nhhJlnOtznWi8uKH4tCARajItbnfQOassbS4vOpeI0MQkFS0OhcJag2quYR_CjOTNyF17z-EkHYC_Pd5sWVXT2OBwC4y56hD2c0O8gDbh7w1Oe3rG8ittng1TjdtfQBTPZY5ZYCjGllsKQ.jpg",
+        "https://cdn4.telesco.pe/file/glT1BL6xfdaWmjE1ttdlg8g46OPJlFzEA05MhIHOlnQ4u3GHY7--Lm_p-9yvf_p-90RLPCXTtKwmojSlVSOPiTkwl3qKJxor1kaRrgnFQY6n0WuIZByEjVGYB42Gsbgf2ZxLE4Gov6RrC11EQbRx3W4xfU8zDjjCsLwyTdaQTLQ73GPng6g_G555SIWjrbxPMtP1V14mPrbpXa0dMoNRBckdAWwN7BmYQwZEixcXt8DpP49m1A78CClNc8O6gwIPATvTlraEmwZsbpk9wrqrAf8kj8hlzTrKMYXAByCPf1P-Qutoql2NNSEjUu-v6FC6mAAEknTGjfoRpOMrl1JDCg.jpg",
+        "https://cdn4.telesco.pe/file/h9FfKkquxa8rQqjIiPWZsYBt0ubQMptheLmR1E8Qr8DbJjOPoCC6c6dainMvWw5XwXenW0VYITg6pwNDz-oBJlnz4KAdcRzzWbxpfRN6ltPDv3p3T9UmSmHCLXG8aXITqO8oFq78g19TvanPI2GiBsNT9FG61UpQ5cSEOp8n3U4iFMJwuAP1_UX-VR37MNfzma_mV1icqb0tEXnqm-pd8CSdoE5-tC5I_FRqOTnxZ89VYgqEcLhacOV5tvdK0nb72gOuFfUPXKsJFTh7J1E10Bjn4wPUJ9ybHQP_G1CoLHfWTRgXMGUJb1ErFEovDxzk1UCvy2O2REffbD4X52_NNQ.jpg"
+      ],
+      "weapons": [
+        "Myśliwiec Bojowy"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": true,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-09-23T10:51:33.585434+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Marco Rubio o Rosji: Wojna jest straszna dla Rosji. To znaczy, nie radzą sobie dobrze w tej wojnie. Po prostu nie są. Więc ...",
+      "text_pl": "📝 Wypadek w bazie USA 📝 W amerykańskiej bazie Spangdahlem w Niemczech, według wstępnych danych, rozbił się samolot wojskowy. Mieszkańcy sąsiednich osiedli zobaczyli czarną kolumnę dymu, a na miejsce wezwano strażaków i policję. Spodziewany punkt uderzenia znajduje się na terenie bazy lub na przedłużeniu jej pasa startowego. Nie ma jeszcze oficjalnego potwierdzenia ze strony Sił Powietrznych Stanów Zjednoczonych ani władz niemieckich. Ze źródeł wynika, że ​​po wystrzeleniu dwóch samolotów jeden z nich rozbił się; pilotowi prawdopodobnie udało się katapultować. Oficjalnie nie podano ani rodzaju samolotu, ani przyczyny wypadku, ani informacji o ofiarach. Dlatego wersja o F-16, która już krąży w mediach, pozostaje aktualna, choć nie została potwierdzona: chociaż te myśliwce tak naprawdę stacjonują w Spangdahlem. 📌 To nie pierwszy taki przypadek w regionie. W 2019 roku F-16 ze Spangdahlem rozbił się w pobliżu Semmer-Rodt po awarii instalacji elektrycznej; pilot następnie wyrzucony. W 2006 roku w pobliżu Oberkeil rozbił się inny samolot, który później w ramach procedury awaryjnej sklasyfikowano jako kontrolowany upadek. Na razie nie ma powodu, aby wiązać obecne wydarzenie z sabotażem lub atakiem zewnętrznym. Jednak w obliczu rozmów o „zagrożeniach hybrydowych” wypadek w amerykańskiej bazie może stać się kolejną dogodną okazją do nowej porcji alarmującej retoryki – nawet jeśli ostateczne wyjaśnienie okaże się tak przyziemne, jak awaria techniczna lub błąd załogi. #Niemcy #USA 👁 @evropar - Europa jest na skraju śmierci 💸 Wesprzyj nas",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/97819"
+        }
+      ],
+      "archived_at": "2026-10-07T01:09:37.613211+00:00"
+    },
+    "8fe93e63624cadcb": {
+      "id": "8fe93e63624cadcb",
+      "timestamp": "2026-09-22T22:45:15+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА на півночі Чернігівщини на/повз Городню в напрямку Чернігова.",
+      "text": "🏍 Реактивний БпЛА  на півночі Чернігівщини на/повз Городню в напрямку Чернігова.",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.9028,
+      "lon": 35.2994,
+      "url": "https://t.me/kpszsu/79611",
+      "media_urls": [],
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-09-23T09:08:12.337970+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy UAV na północy obwodu czernihowskiego nad/za Horodnią w kierunku Czernihowa.",
+      "text_pl": "🏍 Odrzutowy UAV na północy obwodu czernihowskiego nad/za Horodnią w kierunku Czernihowa.",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/79611"
+        }
+      ],
+      "archived_at": "2026-10-07T01:09:37.613211+00:00"
+    },
+    "788138f4dccca800": {
+      "id": "788138f4dccca800",
+      "timestamp": "2026-09-22T22:43:17+00:00",
+      "country": "Syria",
+      "flag": "🇸🇾",
+      "theater": "Syria",
+      "event_type": "Komunikat / Dyplomacja",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Syrian President Ahmad al-Sharaa: When I visited Trump at the White House, when he said the Golan Heights belongs to Isr...",
+      "text": "Syrian President Ahmad al-Sharaa: When I visited Trump at the White House, when he said the Golan Heights belongs to Israel, I made the joke, “Why don’t you give New Jersey to the Israelis? You don’t own the Golan Heights to give, but you own New Jersey.” I believe New Jersey is full of Democrats, and they are not voting for Trump, so it would be good to give it to the Israelis. At least this is something you own. Trump doesn’t own the Golan Heights. Regardless of this joke, the Golan Heights is owned by its own people. It is neither the Syrian president’s, the American president’s, nor any other person’s to abandon or give up to others.",
+      "location_name": "Syria",
+      "lat": 35.3552,
+      "lon": 37.6788,
+      "url": "https://t.me/ClashReport/97813",
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-09-23T09:08:12.338392+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Prezydent Syrii Ahmad al-Sharaa: Kiedy odwiedziłem Trumpa w Białym Domu, kiedy powiedział, że Wzgórza Golan należą do Izraela…",
+      "text_pl": "Prezydent Syrii Ahmad al-Sharaa: Kiedy odwiedziłem Trumpa w Białym Domu, kiedy powiedział, że Wzgórza Golan należą do Izraela, zażartowałem: „Dlaczego nie oddasz New Jersey Izraelczykom? Nie jesteś właścicielem Wzgórz Golan, ale jesteś właścicielem New Jersey”. Uważam, że w New Jersey jest pełno Demokratów, którzy nie głosują na Trumpa, więc dobrze byłoby dać to Izraelczykom. Przynajmniej to jest coś, co posiadasz. Trump nie jest właścicielem Wzgórz Golan. Niezależnie od tego żartu, Wzgórza Golan są własnością swoich ludzi. Porzucanie lub oddawanie się innym nie jest zadaniem ani prezydenta Syrii, ani prezydenta amerykańskiego, ani żadnej innej osoby.",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/97813"
+        }
+      ],
+      "archived_at": "2026-10-07T01:09:37.613211+00:00"
+    },
+    "a4efb822eadcfe50": {
+      "id": "a4efb822eadcfe50",
+      "timestamp": "2026-09-22T22:41:24+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Київщина: реактивний БпЛА курсом на Васильків з півдня.",
+      "text": "Зеленский встретится с Трампом в Нью-Йорке этим вечером Владимир Зеленский вместе с первой леди и дипломатической командой прибыл в Нью-Йорк на сессию Генассамблеи ООН. У президента Украины запланировано около 20 встреч, в том числе с Дональдом Трампом, сенаторами и членами Палаты представителей Конгресса США, руководителями международных организаций и компаний, а также с европейскими лидерами. «Подготовлена новая сделка о поставках дронов. &lt;…&gt; Есть конкретные предложения по безопасности и решения по деэскалации, которые могут приблизить окончание войны. Мы работаем над усилением ПВО и обеспечением для Украины достаточного финансирования», — написал он. Также Зеленский заявил, что уже встретился с Макроном. «Обсуждали, прежде всего, вопросы безопасности и зимний пакет поддержки для Украины. Мы готовы также предоставить дополнительные системы ПВО SAMP/T и ракеты к ним за счет финансовых возможностей в рамках кредита ЕС. Продолжаем работу над возможностью производства таких систем ПВО и ракет к ним в Украине, а также над совместной с партнерами антибаллистической программой FREYJA», — написал он. Пресс-секретарь Зеленского уточнил, что встреча с Трампом планируется на вечер 22 сентября по киевскому времени. 📸 Прислать фото/видео/информацию: @ helloastrabot 🔥 Подписаться на ASTRA в Instagram , Facebook , X на русском , X на английском, WhatsApp и DeltaChat , TikTok",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/kpszsu/79610",
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/Sr6Sk2OtSxECK3DwcEjmJa_WGw8HGJClNK7Cyy0aRylr6VFLCnLy40ouSViUa0iQbMyIpSYsBHnCTpNx_QFGu_XbODq2KTEWd5wfvYQblNNXqPHcDWnOcYgl4o5V4igJ761i5zECX75_zCbBl-EaigFp1nO-I9jTg1t6ELi4r0uw3U2TTTKif2-2PqDD7A8i-jvXVl7SLbaRzqYF00kYOlrohDXqaCSriBi0YRwygLWOC2x-PkFg0uDitL3RibjkIgz4hb_NkEZ85x-7xvPc67RR5O1Y0Fr5BheTlTREqZfYo39vJidLK499_3ipvnDaUzJcIg3zgxvU9eTrwjfjig.jpg",
+        "https://cdn4.telesco.pe/file/Wm2IARMe2Cr_RbIVVJBmA3tMlzI89_ARlO5Io6L4vW9lk9U1fBwTgVRoYwca1PIm0ZqI3Oo1iQTa9ksbUPw6DI2AcyopIbX-8PHSUsNNw0c82-M7wHHF0j9cuzPd2h4S6mTSXLDQ_AirWDFsKIlc2WyFbEnm2gWl8viPu2vkL_eERI-ZN1N9IH9Aha5iXZrQ6HnWxzgbYiERUN379CT8BaHbo53thDmCUOS6kaw3f3793vezOV8G9YZznPUuePV1gxSOjR9F_hFY6wqKgl2w1Pz_yNZ6WrhiyGkpFBlNyyM-hwp8T4ysOimWsWJ8Abud1_rMq2YQM_TczCz2F7_hyQ.jpg",
+        "https://cdn1.telesco.pe/file/FyxyAhshgto-XZUIq8uG-6fKLAaT0YtebSnegAqJ-zvZNnM0kF-N-0iDiak1ouXNc_EElJJgDD2UyT9ePtOrgC_5ASN5W92N6oGfDDuU08IVHBiSpIHo77F7dlUG6ZnVIObinAVBbhxD3OAKt1aRMQ5y4o9FWmo1dpOuTzOFK2zND7SburIfsIjSn-KxR61cZt2Mh5sYzyEvW0puE16zKxgJCF_7cv18VGx8vkGzv07jSbr8d-yijRWaRuL_gxP0i2C9QGy75VlLO33IQQS8FuxWQ0i8HTYxYWfqFmphfuhiOTO1LCy9fXtGg20eBQ34R27Azx5fOPqifA3znBcPTA.jpg",
+        "https://cdn1.telesco.pe/file/iU_rSB12peyOwC4BvwZO3YGGTBb2H5BxmTwolFqdy-NqCboBFiXMn6xKsr0KybBBrorfcoT45bYHPVuR4H49ZHVkg7jZ-6K0mkMLUaq84jxvIOFwE0hC5LkV58wa2Cvy86cCZ9PxvK1L24gmyyd-nYp4xwtQxv9Wz46zfqAlq0p_wjAX9Pbn31ZFFFg1C2rSL4zSkqW9rUfWZBXlGzo2yrdPixsBpp3JYm0i5X3byYnQ0x8kmMQ0hqq-avhQ8_pm9EYGq4fx0sPY519VhaUOWpd8EhzJ6IVqcmbuGWn2BsJRgt8BUmvccRf43_nXymhTALW44TA7Y4YRU0RDR_Yy_g.jpg",
+        "https://cdn4.telesco.pe/file/QGPewQvoan8dFFmngGasQqVPlrz-uT9dgp3CjTislwFPn4zaRoqbm8kjTjI3vOcslyKSYhhIGF6yvfCBDtlJHIExWQJnCw1VzitjWs1SYIOQpw21xOkmpG4wkn37YdKyob1gmqC8xbQY_M7Pd4csLOwhXc2wFDlGVoh3BEbIxMiKlbHPt_lhG02i0fHK_bB6dny-8cc5lEWdcVglJbxxfrxs072arqjHeRwPbuIz7iKYpef6grsBnHHfibnxu50dldk12cOo80aOnmterW6oC8iSFzM2jujPERQJhN2GSMG-qGHfpZDIqMPtOR-cyCE9F3fnhLpb9g3vhmVca9OA7A.jpg",
+        "https://cdn4.telesco.pe/file/Ria7A5dR2CO1r0pzPb48Z4YX4xo0VH204pQh4gnru5fnEmjusgusGfTgALRNnRmOD65AQTMj8DEs4hOv-qkxH9kmvXN-CFn_RTT7r8w5YL_w0BPEBLjFpQ9gaE2j547uNj5gMj_nRbRmty8VS2AnNtq7a-AQjMEBR9omEESMwO-LN1W5phWfBvfMGLpg930adxvX0d4mBQ38mEN0VSGesmKmq8Id8tKCsn2XTroyVuGttQvyjQh-QwWojGaQMyN3NgboNS_dHZUPKRYYClpmk1-QibSQtzKZhxqcUNbMemgrDwSp4gnhsiXCqwXgEaINgsacHESqogejLL0cvw2Ggg.jpg",
+        "https://cdn4.telesco.pe/file/ftR6zxgtoSN3zwDFHCuaSIWx3HQ6AYYcPL7LA1Hz4PNtOK45x4nxWH8e6UoXT5A_BJZtWEHyACPb-ZFRBezmG1Scx3BncvK7bJ7LQfn0U7fHAiuOJ28rNwCvqrZqGZ-qsWucUoH2bBKoSqLbeQhnZr23pg11eakiBb6CvlE0AaCHf27UVeK5-dZ2mkK19MHqBO9FD4p6XoFYNqG2O4xF0PwByeQt8MvNhIhoNiqKfWTOx2v7P3elcCckj3wvThETjuzfUErUnAq2dRfvo65vxv9NTmeipXrUP9qlJasqv4GUvgEPZ3HbTxT6-PqPTTtvk5nUrkzdpWRolAaRNQMJpA.jpg",
+        "https://cdn4.telesco.pe/file/t4cEPTiJBkMlE7Qrp3YmHnQ5h2Lxipk80u2jaEoLYIElLI4YBBjxLt1U0lbTLbpHEQQM5AerDrtYUNQmYi9Fz0L12JbrTvU49LNMy-ar6aguptPB_z1YVnJ8e_0ycFzmiDaNJfXyrHiBqzp02xy0JCTEEPPkN7_YR1J1kzpCE8y7UC7QhkZI-xooIjuckZ8lVBUdaJkm6Lc4xpR6l9iwQyeG3sQERdUkd_LbtKP5E1ArnLqnv92LeDRqbb5TeIoxSFi93ZXh4Yz_bkDLGKMVUSIBQkVQPeWSM4mB-0H_vUdd3aSfNJ1A1nmOJFTdjojMjO_aGYefTwdBZ7UwLycc8Q.jpg",
+        "https://cdn4.telesco.pe/file/hiq9FpyRmYWjJzrXlO68HsjefPoQKad0oL_VQxAD2TgZibu_5JUq6v_rhncsWKCk9cM4Cr9W9i6uSZ-T9-kBn3i_amJMQMP25WSZXEPqjui-aO0O1h5RYPN8Tozh6QM_Mhn1afPOyM_IoMeGGeUaxYkKEXIY5YRkldDcLgnT0A87uUa30x_BiqMv9xUiiu6pL2XKPteM0De18WciWjTSzOjx9Hcm5BugRY7kjolGtyC3_trk2i7boHAMn9OuD71YLR8gWVigXXmvue77unMQpFBv2umWirQbxIfHH7N1Z_GnETtaMpjdfey-PfQ_oRAaeqZiLH6T5ZC_3DhfQwLrdQ.jpg",
+        "https://cdn4.telesco.pe/file/eUHh0Wdrvvb-DDZS7WRluTuSyWiwmoMsOO1PYy0Wz3UlWP7J_gxFB_DjVRHVbmOx_J21WGjvvz86GfM8iRyRWeaWa_8Xcehc1zk7ZPhAi0Cs8kpkg6sOXr4glUbF76XLLaoOkGrU5SAEokJG_gOnF1Y1UIifKprLTEQqtrWo65GJF0FnNfK5DCIfT99XfZKSyJEVblP2uPeyWq_MIggoBt3F3NzHFe4hbsN_0u-Ljq5K3fuHEbeCpw7NlQMl1QZ2kfQhUmoezKO_5PJ8dQQsjOfNgXw7RjjHYKBk05RM51gb_aeQtFErhHrWQw1_VvfqJ4U-z3oz8lw4WpZIFU9SGg.jpg",
+        "https://cdn4.telesco.pe/file/WjUYqoIWp6pY1Okfp4aIX1huG50xp1A3T2cYZkrudqKAnJjm8tn2xq9dEgGmPyqw7ilYxYSeR5CGNMPIEF_5XUazV4-5pd6RdgDLwS-xl6r3ASNZxo-YEkaZ3Z5xJcLVGZQSVTUfKmjgOqvKejQcA-6DbkEqTQVk5CWadwCqlv3rwbHMQBKQy26xc1ai2SresDYKvuSfxHfYSTdFcC6FMoOQmAzbbE44PAiN5pCvUsGaA0H0ZEXCfEVCU5ey773zSD7G3FhE5exU-2tuyvd3Xk-gab-UEGZZIbRFkBTvNyUXFdL-W-HOvgbcn4Oo3KocITmnEGIZyrLheAvpHkQNYA.jpg"
+      ],
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": true,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-09-23T06:29:16.749022+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Obwód kijowski: odrzutowy UAV skierował się od południa w stronę Wasylkowa.",
+      "text_pl": "Zełenski spotka się dziś wieczorem z Trumpem w Nowym Jorku Władimir Zełenski wraz z pierwszą damą i zespołem dyplomatycznym przybył do Nowego Jorku na sesję Zgromadzenia Ogólnego ONZ. Prezydent Ukrainy ma zaplanowanych około 20 spotkań, m.in. z Donaldem Trumpem, senatorami i członkami amerykańskiej Izby Reprezentantów, szefami organizacji i firm międzynarodowych, a także z europejskimi przywódcami. \"Przygotowano nową umowę na dostawy dronów. <...> Są konkretne propozycje bezpieczeństwa i rozwiązania deeskalacyjne, które mogą przybliżyć koniec wojny. Pracujemy nad wzmocnieniem obrony powietrznej i zapewnieniem Ukrainie wystarczających środków finansowych\" - napisał. Zełenski powiedział też, że spotkał się już z Macronem. \"Rozmawialiśmy przede wszystkim o kwestiach bezpieczeństwa i zimowym pakiecie wsparcia dla Ukrainy. Jesteśmy także gotowi zapewnić im dodatkowe systemy i rakiety przeciwlotnicze SAMP/T ze środków finansowych w ramach kredytu UE. Kontynuujemy prace nad możliwością wyprodukowania dla nich takich systemów i rakiet przeciwlotniczych na Ukrainie, a także nad programem antybalistycznym FREYJA wspólnie z partnerami\" - napisał. Sekretarz prasowy Zełenskiego wyjaśnił, że spotkanie z Trumpem zaplanowano na wieczór 22 września czasu kijowskiego. 📸 Wyślij zdjęcie/wideo/informację: @ helloastrabot 🔥 Subskrybuj ASTRA na Instagramie, Facebooku, X po rosyjsku, X po angielsku, WhatsApp i DeltaChat, TikTok",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/79610"
+        }
+      ],
+      "archived_at": "2026-10-07T01:09:37.613211+00:00"
+    },
+    "1497921355d44233": {
+      "id": "1497921355d44233",
+      "timestamp": "2026-09-22T22:32:40+00:00",
+      "country": "Liban",
+      "flag": "🇱🇧",
+      "theater": "Bliski Wschód (Liban)",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Syrian President Ahmad al-Sharaa on Israel: Even the presidential palace has been bombed twice by Israel. Our airports a...",
+      "text": "Syrian President Ahmad al-Sharaa on Israel: Even the presidential palace has been bombed twice by Israel. Our airports are being bombed by Israel. Will that bring security to Israeli citizens? Look at the relationships we have with the U.S., UK, and Lebanon. They are successful. I believe the problem is with Israel, not Syria.",
+      "location_name": "Bliski Wschód (Liban)",
+      "lat": 48.15,
+      "lon": 35.204,
+      "url": "https://t.me/ClashReport/97811",
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-09-23T09:08:12.338394+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Prezydent Syrii Ahmad al-Sharaa o Izraelu: Izrael dwukrotnie zbombardował nawet pałac prezydencki. Nasze lotniska...",
+      "text_pl": "Prezydent Syrii Ahmad al-Sharaa o Izraelu: Izrael dwukrotnie zbombardował nawet pałac prezydencki. Izrael bombarduje nasze lotniska. Czy zapewni to bezpieczeństwo obywatelom Izraela? Spójrzcie na relacje, jakie mamy z USA, Wielką Brytanią i Libanem. Odnoszą sukcesy. Uważam, że problem leży po stronie Izraela, a nie Syrii.",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/97811"
+        }
+      ],
+      "archived_at": "2026-10-07T01:09:37.613211+00:00"
+    },
+    "1a902debaf032872": {
+      "id": "1a902debaf032872",
+      "timestamp": "2026-09-22T22:30:29+00:00",
+      "country": "Syria",
+      "flag": "🇸🇾",
+      "theater": "Syria",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Syrian President Ahmad al-Sharaa on Israel: It’s not appropriate that what happened on October 7 set Israeli policy for ...",
+      "text": "Syrian President Ahmad al-Sharaa on Israel: It’s not appropriate that what happened on October 7 set Israeli policy for Syria. This is not logical. This brings more security threats. If you want to protect your own security, you need to respect the security of others. Israel needs to change its policy because it’s creating problems around it in order to maintain its security. This is not working for them.",
+      "location_name": "Syria",
+      "lat": 35.2552,
+      "lon": 37.6914,
+      "url": "https://t.me/ClashReport/97810",
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-09-23T09:08:12.338396+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Prezydent Syrii Ahmad al-Sharaa o Izraelu: To niewłaściwe, że to, co wydarzyło się 7 października, wyznaczało izraelską politykę…",
+      "text_pl": "Prezydent Syrii Ahmad al-Sharaa o Izraelu: To niewłaściwe, że to, co wydarzyło się 7 października, wyznaczało izraelską politykę wobec Syrii. To nie jest logiczne. To stwarza więcej zagrożeń dla bezpieczeństwa. Jeśli chcesz chronić własne bezpieczeństwo, musisz szanować bezpieczeństwo innych. Izrael musi zmienić swoją politykę, ponieważ stwarza wokół siebie problemy, aby zachować swoje bezpieczeństwo. To na nich nie działa.",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/97810"
+        }
+      ],
+      "archived_at": "2026-10-07T01:09:37.613211+00:00"
+    },
+    "6ac6d2418f6a9e12": {
+      "id": "6ac6d2418f6a9e12",
+      "timestamp": "2026-09-22T22:22:20+00:00",
+      "country": "Syria",
+      "flag": "🇸🇾",
+      "theater": "Syria",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Syrian President Ahmad al-Sharaa: We are now getting into having legal status for the Turkish bases in northwestern Syri...",
+      "text": "Syrian President Ahmad al-Sharaa: We are now getting into having legal status for the Turkish bases in northwestern Syria because any foreign presence should be under the endorsement of the people and have legal status.",
+      "location_name": "Syria",
+      "lat": 35.1012,
+      "lon": 37.7592,
+      "url": "https://t.me/ClashReport/97809",
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-09-23T09:08:12.338398+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Prezydent Syrii Ahmad al-Sharaa: Obecnie uzyskujemy status prawny tureckich baz w północno-zachodniej Syrii…",
+      "text_pl": "Prezydent Syrii Ahmad al-Sharaa: Obecnie uzyskujemy status prawny baz tureckich w północno-zachodniej Syrii, ponieważ wszelka obecność zagraniczna powinna mieć poparcie narodu i mieć status prawny.",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/97809"
+        }
+      ],
+      "archived_at": "2026-10-07T01:09:37.613211+00:00"
+    },
+    "80ac8714e08a82a3": {
+      "id": "80ac8714e08a82a3",
+      "timestamp": "2026-09-22T22:17:20+00:00",
+      "country": "Sudan",
+      "flag": "🇸🇩",
+      "theater": "Afryka (Sudan)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "The U.S. is withholding a visa for Sudan’s army chief Abdel Fattah al-Burhan ahead of the UN General Assembly, with sour...",
+      "text": "The U.S. is withholding a visa for Sudan’s army chief Abdel Fattah al-Burhan ahead of the UN General Assembly, with sources saying Washington is linking his attendance to acceptance of a proposed 90-day ceasefire. Sudan has asked the UN to intervene, while Burhan’s side has rejected what it calls a “take-it-or-leave-it” approach. Source: Reuters",
+      "location_name": "Afryka (Sudan)",
+      "lat": 48.1132,
+      "lon": 35.102,
+      "url": "https://t.me/ClashReport/97808",
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/C6N8ey2eHp8_RValkO3ohHbpB6F9MisMwy7Qo1UKeetPd6O6xJ3bbo6fmySU8FcB_t4trJl_ioT-V4CcxBhHPf_QuHWKplGjFW9k69Fwmy7bbhVkkDZcbXRW5W0inDBYks9JIwCmlnqA_NllTbu8q2PDgNXS_T9dU0qOZne8Nf9Wah-H7EKkoO-I4tGhrsqBUtsVOOu-F6lWFrSFx5fxUfKCdWxeWsfUEOJgcMPCg9kJ4fnGMa84CzOs6Hn3_mnEAhdFJZquWUacC2XUJecapmWzC-SJL2pb5AwA-D6oQH85mHdZtXKa25ZRx4FTSiNR2dInALd8H8aL2KFwN1ZLcA.jpg"
+      ],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": true,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-09-23T09:08:12.338400+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Stany Zjednoczone wstrzymują wizę dla szefa armii Sudanu Abdela Fattaha al-Burhana przed Zgromadzeniem Ogólnym ONZ z kwaśnym…",
+      "text_pl": "Stany Zjednoczone wstrzymują wizę dla szefa armii Sudanu Abdela Fattaha al-Burhana przed Zgromadzeniem Ogólnym ONZ, a źródła podają, że Waszyngton łączy jego obecność z akceptacją proponowanego 90-dniowego zawieszenia broni. Sudan zwrócił się do ONZ o interwencję, natomiast strona Burhana odrzuciła, jak to nazywa, podejście „bierz albo zostaw”. Źródło: Reuters",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/97808"
+        }
+      ],
+      "archived_at": "2026-10-07T01:09:37.613211+00:00"
+    },
+    "3a4621eaa7360085": {
+      "id": "3a4621eaa7360085",
+      "timestamp": "2026-09-22T22:16:04+00:00",
+      "country": "Syria",
+      "flag": "🇸🇾",
+      "theater": "Syria",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Syrian President Ahmad al-Sharaa: The Golan Heights are Syrian territory under the recognition of the UN. There’s no dis...",
+      "text": "Syrian President Ahmad al-Sharaa: The Golan Heights are Syrian territory under the recognition of the UN. There’s no discussion about those territories and to whom they belong.",
+      "location_name": "Syria",
+      "lat": 35.0148,
+      "lon": 37.7202,
+      "url": "https://t.me/ClashReport/97807",
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-09-23T09:08:12.338402+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Prezydent Syrii Ahmad al-Sharaa: Wzgórza Golan są terytorium Syrii uznawanym przez ONZ. Nie ma dis...",
+      "text_pl": "Prezydent Syrii Ahmad al-Sharaa: Wzgórza Golan są terytorium Syrii uznawanym przez ONZ. Nie ma dyskusji na temat tych terytoriów i tego, do kogo należą.",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/97807"
+        }
+      ],
+      "archived_at": "2026-10-07T01:09:37.613211+00:00"
+    },
+    "0e5a1378dc079adc": {
+      "id": "0e5a1378dc079adc",
+      "timestamp": "2026-09-22T22:15:59+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Лукашенко освободит 25 политзаключенных, а США снимут санкции с «Лакокраски» и «Беллесбумпрома», — спецпосланник США по ...",
+      "text": "Лукашенко освободит 25 политзаключенных, а США снимут санкции с «Лакокраски» и «Беллесбумпрома», — спецпосланник США по Беларуси Джон Коул",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 48.174,
+      "lon": 35.2376,
+      "url": "https://t.me/astrapress/125991",
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/eaxjMsOYvrMqbLStQlt3fk-fq_EAn_0lw3aEPGPjzlROcn1_Wx1BBp1OaaO7Vw7fY-Ur0RiiDhKx5knscTFgQRpzhpjjoiVHf8MJfcUh3EScZzSe3S03wnvyxx2fXg8YpmvfCUeaFJ5BOnsY7amWyf-JLLHIMsr8jttMaRhtwR3WJ_Q6NfIF8fiYUyeuIMnrkCCBbQpFC65K0EUfAg6iRlnDNUYRFoE_fcKVsZHZlrOPXoUy0rPv8rDeAKQLqovRsIKSWz7vHzEA1QLjTL1Dv7wtrSAwNKFnXFr81kaoejUYNZtQ3WiFIvnf2GL1glFSYd0lsLnLgp0vDIYL-rWtMw.jpg"
+      ],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "astrapress",
+      "added_at": "2026-09-23T10:51:33.585211+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Łukaszenka zwolni 25 więźniów politycznych, a Stany Zjednoczone zniosą sankcje nałożone na Lakokraskę i Bellesbumprom, – specjalny wysłannik USA ds.…",
+      "text_pl": "Łukaszenka uwolni 25 więźniów politycznych, a Stany Zjednoczone zniosą sankcje nałożone na Lakokraskę i Bellesbumprom – – Specjalny wysłannik USA na Białoruś John Cole",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/125991"
+        }
+      ],
+      "archived_at": "2026-10-07T01:09:37.613211+00:00"
+    },
+    "446b4ed4498021ce": {
+      "id": "446b4ed4498021ce",
+      "timestamp": "2026-09-22T22:13:28+00:00",
+      "country": "Syria",
+      "flag": "🇸🇾",
+      "theater": "Syria",
+      "event_type": "Komunikat / Dyplomacja",
+      "tactical_category": "Komunikat Sztabowy / Dyplomacja",
+      "tactical_icon": "📡",
+      "title": "Syrian President Ahmad al-Sharaa on Israel: We almost reached 90% of an agreement with Israel, but then Israel withdrew ...",
+      "text": "Syrian President Ahmad al-Sharaa on Israel: We almost reached 90% of an agreement with Israel, but then Israel withdrew from the agreement for different reasons they put in place.",
+      "location_name": "Syria",
+      "lat": 35.2884,
+      "lon": 37.572,
+      "url": "https://t.me/ClashReport/97806",
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-09-23T06:29:16.749529+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Prezydent Syrii Ahmad al-Sharaa o Izraelu: Prawie osiągnęliśmy 90% porozumienia z Izraelem, ale potem Izrael się wycofał…",
+      "text_pl": "Prezydent Syrii Ahmad al-Sharaa o Izraelu: Prawie osiągnęliśmy 90% porozumienia z Izraelem, ale potem Izrael wycofał się z porozumienia z różnych powodów, które wprowadził.",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/97806"
+        }
+      ],
+      "archived_at": "2026-10-07T01:09:37.613211+00:00"
+    },
+    "c7f6e4f81de3bc6d": {
+      "id": "c7f6e4f81de3bc6d",
+      "timestamp": "2026-09-22T22:04:19+00:00",
+      "country": "Syria",
+      "flag": "🇸🇾",
+      "theater": "Syria",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Syrian President Ahmad al-Sharaa: At the end of the day, we agreed that Kurdish-inhabited areas are going to learn in th...",
+      "text": "Syrian President Ahmad al-Sharaa: At the end of the day, we agreed that Kurdish-inhabited areas are going to learn in the Kurdish language. After 100 years, the Kurds had their rights recognized.",
+      "location_name": "Syria",
+      "lat": 35.2352,
+      "lon": 37.3518,
+      "url": "https://t.me/ClashReport/97804",
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-09-23T09:08:12.338404+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Prezydent Syrii Ahmad al-Sharaa: Ostatecznie zgodziliśmy się, że obszary zamieszkane przez Kurdów będą się uczyć w…",
+      "text_pl": "Prezydent Syrii Ahmad al-Sharaa: Ostatecznie zgodziliśmy się, że obszary zamieszkane przez Kurdów będą uczyć się języka kurdyjskiego. Po 100 latach uznano prawa Kurdów.",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/97804"
+        }
+      ],
+      "archived_at": "2026-10-07T01:09:37.613211+00:00"
+    },
+    "5271d3b48a375b72": {
+      "id": "5271d3b48a375b72",
+      "timestamp": "2026-09-22T22:02:00+00:00",
+      "country": "Syria",
+      "flag": "🇸🇾",
+      "theater": "Syria",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Syrian President Ahmad al-Sharaa: It’s a right for the Kurds who are living in Syria to have their cultural and linguist...",
+      "text": "Syrian President Ahmad al-Sharaa: It’s a right for the Kurds who are living in Syria to have their cultural and linguistic rights recognized in Syria.",
+      "location_name": "Syria",
+      "lat": 35.3584,
+      "lon": 37.7166,
+      "url": "https://t.me/ClashReport/97803",
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-09-23T09:08:12.338406+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Prezydent Syrii Ahmad al-Sharaa: Kurdowie mieszkający w Syrii mają prawo do posiadania wiedzy kulturalnej i językowej…",
+      "text_pl": "Prezydent Syrii Ahmad al-Sharaa: Kurdowie mieszkający w Syrii mają prawo do uznania ich praw kulturowych i językowych w Syrii.",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/97803"
+        }
+      ],
+      "archived_at": "2026-10-07T01:09:37.613211+00:00"
+    },
+    "ed5fa19466bac5ed": {
+      "id": "ed5fa19466bac5ed",
+      "timestamp": "2026-09-22T21:59:12+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивні БпЛА в р-ні. Нові Санжари Полтавщина курс північно-західний",
+      "text": "В «Нафтогазе» заявили о фактической невозможности восстановления своего объекта в Полтавской области после очередной российской атаки «Ночью российские войска атаковали баллистическими ракетами объект нефтегазового комплекса в Полтавской области. По меньшей мере пять ракет попали по технологическим объектам, которые и так длительное время остановлены и не функционируют. Этот объект с 2022 года уже десятки раз подвергался российским атакам, как с помощью дронов, так и с помощью ракет, а его оборудование давно и навсегда выведено из строя. Текущая атака привела к критическим разрушениям, что фактически делает невозможным восстановление и функционирование объекта», — сообщили в «Нафтогаз Украина».",
+      "location_name": "Połtawa",
+      "lat": 49.5883,
+      "lon": 34.5514,
+      "url": "https://t.me/kpszsu/79607",
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/usZSRnOmG8u2dEZXbpmCcPPodc9jDYPDLN8TzqCyHKwutieNQXGl_z2If0KOsKcoHjkxz4HMxEGMqodZS7hJie-w129ZWH2DSZ9LlQkTIOW3JJDqy5Ealinp2PSkcerpddDmsxYAktA1vd8RbGZ1fnQhIVZdfI_AJgZC9x0-FwSDAE5iEFYHBLmSl6x2iqLsGcx2H_SsgDGaZ4hGp3PjhfCwNJGfutBE6fTQqycT4EtUOvVBn1OlA8BWf0E2nhPKZIMpps5wHjBUnqVuC2Zu2-0Q4hwBZzilgI6mcj85xl6usjVNIZUtU_iU__rgFgWtpJNSWbCFva2myY-pAITZIQ.jpg"
+      ],
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-09-23T06:29:16.749028+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowe UAV na terenie dzielnicy. Novi Sanzhary, obwód Połtawy, kurs północno-zachodni",
+      "text_pl": "Naftogaz ogłosił, że po kolejnym rosyjskim ataku odbudowa obiektu w obwodzie połtawskim jest praktycznie niemożliwa. \"W nocy wojska rosyjskie zaatakowały rakietami balistycznymi kompleks naftowo-gazowy w obwodzie połtawskim. Co najmniej pięć rakiet trafiło w wyłączone i od dłuższego czasu obiekty technologiczne. Obiekt ten był już przedmiotem kilkudziesięciu rosyjskich ataków od 2022 roku, zarówno z wykorzystaniem dronów, jak i rakiet, a jego wyposażenie zostało już dawno trwale wyłączone. Obecny atak doprowadził do krytycznych uszkodzeń, które praktycznie uniemożliwiają odbudowę i eksploatację obiektu\" - podaje Naftogaz Ukraina.",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/79607"
+        }
+      ],
+      "archived_at": "2026-10-07T01:09:37.613211+00:00"
+    },
+    "29d910511acd0908": {
+      "id": "29d910511acd0908",
+      "timestamp": "2026-09-22T21:53:24+00:00",
+      "country": "Syria",
+      "flag": "🇸🇾",
+      "theater": "Syria",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Syrian President Ahmad al-Sharaa: I don’t believe that it’s an appropriate time to discuss things that happened 25 years...",
+      "text": "Syrian President Ahmad al-Sharaa: I don’t believe that it’s an appropriate time to discuss things that happened 25 years ago. I was at a different age, and the conditions in the region were different.",
+      "location_name": "Syria",
+      "lat": 35.3284,
+      "lon": 37.7772,
+      "url": "https://t.me/ClashReport/97801",
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-09-23T09:08:12.338408+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Prezydent Syrii Ahmad al-Sharaa: Nie sądzę, że to odpowiedni czas na omawianie rzeczy, które wydarzyły się 25 lat…",
+      "text_pl": "Prezydent Syrii Ahmad al-Sharaa: Nie sądzę, że to odpowiedni czas na omawianie rzeczy, które wydarzyły się 25 lat temu. Byłem w innym wieku i warunki panujące w regionie były inne.",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/97801"
+        }
+      ],
+      "archived_at": "2026-10-07T01:09:37.613211+00:00"
+    },
+    "df9f431abe40cd59": {
+      "id": "df9f431abe40cd59",
+      "timestamp": "2026-09-22T21:50:40+00:00",
+      "country": "Syria",
+      "flag": "🇸🇾",
+      "theater": "Syria",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Syrian President Ahmad al-Sharaa: I had nothing to do with 9/11. I was 13 years old at that time. I didn’t know anything...",
+      "text": "Syrian President Ahmad al-Sharaa: I had nothing to do with 9/11. I was 13 years old at that time. I didn’t know anything about this stuff. Of course, I am sorry for all the victims, both in the U.S. and those who fell in the Middle East because of the policies that were pursued there.",
+      "location_name": "Syria",
+      "lat": 35.056,
+      "lon": 37.548,
+      "url": "https://t.me/ClashReport/97800",
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-09-23T09:08:12.338410+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Prezydent Syrii Ahmad al-Sharaa: Nie miałem nic wspólnego z 11 września. Miałem wtedy 13 lat. nic nie wiedziałem...",
+      "text_pl": "Prezydent Syrii Ahmad al-Sharaa: Nie miałem nic wspólnego z 11 września. Miałem wtedy 13 lat. Nic nie wiedziałem o tej rzeczy. Oczywiście przykro mi z powodu wszystkich ofiar, zarówno w USA, jak i tych, które poległy na Bliskim Wschodzie z powodu polityki tam prowadzonej.",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/97800"
+        }
+      ],
+      "archived_at": "2026-10-07T01:09:37.613211+00:00"
+    },
+    "190c9fd70d9f526f": {
+      "id": "190c9fd70d9f526f",
+      "timestamp": "2026-09-22T21:46:52+00:00",
+      "country": "Iran",
+      "flag": "🇮🇷",
+      "theater": "Bliski Wschód (Zatoka Perska)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Eksplozja / Detonacja",
+      "tactical_icon": "💥",
+      "title": "IRNA reports that an explosion was heard near Iran’s Qeshm Island. The sound appeared to come from the sea, with no repo...",
+      "text": "IRNA reports that an explosion was heard near Iran’s Qeshm Island. The sound appeared to come from the sea, with no reported impact on the island itself.",
+      "location_name": "Bliski Wschód (Zatoka Perska)",
+      "lat": 48.1408,
+      "lon": 34.8752,
+      "url": "https://t.me/ClashReport/97799",
+      "media_urls": [],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": true,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-09-23T06:29:16.749538+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "IRNA donosi, że w pobliżu irańskiej wyspy Qeshm słychać było eksplozję. Dźwięk wydawał się pochodzić z morza, bez repozytorium...",
+      "text_pl": "IRNA donosi, że w pobliżu irańskiej wyspy Qeshm słychać było eksplozję. Dźwięk wydawał się pochodzić z morza i nie stwierdzono wpływu na samą wyspę.",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/97799"
+        }
+      ],
+      "archived_at": "2026-10-07T01:09:37.613211+00:00"
+    },
+    "bd16b07b7328f96a": {
+      "id": "bd16b07b7328f96a",
+      "timestamp": "2026-09-22T21:43:12+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА в р-ні. Козина у напрямку Києва.",
+      "text": "🏍 Реактивний БпЛА в р-ні. Козина у напрямку Києва.",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.9104,
+      "lon": 34.7384,
+      "url": "https://t.me/kpszsu/79604",
+      "media_urls": [],
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-09-23T09:08:12.337981+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Jet UAV na terenie dzielnicy. Kozyny w kierunku Kijowa.",
+      "text_pl": "🏍 Jet UAV na terenie dzielnicy. Kozyny w kierunku Kijowa.",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/79604"
+        },
+        {
+          "name": "Dowództwo SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/79600"
+        },
+        {
+          "name": "Dowództwo SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/79582"
+        },
+        {
+          "name": "Dowództwo SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/79580"
+        }
+      ],
+      "archived_at": "2026-10-07T01:09:37.613211+00:00"
+    },
+    "2a30a6c15ed088f3": {
+      "id": "2a30a6c15ed088f3",
+      "timestamp": "2026-09-22T21:29:04+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🛵 БпЛА у напрямку Новомиколаївки Запорізької області із півдня",
+      "text": "🛵 БпЛА у напрямку Новомиколаївки Запорізької області із півдня",
+      "location_name": "Mikołajów",
+      "lat": 46.975,
+      "lon": 31.9946,
+      "url": "https://t.me/kpszsu/79603",
+      "media_urls": [],
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-09-23T06:29:16.749036+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🛵 BpLA w kierunku Nowomykołajówki, obwód zaporoski od południa",
+      "text_pl": "🛵 BpLA w kierunku Nowomykołajówki, obwód zaporoski od południa",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/79603"
+        }
+      ],
+      "archived_at": "2026-10-07T01:09:37.613211+00:00"
     }
   }
 }
