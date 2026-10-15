@@ -1,11 +1,11 @@
 {
   "manifest": {
-    "total_archived": 3270,
+    "total_archived": 3337,
     "retention_days": 14,
     "first_archived_at": "2026-09-23T16:43:07.215300+00:00",
-    "last_archived_at": "2026-10-15T17:35:12.651618+00:00",
+    "last_archived_at": "2026-10-15T20:45:23.709866+00:00",
     "oldest_event_timestamp": "2023-06-05T21:48:13+00:00",
-    "newest_event_timestamp": "2026-10-01T17:34:22+00:00",
+    "newest_event_timestamp": "2026-10-01T20:35:47+00:00",
     "cloud_sync_enabled": false
   },
   "events": {
@@ -143060,6 +143060,3097 @@
       "title_pl": "Jak podaje agencja Reutera, trzy tankowce pływające pod banderą Liberii zostały trafione przez nieznane pociski podczas przekraczania Cieśniny Ormuz we wtorek.",
       "text_pl": "Według firmy wywiadowczej Marisks, trzy tankowce pływające pod banderą Liberii zostały trafione przez nieznane pociski podczas przekraczania Cieśniny Ormuz we wtorek. Statki – Al Ruwais, Mersin Prosperity i Sinbad – wyłączyły swoje transpondery śledzące, aby uniknąć wykrycia. Dwa z tankowców przeprowadziły niedawno przeładunek ze statku na statek w pobliżu Omanu, natomiast Sinbad ładował produkty rafinowane w Arabii Saudyjskiej. Źródło: Reuters",
       "archived_at": "2026-10-15T17:35:12.648882+00:00"
+    },
+    "1e581af3fb0cf9dc": {
+      "id": "1e581af3fb0cf9dc",
+      "timestamp": "2026-10-01T20:35:47+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА через зону відчуження Чорнобильської АЕС курсом на Житомирщину.",
+      "text": "🏍 Реактивний БпЛА через зону відчуження Чорнобильської АЕС курсом на Житомирщину.",
+      "location_name": "Czarnobyl",
+      "lat": 51.2763,
+      "lon": 30.2218,
+      "url": "https://t.me/kpszsu/82193",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82193"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-01T20:40:17.612403+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy UAV przez strefę wykluczenia elektrowni jądrowej w Czarnobylu w kierunku obwodu żytomierskiego.",
+      "text_pl": "🏍 Odrzutowy UAV przez strefę wykluczenia elektrowni jądrowej w Czarnobylu w kierunku obwodu żytomierskiego.",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "7c9520cc49cb0a9d": {
+      "id": "7c9520cc49cb0a9d",
+      "timestamp": "2026-10-01T20:34:41+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump: If the Democrats get in, it will be 1929.",
+      "text": "Trump: If the Democrats get in, it will be 1929.",
+      "location_name": "Inne",
+      "lat": 48.11,
+      "lon": 35.0354,
+      "url": "https://t.me/ClashReport/99318",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99318"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/vKWCiYT-dztOp8gdD5rnL-roVZ6AlWiKZGtkRkTOYI-MJUq7itxRr6PKP2bPsEP-Z2ZAlc0vl0euZOHJW74nAytBuIESiRtj68xrltEkjoqjEmpIx2muc_fyluu15DHVznwjgaVVVZi88dqhqZgWHg1EJ0oRq3A_JvsTiQBOSK2zjqQCpgsddUfhQ2Cpv2Wubnot2KzDdJiwfOgVcB66zFw3wO521wfhvewwNFTFoLVf_Ymir1KzZsI4JPI3OOaitGFjHVy3LiPwNLZW9UmVDfJpZozZIDr4muse7hCJ5Op9x0j0vvZ4iMT_QDF7F6QPQy_BDwnFlL36SxYdcNGiPg"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/b3f4805cb4.mp4?token=KSQmOeXYsklxboLs4oINg_AXZbfhO9XY93VFe5Datw_5hDngCTO4l2gikYL9BLJQ3u1T6j9WLwgkk3JSil9iX_EldaXz57eleU6dV295-CL8t_onlRX63i-nWu5Xdcg4rno2JdrG8GHjljqhKU9mgaS65rRxgDg21VySfj6fxc0jvx6V1Tdqt0g8SrJWWLGE6iCRH9CQLQK4fgjLJHr6RrTKnR1XDWT4R-xdBzvz-Mc7meK10jgve736EVrq4FJSWadYmKHZIXi632w4LyDQEXoydCyWOtoCZQx8qzhDJYl3E1Tci3qrlbPxduwiBbDeRKs-s2vmJRN3785Jr5igXQ",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-01T20:40:17.612630+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump: Jeśli Demokraci dostaną się do parlamentu, będzie rok 1929.",
+      "text_pl": "Trump: Jeśli Demokraci dostaną się do parlamentu, będzie rok 1929.",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "6c86d9039b6c8846": {
+      "id": "6c86d9039b6c8846",
+      "timestamp": "2026-10-01T20:33:05+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump: If I ran today, I would win by 25 percent.",
+      "text": "Trump: If I ran today, I would win by 25 percent.",
+      "location_name": "Inne",
+      "lat": 48.198,
+      "lon": 35.1398,
+      "url": "https://t.me/ClashReport/99317",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99317"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/msczVNeG17HeBKS14axxLH7cT1IvzNb7Gn7fNE0LwD-51uBKNDsKjsbpcWRf1RRupKLI7mvoAcqCAjSyCI-2CtTrF2_ZbbgHO_xjZeQyknEys2zrcWXXk9oLbQ6jwdfobQpN8cTsg0obNTrR9OETg-PRPEBnwzd-JfQZQSs9LBYCxsQ_mkpVq0Vs4bW8ozzZ2CgSHXZHRYwubwakMRyS9DkkzZkLnagrwvhthE7Ja3DDMj3Qk4W7L6ty5mjOuVSJiXPqfilM7s-u8gfJQX7b89B6RlSNrffGs5Ri8sqFvpKcHvd6MUtb8e33FLec-OD04ZKw2qMnfHBbff7QI3M_TQ"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/6a41c76ea5.mp4?token=scehEJ1gt1WqOWTmvHT8E7uAILnKCOgFY_G2DebkjJAWvueIxeXVcpTZcFLijRlnc5uqy4odS4rjPQT0hTXT3suCCjXKtIQDx320GX-k6tq8Xcw6HSITvo7om-I0XplAAWjDX9qLBWvBUEOtT-4DeZ0CmTFemHGctlmbRe3jrIyrUvx7h7LALNmuNJZhoUHqFdytY6u3qezmK3qcbbe4Rv44rTr-MXUNHZjHuFEdbQWi8V0NpcdrNT3I31M0faAWZyTYoNH_5OIoWgoPvMW7CZckLTHWTN0Jf-bfRoJg9HSG5bXNt9hyuOMM4xpdU2TMeRUetlPyhz6BkqLcQc4NwQ",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-01T20:40:17.612632+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump: Gdybym dzisiaj pobiegł, wygrałbym 25 procentami",
+      "text_pl": "Trump: Gdybym dzisiaj pobiegł, wygrałbym 25 procentami",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "fb119785f380c1c2": {
+      "id": "fb119785f380c1c2",
+      "timestamp": "2026-10-01T20:31:46+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump: Obama used to go in, and if there was a leak, they would say, &quot;You have 15 minutes, and if you don&#x27;t give us the ...",
+      "text": "Trump: Obama used to go in, and if there was a leak, they would say, &quot;You have 15 minutes, and if you don&#x27;t give us the information, you&#x27;re going to jail.&quot; I haven&#x27;t done that yet.",
+      "location_name": "Inne",
+      "lat": 47.9588,
+      "lon": 34.9862,
+      "url": "https://t.me/ClashReport/99316",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99316"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/fD8VSV1DRkNIuE9vl4pOeUcNfiqceAZ2cJvfUsVWsXAE_y-cv4JcVfSSsYaG-VkLpVooHPA7LLIFPyvVeqd6uUFXMx2rQUYNcS7z_iC6XVyHHnFNWPHNoCP6UeHeCukdtLsVPXoo6FEhoIc23gRmrQ_1kDoQZ5sxUqN2oaY41QysBKRP0E1ammVnDFu6zOEtIAib9mwosLML9sKpEVZzhGbFglK2BB3UPTXX88tzw4deVnVzvxDyQn-KUTw6Vs0cgvKNJbHoahS27aCzkQ36a4RXO5LTSC5GGT5cGcM47kaisEXJlmqnw64eOxKj0vSybXHKF79upwrXjmUaji-Mgw"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/2b9436e910.mp4?token=BniJBfDSbISv-ghK79wH7iJz7PlZApJQpg0qyQ-LMtzMXjxT-OlZ3Q3jh7EbOM0mx0UHLqPk1kuqzZ81g2IA4M5l6lLw7fUue81igCzNxBtVPFLNYKs21SGRMrEl6IS5cy9NM7Y8zm1F1kg10DaBGPXzd8wOtFKy-2Y20MRhdu4qQ37i4H9vBB5dy1BItIBRLqaKLdYyKgvmLu70wcPhUukG7NQWMAToMzFNd44FozCQI2nTspqV5V_RiF2POElvb0aXWZHog-ChcKvBjYyHs6ZdFlF0K_twGs--EK8Dn26QGR6Z_FhCAn_xm3DMOw0depsLfAkgGOIoQlqxaiB1ng",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-01T20:40:17.612634+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump: Obama zwykł przychodzić i jeśli był przeciek, mówili: „Masz 15 minut, a jeśli nie dasz nam…",
+      "text_pl": "Trump: Obama zwykł przychodzić i jeśli był przeciek, mówili: „Masz 15 minut, a jeśli nie przekażesz nam informacji, pójdziesz do więzienia”. Jeszcze tego nie zrobiłem.",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "fa610d202fed470d": {
+      "id": "fa610d202fed470d",
+      "timestamp": "2026-10-01T20:29:51+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump: There&#x27;s never been a job done like we&#x27;ve done, but we haven&#x27;t gotten the word out. We&#x27;ve done a bad public relati...",
+      "text": "Trump: There&#x27;s never been a job done like we&#x27;ve done, but we haven&#x27;t gotten the word out. We&#x27;ve done a bad public relations job, but a great management job, and that&#x27;s more important, right?",
+      "location_name": "Inne",
+      "lat": 48.168,
+      "lon": 35.1098,
+      "url": "https://t.me/ClashReport/99315",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99315"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/oZ2x6X-2JLiwbw7RPuK-57Njjl1VUkM5RUxHSmNrnL1xmbSeHlI66IhDYV6f4Vdfjfkn7dqpDblgXdtCN68JhSGL4_NhcLnlMO6wnvWQAKVgz1_h3vGSZxGqEzZNvEUBAL7dX8CxYkE9ynpEHV1OTqVgv5_ZSPhn2RT-YspHwkbN4ogeRsOgl4_yVuR0wpcziLxZoBVRR7f-gLMGmzv0yacjcev4Vm6JU_C2nyxoCNqs0LFRNM_43D7-QGuIk1nIXmoDmGC-damDg_l0z1mCnWmjo9G0JvXEb1VIMBhPo8cUjfgdyW2at4mzO7s-f1TawPrn85873CvuYNcwp1LHFw"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/ad33fbf3c8.mp4?token=OyF47rT1sBwBN6ZPWFNW-Rk6hRe_uHpHjinHTSa5LjcyRKIhakdympSZwrfx6LWff6I70kX5dUAF9eY5WBhKF4w1E_-s6jK3wKlAxK8ig_iKEhuGSB0uJVEHe4-mneHDdTYMlh-k0cdSHe0dSCslVOb-HLwZdoUz3UUTkTHpy7yU_6yOqMpeeYKOO7wigk0aynQBo56auPzjahgpj5zFo52pIBK6MwYVZQcl5wYlykY6IsXAovHXngL1iIgUrXaafK1SgIsX3OIAGtMhbW393HoFcJYbBxxn9903wTzoFX15MK1SgHBeMAqLq0ixnjU9duulKtZuAR07g4fSH8gf8A",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-01T20:40:17.612636+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump: Nigdy wcześniej nie wykonaliśmy takiej pracy jak my, ale nie rozgłosiliśmy o tym żadnej informacji. Zrobiliśmy zły kontakt ze społeczeństwem...",
+      "text_pl": "Trump: Nigdy wcześniej nie wykonaliśmy takiej pracy jak my, ale nie rozgłosiliśmy o tym żadnej informacji. Wykonaliśmy kiepską robotę w zakresie public relations, ale świetnie poradziliśmy sobie z zarządzaniem, a to jest ważniejsze, prawda?",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "fe72ae14007218d4": {
+      "id": "fe72ae14007218d4",
+      "timestamp": "2026-10-01T20:28:27+00:00",
+      "country": "Iran",
+      "flag": "🇮🇷",
+      "theater": "Bliski Wschód (Zatoka Perska)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Q: Was Iran involved in the RAF Fairford incident? Trump: It&#x27;s looking like that, yeah.",
+      "text": "Q: Was Iran involved in the RAF Fairford incident? Trump: It&#x27;s looking like that, yeah.",
+      "location_name": "Bliski Wschód (Zatoka Perska)",
+      "lat": 47.9708,
+      "lon": 34.8638,
+      "url": "https://t.me/ClashReport/99314",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99314"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/bWjwA2y6MjZEi1JKzJVwxEkvfgD55c1s3z3FbagHL6BgnThUpzdg9mJX41tS_oG4azl0tbT80mkIUISFbZ2t2OxTA4viidzEwUy4aUozjJvnLoEeCycLUdYq-2dYPvIHRtLeAkvI2lerqNy3lIUD2Rnri6ZOQdTMEG3d5P_TajxLNEj1jIamNZQQxhW-1vPfNSL5aMP5JRdiNwNB5rxo_bC3tpaNjxdLSBGx4aUnhXrLpAw1G9DnopFgsS_1mW4RyKiZJF2CPX0L1N6n22GHDedGcUoGIqWWg7-q81SZjDBo6jP3kUP2FO3zkkott06y1b1DH8RrTGcdUjjlkafLHw"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/c38d02b25b.mp4?token=pr4stW5a3Sb6-JjeVGQQParFtrPUnW1vCXMwIZCFWZ60fUUIgih2v4_jA4AciWON2uMzZFBdLqbYJmIakSN9GUlcseX2DSKYyk9qnIwQpYuDTH_fcOAB4QZySuZvQSTlTOzNndSLRf2P1FKR1WTaOVpObZN_wYKCqeAluHbGB4IRXqqa31Bjl29dG1pBJxa25cWzdopKDFb8okiT644yD3_nMrYSlUZUdIX2YewhM226qPcIZd9dgTujjgmsqpQsgmROrLDsyN86MnBjr49xgybuV-JNtG2QchrBK7rhMH0TnrmUx2XxOJ-yQdNwwqquw3o8VT0cq8ETFo_OvjPV1w",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-01T20:40:17.612638+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Pytanie: Czy Iran był zaangażowany w incydent RAF w Fairford? Trump: Tak to wygląda.",
+      "text_pl": "Pytanie: Czy Iran był zaangażowany w incydent RAF w Fairford? Trump: Tak to wygląda.",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "6eb5c705a879c3cc": {
+      "id": "6eb5c705a879c3cc",
+      "timestamp": "2026-10-01T20:27:03+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА курсом на Кременчук з півдня.",
+      "text": "🏍 Реактивний БпЛА курсом на Кременчук з півдня.",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.1696,
+      "lon": 34.76,
+      "url": "https://t.me/kpszsu/82192",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82192"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-01T20:40:17.612411+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Jet BpLA zmierza w stronę Krzemieńczuka od południa.",
+      "text_pl": "🏍 Jet BpLA zmierza w stronę Krzemieńczuka od południa.",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "84764ed3d5e8ef79": {
+      "id": "84764ed3d5e8ef79",
+      "timestamp": "2026-10-01T20:26:27+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump: We have the best numbers of any president in history. We don&#x27;t get a fair shake from the media. They don&#x27;t report...",
+      "text": "Trump: We have the best numbers of any president in history. We don&#x27;t get a fair shake from the media. They don&#x27;t report the numbers.",
+      "location_name": "Inne",
+      "lat": 47.8984,
+      "lon": 34.9688,
+      "url": "https://t.me/ClashReport/99313",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99313"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/mZ0JM2lXOB8bWiYdKeebcc_lVvvg8a8unWoGT1vwc-2RF-BOPMRmVdJANeYfx9NBzjT6waexFp3ntStJUenAfdW6retpWR881YrUtFMdVtdtSJXXq-aC6GloryQ00M74IoIr2kQbnMGIU0QYyAGYOl8AvmuZh6Bo__O4pxYcOjHT7EYq7iNh8cDFgAKdgsGFwv4u_xsaGyGGx2kMpBvRWl9dma_Ohb14i5iwo5egKImXw1G542nkfZTOMoVN4XD_lzVkUm5uJBTYbWFPStr54OcVqBF-Y3IP8lA01-CkWp4DmlNZ_QDDu-wA6qSwLSnskx8UNl7ndrU-q-BKO7Plcg"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/1e8da92a3c.mp4?token=uJ0FWseg-vPcD2MOVDBi0uC6yJbCKo8sIb3CkvRpjhbmGqu2vt9IfUL-Ae7s4LLeP3eOmry_6cYcX9BLWbwKRxPSwZlZuNSXuOtssgmz5amaL_j1O4j3C3-We9_ZGMCaM9uR0cx_IajzT2sglel9wbTfcc9bYZaa0sbycCzdjCgbrEg0Qdcub8VDYkZc-eFtTnyDeMfVqk0358MU0r_s9K4w-B6OgwSAhql-wEA8KznubKM7vSpdCdXkyTNJ2DFFASKVs2AAbAwPUP5NdTwK52pV8sM5PxNRSG_csT8_1VZGYEwPuDrs4DOOhHwFHZJxVylZN0WpkCjjMS3rss48_A",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-01T20:40:17.612640+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump: Mamy najlepsze liczby spośród wszystkich prezydentów w historii. Nie mamy sprawiedliwego wstrząsu ze strony mediów. Nie zgłaszają...",
+      "text_pl": "Trump: Mamy najlepsze liczby spośród wszystkich prezydentów w historii. Nie mamy sprawiedliwego wstrząsu ze strony mediów. Nie podają liczb.",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "a222c8abec7852ee": {
+      "id": "a222c8abec7852ee",
+      "timestamp": "2026-10-01T20:18:31+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "JD Vance: If you look at the way the Biden administration discriminated against people in job applications, college appl...",
+      "text": "JD Vance: If you look at the way the Biden administration discriminated against people in job applications, college applications, the way that we just allowed explicitly racist discrimination against our laws to become part of the normal practice of our government, of our admissions policies, of our private corporations, it’s kind of insane that we didn’t have, like, a revolution in this country. We explicitly discriminated against people.",
+      "location_name": "Inne",
+      "lat": 48.0472,
+      "lon": 34.7936,
+      "url": "https://t.me/ClashReport/99311",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99311"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/eq9Rxt43Ij3IObvVqGIU0aD9RiCZcBiUnvr_O2GuoAzS01xbFC_SY3BgMzrMg2cNucNMfn5GlTsEAWGOX7xV5cQ7tk7ZQ_I8I_X3cyT2GGdQLjECO_AkkcIvt0sli0nflIySRu2ilFDKDCKohgsU6K2x9uyYdImYKZjb-czg4GywSW08pA7WyNOPSrmMtATkAcZek4_NGlq_U1rdHXwWq_UoKtp--I9nqec-JMVUPwlTexzBvSHtxrXfSz8l63rfdQfVDtyR1ja6_tEBZNeTdGJ0HOY_Od9WrnklfoACuP1aEm-wEnYkk_q4Kow8V6qklESHx3Vj_ATnDYqtcuTEQA"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/e8cc2ec849.mp4?token=im_REEm1Qpywv_zOwuuIFmaohi6m39WT3AH0euUCHEbOvvCZ961W5Y6oxjgFz15VYluCA0A13Zk-Rt3He6KTCxKRbz5uznM53-iHIGUxAVW7J789y-9TkqrqRX9ESsI3645-wGo4b6lTAERDcFofpbraAr4VRm-FSTULhBlizY2uxZODcU_EfgShHvw-tjbY0Ay3r1KwGuVt4_nUS4tLF_vdFA65MxGCHqgIS3wHKV0JYxosYoHCvtJ9GldGQs1pXhsI5PpvVpD0LuOUDu8FOg2N39-NXuZmiL2dnxfruuaaJkELG8eBF6LCrAN3FlWLpYqGJqm3-5GYIMSpenTPQJgWNo2zGOMgdIRCgOa8rSF6wNkWlpdBbj7OOOeZnWOb-SW8gnDu4wL5_UPJST4RuahjN_cWlRt0A-P8YtpxAVPxe0yPZ5y0K4eCTJWUGxUaPNM7TJrzonaGlQ6G99489kG1nUcnPWsYcq4qYLDbI82jfVzrgLu5qDbGkD8s-JktEYPJx4dtm6kNHp1GIE5Se9du0xOnfsFZY0fEmT937I9a4iMQeQmcl2XRRibGchqv_R7FjJ9xGWNEQUUNUy9jPdHmJ0StaQ8N97ZezyoAM3KNRcuAiq8vnuIAyHtPHQazzWQ2xU27l1-pNwrftJ4UgdnHWL1E2py59AsxqOVjS-M",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-01T20:40:17.612643+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "JD Vance: Jeśli spojrzysz na sposób, w jaki administracja Bidena dyskryminowała osoby ubiegające się o pracę, ubiegające się o przyjęcie na studia…",
+      "text_pl": "JD Vance: Jeśli spojrzysz na sposób, w jaki administracja Bidena dyskryminowała ludzi w podaniach o pracę, podaniach na studia, na sposób, w jaki właśnie pozwoliliśmy, aby wyraźna rasistowska dyskryminacja naszych przepisów stała się częścią normalnej praktyki naszego rządu, naszych zasad przyjmowania na studia i naszych prywatnych korporacji, to trochę szalone, że nie mieliśmy czegoś w rodzaju rewolucji w tym kraju. Wyraźnie dyskryminowaliśmy ludzi.",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "cd3875bad2144a67": {
+      "id": "cd3875bad2144a67",
+      "timestamp": "2026-10-01T20:16:49+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА через Бровари курсом на Київ!",
+      "text": "🏍 Реактивний БпЛА через Бровари курсом на Київ!",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/kpszsu/82190",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82190"
+        },
+        {
+          "name": "#war_monitor",
+          "url": "https://t.me/war_monitor/47150"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-01T20:40:17.612414+00:00",
+      "verified_by_sources": [
+        "rybar",
+        "kpszsu",
+        "shot_shot"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🏍 Odrzutowy UAV przez Browary w kierunku Kijowa!",
+      "text_pl": "🏍 Odrzutowy UAV przez Browary w kierunku Kijowa!",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "8711dfc745bc2cfa": {
+      "id": "8711dfc745bc2cfa",
+      "timestamp": "2026-10-01T20:16:11+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА курсом на Бровари з півночі.",
+      "text": "🏍 Реактивний БпЛА курсом на Бровари з півночі.",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.1196,
+      "lon": 34.7702,
+      "url": "https://t.me/kpszsu/82189",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82189"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-01T20:40:17.612417+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy UAV skierował się od północy w stronę Browarów.",
+      "text_pl": "🏍 Odrzutowy UAV skierował się od północy w stronę Browarów.",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "863ad8be60eefae5": {
+      "id": "863ad8be60eefae5",
+      "timestamp": "2026-10-01T20:12:27+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🛵 Полтавщина: БпЛА курсом на Глобине з півдня.",
+      "text": "🛵 Полтавщина: БпЛА курсом на Глобине з півдня.",
+      "location_name": "Połtawa",
+      "lat": 49.5883,
+      "lon": 34.5514,
+      "url": "https://t.me/kpszsu/82188",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82188"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-01T20:40:17.612419+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🛵 Region Połtawy: BpLA zmierza od południa do Globyny.",
+      "text_pl": "🛵 Region Połtawy: BpLA zmierza od południa do Globyny.",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "5dca0b7136be0c1c": {
+      "id": "5dca0b7136be0c1c",
+      "timestamp": "2026-10-01T20:10:57+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА курсом на Бровари з півночі.",
+      "text": "🏍 Реактивний БпЛА курсом на Бровари з півночі.",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.8188,
+      "lon": 34.8422,
+      "url": "https://t.me/kpszsu/82187",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82187"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-01T20:40:17.612422+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy UAV skierował się od północy w stronę Browarów.",
+      "text_pl": "🏍 Odrzutowy UAV skierował się od północy w stronę Browarów.",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "b07aaeff7a45e143": {
+      "id": "b07aaeff7a45e143",
+      "timestamp": "2026-10-01T20:09:57+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Starcie Lądowe",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "📝 Главное от Рыбаря 📝 дайджест материалов за 1 октября Обсудили, насколько оправданно рекордное повышение военных расход...",
+      "text": "📝 Главное от Рыбаря 📝 дайджест материалов за 1 октября Обсудили, насколько оправданно рекордное повышение военных расходов (и как это связано с наличием стратегии), а также о том, что значит для врага потеря « социального капитала ». ❗️ Подробнее об этих и других темах читайте в нашем дайджесте. ➡️ Рыбарь @rybar — говорим о сложном просто. Основной ресурс нашего аналитического центра. Самые важные и интересные материалы. ▪ Хроника СВО , почему средства надо тратить системно , удар по мосту в Киеве, задержание эстонского судна, ликвидация украинского офицера, эффект кампании ударов по экономике т.н. Украины ▪ Выступление Владимира Путина на Валдае ▪ Рыбарь поясняет: кто будет преемником Трампа ▪ Поздравление ко Дню Сухопутных войск ▪ Русское Вечное: Александр Радищев ▪ F-16 уходят на ремонт ▪ Украинцы требуют мира ▪ Запрос на русский визуальный код ➡️ АЗИАТАРЬ @rybar_Pacific В Южно-Китайском море — очередная стычка между китайцами и филиппинцами. Северокорейцы расширяют производство беспилотников. А в Индонезии меняются члены правительства. ➡️ АМЕРИКАРЬ @rybar_america Илон Маск поможет Пентагону в разработке новых видов оружия, США формируют в НАТО закрытый клуб, а демократы ещё дальше отрываются от республиканцев. ➡️ АФРИКАРЬ @rybar_Africa На севере Эфиопии тиграйские силы и «Фано» перешли в наступление, вынудив Эритрею вмешаться, что привело к разрыву дипломатических отношений. Армия теряет контроль над регионом, но удерживает превосходство в воздухе. ➡️ БАЛКАНАРЬ @balkanar Александр Вучич озвучил цифры, потраченные на западные медиакампании против власти в Сербии, а местные силовики задержали подозреваемых в шпионаже в пользу Албании. ➡️ ЕВРОПАРЬ @evropar В Германии увеличивается число банкротств. В Швеции уже выбирают цели на территории России. Ну а в Британии без изменений: там создали очередной список неугодных граждан. ➡️ КАВКАЗАРЬ @caucasar Турецко-азербайджанский тандем заключил очередную партию военных контрактов на $500 млн, в Турции ждут запуска АЭС «Акку",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/rybar/83644",
+      "tactical_sources": [
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/83644"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/83629"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/83627"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/83643"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/83630"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/83633"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/83637"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/83639"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/83620"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/83621"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/83625"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/83626"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/83635"
+        },
+        {
+          "name": "#rybar_pacific",
+          "url": "https://t.me/rybar_Pacific"
+        },
+        {
+          "name": "#rybar_pacific",
+          "url": "https://t.me/rybar_pacific/3349"
+        },
+        {
+          "name": "#rybar_pacific",
+          "url": "https://t.me/rybar_pacific/3352"
+        },
+        {
+          "name": "#rybar_pacific",
+          "url": "https://t.me/rybar_pacific/3357"
+        },
+        {
+          "name": "#rybar_america",
+          "url": "https://t.me/rybar_america"
+        },
+        {
+          "name": "#rybar_america",
+          "url": "https://t.me/rybar_america/2431"
+        },
+        {
+          "name": "#rybar_america",
+          "url": "https://t.me/rybar_america/2432"
+        },
+        {
+          "name": "#rybar_america",
+          "url": "https://t.me/rybar_america/2436"
+        },
+        {
+          "name": "#rybar_africa",
+          "url": "https://t.me/rybar_Africa"
+        },
+        {
+          "name": "#rybar_africa",
+          "url": "https://t.me/rybar_africa/5466"
+        },
+        {
+          "name": "#rybar_africa",
+          "url": "https://t.me/rybar_africa/5467"
+        },
+        {
+          "name": "#balkanar",
+          "url": "https://t.me/balkanar"
+        },
+        {
+          "name": "#balkanar",
+          "url": "https://t.me/balkanar/2870"
+        },
+        {
+          "name": "#balkanar",
+          "url": "https://t.me/balkanar/2872"
+        },
+        {
+          "name": "#evropar",
+          "url": "https://t.me/evropar"
+        },
+        {
+          "name": "#evropar",
+          "url": "https://t.me/evropar/3012"
+        },
+        {
+          "name": "#evropar",
+          "url": "https://t.me/evropar/3009"
+        },
+        {
+          "name": "#evropar",
+          "url": "https://t.me/evropar/3008"
+        },
+        {
+          "name": "#caucasar",
+          "url": "https://t.me/caucasar"
+        },
+        {
+          "name": "#caucasar",
+          "url": "https://t.me/caucasar/2482"
+        },
+        {
+          "name": "#caucasar",
+          "url": "https://t.me/caucasar/2484"
+        },
+        {
+          "name": "#rybar_mena",
+          "url": "https://t.me/rybar_mena"
+        },
+        {
+          "name": "#rybar_mena",
+          "url": "https://t.me/rybar_mena/6923"
+        },
+        {
+          "name": "#rybar_mena",
+          "url": "https://t.me/rybar_mena/6924"
+        },
+        {
+          "name": "#rybar_stan",
+          "url": "https://t.me/rybar_stan"
+        },
+        {
+          "name": "#rybar_stan",
+          "url": "https://t.me/rybar_stan/2604"
+        },
+        {
+          "name": "#rybar_stan",
+          "url": "https://t.me/rybar_stan/2605"
+        },
+        {
+          "name": "#addlist",
+          "url": "https://t.me/addlist/kONcGnoFQxU1NmQy"
+        },
+        {
+          "name": "#rybar_in_english",
+          "url": "https://t.me/rybar_in_english"
+        },
+        {
+          "name": "max.ru",
+          "url": "https://max.ru/Rybar"
+        },
+        {
+          "name": "qr.nspk.ru",
+          "url": "https://qr.nspk.ru/BS1A0068ID10D33B9IBAQRQ4M9T0NIFN?type=01&amp;bank=100000000008&amp;crc=36CB"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Myśliwiec Bojowy"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "rybar",
+      "added_at": "2026-10-01T20:40:17.612605+00:00",
+      "verified_by_sources": [
+        "rybar",
+        "kpszsu",
+        "shot_shot"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "📝 Najważniejsze z Rybara 📝 zestawienie materiałów z 1 października Omówiliśmy, jak uzasadniono rekordowy wzrost wydatków na wojsko...",
+      "text_pl": "📝 Najważniejsze z Rybara 📝 podsumowania materiałów z 1 października Rozmawialiśmy o tym, jak uzasadnione jest rekordowe zwiększenie wydatków na wojsko (i jak to się ma do obecności strategii), a także co oznacza dla wroga utrata „kapitału społecznego”. ❗️Więcej na te i inne tematy przeczytasz w naszym podsumowaniu. ➡️ Rybak @rybar - o skomplikowanych rzeczach mówimy po prostu. Główny zasób naszego centrum analitycznego. Najważniejsze i najciekawsze materiały. ▪ Kronika Północnego Okręgu Wojskowego, dlaczego środki muszą być systematycznie wydawane, atak na most w Kijowie, zatrzymanie estońskiego statku, likwidacja ukraińskiego oficera, efekt kampanii ataków na tzw. gospodarkę. Ukraina ▪ Przemówienie Władimira Putina w Wałdaj ▪ Rybar wyjaśnia: kto będzie następcą Trumpa ▪ Gratulacje z okazji Dnia Wojsk Lądowych ▪ Rosyjski Wieczny: Aleksander Radiszczow ▪ F-16 jadą do naprawy ▪ Ukraińcy żądają pokoju ▪ Prośba o rosyjski kod wizualny ➡️ AZJATYCZNY @rybar_Pacific Na Morzu Południowochińskim toczy się kolejne starcie Chińczyków z Chińczykami Filipiny. Korea Północna zwiększa produkcję dronów. A w Indonezji zmieniają się członkowie rządu. ➡️ AMERYKAŃSKI @rybar_america Elon Musk pomoże Pentagonowi opracować nowe rodzaje broni, Stany Zjednoczone tworzą zamknięty klub w NATO, a Demokraci jeszcze bardziej odrywają się od Republikanów. ➡️ AFRYKA @rybar_Africa W północnej Etiopii siły Tigrayan i Fano przeszły do ​​ofensywy, zmuszając Erytreę do interwencji, co doprowadziło do zerwania stosunków dyplomatycznych. Armia traci kontrolę nad regionem, ale utrzymuje przewagę powietrzną. ➡️ BAŁKANARY @balkanar Aleksandar Vucic ogłosił kwoty wydane na kampanie zachodnich mediów przeciwko władzom w Serbii, a lokalne siły bezpieczeństwa zatrzymały podejrzanych o szpiegostwo na rzecz Albanii. ➡️ EUROPAR @evropar W Niemczech rośnie liczba upadłości. W Szwecji już wybierają cele w Rosji. Cóż, w Wielkiej Brytanii zmian nie ma: utworzono kolejną listę niechcianych obywateli. ➡️ CAUCASAR @caucasar Tandem turecko-azerbejdżański zawarł kolejną partię kontraktów wojskowych o wartości 500 mln dolarów, Turcja czeka na uruchomienie elektrowni jądrowej Akku",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "716b0d6c7d4f76a3": {
+      "id": "716b0d6c7d4f76a3",
+      "timestamp": "2026-10-01T20:08:05+00:00",
+      "country": "Iran",
+      "flag": "🇮🇷",
+      "theater": "Bliski Wschód (Zatoka Perska)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "UKMTO received a report of a tanker struck by an unknown projectile while transiting the Strait of Hormuz, causing a fir...",
+      "text": "UKMTO received a report of a tanker struck by an unknown projectile while transiting the Strait of Hormuz, causing a fire.",
+      "location_name": "Bliski Wschód (Zatoka Perska)",
+      "lat": 48.0524,
+      "lon": 34.8836,
+      "url": "https://t.me/ClashReport/99308",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99308"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": true,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-01T20:40:17.612645+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "UKMTO otrzymało zgłoszenie o trafieniu tankowca nieznanym pociskiem podczas tranzytu przez Cieśninę Ormuz, co spowodowało pożar...",
+      "text_pl": "UKMTO otrzymało zgłoszenie o trafieniu tankowca nieznanym pociskiem podczas tranzytu przez Cieśninę Ormuz, co spowodowało pożar.",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "7f21ac87c9ddbe22": {
+      "id": "7f21ac87c9ddbe22",
+      "timestamp": "2026-10-01T19:35:00+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🛵 БпЛА на Суми з півночі.",
+      "text": "🛵 БпЛА на Суми з півночі.",
+      "location_name": "Sumy",
+      "lat": 50.9077,
+      "lon": 34.7981,
+      "url": "https://t.me/kpszsu/82186",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82186"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-01T20:40:17.612425+00:00",
+      "verified_by_sources": [
+        "kpszsu",
+        "DeepStateUA"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🛵BpLA do Sum od północy.",
+      "text_pl": "🛵BpLA do Sum od północy.",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "1faa58f44e1c8e5b": {
+      "id": "1faa58f44e1c8e5b",
+      "timestamp": "2026-10-01T19:26:19+00:00",
+      "country": "Jemen",
+      "flag": "🇾🇪",
+      "theater": "Jemen i Morze Czerwone",
+      "event_type": "Komunikat / Dyplomacja",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Yemeni government forces: We carried out 15 raids on Houthi sites and reinforcements in the province of Taiz https://yem...",
+      "text": "Yemeni government forces: We carried out 15 raids on Houthi sites and reinforcements in the province of Taiz https://yemen.liveuamap.com/en/2026/1-october-18-yemeni-government-forces-we-carried-out-15-raids",
+      "location_name": "Taiz, Jemen",
+      "lat": 13.5779,
+      "lon": 44.0197,
+      "url": "https://t.me/liveuamap/12360",
+      "tactical_sources": [
+        {
+          "name": "#liveuamap",
+          "url": "https://t.me/liveuamap/12360"
+        },
+        {
+          "name": "Liveuamap",
+          "url": "https://yemen.liveuamap.com/en/2026/1-october-18-yemeni-government-forces-we-carried-out-15-raids"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "liveuamap",
+      "added_at": "2026-10-01T20:40:17.612733+00:00",
+      "verified_by_sources": [
+        "liveuamap"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Jemeńskie siły rządowe: Przeprowadziliśmy 15 nalotów na obiekty Houthi i wzmocniliśmy siły w prowincji Taiz https://yem...",
+      "text_pl": "Jemeńskie siły rządowe: Przeprowadziliśmy 15 nalotów na obiekty Houthi i posiłki w prowincji Taiz",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "99195e984a666e32": {
+      "id": "99195e984a666e32",
+      "timestamp": "2026-10-01T19:08:34+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Działania Morskie",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Q: You have a great relationship with Poland. What about the base in Poland? Trump: Well, we&#x27;re looking at that, and we ...",
+      "text": "Q: You have a great relationship with Poland. What about the base in Poland? Trump: Well, we&#x27;re looking at that, and we have great respect for the president of Poland. So, we&#x27;re looking at that, and it could happen.",
+      "location_name": "Inne",
+      "lat": 48.0376,
+      "lon": 35.213,
+      "url": "https://t.me/ClashReport/99306",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99306"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/RpqCT3_5oq1FwNkgK30K00rNUdFnLo-1ALVf8Rk3Rq-DYN3KA72GPo3qIXY_MTMeDN3QKqKUUluVjYxqNh59A-CyIs0vnVtqAbcmiHGZagCAAzDF9j0aT_qMnLbUvoIdWgpjrVsB_w4DEHc4lNIBIcMzkenKnPaMmJiGxqlNbMmXdRrVs_HskPs8H-WxXEMchjiA8eBZCf8ysGh1SFYYfwxzT-ZVVbbDswyDqW2pCnWjoSowC-ENrHcsTpR9xMJ7wptZ4X2nidrGUPijuo7d_0g6rjT40yn8JFY9w45R68nJ3g-R65aEy0Nm84TVkfakHuZrl1BCALnVUC5iFpVdUQ"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/8d96f5a300.mp4?token=XCUfX4BLgtCG0ed3bNnGDWI40PWdFq3F5bPQCorKF_d49QOjPOsXDgChPEO7pIytEjUAhpVoctOFs1WHv5oF59Vj5AbJkVVex5iXSA224OkoFawFynzAuy8f-7_2bh2hg5viruNEE-rI13MCanOfN1YcQ-ev9ATkZH6fAPBLDq8wEn1csB6kv3m8uUt1Th0fj-zt80GVQFzjJs43N8WJE81xo1vJ81jkqWmRZgvxKL4RDOJVQePXRRuyA9XqhZr5d5fJ3-J4Q1yd4-pIGGp0lqOZi0mm8jh1yfRc6bpUb0SUPA4itPsUkcQCxLtA90PgsJxTgjB66HrkoT8tkSv77Q",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-01T20:40:17.612647+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "P: Masz świetne relacje z Polską. A co z bazą w Polsce? Trump: Cóż, przyglądamy się temu i…",
+      "text_pl": "P: Masz świetne relacje z Polską. A co z bazą w Polsce? Trump: Cóż, przyglądamy się temu i mamy ogromny szacunek do Prezydenta Polski. Przyglądamy się temu i stwierdzamy, że może się to zdarzyć.",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "d88eb149abbe1be9": {
+      "id": "d88eb149abbe1be9",
+      "timestamp": "2026-10-01T19:05:41+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Komunikat / Dyplomacja",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Since returning to office, Trump has become increasingly fascinated by AI and close to tech executives courting him. In ...",
+      "text": "Since returning to office, Trump has become increasingly fascinated by AI and close to tech executives courting him. In December 2025, he reportedly spent hours questioning Elon Musk’s Grok chatbot about his presidency and Venezuela, including how Venezuelans might react if the U.S. captured Maduro. After Maduro was seized the following month and celebrations followed, officials said Trump came away convinced Grok was “ingenious.” Source: TIME",
+      "location_name": "Inne",
+      "lat": 47.9792,
+      "lon": 34.937,
+      "url": "https://t.me/ClashReport/99305",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99305"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/sU3ITeS_WrxJNIoVOZKOdmJdYrHUOQAoUDI0mTC5K8U_3g4UT3A3JctYoTSn8rRwHV49xIGA-51RfLsUGkE5zkr6DXzI0W13ERGMPVRwu81SghFNWeRdlNI9C1P2_b0qBC5gZOUib9lVbCdFtdGtUYVTvm_hEyoHAqcHodE-hVVJZoFv2VJ4TCwdCdt2YDAVkWgXZ4OMEzZLczD8OYx028o2umMDMYRiRAJeyC2HYHOcOgt85kGnhGR2IQOWk0BLt6XmQ6Hjb-gMhl8HperJ63F2NDZpzYq3qQ-PUCl30jRzdsfSy_QRcu4xWy7mpkjqpmbPMBlF6rkJsBlWw1r3ug.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-01T20:40:17.612649+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Od czasu powrotu na urząd Trumpa coraz bardziej fascynuje sztuczna inteligencja i jest blisko zabiegających o niego dyrektorów technologicznych. W ...",
+      "text_pl": "Od czasu powrotu na urząd Trumpa coraz bardziej fascynuje sztuczna inteligencja i jest blisko zabiegających o niego dyrektorów technologicznych. Podobno w grudniu 2025 r. godzinami przesłuchiwał chatbota Elona Muska Groka na temat jego prezydentury i Wenezueli, w tym reakcji Wenezuelczyków, gdyby Stany Zjednoczone schwytały Maduro. Po schwytaniu Maduro w następnym miesiącu i po uroczystościach urzędnicy powiedzieli, że Trump wyszedł przekonany, że Grok jest „genialny”. Źródło: CZAS",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "3c8e85eb538e484f": {
+      "id": "3c8e85eb538e484f",
+      "timestamp": "2026-10-01T19:03:53+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Телеграм-каналы сообщают о гибели троих военных в результате падения вертолета Ми-8 в Воронежской области Официального п...",
+      "text": "Телеграм-каналы сообщают о гибели троих военных в результате падения вертолета Ми-8 в Воронежской области Официального подтверждения нет.",
+      "location_name": "Woroneż, Rosja",
+      "lat": 51.6608,
+      "lon": 39.2003,
+      "url": "https://t.me/astrapress/126880",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/126880"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/aht0Pgo8-1vbm0R_gdrfXKiBpcvyD_AbOePHkkZP_UHnEUPMehayEpKBh-J1w_FMPV1jVQ52X0Yem-PKn9aBb2TxNBpRh3XtVP0VC-2QPXEBJziHmkdW-MEy8j5rnz5iH6Ch_HJ-Ky39eWMiLttQk7ouYTt4fqicfswvgAFjSR-WOgImQ0XxFA_ofLjBf_Tu5dwWkgfviFv3LbClJM4i9HNGoeSr15Yp3kuZyLakGE8RROF8uME_7nnpSpXmBWASL130nbBVaz80QZmQq9p-hQWnvkJB7Nsjs0Orn5B7sTIYT5xOYajaUQo67ER3cgC72B1sTucNE259OVh-BrUN5g.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Śmigłowiec Wojskowy"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "astrapress",
+      "added_at": "2026-10-01T20:40:17.612513+00:00",
+      "verified_by_sources": [
+        "clashreport",
+        "astrapress"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "Kanały telegramowe informują o śmierci trzech żołnierzy w wyniku katastrofy śmigłowca Mi-8 w obwodzie woroneskim Oficjalnego...",
+      "text_pl": "Kanały telegramów informują o śmierci trzech żołnierzy w wyniku katastrofy helikoptera Mi-8 w obwodzie Woroneża. Nie ma oficjalnego potwierdzenia.",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "1c44bcf29f362df0": {
+      "id": "1c44bcf29f362df0",
+      "timestamp": "2026-10-01T19:03:32+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Starcie Lądowe / Szturm",
+      "tactical_icon": "⚔️",
+      "title": "Ukraine&#x27;s 3rd Assault Brigade drone pilots raided Russian positions near Nove, Donetsk region, destroying enemy personne...",
+      "text": "Ukraine&#x27;s 3rd Assault Brigade drone pilots raided Russian positions near Nove, Donetsk region, destroying enemy personnel, hidden heavy and light drones, artillery pieces, and other equipment. Part of the ongoing &quot;Operation Vivaldi&quot;. Posted October 1, 2026",
+      "location_name": "Donieck",
+      "lat": 48.0159,
+      "lon": 37.8028,
+      "url": "https://redd.it/1wv6srj",
+      "tactical_sources": [
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://redd.it/1wv6srj"
+        },
+        {
+          "name": "Telegram (#r_combatfootage)",
+          "url": "https://t.me/r_combatfootage/42495"
+        },
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://t.me/r_combatfootage"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "r_combatfootage",
+      "added_at": "2026-10-01T20:40:17.612813+00:00",
+      "verified_by_sources": [
+        "r_combatfootage"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Piloci dronów ukraińskiej 3. Brygady Szturmowej dokonali nalotu na rosyjskie pozycje w pobliżu Nowego w obwodzie donieckim, niszcząc personel wroga…",
+      "text_pl": "Piloci dronów ukraińskiej 3. Brygady Szturmowej dokonali nalotu na rosyjskie pozycje w pobliżu Nowego w obwodzie donieckim, niszcząc personel wroga, ukryte ciężkie i lekkie drony, działa artyleryjskie i inny sprzęt. Część trwającej „Operacji Vivaldi”. Opublikowano 1 października 2026 r",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "f4e7228309298df9": {
+      "id": "f4e7228309298df9",
+      "timestamp": "2026-10-01T19:02:45+00:00",
+      "country": "Iran",
+      "flag": "🇮🇷",
+      "theater": "Bliski Wschód (Zatoka Perska)",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "NEW: Trump has told aides he expects to resume bombing Iran in November, after the midterm elections. Source: WSJ",
+      "text": "NEW: Trump has told aides he expects to resume bombing Iran in November, after the midterm elections. Source: WSJ",
+      "location_name": "Bliski Wschód (Zatoka Perska)",
+      "lat": 48.1096,
+      "lon": 35.0684,
+      "url": "https://t.me/ClashReport/99304",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99304"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/gftCVuaO57AEp421K00GlmbYWN6liM3jTeC4PnfQxhcvqGt27wYLdlk8vSjsV8mv7kX38e_LoewCIz5etjl8bouX1OrypHOQtJFpY0SaOy0oUGb2U988WEI1-mWR4ShJj-z2VfqT9y_n4DquylKMRH1da3-hKVORwl6mgbWQPu1FRnzQPkYFybomqdqqHNOospHqdrUePDp8fy78iHeoaIi-Thlfr5rOJ_XJ_yuXSAZiF7kI7dcXkxa5xyOKbc7g87bb25VS03uX5TloYFIHXLRWWvc_L2KSU6BRj9o073XaRSqgI6fWQ8WpSdDHLbWbwd3RIHNglJn9Ikmn8jSf3A.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-01T20:40:17.612650+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "NOWOŚĆ: Trump powiedział doradcom, że spodziewa się wznowić bombardowania Iranu w listopadzie, po wyborach śródokresowych. źródło: WSJ",
+      "text_pl": "NOWOŚĆ: Trump powiedział doradcom, że spodziewa się wznowić bombardowania Iranu w listopadzie, po wyborach śródokresowych. źródło: WSJ",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "97a9f12a6834ff95": {
+      "id": "97a9f12a6834ff95",
+      "timestamp": "2026-10-01T18:59:42+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Putin: Anyone can make mistakes, but persisting in one’s mistakes, that is what an idiot can do only. If you see there’s...",
+      "text": "Putin: Anyone can make mistakes, but persisting in one’s mistakes, that is what an idiot can do only. If you see there’s a mistake, you should change your approach.",
+      "location_name": "Inne",
+      "lat": 47.9692,
+      "lon": 35.1464,
+      "url": "https://t.me/ClashReport/99303",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99303"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/HFFx-J3VZTn34iOcNdiTytvCR19_xTfmFVnwZXz6Pi5HGe6Riu4HQWp1zT1xYK8_7B9SJ3RZjstK3XSiCFn4urWQsb42bsfUU-wJHj7xebY2pHszjAiRdkiIAPjzIz9vHaZvMKdm7qObK6F1fIPbmaW7ZD_psKxfhCLZS4a-AVE6NOFYu2vkRrvT6pYfwjN212D-sbnRaKRf3AArccLo0C6JqDx_2pxu2f874Z48Jfx5jpveQ4JiOxZpaMHWGZ0rIjhHMNkx1MknLhxRK7LfIsACcSVHvqAHo83rm9BD8thCoEkhwkqxrZ0a3DSputWxI5ERfgfz-3Rj7nuzuvVwqg"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/069f56d577.mp4?token=WP_TrV5u0s-rcd38YNemuwcbn7tFNA3WBAj1w32q9uUt__89VK_fbBeQwaV4JehqzQ7mhIpfHS1Eh6SAOE6TXuWihuB9hN4fjNdY9xl2h13LWEimta4Og2Oj187UwEhyY_UtTLUpRcMDR-6tEq4yyRsWOrp6EcMmsyJk8xTcJiV1f0HyxmxuNtwlRC8Vnd7uCqIvNZiw17W1-4z9Lg5gas5Z6yr68xk-mMD6oodQI3s8EBRo2twLUUCaMxpxXJ88b1glsTMYmZS2cxrgu3WlrtN02rfjWj-790pupVmLvwgvydLw7EeVRwbR-wXpnyoGme7hCpoUJmkZ57td-8q99Q",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-01T20:40:17.612652+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Putin: Każdy może popełniać błędy, ale trwać przy swoich błędach – to jest to, co może zrobić tylko idiota. Jeśli widzisz, że jest...",
+      "text_pl": "Putin: Każdy może popełniać błędy, ale trwać przy swoich błędach – to jest to, co może zrobić tylko idiota. Jeśli widzisz, że jest błąd, powinieneś zmienić swoje podejście.",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "64765635a359de3c": {
+      "id": "64765635a359de3c",
+      "timestamp": "2026-10-01T18:59:38+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "▶ Итоги 1 октября видеосводка от руководителя проекта @rybar Михаила Звинчука специально для @SolovievLive Украинские F-...",
+      "text": "▶ Итоги 1 октября видеосводка от руководителя проекта @rybar Михаила Звинчука специально для @SolovievLive Украинские F-16 всё чаще простаивают из-за проблем с ремонтом и нехватки запчастей. Обслуживание одного борта в Бельгии после 300 часов налёта может занимать до 10 месяцев — в результате значительная часть парка остаётся небоеспособной. Военный бюджет России продолжает расти, тогда как на фоне увеличения расходов на оборону обсуждается сокращение финансирования образования и социальной сферы. При этом дальнейшее наращивание военных расходов без понятной стратегии несёт риски для экономики и социальной стабильности. Не только наши суда: российские пограничники задержали в территориальных водах РФ следовавшее в Силламяэ судно Västerbotten под флагом Кипра . Эстонская сторона подтвердила факт задержания. Подробнее о проблемах с обслуживанием украинских F-16, росте военных расходов России и задержании иностранного судна в российских водах — в новом выпуске «Разборов Рыбаря — Итоги дня» . #дайджест #разбор #эфиры ✈ RU | ✈ EN | ✉ MAX ✉ VK | ✉ RuTube | ✉ ОК | ✉ Дзен 💸 Поддержать нас",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 48.0284,
+      "lon": 34.9988,
+      "url": "https://t.me/rybar/83642",
+      "tactical_sources": [
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/83642"
+        },
+        {
+          "name": "rutube.ru",
+          "url": "https://rutube.ru/video/a1bda5156cc38ffdc7501ec36f7123a2/"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar"
+        },
+        {
+          "name": "#solovievlive",
+          "url": "https://t.me/SolovievLive"
+        },
+        {
+          "name": "#rybar_in_english",
+          "url": "https://t.me/rybar_in_english"
+        },
+        {
+          "name": "max.ru",
+          "url": "https://max.ru/Rybar"
+        },
+        {
+          "name": "vk.com",
+          "url": "https://vk.com/rybar_force"
+        },
+        {
+          "name": "rutube.ru",
+          "url": "https://rutube.ru/u/rybar/"
+        },
+        {
+          "name": "ok.ru",
+          "url": "https://ok.ru/group/70000041986659"
+        },
+        {
+          "name": "dzen.ru",
+          "url": "https://dzen.ru/rybar"
+        },
+        {
+          "name": "qr.nspk.ru",
+          "url": "https://qr.nspk.ru/BS1A0068ID10D33B9IBAQRQ4M9T0NIFN?type=01&amp;bank=100000000008&amp;crc=36CB"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/TX5jjBDncW1j9u1gj7PtEMgDVsLHaa2mO50o-_kN4XgXZ-7ptuqXfOlpX2xcWtkDRLuaAJe2ygyJJxsuOIjHsSyElqjWfgIfNikNZYh5y5a1-ExjQ7wfZJYxi3ZZYQ6IK2mnH-_i4CNS_s0xnMmzn7eKw1gQnhHUCdL6ePjUpVrf90Z2rpRyLo56EyNakJuVubRhtRMqSBOux2TzcPO2zpt1YhJaQI2IKldZGgCnUZuv3gLXN13FAJ1WFuwCvLjMdT7PpwWsppfglxMRIbnzvW_A-3rA7U8smmI-C83j7uNI-Yo-5wYzT90VEtfzc9AocaynXhqIGhFZxg2KEiv-XA.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Myśliwiec Bojowy"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "rybar",
+      "added_at": "2026-10-01T20:40:17.612607+00:00",
+      "verified_by_sources": [
+        "rybar"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "▶ Wyniki Podsumowanie wideo z 1 października od kierownika projektu @rybar Michaiła Zwinczuka specjalnie dla @SolovievLive Ukraińska F-...",
+      "text_pl": "▶ Wyniki Podsumowanie wideo z 1 października od kierownika projektu @rybar Michaiła Zwinczuka specjalnie dla @SolovievLive Ukraińskie F-16 są coraz bardziej bezczynne z powodu problemów z naprawami i braku części zamiennych. Konserwacja jednego samolotu w Belgii po 300 godzinach lotu może zająć nawet 10 miesięcy – w efekcie znaczna część floty pozostaje niezdolna do pracy. Budżet wojskowy Rosji w dalszym ciągu rośnie, a w kontekście zwiększonych wydatków na obronność dyskutuje się o cięciach w finansowaniu edukacji i sektora społecznego. Jednocześnie dalszy wzrost wydatków wojskowych bez jasnej strategii niesie ze sobą ryzyko dla gospodarki i stabilności społecznej. Nie tylko nasze statki: rosyjska straż graniczna zatrzymała statek Västerbotten pływający pod banderą Cypru na wodach terytorialnych Federacji Rosyjskiej w drodze do Sillamäe. Strona estońska potwierdziła fakt zatrzymania. Więcej o problemach z obsługą ukraińskich F-16, wzroście rosyjskich wydatków wojskowych i zatrzymaniu obcego statku na wodach rosyjskich przeczytacie w nowym numerze Analizy Rybara – Wyniki Dnia. #skrót #analiza #transmisje ✈ RU | ✈ PL | ✉ MAKS ✉ VK | ✉ Rurka | ✉ OK | ✉ Zen 💸 Wesprzyj nas",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "35402426bab2e225": {
+      "id": "35402426bab2e225",
+      "timestamp": "2026-10-01T18:52:37+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Komunikat / Dyplomacja",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Putin jokes: You said that CNN always gets to ask questions in the U.S. I think something changed in the U.S. I don’t th...",
+      "text": "Putin jokes: You said that CNN always gets to ask questions in the U.S. I think something changed in the U.S. I don’t think CNN is called on for questions anymore.",
+      "location_name": "Inne",
+      "lat": 47.8172,
+      "lon": 34.7828,
+      "url": "https://t.me/ClashReport/99301",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99301"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/X4nGOnIS4N6sqTlazGKB2torv_xsPOi0MqNff1TrJ0B_uvOP62BR5zw1MdHP9AQhTh1g-dwReUaUHfC9IzCxruD9DvvFAp8-viRur7dPCvkzhgT8tk-B4j-lklvOC0E0Z5_qOjTH6mBjagZUonTQUY267-OGL2ByBBTYIZU7uLwz7q2kH5RoWHo7Js9KffAIqItr2s503snaFXVvk8TcfW4fHw_ONgen1E7vHXGjsx0hnFKXfcreCKzkf7e9izjJm_AAn5VLBFNS9Ff3a3ue5WuEb8yomIj52MSe5Qf4Pq7LEFdugydWYKKHE444yivL1SWGA98T8duhgj_XxGGpzQ"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/c033d97044.mp4?token=v8d48tIQdf_TM5GpkYyZJnoUWlVHKwLqwvriFH1Mi_9a24l6D9_c6jX4SLCXqnTra1Yen-4d3JHQfaoNZx8LTDJL6Bh9u3ZX14P-TSz4kG4EGH0YLknVO1HS1vGd1GCkihptuhbduwipUxVORthuUkQ-wFnM-PEeQZYWZ6A6cBRnyNkcmSrtFD_QfW7Z51yNpCD_gRBivwjNFP0wyWA0CzOHj0cCXPYesVZ-vrU9sc1SuMNWXceochO7JGVR4V0G_coAj7YZ4KOJcxYRqDxtUEPDu9TER8K-ymPCBAEklhuNlIg91Mb_Xzex5LmSVtzQs6VyUDe6hzGti22QRzZQMg",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-01T20:40:17.612654+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Putin żartuje: Powiedziałeś, że CNN zawsze zadaje pytania w USA. Myślę, że coś się zmieniło w USA. Nie sądzę…",
+      "text_pl": "Putin żartuje: Powiedziałeś, że CNN zawsze zadaje pytania w USA. Myślę, że coś się zmieniło w USA. Nie sądzę, żeby CNN było już proszone o zadawanie pytań.",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "af18657e1dbd96e2": {
+      "id": "af18657e1dbd96e2",
+      "timestamp": "2026-10-01T18:51:20+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "A military helicopter crashed in Russia’s Voronezh region, killing all three crew members on board.",
+      "text": "A military helicopter crashed in Russia’s Voronezh region, killing all three crew members on board.",
+      "location_name": "Woroneż, Rosja",
+      "lat": 51.6608,
+      "lon": 39.2003,
+      "url": "https://t.me/ClashReport/99300",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99300"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-01T20:40:17.612657+00:00",
+      "verified_by_sources": [
+        "clashreport",
+        "astrapress"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "Helikopter wojskowy rozbił się w rosyjskim regionie Woroneża, zginęli wszyscy trzej członkowie załogi na pokładzie.",
+      "text_pl": "Helikopter wojskowy rozbił się w rosyjskim regionie Woroneża, zginęli wszyscy trzej członkowie załogi na pokładzie.",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "dab4e02cc05a1bc0": {
+      "id": "dab4e02cc05a1bc0",
+      "timestamp": "2026-10-01T18:50:13+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Putin on Ukraine: Ukraine’s neutral status remains among Russia’s goals.",
+      "text": "Putin on Ukraine: Ukraine’s neutral status remains among Russia’s goals.",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.0544,
+      "lon": 35.2142,
+      "url": "https://t.me/ClashReport/99299",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99299"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/kDceQW53WbuTgB5okZkDWwfmuw8GVHmOJlG38VouE48rxyYqtUUVh7a3R94RFTchnoHeEd6I36JG-vtiZzf395MIdM-KSqW-n7Acb8i85EIFxwE_SDUpq32lyX0V2mcMZgoeKVMD7gXjbbMRuLTaU9YWNTAA1VnmHTVJ8Y9JVeqJnS9pOxOwgh6GtedSl2ekbdNvu1KtVazkHkxFPjN-2l-KeQhSC0BzRt_6ixhMZJTomvVD9VN1ZFM2r7zD2i5ZNRyc_-kd6R0hwKzNb79t3fhC9eGUJQSKjFtwQWQoCgr4iQsb4nVhhE0Xz7qjlPoERWtugt-ytw4QKM7lIk30WQ"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/351c2939f7.mp4?token=BhoREEtWX8Sq0JfSv8Rcbkgccm2zYA3HLrRr9P3XeJgIdWBE6mB1bN8RKgvYZt0SsoKbzekycS7uDgrwUEAzyn54imUqLfYWjzDVoIWWReffPWoCVKM4dbiooIW-Wu90TDpyZkz4Dn4fBccrRqX6QZAuNluV6-O2xmnC1hiObxFi82awfJjyH7dIBbe4qN3C00rNIkEq6rSLBhnEBb0Txtld5lEKhkjSKt3-oqdQLdz538T2f7jRsUBSuiDzhE1YqdrNw5Q2zVQiri3IGLcvJiQ3nwRbbgno35LGAf2MrllJ7bA0obyC-AO-8oqtH0f7dwfz46ng53fJDX-ZjwukXYi-rc8JTn60jg3WQw8tSra5FJxajnlRbgTcvWPed9A7hoA88mFEYCu96vjiXAEZIAWkQueE-1qfgrnZIiKZoOLSGAUdxqESUh_wv6CWr27chfsCsgVoKSxYSAmHOwd9qM7iqlPdgl1WkxUyV4FV1b61Q8iTvryYmw13wykAZmAL84M8Ol7JirvcyAAKeOKp5D_ZEhqwoY_cuXrmIQkPFgzhCGz6UMwuTUnj_s4PDZe4dZ6NOvNp-dJRftmQqnzb8PDbBsTnn49KDphInnbCV3xZTrl6vLoFMz2QYxq3AZWfks8FtguR1kxPhFOt7Z_JSDXnBAlnUdZaDVx7DBCB7MQ",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-01T20:40:17.612659+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Putin o Ukrainie: Neutralny status Ukrainy pozostaje jednym z celów Rosji.",
+      "text_pl": "Putin o Ukrainie: Neutralny status Ukrainy pozostaje jednym z celów Rosji.",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "53f5bdbf0de0e465": {
+      "id": "53f5bdbf0de0e465",
+      "timestamp": "2026-10-01T18:48:13+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Komunikat / Dyplomacja",
+      "tactical_category": "Komunikat Sztabowy / Dyplomacja",
+      "tactical_icon": "📡",
+      "title": "Putin on Switzerland: We welcome neutrality, but if so, then Switzerland should be standing completely aside from all sa...",
+      "text": "Putin on Switzerland: We welcome neutrality, but if so, then Switzerland should be standing completely aside from all sanctions against Russia. Neutrality should not be done in words only. What did Switzerland gain? Nothing.",
+      "location_name": "Inne",
+      "lat": 48.1752,
+      "lon": 34.8914,
+      "url": "https://t.me/ClashReport/99298",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99298"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/nUclkr278titoOClyLksUwxXS4lri_sUu3EITJcMFodINegTn6fAMM9srZIOJ1ElPZ1PVgqST9qTB5SPpCyK2yhZmru7jl38eHHwZ4V62m1i3OpQFq2n1jj4ApNZx-QBupz7PPfyS2VWe2-75tXubWdm1t-Mrqcez6Vw6a-iG1lCasoqVgshZiqwWPYWbWsI9Bs617QoOG7DApqr4ExM8scZq5BxChFE97tQ4Vlr-IhHRk0eDPpvvBV5ExZlR1QUj4CmZ0aIjkKc4WzjTwmkitiNS30BJ7MpYo-gsIPThq78oh9BRicJMOX-9YPYSYd-B9OKcDqoz_hJ1fjlbqjcfg"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/b5b019bf6e.mp4?token=E1l4C6KGrHVgqGz31Sf9ZieoZiqsTMwU9apvGJOSVJxxradWuEwtsYujmtfXXjZsHgraD9DOM4_8z8wt6-ubffhlZCZuFvYneFIYJJlRxcRmFnccPMmU_KtmnVcp1ChmOXR4Yn-x5lcwBTItrME-u_IWkksDbcJaIdzdxqlwKb0_pJWbwxrI0CQcieF0-iX3pKwm20yLaTRxw-mePLbZEUP3baWPP03MjuZFvhHzrm-X2GNX4mpVHrP5PF3EVP8NWflN5eE47n-LRr8MpRFijQSagDEBrMkolri6LPTPU87vS2ShCQ475FCLrOa0-4U9OO5vA-t7qeZQ_XVXo47tYA",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-01T20:40:17.612660+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Putin o Szwajcarii: Z zadowoleniem przyjmujemy neutralność, ale jeśli tak, to Szwajcaria powinna stać całkowicie z boku wszystkich opinii…",
+      "text_pl": "Putin o Szwajcarii: Z zadowoleniem przyjmujemy neutralność, ale jeśli tak, to Szwajcaria powinna całkowicie trzymać się z daleka od wszelkich sankcji wobec Rosji. Neutralności nie należy wyrażać wyłącznie słowami. Co zyskała Szwajcaria? Nic.",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "47527bcfc6528b7d": {
+      "id": "47527bcfc6528b7d",
+      "timestamp": "2026-10-01T18:47:11+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Uderzenie Balistyczne / Rakieta",
+      "tactical_icon": "🚀",
+      "title": "Такого уровня современности ядерного арсенала, как у России, нет ни у одной из стран. Российские ракетные стратегические...",
+      "text": "Такого уровня современности ядерного арсенала, как у России, нет ни у одной из стран. Российские ракетные стратегические войска обновлены на 98%, заявил Владимир Путин на пленарном заседании дискуссионного клуба «Валдай».  «Мы понимаем угрозы, мы понимаем…",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 48.0752,
+      "lon": 35.1998,
+      "url": "https://t.me/shot_shot/100634",
+      "tactical_sources": [
+        {
+          "name": "Shot",
+          "url": "https://t.me/shot_shot/100634"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/hBSHgK6vlBpwmsjxrxPGUkLArajgJIprcfy2IHQo8jaeDphuTw76o0hVGTBMrSo_LE0ELJrqR9lc8gsL4Ai45wERo8aNv8uZdeGsG57EwU_VMoG2iMjKNmpc8EVBf-ojkcQAAVy-yqJGzICs7XzA5A74T3L_svssp5nSCXvkQsEifsu6IMnDBcDs3t7qIM1jj9gppnPCJbdVGmmU7mWpMoUQHHXJADW6FZhVLRRI9xhiXKS3ZIWp8wG5SWh0SjeJLwtyGoW0D2ZlMpnahvQ2w4JGqKS3i9UVXyUpVoLuu-lkplfz-uFDBdDmI0VBmbAGfUqLebGE66IV4YuhUri85Q"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/a12f9e66ee.mp4?token=EGC9uhOv8jJPdfa_TeuwhzNHYaImSDMqlbOZyfqC1Fj9Xwh9HH1O1YRIAQGqPJar2Smr5rMUDJRSCxoyD3vhN9Adi5mfy9HXzDq1CaOY8gcjZClLrEAqaFyAn-82WyPqjwa_cKgIAwx0OKj-jb_XuM8dSei3lS0KEsnl_FxWQZ9DK5vizNvG9oKnDuV_utFg1HDKdVUNHpTeb-aTA-eBtlLBdxnjlG8cQ0uuQ6deCgDG6D7GKGDwlRfKgKGu4IVuy7JmV2c3YbU34aPh-JdRQgZwzQ71WHHOQ76HeJY6yZulFkSSm3Gj0wZU3MEexMJpy1S-kd0ZwIeTvyEr1CA-KYi-rc8JTn60jg3WQw8tSra5FJxajnlRbgTcvWPed9A7hoA88mFEYCu96vjiXAEZIAWkQueE-1qfgrnZIiKZoOLSGAUdxqESUh_wv6CWr27chfsCsgVoKSxYSAmHOwd9qM7iqlPdgl1WkxUyV4FV1b61Q8iTvryYmw13wykAZmAL84M8Ol7JirvcyAAKeOKp5D_ZEhqwoY_cuXrmIQkPFgzhCGz6UMwuTUnj_s4PDZe4dZ6NOvNp-dJRftmQqnzb8PDbBsTnn49KDphInnbCV3xZTrl6vLoFMz2QYxq3AZWfks8FtguR1kxPhFOt7Z_JSDXnBAlnUdZaDVx7DBCB7MQ",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 8,
+      "source_channel": "shot_shot",
+      "added_at": "2026-10-01T20:40:17.612556+00:00",
+      "verified_by_sources": [
+        "shot_shot"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Żaden inny kraj nie ma tak nowoczesnego arsenału nuklearnego jak Rosja. Rosyjska rakieta strategiczna...",
+      "text_pl": "Żaden inny kraj nie ma tak nowoczesnego arsenału nuklearnego jak Rosja. Rosyjskie strategiczne siły rakietowe zostały zmodernizowane w 98%, oznajmił Władimir Putin na posiedzeniu plenarnym Klubu Dyskusyjnego Wałdaj.  „Rozumiemy zagrożenia, rozumiemy...",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "8b7c21c981d6e1b3": {
+      "id": "8b7c21c981d6e1b3",
+      "timestamp": "2026-10-01T18:45:51+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump: Prices are way down from what Biden and the Dumocrats left us. It’s why I won the Election, and now prices are co...",
+      "text": "Trump: Prices are way down from what Biden and the Dumocrats left us. It’s why I won the Election, and now prices are coming down, RAPIDLY. It’s the Dumocrats’ fault, not the fault of the Republicans — But we are fixing it!",
+      "location_name": "Inne",
+      "lat": 48.1116,
+      "lon": 35.0294,
+      "url": "https://t.me/ClashReport/99297",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99297"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/U_GCP73qhUpZibgSWD-d44kWdBnz9cAf9pG-GOee05LCOfLQXTYp7X6UVvee3Z43PhBqHhuYjpIqOfflJ0hBc1ZLHuEMaDnR64lB2XyHEIdUKQbIfq9uMwvvouOv7OPg0spOXzjhsihsMgi_0YevqqrK4vf6XKql-jTrfxQvl5KDu_cR_KcOiEFmN5gvtjQFtSidgDZilyu7sfEJBoGeQg48ni2kPbBVKB8dNUQf8Q4pIuRWogAvGTwVMqOb7vYmYBN_Ce_diDLkO37TWDr39kuIFVpKVCHLrQG7H3sI6GhKoflkaJlVo3Q3PwAT6nGCkaHIghYIft2kE25XEFkOQQ.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-01T20:40:17.612662+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump: Ceny są znacznie niższe od cen, które pozostawili nam Biden i Dumokraci. Dlatego wygrałem wybory, a teraz ceny są...",
+      "text_pl": "Trump: Ceny są znacznie niższe od cen, które pozostawili nam Biden i Dumokraci. Właśnie dlatego wygrałem wybory, a teraz ceny spadają SZYBKO. To wina Dumokratów, a nie Republikanów – ale naprawiamy to!",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "31ccf3bb6725faca": {
+      "id": "31ccf3bb6725faca",
+      "timestamp": "2026-10-01T18:45:46+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Putin: The Russian Empire has long ceased to exist. Perhaps Europe isn’t aware of that. I want everyone to know it.",
+      "text": "Putin: The Russian Empire has long ceased to exist. Perhaps Europe isn’t aware of that. I want everyone to know it.",
+      "location_name": "Inne",
+      "lat": 48.0188,
+      "lon": 35.1242,
+      "url": "https://t.me/ClashReport/99296",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99296"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/RYc2C2POwuVY3zE16jMKpPIeeDjH8aGK7571-cGqgv2SJdhurxX6FiiXqM9z_lXkIbq7h2WcP3cHh6SWwFZhEiF_yYlIk3ETFddNDm4ljIqK7VzSBxMBdRR3N2onEqJ61cA-uXr2ghNjVu2Crvud5axHX75V2LMra1FnkYupXKYXz5a_FLT-tkowaTBf0TQCEiLQhz4o_toTHFGe95TLNVVxWHYzRDtPTxtIjSLoy1_3PrkxQ8uJJ4jvVHRJwIF070JC1rrkEU6Sm1XY_ozCMvbo8g8wzmUVUs7RbJcJpqitGXVfcVqWEvNulfcHAhw7k_oigF8mOkL0bGOfVhI3MA"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/7482c65d42.mp4?token=Qs705CSFFapB0oADdiEOoBKv_hvZZprg_qFrbqWlYDyrb67I7sBICTx1-3nvB1XyKHe161cCGznzQVmyvr4E3Pjf1qh5gm-59IlkIi4ktQAQ6avvWRP89zTFHsJLyeYietPz8NO6q1PAaVLQiR0m6EPogZdPAF24FQCXhpR1BZF1nJovABnd5wLj3FhFJSDgQVo05b9QJ9xMo92SWyVRHnKepO60d8qREA0Vt_iSY9GCBCEVWcPpz3SZbILDtj34pX67nCemevS-nchgD11i4OvZ98kplaxuTH2OJgkGSlXh55alL8tUcaS-d-3y1WkvzvsWI_fMDc5XMRSX9SwXdw",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-01T20:40:17.612664+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Putin: Imperium Rosyjskie już dawno przestało istnieć. Być może Europa nie jest tego świadoma. Chcę, żeby wszyscy to wiedzieli.",
+      "text_pl": "Putin: Imperium Rosyjskie już dawno przestało istnieć. Być może Europa nie jest tego świadoma. Chcę, żeby wszyscy to wiedzieli.",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "d928de4b0362853b": {
+      "id": "d928de4b0362853b",
+      "timestamp": "2026-10-01T18:40:53+00:00",
+      "country": "Iran",
+      "flag": "🇮🇷",
+      "theater": "Bliski Wschód (Zatoka Perska)",
+      "event_type": "Komunikat / Dyplomacja",
+      "tactical_category": "Komunikat Sztabowy / Dyplomacja",
+      "tactical_icon": "📡",
+      "title": "Iran has privately offered to restore international nuclear inspectors’ access to facilities damaged in the war in excha...",
+      "text": "Iran has privately offered to restore international nuclear inspectors’ access to facilities damaged in the war in exchange for sanctions relief. Foreign Minister Abbas Araghchi raised the proposal with European and Middle Eastern diplomats during UN meetings in New York, potentially opening a path to revive stalled talks with the U.S. Source: Bloomberg",
+      "location_name": "Bliski Wschód (Zatoka Perska)",
+      "lat": 47.9804,
+      "lon": 35.0108,
+      "url": "https://t.me/ClashReport/99295",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99295"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/RVCovq8NSO8cfgErZ9Ccp-aBLoBEJ7q6pYIbzgdAszlPcBbJaSsZnJuWHsm5M4PpmSvLK55buFNSx5RvXzp1tc5J1jwqfxdKpkpDugxL4MkhgoNkTWdIUvxUW-TLuPFaskHo3QBHqx6E8eO_by5jio5otFoROYaRWv-5BfWM_E5tuZQG1UweJpLx6IbJsRgh0S6nejeVPmnq8q0gduK0w7wdODku9FOkyTD1c8pq_CL3RsiozDsSsJgOOZTQZr8sV_a9RVbK0c9PA0vWU3Pe4nNTG9FS_wkBExNyHo07OcXuo2XQCLQR6PGDmOV0xpV5LXNJfzzG-1YsSk-El9IEow.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-01T20:40:17.612666+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Iran prywatnie zaoferował przywrócenie międzynarodowym inspektorom nuklearnym dostępu do obiektów uszkodzonych podczas wojny w zamian za…",
+      "text_pl": "Iran prywatnie zaoferował przywrócenie międzynarodowym inspektorom nuklearnym dostępu do obiektów uszkodzonych podczas wojny w zamian za złagodzenie sankcji. Minister spraw zagranicznych Abbas Araghchi podniósł tę propozycję w rozmowie z dyplomatami z Europy i Bliskiego Wschodu podczas spotkań ONZ w Nowym Jorku, potencjalnie otwierając drogę do ożywienia impasu w rozmowach z USA Źródło: Bloomberg",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "09edf93dec3dc4ba": {
+      "id": "09edf93dec3dc4ba",
+      "timestamp": "2026-10-01T18:39:48+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Putin: Very soon, we will all be driving Chinese cars. They are high quality and cheap.",
+      "text": "Putin: Very soon, we will all be driving Chinese cars. They are high quality and cheap.",
+      "location_name": "Inne",
+      "lat": 48.1048,
+      "lon": 35.0426,
+      "url": "https://t.me/ClashReport/99294",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99294"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/AqS4-wVRyJESLt4osZqjxMk6zSGPDxrCvjFcZ8JXpNh0c9Ea_NfcFL6gRz6FjsUTY8xNfWcp9cks-2lAU-8XVQQXfwXz9cZpjWauDxXRp4CtHqiJB2XXBSRNjOsrQ3RgwE4k2FZbltVoYc5Ie1b_kHSXUSbM70bM_r_BqzLCf7ZPF03aqdxbpcFa_78MHovDhC_pwapbv4ZHeOPza7xiM5r-3hxfd4tGaXJODqNIDShVKEnPhjG2-7wckPi_khzKjQbFzlE3jT9ArSacyo9VP6mZ0nMLCZJgqS3XwYoKrWCHz6eVx3T0NKoVfbBe8ihOzujbMbZNB268OWPV160Dnw"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/7e911a4c1e.mp4?token=Klq19jYzqcvAp5l-5v5eQPGas1kRx5jUzz0j_9UojhiG3o2jFEbXbelFw4nx1PIJoA3IE8nlr0xWOzwMIBVsngRp0rpKdZASeZebJvlfsv-SBe0ZY6WrtxJIkPnQp8fSv1QRSef3CUst3X05pmEAm8PadXGv_z0e7wy0dmz3VK2GATrlctoJKNLhgBjzmLZ3VKeb5igdwDsOCxnLs-400qkws45prz8ZH3UITj_DQwk8Cz7oAP0s5khaDivMCbmPl2f2rrX_pVUq4Y16fWAj4kIZf5rOlyo9TcyPy5GtptLebk1QET7qXzw0MosruHnV_yvIVxSfdxvW9MoDeIFNiw",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-01T20:40:17.612668+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Putin: Już niedługo wszyscy będziemy jeździć chińskimi samochodami. Są wysokiej jakości i tanie.",
+      "text_pl": "Putin: Już niedługo wszyscy będziemy jeździć chińskimi samochodami. Są wysokiej jakości i tanie.",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "63cd19f626a38897": {
+      "id": "63cd19f626a38897",
+      "timestamp": "2026-10-01T18:37:48+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА з Черкащини в напрямку Вінниччини (Гайсин).",
+      "text": "🏍 Реактивний БпЛА з Черкащини в напрямку Вінниччини (Гайсин).",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.1032,
+      "lon": 35.2994,
+      "url": "https://t.me/kpszsu/82183",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82183"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-01T20:40:17.612436+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy UAV z Czerkas w kierunku Winnicy (Gaisyn).",
+      "text_pl": "🏍 Odrzutowy UAV z Czerkas w kierunku Winnicy (Gaisyn).",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "cf484daba354afff": {
+      "id": "cf484daba354afff",
+      "timestamp": "2026-10-01T18:36:46+00:00",
+      "country": "Iran",
+      "flag": "🇮🇷",
+      "theater": "Bliski Wschód (Zatoka Perska)",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Komunikat Sztabowy / Dyplomacja",
+      "tactical_icon": "📡",
+      "title": "The U.S. Treasury sanctioned Russian payments firm A7, calling it a significant transnational criminal organization for ...",
+      "text": "The U.S. Treasury sanctioned Russian payments firm A7, calling it a significant transnational criminal organization for helping Russia, Iran and other sanctioned entities evade Western restrictions. A7 allegedly used more than 70 shell companies, cryptocurrencies and AI-generated fake trade records to move money and help clients buy goods, including components used in weapons and drones. The U.S. also tightened sanctions on Iran’s automotive, rail and mining sectors. Source: NYT",
+      "location_name": "Bliski Wschód (Zatoka Perska)",
+      "lat": 48.0072,
+      "lon": 34.8074,
+      "url": "https://t.me/ClashReport/99292",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99292"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-01T20:40:17.612670+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Departament Skarbu USA nałożył sankcje na rosyjską firmę płatniczą A7, nazywając ją znaczącą międzynarodową organizacją przestępczą dla…",
+      "text_pl": "Departament Skarbu USA nałożył sankcje na rosyjską firmę płatniczą A7, nazywając ją znaczącą międzynarodową organizacją przestępczą za pomaganie Rosji, Iranowi i innym podmiotom objętym sankcjami w unikaniu zachodnich ograniczeń. A7 rzekomo korzystał z ponad 70 firm fasadowych, kryptowalut i fałszywych rejestrów handlowych generowanych przez sztuczną inteligencję, aby przesyłać pieniądze i pomagać klientom w zakupie towarów, w tym komponentów używanych w broni i dronach. Stany Zjednoczone zaostrzyły także sankcje nałożone na irański sektor motoryzacyjny, kolejowy i wydobywczy. Źródło: NYT",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "143246756734d09d": {
+      "id": "143246756734d09d",
+      "timestamp": "2026-10-01T18:36:41+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Komunikat / Dyplomacja",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Putin on Ukraine: If the loss of these territories is unavoidable, does it make sense to cling to this territory? The pr...",
+      "text": "Putin on Ukraine: If the loss of these territories is unavoidable, does it make sense to cling to this territory? The problem is not this chunk of land. It&#x27;s about the people. We have to create an environment that saves us, not a ceasefire, but rather a durable peace for the long term.",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.99,
+      "lon": 35.0042,
+      "url": "https://t.me/ClashReport/99291",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99291"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/DLn2bW9aQzmpsbQDKMWfwOzKNyMiOi_r-enfrgD06oacZc3s-d5Fi9b7B87DpT775jaFzPkxO75Lr9_2K79EWVLsWK0-eouf23Br2vIWlSlLlmHLXtLvZuiE6d8Zx22mKyqVOpr_26cHJ5ba4enxm5N1OUAydGAVRmdYTpDfIGtn419vTT_OT8WSzicNhliXiZKbMUeUdG0Mj25RdkhwMHc4n_Oi1Lr70CEoPI95nWIh0miTQJHcoRxPe_OWlaYdzLannyKDKxJ58yKkIbnA8GEPmx4RTqxZNP44tOXnbl17Hy7LpNJB912hmVLEp3tZfknQKFw1zctJIeULTviC8A"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/9da5d9950f.mp4?token=tODGwxwzyywQ-0DgkhznzP0ZaSbFYnIiivOYbrW0evg_CdZxk-kxUBZG4dpCS0OfMxdHFhqHLb61PXKWq3PLclpbUV4KocXsN1T8651pFReSTUczuDHPgwof_JJXkSwgvsaKtQq1-g3mIlI1IVqYnW7NYrut_1rc268eFad_feYbVK5qi2f-DMbpnnhIip6biil0kaRRIZCOeyvHy9B55Fr70-Rwiw-28BhFltZ_sE8TYNZbN1u1uUMes0hqr0B2nnnblEhioeihfehf-VGVv1IT0bStxdQGV_k1Ss9ZVdQUjMlE7KzeUSYrEkedtAOXuPr8ibPc4XoLBFP-4WvC7w",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": true,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-01T20:40:17.612672+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Putin o Ukrainie: Jeśli utrata tych terytoriów jest nieunikniona, czy ma sens trzymanie się tego terytorium? Pr...",
+      "text_pl": "Putin o Ukrainie: Jeśli utrata tych terytoriów jest nieunikniona, czy ma sens trzymanie się tego terytorium? Problemem nie jest ten kawałek ziemi. Chodzi o ludzi. Musimy stworzyć środowisko, które nas uratuje, a nie zawieszenie broni, ale raczej trwały pokój w dłuższej perspektywie.",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "0239a398237ec886": {
+      "id": "0239a398237ec886",
+      "timestamp": "2026-10-01T18:35:56+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Infrastruktura & Logistyka",
+      "tactical_category": "Infrastruktura Krytyczna / Rafineria",
+      "tactical_icon": "🏭",
+      "title": "Путин назвал «нелепым» предложение прекратить удары по украинским судам в обмен на остановку атак на НПЗ Владимир Путин...",
+      "text": "Путин назвал «нелепым» предложение прекратить удары по украинским судам в обмен на остановку атак на НПЗ  Владимир Путин на «Валдае» назвал «нелепыми» предложения прекратить удары по украинскому судоходству в обмен на прекращение атак на российские нефтеперерабатывающие…",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 47.902,
+      "lon": 35.018,
+      "url": "https://t.me/astrapress/126879",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/126879"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/pfbNbkvABPJXZnT2XcZW6JHF-9yV3GWHh5pxLTzFFj8jWevOa8lyLsDF-VXFRihGUEusv6OPGIZfDcZ_jDWs5CiwgFMO42pT5UGMJoJT8rQHfye7PqCKm57-eQY6Pz-fKax1omvC7EqPqYpKA_PTZHDvbX2OZgWC_JKveC1LgfcuSq-QOIFLltsKM63zXkUXXQZQyW2seeG7MOExwHBFF6pEmoCIo2vaHeb8yRV-M8xls5IQHKGNy1jVuwUojYjonW9HmUvcfq548j8393FmTmwd-Tkkk2Ts7PLUb-dJZWPtxDtCEjSRGSu5bAfXmS2FeNNtmzU4QQ2xiFKdCybImQ"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Rafineria / Skład Paliw",
+      "is_fire": false,
+      "threat_score": 8,
+      "source_channel": "astrapress",
+      "added_at": "2026-10-01T20:40:17.612515+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Putin nazwał „śmieszną” propozycję zaprzestania ataków na ukraińskie statki w zamian za zaprzestanie ataków na rafinerie ropy naftowej Władimir Putin…",
+      "text_pl": "Putin nazwał „śmieszną” propozycję zaprzestania ataków na ukraińskie statki w zamian za zaprzestanie ataków na rafinerie ropy naftowej Władimir Putin na Wałdaj nazwał „śmiesznymi” propozycjami zaprzestania ataków na ukraińską żeglugę w zamian za zaprzestanie ataków na rosyjskie rafinerie ropy naftowej…",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "6b34a90387397f56": {
+      "id": "6b34a90387397f56",
+      "timestamp": "2026-10-01T18:33:11+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА повз Бровари в напрямку Києва.",
+      "text": "🏍 Реактивний БпЛА повз Бровари в напрямку Києва.",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.0636,
+      "lon": 34.8788,
+      "url": "https://t.me/kpszsu/82181",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82181"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-01T20:40:17.612440+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy UAV mija Browary w kierunku Kijowa.",
+      "text_pl": "🏍 Odrzutowy UAV mija Browary w kierunku Kijowa.",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "81970a661478ee89": {
+      "id": "81970a661478ee89",
+      "timestamp": "2026-10-01T18:32:28+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Starcie Lądowe",
+      "tactical_category": "Starcie Lądowe / Szturm",
+      "tactical_icon": "⚔️",
+      "title": "📕 #Комикс от Рыбаря №88: Пот экономит кровь Город взят кровью, оставленной в тёмном вокзале Февраль 2024 года, северная ...",
+      "text": "📕 #Комикс от Рыбаря №88: Пот экономит кровь Город взят кровью, оставленной в тёмном вокзале Февраль 2024 года, северная окраина Авдеевки. Колонна мотострелковой роты входит в город, за который месяцами шли бои, и улицы встречают её подозрительной тишиной. Через минуту по броне бьют очереди, а сверху заходит барражирующий боеприпас. Командира роты Егора Захарова ранит в бок. БМП может вывезти его в тыл прямо сейчас, но ведь и рота остаётся посреди чужих улиц. Что выберет Захаров : эвакуироваться, пока есть возможность, или остаться со своими людьми? Перед штурмом он месяцами тренировал бойцов и повторял: «Пот экономит кровь». Теперь сын сельских учителей из Улыбино должен принимать решения в сложной боевой обстановке, когда кровь течёт у него самого… 📎 Скачать комикс можно по ссылкам: RU | EN #Россия #Украина ✈️ RU | ✈️ EN | ✉️ MAX 💸 Поддержать нас",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 47.8084,
+      "lon": 34.8308,
+      "url": "https://t.me/rybar/83641",
+      "tactical_sources": [
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/83641"
+        },
+        {
+          "name": "rybar.ru",
+          "url": "https://rybar.ru/wp-content/uploads/2026/10/88_odn_ru.pdf"
+        },
+        {
+          "name": "rybar.ru",
+          "url": "https://rybar.ru/wp-content/uploads/2026/10/88_odn_eng.pdf"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar"
+        },
+        {
+          "name": "#rybar_in_english",
+          "url": "https://t.me/rybar_in_english"
+        },
+        {
+          "name": "max.ru",
+          "url": "https://max.ru/Rybar"
+        },
+        {
+          "name": "qr.nspk.ru",
+          "url": "https://qr.nspk.ru/BS1A0068ID10D33B9IBAQRQ4M9T0NIFN?type=01&amp;bank=100000000008&amp;crc=36CB"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/AQavjVaWJIdRk2ZH80YOJR-tl1wMhB-TQsdFxcnXp39bUMcJaO-qQzyk7YC_fsQ0qABGzNE_14-qTc2L5rH44ltnoXgR47A5rGGlMZBC958Lz_FJKQbuOslWMUX1kpRTKRG2YpnJOwWkm2-ExVWUlpqQN-wremD6CLXi-IlXAcmUKJxOAMRvNPtI5g0MHAMWvaAzzhJfpbHdxK9eGVT7jq5fpLXlHIQznA1YQhP6I1qY8Dv155Gq_PvCJCZVneJJrSeq2pSzF7-m3zn91tlvt9QRMCR6QYu6ii28ULE6cVDPqyh16A-AgWvx591JNl-w_p-FoKkHszwb5_MgNyzw_g.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "rybar",
+      "added_at": "2026-10-01T20:40:17.612609+00:00",
+      "verified_by_sources": [
+        "rybar"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "📕 #Komiks z Rybara nr 88: Pot ratuje krew Miasto zdobywa krew pozostawiona na ciemnym dworcu Luty 2024, północ...",
+      "text_pl": "📕 #Komiks z Rybara nr 88: Pot ratuje krew Miasto zostało zabrane krwią pozostawioną na ciemnym dworcu kolejowym w lutym 2024 r., na północnych obrzeżach Awdejewki. Kolumna kompanii strzelców zmotoryzowanych wkracza do miasta, o które od miesięcy toczą się walki, a ulice witają ją podejrzliwą ciszą. Minutę później serie ognia trafiają w pancerz, a z góry leci krążąca amunicja. Dowódca kompanii Jegor Zacharow zostaje ranny w bok. Bojowy wóz piechoty może go teraz zabrać na tyły, ale kompania pozostaje pośrodku dziwnych ulic. Co wybierze Zacharow: ewakuować się, póki może, czy zostać ze swoim ludem? Przed atakiem miesiącami szkolił wojowników i powtarzał: „Pot ratuje krew”. Teraz syn wiejskich nauczycieli z Ulybina musi podejmować decyzje w trudnej sytuacji bojowej, gdy płynie w nim własna krew... 📎 Komiks możecie pobrać korzystając z linków: RU | EN #Rosja #Ukraina ✈️ RU | ✈️ PL | ✉️MAX 💸 Wesprzyj nas",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "dcfc61bf7e47fd02": {
+      "id": "dcfc61bf7e47fd02",
+      "timestamp": "2026-10-01T18:30:26+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Komunikat / Dyplomacja",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "French President Macron: When we educate children, we do not send them freely into a supermarket, a sex shop and a gun s...",
+      "text": "French President Macron: When we educate children, we do not send them freely into a supermarket, a sex shop and a gun store. With social networks, that is basically what we did. We said: great, let them have free access to the supermarket, the sex shop, weapons sales and everything else we normally regulate.",
+      "location_name": "Inne",
+      "lat": 48.0504,
+      "lon": 35.1962,
+      "url": "https://t.me/ClashReport/99290",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99290"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/L_sufUjYi25yx_M89xbhVm1J8T7r1tyvnQ0NBIpnp8hDoG0h6G9XnZ4q7EncLnxMJMCZNoK1VU1IEOWoh0XcJXMDHVklV4oUN3GgRS7bu4D_sqI5SEWo0O0o44jms_7Vr0f-Ltr4fuoryUtXsqiBDjw2sLVL6anWULlJwmITuzccEvlOqfJ-JjBaOwwqacn8TcDUfqAFbm35zs8TacozFD9mKPwPK3exPaizPl2UqeUjQSeibIgXb92H5aK70FiaGOKKLpkxGZOYA-TWjSEl8LcpIyjnj8sOFHnvoS7nk1o9sjo7GyfONtWVc4sj3g4ZG-QU9sQaLFISVTppod3n-A"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/eed9749155.mp4?token=KyyjKOVuHMnf3LbAThZNDAxwzkQdHy2oL2rCUDJ7dIa0SHfySzT7-wi49nL_cHGPfDcN7YWcEa_jgOyK6x8NtNHeT3AXkiQc1gZteje4I_Ka0CPFaI8ShqHqjUeKDUu69u-RT_ng924TT1KeIXnz581IEiZLjXYcPIb66pQleWFrTd9Tq4KEAFHp8KjMDqjObzZ_nzL62aPYHHY5adSsgnQRTMXYGkzFTekihEyjXMF-l-xfNKmBjZ6vl0gb63rgwRI8oSgliqAiFLe3gSwX_S9mLiC9KuD6RzvEmUFmQUVwpCPgFvaGrzBBsqTkNqpJ1QADcdiDIGjbd-QMUxqG01ip-GkoV6dzXqpuZFFI97oZt8Kyj6XT7M6G_EEVvRDMKd2MOuS4x2NIVKV6EWcU5TRxlWUw8TLMpzjQvQlZ2nw5Z_bAB3WmNs3U7RzR51CKl7F3g_OKBeOZeMmrEZ_wqhvO2_5F5prLhqThO5NulmPKrZxlM1CE4z8h6F9ONX_uVQvnkYyPe-mfGCt3rw5TMEzyZHkqfC08aVtF_Iiybwuw_GYrxzUBtlNGKOhzOnIlOWGWvv-BwnNAOzlZtZWJ-oBGmZOBNoj69_GHJ7ptScRNZgchVLhrzdHQvyQ5GqAU9oWruGgde5Qm7nHMpt33--MWzyVBcr5864e9RTn98gg",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-01T20:40:17.612674+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Prezydent Francji Macron: Edukując dzieci, nie wysyłamy ich swobodnie do supermarketu, sex shopu i sklepu z bronią…",
+      "text_pl": "Prezydent Francji Macron: Kiedy edukujemy dzieci, nie wysyłamy ich swobodnie do supermarketu, sex shopu czy sklepu z bronią. W przypadku sieci społecznościowych w zasadzie to właśnie zrobiliśmy. Powiedzieliśmy: świetnie, dajmy im swobodny dostęp do supermarketu, sex shopu, sprzedaży broni i wszystkiego, co zwykle regulujemy.",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "3a027b0b75b06921": {
+      "id": "3a027b0b75b06921",
+      "timestamp": "2026-10-01T18:30:09+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "French President Macron: The Americans protect their market. The Chinese protect their market. Emerging markets have man...",
+      "text": "French President Macron: The Americans protect their market. The Chinese protect their market. Emerging markets have many barriers, including non-tariff barriers. And we open ourselves to everyone. If a vehicle arriving in Europe from China or elsewhere has received eight times more subsidies than its European competitor, I say that is not fair. We must correct the rules of competition.",
+      "location_name": "Inne",
+      "lat": 48.0352,
+      "lon": 34.8356,
+      "url": "https://t.me/ClashReport/99289",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99289"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/gfnfXIvotCQhyBHIuKxMNnt1DZpJ8Yl9WqYbG88-q5TO84zlAWC_RZDgPaHAkamkIbG_6TXZmqH9qPcN7vovCWNXVgcUyjUIjnMTj4oFo0r4448teK--mIy6XD75cw6V-Dwy0oXHdpqlDCRmKutNQt11UUEvGnYK8J5H23gaZb3Y5cywEgPN_xiJY5fVA5dMsbSNvnHcBJPJkx9gxNg2xoNURh3oJ1y2e10M36bpyMafzvbHg-fz9Pr_8OfLE2QVunPQVVgxmIqzTCdV6JDV11-CyKN4_HQdYLwhWjOUqoFpASg9JktJvV4ApeaYFI9jPTDGcMpz8XvUrhekyChXhg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-01T20:40:17.612676+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Prezydent Francji Macron: Amerykanie chronią swój rynek. Chińczycy chronią swój rynek. Rynki wschodzące mają ludzi...",
+      "text_pl": "Prezydent Francji Macron: Amerykanie chronią swój rynek. Chińczycy chronią swój rynek. Na rynkach wschodzących istnieje wiele barier, w tym bariery pozataryfowe. I otwieramy się na wszystkich. Jeżeli pojazd przybywający do Europy z Chin lub innego miejsca otrzymał osiem razy więcej dotacji niż jego europejski konkurent, uważam, że jest to niesprawiedliwe. Musimy skorygować zasady konkurencji.",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "ede7bf377dc3b9df": {
+      "id": "ede7bf377dc3b9df",
+      "timestamp": "2026-10-01T18:30:02+00:00",
+      "country": "Polska",
+      "flag": "🇵🇱",
+      "theater": "Wschodnia Flanka NATO (Polska)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "200 tysięcy osób może dostać wezwanie do wojska. MON wydał dokument",
+      "text": "200 tysięcy osób może dostać wezwanie do wojska. MON wydał dokument. Ministerstwo Obrony Narodowej opublikowało projekt rozporządzenia, w którym określa limity powołań na rok 2027. Zgodnie z rozporządzeniem, na ćwiczenia wojskowe będzie mogło zostać powołanych nawet 200 tysięcy osób. Projekt jest na etapie uzgodnień międzyresortowych i ma zostać zaakceptowany w czwartym kwartale 2026.",
+      "title_pl": "200 tysięcy osób może dostać wezwanie do wojska. MON wydał dokument",
+      "text_pl": "200 tysięcy osób może dostać wezwanie do wojska. MON wydał dokument. Ministerstwo Obrony Narodowej opublikowało projekt rozporządzenia, w którym określa limity powołań na rok 2027. Zgodnie z rozporządzeniem, na ćwiczenia wojskowe będzie mogło zostać powołanych nawet 200 tysięcy osób. Projekt jest na etapie uzgodnień międzyresortowych i ma zostać zaakceptowany w czwartym kwartale 2026.",
+      "location_name": "Wschodnia Flanka NATO (Polska)",
+      "lat": 52.2204,
+      "lon": 20.9556,
+      "url": "https://defence24.pl/polityka-obronna/200-tysiecy-osob-moze-dostac-wezwanie-do-wojska-mon-wydal-dokument",
+      "tactical_sources": [
+        {
+          "name": "Defence24",
+          "url": "https://defence24.pl/polityka-obronna/200-tysiecy-osob-moze-dostac-wezwanie-do-wojska-mon-wydal-dokument"
+        }
+      ],
+      "media_urls": [
+        "https://cdn.defence24.pl/2026/10/01/320x240px/42CtoZfKQqLVrGiNAeZ6hqe1ov4qJRiIamUVcQBz.u0ar.jpg",
+        "https://cdn.defence24.pl/2026/10/01/1200xpx/42CtoZfKQqLVrGiNAeZ6hqe1ov4qJRiIamUVcQBz.447f.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "defence24",
+      "verified_by_sources": [
+        "defence24"
+      ],
+      "multi_source_verified": false,
+      "added_at": "2026-10-01T20:40:17.612871+00:00",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "c55ac8f8daa1b71f": {
+      "id": "c55ac8f8daa1b71f",
+      "timestamp": "2026-10-01T18:29:10+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА повз Бровари в напрямку Києва.",
+      "text": "🏍 Реактивний БпЛА повз Бровари в напрямку Києва.",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.946,
+      "lon": 34.916,
+      "url": "https://t.me/kpszsu/82180",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82180"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-01T20:40:17.612442+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy UAV mija Browary w kierunku Kijowa.",
+      "text_pl": "🏍 Odrzutowy UAV mija Browary w kierunku Kijowa.",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "42fc88b4a4f4a5d4": {
+      "id": "42fc88b4a4f4a5d4",
+      "timestamp": "2026-10-01T18:25:37+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "French President Macron: A key factor in European competitiveness was very cheap gas coming from Russia. That ended in 2...",
+      "text": "French President Macron: A key factor in European competitiveness was very cheap gas coming from Russia. That ended in 2022. But our great export market was China. That is over too. Europe now has a trade deficit with China. Today, every day, we lose €1 billion in trade with China. Two years ago, several countries were still net exporters. Germany, for example, remained a net exporter to China until 2025. That is over — even for Germany.",
+      "location_name": "Inne",
+      "lat": 47.8008,
+      "lon": 34.8608,
+      "url": "https://t.me/ClashReport/99288",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99288"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/KmRCOTRyQe0WAwOXs63hRmwuDCLPAcb9_DqKDVToa1LlEjp5bBkQYPmwO4HdpEYiecB6xhIctqVHqn5nI40Pp9fmWnD-V8ZvAOGDKX66_lXsM2vfqkCVvcsLpaAeXDulryxuX3lxoeFSDsEw1Hjji8H4X00HCrISxuyXkPsVIOL1jVmMaoiRiGRuO3PjR3BtZW12h0VTwBnKSW0nGYZTZT3xh6-cbjvGI5j2GTCgrgY2ywYWPtNeD0Fahm8LCSfFftxufb1GYnlIhSvsglekFCbggztLUvuxUJ1QW95p-DDPwCIk-xaPSZDrrbxpKUYHrMiTZoCtcDLkYYAl1hMfPQ"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/8cdb61efb8.mp4?token=qLq6sOMex0VHdIXDD7nl2-OcBxehZ1bKzhO7h4uNsBCG4Evq3tWJzrlYkKOkU6hUXI2QGf0UJfE-jjeGA6LQXsWuNnreCteBooEDNZzlnWNh9FqbMODgNeq3afFvbJLhx2VZssmPcFhPZ2OI9xIoZBEsvUZQyTABg82DGE5jArlGKnzSUZY46Nd3RnAoCHuLvSWn5Dd5jRQsidqM659Zey_DDAE4_ivzmiqwuHP1hcfTOr1RgGSQyo15eXOP3e4DKotUBD5KlhTmCNmTDEamzuoZyAexTwA2amtMPFf6Pd7QunleL0H8W_ph3_LhOdxG8LPKuu2u1ZQHSXzvq_XjSHZSMg-WE7LCzrmdeg63fd3C-C_h3Xj-m4U_JSoX_YDBe3ZBPMPtdLPmqZVpUS-kwGpH7ENSzYhYo6YVpbmVR7LqVvPxZ_7FUbilU63NhWLQkDc0q5zjUDovSTdUcLqHMRezcDP7UI5-Ux6u_l3-xwra_sb-nGuJrOzS871s-Nz7ePj-RgfY5fl64QvA7mNnq9rRV2mYa9GgoYcXTdm8HBGdlKj172poy3i3Xc2NRe9iM53yO7zLHjml-XPfdB3iOyC3a-rn9SFeQLI7ldzWOEJvJK6HcezsiNkjkmcLdO1fGQutMNwlhf7yGiPN2wVUZHC5uu14H8aBbMIWf2CdJDE",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-01T20:40:17.612678+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Prezydent Francji Macron: Kluczowym czynnikiem europejskiej konkurencyjności był bardzo tani gaz pochodzący z Rosji. Skończyło się po 2...",
+      "text_pl": "Prezydent Francji Macron: Kluczowym czynnikiem europejskiej konkurencyjności był bardzo tani gaz pochodzący z Rosji. To zakończyło się w 2022 roku. Jednak naszym wielkim rynkiem eksportowym były Chiny. To też koniec. Europa ma obecnie deficyt handlowy z Chinami. Dziś każdego dnia tracimy 1 miliard euro w handlu z Chinami. Dwa lata temu kilka krajów nadal było eksporterami netto. Na przykład Niemcy pozostały eksporterem netto do Chin do 2025 r. To już koniec – nawet dla Niemiec.",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "c0e338614432a0ed": {
+      "id": "c0e338614432a0ed",
+      "timestamp": "2026-10-01T18:23:28+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Путин: России хотелось бы как можно быстрее прекратить боевые действия на Украине с помощью переговоров. Главное с «Валд...",
+      "text": "Путин: России хотелось бы как можно быстрее прекратить боевые действия на Украине с помощью переговоров. Главное с «Валдая»: — Нейтральный статус Украины остаётся одной из целей России. — За сентябрь российские войска, по словам Путина, взяли под контроль 1301 квадратный километр в зоне СВО. — Россия готова возобновить диалог с США по ограничению стратегических вооружений. Москва, по словам Путина, предлагала это и раньше. — Ядерные силы России модернизированы на 98%, а РВСН оснащены современнее, чем у других ядерных держав. — Если Запад изымет российские резервы, Москва может передать европейские предприятия под внешнее управление. При изменении ситуации собственники смогут их вернуть. — Россия готова начать диалог с ЕС и отдельными европейскими странами без предварительных условий, если Европа также откажется от них. — По одному из крупнейших медных месторождений Сибири скоро будет принято решение. К проекту могут подключиться китайские инвесторы. — Автопром Европы переживает глубокий кризис. «Мы скоро все будем ездить на китайских машинах». — Мир должен быть многополярным, а не биполярным. — На вопрос о нейросетях Владимир Путин ответил: «Я пользуюсь администрацией президента, а она — всем, до чего додумалось человечество». BAZA в Telegram BAZA в MAX",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 48.0092,
+      "lon": 34.7318,
+      "url": "https://t.me/bazabazon/49607",
+      "tactical_sources": [
+        {
+          "name": "Baza",
+          "url": "https://t.me/bazabazon/49607"
+        },
+        {
+          "name": "Baza",
+          "url": "https://t.me/bazabazon"
+        },
+        {
+          "name": "max.ru",
+          "url": "https://max.ru/baza"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/uZw8DgFtuDfix2h-BZID0andbCWAqebzXA84UrJA14-WWBI_3edCudEg8mW0qPVQ1p2BA-s-U-dE1a_UxLVLuYuGTRsaXaise367naS8eHbOeDmTEgXmZJwUtEhqTHAZjFvTJ2tMTm9EgNcNy8tJl0Mqa3G9l2qcSsHtdl0wllSZ1SPoV6p2Cba28AapywdSlDkGy0QhEmy0eLdXErrpTAsHZHm_B2yYOylNnoDvO6zGJad2x_IJY98h33jpVbedYzrm0AVl8Z-_RTgKkrPozQljTeMKejJL7WKlEqDA4IbjZHhJJD-SOX4WhXLuXuQADzK84e1oBfuT6jZluf0xQQ"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/b416ffad86.mp4?token=LCawC_yQYkzO8PrRR1_7HKrCrK7RpLXnJrcZi3SxGkQafjpWyw3uLzvHKhS8qNN45A07Ur4Z-7vuFcB_K0KlNin8ZoRzqA0evPun9nNE_WGpN90dzD-QHZtHEkdSUSPnaaeYqK9p6PTu6YaetYRXnmPsgXnF9_pqxR55PtBfUgjsdOnjmQZrWx2FZ3VsJpkRBELnUKX5M7XncrDHMWKk_EzZn9bM5TKcAFOptQbv10xtn3DNYmi7AWXear2AeDiXgqAm0d3_bLc-MtUzK7UPh9F8_wlem_TxuZMawVXRZieqnAynxXq_2lpC0k5XRuLURg7Ki3nXoOSXZISGX95aSA",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Obiekt Przemysłowy / Fabryka",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "bazabazon",
+      "added_at": "2026-10-01T20:40:17.612544+00:00",
+      "verified_by_sources": [
+        "bazabazon"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Putin: Rosja chciałaby jak najszybciej zakończyć działania wojenne na Ukrainie w drodze negocjacji. Najważniejsze w przypadku „Walda…",
+      "text_pl": "Putin: Rosja chciałaby jak najszybciej zakończyć działania wojenne na Ukrainie w drodze negocjacji. Najważniejsze z Wałdaja: – Neutralny status Ukrainy pozostaje jednym z celów Rosji. — Według Putina we wrześniu wojska rosyjskie przejęły kontrolę nad 1301 kilometrami kwadratowymi w strefie Północnego Okręgu Wojskowego. — Rosja jest gotowa wznowić dialog ze Stanami Zjednoczonymi w sprawie ograniczenia zbrojeń strategicznych. Zdaniem Putina Moskwa proponowała to już wcześniej. — Siły nuklearne Rosji zostały zmodernizowane w 98%, a strategiczne siły rakietowe są wyposażone nowocześniej niż siły innych mocarstw nuklearnych. — Jeśli Zachód wycofa rosyjskie rezerwy, Moskwa może przekazać europejskie przedsiębiorstwa zewnętrznemu zarządowi. Jeśli sytuacja się zmieni, właściciele będą mogli je zwrócić. — Rosja jest gotowa rozpocząć dialog z UE i poszczególnymi krajami europejskimi bez warunków wstępnych, jeśli Europa również im odmówi. — Wkrótce zapadnie decyzja w sprawie jednego z największych złóż miedzi na Syberii. Do projektu mogą dołączyć chińscy inwestorzy. — Europejski przemysł motoryzacyjny przeżywa głęboki kryzys. „Wkrótce wszyscy będziemy jeździć chińskimi samochodami”. — Świat powinien być wielobiegunowy, a nie dwubiegunowy. — Zapytany o sieci neuronowe Władimir Putin odpowiedział: „Korzystam z administracji prezydenta, a ona ze wszystkiego, co wymyśliła ludzkość”. BAZA w Telegramie BAZA w MAX",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "ec6034a698bd62a8": {
+      "id": "ec6034a698bd62a8",
+      "timestamp": "2026-10-01T18:23:24+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Мощный пожар разгорелся в особняке Миллера в Петербурге — здание полыхает прямо через дорогу от Исаакиевского собора. Ог...",
+      "text": "Мощный пожар разгорелся в особняке Миллера в Петербурге — здание полыхает прямо через дорогу от Исаакиевского собора. Огонь вспыхнул на углу Исаакиевской площади и улицы Якубовича. Исторический особняк является объектом культурного наследия. На месте работают восемь пожарных машин и несколько бригад скорой. Информации о пострадавших пока нет. Upd: Площадь пожара в особняке Миллера в Петербурге выросла до 2 тысяч квадратных метров. Ранг возгорания повысили до третьего. BAZA в Telegram BAZA в MAX",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/shot_shot/100630",
+      "tactical_sources": [
+        {
+          "name": "Shot",
+          "url": "https://t.me/shot_shot/100630"
+        },
+        {
+          "name": "Baza",
+          "url": "https://t.me/bazabazon/49605"
+        },
+        {
+          "name": "Baza",
+          "url": "https://t.me/bazabazon"
+        },
+        {
+          "name": "max.ru",
+          "url": "https://max.ru/baza"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/bZPM14HjORrg1kGzv2qmEn1vIowN7q0ClPNJCh6DFwcnSf0kLW0MELESA75W11BuCabVRVJ_erV5ZPtWVjAX3vQeZKblCgst0eBKkCTeUtuE6Nk1-bvUw8uZoIAChnltYDOZzcnCuBMGUC40cAfusyHNC1fLIkjv_uUWkuvTv8Xnegqygz5E_HleFYeNLV4a-8fceVINcj4oVFQqiAJ77WU9OWbAtGKXFi6EnhjebRbNG6aJQfyofdUJogiykOscwV-1vSh2D3gljbW-1k7fggZUhvDnU-O2WkhEY7Y_uSvkL_Z6vBh2NaNTLppcYCU1oVEneEspzixji_pM_lfKBw.jpg",
+        "https://cdn4.telesco.pe/file/sS85T5hh5Q9J33_qw3KLEqBJC_gE2L5Y-a3LTLyBY1gz3qte4qJfkvDVzykBXgRVsj7tfgfP8wbP-lfvCcBvNZq44RgHSk3DIgbxW2oBjH0c4fSrOQFt35rS58lwg7qrGNGnGz-9HTnA8GQDItB1LiED7tkwCDnILhKs-ndPKooE2a-vhZajNAlxjVjKZkCa3hOLI_Za9dV0lwXBTmD5SSKqiuqGzpZ6oHgFcB88mdrByt8sdaQ5Iar14-CkD4xTyt6IGPYuTzim89bXGeAzWsHyA02ccYucIdIejAxySQUPgcmEUSCspLb_rKZMTsNdFNXzCn36ZKKXStTGk2Y7Wg.jpg",
+        "https://cdn4.telesco.pe/file/YRPb3SnfJtXbrMJvkfW4h0hAqcxe2KtkD6uQrOLR9g5Mr5H0eyuRBTlU-LNRCLwV5YyCbWCO_fHPqEic5XvGsAszD4opC_-tI1t55UMIOp5wf0jPi0aV3m8ee8T0Im2NXT6ZMQ2k8tPgwY78dJY-d34g4otSY762Ir0J2ABeeYewRem8i3-R1-9hJqPL_VDswFBUJ-K2UxHmS54mEXeS_VuBdPzIBZ1LtSkd69DrWdVAVvAwhuGeut-cTlXys7fj2yfgaIuunJtQq7iRpQOfG8LvhDFhq1eW5GoraJAEmBquflnhRgFtgB812BTWkIV-u_9fttjhBNkqdS28uFzToQ",
+        "https://cdn4.telesco.pe/file/a9J7d3MFR0IB4XrkYojVtsu-OQVHh545U2dYZ_F1KnN953qugUDavgqhxh1XWUsyXb1-O62MnQLpNraRemLDXxKBaXaQCnm4WFzi6tE8ee693y2okciAg5R-NTsA-fBLUp8JakXHgyYhuTAwLskp1vC8DJK2Z2jlnIuxMgR-dlqs18dlZqGPJcys0Df10J0b9pCdL6xIfJs3WlBnnjQQgYO2o2vvCuZ1dZvidZZqC49y0uIm_wT-npYd9N3laOKRE6kLFQ9gt3Dmje2XEexH8TyIFYqI1kbIpFUxO1dvhw_gcvAZXbfijUpKZKXVP-DnllY7YIX_FxlVYMChnNWk0A.jpg",
+        "https://cdn4.telesco.pe/file/pUnrSx7Cp5OBh_RSVTVuDTmf0vEH_-2r6CFbRd-LvN2gWxw9Xpp-BSzVe06GLtpRtoGIU0IwNfSy5RKewtjdSVgdMcxjCCTGybINCRL6CIwxxHxrsixzoMSF1qk7LLVHfvmuTnF4BBcAqaMim_gcGADmyolrY4nl678B-qFeXS1Ovvyow8-bmNSC62njEnhQFs9CqeSeOYk8kR8tOgjGQ5KDS7sYM9V2ilkdxVeCq1ZRQIZzvsqYEFlhGQyOjzR1Hg4nEo5ij1ZhT6-l2F8EH68wB7NvLPXhfzo-16hLvwe0if470z3hCoA1c-n5zHVyC2dFPgbC0RSW6NfdF8xQuA",
+        "https://cdn4.telesco.pe/file/Q4xdPPLH5g35jIssXV08dy0SbjZE_E6sVK-OTEqR_HAhCoKI-xSpycqmjo-wTQEhHTmJgDAh7tLbTF3EExdMr7Klq64xNoPNEXwY9KvHubtUzxqTGS5eEPLAZhWJcHmEQvVYC0IX-ThWc9ov6VIVOeBr4zuMk9UT8wPhWlU0a78e1mlOP3Q10phnxK7vY07jjEt9WmPMcO0-Ia53CdpwkORLZ1BDvBEfYT6rUd_ER51CrDPSXmtue3CZtIL1gjUD63zZtKh7ggc4KDhGGggcGezpaQ1A9mhwVvEDAYqKD0j4jcEUg-yBgIHqyU93ycBJgch_W__Uf8Ab4bYIWv81uw",
+        "https://cdn4.telesco.pe/file/B090JK3-7Ec3tlAMBx3uASgpTeI3PZl5CoBbNtp2XFjHUlBxkCgQOr_i5hAVZhSHHwHDVUYEqyPReKV5vsvheJwP9q0lKTh8Eoc-uBmjYDuqJEg5_QQVICH7dZuOzRpDB-mlM6RNAn7NBh7r7nF7h7X47sSIAM1GOIsY-Edjoi-KE5AIG0HjbIk3kHSQhoVzyjvZSqCQ0BpxLqVskDai6EymsD-zK_SYA4-X_Tw4g7FeupYawNbddc0KjsumGX6dzXd0WMowITXiHpPr1OgWFPhrWtQ6D7VsOVWR0b1JrVu5-ytu2wpqSOfQJ__LCqCwYIcyvZgjAAluZIzevjoEAA",
+        "https://cdn4.telesco.pe/file/IYd_NvBMflxHR8uAmJPxb2WteadqJtHh5JalpDBFdRz_uw3S8yHH2hhiEb5ZSszmpgQqSPtLVFLkmzzShJiL6XnplnpG8kjb8oV04pbZhM0yj-w16T5j-_RjuvoJrPVkmWYiCjj4_baJ9XKMVzL7wYWBrhwpdRmhF1RjfBweqUpvgBB3nX2ERapUzknHJ-aYT6ROfVxnGn4_OuwMJAC5_VuPUfYmlXeajssvJHLc2ZwUeNVivXz-wV_PSLn_KZVGYJuo5ATxtUYECWGIQzsSliufYH_r-iEkSoGkgEEKtJi5YoAPmDlDWUVaiu6j2sRI8kn2QtwDjT3WKQ9MMbDyRg.jpg",
+        "https://cdn4.telesco.pe/file/IOV3KuiLUdUtM6t8GOpzhYA74R0UR8-UbJDD_J34aJoZLVdPa_BMjWVj058--48PINqNM4G5HJtSZWbg--Euc_QaSlseu0vWeYSdSPqbjQzISYk5tnqgddN8gq46imPV56Nc3A_yIMTUv7zXBdYSxBI9VexPJOLuqsY0YTLMKhJJZbB_ci31NnzEbujKObZkWHWYyBP1Vb_L8EolCxLUXXFA1nkwV5zhg52nF1n33q6uOJBb_istLcIJvzGro7kA99BsKByIq4yXHACEYRrjYZVxPgkYQjYInaJdw0HKAJo7O-HD64xpa-l58U6ewnxINTPT9nUCixtoXiKcMKhJdA.jpg",
+        "https://cdn4.telesco.pe/file/EdR0UcR4Ac766Q5u-Tm-9R0LXzaqAMlNW2huYJTDmplmBHOj0Umiysk0PUArAQ4Oa0GeGWy-jNsZz79X4LBBieGSkXMCCZ-8marzOIKb3Ei9BvU-NhRu1b7IUeX4wZLVxdmLff1Vm9ffoAnCop3W40DGUhQdU7xe5QfwVDEb7HpOW0rZ511kRxmjAKR2yuh7RovSs7rP0N6owU7blqRQoHHfxfMKgPAbQs0zhREXYoqcIRT9tb0mbup0aO7l3yEFIn7uEvsuyAfcPl1tP8P63ogLaVc3PMTG5ZGN9L1bbePcKx_e2bfzat-DCOA_QpUslb3XUSBppAbtCmeNXgkdxQ.jpg"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/1fe7f64224.mp4?token=GXJ9S5IpQCYSm-Jc_j8arl7qaTpFcKNZcrKR0PLKX2n2qY1PYusPM7j2ZBOqyA5vUK-TNqfjLANv6hlIvpcmLt4hCbBAWD6H-x-uEVwNtCbLDDE3yLFCxCT8h-zz1bLqeilrBhwI3EYAcMcoI_7vc2lVIt5Oj4B7v42BnwC-fVJ23-UxQKpq0IrHQ6XA_0EwfPcaCB9SkAelHbNHxqn5ZjOtbJGCZ6UhOv7EzAGsaur5s6GcTbc1RnHbjTp8wfUD-WC88FMwSr3JfBjngo-OGagN4Nt9mSJzSsGgGJd8I_5kFbVdXNNBMOBdO3lhS-JvhKE7oVBHdENaAeoIqhmhFljYAjBl6EbJ8NNrLyenVKssyMO9D2EIidiIF21ZgEmtpC4Nv9o2lWRUj08hDD8Nrgn0rzR6iTF4zOqKQ3qsX9l7dLKPmGXuNupodYGjKeMSL4AJZ1DWb052kj9z2kN9KI_-hGCt3DqIpyMZyRZNUhN_vLX1EcLxM_d2c8rnzxXI2vXW4ULnidp1zNZuXZne_nAtLIjiLw5qT9jIzINndMToUpkvkcc1UV9h7CQSLjsKf9fBaZfSfmE079DE8WU7mHQPUsDFPKA-Sj0kN8BXdeG7VStxAknOAekLtQEPTPFbUKg2l5sKmsaDy76JtlmILG6N63ElXA_0_Mi-h3fAyVY",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": true,
+      "threat_score": 5,
+      "source_channel": "shot_shot",
+      "added_at": "2026-10-01T20:40:17.612558+00:00",
+      "verified_by_sources": [
+        "rybar",
+        "kpszsu",
+        "shot_shot"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "Potężny pożar wybuchł w rezydencji Millerów w Petersburgu - płonie budynek naprzeciwko soboru św. Izaaka. Oj...",
+      "text_pl": "Potężny pożar wybuchł w rezydencji Millerów w Petersburgu - płonie budynek naprzeciwko soboru św. Izaaka. Pożar wybuchł na rogu placu św. Izaaka i ulicy Jakubowicza. Zabytkowa rezydencja jest obiektem dziedzictwa kulturowego. Na miejscu pracuje osiem zastępów straży pożarnej i kilka zastępów karetek pogotowia. Nie ma jeszcze informacji o ofiarach. Aktualizacja: Powierzchnia pożaru w rezydencji Millerów w Petersburgu wzrosła do 2 tysięcy metrów kwadratowych. Ranga pożaru została podniesiona do trzeciej. BAZA w Telegramie BAZA w MAX",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "f8e14a041436510a": {
+      "id": "f8e14a041436510a",
+      "timestamp": "2026-10-01T18:22:33+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "French President Macron on free speech: The so-called American &quot;free speech&quot; that some people promote today is the oppos...",
+      "text": "French President Macron on free speech: The so-called American &quot;free speech&quot; that some people promote today is the opposite of free speech. There is no freedom if there is no limit to my freedom beginning with the freedom of others and respect for a common framework. My freedom cannot mean hitting you, insulting you or destroying the common space for everyone.",
+      "location_name": "Inne",
+      "lat": 48.0944,
+      "lon": 34.952,
+      "url": "https://t.me/ClashReport/99287",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99287"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/VXTBne5Of_w7UXKeorBuGD-8MMrtf7gUxBI8VaZN8w5erV1LFLbZW_cVCjcujLU6VsVd8mAqplSSP-lxZSBjc8UuAG2YljY0EDn2B1no2jcb9IUyR3oGX_ClfF3OzVGl59-MoiWHzI9u6KUeAnBJeCWs05VLvXfMKVxAwXdk2faUkceXvOY7w6JmrBecCWL7U8qH1D44sGsoG3wfsJVZkHFnUDBEZ3OrOZIiA7N6C6nvHNbqZfjdnhjeLA8uCykTTcDNAkGUvYRC-SdTslzkCCEMyM1tFv3AF2_l1CLCaA1S-3PawY4vWrJR1115-RBi2xFHfbO9rNaih51DU5zirA"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/1eba8020eb.mp4?token=H-IYZq874HPg0co5_sX5VjSkvubnjOmZk_XbqMFblfK-tYj2j58RBQOmXtZqVKe8bjaWvDjslKROZlM4cUVhbDaRX5zAPUA10OSAfgk7AYRfxiqmL-8sT8YOYMGdjmhP-QhMRtZK8xEjDbQ0MwMZNKHl06NAXA_H3wxEeANobrkIT5zIGPTqEr2ahl_gK_uPES5sWT3UJFuFi9VhJA5E7v-l_Kxo1hkVJ7yShM3cWsvJuONpvv29pQ38mcmTA2A6xRIOCI2xdzMx4glCytAjJWJGTmf_LDb_umqdZaGZ8DKqqoKHu5wUNoxrG91wBw57TSyc-bEdRCIZocrs1rBEg1AKTu7PPNkYI9A1bMi6lO4x6qmt8m2UyFJPzin7FeSz8Uy08D-ByJ1nVGYTVhskQi6F9SsdozaKoUpbpDQcfbJmQRfYKe3F5JNVos5nQ3Imh7_Ojfhtgw_LMWsVnAlUF5Y0gXYJ77j-KweLCnkeEltbyPUuU54FLsPtMngO2FyDGmL3aN9hDgTwyFAWKxjbb2_71M4oppXXpeXEHXsBXtaeT2jB7akhOB3bOJrmI2c4jRT15jyO4PQMPlq1BOvn9PLll2MVg6Axr47o_0kQo8cxz_y0qX8jEBOi4uheL16zc3WqFHWWrPGjSqEuJuaNup7or8gzplV3Cc4wWki-oGA",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-01T20:40:17.612680+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Prezydent Francji Macron o wolności słowa: Tak zwana amerykańska „wolność słowa”, którą dziś niektórzy promują, jest przeciwieństwem...",
+      "text_pl": "Prezydent Francji Macron o wolności słowa: Tak zwana amerykańska „wolność słowa”, którą dziś niektórzy promują, jest przeciwieństwem wolności słowa. Nie ma wolności, jeśli nie ma ograniczeń dla mojej wolności, począwszy od wolności innych i poszanowania wspólnych ram. Moja wolność nie może oznaczać bicia Cię, obrażania Cię czy niszczenia wspólnej przestrzeni dla wszystkich.",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "aea8cfb89669eb5c": {
+      "id": "aea8cfb89669eb5c",
+      "timestamp": "2026-10-01T18:22:28+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Komunikat / Dyplomacja",
+      "tactical_category": "Komunikat Sztabowy / Dyplomacja",
+      "tactical_icon": "📡",
+      "title": "Putin on Ukraine: Of course we would&#x27;ve liked to stop it as soon as possible with peaceful negotiations. They should sto...",
+      "text": "Putin on Ukraine: Of course we would&#x27;ve liked to stop it as soon as possible with peaceful negotiations. They should stop blaming Russia, saying that we don’t want such negotiations.",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.9596,
+      "lon": 35.2736,
+      "url": "https://t.me/ClashReport/99286",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99286"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/SmZRudCKceBCiBZIf0OA4J4_U6qdk38az06A06ugZIPWu1Ob2k3hUrnteQm1s6I_KnuJrufTJSR5kLCAd4mOmijbQuvN1JdxGz2VyGedFOwyFPwO3q8B-m1nejo705w1KDckdwOzmDfGTifsb0Leu5jIfCybRTQYlh4pWBvkXQ7dWDBMnQQlrlwmyZC3HTgrDrLtPwmy0IMuZUSIZF1RWS3t9WI3zS6mWioQYrkABgNR6OgT5DjMX7QS7jEavQd95NLvQ2JXp8nMFUyxVvOOjJ4E2tSGjHBJSfh69EIMQfk2JAVfmsV8qExWVBv7_68J4H4on1MaXz9gBmi3geUHzg"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/70c71167fa.mp4?token=gtveBHI7IhWJU9AxV80meXq0srxjibUVcBVWTw76UKGSN7idBFK3GqG43_vcG8mCh9W_05tct9Mlc2wU5k40GivhwS4Banb0Jl4osmfLa4Z5dn9EnXKZLTOHH6Bw5Seu7NT9OHSDO6FU-aip9kjkCz2FzS3ErOHY6kPiiO4EpPqEao2q7y7KTp-VcsuygN4NXSSgXQsCeULyzdHXCzaegch_JGYe3-_9JqEHQwqEETGFlTyv2QQ3BWt9NbL_zIl1SWx9imfnUcNs0RhI2rZKrcY2OLCIl3HGPxlOUKX5MsI_nZHGalvQFHoCcjB8wKQwsQ2IfGvPcWyi2UKdDG_z6A",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-01T20:40:17.612682+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Putin o Ukrainie: Oczywiście chcielibyśmy to jak najszybciej zakończyć w drodze pokojowych negocjacji. Powinni stanąć...",
+      "text_pl": "Putin o Ukrainie: Oczywiście chcielibyśmy to jak najszybciej zakończyć w drodze pokojowych negocjacji. Powinni przestać obwiniać Rosję, mówiąc, że nie chcemy takich negocjacji.",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "c90a9e82431d4572": {
+      "id": "c90a9e82431d4572",
+      "timestamp": "2026-10-01T18:20:58+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "French President Macron: I must be able to choose my algorithms. That is what taking back control of social networks mea...",
+      "text": "French President Macron: I must be able to choose my algorithms. That is what taking back control of social networks means. As long as we continue holding elections and operating democracies with social networks functioning as they do today, we can complain about national populism, new demagogies and the extremes — but they will continue to emerge.",
+      "location_name": "Inne",
+      "lat": 48.0296,
+      "lon": 34.7288,
+      "url": "https://t.me/ClashReport/99285",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99285"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/l46F8OyaNlZgJE3mPLWjTCGIBjQgSxLUyiKS2DeNubKSq3whTGd_yCf7rZtljdquOSXTTefJiIjZb8_CL1LtPEm_JeYoHMepsJ_qeUE7uTtYgCTSWaijLT5rFHUnA8ganWLgaqR4kTUH0dcmDBAijMpWtxXJ5gjU1AXNZBn00nCxDEToeBAZ8rJvoZeOcbvfOw2FvdnQjKb2jW8USe5Xdu8hCzZIE0UYo-llfwjkVlVPzHIem-zgrLkMTsPvRDySWfLbGm8FyBU9CuJBbDRVWW25-Tt44spMS8WMcI1oM-PoNYy5wBrutIQzzQcH3_1ttJqt5StAO9VprLB_mwqEUw"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/d76aad88cd.mp4?token=E5ucc_sfmBiBB5JHWRexVZxFgvEZZjRI-avuMxTZx2EDiKRAnSTWvEAfwpTlRsva-zhcssro1XOf3LNW5qXx4b5RTvqfDkOY8faHThzXWRIj3pbz6P122KOQe5vcmpGtkP7LhHpmOylxJFXDH8u1aebIG47U7ds42qMJiyeIABzrZ8g1sZAQ7NjVJfqYKn8OLksLakMxmcCu6r5ifDEo8GkCE0IZ9gFlIZs25S6A5hba5nQVQ6j3ddwNGR4Jq514o_B67PGkj7vgo2boxHEKB7oJdZC1MBiTcE8z-FjBGG9mgZlHeYa6PKl0Q41SgTvwjuTUDwK-pHIn0hhSfwl2oEKAFQ6C1dSvcfb7wZXgEjJXJhzFtpqzx-9YBQF7hAYY9JDQ_fMhdEO9xxi3-7zkmK-mmhNpIYZ_236W1N38WoEnq8hU7HR0XDmUI1gAl_loMS8yo0r8wygBSpuPPln54GSGra2KmeCc0RmNGTCofJY7NSIelpApfGV8onAO9fB1V9-0EtvNcg4QYykhACAHpP7qJbtl-Ni5JOVonnkqWQ27HTN9jZwfZSRoK86PlFwjFAPnUVnozA7vReWWlZCb_j7ur_3hsm7FvIv74ekFslqpBxSONXcWm2A8-XYYVE5WffHtNgwAQi2XiOp_wkZN4IoQS0VX24YD4p89Cjhn2ls",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-01T20:40:17.612683+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Prezydent Francji Macron: Muszę mieć możliwość wyboru algorytmów. Oto, co oznacza odzyskanie kontroli nad sieciami społecznościowymi…",
+      "text_pl": "Prezydent Francji Macron: Muszę mieć możliwość wyboru algorytmów. Oto, co oznacza odzyskanie kontroli nad sieciami społecznościowymi. Dopóki będziemy nadal organizować wybory i funkcjonować demokracje, w których sieci społecznościowe funkcjonują tak jak dzisiaj, możemy narzekać na narodowy populizm, nowe demagogie i skrajności – ale one będą się nadal pojawiać.",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "1de550333fad27f2": {
+      "id": "1de550333fad27f2",
+      "timestamp": "2026-10-01T18:19:41+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "French President Macron demands: We want transparency in algorithms. You must explain how content is brought to me, who ...",
+      "text": "French President Macron demands: We want transparency in algorithms. You must explain how content is brought to me, who is favored and who is not. Ban fake accounts. There can be a legitimate debate about anonymity, but I am radically opposed to there being no real person behind an account on a social network. That is unacceptable.",
+      "location_name": "Inne",
+      "lat": 48.11,
+      "lon": 34.7912,
+      "url": "https://t.me/ClashReport/99284",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99284"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/h-UXkc7Dz8PByrE9QPU_0IxNMRxHHsBBwMQg_caenT1ARqzHUG8AYPDP12yHozC2s19e1kefUFFsqUKuPPTy9bzEB4USOvojas6qmSin8cXx30N4J_Th6XrWTqrEfkseetA1K8i6uHErf5k-2kGDPWi5mimehR4iGil6zrZUofrimCW8CBZCDYSv7Zlc5tc9AL9MprUZLpDd60cc69JEuHWtqUrmqqVF3JUaFowALw4pyfEky4EVc3fbF6GBEbhymO34FeJKRKtCreIuDcnIi8jYxJrB-BFoBOvzhLwiVGA0ACg9Bpy4uWOsGYzWFua85qgBhAJlBn-Z3UBljDUaOw"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/572dd8d804.mp4?token=Hb0QPFU0BKoj_IO-yayVb4cXYpljl-60sBHFcCI0ZouvG3P7fIhI4WnQMhdovF8J-wOzXRGIZmvf_v5ntXtFyaAm3_gAzFuF20sDjS4jpESX0LZM78oi_axT3Ix2GlTrMMpOfhOUzTAiy7H6KvSGPidRewdy0mE5N1IMEdvH4GNRpiKwJxnbFhLcMogaScnMOaRLac616Dmw1ToHoICEkmsqQnKXyHDp0qA_JHXhco3mrRs6f2AqovZPPFN_nuqy9oRDMtq7wmJdaLkOVx_kbn3pw3BeJ0Cg77FIcRMP0cRSzbHiEHaNnh42IBHLTHIMmZ-E210BDoR7sMCghqqoP63Ca5TtDxDhAjhLf8nUZhVmk37ottMvKxAnj-hw4qXDvjariZNSsNuPLoQxiQFonxGDRcxYC5nMe1rzt6jOdrN09oAQ2sbW0GJYBJ4sM76tpo1rt-mZF7VrSaplsfvv1LHHYCDY9DQ2cVI6elynchUmpavmpJEiDJc7ORTnHQ0nqpH3wzBRuidLUC-YX2Gx_a-tUboCdw1DvPXXD40OWc-uZDEemetChFdrXGW_G2CdmLITmqZPquehP1F-Z0eGbQEjwRjSKiM1lHkR97-tPikHxb-Q0_nbvHkRG5YR011d4OVSiKKgvb_vA7vGkAhKjI3yTpgw0ct1ooCW5LvdIaY",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-01T20:40:17.612685+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Prezydent Francji Macron żąda: Chcemy przejrzystości algorytmów. Musisz wyjaśnić, w jaki sposób treści są dostarczane do mnie, który…",
+      "text_pl": "Prezydent Francji Macron żąda: Chcemy przejrzystości algorytmów. Musisz wyjaśnić, w jaki sposób treść jest dla mnie dostarczana, kto jest faworyzowany, a kto nie. Zablokuj fałszywe konta. Można toczyć uzasadnioną debatę na temat anonimowości, ale jestem radykalnie przeciwny temu, aby za kontem w sieci społecznościowej nie stała żadna prawdziwa osoba. To niedopuszczalne.",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "cb7b6ccfa7c2dc09": {
+      "id": "cb7b6ccfa7c2dc09",
+      "timestamp": "2026-10-01T18:17:18+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "French President Macron: If I want to weaken your leaders’ ability to support Ukraine, or if I want a particular party t...",
+      "text": "French President Macron: If I want to weaken your leaders’ ability to support Ukraine, or if I want a particular party to win, I go onto your social networks, push content designed to provoke overreaction, and I can do it with fake accounts. The madness is allowing masked outside actors to manipulate our democracies and allowing algorithms controlled by a handful of people to manipulate our tastes and choices. We are crazy. That is not a rational choice for democracies structured like ours.",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.906,
+      "lon": 34.9016,
+      "url": "https://t.me/ClashReport/99283",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99283"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/Y3GjfzNqerN9Y3L8_vJCHzNyfw2vjp0SBRCW_iiR6WOAq5sydANknmGnVzR9RTzLClK2XFnPOYpVJM4VPILUdo92HckxLEIOwHYReAzMr8BS6eoRoSDijXwTX7luyf7qyemzwu0DfMldsuSGsGrlxTkywBSejWdS9Z4S7fKoN9k-NqGSNAxHSbLrl47WuP6B7prwsMsOr7C42E7Z-47Fg3qxiLpU5idxhwO0tmxU-23zoFAcMGGXU0hG3rPagc399QQlQcPGBU8tbFNbbv9k4jZoOLl1NyuwgwdFqQW1Ga32xbcWrOeA07xt7_N34b6DsyhUU4Hife9wR_Jts2-rnA"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-01T20:40:17.612687+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Prezydent Francji Macron: Jeśli chcę osłabić zdolność waszych przywódców do wspierania Ukrainy lub jeśli chcę, aby konkretna partia...",
+      "text_pl": "Prezydent Francji Macron: Jeśli chcę osłabić zdolność waszych przywódców do wspierania Ukrainy lub chcę, aby zwyciężyła konkretna partia, wchodzę na wasze portale społecznościowe, rozpowszechniam treści mające na celu wywołanie nadmiernej reakcji i mogę to zrobić za pomocą fałszywych kont. Szaleństwo polega na pozwalaniu zamaskowanym podmiotom zewnętrznym na manipulowanie naszymi demokracjami i pozwalaniu algorytmom kontrolowanym przez garstkę ludzi na manipulowanie naszymi gustami i wyborami. Jesteśmy szaleni. Nie jest to racjonalny wybór w przypadku demokracji o strukturze takiej jak nasza.",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "5abbd6c2633dcd18": {
+      "id": "5abbd6c2633dcd18",
+      "timestamp": "2026-10-01T18:15:59+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА курсом на Бориспіль з півночі.",
+      "text": "🏍 Реактивний БпЛА курсом на Бориспіль з півночі.",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.9776,
+      "lon": 34.7576,
+      "url": "https://t.me/kpszsu/82178",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82178"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-01T20:40:17.612445+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍Reaktywne BpLA zmierzające od północy w stronę Boryspola.",
+      "text_pl": "🏍Reaktywne BpLA zmierzające od północy w stronę Boryspola.",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "d69ff04e13fdf162": {
+      "id": "d69ff04e13fdf162",
+      "timestamp": "2026-10-01T18:15:12+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "French President Macron: Europe has become desynchronized. It is too slow compared with China and the United States. Eur...",
+      "text": "French President Macron: Europe has become desynchronized. It is too slow compared with China and the United States. Europe’s battle for the coming years is to innovate much faster and much more strongly. Over the last 20 years, in GDP per capita, we have fallen behind the United States, and more than two-thirds of the explanation is that we innovate less. Artificial intelligence and robotics can be an opportunity because they can give our societies new room for maneuver.",
+      "location_name": "Inne",
+      "lat": 47.8496,
+      "lon": 34.9832,
+      "url": "https://t.me/ClashReport/99282",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99282"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/JnB6BLWwmnzPCQ4bcQOtbljuqghDPJO0jXSGeHs96tMF_qK8P4yihyGqJr7yOKlDGFbiqNfOWKEaMxqEDUsD9lgRAt4WJrSM7jw1CwjvqxlwDq1svhoT9oaKBwDJs6v_3PYS2e8vcKXfNv1LG47qRVA8_jexnbgs2mBe_Ak5qf8IThc3zuETrQYRo8BX7bdvVjjpTo3SR73yJo55RO6-L4VPOSm-DNMqA-fGFxUsPq9n7MAKSQRMz4utJ4TahbE_4SaGiJPOkKOoPOIWCLRyEbRi8L8gDGqutmzaJlwr3ahL-ugme9nwYTprPkXpBPHJnoHfl7032-bTlw_zZ6QX-Q"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-01T20:40:17.612689+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Prezydent Francji Macron: Europa uległa desynchronizacji. Jest zbyt powolny w porównaniu z Chinami i Stanami Zjednoczonymi. EUR...",
+      "text_pl": "Prezydent Francji Macron: Europa uległa desynchronizacji. Jest zbyt powolny w porównaniu z Chinami i Stanami Zjednoczonymi. Bitwa Europy na nadchodzące lata polega na tym, aby wprowadzać innowacje znacznie szybciej i znacznie silniej. W ciągu ostatnich 20 lat pod względem PKB na mieszkańca pozostaliśmy w tyle za Stanami Zjednoczonymi, a ponad dwie trzecie można wytłumaczyć tym, że wprowadzamy mniej innowacji. Sztuczna inteligencja i robotyka mogą stanowić szansę, ponieważ mogą dać naszym społeczeństwom nowe pole manewru.",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "75918c3f5f74b7b1": {
+      "id": "75918c3f5f74b7b1",
+      "timestamp": "2026-10-01T18:12:38+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "French President Macron: The first answer is to re-humanize social networks. We have to take back control. We have to ta...",
+      "text": "French President Macron: The first answer is to re-humanize social networks. We have to take back control. We have to take back control of social networks and of the artificial intelligence that is arriving. This is a European battle. What I call re-humanizing means taking back control, putting everything back at the right pace and making democracy work again.",
+      "location_name": "Inne",
+      "lat": 48.0712,
+      "lon": 34.805,
+      "url": "https://t.me/ClashReport/99281",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99281"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/KnPN5V0pqk0o4qGgeFmnPMHqbj-jARfDf5-M2nn06NxiAvWz6VYt_wJh2g09Zt90nTiA0CoKILBsXMNA7ax_BNUn6JudFeQkb6yHSXkCM_1jdLcsN2IKGpUUWTZKrtBNQyfUbuOFoExqWey13LRptk3oP7NPrIb2-6k6aQOnZ1XWY9pfjc34TSIOjBMyyebp0mTDYURcFtyJxt5CXa-k08QO33nipmbw8KLDIR3kJVPqHgHrq9tNgozU6uBJQMCqdHYNEAJ1sP5Py9nWmeFYTlQA0oU12UAG_ZKUxjRraIx72u0B-BtcYLIIJsKqrIAcYSgL-a34q-g3RK1qAC6fiw"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/74019d2b6c.mp4?token=gLA1GLIj9C9joEnyFn9tDfJafVI6Ea5ZfXvraqHrY6reUcBGlBcQ594L7wgWDsChh-vNBxmHPjhUuGdhVURgjdQbr-HjLwpHLwh-ZtZqP2MwHmhP-BfkrB2IhpEdNvCDuSzNtyLfDjP6nfoMg5DkIHmZ0Yl3qsf1_94QgrEOYKDZweImabkFenE7e6sf53SNSMnybKHTeXw-yXWj-X8Rmk3u8U5sYq0mxQSATKkLHJEQZlaaLri7was6Hn-jU0dw3knTjSMb6R4cfFcV8t6ZPyAu6IpVmz8Z7EeRSHuX0QMjJi4CMaeaKIaMZjWO-p9ixugU02v_scjYvQSFoGwUHWBYTazBmdw8NLdVoUobiFhIRPV_hrrTw7PcAA21C39IsmUMVG8nGn1FeVJGnf6lyS4Ufbj13heXQoOmudG-9-8LCt5tKq-9mw3df2maay3I6vUrfRbhRA7_HMEHE3fTZtXcBHNVKe4Q-m7Lqfa4Kgyo0AdDgMhC-1-b8V4ISyzu9kA788OXsyL1zg_5phaU8wNSqZILRm2VCjJ6qDSOwiN5IbgMcpRFAQPDBGXg0MgcH3nE1eJEbRYQB-FpIPA6lA1heVOH45oMPkDdheM-x6Br1GmEMba7OZMczERaaU2V-0fZpZo7yxAEYXrWCo66jFiEfKvPQt1mz_mMRabS7vw",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-01T20:40:17.612691+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Prezydent Francji Macron: Pierwszą odpowiedzią jest ponowne humanizowanie sieci społecznościowych. Musimy odzyskać kontrolę. Musimy...",
+      "text_pl": "Prezydent Francji Macron: Pierwszą odpowiedzią jest ponowne humanizowanie sieci społecznościowych. Musimy odzyskać kontrolę. Musimy odzyskać kontrolę nad sieciami społecznościowymi i nadchodzącą sztuczną inteligencją. To jest europejska bitwa. To, co nazywam ponownym humanizacją, oznacza odzyskanie kontroli, przywrócenie wszystkiego we właściwym tempie i przywrócenie demokracji.",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "de67110a13abb5b4": {
+      "id": "de67110a13abb5b4",
+      "timestamp": "2026-10-01T18:12:27+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Putin on Russia&#x27;s economy: There are some problems to be addressed, but who can boast of not having any problems right n...",
+      "text": "Putin on Russia&#x27;s economy: There are some problems to be addressed, but who can boast of not having any problems right now?",
+      "location_name": "Inne",
+      "lat": 48.1048,
+      "lon": 35.2736,
+      "url": "https://t.me/ClashReport/99280",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99280"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/JT-9u4meoEBDpA-HqlSgveO3_I7EbkBivDgioqwH2cPwbtDAvSOSuGshzFM-AuR-35ceMQVv_lpO8a9P4hA1A99dSZdqXKmycWWXOaikCdWjgqpLbfQCTrZYLzQxgwyuXy7mHTMXaxxNHa07UDE_vMWs5rEBohxI5Uv82o141ujkv8J35kstEI3aFA6aB70OJ0m_3Rxd1EEK8Oe9Sdz9FwkQjgxHyhweLHGk3jdwVI6HZFOy3x6z7u6tI-Kc9wr0Iy1l606ybiumcUciTyjn5CGEDVlNkB9GJT_ZQlf9NHUk4sUj-x92jx4KTGVQPB9MGJ33iFIvnkgM01RtVmu58Q"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/49a7377984.mp4?token=JMofJjPc4Nx549-Ai8MQx89lNikMmJZcpPpTk4aGim3yNT0ZjQNp0je7yNRVaA0mZCYk-4IzPtb_p-ehYQ9oDweNcVxwPjAAtt1xJf40pOTu9frzCmN_m3hRMnNCcDUsUESiSiWYIpcLFWAT-vqbaF-kNupgGWfnygZK6qmCnjU20MeeneJ3Dao9HdYAXiV2a83EuFohiJQMad0wq-D9r0YrrUmOA2qVqaTE_5pIBRBoNRXt9zkKBcj2LlJowfwVtoDFw-MQmtnETDHYa2IQSZpvfJkvJQwiyLzne5cbOSEyZEvtlfcxkNIeYm8ZdyCx9SvTtG7lt3c-guQ3fTAS_g",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-01T20:40:17.612693+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Putin o gospodarce Rosji: Są pewne problemy, którymi należy się zająć, ale kto może się pochwalić, że nie ma żadnych problemów w tej chwili...",
+      "text_pl": "Putin o gospodarce Rosji: Są pewne problemy, którymi należy się zająć, ale kto może się pochwalić, że obecnie nie ma żadnych problemów?",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "8371139141b8a4e8": {
+      "id": "8371139141b8a4e8",
+      "timestamp": "2026-10-01T18:12:15+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "В Павлограде после российского удара загорелось административное здание в центре города, пострадали три человека, — ОВА ...",
+      "text": "В Павлограде после российского удара загорелось административное здание в центре города, пострадали три человека, — ОВА По данным главы областной военной администрации Александра Ганжи, пострадали три человека: 69-летняя женщина в тяжелом состоянии и двое мужчин 24 и 42 лет, всех госпитализировали.",
+      "location_name": "Pawłograd",
+      "lat": 48.5277,
+      "lon": 35.8711,
+      "url": "https://t.me/astrapress/126878",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/126878"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/p3jUNOccwCKa1JfFP24TFUijMPF53Wia_cXMzglHgw3cosCh0fLY19IlLt2WmNZGpx9yiXokDJ8e4XZ1SsfMgH4eFfsLJZGNj6iFVhrfEgnbzRQ1T5CAepgVDzzBC8c5qZQIt8KgAoDnOQD2j9bYjyUrop_ikOwTmIu5PUmIwwOZc4W-TS-lSss4645g2h6NQ1YvOz1ts7Cqajf7NpTThWxd3x9KGlyeVRiivFk3foMpknKpOMUnjJGZ-E4Fv4LKNhNyRt2JZuAKohZzRLnQ-LMdsH0NN3z6Q3bUylk8BRZ8W7sWoYJWEKmwiRMHzAFu1BJttZbaHUnAzt1zxyPV9g.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "astrapress",
+      "added_at": "2026-10-01T20:40:17.612517+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "W Pawłogradzie po rosyjskim strajku zapalił się budynek administracyjny w centrum miasta, trzy osoby zostały ranne, - OVA...",
+      "text_pl": "W Pawłogradzie, po rosyjskim strajku, zapalił się budynek administracyjny w centrum miasta, trzy osoby zostały ranne, - OVA Według szefa regionalnej administracji wojskowej Aleksandra Ganzhi, trzy osoby zostały ranne: 69-letnia kobieta w ciężkim stanie i dwóch mężczyzn w wieku 24 i 42 lat, wszyscy trafili do szpitala.",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "feeb8246ab006ccd": {
+      "id": "feeb8246ab006ccd",
+      "timestamp": "2026-10-01T18:10:34+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "French President Macron: I’m wary of the word &quot;populist,&quot; because the word &quot;people&quot; is inside it. We should not give the...",
+      "text": "French President Macron: I’m wary of the word &quot;populist,&quot; because the word &quot;people&quot; is inside it. We should not give the impression that the people are wrong or contemptible. I call it demagoguery.",
+      "location_name": "Inne",
+      "lat": 47.94,
+      "lon": 35.0126,
+      "url": "https://t.me/ClashReport/99279",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99279"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/IjKkv0gHDH6EjdvFROvbg_NCgnyEV_zYlRi20wAE4eK0S_Jucs3ebHkcL69yvWWHuObadfxy11jra7cf1hNHbn_wbvin3aCWDTHVn8lWfDQBMjp786Q5Eqn9jPWcJbj8ngYj6gQMYPsAglZUXh7zz9D0MpxJFzF1y6aVx51bbLXs_W8tFnR4ev0mNjsOu6Ozi_3V4YJ1dR_EODIlL94rj5n7DNTkbb3z7gvmcgmfGV_bHkTChlMvZh1quCuYl3D50czJgEkKYSD70HyDLbfaYMCSEUUxs0ksfroJYCiZkJPcJjl9Ts_g_zj4v4gZCJ8_ST0rbYSt0ZJtT-sSoC8JtQ"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/69d45217ea.mp4?token=pBvqQ1anACKutduWm3P_xN_1m7vLXIrLSpitQFhxzOJ9JHbuajlpVdLNRMyJZFVkRzns_h24phL_gKfaJ6B9reD7U9vVMI-kCLAqP1pq3k6feIeZgu-Iq3MG-7cYAZ7W6PmsoA38F6MLM_grIlC6xtoqYddAIP8s0vHG2aZwZC4GknIrpHCi6ub5HqamzfTN9LBNrLc2OA46reZT14CYLA3qHpmWO668d_6mU2zjX1TWllyJurNOd6oIQXgyJgZaa7DKAuJx1YanPAzLPi5on83ePgDMC7jymDTfjUFsIRzNKSjw3zITtwLNkL7D7tz36KOrJqcnDEypnhWnEnJMnDxaOTZqruwLtEuSfbZ86PelD9CiSblrs19QwJhzX-X9nMJrq-XgnusIrqpny20ajZhJKbXySE3AH6WLW4ovyZO5qJbitMzz6SWtqFHz_9IvBD5ejDeSfDmsTRpPxkAvLFB9RDYB_V8mmyJZyCVI5tTJC9QOlBr3bdCLiGiyhHMKCFhoRKxDEcI9GEN4rIjAZF9W-bKIeky44H6ALSm9xDmLtJVoXXtgLUhokVYmLaJ_QN2HL5fq28Y3IK6YYkyuug62Btn3PNxSGOb2_nD2iV-a91_LjPRHFonqrkOBEbMQKB7yJkvSH4T5Fl88I9dxS5UZmmb_Aj4Ne5YaC8EdzZU",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-01T20:40:17.612695+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Prezydent Francji Macron: Wystrzegam się słowa „populista”, ponieważ pojawia się w nim słowo „ludzie”. Nie powinniśmy dawać...",
+      "text_pl": "Prezydent Francji Macron: Wystrzegam się słowa „populista”, ponieważ pojawia się w nim słowo „ludzie”. Nie powinniśmy sprawiać wrażenia, że ​​ludzie się mylą lub są godni pogardy. Ja to nazywam demagogią.",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "b7e0b950276369b6": {
+      "id": "b7e0b950276369b6",
+      "timestamp": "2026-10-01T18:09:31+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "NATO Chief Warns Europe to Prepare for More Russian Sabotage and Arson Mark Rutte urged European allies to prepare for c...",
+      "text": "NATO Chief Warns Europe to Prepare for More Russian Sabotage and Arson Mark Rutte urged European allies to prepare for continued Russian sabotage and arson, while Germany and the Netherlands pledged closer intelligence cooperation. READ MORE",
+      "location_name": "Inne",
+      "lat": 47.972,
+      "lon": 35.009,
+      "url": "https://t.me/ClashReport/99278",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99278"
+        },
+        {
+          "name": "clashreport.com",
+          "url": "https://clashreport.com/world/articles/nato-chief-warns-europe-to-prepare-for-more-russian-sabotage-and-arson-po3c6vem8p"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/qEMUewzxAaRgQvR-E9Tv-629qwBh30xigvWqvoImNxKSU3OsdBG2D5aXjeRfMnmbqdqkMGCjkYsmvlrt2pWkp2V53RPUwzN9ZXZ1KHjYD9ZNBSdpPDJXB44jXxLEOm-TGsoIBq4V4ABPzGa5rK-PCqFqPoDi8lyH4JVzw79sX0_YoD0Vu7TWv7pjtNGe7xuceuOli0jJanPyfXswb-jjw1UMW0ZM9RhMdfvW7jbRCcRRuRfhXzyJ0AYzq8sph-eUdLhDQ9rlLWx4lCdOpFrlmkwFGAw4_mBymwG4xeGwoXon3kBEbAy32dqfUGXf7f6NLmbODynRtSxY6i_VCRHCzw.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-01T20:40:17.612697+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Szef NATO ostrzega Europę, aby przygotowała się na większy rosyjski sabotaż i podpalenie Mark Rutte nalegał, aby europejscy sojusznicy przygotowali się na…",
+      "text_pl": "Szef NATO ostrzega Europę, aby przygotowała się na większy rosyjski sabotaż i podpalenie Mark Rutte nalegał, aby europejscy sojusznicy przygotowali się na dalszy rosyjski sabotaż i podpalenia, podczas gdy Niemcy i Holandia zobowiązały się do ściślejszej współpracy wywiadowczej. CZYTAJ WIĘCEJ",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "70568f81cb8e1e1f": {
+      "id": "70568f81cb8e1e1f",
+      "timestamp": "2026-10-01T18:08:13+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "French President Macron: There is a crisis of effectiveness in our democracies. We have made our systems more sophistica...",
+      "text": "French President Macron: There is a crisis of effectiveness in our democracies. We have made our systems more sophisticated, but we have become extremely complex, less understandable and slower. Checks and balances and independent authorities were created for very good reasons, but they have slowed the ability of our democratic system to act. That creates impatience in societies that want problems solved very quickly. This crisis of democratic effectiveness makes our systems less acceptable and creates a fascination with authoritarian regimes or authoritarian systems.",
+      "location_name": "Inne",
+      "lat": 47.9324,
+      "lon": 34.7876,
+      "url": "https://t.me/ClashReport/99276",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99276"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/nsMoe2HMakCuz1nDaAxcoAkeJw0-mtCU9inLqSGBVP4ae8YhTpPotCmL1DKbFNMVP1au0dJxxcFVCU8QmenEriIsJG4ovBgrUKgY5Dl-fuH-gKH0tO9KQ76mQ2EYgG9iOuyIg7ap_tV5Sd9uNcXWW-ekvazVqGxtX2jABsVQ2IvrZeJnN3ap6h_gjejA7hRtJLmaw2Rl-QQLjuYI0a-xNjgzxZYfNRz04bryy_UK1IoLF0vvgGf9-TlmCsvskH13MBsh2AA8lnSWjlfESzDqmtdWpu2tFf3OkoL3HijJFCci3WV6_V7ODZpxvPQcsA7CYcjaGPvpitONf53iA88BgA"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-01T20:40:17.612699+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Prezydent Francji Macron: W naszych demokracjach panuje kryzys efektywności. Uczyniliśmy nasze systemy bardziej wyrafinowanymi...",
+      "text_pl": "Prezydent Francji Macron: W naszych demokracjach panuje kryzys efektywności. Sprawiliśmy, że nasze systemy są bardziej wyrafinowane, ale staliśmy się niezwykle złożeni, mniej zrozumiały i wolniejsi. Mechanizmy kontroli i równowagi oraz niezależne władze zostały utworzone z bardzo dobrych powodów, ale spowolniły zdolność naszego systemu demokratycznego do działania. To powoduje niecierpliwość w społeczeństwach, które chcą bardzo szybkiego rozwiązania problemów. Ten kryzys efektywności demokracji sprawia, że ​​nasze systemy są mniej akceptowalne i powoduje fascynację reżimami autorytarnymi lub systemami autorytarnymi.",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "3ee22953c39639b0": {
+      "id": "3ee22953c39639b0",
+      "timestamp": "2026-10-01T18:07:32+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "📝 Реалии многополярного мира придется признать 📝 Ни энергетических, ни других перемирий не будет. Об этом прямо заявил п...",
+      "text": "📝 Реалии многополярного мира придется признать 📝 Ни энергетических, ни других перемирий не будет. Об этом прямо заявил президент России Владимир Путин на форуме «Валдай» . Откровенные заявления прозвучали и по вопросам фундаментального изменения в складывающемся миропорядке, а также опасности проникновения ИИ во множество сфер человеческой деятельности, и как она влияет на мир. 🔻 Основные высказывания: ▪️ Прежним гегемонам неизбежно придется признать реалии многополярного мира. ▪️ По мере ухода от западной гегемонии мировая ситуация будет меняться к лучшему. ▪️ Реальное влияние Запада в мире снижается. ▪️ Многие прежние нормы права в мире отброшены , а новые пока не появляются. ▪️ Всем в мире рано или поздно предстоит договариваться о принципах нового мироустройства. ▪️ Тенденции на мировой арене заставляют задуматься о том, как сохранить глобальный мир и безопасность. ▪️ Нам придется жить в чрезвычайно нестабильном мире. ▪️ Масштаб уже произошедших в мире и грядущих перемен огромен. ▪️ Принцип «сила есть — ума не надо» кажется руководящим для некоторых мировых игроков, до добра это никогда не доводит . ▪️ Созданные после 1945 года международные институты не отражают ситуацию в мире во второй четверти XXI века. ▪️ Продолжение международных конфликтов в ближайшее время весьма вероятно. ▪️ Страны Запада оказывают непропорционально большое влияние в ООН, что приводит к дисбалансу. ▪️ К ООН сейчас есть обоснованные замечания , она управляется менее коллегиально и демократично, чем было задумано. ▪️ Россия поддерживает идею справедливой реформы ООН. ▪️ Нации нужна перспектива: без прошлого нет будущего, но и без будущего прошлое теряет смысл. 🔻 О проблемах применения ИИ в военном деле : ▪️ Нужно избежать «самых катастрофических сценариев», когда человечество скатится на грань выживания. ▪️ Технологии выводят на новый уровень возможности всеобщего уничтожения из-за конфликтов или утраты контроля над технологическими процессами. ▪️ Миру еще предстоит учиться жить с ИИ. Воз",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 48.1468,
+      "lon": 34.8572,
+      "url": "https://t.me/rybar/83640",
+      "tactical_sources": [
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/83640"
+        },
+        {
+          "name": "qr.nspk.ru",
+          "url": "https://qr.nspk.ru/BS1A0068ID10D33B9IBAQRQ4M9T0NIFN?type=01&amp;bank=100000000008&amp;crc=36CB"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/83629"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar"
+        },
+        {
+          "name": "#rybar_in_english",
+          "url": "https://t.me/rybar_in_english"
+        },
+        {
+          "name": "max.ru",
+          "url": "https://max.ru/Rybar"
+        },
+        {
+          "name": "vk.com",
+          "url": "https://vk.com/rybar_force"
+        },
+        {
+          "name": "rutube.ru",
+          "url": "https://rutube.ru/u/rybar/"
+        },
+        {
+          "name": "ok.ru",
+          "url": "https://ok.ru/group/70000041986659"
+        },
+        {
+          "name": "dzen.ru",
+          "url": "https://dzen.ru/rybar"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/Q0oqW8ODvodJyVDsxCi6rVgGutKgAnN2HV1tew_utPkmZsrkbHqYUJaJ2ZtvsihnIkm1Ama6O4WdSY4_SCbf1ooFSfPCsn_8KbCXyjZPnI8W-ajlQFD-A0uYGkB3tm3ik1MqtNaD-izczc00iPHQkROe-AdE3lmOqermck6Hi-JPhffDGZQ_Peqjzg8OA00mkIjDFmaNCOXhq3XLDQiacs6CMB-pVV0bfHJRQqW3n9SSfFOTvugqtyySug7hvRH--zEhJ4dAw25ZMTAwAmzgWFOUPx3j6NeScri7cEU8xbSZfkGq8b-km45pEP3L0jvir8N9yrtsjpuT41p22oyrlQ"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "rybar",
+      "added_at": "2026-10-01T20:40:17.612612+00:00",
+      "verified_by_sources": [
+        "rybar"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "📝 Trzeba będzie rozpoznać realia wielobiegunowego świata 📝 Nie będzie energii ani innych rozejmów. O tym bezpośrednio oświadczył...",
+      "text_pl": "📝 Trzeba będzie rozpoznać realia wielobiegunowego świata 📝 Nie będzie energii ani innych rozejmów. Prezydent Rosji Władimir Putin wprost oświadczył to na Forum Wałdaj. Frankowskie wypowiedzi padły także w kwestiach fundamentalnych zmian w wyłaniającym się porządku świata, a także niebezpieczeństwa przenikania sztucznej inteligencji do wielu obszarów ludzkiej działalności i jej wpływu na świat. 🔻 Kluczowe stwierdzenia: ▪️ Byli hegemonowie nieuchronnie będą musieli uznać realia świata wielobiegunowego. ▪️W miarę oddalania się od zachodniej hegemonii sytuacja na świecie zmieni się na lepsze. ▪️Rzeczywisty wpływ Zachodu na świecie maleje. ▪️Wiele dotychczasowych przepisów prawa na świecie zostało odrzuconych, a nowe jeszcze się nie pojawiły. ▪️ Wszyscy na świecie prędzej czy później będą musieli zgodzić się na zasady nowego porządku świata. ▪️Trendy na arenie światowej skłaniają do zastanowienia się, jak utrzymać globalny pokój i bezpieczeństwo. ▪️Będziemy musieli żyć w wyjątkowo niestabilnym świecie. ▪️Skala zmian, które już nastąpiły na świecie i zmian, które nadejdą, jest ogromna. ▪️Zasada „jest siła, nie trzeba inteligencji” wydaje się być zasadą przewodnią dla niektórych światowych graczy; to nigdy nie prowadzi do dobra. ▪️Instytucje międzynarodowe powstałe po 1945 roku nie odzwierciedlają sytuacji na świecie w drugiej ćwierci XXI wieku. ▪️Kontynuacja konfliktów międzynarodowych w najbliższej przyszłości jest bardzo prawdopodobna. ▪️Kraje zachodnie mają nieproporcjonalne wpływy w ONZ, co prowadzi do braku równowagi. ▪️ Obecnie pojawia się uzasadniona krytyka ONZ; jest rządzony mniej kolegialnie i demokratycznie, niż było to zamierzone. ▪️Rosja popiera ideę uczciwej reformy ONZ. ▪️Naród potrzebuje perspektywy: bez przeszłości nie ma przyszłości, ale nawet bez przyszłości przeszłość traci sens. 🔻 O problemach wykorzystania AI w sprawach wojskowych: ▪️ Należy unikać „najbardziej katastrofalnych scenariuszy”, gdy ludzkość będzie o krok od przetrwania. ▪️Technologie wynoszą na nowy poziom możliwość powszechnego zniszczenia na skutek konfliktów lub utraty kontroli nad procesami technologicznymi. ▪️Świat wciąż musi nauczyć się żyć ze sztuczną inteligencją. KTO",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "88179bea8da07e7b": {
+      "id": "88179bea8da07e7b",
+      "timestamp": "2026-10-01T18:06:34+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Komunikat / Dyplomacja",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "French President Macron: What allowed our democracies to establish themselves was that we told the middle classes they w...",
+      "text": "French President Macron: What allowed our democracies to establish themselves was that we told the middle classes they would live better and better. The idea of progress is therefore attached to our democracies and to this balance. We stopped keeping the economic promise. That began with deindustrialization. Globalization from the 1990s onward weakened that consensus through waves of relocation. The promise that the political economy would continuously allow you to live better was no longer being fulfilled. The great blow was the crisis of 2008–2012. And who paid the bill? The middle classes. Even in countries that were less affected, some groups have still not fully recovered the purchasing power and living standards they had before that crisis. There was a sense of betrayal.",
+      "location_name": "Inne",
+      "lat": 47.8796,
+      "lon": 35.1878,
+      "url": "https://t.me/ClashReport/99275",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99275"
+        },
+        {
+          "name": "Satelita NASA",
+          "url": "https://firms.modaps.eosdis.nasa.gov/map/#d:2026-10-01..2026-10-01;l:viirs_snpp_nrt;@29.98,46.48,11z"
+        },
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99160"
+        },
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99135"
+        },
+        {
+          "name": "Satelita NASA",
+          "url": "https://firms.modaps.eosdis.nasa.gov/map/#d:2026-10-01..2026-10-01;l:viirs_snpp_nrt;@33.40,47.76,11z"
+        },
+        {
+          "name": "Satelita NASA",
+          "url": "https://firms.modaps.eosdis.nasa.gov/map/#d:2026-10-01..2026-10-01;l:viirs_snpp_nrt;@33.39,47.76,11z"
+        },
+        {
+          "name": "Satelita NASA",
+          "url": "https://firms.modaps.eosdis.nasa.gov/map/#d:2026-10-01..2026-10-01;l:viirs_snpp_nrt;@27.06,44.50,11z"
+        },
+        {
+          "name": "Satelita NASA",
+          "url": "https://firms.modaps.eosdis.nasa.gov/map/#d:2026-10-01..2026-10-01;l:viirs_snpp_nrt;@48.28,30.75,11z"
+        },
+        {
+          "name": "Satelita NASA",
+          "url": "https://firms.modaps.eosdis.nasa.gov/map/#d:2026-10-01..2026-10-01;l:viirs_snpp_nrt;@48.28,30.76,11z"
+        },
+        {
+          "name": "Satelita NASA",
+          "url": "https://firms.modaps.eosdis.nasa.gov/map/#d:2026-10-01..2026-10-01;l:viirs_snpp_nrt;@47.34,30.36,11z"
+        },
+        {
+          "name": "Satelita NASA",
+          "url": "https://firms.modaps.eosdis.nasa.gov/map/#d:2026-10-01..2026-10-01;l:viirs_snpp_nrt;@47.39,30.21,11z"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/aWYzqZcQn_8rjIDxWrt98cd5zsFC8ek86uZkrLKWPtJrxqvn_F6jJjvL_-rHo8B4hmHfqvTpb64htJz_ERREaTzGTr5hhURcgjA026Jf59WN_FL_tnC5RiO6Dpw9a_evGACXap_i0p_7wNz5hA4rk3K9jYUkOCnxqSf0a_crSNXrGGzPWbBVjH8BL7B30STv1xt8iucqTpc-LsYKeO2LHV6Bpyj4NProx2botWF0ZY5k-JY4XTOFMCOJMnM4_HO0FbRl1ni6K5NGgrNc1QX73nxc9rxQ0ERJ14zcvyPp4_1EgWMcfSKD21tRprBKNZ45yrl_lYOG27g7lc1pETDTTQ",
+        "https://cdn4.telesco.pe/file/fcSeO6TxqjnE53O-Siic6CzddnePdIHxleffkAqERR1FMtI4A3MSsQo5JRfdtz8Mv6FHeiKTDZzPcTBk-3IdwowNntmA5d5lIo403tUUmfmc3ff2cRSWKOwx6EySlt8qQ4HbkHiAwQBVzI21DliYtxfJwuB65VWYelu-MCKkQiO2ePTkk7r6FbvjRB57aBqYRiaKCZ32ly6Z7U7l8RmZNus1zCDdqRinB76upzfMmCHtQ-5vYQSRY1xY42XCin_4blslKBB8NFLlpGvQWJQEytUndagVxJy2sVJqZp_Kjg7zb7_d2MCSH8_Am_vDHcwQCobxEzPr_j7e2FHHRGoVZg.jpg",
+        "https://cdn4.telesco.pe/file/Si8OwzglGVFAt5rsBUplQezyZa1xhlMVKjht-gKTwstfPZT5ny9psWNIDlBLkUnrtMz9tzg-PV-6vre3JypAYqgD58q2mD_9desigtRwy6utJXjBHpkecMq-xEgSnin9iI5oLcUb63Xt_ygoVO4eBfmmrhwWVadAlWTYxKXdX-KdW1x3TXFW1Gbq1IgFjPlNUcVVafl_UAtBBzHLQeoEqyVyYVovRbekgu6-R7hCkS7LfdksaC3ElxzvaNOY_rKUzgWBl6vmGdoCMJa6lN-fFcN2UkvqldG2UbqJBQrOvWmg9SvEu0N4PFsU05tfi2JGzYyxQ40nxUpNGGMEyP4A5w"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/6c3652c233.mp4?token=jC3UdtX3N0bcd7i7DtPwSGl2ds4uixR1pEn5aqGpq4ofGXNes-O3II3XKf9o3NLLn0lUEyBKpb4wRRJjUatm3_wQevKXmZsTfPdt60iUS6UqeU6_80h4H9u-9y92_NQDLcrCpoK4gmDEqugRlTdQXe3mAETR2SOy529ZFe9p5sMIXmG_UPCsi1iLfkozySKDhg4Jaxl2lHBq6Ex1v8zpu_RnFkS3LGjh58kFparKAKOFifLCOcSkVpcXXlv9Eg3Gi0jzRUZNFhUDHXcbgj8k5PNfeH9fv17lXBawJrEk48utzXlvlGCLPbmEJIWL2OXDGIAypmOhlMcnGGeavco9Aw",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": true,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-01T20:40:17.612701+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Prezydent Francji Macron: Tym, co pozwoliło naszym demokracjom ugruntować się, było to, że powiedzieliśmy klasie średniej, że...",
+      "text_pl": "Prezydent Francji Macron: Tym, co pozwoliło naszym demokracjom ugruntować się, było to, że powiedzieliśmy klasom średnim, że będą żyły coraz lepiej. Idea postępu jest zatem związana z naszymi demokracjami i tą równowagą. Przestaliśmy dotrzymywać obietnic gospodarczych. Zaczęło się od deindustrializacji. Globalizacja, która rozpoczęła się od lat 90. XX wieku, osłabiła ten konsensus poprzez fale relokacji. Obietnica, że ​​ekonomia polityczna będzie stale pozwalać na lepsze życie, przestała się spełniać. Wielkim ciosem był kryzys lat 2008–2012. A kto zapłacił rachunek? Klasy średnie. Nawet w krajach, które ucierpiały w mniejszym stopniu, niektóre grupy nadal nie odzyskały w pełni siły nabywczej i poziomu życia, jakie miały przed kryzysem. Było poczucie zdrady.",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "b13dc4812bbb5ce3": {
+      "id": "b13dc4812bbb5ce3",
+      "timestamp": "2026-10-01T17:59:23+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🚀 КАБи на Сумщину. 🛵 БпЛА в напрямку Харкова з півночі.",
+      "text": "🚀 КАБи на Сумщину. 🛵 БпЛА в напрямку Харкова з півночі.",
+      "location_name": "Charków",
+      "lat": 49.9935,
+      "lon": 36.2304,
+      "url": "https://t.me/kpszsu/82177",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82177"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-01T20:40:17.612447+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🚀 Jedźmy do obwodu sumskiego. 🛵BpLA w kierunku Charkowa od północy.",
+      "text_pl": "🚀 Jedźmy do obwodu sumskiego. 🛵BpLA w kierunku Charkowa od północy.",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "4ad565f6b37c9f33": {
+      "id": "4ad565f6b37c9f33",
+      "timestamp": "2026-10-01T17:57:02+00:00",
+      "country": "Iran",
+      "flag": "🇮🇷",
+      "theater": "Bliski Wschód (Zatoka Perska)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump: I stated, numerous times, that it would take 4-6 weeks to get rid of THE IRAN NUCLEAR THREAT, and I did it in one...",
+      "text": "Trump: I stated, numerous times, that it would take 4-6 weeks to get rid of THE IRAN NUCLEAR THREAT, and I did it in one night! The rest of the time is just to make sure it stays that way.",
+      "location_name": "Bliski Wschód (Zatoka Perska)",
+      "lat": 48.018,
+      "lon": 34.7468,
+      "url": "https://t.me/ClashReport/99274",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99274"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/Vs2ro20DNRo3Le2MU15zkyOILmk5AWQbiKdRZgtNq5EHJW82UjkzsCvlEvYZwqsyTBW1FffJSMRhTKvN5lzXIb6sDL3i1fTIJXwCbUvQxGhfy7wKZY9SNtDaTY8w4UUdfm756yi5C3qlhDIHDZxMULjJ-Ha2KV1s0VpKQqL4ijAFgJzKjfKXmmsZ30nGC3lolOImEpyFbXqpQ8OAT2X_i41CUczjSyuaOSSylWJg88W8nCqDYJD-hXJV_MNVLTFXiHebXjzkXiNrcTCA-QPGk9wowAJICp_cZjsY0q4wwz4lXB9AdpxmNBmoZ4jzObcwKjMA90tXTlseT5-XeKvQKQ.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-01T20:40:17.612703+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump: Wielokrotnie mówiłem, że pozbycie się IRANEGO ZAGROŻENIA JĄDROWEGO zajmie 4-6 tygodni i zrobiłem to w ciągu jednego…",
+      "text_pl": "Trump: Wielokrotnie stwierdzałem, że pozbycie się ZAGROŻENIA JĄDROWEGO IRANU zajmie 4-6 tygodni i udało mi się to w ciągu jednej nocy! Pozostały czas to tylko upewnienie się, że tak pozostanie.",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "8a2b5a299b24f42a": {
+      "id": "8a2b5a299b24f42a",
+      "timestamp": "2026-10-01T17:43:29+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "US Threatens Diesel Export Ban to Force Europe to Release Reserves US is pressing Paris and Berlin to tap emergency fuel...",
+      "text": "US Threatens Diesel Export Ban to Force Europe to Release Reserves US is pressing Paris and Berlin to tap emergency fuel stocks, while seeking 120 million barrels of diesel from EU over six months as Trump weighs export restrictions ahead of midterms. READ MORE",
+      "location_name": "Inne",
+      "lat": 47.9988,
+      "lon": 34.7048,
+      "url": "https://t.me/ClashReport/99273",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99273"
+        },
+        {
+          "name": "clashreport.com",
+          "url": "https://clashreport.com/world/articles/us-threatens-diesel-export-ban-to-force-europe-to-release-reserves-mqsbzyg8jw"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/vnhN4XUA_1kn-HslTuc7Gk-muCUXvNg-vFtuAN5ZpeWY_w6j3plyUqiVz4p8b4F7E-qLGzbD25TJaS9NaQjiijQBhdqwie9zYAuqXuC4Oy50stumYERmwKhEdgK4feue23zUZyXZNDVI7O3pooVVmIkuGdxPI5nhwnFTDjba83nXBzBA6X6M6Sir5aZhHbf765Pd3A0yA-_kLIGY5RNr6LyV2xx_998ZBSxXXPHBUV_5F9D-QnVZwzv08XYyW2JU_mpluegM4e35A-s3doAqeRc3ZVuTt4g2UohVbaM28V_Rzo7FJnAY_osk7LIL4Nwf_M8FVA4EkY5LGXCAYiDxaA.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-01T20:40:17.612705+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "USA grożą zakazem eksportu oleju napędowego, aby zmusić Europę do uwolnienia rezerw USA naciskają na Paryż i Berlin, aby wykorzystały paliwo awaryjne…",
+      "text_pl": "USA grożą zakazem eksportu oleju napędowego, który zmusi Europę do uwolnienia rezerw Stany Zjednoczone naciskają na Paryż i Berlin, aby wykorzystały awaryjne zapasy paliwa, jednocześnie poszukując 120 milionów baryłek oleju napędowego z UE w ciągu sześciu miesięcy, podczas gdy Trump rozważa ograniczenia eksportu przed okresem śródokresowym. CZYTAJ WIĘCEJ",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "14c3aedf0aa84da9": {
+      "id": "14c3aedf0aa84da9",
+      "timestamp": "2026-10-01T17:42:55+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "В ФБК предложили США смягчать санкции против России в обмен на отмену статей о «фейках» и «дискредитации армии» Фонд бор...",
+      "text": "В ФБК предложили США смягчать санкции против России в обмен на отмену статей о «фейках» и «дискредитации армии» Фонд борьбы с коррупцией выступил с заявлением о возможной сделке, в которой США смягчат санкции против России в обмен на освобождение политзаключенных. В ФБК считают, что, если такое окно откроется, его нужно использовать, но ограничиваться списками нельзя: санкционные послабления должны быть связаны еще и с отменой репрессивных законов и прекращением целых категорий политических дел. В ФБК объясняют, что составить полный список политзаключенных невозможно, потому что многие дела не становятся публичными. Кроме того, после освобождения одних людей власти могут на следующий день возбудить новые дела по тем же статьям. В организации предложили декриминализировать статьи о «военных фейках» и «дискредитации армии»: это означало бы освобождение осужденных по ним, прекращение уже возбужденных дел и невозможность возбуждать новые. Тот же принцип, по мнению фонда, должен действовать для политических дел об «экстремизме», «финансировании экстремизма», «оправдании терроризма» и других статей, по которым преследуют за мирную политическую деятельность, пожертвования и слова. Каждое смягчение санкций, пишут в ФБК, должно сопровождаться «конкретными, проверяемыми и долгосрочными изменениями внутри России». 29 сентября издание The Atlantic со ссылкой на источники сообщило , что в администрации Трампа рассматривают план смягчать санкции против России в обмен на освобождение политзаключенных. Пресс-секретарь Путина Дмитрий Песков позже заявил , что в России политзаключенных нет, и назвал постановку вопроса неуместной. 💫 Для продолжения работы ASTRA важны даже самые минимальные, но регулярные донаты читателей: Patreon , Крипта , BuyMeACoffee , с российской карты",
+      "location_name": "Krym",
+      "lat": 45.3453,
+      "lon": 34.4997,
+      "url": "https://t.me/astrapress/126875",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/126875"
+        },
+        {
+          "name": "#yulia_navalnaya_channel",
+          "url": "https://t.me/yulia_navalnaya_channel/310"
+        },
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/126703"
+        },
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/126763"
+        },
+        {
+          "name": "patreon.com",
+          "url": "https://www.patreon.com/user?u=83911718"
+        },
+        {
+          "name": "#astradonate",
+          "url": "https://t.me/astradonate"
+        },
+        {
+          "name": "buymeacoffee.com",
+          "url": "https://buymeacoffee.com/astrapress"
+        },
+        {
+          "name": "app.lava.top",
+          "url": "https://app.lava.top/astrapress?donate=open"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "astrapress",
+      "added_at": "2026-10-01T20:40:17.612519+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "FBK zaproponowało Stanom Zjednoczonym złagodzenie sankcji wobec Rosji w zamian za zniesienie artykułów o „podróbkach” i „dyskredytowaniu armii”.",
+      "text_pl": "FBK zaproponowało, aby Stany Zjednoczone złagodziły sankcje wobec Rosji w zamian za zniesienie artykułów o „podróbkach” i „dyskredytacji armii”. Fundacja Antykorupcyjna wydała oświadczenie w sprawie możliwego porozumienia, w ramach którego Stany Zjednoczone złagodzą sankcje wobec Rosji w zamian za uwolnienie więźniów politycznych. FBK uważa, że ​​jeśli takie okno się otworzy, należy z niego skorzystać, ale nie można go ograniczać do list: złagodzenie sankcji powinno wiązać się także ze zniesieniem represyjnych ustaw i zaprzestaniem całych kategorii spraw politycznych. FBK wyjaśnia, że ​​nie da się sporządzić pełnej listy więźniów politycznych, gdyż wiele spraw nie zostaje upublicznionych. Ponadto po zwolnieniu części osób władze mogą następnego dnia otworzyć nowe sprawy na podstawie tych samych artykułów. Organizacja zaproponowała dekryminalizację artykułów dotyczących „podróbek wojskowych” i „dyskredytacji armii”: oznaczałoby to uwolnienie skazanych na ich podstawie, zakończenie już wszczętych spraw i brak możliwości wszczynania nowych. Ta sama zasada, zdaniem fundacji, powinna obowiązywać w politycznych sprawach dotyczących „ekstremizmu”, „finansowania ekstremizmu”, „usprawiedliwiania terroryzmu” i innych artykułów, na podstawie których ścigana jest pokojowa działalność polityczna, darowizny i słowa. Każdemu złagodzeniu sankcji, pisze FBK, muszą towarzyszyć „konkretne, sprawdzalne i długoterminowe zmiany w Rosji”. 29 września „The Atlantic”, powołując się na źródła, podał, że administracja Trumpa rozważa plan złagodzenia sankcji wobec Rosji w zamian za uwolnienie więźniów politycznych. Sekretarz prasowy Putina Dmitrij Pieskow stwierdził później, że w Rosji nie ma więźniów politycznych i nazwał postawienie tej kwestii niewłaściwym. 💫 Aby kontynuować pracę ASTRY, ważne są nawet najmniejsze, ale regularne wpłaty od czytelników: Patreon, Crypto, BuyMeACoffee, z rosyjskiej karty",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "008908a9b2125f8c": {
+      "id": "008908a9b2125f8c",
+      "timestamp": "2026-10-01T17:40:57+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Мощный пожар произошёл через дорогу от Исаакиевского собора в Петербурге. Полыхает особняк Миллера на углу Исаакиевской ...",
+      "text": "Мощный пожар произошёл через дорогу от Исаакиевского собора в Петербурге. Полыхает особняк Миллера на углу Исаакиевской площади и улицы Якубовича. Здание является объектом культурного наследия. На месте работают восемь пожарных машин и несколько карет скорой помощи. В данный момент информации о пострадавших нет. ☺ Подписаться на SHOT: MAX , Telegram",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/shot_shot/100629",
+      "tactical_sources": [
+        {
+          "name": "Shot",
+          "url": "https://t.me/shot_shot/100629"
+        },
+        {
+          "name": "max.ru",
+          "url": "https://max.ru/shot"
+        },
+        {
+          "name": "Shot",
+          "url": "https://t.me/shot_shot"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/fN1siGz9EcwAb_vy3R6IoXK-FMosxVHUaR-XMvQmF-EiLoXWMlzmBMwZhVE6ztHhoZcyOJzLRWQSHr2Cb1M9vUM0pdMyuJnFgth1IPwk0DqJDOfmclK1_nTIVg9L6VAZfv1Ckx_zkgKYQA-I4AE40uxmHMN2Ad5-MnJAvPD_W50OeYNCxZONlvJzEKo9T04lLu8i7oD9ax1x6tdVbY9nrVJD2wrM519ccxVFfO_kwNhuuQzUr1ERnCD_j8JD9tXkMRPduTUAYhK-9J4PORzh2Xbo9gs7ANOfRPYjDl9NyPHT78nhff68o_0NGDYMiziaPn6ZwUkLzjkZLrZFSztNAg"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/21d74f2166.mp4?token=XcuRwJAVSKgPMVkTXu46JSiZat5k5R1pmssDAMiHS8jqJLctywImgIhJlmkGw65s-Ux_MVqgp9yZBlLMnTdcMzcbOSPQF7MPn8j_uHUNDgyZzSaMaRVu49pydtUMsV1Z-NV0vkqi8Jm3Z23z2ZDwxPacuTB4VF_hfYn9q9icAsc2spLdgpYUbXK8uCKrDX54xpXGJAcPFZ2Vc8QQGaR_tKcaZ7Ewi1i510vHdtiuAlYeTJstrgJ3ZBn0L-f9GISCJ1IvdvpHH-np64B3NuyCb9_IqHokTto3duNpOeVHb1OSMRhCMlxGoAYfn0EWIbENEHHo3gUs9sIWs5im1Xr2kA",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": true,
+      "threat_score": 5,
+      "source_channel": "shot_shot",
+      "added_at": "2026-10-01T20:40:17.612560+00:00",
+      "verified_by_sources": [
+        "rybar",
+        "kpszsu",
+        "shot_shot"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "Potężny pożar miał miejsce po drugiej stronie ulicy od katedry św. Izaaka w Petersburgu. Płonie posiadłość Millera na rogu ulicy św. Izaaka...",
+      "text_pl": "Potężny pożar miał miejsce po drugiej stronie ulicy od katedry św. Izaaka w Petersburgu. Płonie kamienica Millera na rogu placu św. Izaaka i ulicy Jakubowicza. Budynek jest obiektem dziedzictwa kulturowego. Na miejscu jest osiem zastępów straży pożarnej i kilka karetek pogotowia. Na chwilę obecną nie ma informacji o ofiarach. ☺ Subskrybuj SHOT: MAX, Telegram",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
+    },
+    "039e162d0ed99458": {
+      "id": "039e162d0ed99458",
+      "timestamp": "2026-10-01T17:35:22+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Putin: We are not, on our side, nationalizing anything yet. Certain enterprises have been handed over to temporary manag...",
+      "text": "Putin: We are not, on our side, nationalizing anything yet. Certain enterprises have been handed over to temporary management.",
+      "location_name": "Inne",
+      "lat": 48.0908,
+      "lon": 35.132,
+      "url": "https://t.me/ClashReport/99272",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99272"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/i6z601BJqZwj139fmsNjcDa2c0xQz6gZ0UPIb4mcWODMYav3_qRhPOyniajtjA-D2CcCb_iMjgeU9lr_Y3aKAVdDILUgzMXmpxYZD73N7ak91jojRBOKSK9ZH0o3kyJrQpn241nXaWQyU23gtbA4fxMqzZ-stcN6NUwQDq70pTXyQ8nmYlIWa9oqvWcOh2ZyP2IMkmCCGs8KqyWoim9kHZZ_Vg6OJDRxfZA_4wVsVxNXNQ6waB9qxZIuLT5Kg8CSUxHXYPWAFSVf7Xq4qdyi6w3IaDxCF-aXlg3d6YmtNFpmFeYWNjQy8L3CFz1Zh7zJxpxfA62MwQg_enEbWB_zrw"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/01942e4176.mp4?token=dccU7Lkjx9YXoYwe8z_KRw8DBN5Kjf8rHVYY0efIQ0Z3AtYYIepbUAE_Wl9OJQISsLSFIPNWmINK_OZ8x_xT1Ltxf84KGTBolBIJZC4NOIi0M_5YRNoGJPNV9RzdBerv4IPnfIXVEuHHb_OURu423ty98Xx1oThJwwLluhED0kh57lTRtb4RcuYPzNjsBuXCtSD9V3uDcS8wCU1FlXy9vE4eFRfzU6AQ40H0I-Zn5QfALs91Q59z5sdpATYJlKLKiqVsFB-6K7J5P2xTUPF0eFqmiXpMif99fRA2ZYeKC1-K2tWAe7wHqj1fAEqPpzwd2scAGuakTeW7yChV_e9_vg",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-01T20:40:17.612707+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Putin: Z naszej strony jeszcze niczego nie nacjonalizujemy. Część przedsiębiorstw została przekazana tymczasowemu zarządowi...",
+      "text_pl": "Putin: Z naszej strony jeszcze niczego nie nacjonalizujemy. Część przedsiębiorstw została przekazana w zarząd tymczasowy.",
+      "archived_at": "2026-10-15T20:45:23.707867+00:00"
     }
   }
 }
