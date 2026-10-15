@@ -1,11 +1,11 @@
 {
   "manifest": {
-    "total_archived": 3027,
+    "total_archived": 3042,
     "retention_days": 14,
     "first_archived_at": "2026-09-23T16:43:07.215300+00:00",
-    "last_archived_at": "2026-10-14T22:53:21.050802+00:00",
+    "last_archived_at": "2026-10-15T01:07:05.671714+00:00",
     "oldest_event_timestamp": "2023-06-05T21:48:13+00:00",
-    "newest_event_timestamp": "2026-09-30T22:42:09+00:00",
+    "newest_event_timestamp": "2026-10-01T01:05:40+00:00",
     "cloud_sync_enabled": false
   },
   "events": {
@@ -132525,6 +132525,651 @@
       "title_pl": "Hegseth: Spadek liczby napaści na tle seksualnym w wojsku, samobójstw w wojsku, wzrost rekrutacji Czarnych i kobiet, mimo że…",
       "text_pl": "Hegseth: Spadły napaści na tle seksualnym w wojsku, spadła liczba samobójstw w wojsku, wzrosła rekrutacja Czarnych i kobiet, mimo że zniesiono wszystkie kwoty.",
       "archived_at": "2026-10-14T22:53:21.048173+00:00"
+    },
+    "b1249332a3f14c85": {
+      "id": "b1249332a3f14c85",
+      "timestamp": "2026-10-01T01:05:40+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивні БпЛА на південь Миколаївщини з акваторії Чорного моря",
+      "text": "🏍 Реактивні БпЛА на південь Миколаївщини з акваторії Чорного моря",
+      "location_name": "Mikołajów",
+      "lat": 46.975,
+      "lon": 31.9946,
+      "url": "https://t.me/kpszsu/82054",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82054"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-01T01:41:22.297506+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowe UAV na południe od obwodu mikołajowskiego znad Morza Czarnego",
+      "text_pl": "🏍 Odrzutowe UAV na południe od obwodu mikołajowskiego znad Morza Czarnego",
+      "archived_at": "2026-10-15T01:07:05.669045+00:00"
+    },
+    "5a9d8676f724bf2f": {
+      "id": "5a9d8676f724bf2f",
+      "timestamp": "2026-10-01T01:02:51+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА на сході Чернігівщини, курс на н.п. Мена.",
+      "text": "🏍 Реактивний БпЛА на сході Чернігівщини, курс на н.п. Мена.",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.1872,
+      "lon": 35.1038,
+      "url": "https://t.me/kpszsu/82053",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82053"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-01T01:41:22.297509+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy UAV na wschodzie obwodu czernihowskiego, kurs na n.p. Mena",
+      "text_pl": "🏍 Odrzutowy UAV na wschodzie obwodu czernihowskiego, kurs na n.p. Mena",
+      "archived_at": "2026-10-15T01:07:05.669045+00:00"
+    },
+    "5918e6c3f376d072": {
+      "id": "5918e6c3f376d072",
+      "timestamp": "2026-10-01T00:59:57+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Infrastruktura & Logistyka",
+      "tactical_category": "Eksplozja / Detonacja",
+      "tactical_icon": "💥",
+      "title": "Дональд Трамп попросил Зеленского «притормозить» с ударами по российским НПЗ Украинский президент, по словам Трампа, от...",
+      "text": "Дональд Трамп попросил Зеленского «притормозить» с ударами по российским НПЗ  Украинский президент, по словам Трампа, ответил, что «предположительно» они так и сделают.  «Большая проблема заключается в том, что нефтеперерабатывающие заводы в России взрываются.…",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 47.9888,
+      "lon": 35.1314,
+      "url": "https://t.me/astrapress/126817",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/126817"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/LXWexPBaoj7r6BzfORu0sFKuSsXDP0-Hr4ZSdjSjN6tmSa4Kb5qiTKXWPmjHNc3fUCr1cN16ttMy4IGMW5cUE9aIRZdIvrdH1-pUIwgZnMweD8qn8igFMA-5cyfPONaCgiVOj4ZomA3ndfDAnov89hbeOrac5LVAygWmu6r5EscIXXSKGMI_J6Pv16LFGOwCXtBAmHNEOey5qe6BYgLjaalPyAq5eKZzSC1q0CwgM9B4XvlJT1m1R1h4lT10x0gpvb7HCq71QqksEHfKn7IWgmPdkMVIESMADrTy-SRqgsO76eZoCSgO2KyEGXZl2uqzzQaY02Yv-Zh6Bg0yrkWRkA"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/0be7ccb3f9.mp4?token=vGxGODTpRyze9bmZrhyY6gTQe8TvrseVkdMpfvHpHLG1dZenHN-O_IcPrUtkCwcOyocaUFntbmMOoQN7Jp64L1l9MzZI5PZR_r2YYUYHd3WVoI5Q7E6McuDd2Skirw7cyhjggfT2fu9SwZbxfjWCdJhpcEAFr0VOdWuI6F0aBiid6GpSIKTNqBFOOhGfuV7c24mo5lj44BSuCRDx4d6ybl361wJXeJI0aWjt-f1cG7-SU8lNDI3BFEAX_3ypmKOSBw3iK07FgFP5L81AzxJUi1ClzzZz2vmAC4lVTtwU4Koa2OTHbxokQK4zHrPch2IDV_9I4J8w-z77s3lw-GyA8g",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Rafineria / Skład Paliw",
+      "is_fire": true,
+      "threat_score": 8,
+      "source_channel": "astrapress",
+      "added_at": "2026-10-01T01:41:22.297604+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Donald Trump poprosił Zełenskiego, aby „zwolnił” ataki na rosyjskie rafinerie ropy naftowej. Według Trumpa ukraiński prezydent...",
+      "text_pl": "Donald Trump poprosił Zełenskiego, aby „zwolnił” ataki na rosyjskie rafinerie. Według Trumpa ukraiński prezydent odpowiedział, że „prawdopodobnie” tak zrobią.  „Duży problem polega na tym, że rafinerie ropy naftowej w Rosji eksplodują…",
+      "archived_at": "2026-10-15T01:07:05.669045+00:00"
+    },
+    "541cbf84e13d84fb": {
+      "id": "541cbf84e13d84fb",
+      "timestamp": "2026-10-01T00:58:54+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Житомирщина: реактивний БпЛА поблизу Малина курс західний.",
+      "text": "🏍 Житомирщина: реактивний БпЛА поблизу Малина курс західний.",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.1416,
+      "lon": 35.276,
+      "url": "https://t.me/kpszsu/82052",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82052"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-01T01:41:22.297511+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Obwód żytomierski: odrzutowy UAV w pobliżu Malyny w kierunku zachodnim.",
+      "text_pl": "🏍 Obwód żytomierski: odrzutowy UAV w pobliżu Malyny w kierunku zachodnim.",
+      "archived_at": "2026-10-15T01:07:05.669045+00:00"
+    },
+    "821170e323e629f2": {
+      "id": "821170e323e629f2",
+      "timestamp": "2026-10-01T00:52:41+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "⚠ Чернігів 🛵 Ударний БпЛА над містом! Перебувайте в укриттях!",
+      "text": "⚠ Чернігів 🛵 Ударний БпЛА над містом! Перебувайте в укриттях!",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.8696,
+      "lon": 35.192,
+      "url": "https://t.me/kpszsu/82051",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82051"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-01T01:41:22.297514+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "⚠ Czernihów 🛵 Wstrząs UAV nad miastem! Pozostańcie w schroniskach!",
+      "text_pl": "⚠ Czernihów 🛵 Wstrząs UAV nad miastem! Pozostańcie w schroniskach!",
+      "archived_at": "2026-10-15T01:07:05.669045+00:00"
+    },
+    "17ad726c50ca371a": {
+      "id": "17ad726c50ca371a",
+      "timestamp": "2026-10-01T00:37:22+00:00",
+      "country": "Polska",
+      "flag": "🇵🇱",
+      "theater": "Wschodnia Flanka NATO (Polska)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Uderzenie Balistyczne / Rakieta",
+      "tactical_icon": "🚀",
+      "title": "РФ заявила, что использует «весь свой арсенал», включая ядерное оружие, если НАТО попробует изолировать Калининград. В а...",
+      "text": "РФ заявила, что использует «весь свой арсенал», включая ядерное оружие, если НАТО попробует изолировать Калининград. В альянсе заявили, что не воспринимают угрозы всерьез В документе, отправленном в НАТО и попавшем в распоряжение Reuters, Москва обвинила альянс в «опасном и безрассудном курсе», который влечет за собой «высокий риск начала прямого вооруженного конфликта», который включает в себя возможность «российских ударов по центрам принятия решений в государствах-членах альянса». «Россия будет готова использовать весь имеющийся в ее распоряжении арсенал сил и возможностей, включая ядерное оружие, для защиты своей территории в случае, если страны НАТО предпримут какие-либо попытки, направленные на изоляцию Калининградской области от остальной части страны», — говорится в дипломатической ноте. Ранее такое же заявление сделали ряд российских посольств, как например посольство РФ в Ирландии 29 сентября. Представительница МИД РФ Мария Захарова заявила, что члены НАТО проводят военные учения около российских границ, в ходе которых отрабатываются сценарии блокады Калининградской области, изоляции российских портов на Балтике и переброски войск через Сувалкский коридор. «Министр иностранных дел Польши Сикорский мечтает о нанесении военного поражения России. Министр обороны Эстонии публично рассуждает о преимуществах «превентивной» войны с нашей страной. Причем эти политики, и не только они, уверовали в то, что война будет вестись только теми средствами, где у НАТО, как они считают, есть преимущество. Этих деятелей надо возвращать на почву реальности. Надеемся, что наши предупреждения будут услышаны теми, кому они адресованы», — заявила Захарова. При этом она повторила утверждение Путина, что Москва «не угрожает и не намерена угрожать европейским странам», но подчеркнула, что Россия располагает возможностями для нанесения поражения агрессору. «Если Европа нападет на Россию, это будет уже совсем другая война — она будет очень короткой», — говорится в заявлении. Генеральны",
+      "location_name": "Suwałki, Polska",
+      "lat": 54.1115,
+      "lon": 22.9309,
+      "url": "https://t.me/astrapress/126816",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/126816"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/aerospace-defense/russia-issues-nuclear-warning-nato-tensions-rise-baltic-2026-09-30/"
+        },
+        {
+          "name": "aftonbladet.se",
+          "url": "https://www.aftonbladet.se/nyheter/a/Ex8jQl/flygvapnets-nya-plan-for-att-avgora-luftkriget-mot-ryssland"
+        },
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/125876"
+        },
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/121948"
+        },
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/126267"
+        },
+        {
+          "name": "#astrvpn_bot",
+          "url": "https://t.me/astrvpn_bot"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/hSKN9FVSMyURqb2PRbOAhq3qNZO-eru42UdtJvHlDNN6rsEeAc44eOl_86t2GUgytI3A9EYoS1fDEme3LKamjvihF8jH4GnT2vpcg_iyYnyYxqH4XcnpmNstTxp0pra_i1cgETUj-DrD3n0slMQRbN6g6t1FNdX15rGFeHXayoqZ__nNeDgu5w7bNQYTM3D3RmuxRSk6h2nV02rXcWAESUDqVm3YmoCd3KAXbXOjTxMtqDAiOBDT2PdJUJ4xUqt_xn8uVHlkUGw40JsBjfE5gTiNzKB5JImwVWBTsZdaE-S11QiNjmDw9DKluhtAIbGQJ6czP6optSpqiqtZqGg_qg.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Rakieta Manewrująca",
+        "Myśliwiec Bojowy"
+      ],
+      "target_type": "Skład Amunicji / Arsenał",
+      "is_fire": false,
+      "threat_score": 8,
+      "source_channel": "astrapress",
+      "added_at": "2026-10-01T01:41:22.297607+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "РФ заявила, что использует «весь свой арсенал», включая ядерное оружие, если НАТО попробует изолировать Калининград. В а...",
+      "text_pl": "РФ заявила, что использует «весь свой арсенал», включая ядерное оружие, если НАТО попробует изолировать Калининград. В альянсе заявили, что не воспринимают угрозы всерьез В документе, отправленном в НАТО и попавшем в распоряжение Reuters, Москва обвинила альянс в «опасном и безрассудном курсе», который влечет за собой «высокий риск начала прямого вооруженного конфликта», который включает в себя возможность «российских ударов по центрам принятия решений в государствах-членах альянса». «Россия будет готова использовать весь имеющийся в ее распоряжении арсенал сил и возможностей, включая ядерное оружие, для защиты своей территории в случае, если страны НАТО предпримут какие-либо попытки, направленные на изоляцию Калининградской области от остальной части страны», — говорится в дипломатической ноте. Ранее такое же заявление сделали ряд российских посольств, как например посольство РФ в Ирландии 29 сентября. Представительница МИД РФ Мария Захарова заявила, что члены НАТО проводят военные учения около российских границ, в ходе которых отрабатываются сценарии блокады Калининградской области, изоляции российских портов на Балтике и переброски войск через Сувалкский коридор. «Министр иностранных дел Польши Сикорский мечтает о нанесении военного поражения России. Министр обороны Эстонии публично рассуждает о преимуществах «превентивной» войны с нашей страной. Причем эти политики, и не только они, уверовали в то, что война будет вестись только теми средствами, где у НАТО, как они считают, есть преимущество. Этих деятелей надо возвращать на почву реальности. Надеемся, что наши предупреждения будут услышаны теми, кому они адресованы», — заявила Захарова. При этом она повторила утверждение Путина, что Москва «не угрожает и не намерена угрожать европейским странам», но подчеркнула, что Россия располагает возможностями для нанесения поражения агрессору. «Если Европа нападет на Россию, это будет уже совсем другая война — она будет очень короткой», — говорится в заявлении. Генеральны",
+      "archived_at": "2026-10-15T01:07:05.669045+00:00"
+    },
+    "2007381822d13d91": {
+      "id": "2007381822d13d91",
+      "timestamp": "2026-10-01T00:36:57+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА через Київське водосховище курсом на Вишгород/Київ.",
+      "text": "🏍 Реактивний БпЛА через Київське водосховище курсом на Вишгород/Київ.",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/kpszsu/82049",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82049"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-01T01:41:22.297517+00:00",
+      "verified_by_sources": [
+        "kpszsu",
+        "astrapress",
+        "rybar",
+        "shot_shot"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🏍 Odrzutowiec UAV przez Zbiornik Kijowski w kierunku Wyszhorodu/Kijów.",
+      "text_pl": "🏍 Odrzutowiec UAV przez Zbiornik Kijowski w kierunku Wyszhorodu/Kijów.",
+      "archived_at": "2026-10-15T01:07:05.669045+00:00"
+    },
+    "d62477d9de23c60e": {
+      "id": "d62477d9de23c60e",
+      "timestamp": "2026-09-30T23:59:26+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Чернігівщина: реактивний БпЛА повз Новгород-Сіверський західним курсом.",
+      "text": "🏍 Чернігівщина: реактивний БпЛА повз Новгород-Сіверський західним курсом.",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.9156,
+      "lon": 35.1002,
+      "url": "https://t.me/kpszsu/82046",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82046"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-01T01:41:22.297520+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Obwód czernihowski: odrzutowy UAV mija Nowogród-Siwierski kursem zachodnim.",
+      "text_pl": "🏍 Obwód czernihowski: odrzutowy UAV mija Nowogród-Siwierski kursem zachodnim.",
+      "archived_at": "2026-10-15T01:07:05.669045+00:00"
+    },
+    "efe5f23028b5b262": {
+      "id": "efe5f23028b5b262",
+      "timestamp": "2026-09-30T23:54:54+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА через Київське водосховище курсом на Вишгород/Київ.",
+      "text": "🏍 Реактивний БпЛА через Київське водосховище курсом на Вишгород/Київ.",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/kpszsu/82044",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82044"
+        },
+        {
+          "name": "#war_monitor",
+          "url": "https://t.me/war_monitor/47056"
+        },
+        {
+          "name": "#war_monitor",
+          "url": "https://t.me/war_monitor/47048"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-01T01:41:22.297532+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowiec UAV przez Zbiornik Kijowski w kierunku Wyszhorodu/Kijów.",
+      "text_pl": "🏍 Odrzutowiec UAV przez Zbiornik Kijowski w kierunku Wyszhorodu/Kijów.",
+      "archived_at": "2026-10-15T01:07:05.669045+00:00"
+    },
+    "3f991f3e4776aa43": {
+      "id": "3f991f3e4776aa43",
+      "timestamp": "2026-09-30T23:46:10+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА через Київське водосховище курсом на Вишгород/Київ.",
+      "text": "🏍 Реактивний БпЛА через Київське водосховище курсом на Вишгород/Київ.",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/kpszsu/82043",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82043"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-01T01:41:22.297535+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowiec UAV przez Zbiornik Kijowski w kierunku Wyszhorodu/Kijów.",
+      "text_pl": "🏍 Odrzutowiec UAV przez Zbiornik Kijowski w kierunku Wyszhorodu/Kijów.",
+      "archived_at": "2026-10-15T01:07:05.669045+00:00"
+    },
+    "a6372320646e1095": {
+      "id": "a6372320646e1095",
+      "timestamp": "2026-09-30T23:26:56+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивні БпЛА на Мену на Чернігівщині з північного сходу",
+      "text": "🏍 Реактивні БпЛА на Мену на Чернігівщині з північного сходу",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.1164,
+      "lon": 34.7714,
+      "url": "https://t.me/kpszsu/82042",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82042"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-01T01:41:22.297538+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowe UAV w menu w obwodzie czernihowskim od północnego wschodu",
+      "text_pl": "🏍 Odrzutowe UAV w menu w obwodzie czernihowskim od północnego wschodu",
+      "archived_at": "2026-10-15T01:07:05.669045+00:00"
+    },
+    "b0234a91a2f8d016": {
+      "id": "b0234a91a2f8d016",
+      "timestamp": "2026-09-30T23:16:49+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА на Шостку на Сумщині з півночі",
+      "text": "🏍 Реактивний БпЛА на Шостку на Сумщині з півночі",
+      "location_name": "Sumy",
+      "lat": 50.9077,
+      "lon": 34.7981,
+      "url": "https://t.me/kpszsu/82041",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82041"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-01T01:41:22.297540+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy UAV na Szostkę w obwodzie sumskim od północy",
+      "text_pl": "🏍 Odrzutowy UAV na Szostkę w obwodzie sumskim od północy",
+      "archived_at": "2026-10-15T01:07:05.669045+00:00"
+    },
+    "da1119df7b258be4": {
+      "id": "da1119df7b258be4",
+      "timestamp": "2026-09-30T23:16:21+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "NATO&#x27;s Rutte: You&#x27;ve heard the Supreme Allied Commander saying, hey, when able, when you are sure this is Russians — or ...",
+      "text": "NATO&#x27;s Rutte: You&#x27;ve heard the Supreme Allied Commander saying, hey, when able, when you are sure this is Russians — or almost sure this is Russians — attribute it to the Russians, exactly like Estonia did. I applaud it.",
+      "location_name": "Inne",
+      "lat": 47.9096,
+      "lon": 35.036,
+      "url": "https://t.me/ClashReport/99125",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99125"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/q57MQClB3AyvXFs_vLwDdXFMIBlZnqWD1KxLxvMNpGOpv191yiAnnkZqFoBbxwTX6eH7KGCvubkGJSuhUeukMbfuAynXh8pHmVbQUE6SIMQBezHIe_hXkyCp8wMqwe2Bs0B68GkDoO1rNqwJYYmqlRcXoH-yeT8osWsx_B6M5o7JypB6sh1fu9fy_J3y1T5mj2uJ0ZPt4QB89Y-3V1g_xEYqEC4zftET6iGt-ue7HchpQxn1-9DKY7xMx8ucW7dnaLMUzjzgj5rE9X8KkjNoKUgtvCETCxA6GCBoUBDx4A1oQmeZDsr8nrgeN7jWxr_XiooHLgUM201URxL10NMhyQ"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/e84090d3bb.mp4?token=D092vzLtm5aLXGeR-Ks3OTHTH6EyyQ26Py48TNH_vX-QHwIwWERINq8uIpMjYFKKRGlVhbnzph7fq8UzGdgfv-8Cwe2h39qpo-oZmvGR2C0uRM2GB5KGTsZ_WcHnwgWXsWs4D3i6-OeFIV9UNyCFsBE8tn91FirfxdDzIV3VsCy6BzCPkn2_w7vhLDAl0Vzk83hphWW5qKkKDbj4GHmRbbKOl2bbvrfzvQ7eCeVEXDu-N01dd6wdSAcsBwKs5dhnTRHImVYxraF14J4YR1XL058G01mo5TilJsclZoJSlQiwx67l5VPtY98faKHAYYBXv-gw-LHeN17ieugudoid5Q",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-01T01:41:22.297705+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Rutte z NATO: Słyszeliście, jak Naczelny Dowódca Sił Sojuszniczych mówił: „Hej, jeśli to możliwe, kiedy masz pewność, że to Rosjanie – lub…",
+      "text_pl": "Rutte z NATO: Słyszeliście, jak Naczelny Dowódca Sił Sojuszniczych mówił: „Hej, jeśli to możliwe, kiedy jesteś pewien, że to Rosjanie – lub prawie pewien, że to Rosjanie – przypisuje to Rosjanom, dokładnie tak jak zrobiła to Estonia”. Pochwalam to.",
+      "archived_at": "2026-10-15T01:07:05.669045+00:00"
+    },
+    "6b6670650564a1b8": {
+      "id": "6b6670650564a1b8",
+      "timestamp": "2026-09-30T23:16:08+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "💬 Атака балістичними ракетами та реактивними БпЛА по Києву та Київській області в ніч на 30.09.26. У Києві внаслідок обс...",
+      "text": "💬 Атака балістичними ракетами та реактивними БпЛА по Києву та Київській області в ніч на 30.09.26. У Києві внаслідок обстрілу сталися пожежі та руйнування у 4 районах: Святошинському (горів приватний будинок, пошкоджено близько 10 будівель), Подільському (пожежа нежитлової та складської будівель, приватного будинку), Голосіївському (загоряння лазні, побутівки, бетонозмішувача) та Солом&#x27;янському (горів трав&#x27;яний настил). Пожежі ліквідовано. На Київщині, у Вишгороді, зруйновано приватний житловий будинок; під уламками рятувальники виявили дитину 2012 р.н., врятувати яку не вдалося. Також виникали пожежі приватного будинку та господарської будівлі, знищено 8 гаражів. Відомо про 3 загиблих людей, з них 1 дитина. Поранено 7 осіб, зокрема дитину. Роботи з ліквідації наслідків тривають. ДСНС",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/kpszsu/82040",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82040"
+        },
+        {
+          "name": "#war_monitor",
+          "url": "https://t.me/war_monitor/47012"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/ZCIqVRbU_uWvqbY28lnlTQ14O-eKvrs9VD7QzymKL3Sq7XWWM3tgncZyRCutdLzxjP_nP3k-kjAejF67mzXb7ySoGZ8bd2JgSRWTQxUo23o4BlhRBkvb34tOB5flzhauv4G_6LYPKN2_trQZwn5Ls_tQjXh5M4bI-lv9ul0xHX_LsSHKS0NGoh4nN8cLAjWRVYudmq2XT2r5KJfoV6FLXyLGN21hCN4wJXvu3ALpMw92kYbJcnQZPox97bGGcnur-vsI-fO4q0RJQ--IBiTpHtj-V38J7tZFU563tG9_wYU6_K-D3NPGH2AaKAOOvNcdj-17mFbkPcQ_XOCUMkPZGA.jpg",
+        "https://cdn4.telesco.pe/file/uE6tkz3_B7gLj0DXkJB54jFm5-M-2-_wjLHhZCkowYgUstK2l7W7M7vc0O4joHmYAet19ap1upIQcCAVLjFNsRGsR6Ojp6vbdcaCSU-pSC7BXWkMqwptDfWJYbZ_DzCi_n19yKYfDDqhrLEadIepZoBvI3HzI9lV6OSrVASNUSAqESgHlXvDoSzp6W0drb5WNFqLY_gv-x798SdNjR4wxcDLM6hXNHxu-PzmpXgUkLmdp8NXSlt7mHSlppGD4T6ElsZ3WXk_Oc-AFXuoAQVeVT5u2ZSKVZvGn7gzr_wWegKJA-RJ5oT2Fx-jgbkq58vU33JAq077IpJiQVH2Hk3LWw.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": true,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-01T01:41:22.297543+00:00",
+      "title_pl": "💬 Atak rakietowy i odrzutowy UAV na Kijów i obwód kijowski w nocy 30.09.26. W Kijowie w wyniku...",
+      "text_pl": "💬 Atak rakietowy i odrzutowy UAV na Kijów i obwód kijowski w nocy 30.09.26. W Kijowie w wyniku ostrzału pożary i zniszczenia nastąpiły w 4 dzielnicach: Swiatoszynskiej (spalił się dom prywatny, zniszczeniu uległo ok. 10 budynków), Podilskiej (paliło się budynek niemieszkalno-magazynowy, spłonął dom prywatny), Holosijowskiej (spaliła się łaźnia, dom, betoniarka) i Solomyanskyi (spłonęła się trawiasta podłoga). Ogień został ugaszony. Na obwodzie kijowskim w Wyszhorodzie zniszczono prywatny budynek mieszkalny; pod gruzami ratownicy znaleźli dziecko urodzone w 2012 roku, którego nie udało się uratować. Doszło także do pożarów domu prywatnego i budynku gospodarczego, zniszczonych zostało 8 garaży. Wiadomo o 3 ofiarach śmiertelnych, w tym 1 dziecku. Rannych zostało siedem osób, w tym dziecko. Prace nad likwidacją skutków trwają. Państwowa Służba Ratunkowa",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "archived_at": "2026-10-15T01:07:05.669045+00:00"
+    },
+    "2fcd3352e0ee6f1e": {
+      "id": "2fcd3352e0ee6f1e",
+      "timestamp": "2026-09-30T22:53:39+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "New York City Mayor Zohran Mamdani has received a federal security clearance after a nine-month wait, allowing him to pa...",
+      "text": "New York City Mayor Zohran Mamdani has received a federal security clearance after a nine-month wait, allowing him to participate in classified briefings on security threats and emergencies. The Trump administration approved the clearance this week. Officials did not explain the delay, though federal security clearances have faced broader processing backlogs.",
+      "location_name": "Inne",
+      "lat": 48.054,
+      "lon": 35.2094,
+      "url": "https://t.me/ClashReport/99121",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99121"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/Z9Lb-yKRKiyjuzwsx9Pgt_oi63zXuNVAZxaYNkCfLHI_rngNzUnMXPRnNq14n1qa6wx398MLboLYKsy9OKL4QWro28YLybGmHBDSEyvjrtZAmhSC4GRJPtPZXFOQ4z0QFvzy_5663GA3O58e1PoQ_CcWYwKvdgK9elIA-rh0wJcse6Sy4okrJlFahe6OrHuokAt4Ow7q-f7tWL-pnEmw1_Cq05IIEtC1Z_CHmIIVgzm43q3WDQqv1eF0IGsQAHeMjxPfK9vwFngw5u2Yo5bC6hiL__-p2Yti7gpZWedu_26jAffcaQ5SiycySQoGPCkOJY0DZ09-X4cNyR4IxwUD-A.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-01T01:41:22.297707+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Burmistrz Nowego Jorku Zohran Mamdani otrzymał po dziewięciomiesięcznym oczekiwaniu federalne poświadczenie bezpieczeństwa, które umożliwiło mu...",
+      "text_pl": "Burmistrz Nowego Jorku Zohran Mamdani po dziewięciomiesięcznym oczekiwaniu otrzymał federalne poświadczenie bezpieczeństwa, zezwalające mu na udział w tajnych odprawach na temat zagrożeń bezpieczeństwa i sytuacji nadzwyczajnych. Administracja Trumpa zatwierdziła tę zgodę w tym tygodniu. Urzędnicy nie wyjaśnili opóźnienia, chociaż federalne poświadczenia bezpieczeństwa napotkały większe zaległości w przetwarzaniu.",
+      "archived_at": "2026-10-15T01:07:05.669045+00:00"
     }
   }
 }
