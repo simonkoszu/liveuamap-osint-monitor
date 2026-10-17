@@ -1,11 +1,11 @@
 {
   "manifest": {
-    "total_archived": 3920,
+    "total_archived": 3924,
     "retention_days": 14,
     "first_archived_at": "2026-09-23T16:43:07.215300+00:00",
-    "last_archived_at": "2026-10-17T21:53:23.622405+00:00",
+    "last_archived_at": "2026-10-17T23:39:19.072958+00:00",
     "oldest_event_timestamp": "2023-06-05T21:48:13+00:00",
-    "newest_event_timestamp": "2026-10-03T21:52:28+00:00",
+    "newest_event_timestamp": "2026-10-03T23:33:36+00:00",
     "cloud_sync_enabled": false
   },
   "events": {
@@ -171950,6 +171950,166 @@
       "title_pl": "Rosyjscy operatorzy dronów światłowodowych FPV atakują żołnierzy UAF próbujących pokonywać otwarty teren małymi ścieżkami polowymi.",
       "text_pl": "Rosyjscy operatorzy dronów światłowodowych FPV atakują żołnierzy UAF próbujących pokonywać otwarty teren małymi ścieżkami polowymi.",
       "archived_at": "2026-10-17T21:53:23.619501+00:00"
+    },
+    "109180f8aea6f835": {
+      "id": "109180f8aea6f835",
+      "timestamp": "2026-10-03T23:33:36+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Нові реактивні БпЛА з Брянської області на північ Чернігівщини.",
+      "text": "🏍 Нові реактивні БпЛА з Брянської області на північ Чернігівщини.",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.0832,
+      "lon": 34.7264,
+      "url": "https://t.me/kpszsu/82635",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82635"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-04T02:14:23.400110+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Nowe odrzutowe UAV z obwodu briańskiego na północ od obwodu czernihowskiego.",
+      "text_pl": "🏍 Nowe odrzutowe UAV z obwodu briańskiego na północ od obwodu czernihowskiego.",
+      "archived_at": "2026-10-17T23:39:19.070240+00:00"
+    },
+    "13d0062616a0fe75": {
+      "id": "13d0062616a0fe75",
+      "timestamp": "2026-10-03T23:18:47+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Нові реактивні БпЛА з Брянської області на північ Чернігівщини.",
+      "text": "🏍 Нові реактивні БпЛА з Брянської області на північ Чернігівщини.",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.86,
+      "lon": 35.1632,
+      "url": "https://t.me/kpszsu/82634",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82634"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-04T02:14:23.400113+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Nowe odrzutowe UAV z obwodu briańskiego na północ od obwodu czernihowskiego.",
+      "text_pl": "🏍 Nowe odrzutowe UAV z obwodu briańskiego na północ od obwodu czernihowskiego.",
+      "archived_at": "2026-10-17T23:39:19.070240+00:00"
+    },
+    "41e8e68fd734a00a": {
+      "id": "41e8e68fd734a00a",
+      "timestamp": "2026-10-03T23:18:06+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🛵 БпЛА через Харківщину (Коломак) у напрямку Полтавщини.",
+      "text": "🛵 БпЛА через Харківщину (Коломак) у напрямку Полтавщини.",
+      "location_name": "Charków",
+      "lat": 49.9935,
+      "lon": 36.2304,
+      "url": "https://t.me/kpszsu/82633",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82633"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-04T02:14:23.400115+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🛵 BpLA przez obwód charkowski (kołomak) w kierunku obwodu połtawskiego.",
+      "text_pl": "🛵 BpLA przez obwód charkowski (kołomak) w kierunku obwodu połtawskiego.",
+      "archived_at": "2026-10-17T23:39:19.070240+00:00"
+    },
+    "7e3ab3f52fd8c8fa": {
+      "id": "7e3ab3f52fd8c8fa",
+      "timestamp": "2026-10-03T22:23:23+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump: BUILD IN AMERICA, HIRE AMERICAN WORKERS, AND PRICE DRUGS FOR AMERICAN PATIENTS FAIRLY — OR PAY. I LOVE OHIO!",
+      "text": "Trump: BUILD IN AMERICA, HIRE AMERICAN WORKERS, AND PRICE DRUGS FOR AMERICAN PATIENTS FAIRLY — OR PAY. I LOVE OHIO!",
+      "location_name": "Inne",
+      "lat": 48.128,
+      "lon": 34.7366,
+      "url": "https://t.me/ClashReport/99516",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99516"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/szwfxmRvu4WUdKV0xSicUG8G836115-2tPjXmRmvcBWAAuEmBTiDka_-BejS2JnFWab8Cudx-R-i4qMJG_gXLnyG_BxPqMWDgx8pV9loryQQTjLyUNLfGr8oW8iP8BjP7tNCdlT5xBr-SM3nptylMn23CnIvzNesHItvN8rnATxy8FIlvUCH1QL5H0E6MCkiskRDJhXaYCx8FZFcS7yYyJ5TxpzLK39arjCzBWjMTB3wkff4ofywqRmNz7PLkbR7Nwo-0lpKK5TY8Vz8kzk1Wyfa-2CPQJWOI_0LkZd7yPDDIEEA_B7TOcruhRnVQwJs93minxo7ClP-2cgOmiO36w.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-03T22:32:15.844623+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump: BUDUJ W AMERYCE, ZATRUDNIAJ AMERYKAŃSKICH PRACOWNIKÓW I GODZIWNIE CENUJ LEKI DLA AMERYKAŃSKICH PACJENTÓW – LUB PŁAĆ. KOCHAM OHIO!",
+      "text_pl": "Trump: BUDUJ W AMERYCE, ZATRUDNIAJ AMERYKAŃSKICH PRACOWNIKÓW I GODZIWNIE CENUJ LEKI DLA AMERYKAŃSKICH PACJENTÓW – LUB PŁAĆ. KOCHAM OHIO!",
+      "archived_at": "2026-10-17T23:39:19.070240+00:00"
     }
   }
 }
