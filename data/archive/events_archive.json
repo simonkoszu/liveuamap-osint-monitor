@@ -1,11 +1,11 @@
 {
   "manifest": {
-    "total_archived": 3907,
+    "total_archived": 3920,
     "retention_days": 14,
     "first_archived_at": "2026-09-23T16:43:07.215300+00:00",
-    "last_archived_at": "2026-10-17T19:52:37.591752+00:00",
+    "last_archived_at": "2026-10-17T21:53:23.622405+00:00",
     "oldest_event_timestamp": "2023-06-05T21:48:13+00:00",
-    "newest_event_timestamp": "2026-10-03T19:49:01+00:00",
+    "newest_event_timestamp": "2026-10-03T21:52:28+00:00",
     "cloud_sync_enabled": false
   },
   "events": {
@@ -171236,6 +171236,720 @@
       "title_pl": "🛵BpLA w kierunku Charkowa.",
       "text_pl": "🛵BpLA w kierunku Charkowa.",
       "archived_at": "2026-10-17T19:52:37.589167+00:00"
+    },
+    "b707d2be690b5682": {
+      "id": "b707d2be690b5682",
+      "timestamp": "2026-10-03T21:52:28+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА над Київським водосховищем у напрямку Вишгорода/Києва.",
+      "text": "🏍 Реактивний БпЛА над Київським водосховищем у напрямку Вишгорода/Києва.",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/kpszsu/82631",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82631"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-03T22:32:15.844448+00:00",
+      "verified_by_sources": [
+        "rybar",
+        "kpszsu"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🏍 Odrzutowy UAV nad Zalewem Kijowskim w kierunku Wyszhorod/Kijów.",
+      "text_pl": "🏍 Odrzutowy UAV nad Zalewem Kijowskim w kierunku Wyszhorod/Kijów.",
+      "archived_at": "2026-10-17T21:53:23.619501+00:00"
+    },
+    "5d73d9a86a6eebba": {
+      "id": "5d73d9a86a6eebba",
+      "timestamp": "2026-10-03T21:51:06+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА над Київським водосховищем у напрямку Вишгорода/Києва.",
+      "text": "🏍 Реактивний БпЛА над Київським водосховищем у напрямку Вишгорода/Києва.",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/kpszsu/82630",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82630"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-03T22:32:15.844457+00:00",
+      "verified_by_sources": [
+        "rybar",
+        "kpszsu"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🏍 Odrzutowy UAV nad Zalewem Kijowskim w kierunku Wyszhorod/Kijów.",
+      "text_pl": "🏍 Odrzutowy UAV nad Zalewem Kijowskim w kierunku Wyszhorod/Kijów.",
+      "archived_at": "2026-10-17T21:53:23.619501+00:00"
+    },
+    "1057e9c3507ef970": {
+      "id": "1057e9c3507ef970",
+      "timestamp": "2026-10-03T21:26:52+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Чернігівщина: реактивний БпЛА повз Городню в напрямку Березни",
+      "text": "🏍 Чернігівщина: реактивний БпЛА повз Городню в напрямку Березни",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.8824,
+      "lon": 35.2604,
+      "url": "https://t.me/kpszsu/82629",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82629"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-03T22:32:15.844460+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 obwód czernihowski: odrzutowy UAV przelatujący obok Horodnia w kierunku Berezny",
+      "text_pl": "🏍 obwód czernihowski: odrzutowy UAV przelatujący obok Horodnia w kierunku Berezny",
+      "archived_at": "2026-10-17T21:53:23.619501+00:00"
+    },
+    "a0f4cc07bc8286d8": {
+      "id": "a0f4cc07bc8286d8",
+      "timestamp": "2026-10-03T21:26:08+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🛵 БпЛА на Харків з півночі",
+      "text": "🛵 БпЛА на Харків з півночі",
+      "location_name": "Charków",
+      "lat": 49.9935,
+      "lon": 36.2304,
+      "url": "https://t.me/kpszsu/82628",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82628"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-03T22:32:15.844462+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🛵BpLA do Charkowa od północy",
+      "text_pl": "🛵BpLA do Charkowa od północy",
+      "archived_at": "2026-10-17T21:53:23.619501+00:00"
+    },
+    "84ba0ccc4a881515": {
+      "id": "84ba0ccc4a881515",
+      "timestamp": "2026-10-03T21:21:02+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump: Changing clocks discombobulates everybody.",
+      "text": "Trump: Changing clocks discombobulates everybody.",
+      "location_name": "Inne",
+      "lat": 47.952,
+      "lon": 34.886,
+      "url": "https://t.me/ClashReport/99514",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99514"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/awBfkOA-SayVGW6oHMjPWe_C15o9xT_9LGL8SurpZ_4nex0slU-hfc4AKs66AkrJjbNwT7SZ0Dcy5UofRvFje_vb7vjhNiKjhuoShJ4ElGWjhthivbOJv4SKO_IAvVVQdtLxwEvlRjOzxV-04aULStLZtvh1x5W4rR33SVUnGEFf5oAVO0LtcFKfDfliijUwTWz80bTn9o3g5GV89lfmeJWN7-lDKHQrCbUvHpV4rNIvAai-lXMsDYtL_f3QD-mWfMpYu7YIHSrsyjm5qo0j8MWjDfoC2nmvXIotffDCBJNvJ11_LDrQ0ecnDDNcFUmFjiAztNYMHj1nsX4c71c_5A"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/a057a438bc.mp4?token=FuWfVN8oomaTqWIwOlsjLFXDBOLMtgM4OxovvuDy465nMG5fHCy-D-JIGD4u9oO2dT5CxhCQU3ELm6gbVAoTE15aAn1unB3vwhRGqxpVUl9Qf7PVoGNWGDRqF0jKRkIHBVa6Tgim2DxoAhUZD_WWJyS9EVBEjsFmkt1AAJqNP_36pq8tVhYHcgKgIWF_U9s-8qLUkMFBIfeusNq4LxY2Ni6Xc-mRemGaZHbWEuYjaeLxO0v8V_1vg6DR2qcxBLSHLUpCjuf4wI5rBjAwVU4CZ3n7RrVXxes0wdCBW3NTXpzPaNCfBHpwnLkg13bHSGzluMa8FOpcr_QqJEHUII8x5kvsv5fg9NrW5h52or9VZpbwIRezlYhJOfDzcZ5edSqR5GAfNWOARe_nk8J93YzEaxqPlZysLYCYOoxmVEYXV7hpNOj88wESli0eAYUvegD_aT289fMqtQv4sewp5zi3a6gWkUROisKlLE0y8PpW6Hzt-2-moBVZFGjm7ZmZ2_OAOTOLVmTS_84bwPW1hJ0TIWNl_RJEuEYX4-ptYs8oMrJcqTu4Un-jOI72gvOxTCocDVNrhKAhbTyJL-Nk3zZnfiKv6lkCP3PftOn7V11vnww3srqUStB8crkz4_ggGx1A6D_hy1LDFv3acRSDwhwyiL0dF7Ew0-Yxhn5LMYAbigs",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-03T22:32:15.844624+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump: Zmiana czasu wprawia wszystkich w zakłopotanie.",
+      "text_pl": "Trump: Zmiana czasu wprawia wszystkich w zakłopotanie.",
+      "archived_at": "2026-10-17T21:53:23.619501+00:00"
+    },
+    "c9c28f5e71dced1c": {
+      "id": "c9c28f5e71dced1c",
+      "timestamp": "2026-10-03T21:19:15+00:00",
+      "country": "Iran",
+      "flag": "🇮🇷",
+      "theater": "Bliski Wschód (Zatoka Perska)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump on Iran: By the way, Iran, as you know, has virtually given up any plans of a nuclear weapon.",
+      "text": "Trump on Iran: By the way, Iran, as you know, has virtually given up any plans of a nuclear weapon.",
+      "location_name": "Bliski Wschód (Zatoka Perska)",
+      "lat": 47.8692,
+      "lon": 34.7672,
+      "url": "https://t.me/ClashReport/99513",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99513"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/PNEYHgf6LskGd-UgHIjSh9pcJgI7Z0lzj0uXKeAhC5m8PmDqYE7b0jSaWwTnBs9ULw695m_9nPC4FORlJBuHxWlFWmzQRym-Y3ESsaX6300OeyyeBw3pPpospU06DPrt4pIQSE840ZmTojwDEDwE092sRKPPZrvAPIJ09ZMX7os_mRA_TLBxYyCvhFgiqls_-KGosq1CelnL2oE6KPBycZXtACsfBPD9NYJqTl9VpBa7ILJpLbU2ZeJTCNE-OVy7-_kWAt_8TOkEps2tuyjA5_ubw6sgduC4lKZKL8xW0qADWuBpEl-RT-Uup9hZTMyj5owtiWqgN4-t1MbsTIRd6A"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/44f7f19832.mp4?token=tQ91t6Sk08bRvPJa_YMaLVt01gneW_a6DUx8Gek1UcsHTY559kLRgXzNUdbUGgUMoluROOlB-oxIBFXl9d5cPbe0PNLGvcBRfrr9x-Oghpt0HMT9Mxe4-yEujWPrBqM2QjyHEx9oRQ1S5RNZA0I2cudo3BLXKSRyC2Mfg7ZOrugZqd0lKA2QPGNLiWYK5OGuwep9WaaQnixclHV4ib8W4RHHBH7sAQA9ByoubpllH9r5p1r32ookTqOTtLHBE7MmP0NrJC700vRHvCMmujWrwBGwh-sNnuHxM8hXgqdnmJ3lwDUmrNCwWdt-lXPOYVJBT4ZgR0YXef7jAiOpeJwukQ",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-03T22:32:15.844626+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump o Iranie: Swoją drogą Iran, jak wiadomo, praktycznie zrezygnował z jakichkolwiek planów budowy broni nuklearnej.",
+      "text_pl": "Trump o Iranie: Swoją drogą Iran, jak wiadomo, praktycznie zrezygnował z jakichkolwiek planów budowy broni nuklearnej.",
+      "archived_at": "2026-10-17T21:53:23.619501+00:00"
+    },
+    "e7dd0722ba53c8da": {
+      "id": "e7dd0722ba53c8da",
+      "timestamp": "2026-10-03T21:17:39+00:00",
+      "country": "Iran",
+      "flag": "🇮🇷",
+      "theater": "Bliski Wschód (Zatoka Perska)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump on Iran: We have a decision that I’ll make about Iran. We’ll have it the easy or the hard way.",
+      "text": "Trump on Iran: We have a decision that I’ll make about Iran. We’ll have it the easy or the hard way.",
+      "location_name": "Bliski Wschód (Zatoka Perska)",
+      "lat": 47.9416,
+      "lon": 35.0654,
+      "url": "https://t.me/ClashReport/99512",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99512"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/jfOB6z-wi4PFh_3XixnO8MZd37afqCCX8yoxWkDBBFgDV_ZgkNDTdlaZYv79885Xz51Iych1bLV_i439QyqVI1QmqCQXXuZykPxJzCq1DwHzKud_X5hDZ1ZIjV_nVV4Rix21HPrbP70RHsd3XStxYACpkH4p6oMem2zLFB1kWxL1vyJlkeInH6p-Kzo9dBQkg8bSxA1QM5CNKGcN4vmQj9tPLkgwgwLexlFJFitMVrzhaqwd-IgJ5Zw57wPzIkWXQM8V6zx4V07prkXIbpKfxnWTdDxlf5tYl7zFycSZoqW1rdBn2X8f6PfqAl08CYolJ58kfY66i0Rq5CQ_I2igSw"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/faaa0d1d61.mp4?token=tCC9vNa1ewkBpMsOiEvsalL7ZUMDTHoos4Go1KAX2ePR4VBU9ZiNucVt59rAkhGNNLM8wkijBN8AaGXvxYWLslPWhzKBOeszY6Fo3zYo-eSe-HpCCnd7MlDwMqGJR_t-MWmHuyn8OswmvE0MYUKOK1nduJ35DSorIZoK74xqrkU1tx46UJscbwWT7G0uucOM7iM8kkG5juhwb2yb0Z63Xtxc20RMOtm3rxPgBdoF0rIBAslZRInRUaR0niojJrE8lBCXlD_dOPwa49Hb2Sfee8-W3AMuRWK1JbI1NZhmk3_nHGCOWnAU9lbfaqMM7E06zlJu7Fkiq9MwvwhUj3YK1YWOpGPPJgrUDPjvR3m_yJOfwRxPGsEpzEljmzYPM_ib305LxFaLPd8quvZ40nG9StDJNw4Nax8aoRuL-b8n-6oBPvwGr8dv3EhiyaKqNfG_gV9yGSa5ZYGah72x-eD3NdPOT5KFLz0rHzzCgVpF21iBWL2Mh-pu7emhKtuQ6RrzYc-exPxNBiFoTJJ4PSz4BcA7I0RbPUvvLPVvJS478EhQjqh_St8RHpk-3Wpaz8lMgpmY2V0l6NDEKTgkiX0IrwOxzwQ6jsb7EQRO3f6H6YGX2g2aDZYSErWvG97giqxzjDm64dEXG5M0_9VmmbDUMpm4EEasNpxSft6FvnJPxA8",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-03T22:32:15.844628+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump o Iranie: Podjęliśmy decyzję w sprawie Iranu. Przejdziemy przez to w łatwy lub trudny sposób.",
+      "text_pl": "Trump o Iranie: Podjęliśmy decyzję w sprawie Iranu. Przejdziemy przez to w łatwy lub trudny sposób.",
+      "archived_at": "2026-10-17T21:53:23.619501+00:00"
+    },
+    "1b764779e6c9448d": {
+      "id": "1b764779e6c9448d",
+      "timestamp": "2026-10-03T20:59:01+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Ostrzał Artyleryjski",
+      "tactical_category": "Uderzenie Balistyczne / Rakieta",
+      "tactical_icon": "🚀",
+      "title": "📝 Главное от Рыбаря 📝 дайджест материалов за 3 октября В субботний день подсчитали, какой урон украинская инфраструктура...",
+      "text": "📝 Главное от Рыбаря 📝 дайджест материалов за 3 октября В субботний день подсчитали, какой урон украинская инфраструктура получила от ударов по дата-центрам. И результаты есть . К слову и с ТЦК и активность на т.н.Украине тоже есть кое-что новое . ❗️ Подробнее об этих и других темах читайте в нашем дайджесте. ➡️ Рыбарь @rybar — говорим о сложном просто. Основной ресурс нашего аналитического центра. Самые важные и интересные материалы. ▪️ Хроника СВО, годовщина освобождения Угледара , результаты ударов по ЦОД, сентябрьские успехи ТЦК ▪️ С Днём ОМОНа ▪️ Русское Вечное: Цезарь Кюи ▪️ Русское Вечное: Нестор Печерский ▪️ Удары по ТЦК не нужны ▪️ В Киеве вспомнили про мир ▪️ Так ли важен возраст генерала? ➡️ АЗИАТАРЬ @rybar_Pacific Филиппинцы скооперировались с тайваньцами и вместе следят за китайским судном. Японцы хотят передать ракеты для Patriot на т.н. Украину. А в Китае ограничивают экспорт топлива. ➡️ АМЕРИКАРЬ @rybar_america Пентагон создает Командование автономных боевых систем и пытается ускорить внедрение средств борьбы с БЛА, а команда Трампа провела совещание по Ближнему Востоку. ➡️ АФРИКАРЬ @rybar_Africa В Буркина-Фасо боевики изматывают армию: контроль властей вырос до 75%, но города по-прежнему под обстрелами. Тем временем на Мадагаскаре строят православный храм для паствы и бойцов Африканского корпуса. ➡️ БАЛКАНАРЬ @balkanar Болгария готовится к президентским выборам , а Сербия готовится получить французские «Рафали». ➡️ ЕВРОПАРЬ @evropar Проанализировали ситуацию с подземными газовыми хранилищами европейцев — там все не очень, как и у французов, которых ждет новая волна протестов. ➡️ КАВКАЗАРЬ @caucasar Алиев назвал все власти Армении «военными преступниками», а в России ждут решения от армян по восстановлению двух ж/д участков для открытия коммуникаций в регионе. ➡️ ЛАТИНАРЬ @rybar_latam Джей Ди Вэнс летит в Буэнос-Айрес, Милей торгует гражданством, а США закрывают консульства в Бразилии перед выборами. ➡️ ОРИЕНТАРЬ @rybar_mena В Иране с момента «январск",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/rybar/83683",
+      "tactical_sources": [
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/83683"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/83671"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/83670"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/83680"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/83663"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/83668"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/83678"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/83666"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/83674"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/83676"
+        },
+        {
+          "name": "#rybar_pacific",
+          "url": "https://t.me/rybar_Pacific"
+        },
+        {
+          "name": "#rybar_pacific",
+          "url": "https://t.me/rybar_pacific/3370"
+        },
+        {
+          "name": "#rybar_pacific",
+          "url": "https://t.me/rybar_pacific/3371"
+        },
+        {
+          "name": "#rybar_pacific",
+          "url": "https://t.me/rybar_pacific/3372"
+        },
+        {
+          "name": "#rybar_america",
+          "url": "https://t.me/rybar_america"
+        },
+        {
+          "name": "#rybar_america",
+          "url": "https://t.me/rybar_america/2451"
+        },
+        {
+          "name": "#rybar_america",
+          "url": "https://t.me/rybar_america/2454"
+        },
+        {
+          "name": "#rybar_america",
+          "url": "https://t.me/rybar_america/2453"
+        },
+        {
+          "name": "#rybar_africa",
+          "url": "https://t.me/rybar_Africa"
+        },
+        {
+          "name": "#rybar_africa",
+          "url": "https://t.me/rybar_africa/5502"
+        },
+        {
+          "name": "#rybar_africa",
+          "url": "https://t.me/rybar_africa/5500"
+        },
+        {
+          "name": "#balkanar",
+          "url": "https://t.me/balkanar"
+        },
+        {
+          "name": "#balkanar",
+          "url": "https://t.me/balkanar/2880"
+        },
+        {
+          "name": "#balkanar",
+          "url": "https://t.me/balkanar/2881"
+        },
+        {
+          "name": "#evropar",
+          "url": "https://t.me/evropar"
+        },
+        {
+          "name": "#evropar",
+          "url": "https://t.me/evropar/3035"
+        },
+        {
+          "name": "#evropar",
+          "url": "https://t.me/evropar/3036"
+        },
+        {
+          "name": "#caucasar",
+          "url": "https://t.me/caucasar"
+        },
+        {
+          "name": "#caucasar",
+          "url": "https://t.me/caucasar/2489"
+        },
+        {
+          "name": "#caucasar",
+          "url": "https://t.me/caucasar/2490"
+        },
+        {
+          "name": "#rybar_latam",
+          "url": "https://t.me/rybar_latam"
+        },
+        {
+          "name": "#rybar_latam",
+          "url": "https://t.me/rybar_latam/3941"
+        },
+        {
+          "name": "#rybar_latam",
+          "url": "https://t.me/rybar_latam/3943"
+        },
+        {
+          "name": "#rybar_latam",
+          "url": "https://t.me/rybar_latam/3944"
+        },
+        {
+          "name": "#rybar_mena",
+          "url": "https://t.me/rybar_mena"
+        },
+        {
+          "name": "#rybar_mena",
+          "url": "https://t.me/rybar_mena/6969"
+        },
+        {
+          "name": "#rybar_mena",
+          "url": "https://t.me/rybar_mena/6957"
+        },
+        {
+          "name": "#rybar_stan",
+          "url": "https://t.me/rybar_stan"
+        },
+        {
+          "name": "#rybar_stan",
+          "url": "https://t.me/rybar_stan/2610"
+        },
+        {
+          "name": "#rybar_stan",
+          "url": "https://t.me/rybar_stan/2614"
+        },
+        {
+          "name": "#addlist",
+          "url": "https://t.me/addlist/kONcGnoFQxU1NmQy"
+        },
+        {
+          "name": "#rybar_in_english",
+          "url": "https://t.me/rybar_in_english"
+        },
+        {
+          "name": "max.ru",
+          "url": "https://max.ru/Rybar"
+        },
+        {
+          "name": "qr.nspk.ru",
+          "url": "https://qr.nspk.ru/BS1A0068ID10D33B9IBAQRQ4M9T0NIFN?type=01&amp;bank=100000000008&amp;crc=36CB"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/taPW5wA2mL0zwedVHeJuTOOESpnJ2rbaYQaQi1JCEFY5o299a9Ap6IeXxoly9vS0iitGydg7cMBuy24misNjVDzrMKKeIMadrhQK5jgpI1oymbboPvs-j0_duG0E0N5U5NslvZaiPFsd_s8JBba0l2Qtl-SPeluf0YnlM-7eGRO3hj8FQ-ppXTYiFpMQyOVy5Q87xC3Fa_KZ3sgFl5k1YFLxc8vmPv92y0TfVMINKMCmPbOG60AKqv4-E-LbLPWd4a-o9EdvKExxt7VbN_cSleHqU-8T52ZL2KxwJjLQgLnWNYr-pfKVHBvm7F1_z5qcr1sS-EEzZ41h_Ahtb_xK3w.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Obrona Przeciwlotnicza (OPL)"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "rybar",
+      "added_at": "2026-10-03T22:32:15.844600+00:00",
+      "verified_by_sources": [
+        "rybar",
+        "kpszsu"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "📝 Najważniejsze z Rybara 📝 zestawienie materiałów na 3 października W sobotę wyliczyli szkody w ukraińskiej infrastrukturze...",
+      "text_pl": "📝 Najważniejsze z Rybara 📝 zestawienie materiałów z 3 października W sobotę obliczyli, ile szkód poniosła ukraińska infrastruktura w wyniku ataków na centra danych. I są rezultaty. Swoją drogą, jest też coś nowego w TCC i działalności na tzw. Ukrainie. ❗️Więcej na te i inne tematy przeczytasz w naszym podsumowaniu. ➡️ Rybak @rybar - o skomplikowanych rzeczach mówimy po prostu. Główny zasób naszego centrum analitycznego. Najważniejsze i najciekawsze materiały. ▪️ Kronika Północnego Okręgu Wojskowego, rocznica wyzwolenia Ugledaru, wyniki ataków na centrum danych, wrześniowe sukcesy TCC ▪️ Szczęśliwego Dnia Policji Riot ▪️ Rosyjski Wieczny: Cezar Cui ▪️ Rosyjski Wieczny: Nestor Peczerski ▪️ Strajki na TCC nie są potrzebne ▪️ W Kijowie pamięta się o pokoju ▪️ Czy wiek generała jest taki ważne? ➡️ AZJATYCKI @rybar_Pacific Filipińczycy współpracowali z Tajwańczykami i wspólnie monitorują chiński statek. Japończycy chcą przekazać rakiety dla Patriota do tzw. Ukraina. A w Chinach ograniczają eksport paliw. ➡️ AMERYKAŃSKI @rybar_america Pentagon tworzy Dowództwo Autonomicznych Systemów Walki i stara się przyspieszyć rozmieszczenie zdolności zwalczania UAV, a zespół Trumpa odbył spotkanie na temat Bliskiego Wschodu. ➡️ AFRYKA @rybar_Africa W Burkina Faso bojownicy wyczerpują armię: kontrola rządu wzrosła do 75%, ale miasta nadal są pod ostrzałem. Tymczasem na Madagaskarze budowana jest cerkiew dla trzody i żołnierzy Afrika Korps. ➡️ BALKANARI @balkanar Bułgaria przygotowuje się do wyborów prezydenckich, a Serbia przygotowuje się na przyjęcie francuskiego Rafalesa. ➡️ EUROPAR @evropar Przeanalizowaliśmy sytuację z podziemnymi magazynami gazu Europejczyków – nie jest tam najlepiej, podobnie jak Francuzów, którzy czekają na nową falę protestów. ➡️ KAUCASAR @caucasar Aliyev nazwał wszystkie władze Armenii „zbrodniarzami wojennymi”, a Rosja czeka na decyzję Ormian o przywróceniu dwóch odcinków kolei do otwartej komunikacji w regionie. ➡️ ŁACIŃSKI @rybar_latam JD Vance leci do Buenos Aires, Miley sprzedaje obywatelstwo, a USA zamykają konsulaty w Brazylii przed wyborami. ➡️ ORIENTALNY @rybar_mena W Iranie od „Styczeń",
+      "archived_at": "2026-10-17T21:53:23.619501+00:00"
+    },
+    "0e14d0fbe6bebaef": {
+      "id": "0e14d0fbe6bebaef",
+      "timestamp": "2026-10-03T20:37:47+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🚀 &quot;Бандероль&quot; в напрямку Прилук.",
+      "text": "🚀 &quot;Бандероль&quot; в напрямку Прилук.",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.9372,
+      "lon": 34.7438,
+      "url": "https://t.me/kpszsu/82627",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82627"
+        },
+        {
+          "name": "#war_monitor",
+          "url": "https://t.me/war_monitor/47231"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-03T22:32:15.844464+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🚀 „Banderol” w kierunku Pryluka.",
+      "text_pl": "🚀 „Banderol” w kierunku Pryluka.",
+      "archived_at": "2026-10-17T21:53:23.619501+00:00"
+    },
+    "69cf3a86536a6daf": {
+      "id": "69cf3a86536a6daf",
+      "timestamp": "2026-10-03T20:26:30+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🚀 &quot;Бандероль&quot; через Сумщину (Ромни), курсом на Чернігівщину.",
+      "text": "🚀 &quot;Бандероль&quot; через Сумщину (Ромни), курсом на Чернігівщину.",
+      "location_name": "Sumy",
+      "lat": 50.9077,
+      "lon": 34.7981,
+      "url": "https://t.me/kpszsu/82626",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82626"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-03T22:32:15.844466+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🚀 „Banderol” przez obwód sumski (Romny), w kierunku obwodu czernihowskiego.",
+      "text_pl": "🚀 „Banderol” przez obwód sumski (Romny), w kierunku obwodu czernihowskiego.",
+      "archived_at": "2026-10-17T21:53:23.619501+00:00"
+    },
+    "a7cc19eeb2a5800c": {
+      "id": "a7cc19eeb2a5800c",
+      "timestamp": "2026-10-03T20:23:16+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🚀 &quot;Бандероль&quot; через Сумщину (Ромни), курсом на Чернігівщину.",
+      "text": "🚀 &quot;Бандероль&quot; через Сумщину (Ромни), курсом на Чернігівщину.",
+      "location_name": "Sumy",
+      "lat": 50.9077,
+      "lon": 34.7981,
+      "url": "https://t.me/kpszsu/82625",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82625"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-03T22:32:15.844468+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🚀 „Banderol” przez obwód sumski (Romny), w kierunku obwodu czernihowskiego.",
+      "text_pl": "🚀 „Banderol” przez obwód sumski (Romny), w kierunku obwodu czernihowskiego.",
+      "archived_at": "2026-10-17T21:53:23.619501+00:00"
+    },
+    "f6d788facdaaff6b": {
+      "id": "f6d788facdaaff6b",
+      "timestamp": "2026-10-03T20:11:45+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "В Белгороде обломки беспилотника упали в жилом массиве В результате падения обломков беспилотника загорелись машины, со...",
+      "text": "В Белгороде обломки беспилотника упали в жилом массиве  В результате падения обломков беспилотника загорелись машины, сообщают местные СМИ. Кроме того, в одном из домов загорелась квартира. О пострадавших пока не сообщается.",
+      "location_name": "Biełgorod, Rosja",
+      "lat": 50.5954,
+      "lon": 36.5873,
+      "url": "https://t.me/astrapress/127051",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/127051"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/dw1PX7mVx3SXXETH3ZmQWsYDl9o6OwTnWxC1kc7byFDdUv81tKfrvaZjFBYxaSWUzxI3vrxlEd_b4o44Zf7CE_SF7Vct-uXgXvyc7qIa918YjTdXTq9Aw37_58wj7mUzdeCrxJzxZ-zhOQb-wCKmVoKGR8HcAX9YsimInkKA3nhylqWjfqROKrazq4_6Nmj_ZDX9sDqtjjkGEv7Pc4l1n2Ek9XwjJFbfa5RhEKz3PMdfPqVD-Oa1lpqgI4fTX2ZGapiJR3Smm9PhmrghC_rNWcyOWoAwH9amNNhxQom42syiAAt3L1DyqGg_vxZ0mrxYFzbgl9x3m23s6dtJlUEmaQ.jpg",
+        "https://cdn4.telesco.pe/file/l0KtP_lMtDBuHqvAYLx8bu1vQC45ogK-4M5ZElEjrQLd_LKthJNANvzu29Up1JrE71baVhH8rWwZD32rmZh08ZuUsAgDVZsbFZhg-JNg1W6tuUjZOglra9k5WmBkYE7S6eYngxolgDdTfYIajUzrPu8B51Q-TE3XQ-jSIE7Togxo5Q31Tkd6-1PLTFobVhb3FOvC6Raq_7YBWJWlNos5nlmnIm9VXHSywOCG_JX9rYHFsuqGecZUpb9Cb4fXGF7SCpHBJMNnFneLqlKix_2Hs7ZuoCrJXguQusbNJxReWn_Njo9HZH1aybMwp2XSnrLAnbGRpJ256vi7ty45hytaOQ.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "astrapress",
+      "added_at": "2026-10-03T22:32:15.844537+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "W Biełgorodzie fragmenty drona spadły na dzielnicę mieszkaniową. W wyniku spadających fragmentów drona zapaliły się samochody,...",
+      "text_pl": "W Biełgorodzie szczątki drona spadły na dzielnicę mieszkaniową. Lokalne media podały, że w wyniku spadających odłamków drona samochody zapaliły się. Ponadto w jednym z domów zapaliło się mieszkanie. Nie zgłoszono jeszcze żadnych ofiar.",
+      "archived_at": "2026-10-17T21:53:23.619501+00:00"
+    },
+    "c2008994c05e8514": {
+      "id": "c2008994c05e8514",
+      "timestamp": "2026-10-03T20:03:20+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "Russian Fiber-Optics FPV drone operators strike UAF soldiers trying to cross open terrain through small field trails.",
+      "text": "Russian Fiber-Optics FPV drone operators strike UAF soldiers trying to cross open terrain through small field trails.",
+      "location_name": "Inne",
+      "lat": 48.0312,
+      "lon": 34.9628,
+      "url": "https://redd.it/1wqn701",
+      "tactical_sources": [
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://redd.it/1wqn701"
+        },
+        {
+          "name": "Telegram (#r_combatfootage)",
+          "url": "https://t.me/r_combatfootage/42520"
+        },
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://t.me/r_combatfootage"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/tJNmQY0TnG6fBpeABOwpd6b1wkmAYNLv0ItBR28Irmea5QDK0pDXEQ8HuXWwwKnCENlEk9AC58PQs6l0ch1j4QxhzXc6ecYPiWUCGl2n8d5Pc0czEQTrGrFl2UtW1la5rwuO-8MtmX0c-bVJ-EVjAtvNT0uSw0zzZOayxIfr9LjHQSCNennUvmWXgwUQCfhm1k1gRqCXqF7JvmAQAotz50UD_aVsbE6TlCPJHTbOtK1xTL41sCUREF9rirfLJ_Km5bGxPf8CXc2t6helotP2nFM9uNd-ZN2tT6RpL60M_1WeFhjwpYsIfT4MyvFUH3lIZCi1uoEEUNPuwZVjC_k7xQ"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/bfec2a1826.mp4?token=CgC3zFAliiv-jnAoPkfzhKZ0uCdfr33c5_D6yC5dsfjFUaPA70LmJxYJsXR9ynXVS48dexo18U0aqvJj_C0vpwRFkhahqeKLtUNxrs-6yCriJH_NCAVfeYhrZFlCzGVjpQemU3kQHQqFWPrOpDcepAgulzpne-6cInArx61Nwg1Y7wN7yeAR2MxgFLXSnRIRi6ri7Ekur8BPnCV6nM9tsfMurYUaSHoiGRXDY8_Vk9nYozcmnxfxrMJTR2XzulYqvPaGAxTm4ZWua7AVYT5wLsFt8Ik_Af067DmVZE_lEva8kX-LrEbC19qCS7oe2keVNjlR5zlMG6gIxYlakML6IA",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "r_combatfootage",
+      "added_at": "2026-10-03T22:32:15.844717+00:00",
+      "verified_by_sources": [
+        "r_combatfootage"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Rosyjscy operatorzy dronów światłowodowych FPV atakują żołnierzy UAF próbujących pokonywać otwarty teren małymi ścieżkami polowymi.",
+      "text_pl": "Rosyjscy operatorzy dronów światłowodowych FPV atakują żołnierzy UAF próbujących pokonywać otwarty teren małymi ścieżkami polowymi.",
+      "archived_at": "2026-10-17T21:53:23.619501+00:00"
     }
   }
 }
