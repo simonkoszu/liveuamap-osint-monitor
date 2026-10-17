@@ -1,11 +1,11 @@
 {
   "manifest": {
-    "total_archived": 3764,
+    "total_archived": 3817,
     "retention_days": 14,
     "first_archived_at": "2026-09-23T16:43:07.215300+00:00",
-    "last_archived_at": "2026-10-17T07:22:16.892313+00:00",
+    "last_archived_at": "2026-10-17T11:54:28.797707+00:00",
     "oldest_event_timestamp": "2023-06-05T21:48:13+00:00",
-    "newest_event_timestamp": "2026-10-03T07:19:46+00:00",
+    "newest_event_timestamp": "2026-10-03T11:46:19+00:00",
     "cloud_sync_enabled": false
   },
   "events": {
@@ -164794,6 +164794,2333 @@
       "title_pl": "🏍 Odrzutowy UAV na północy obwodu czernihowskiego wzdłuż granicy z Białorusią ➡️ w kierunku zachodnim",
       "text_pl": "🏍 Odrzutowy UAV na północy obwodu czernihowskiego wzdłuż granicy z Białorusią ➡️ w kierunku zachodnim",
       "archived_at": "2026-10-17T07:22:16.889592+00:00"
+    },
+    "f67942598d7c058b": {
+      "id": "f67942598d7c058b",
+      "timestamp": "2026-10-03T11:46:19+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА на Київщині, курс Біла Церква",
+      "text": "🏍 Реактивний БпЛА на Київщині, курс Біла Церква",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/kpszsu/82573",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82573"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-03T12:51:18.207936+00:00",
+      "verified_by_sources": [
+        "astrapress",
+        "shot_shot",
+        "rybar",
+        "kpszsu"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🏍 Reaktywny UAV w obwodzie kijowskim, kurs na Białą Cerkiew",
+      "text_pl": "🏍 Reaktywny UAV w obwodzie kijowskim, kurs na Białą Cerkiew",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "bffe3a76d16f9cc9": {
+      "id": "bffe3a76d16f9cc9",
+      "timestamp": "2026-10-03T11:42:44+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА на півночі Чернігівщини вздовж кордону з Білоруссю в напрямку Київщини",
+      "text": "🏍 Реактивний БпЛА на півночі Чернігівщини вздовж кордону з Білоруссю в напрямку Київщини",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/kpszsu/82572",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82572"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-03T12:51:18.207939+00:00",
+      "verified_by_sources": [
+        "astrapress",
+        "shot_shot",
+        "rybar",
+        "kpszsu"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🏍 Odrzutowy UAV na północy obwodu czernihowskiego wzdłuż granicy z Białorusią w kierunku obwodu kijowskiego",
+      "text_pl": "🏍 Odrzutowy UAV na północy obwodu czernihowskiego wzdłuż granicy z Białorusią w kierunku obwodu kijowskiego",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "30d0ce741649f3c4": {
+      "id": "30d0ce741649f3c4",
+      "timestamp": "2026-10-03T11:42:05+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА на Черкащині, курс Київщина",
+      "text": "🏍 Реактивний БпЛА на Черкащині, курс Київщина",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/kpszsu/82571",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82571"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-03T12:51:18.207941+00:00",
+      "verified_by_sources": [
+        "astrapress",
+        "shot_shot",
+        "rybar",
+        "kpszsu"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🏍 Odrzutowy UAV w obwodzie czerkaskim, kurs na obwód kijowski",
+      "text_pl": "🏍 Odrzutowy UAV w obwodzie czerkaskim, kurs na obwód kijowski",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "ef69576f1fea88e1": {
+      "id": "ef69576f1fea88e1",
+      "timestamp": "2026-10-03T11:39:01+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Eksplozja / Detonacja",
+      "tactical_icon": "💥",
+      "title": "Один человек погиб, еще два пострадали в результате атак украинских дронов в Белгородской области, — оперштаб «В Грайвор...",
+      "text": "Один человек погиб, еще два пострадали в результате атак украинских дронов в Белгородской области, — оперштаб «В Грайворонском округе в селе Смородино при детонации FPV-дрона на территории домовладения погиб мужчина. &lt;…&gt; В городе Грайворон в результате атаки FPV-дрона на автомобиль мужчина и женщина получили множественные осколочные ранения мягких тканей лица. Пострадавшим оказана помощь в Грайворонской ЦРБ, лечение будут продолжать амбулаторно», — сообщили в оперативном штабе Белгородской области.",
+      "location_name": "Biełgorod, Rosja",
+      "lat": 50.5954,
+      "lon": 36.5873,
+      "url": "https://t.me/astrapress/127028",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/127028"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/Uvg27IAM8xkxULEF4jBM1uUebMKF54Ge0xBa_OrwxwNCrULt__FlY5xJhKmxblGU31Kun4rUSOzKAjDkSn94xNdir9sBVcCrj2esFB1-Ou4SHD-g5u17cp2dv08NKLlq3rRlLpwlIjVck_bI87oAeRXxmT06FmdwVupw4i1QQNYqE3PYoadprNcYbiej2GN8LZdwP2zdHpo6q60jUNR-YBb9JqjaBoLLYdfVPGhDp0xvPTYl0Z_EqsvhCYKj1zg-s6PqUB00KIjgIJedBj5wIbJ9U7rbfmguzPICMXEKFkXG6yx4ZTlG8envDCZSHxTMUakKfpZ4lH4Qprztgv6Uuw.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Skład Amunicji / Arsenał",
+      "is_fire": true,
+      "threat_score": 5,
+      "source_channel": "astrapress",
+      "added_at": "2026-10-03T12:51:18.208014+00:00",
+      "verified_by_sources": [
+        "astrapress",
+        "war_monitor"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "Jedna osoba zginęła, dwie kolejne zostały ranne w wyniku ataków ukraińskich dronów w obwodzie Biełgorodskim, - Dowództwo Operacyjne „W Szarworze...",
+      "text_pl": "Jedna osoba zginęła, dwie kolejne zostały ranne w wyniku ataków ukraińskich dronów w obwodzie biełgorodskim, - siedziba operacyjna „W rejonie Szarworońskim we wsi Smorodino w wyniku zdetonowania drona FPV na terenie gospodarstwa domowego zginął mężczyzna. <…> W mieście Szarworon w wyniku ataku drona FPV na samochód mężczyzna i kobieta otrzymali liczne rany odłamkowe w tkanki miękkie twarzy. Ofiarom udzielono pomocy w Centralnym Szpitalu Rejonowym Szarworońska leczenie będzie kontynuowane w trybie ambulatoryjnym” – poinformowała komenda operacyjna obwodu Biełgorodu.",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "6f83eb79cd1602d7": {
+      "id": "6f83eb79cd1602d7",
+      "timestamp": "2026-10-03T11:34:12+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🛵 БпЛА на Харків з півночі",
+      "text": "🛵 БпЛА на Харків з півночі",
+      "location_name": "Charków",
+      "lat": 49.9935,
+      "lon": 36.2304,
+      "url": "https://t.me/kpszsu/82570",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82570"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-03T12:51:18.207944+00:00",
+      "verified_by_sources": [
+        "r_combatfootage",
+        "kpszsu"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🛵BpLA do Charkowa od północy",
+      "text_pl": "🛵BpLA do Charkowa od północy",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "1393a58fc2eb8e21": {
+      "id": "1393a58fc2eb8e21",
+      "timestamp": "2026-10-03T11:30:20+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА на Кіровоградщині, курс на Новоархангельськ",
+      "text": "🏍 Реактивний БпЛА  на Кіровоградщині, курс на Новоархангельськ",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.8424,
+      "lon": 34.871,
+      "url": "https://t.me/kpszsu/82569",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82569"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-03T12:51:18.207946+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Reaktywne BpLA w obwodzie kirowogradzkim, kurs do Noworarchangielska",
+      "text_pl": "🏍 Reaktywne BpLA w obwodzie kirowogradzkim, kurs do Noworarchangielska",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "376727502c4e8a0f": {
+      "id": "376727502c4e8a0f",
+      "timestamp": "2026-10-03T11:30:02+00:00",
+      "country": "Polska",
+      "flag": "🇵🇱",
+      "theater": "Wschodnia Flanka NATO (Polska)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Nowy pocisk artyleryjski w ramach „usługi”. Jest kontrakt",
+      "text": "Nowy pocisk artyleryjski w ramach „usługi”. Jest kontrakt. Amerykańska spółka Tiberius Aerospace poinformowała o zawarciu kontraktu technologicznego o wartości 500 milionów dolarów na produkcję, licencjonowanie i dystrybucję amunicji precyzyjnej Sceptre. Porozumienie zawarte z konsorcjum brytyjskich partnerów przemysłowych stanowi pierwsze skalowane wdrożenie modelu biznesowego określanego jako Defense-as-a-Service (DaaS) – obrona jako usługa.",
+      "title_pl": "Nowy pocisk artyleryjski w ramach „usługi”. Jest kontrakt",
+      "text_pl": "Nowy pocisk artyleryjski w ramach „usługi”. Jest kontrakt. Amerykańska spółka Tiberius Aerospace poinformowała o zawarciu kontraktu technologicznego o wartości 500 milionów dolarów na produkcję, licencjonowanie i dystrybucję amunicji precyzyjnej Sceptre. Porozumienie zawarte z konsorcjum brytyjskich partnerów przemysłowych stanowi pierwsze skalowane wdrożenie modelu biznesowego określanego jako Defense-as-a-Service (DaaS) – obrona jako usługa.",
+      "location_name": "Wschodnia Flanka NATO (Polska)",
+      "lat": 52.1484,
+      "lon": 20.8746,
+      "url": "https://defence24.pl/przemysl/nowy-pocisk-artyleryjski-w-ramach-uslugi-jest-kontrakt",
+      "tactical_sources": [
+        {
+          "name": "Defence24",
+          "url": "https://defence24.pl/przemysl/nowy-pocisk-artyleryjski-w-ramach-uslugi-jest-kontrakt"
+        }
+      ],
+      "media_urls": [
+        "https://cdn.defence24.pl/2026/10/02/1200xpx/tMYBhWn8x1E5QmbKN0aJEvSH5BaEcJ2culGqZF1w.hjca.jpg",
+        "https://cdn.defence24.pl/2026/10/02/320x240px/tMYBhWn8x1E5QmbKN0aJEvSH5BaEcJ2culGqZF1w.zchi.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "defence24",
+      "verified_by_sources": [
+        "defence24"
+      ],
+      "multi_source_verified": false,
+      "added_at": "2026-10-03T12:51:18.208278+00:00",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "5c1be0c024236ce6": {
+      "id": "5c1be0c024236ce6",
+      "timestamp": "2026-10-03T11:28:22+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Одещина: реактивний БпЛА курсом на н.п.Білгород Дністровський/Овідіополь, з півночі",
+      "text": "🏍 Одещина: реактивний БпЛА курсом на н.п.Білгород Дністровський/Овідіополь, з півночі",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.076,
+      "lon": 35.1692,
+      "url": "https://t.me/kpszsu/82568",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82568"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-03T12:51:18.207948+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odesa: odrzutowy UAV w kierunku Białogród Dnistrovskyi/Ovidiopol, od północy",
+      "text_pl": "🏍 Odesa: odrzutowy UAV w kierunku Białogród Dnistrovskyi/Ovidiopol, od północy",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "nasa_firms_47.352_29.463_2026-10-03_1123": {
+      "id": "nasa_firms_47.352_29.463_2026-10-03_1123",
+      "title": "NASA Satellites detect intense thermal anomaly (FRP 61.5 MW) near Ukraina / Donbas / Krym",
+      "title_pl": "Satelita NASA VIIRS zarejestrował anomalię termiczną / eksplozję (FRP: 61.5 MW) w rejonie Ukraina / Donbas / Krym [47.352, 29.463]",
+      "text": "NASA FIRMS VIIRS sensor detected an active thermal signature with 61.5 MW radiative power on 2026-10-03 at 11:23 UTC. Likely impact, explosion, or industrial facility blaze.",
+      "text_pl": "Czujnik NASA FIRMS VIIRS 375m zarejestrował punktową anomalię termiczną o mocy 61.5 MW w dniu 2026-10-03 o 11:23 UTC. Prawdopodobne miejsce uderzenia, eksplozji lub pożaru instalacji przemysłowej.",
+      "timestamp": "2026-10-03T11:23:00+00:00",
+      "date": "2026-10-03 11:23:00",
+      "lat": 47.35177,
+      "lon": 29.46277,
+      "lng": 29.46277,
+      "country": "Czujniki NASA",
+      "flag": "🛰️",
+      "theater": "Monitoring Satelitarny (Ukraina / Donbas / Krym)",
+      "location_name": "Ukraina / Donbas / Krym [47.35, 29.46]",
+      "url": "https://firms.modaps.eosdis.nasa.gov/map/#d:2026-10-03..2026-10-03;l:viirs_snpp_nrt;@29.46,47.35,11z",
+      "event_type": "Anomalia Termiczna",
+      "tactical_category": "Czujnik NASA FIRMS",
+      "tactical_icon": "🛰️",
+      "threat_score": 0.9,
+      "source": "NASA FIRMS Satellite VIIRS",
+      "source_channel": "NASA FIRMS",
+      "is_fire": true,
+      "is_nasa": true,
+      "frp": 61.46,
+      "added_at": "2026-10-03T16:52:20.411305+00:00",
+      "verified_by_sources": [
+        "NASA FIRMS"
+      ],
+      "multi_source_verified": false,
+      "media_urls": [],
+      "tactical_sources": [
+        {
+          "name": "Satelita NASA",
+          "url": "https://firms.modaps.eosdis.nasa.gov/map/#d:2026-10-03..2026-10-03;l:viirs_snpp_nrt;@29.46,47.35,11z"
+        }
+      ],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "nasa_firms_47.355_29.462_2026-10-03_1123": {
+      "id": "nasa_firms_47.355_29.462_2026-10-03_1123",
+      "title": "NASA Satellites detect intense thermal anomaly (FRP 61.5 MW) near Ukraina / Donbas / Krym",
+      "title_pl": "Satelita NASA VIIRS zarejestrował anomalię termiczną / eksplozję (FRP: 61.5 MW) w rejonie Ukraina / Donbas / Krym [47.355, 29.462]",
+      "text": "NASA FIRMS VIIRS sensor detected an active thermal signature with 61.5 MW radiative power on 2026-10-03 at 11:23 UTC. Likely impact, explosion, or industrial facility blaze.",
+      "text_pl": "Czujnik NASA FIRMS VIIRS 375m zarejestrował punktową anomalię termiczną o mocy 61.5 MW w dniu 2026-10-03 o 11:23 UTC. Prawdopodobne miejsce uderzenia, eksplozji lub pożaru instalacji przemysłowej.",
+      "timestamp": "2026-10-03T11:23:00+00:00",
+      "date": "2026-10-03 11:23:00",
+      "lat": 47.3555,
+      "lon": 29.46194,
+      "lng": 29.46194,
+      "country": "Czujniki NASA",
+      "flag": "🛰️",
+      "theater": "Monitoring Satelitarny (Ukraina / Donbas / Krym)",
+      "location_name": "Ukraina / Donbas / Krym [47.36, 29.46]",
+      "url": "https://firms.modaps.eosdis.nasa.gov/map/#d:2026-10-03..2026-10-03;l:viirs_snpp_nrt;@29.46,47.36,11z",
+      "event_type": "Anomalia Termiczna",
+      "tactical_category": "Czujnik NASA FIRMS",
+      "tactical_icon": "🛰️",
+      "threat_score": 0.9,
+      "source": "NASA FIRMS Satellite VIIRS",
+      "source_channel": "NASA FIRMS",
+      "is_fire": true,
+      "is_nasa": true,
+      "frp": 61.46,
+      "added_at": "2026-10-03T16:52:20.411314+00:00",
+      "verified_by_sources": [
+        "NASA FIRMS"
+      ],
+      "multi_source_verified": false,
+      "media_urls": [],
+      "tactical_sources": [
+        {
+          "name": "Satelita NASA",
+          "url": "https://firms.modaps.eosdis.nasa.gov/map/#d:2026-10-03..2026-10-03;l:viirs_snpp_nrt;@29.46,47.36,11z"
+        }
+      ],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "nasa_firms_47.356_29.468_2026-10-03_1123": {
+      "id": "nasa_firms_47.356_29.468_2026-10-03_1123",
+      "title": "NASA Satellites detect intense thermal anomaly (FRP 61.5 MW) near Ukraina / Donbas / Krym",
+      "title_pl": "Satelita NASA VIIRS zarejestrował anomalię termiczną / eksplozję (FRP: 61.5 MW) w rejonie Ukraina / Donbas / Krym [47.356, 29.468]",
+      "text": "NASA FIRMS VIIRS sensor detected an active thermal signature with 61.5 MW radiative power on 2026-10-03 at 11:23 UTC. Likely impact, explosion, or industrial facility blaze.",
+      "text_pl": "Czujnik NASA FIRMS VIIRS 375m zarejestrował punktową anomalię termiczną o mocy 61.5 MW w dniu 2026-10-03 o 11:23 UTC. Prawdopodobne miejsce uderzenia, eksplozji lub pożaru instalacji przemysłowej.",
+      "timestamp": "2026-10-03T11:23:00+00:00",
+      "date": "2026-10-03 11:23:00",
+      "lat": 47.3562,
+      "lon": 29.46845,
+      "lng": 29.46845,
+      "country": "Czujniki NASA",
+      "flag": "🛰️",
+      "theater": "Monitoring Satelitarny (Ukraina / Donbas / Krym)",
+      "location_name": "Ukraina / Donbas / Krym [47.36, 29.47]",
+      "url": "https://firms.modaps.eosdis.nasa.gov/map/#d:2026-10-03..2026-10-03;l:viirs_snpp_nrt;@29.47,47.36,11z",
+      "event_type": "Anomalia Termiczna",
+      "tactical_category": "Czujnik NASA FIRMS",
+      "tactical_icon": "🛰️",
+      "threat_score": 0.9,
+      "source": "NASA FIRMS Satellite VIIRS",
+      "source_channel": "NASA FIRMS",
+      "is_fire": true,
+      "is_nasa": true,
+      "frp": 61.46,
+      "added_at": "2026-10-03T16:52:20.411317+00:00",
+      "verified_by_sources": [
+        "NASA FIRMS"
+      ],
+      "multi_source_verified": false,
+      "media_urls": [],
+      "tactical_sources": [
+        {
+          "name": "Satelita NASA",
+          "url": "https://firms.modaps.eosdis.nasa.gov/map/#d:2026-10-03..2026-10-03;l:viirs_snpp_nrt;@29.47,47.36,11z"
+        }
+      ],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "nasa_firms_50.948_29.960_2026-10-03_1123": {
+      "id": "nasa_firms_50.948_29.960_2026-10-03_1123",
+      "title": "NASA Satellites detect intense thermal anomaly (FRP 27.4 MW) near Ukraina / Donbas / Krym",
+      "title_pl": "Satelita NASA VIIRS zarejestrował anomalię termiczną / eksplozję (FRP: 27.4 MW) w rejonie Ukraina / Donbas / Krym [50.948, 29.960]",
+      "text": "NASA FIRMS VIIRS sensor detected an active thermal signature with 27.4 MW radiative power on 2026-10-03 at 11:23 UTC. Likely impact, explosion, or industrial facility blaze.",
+      "text_pl": "Czujnik NASA FIRMS VIIRS 375m zarejestrował punktową anomalię termiczną o mocy 27.4 MW w dniu 2026-10-03 o 11:23 UTC. Prawdopodobne miejsce uderzenia, eksplozji lub pożaru instalacji przemysłowej.",
+      "timestamp": "2026-10-03T11:23:00+00:00",
+      "date": "2026-10-03 11:23:00",
+      "lat": 50.94813,
+      "lon": 29.9602,
+      "lng": 29.9602,
+      "country": "Czujniki NASA",
+      "flag": "🛰️",
+      "theater": "Monitoring Satelitarny (Ukraina / Donbas / Krym)",
+      "location_name": "Ukraina / Donbas / Krym [50.95, 29.96]",
+      "url": "https://firms.modaps.eosdis.nasa.gov/map/#d:2026-10-03..2026-10-03;l:viirs_snpp_nrt;@29.96,50.95,11z",
+      "event_type": "Anomalia Termiczna",
+      "tactical_category": "Czujnik NASA FIRMS",
+      "tactical_icon": "🛰️",
+      "threat_score": 0.9,
+      "source": "NASA FIRMS Satellite VIIRS",
+      "source_channel": "NASA FIRMS",
+      "is_fire": true,
+      "is_nasa": true,
+      "frp": 27.42,
+      "added_at": "2026-10-03T16:52:20.411324+00:00",
+      "verified_by_sources": [
+        "NASA FIRMS"
+      ],
+      "multi_source_verified": false,
+      "media_urls": [],
+      "tactical_sources": [
+        {
+          "name": "Satelita NASA",
+          "url": "https://firms.modaps.eosdis.nasa.gov/map/#d:2026-10-03..2026-10-03;l:viirs_snpp_nrt;@29.96,50.95,11z"
+        }
+      ],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "nasa_firms_46.627_32.531_2026-10-03_1121": {
+      "id": "nasa_firms_46.627_32.531_2026-10-03_1121",
+      "title": "NASA Satellites detect intense thermal anomaly (FRP 39.1 MW) near Ukraina / Donbas / Krym",
+      "title_pl": "Satelita NASA VIIRS zarejestrował anomalię termiczną / eksplozję (FRP: 39.1 MW) w rejonie Ukraina / Donbas / Krym [46.627, 32.531]",
+      "text": "NASA FIRMS VIIRS sensor detected an active thermal signature with 39.1 MW radiative power on 2026-10-03 at 11:21 UTC. Likely impact, explosion, or industrial facility blaze.",
+      "text_pl": "Czujnik NASA FIRMS VIIRS 375m zarejestrował punktową anomalię termiczną o mocy 39.1 MW w dniu 2026-10-03 o 11:21 UTC. Prawdopodobne miejsce uderzenia, eksplozji lub pożaru instalacji przemysłowej.",
+      "timestamp": "2026-10-03T11:21:00+00:00",
+      "date": "2026-10-03 11:21:00",
+      "lat": 46.62694,
+      "lon": 32.53051,
+      "lng": 32.53051,
+      "country": "Czujniki NASA",
+      "flag": "🛰️",
+      "theater": "Monitoring Satelitarny (Ukraina / Donbas / Krym)",
+      "location_name": "Ukraina / Donbas / Krym [46.63, 32.53]",
+      "url": "https://firms.modaps.eosdis.nasa.gov/map/#d:2026-10-03..2026-10-03;l:viirs_snpp_nrt;@32.53,46.63,11z",
+      "event_type": "Anomalia Termiczna",
+      "tactical_category": "Czujnik NASA FIRMS",
+      "tactical_icon": "🛰️",
+      "threat_score": 0.9,
+      "source": "NASA FIRMS Satellite VIIRS",
+      "source_channel": "NASA FIRMS",
+      "is_fire": true,
+      "is_nasa": true,
+      "frp": 39.11,
+      "added_at": "2026-10-03T16:52:20.411319+00:00",
+      "verified_by_sources": [
+        "NASA FIRMS"
+      ],
+      "multi_source_verified": false,
+      "media_urls": [],
+      "tactical_sources": [
+        {
+          "name": "Satelita NASA",
+          "url": "https://firms.modaps.eosdis.nasa.gov/map/#d:2026-10-03..2026-10-03;l:viirs_snpp_nrt;@32.53,46.63,11z"
+        }
+      ],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "ee4687449ce49c4b": {
+      "id": "ee4687449ce49c4b",
+      "timestamp": "2026-10-03T11:18:52+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "⚠ Увага! 🛫 Активність ворожої тактичної авіації на північно-східному напрямку! 🚀 🚀 Загроза застосування авіаційних засоб...",
+      "text": "⚠ Увага! 🛫 Активність ворожої тактичної авіації на північно-східному напрямку! 🚀 🚀 Загроза застосування авіаційних засобів ураження для прифронтових областей!",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.958,
+      "lon": 34.8854,
+      "url": "https://t.me/kpszsu/82566",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82566"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-03T12:51:18.207950+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "⚠ Uwaga! 🛫 Działalność wrogiego lotnictwa taktycznego na kierunku północno-wschodnim! 🚀 🚀 Zagrożenie użyciem samolotów...",
+      "text_pl": "⚠ Uwaga! 🛫 Działalność wrogiego lotnictwa taktycznego na kierunku północno-wschodnim! 🚀 🚀 Groźba użycia lotniczych środków zniszczenia na terenach frontowych!",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "5d85f3ec792adf94": {
+      "id": "5d85f3ec792adf94",
+      "timestamp": "2026-10-03T11:18:16+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Миколаївщина: реактивний БпЛА курсом на Первомайськ",
+      "text": "🏍 Миколаївщина: реактивний БпЛА курсом на Первомайськ",
+      "location_name": "Mikołajów",
+      "lat": 46.975,
+      "lon": 31.9946,
+      "url": "https://t.me/kpszsu/82565",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82565"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-03T12:51:18.207952+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Obwód Mikołajowski: odrzutowy UAV skierował się do Pierwomajska",
+      "text_pl": "🏍 Obwód Mikołajowski: odrzutowy UAV skierował się do Pierwomajska",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "59bb2f5e5e95bb52": {
+      "id": "59bb2f5e5e95bb52",
+      "timestamp": "2026-10-03T11:16:02+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Одещина: реактивний БпЛА курсом на н.п.Роздільна",
+      "text": "🏍 Одещина: реактивний БпЛА курсом на н.п.Роздільна",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.06,
+      "lon": 34.844,
+      "url": "https://t.me/kpszsu/82563",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82563"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-03T12:51:18.207954+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odeszczyna: odrzutowy UAV w kierunku Rozdielnej",
+      "text_pl": "🏍 Odeszczyna: odrzutowy UAV w kierunku Rozdielnej",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "2e39906766823263": {
+      "id": "2e39906766823263",
+      "timestamp": "2026-10-03T11:11:10+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🛵 БпЛА на Дніпропетровщині, курс на н.п.Солоне",
+      "text": "🛵 БпЛА на Дніпропетровщині, курс на н.п.Солоне",
+      "location_name": "Dniepr",
+      "lat": 48.4647,
+      "lon": 35.0462,
+      "url": "https://t.me/kpszsu/82562",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82562"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 9,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-03T12:51:18.207956+00:00",
+      "verified_by_sources": [
+        "rybar",
+        "kpszsu"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🛵BpLA w obwodzie dniepropietrowskim, kurs we wsi Solon",
+      "text_pl": "🛵BpLA w obwodzie dniepropietrowskim, kurs we wsi Solon",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "ab85fdbebc801df3": {
+      "id": "ab85fdbebc801df3",
+      "timestamp": "2026-10-03T11:03:28+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Starcie Lądowe / Szturm",
+      "tactical_icon": "⚔️",
+      "title": "russian soldiers&quot;K-2&quot; Drones Bring Movement to a Halt During the &quot;Vivaldi&quot; operation, attack drones &quot;K-2&quot; from the 20th ...",
+      "text": "russian soldiers&quot;K-2&quot; Drones Bring Movement to a Halt During the &quot;Vivaldi&quot; operation, attack drones &quot;K-2&quot; from the 20th Separate Unmanned Systems Brigade of the Third Army Corps targeted enemy personnel and rendered them immobile. Video of deadly chases, showing the final secon",
+      "location_name": "Inne",
+      "lat": 48.1788,
+      "lon": 35.2094,
+      "url": "https://redd.it/1ws7g34",
+      "tactical_sources": [
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://redd.it/1ws7g34"
+        },
+        {
+          "name": "Telegram (#r_combatfootage)",
+          "url": "https://t.me/r_combatfootage/42511"
+        },
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://t.me/r_combatfootage"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "r_combatfootage",
+      "added_at": "2026-10-03T12:51:18.208217+00:00",
+      "verified_by_sources": [
+        "r_combatfootage"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "rosyjscy żołnierze Drony „K-2” zatrzymują ruch Podczas operacji „Vivaldi” atakują drony „K-2” z 20.",
+      "text_pl": "rosyjscy żołnierze Drony „K-2” wstrzymują ruch Podczas operacji „Vivaldi” drony szturmowe „K-2” z 20. Oddzielnej Brygady Systemów Bezzałogowych 3. Korpusu Armii wycelowały w personel wroga i unieruchomiły go. Film przedstawiający śmiertelne pościgi, pokazujący ostatnią sekundę",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "076ca0d52444fc78": {
+      "id": "076ca0d52444fc78",
+      "timestamp": "2026-10-03T11:03:25+00:00",
+      "country": "Izrael i Palestyna",
+      "flag": "🇵🇸 🇮🇱",
+      "theater": "Bliski Wschód (Gaza / Zachodni Brzeg)",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Bombardowanie Lotnicze (KAB / FAB)",
+      "tactical_icon": "💣",
+      "title": "An Israeli airstrike on a Gaza City apartment killed at least five Palestinians and severely wounded six others, medical...",
+      "text": "An Israeli airstrike on a Gaza City apartment killed at least five Palestinians and severely wounded six others, medical staff said. The building was struck without warning while residents were asleep, causing damage across multiple floors as rescue crews searched for people under the rubble. Source: Al Jazeera",
+      "location_name": "Strefa Gazy",
+      "lat": 31.5017,
+      "lon": 34.4668,
+      "url": "https://t.me/ClashReport/99477",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99477"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/bnkpygum9zobIxTMfkrTG6vtlNe2QwhZLtWVzoWaL2hRW8-Rqb-D2_CyyVMIRZtJEetmQ0Sp4Jw5AXi9FxDSzzmIL9kJhCsbj7HlxLZqimouTfiLDEq076zLQeQfOldPBp1dzvd_hf5RjioXVL5P5BlS65f1Ruw4S8ucFgGFIcHLSDgo32G01aF4EKhO8MKdU_ClDbnLJ7A4SCnYdsuU45m_ItvlRRfbivnP0LgC3K0smbtAqhPyCPs0CI8FzG20TBFdZpRHMnV3c-rjxrIEGbF5a24rXpQHjx6PHErEPyztRTPe2Tv8V1KL4sttnYsTVmdTPAsdFDJYUSalQ5lKpw"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-03T12:51:18.208115+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "W izraelskim nalocie na mieszkanie w Gazie zginęło co najmniej pięciu Palestyńczyków, a sześciu innych zostało poważnie rannych, w tym lekarze…",
+      "text_pl": "Według personelu medycznego w izraelskim nalocie na mieszkanie w Gazie zginęło co najmniej pięciu Palestyńczyków, a sześciu innych zostało ciężko rannych. Budynek został uderzony bez ostrzeżenia, gdy mieszkańcy spali, powodując zniszczenia na wielu piętrach, gdy ekipy ratownicze szukały ludzi pod gruzami. Źródło: Al Jazeera",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "1853a5cca64e71c1": {
+      "id": "1853a5cca64e71c1",
+      "timestamp": "2026-10-03T10:49:22+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Путин присвоил Рамзану Кадырову звание генерала армии, руководитель Росгвардии Виктор Золотов вручил главе Чечни погоны ...",
+      "text": "Путин присвоил Рамзану Кадырову звание генерала армии, руководитель Росгвардии Виктор Золотов вручил главе Чечни погоны и краповый берет «Указом Президента Российской Федерации присвоить очередное воинское звание высшего офицера — генерал армии — Герою Российской Федерации, генерал-полковнику Кадырову Рамзану Ахматовичу. Также вручается краповый берет Герою Российской Федерации, генералу армии Кадырову Рамзану Ахматовичу», — объявил диктор во время церемонии вручения награды в Грозном. В свою очередь Кадыров присвоил Золотову звание Героя Чечни. Генерал армии де-факто является в России высшим воинским званием, так как звание маршала РФ не присваивалось с 1997 года. Краповый берет — это высший форменный знак отличия и символ профессионального мастерства военнослужащих подразделений специального назначения (спецназ).",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 47.8244,
+      "lon": 34.79,
+      "url": "https://t.me/astrapress/127024",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/127024"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/NMl2VbW04sCWxRsbbmzuCZD0TzrN5DSwnAZKJ7IxpYm2pfSDau_pu94o3VDWIYM17ZtICElTGUzRG9rsDOYGfS9aH8mglewVzWn78Fwm2kmVgYgOWwKAnmtaIT5oSyFkRzUDucBrT-YQXg8btIBs8ZgyCQtRJyjHYU37quyaU0aaGLQUeRzj3ym9OXhJ6DFNad_WtYeEAnPtMjBjxJbedEwUdwTjiL9lGW-LI9j0ebpAuWtw2F-txtNYV51YJvWGydvJtidUoUlnQ_CNA8VDSG9hI1ZrGDEi_NtfqqlgWpc3Y3jfP6LI3F5xGf3Qw9m_Vr09EfwfjbrIgljwmtKibA",
+        "https://cdn4.telesco.pe/file/l3ReSg6Hp_OFXsCQT6_bqhBkpWzt7HSZZYhbrCuGloEP2ADCTJ2naOnvlLcWp5nEfnsmcx71yAs1f6B-af3kyAO0l76KZbTeJu5OAwN8KojQKYdt6RHNSCQ5q3OENig-fWMStLnWSDVd2TJKX4MZdwIsHjbErMDXb7gADZvW_ZaovaUgFFNEIs83MHGE4qO89GjElPAl0o-D3ILcosrnbgZostVitv0PTwYK7pzcfVEASs8rkNL0KonPgGNpDX3xPxActvNdqIgiBGJrEX2ispDeV2nb2Lb0RtGiPRvStZvrvGyZk91DdD19QVoy_Pc52EVj7sLEkfuAR6rTi51sAQ.jpg"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/ff02bfa424.mp4?token=TeS5cevM03IYTm8liStpr66Y5JUafhYxwe7GM-n0EBi6Vcs9bdfSkEsbSY3Vw_iqXqcf6MWJf22TB-inV6EDfuw6tpkMq-d1gM9dw4oAE-yqZ8k3JKI_ae69VavXVrfEid7AgxDcjanp1Jd1sP55n3EZAbghhLiRGlhbokbMV7L8_nIXHzanYzqmMdkl8-rP-gpI9KU43eesH8OE7fi9iQ5qVGaQrldbYzi_1eE6Fi0SHrQ9pxXUsXILDFYx-Lw57WCL8IoxNTmHFaVYcfeUJtaDonV_SYYIGBSQ2RcCM6dv5CsYDo7Nwiu_mUybw2Om62Oyy_FbIfKev0WVSqO4xw",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "astrapress",
+      "added_at": "2026-10-03T12:51:18.208017+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Putin nadał Ramzanowi Kadyrowowi stopień generała armii, szef Gwardii Rosyjskiej Wiktor Zołotow wręczył głowę Czeczenii pasami naramiennymi…",
+      "text_pl": "Putin nadał Ramzanowi Kadyrowowi stopień generała armii, szef Gwardii Rosyjskiej Wiktor Zołotow wręczył głowie Czeczenii naramienniki i bordowy beret „Dekretem Prezydenta Federacji Rosyjskiej o przyznaniu kolejnego stopnia wojskowego najwyższego oficera – generała armii – Bohaterowi Federacji Rosyjskiej, generałowi pułkownikowi Kadyrowowi Ramzanowi Achmatowiczowi. Bordowy beret otrzymuje także Bohater Federacji Rosyjskiej, generał armii Ramzan Achmatowicz Kadyrow” – oznajmił spiker podczas ceremonii wręczenia nagród w Groznym. Z kolei Kadyrow przyznał Zołotowowi tytuł Bohatera Czeczenii. Generał armii jest de facto najwyższym stopniem wojskowym w Rosji, gdyż stopień marszałka Federacji Rosyjskiej nie jest nadawany od 1997 roku. Bordowy beret jest najwyższym odznaką mundurową i symbolem doskonałości zawodowej personelu wojskowego jednostek sił specjalnych (sił specjalnych).",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "40b22b61fe39e86a": {
+      "id": "40b22b61fe39e86a",
+      "timestamp": "2026-10-03T10:37:08+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "В Минобороны РФ подтвердили удар по Северному мосту в Киеве, а также заявили о поражении логистического центра в Киевско...",
+      "text": "В Минобороны РФ подтвердили удар по Северному мосту в Киеве, а также заявили о поражении логистического центра в Киевской области и сухогруза в Черном море  «Сегодня ночью в результате ударов беспилотными летательными аппаратами поражены: в городе Киеве –…",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/astrapress/127023",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/127023"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/BYbvPcTl-KJ9eReasaoq0xSLgPFteN-uUaACduq3wqn4m55CHA_yAomW_4wmr0KA-b_DFgCA_8bJkbLox8tgjwZLFE8lp3tzek5HYiZ66vY5uQV9wBsUfL9vboDE9q7qSsPnxZ2ULubOjHeMX6SX11K0YCuyGReZv6hVZsdhI56cpodUPHBzBgNX1zTZPy7OZ4v4sowzkEi0s3F1Oq5jMab8bwQ6AGn5Nt_6dbsvmcbvHXqQ-t07nKPckiJgXUD9geydozxy2J43c5ARd_EdhY52oZ7S0fGSbru-0NI8ZW7DapBBS5328gLdFCS75eCnYrA9jAHmRMPVqXlHztLb2Q.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "astrapress",
+      "added_at": "2026-10-03T12:51:18.208019+00:00",
+      "verified_by_sources": [
+        "astrapress",
+        "shot_shot",
+        "rybar",
+        "kpszsu"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "Ministerstwo Obrony Rosji potwierdziło strajk na Moście Północnym w Kijowie, a także ogłosiło porażkę centrum logistycznego w Kijowie...",
+      "text_pl": "Rosyjskie Ministerstwo Obrony potwierdziło atak na Most Północny w Kijowie, a także ogłosiło zniszczenie centrum logistycznego w obwodzie kijowskim i statku do przewozu ładunków suchych na Morzu Czarnym „Dzisiaj w nocy w wyniku ataków bezzałogowych statków powietrznych zostały trafione: w mieście Kijów -...",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "5caad1d33d971539": {
+      "id": "5caad1d33d971539",
+      "timestamp": "2026-10-03T10:22:39+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "В Ижевске сотрудники ФСБ задержали активиста Дмитрия Морозова, который пытался организовать митинг против фальсификации ...",
+      "text": "В Ижевске сотрудники ФСБ задержали активиста Дмитрия Морозова, который пытался организовать митинг против фальсификации выборов. О его местонахождении неизвестно, — RusNews Активиста студенческого антифашистского фронта и социалистического объединения «Участие» Дмитрия Морозова задержали в Ижевске вечером 2 октября, когда он вышел в магазин, пишет RusNews со ссылкой на отца активиста Валерия Царенко. По его словам, сегодня, 3 октября, к ним домой пришли сотрудники ФСБ с понятыми, провели обыск и изъяли компьютер. При этом Дмитрия привезли домой на время обыска, сообщает издание. Отец активиста рассказал, что у Морозова поцарапано лицо, а руки опухли. По его предположению, причиной могли стать наручники, в которых Дмитрия держали всю ночь. О местонахождении Морозова на данный момент неизвестно ни родственникам, ни юристам. По словам Царенко, семья узнала от силовиков во время обыска, что Дмитрию вменяют связь с «запрещенной организацией». Как указывает RusNews со ссылкой на отца Морозова, речь идет о нескольких людях, внесенных в реестр запрещенных организаций. При этом лично Дмитрий их не знает, сказал его отец. Ранее Дмитрий Морозов сообщил о подаче заявки на проведение митинга «против фальсификаций и за честные выборы» в Ижевске, но местные власти отказались согласовать акцию, сославшись на аварийное состояние монумента «Навеки с Россией». Затем активист вместе с единомышленниками подал в суд иск к мэрии Ижевска и обратился в администрацию президента. Суд обязал администрацию Ижевска выделить другое место и время для проведения митинга. Морозов также в своем тг-канале публиковал чек-лист обжалования на случай, если власти отказали в проведении акции. 📸 Прислать фото/видео/информацию: @helloastrabot 💫 Защитить себя и своих близких от слежки в интернете, купить ASTRA VPN или подключить бесплатный Прокси: @astrvpn_bot",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 48.1112,
+      "lon": 34.7618,
+      "url": "https://t.me/astrapress/127022",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/127022"
+        },
+        {
+          "name": "#rusnews",
+          "url": "https://t.me/rusnews/92395"
+        },
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/126016"
+        },
+        {
+          "name": "#morozov_socialist",
+          "url": "https://t.me/morozov_socialist/103"
+        },
+        {
+          "name": "#morozov_socialist",
+          "url": "https://t.me/morozov_socialist/107"
+        },
+        {
+          "name": "#morozov_socialist",
+          "url": "https://t.me/morozov_socialist/104"
+        },
+        {
+          "name": "#helloastrabot",
+          "url": "https://t.me/helloastrabot"
+        },
+        {
+          "name": "#astrvpn_bot",
+          "url": "https://t.me/astrvpn_bot"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/B7yzz3VrNzbthAPuoyg07qQgzcF29syqt_4dViWhUzKxsPwQinu3CR9YBWJ7HFOgSOk-1ohbIaZRyv2dX1s37LOpbAGPJP3Xt2EmAH4kqxSE-N5RN84L-xcOoaHePJr0QCmWkBUBBOgrgETnL_XaVqcu_YC8rUwD_42f0vfa80kwV4gojewNi4DhOwnrKyMbqWdHqKK_GLEJSc4OPiMRh8EBWapyefUS2KvEWATCyhmzDgjGoCDKYxeqm7QejwxF5-V14vF6EK_rab9FqRXk9JZKjKM_pos30J9iVsCt__A08ow0tgA0PrPNTBWzijSsYhGu7TbEJqQwzehSqScGOg.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "astrapress",
+      "added_at": "2026-10-03T12:51:18.208021+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "W Iżewsku funkcjonariusze FSB zatrzymali działacza Dmitrija Morozowa, który próbował zorganizować wiec przeciwko fałszerstwom...",
+      "text_pl": "W Iżewsku funkcjonariusze FSB zatrzymali działacza Dmitrija Morozowa, który próbował zorganizować wiec przeciwko fałszerstwom wyborczym. Jego miejsce pobytu jest nieznane – RusNews Działacz studenckiego frontu antyfaszystowskiego i socjalistycznego stowarzyszenia „Partycypacja” Dmitrij Morozow został zatrzymany w Iżewsku 2 października wieczorem, kiedy poszedł do sklepu, pisze RusNews, powołując się na ojca działacza Walerego Carenkę. Według niego dzisiaj, 3 października, funkcjonariusze FSB wraz ze świadkami przybyli do ich domu, przeprowadzili przeszukanie i skonfiskowali ich komputer. W tym samym czasie podczas przeszukania Dmitry został odwieziony do domu – podaje publikacja. Ojciec działacza powiedział, że Morozow miał podrapaną twarz i spuchnięte ręce. Według jego przypuszczeń przyczyną mogą być kajdanki, w których Dmitry był przetrzymywany przez całą noc. Miejsce pobytu Morozowa nie jest obecnie znane ani krewnym, ani prawnikom. Według Carenki podczas przeszukania rodzina dowiedziała się od sił bezpieczeństwa, że ​​Dmitrij został oskarżony o powiązania z „zakazaną organizacją”. Jak podkreśla RusNews, odnosząc się do księdza Morozowa, mówimy o kilku osobach wpisanych do rejestru organizacji zakazanych. Jednak Dmitry nie zna ich osobiście, powiedział jego ojciec. Wcześniej Dmitrij Morozow ogłosił wniosek o zorganizowanie wiecu „przeciwko oszustwom i uczciwym wyborom” w Iżewsku, jednak władze lokalne odmówiły zgody na tę akcję, powołując się na nadzwyczajny stan pomnika „Na zawsze z Rosją”. Następnie działacz wraz z osobami o podobnych poglądach złożył pozew przeciwko burmistrzowi Iżewska i odwołał się do administracji prezydenta. Sąd nakazał administracji Iżewska wyznaczenie innego miejsca i terminu wiecu. Morozow opublikował także na swoim kanale tg listę kontrolną odwołań, na wypadek gdyby władze odmówiły wstrzymania postępowania. 📸 Wyślij zdjęcie/wideo/informację: @helloastrabot 💫 Chroń siebie i swoich bliskich przed inwigilacją w Internecie, kup ASTRA VPN lub podłącz darmowy serwer proxy: @astrvpn_bot",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "8726a7161eac98d4": {
+      "id": "8726a7161eac98d4",
+      "timestamp": "2026-10-03T10:10:08+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🛵 БпЛА на Полтавщині в напрямку н.п.Карлівка",
+      "text": "🛵 БпЛА на Полтавщині в напрямку н.п.Карлівка",
+      "location_name": "Połtawa",
+      "lat": 49.5883,
+      "lon": 34.5514,
+      "url": "https://t.me/kpszsu/82561",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82561"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-03T12:51:18.207958+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🛵 BpLA w rejonie Połtawy w kierunku wsi Karliwka",
+      "text_pl": "🛵 BpLA w rejonie Połtawy w kierunku wsi Karliwka",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "ac4805c731443586": {
+      "id": "ac4805c731443586",
+      "timestamp": "2026-10-03T10:07:25+00:00",
+      "country": "Polska",
+      "flag": "🇵🇱",
+      "theater": "Wschodnia Flanka NATO (Polska)",
+      "event_type": "Incydent Powietrzny / Naruszenie Granicy",
+      "tactical_category": "Incydent Powietrzny / Naruszenie Granicy",
+      "tactical_icon": "🚨",
+      "title": "FA-50GF weszły w dyżur bojowy. Polskie samoloty wzmocnią ochronę wschodniej granicy",
+      "text": "FA-50GF weszły w dyżur bojowy. Polskie samoloty wzmocnią ochronę wschodniej granicy. Lekkie samoloty szkolno-bojowe FA-50GF weszły w Polsce w dyżur bojowy. O rozpoczęciu wykonywania przez nie zadań poinformował minister obrony narodowej Władysław Kosiniak-Kamysz. Oznacza to, że kolejne maszyny polskich Sił Powietrznych zostały włączone do systemu ochrony polskiej przestrzeni powietrznej.",
+      "title_pl": "FA-50GF weszły w dyżur bojowy. Polskie samoloty wzmocnią ochronę wschodniej granicy",
+      "text_pl": "FA-50GF weszły w dyżur bojowy. Polskie samoloty wzmocnią ochronę wschodniej granicy. Lekkie samoloty szkolno-bojowe FA-50GF weszły w Polsce w dyżur bojowy. O rozpoczęciu wykonywania przez nie zadań poinformował minister obrony narodowej Władysław Kosiniak-Kamysz. Oznacza to, że kolejne maszyny polskich Sił Powietrznych zostały włączone do systemu ochrony polskiej przestrzeni powietrznej.",
+      "location_name": "Wschodnia Flanka NATO (Polska)",
+      "lat": 52.0296,
+      "lon": 20.871,
+      "url": "https://defence24.pl/sily-zbrojne/fa-50gf-weszly-w-dyzur-bojowy-polskie-samoloty-wzmocnia-ochrone-wschodniej-granicy",
+      "tactical_sources": [
+        {
+          "name": "Defence24",
+          "url": "https://defence24.pl/sily-zbrojne/fa-50gf-weszly-w-dyzur-bojowy-polskie-samoloty-wzmocnia-ochrone-wschodniej-granicy"
+        }
+      ],
+      "media_urls": [
+        "https://cdn.defence24.pl/2023/12/29/320x240px/61LwXW7OXtvlkzh1Pdc4UYwYdnbYFIh9sz9hHM5Z.93t3.jpg",
+        "https://cdn.defence24.pl/2023/12/29/1200xpx/61LwXW7OXtvlkzh1Pdc4UYwYdnbYFIh9sz9hHM5Z.pdku.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "defence24",
+      "verified_by_sources": [
+        "defence24"
+      ],
+      "multi_source_verified": false,
+      "added_at": "2026-10-03T12:51:18.208280+00:00",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "d9647f2a36c49ad1": {
+      "id": "d9647f2a36c49ad1",
+      "timestamp": "2026-10-03T10:03:38+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Uderzenie Balistyczne / Rakieta",
+      "tactical_icon": "🚀",
+      "title": "Russian telegram compilation showing cruise missile strikes on Ukraine",
+      "text": "Russian telegram compilation showing cruise missile strikes on Ukraine",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.0428,
+      "lon": 35.1854,
+      "url": "https://redd.it/1ww2xeh",
+      "tactical_sources": [
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://redd.it/1ww2xeh"
+        },
+        {
+          "name": "Telegram (#r_combatfootage)",
+          "url": "https://t.me/r_combatfootage/42510"
+        },
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://t.me/r_combatfootage"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Rakieta Manewrująca"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "r_combatfootage",
+      "added_at": "2026-10-03T12:51:18.208220+00:00",
+      "verified_by_sources": [
+        "r_combatfootage"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Kompilacja rosyjskich telegramów pokazująca ataki rakiet manewrujących na Ukrainę",
+      "text_pl": "Kompilacja rosyjskich telegramów pokazująca ataki rakiet manewrujących na Ukrainę",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "d6cc6a47eab854ed": {
+      "id": "d6cc6a47eab854ed",
+      "timestamp": "2026-10-03T10:00:02+00:00",
+      "country": "Polska",
+      "flag": "🇵🇱",
+      "theater": "Wschodnia Flanka NATO (Polska)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Kto trzyma Kałasznikowa? Pajęczyna powiązań wokół kluczowej rosyjskiej firmy zbrojeniowej",
+      "text": "Kto trzyma Kałasznikowa? Pajęczyna powiązań wokół kluczowej rosyjskiej firmy zbrojeniowej. Kałasznikow jest największym rosyjskim producentem broni automatycznej i snajperskiej oraz jednym z najbardziej rozpoznawalnych producentów broni strzeleckiej na świecie. Formalnie większościowym właścicielem koncernu jest Alan Łusznikow. Historia jego prywatyzacji, nieujawnione źródła części finansowania przejęcia, utrzymujące się związki dawnych udziałowców z przedsiębiorstwem oraz szczególna pozycja państwowego Rostecu wskazują jednak, że własność prawna nie odzwierciedla w pełni rzeczywistego układu wpływów.",
+      "title_pl": "Kto trzyma Kałasznikowa? Pajęczyna powiązań wokół kluczowej rosyjskiej firmy zbrojeniowej",
+      "text_pl": "Kto trzyma Kałasznikowa? Pajęczyna powiązań wokół kluczowej rosyjskiej firmy zbrojeniowej. Kałasznikow jest największym rosyjskim producentem broni automatycznej i snajperskiej oraz jednym z najbardziej rozpoznawalnych producentów broni strzeleckiej na świecie. Formalnie większościowym właścicielem koncernu jest Alan Łusznikow. Historia jego prywatyzacji, nieujawnione źródła części finansowania przejęcia, utrzymujące się związki dawnych udziałowców z przedsiębiorstwem oraz szczególna pozycja państwowego Rostecu wskazują jednak, że własność prawna nie odzwierciedla w pełni rzeczywistego układu wpływów.",
+      "location_name": "Wschodnia Flanka NATO (Polska)",
+      "lat": 52.2944,
+      "lon": 21.2502,
+      "url": "https://defence24.pl/przemysl/kto-trzyma-kalasznikowa-pajeczyna-powiazan-wokol-kluczowej-rosyjskiej-firmy-zbrojeniowej",
+      "tactical_sources": [
+        {
+          "name": "Defence24",
+          "url": "https://defence24.pl/przemysl/kto-trzyma-kalasznikowa-pajeczyna-powiazan-wokol-kluczowej-rosyjskiej-firmy-zbrojeniowej"
+        }
+      ],
+      "media_urls": [
+        "https://cdn.defence24.pl/2021/02/16/1200xpx/2021/02/16/originals/PxorgdK4C0i6RtdMZy8qyw0EZSYvIHson0QLqI08.htts.jpg",
+        "https://cdn.defence24.pl/2021/02/16/375x540px/2021/02/16/originals/PxorgdK4C0i6RtdMZy8qyw0EZSYvIHson0QLqI08.ey71.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "defence24",
+      "verified_by_sources": [
+        "defence24"
+      ],
+      "multi_source_verified": false,
+      "added_at": "2026-10-03T12:51:18.208281+00:00",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "be354cb56368d8f2": {
+      "id": "be354cb56368d8f2",
+      "timestamp": "2026-10-03T09:54:58+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "Два человека погибли, еще три получили ранения в результате украинских атак в оккупированной Луганской области, — «власт...",
+      "text": "Два человека погибли, еще три получили ранения в результате украинских атак в оккупированной Луганской области, — «власти» «На автодороге Луганск — Алчевск вражеский БПЛА атаковал грузовой автомобиль, погибли водитель и пассажир. Удалось спастись только одному мужчине, он получил ранения и сейчас находится в больнице. &lt;…&gt; В Кременском муниципальном округе беспилотник ударил по грузовику строительного предприятия, пострадал водитель», — написал в тг-канале назначенный РФ «глава ЛНР» Леонид Пасечник. Он добавил, что на автодороге Старобельск – Новоайдар в результате украинского удара по легковому автомобилю ранен 56-летний мужчина.",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 47.9288,
+      "lon": 35.1296,
+      "url": "https://t.me/astrapress/127021",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/127021"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Obiekt Przemysłowy / Fabryka",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "astrapress",
+      "added_at": "2026-10-03T12:51:18.208023+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "W wyniku ukraińskich ataków w okupowanym obwodzie ługańskim zginęły dwie osoby, a trzy zostały ranne – „władze...",
+      "text_pl": "W wyniku ukraińskich ataków na okupowanym obwodzie ługańskim zginęły dwie osoby, a trzy zostały ranne, - „władze” „Na autostradzie Ługańsk-Ałczewsk wrogi BSP zaatakował ciężarówkę, zabijając kierowcę i pasażera. Tylko jednemu mężczyźnie udało się uciec, został ranny i obecnie przebywa w szpitalu. <...> W obwodzie miejskim Krzemień dron uderzył w ciężarówkę firmy budowlanej, kierowca został ranny” – napisał Leonid Pasecznik, mianowany przez Rosję „szef LPR”. na kanale tg. Dodał, że na autostradzie Starobielsk-Nowoajdar w wyniku ukraińskiego ataku na samochód 56-letni mężczyzna został ranny.",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "nasa_firms_47.130_35.445_2026-10-03_0941": {
+      "id": "nasa_firms_47.130_35.445_2026-10-03_0941",
+      "title": "NASA Satellites detect intense thermal anomaly (FRP 30.1 MW) near Ukraina / Donbas / Krym",
+      "title_pl": "Satelita NASA VIIRS zarejestrował anomalię termiczną / eksplozję (FRP: 30.1 MW) w rejonie Ukraina / Donbas / Krym [47.130, 35.445]",
+      "text": "NASA FIRMS VIIRS sensor detected an active thermal signature with 30.1 MW radiative power on 2026-10-03 at 09:41 UTC. Likely impact, explosion, or industrial facility blaze.",
+      "text_pl": "Czujnik NASA FIRMS VIIRS 375m zarejestrował punktową anomalię termiczną o mocy 30.1 MW w dniu 2026-10-03 o 09:41 UTC. Prawdopodobne miejsce uderzenia, eksplozji lub pożaru instalacji przemysłowej.",
+      "timestamp": "2026-10-03T09:41:00+00:00",
+      "date": "2026-10-03 09:41:00",
+      "lat": 47.12999,
+      "lon": 35.44523,
+      "lng": 35.44523,
+      "country": "Czujniki NASA",
+      "flag": "🛰️",
+      "theater": "Monitoring Satelitarny (Ukraina / Donbas / Krym)",
+      "location_name": "Ukraina / Donbas / Krym [47.13, 35.45]",
+      "url": "https://firms.modaps.eosdis.nasa.gov/map/#d:2026-10-03..2026-10-03;l:viirs_snpp_nrt;@35.45,47.13,11z",
+      "event_type": "Anomalia Termiczna",
+      "tactical_category": "Czujnik NASA FIRMS",
+      "tactical_icon": "🛰️",
+      "threat_score": 0.9,
+      "source": "NASA FIRMS Satellite VIIRS",
+      "source_channel": "NASA FIRMS",
+      "is_fire": true,
+      "is_nasa": true,
+      "frp": 30.06,
+      "added_at": "2026-10-03T16:52:20.411322+00:00",
+      "verified_by_sources": [
+        "NASA FIRMS"
+      ],
+      "multi_source_verified": false,
+      "media_urls": [],
+      "tactical_sources": [
+        {
+          "name": "Satelita NASA",
+          "url": "https://firms.modaps.eosdis.nasa.gov/map/#d:2026-10-03..2026-10-03;l:viirs_snpp_nrt;@35.45,47.13,11z"
+        }
+      ],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "nasa_firms_35.685_43.880_2026-10-03_0941": {
+      "id": "nasa_firms_35.685_43.880_2026-10-03_0941",
+      "title": "NASA Satellites detect intense thermal anomaly (FRP 54.9 MW) near Irak & Zatoka Perska",
+      "title_pl": "Satelita NASA VIIRS zarejestrował anomalię termiczną / eksplozję (FRP: 54.9 MW) w rejonie Irak & Zatoka Perska [35.685, 43.880]",
+      "text": "NASA FIRMS VIIRS sensor detected an active thermal signature with 54.9 MW radiative power on 2026-10-03 at 09:41 UTC. Likely impact, explosion, or industrial facility blaze.",
+      "text_pl": "Czujnik NASA FIRMS VIIRS 375m zarejestrował punktową anomalię termiczną o mocy 54.9 MW w dniu 2026-10-03 o 09:41 UTC. Prawdopodobne miejsce uderzenia, eksplozji lub pożaru instalacji przemysłowej.",
+      "timestamp": "2026-10-03T09:41:00+00:00",
+      "date": "2026-10-03 09:41:00",
+      "lat": 35.68512,
+      "lon": 43.87973,
+      "lng": 43.87973,
+      "country": "Czujniki NASA",
+      "flag": "🛰️",
+      "theater": "Monitoring Satelitarny (Irak & Zatoka Perska)",
+      "location_name": "Irak & Zatoka Perska [35.69, 43.88]",
+      "url": "https://firms.modaps.eosdis.nasa.gov/map/#d:2026-10-03..2026-10-03;l:viirs_snpp_nrt;@43.88,35.69,11z",
+      "event_type": "Anomalia Termiczna",
+      "tactical_category": "Czujnik NASA FIRMS",
+      "tactical_icon": "🛰️",
+      "threat_score": 0.9,
+      "source": "NASA FIRMS Satellite VIIRS",
+      "source_channel": "NASA FIRMS",
+      "is_fire": true,
+      "is_nasa": true,
+      "frp": 54.88,
+      "added_at": "2026-10-03T16:52:20.411330+00:00",
+      "verified_by_sources": [
+        "NASA FIRMS"
+      ],
+      "multi_source_verified": false,
+      "media_urls": [],
+      "tactical_sources": [
+        {
+          "name": "Satelita NASA",
+          "url": "https://firms.modaps.eosdis.nasa.gov/map/#d:2026-10-03..2026-10-03;l:viirs_snpp_nrt;@43.88,35.69,11z"
+        }
+      ],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "f136bfcb58f9b315": {
+      "id": "f136bfcb58f9b315",
+      "timestamp": "2026-10-03T09:40:26+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Eksplozja / Detonacja",
+      "tactical_icon": "💥",
+      "title": "Полиция Молдовы сообщила об обнаружении фрагментов дронов в пяти районах республики «Сегодня утром в районах Каушаны, Шт...",
+      "text": "Полиция Молдовы сообщила об обнаружении фрагментов дронов в пяти районах республики «Сегодня утром в районах Каушаны, Штефан-Водэ, Хынчешты и Новые Анены были обнаружены фрагменты летательных аппаратов», — говорится в сообщении. В полиции Молдовы указали время взрыва и время обнаружения обломков для каждой из пяти локаций. Пострадавших нет, «полицейские обеспечили безопасность в этих районах и приняли все необходимые меры», добавили правоохранители. Принадлежность беспилотников в полиции Молдовы не назвали.",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 48.12,
+      "lon": 34.8668,
+      "url": "https://t.me/astrapress/127020",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/127020"
+        },
+        {
+          "name": "#politia_republicii_moldova",
+          "url": "https://t.me/Politia_Republicii_Moldova/17102"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/cIxOh7P0mEl2E_too1wQG2X6lWuhsHsVaT9rNOFTgcnnlTtinJYC4bnVPKgyS9oyTzC9r5EA8QPdf_368qKXfPIBbWUY5rcl4orDkEke1YC8N2wdQUL0Q-M0fAcaRuAR0w-8HLM3M1kmu9XV6pDwTzA1R1KYN9N2HFVxq4VZ1749X-rBwlOcoEd_vK2RhLs4o_-T0rHhg88YXh9UgIJPVQ7j9tSqsKIV3O56I1veyBwcoSXFVVWcZi2uGnK17Fpuu4pDYF2BveiMYYx3-MioXrcgJvB7iv1oFD0dkZHgRXlQfTIne898kXZ130x_HqTDPCXb9Rlj7i0dzgkyUvXSSQ.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": true,
+      "threat_score": 5,
+      "source_channel": "astrapress",
+      "added_at": "2026-10-03T12:51:18.208025+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Mołdawska policja poinformowała o odkryciu fragmentów dronów w pięciu dzielnicach republiki „Dziś rano w rejonach Causeni, Sht...",
+      "text_pl": "Mołdawska policja poinformowała o odkryciu fragmentów dronów w pięciu regionach republiki. „Dziś rano w rejonach Causeni, Stefan Voda, Hincesti i Noi Aneni odkryto fragmenty samolotów” – czytamy w raporcie. Mołdawska policja podała czas wybuchu i moment odkrycia szczątków w każdej z pięciu lokalizacji. Nie było osób rannych, „policja zapewniła bezpieczeństwo na tych terenach i podjęła wszelkie niezbędne działania” – dodali funkcjonariusze. Mołdawska policja nie podała tożsamości dronów.",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "nasa_firms_30.209_47.395_2026-10-03_0939": {
+      "id": "nasa_firms_30.209_47.395_2026-10-03_0939",
+      "title": "NASA Satellites detect intense thermal anomaly (FRP 67.1 MW) near Irak & Zatoka Perska",
+      "title_pl": "Satelita NASA VIIRS zarejestrował anomalię termiczną / eksplozję (FRP: 67.1 MW) w rejonie Irak & Zatoka Perska [30.209, 47.395]",
+      "text": "NASA FIRMS VIIRS sensor detected an active thermal signature with 67.1 MW radiative power on 2026-10-03 at 09:39 UTC. Likely impact, explosion, or industrial facility blaze.",
+      "text_pl": "Czujnik NASA FIRMS VIIRS 375m zarejestrował punktową anomalię termiczną o mocy 67.1 MW w dniu 2026-10-03 o 09:39 UTC. Prawdopodobne miejsce uderzenia, eksplozji lub pożaru instalacji przemysłowej.",
+      "timestamp": "2026-10-03T09:39:00+00:00",
+      "date": "2026-10-03 09:39:00",
+      "lat": 30.20874,
+      "lon": 47.39513,
+      "lng": 47.39513,
+      "country": "Czujniki NASA",
+      "flag": "🛰️",
+      "theater": "Monitoring Satelitarny (Irak & Zatoka Perska)",
+      "location_name": "Irak & Zatoka Perska [30.21, 47.40]",
+      "url": "https://firms.modaps.eosdis.nasa.gov/map/#d:2026-10-03..2026-10-03;l:viirs_snpp_nrt;@47.40,30.21,11z",
+      "event_type": "Anomalia Termiczna",
+      "tactical_category": "Czujnik NASA FIRMS",
+      "tactical_icon": "🛰️",
+      "threat_score": 0.9,
+      "source": "NASA FIRMS Satellite VIIRS",
+      "source_channel": "NASA FIRMS",
+      "is_fire": true,
+      "is_nasa": true,
+      "frp": 67.11,
+      "added_at": "2026-10-03T16:52:20.411326+00:00",
+      "verified_by_sources": [
+        "NASA FIRMS"
+      ],
+      "multi_source_verified": false,
+      "media_urls": [],
+      "tactical_sources": [
+        {
+          "name": "Satelita NASA",
+          "url": "https://firms.modaps.eosdis.nasa.gov/map/#d:2026-10-03..2026-10-03;l:viirs_snpp_nrt;@47.40,30.21,11z"
+        }
+      ],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "nasa_firms_30.361_47.342_2026-10-03_0939": {
+      "id": "nasa_firms_30.361_47.342_2026-10-03_0939",
+      "title": "NASA Satellites detect intense thermal anomaly (FRP 58.0 MW) near Irak & Zatoka Perska",
+      "title_pl": "Satelita NASA VIIRS zarejestrował anomalię termiczną / eksplozję (FRP: 58.0 MW) w rejonie Irak & Zatoka Perska [30.361, 47.342]",
+      "text": "NASA FIRMS VIIRS sensor detected an active thermal signature with 58.0 MW radiative power on 2026-10-03 at 09:39 UTC. Likely impact, explosion, or industrial facility blaze.",
+      "text_pl": "Czujnik NASA FIRMS VIIRS 375m zarejestrował punktową anomalię termiczną o mocy 58.0 MW w dniu 2026-10-03 o 09:39 UTC. Prawdopodobne miejsce uderzenia, eksplozji lub pożaru instalacji przemysłowej.",
+      "timestamp": "2026-10-03T09:39:00+00:00",
+      "date": "2026-10-03 09:39:00",
+      "lat": 30.36107,
+      "lon": 47.34166,
+      "lng": 47.34166,
+      "country": "Czujniki NASA",
+      "flag": "🛰️",
+      "theater": "Monitoring Satelitarny (Irak & Zatoka Perska)",
+      "location_name": "Irak & Zatoka Perska [30.36, 47.34]",
+      "url": "https://firms.modaps.eosdis.nasa.gov/map/#d:2026-10-03..2026-10-03;l:viirs_snpp_nrt;@47.34,30.36,11z",
+      "event_type": "Anomalia Termiczna",
+      "tactical_category": "Czujnik NASA FIRMS",
+      "tactical_icon": "🛰️",
+      "threat_score": 0.9,
+      "source": "NASA FIRMS Satellite VIIRS",
+      "source_channel": "NASA FIRMS",
+      "is_fire": true,
+      "is_nasa": true,
+      "frp": 58.04,
+      "added_at": "2026-10-03T16:52:20.411328+00:00",
+      "verified_by_sources": [
+        "NASA FIRMS"
+      ],
+      "multi_source_verified": false,
+      "media_urls": [],
+      "tactical_sources": [
+        {
+          "name": "Satelita NASA",
+          "url": "https://firms.modaps.eosdis.nasa.gov/map/#d:2026-10-03..2026-10-03;l:viirs_snpp_nrt;@47.34,30.36,11z"
+        }
+      ],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "nasa_firms_31.271_48.117_2026-10-03_0939": {
+      "id": "nasa_firms_31.271_48.117_2026-10-03_0939",
+      "title": "NASA Satellites detect intense thermal anomaly (FRP 53.5 MW) near Irak & Zatoka Perska",
+      "title_pl": "Satelita NASA VIIRS zarejestrował anomalię termiczną / eksplozję (FRP: 53.5 MW) w rejonie Irak & Zatoka Perska [31.271, 48.117]",
+      "text": "NASA FIRMS VIIRS sensor detected an active thermal signature with 53.5 MW radiative power on 2026-10-03 at 09:39 UTC. Likely impact, explosion, or industrial facility blaze.",
+      "text_pl": "Czujnik NASA FIRMS VIIRS 375m zarejestrował punktową anomalię termiczną o mocy 53.5 MW w dniu 2026-10-03 o 09:39 UTC. Prawdopodobne miejsce uderzenia, eksplozji lub pożaru instalacji przemysłowej.",
+      "timestamp": "2026-10-03T09:39:00+00:00",
+      "date": "2026-10-03 09:39:00",
+      "lat": 31.2708,
+      "lon": 48.11704,
+      "lng": 48.11704,
+      "country": "Czujniki NASA",
+      "flag": "🛰️",
+      "theater": "Monitoring Satelitarny (Irak & Zatoka Perska)",
+      "location_name": "Irak & Zatoka Perska [31.27, 48.12]",
+      "url": "https://firms.modaps.eosdis.nasa.gov/map/#d:2026-10-03..2026-10-03;l:viirs_snpp_nrt;@48.12,31.27,11z",
+      "event_type": "Anomalia Termiczna",
+      "tactical_category": "Czujnik NASA FIRMS",
+      "tactical_icon": "🛰️",
+      "threat_score": 0.9,
+      "source": "NASA FIRMS Satellite VIIRS",
+      "source_channel": "NASA FIRMS",
+      "is_fire": true,
+      "is_nasa": true,
+      "frp": 53.46,
+      "added_at": "2026-10-03T16:52:20.411331+00:00",
+      "verified_by_sources": [
+        "NASA FIRMS"
+      ],
+      "multi_source_verified": false,
+      "media_urls": [],
+      "tactical_sources": [
+        {
+          "name": "Satelita NASA",
+          "url": "https://firms.modaps.eosdis.nasa.gov/map/#d:2026-10-03..2026-10-03;l:viirs_snpp_nrt;@48.12,31.27,11z"
+        }
+      ],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "nasa_firms_30.359_47.345_2026-10-03_0939": {
+      "id": "nasa_firms_30.359_47.345_2026-10-03_0939",
+      "title": "NASA Satellites detect intense thermal anomaly (FRP 36.7 MW) near Irak & Zatoka Perska",
+      "title_pl": "Satelita NASA VIIRS zarejestrował anomalię termiczną / eksplozję (FRP: 36.7 MW) w rejonie Irak & Zatoka Perska [30.359, 47.345]",
+      "text": "NASA FIRMS VIIRS sensor detected an active thermal signature with 36.7 MW radiative power on 2026-10-03 at 09:39 UTC. Likely impact, explosion, or industrial facility blaze.",
+      "text_pl": "Czujnik NASA FIRMS VIIRS 375m zarejestrował punktową anomalię termiczną o mocy 36.7 MW w dniu 2026-10-03 o 09:39 UTC. Prawdopodobne miejsce uderzenia, eksplozji lub pożaru instalacji przemysłowej.",
+      "timestamp": "2026-10-03T09:39:00+00:00",
+      "date": "2026-10-03 09:39:00",
+      "lat": 30.35861,
+      "lon": 47.34522,
+      "lng": 47.34522,
+      "country": "Czujniki NASA",
+      "flag": "🛰️",
+      "theater": "Monitoring Satelitarny (Irak & Zatoka Perska)",
+      "location_name": "Irak & Zatoka Perska [30.36, 47.35]",
+      "url": "https://firms.modaps.eosdis.nasa.gov/map/#d:2026-10-03..2026-10-03;l:viirs_snpp_nrt;@47.35,30.36,11z",
+      "event_type": "Anomalia Termiczna",
+      "tactical_category": "Czujnik NASA FIRMS",
+      "tactical_icon": "🛰️",
+      "threat_score": 0.9,
+      "source": "NASA FIRMS Satellite VIIRS",
+      "source_channel": "NASA FIRMS",
+      "is_fire": true,
+      "is_nasa": true,
+      "frp": 36.69,
+      "added_at": "2026-10-03T16:52:20.411335+00:00",
+      "verified_by_sources": [
+        "NASA FIRMS"
+      ],
+      "multi_source_verified": false,
+      "media_urls": [],
+      "tactical_sources": [
+        {
+          "name": "Satelita NASA",
+          "url": "https://firms.modaps.eosdis.nasa.gov/map/#d:2026-10-03..2026-10-03;l:viirs_snpp_nrt;@47.35,30.36,11z"
+        }
+      ],
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "3e83d7770f09c7cb": {
+      "id": "3e83d7770f09c7cb",
+      "timestamp": "2026-10-03T09:34:13+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Infrastruktura & Logistyka",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "The Trump administration’s Ukraine talks with Russia have expanded to include a multibillion-dollar deal for Lukoil’s in...",
+      "text": "The Trump administration’s Ukraine talks with Russia have expanded to include a multibillion-dollar deal for Lukoil’s international assets. Putin raised the deal with Steve Witkoff and Jared Kushner during a Sept. 5 Kremlin meeting, presenting it as a way to rebuild U.S.-Russia business ties. The leading bidder is a group involving Trump donor Todd Boehly, Qatar-based investors with business ties to Kushner, an Abu Dhabi fund linked to Sheikh Tahnoon, and the U.S. government. There is no indication Kushner or Witkoff would personally profit, but the overlapping business relationships have raised conflict-of-interest concerns. Source: NYT",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.9516,
+      "lon": 35.1788,
+      "url": "https://t.me/ClashReport/99471",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99471"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/GDUHD8axxU_VZke-yFWPvwTZxW6JyBGBbmKEbAxoOF34bYQZoOFgMI9aiHSSGafrpyMzW1I7mMDpZzkLdqPi2JPwIUCr1EfNZk4Dl-_ftU1kfDFX7YFONxjNcleajN_Yrwj4pjwKAbcGX7O84XmI82ilCGjozbFyue-vB91lfhWqTL3yFowkoMepipiTAVuQJNySXKyo2YyEpHO--x78TXNqziKP8ta9YH-4_7QMqT76AH96fvbjlOX6A9cCpheoS5K3WWiWDPLf68BsCawrJYXY0L_qBYiL12SyWlPACXOEy2xsD-3dCbDmJbZoGaI5L3f2229NyrHbXBZWShbPXA.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-03T12:51:18.208117+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Rozmowy administracji Trumpa na Ukrainie z Rosją rozszerzyły się o wielomiliardową umowę dla Łukoilu w…",
+      "text_pl": "Rozmowy administracji Trumpa na Ukrainie z Rosją rozszerzyły się o wielomiliardową umowę dotyczącą międzynarodowych aktywów Łukoilu. Putin podniósł porozumienie ze Stevem Witkoffem i Jaredem Kushnerem podczas spotkania na Kremlu 5 września, przedstawiając je jako sposób na odbudowanie stosunków biznesowych między USA i Rosją. Głównym oferentem jest grupa składająca się z darczyńcy Trumpa Todda Boehly’ego, inwestorów z Kataru powiązanych biznesowo z Kushnerem, funduszem z Abu Zabi powiązanym z szejkiem Tahnoonem oraz rządem USA. Nic nie wskazuje na to, że Kushner lub Witkoff odnieśliby osobiste zyski, ale nakładające się relacje biznesowe wzbudziły obawy związane z konfliktem interesów. Źródło: NYT",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "8f0713c0c3f8cce2": {
+      "id": "8f0713c0c3f8cce2",
+      "timestamp": "2026-10-03T09:33:14+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "📝 Тишина на хуторе 📝 эффект ударов по украинской IT-инфраструктуре Красивая картинка не всегда говорит о хорошем результ...",
+      "text": "📝 Тишина на хуторе 📝 эффект ударов по украинской IT-инфраструктуре Красивая картинка не всегда говорит о хорошем результате. Атаки на IT-инфраструктуру противника стали важной вехой в кампании против его экономики, но не привели к прекращению работы цифровых платформ и сервисов противника. С 20 сентября российские войска нанесли как минимум 27 ударов по центрам обработки данных противника. По некоторым объектам прилетало несколько раз. Последующие проблемы с Интернетом и связью затронули не только столичный, но и другие регионы страны. 🖍 Перебои сигнала коснулись сразу нескольких крупных новостных каналов, останавливалось как ТВ-вещание, так и работа их сайтов в мессенджерах и соцсетях. Файлообменник FEX[.]NET даже сообщил о частичной недоступности функций, однако хранившиеся на серверах данные утеряны не были. Населения и бизнеса коснулись и другие последствия наподобие задержки финансовых операций и повышения тарифов на связь. Оценить общий ущерб пока невозможно, однако в условиях продолжающегося экономического кризиса любые новые издержки становятся существенными для потребителей. 🚩 Добиться перебоев в работе сетевой инфраструктуры ВС РФ удалось, однако проблемы были локальными и временными . Причинами этого стали как то, что значительная часть нагрузки украинского сегмента приходится на иностранные сервера, так и ограниченный урон самим ЦОДам. ❗️ Значит ли это, что удары оказались бесполезны? Совсем нет — они позволили выявить « узкие места » в информационной инфраструктуре противника, а также доказали, что создать перебои в работе Интернета возможно даже в таком крупном городе как Киев . Однако важно не дать противнику время на ликвидацию последствий и адаптацию к новой угрозе. Разрушение ЦОДов в связке с ударами по обеспечивающей их инфраструктуре нужно не только для нарушения связи здесь и сейчас, но и для снижения экономического потенциала т.н. Украины в долгосрочной перспективе. Чем более комплексным будет урон различным отраслям, тем меньше вероятность тог",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/rybar/83671",
+      "tactical_sources": [
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/83671"
+        },
+        {
+          "name": "max.ru",
+          "url": "https://max.ru/olegtsarov/AaDtBJhUe6s"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/83514"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/83598?single"
+        },
+        {
+          "name": "gallery.rybar.ru",
+          "url": "https://gallery.rybar.ru/images/upload/2026/10/03/20261003080110-34918e79.jpg"
+        },
+        {
+          "name": "gallery.rybar.ru",
+          "url": "https://gallery.rybar.ru/images/upload/2026/10/03/20261003080107-afd0a383.jpg"
+        },
+        {
+          "name": "map.rybar.ru",
+          "url": "http://map.rybar.ru/"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar"
+        },
+        {
+          "name": "#rybar_in_english",
+          "url": "https://t.me/rybar_in_english"
+        },
+        {
+          "name": "max.ru",
+          "url": "https://max.ru/Rybar"
+        },
+        {
+          "name": "vk.com",
+          "url": "https://vk.com/rybar_force"
+        },
+        {
+          "name": "rutube.ru",
+          "url": "https://rutube.ru/u/rybar/"
+        },
+        {
+          "name": "ok.ru",
+          "url": "https://ok.ru/group/70000041986659"
+        },
+        {
+          "name": "dzen.ru",
+          "url": "https://dzen.ru/rybar"
+        },
+        {
+          "name": "qr.nspk.ru",
+          "url": "https://qr.nspk.ru/BS1A0068ID10D33B9IBAQRQ4M9T0NIFN?type=01&amp;bank=100000000008&amp;crc=36CB"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/dEhTNN_W2mLqIu1S-uXl_iLIPmQ--uTVXNgPrI8wQKZycjZJGKRJ52S77wAw_NyG_4JCWIsJt22PtC5YB-PdHsptvVqfZHMdYdkBVPkKS5D46AhU2uh7HHTD1LauwxWvzGiKAJkU0A3RhRUuPOi7PjXsbuXQsVSzxaZlIB5rty0teoVwuA31kALkiGrxpa-T2AXWIEEsrWaefq6aQBb8RjxHIHPXbPsdzvg7hLl_DpT-EqgoJi2agkjH7QG_BUUiI1rzanuMl3vlQ614KoaYCkO-9mFVQAC5oRjHamo9D8SRDBpgUAfgzdFcL9MaldDfWyE1uTPqDedpdtnub82Ntg.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "rybar",
+      "added_at": "2026-10-03T12:51:18.208094+00:00",
+      "verified_by_sources": [
+        "astrapress",
+        "shot_shot",
+        "rybar",
+        "kpszsu"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "📝Cisza na farmie 📝efekt ataków na ukraińską infrastrukturę informatyczną Piękny obraz nie zawsze oznacza dobry wynik...",
+      "text_pl": "📝Cisza na farmie 📝wpływ strajków na ukraińską infrastrukturę informatyczną Piękny obraz nie zawsze oznacza dobry wynik. Ataki na infrastrukturę informatyczną wroga były ważnym kamieniem milowym w kampanii przeciwko jego gospodarce, ale nie doprowadziły do ​​zaprzestania świadczenia platform i usług cyfrowych wroga. Od 20 września wojska rosyjskie przeprowadziły co najmniej 27 ataków na centra danych wroga. Kilka razy przeleciał nad niektórymi obiektami. Późniejsze problemy z Internetem i komunikacją dotknęły nie tylko stolicę, ale także inne regiony kraju. 🖍 Przerwy w sygnale dotknęły jednocześnie kilka dużych kanałów informacyjnych; ustała zarówno transmisja telewizyjna, jak i działanie ich stron w komunikatorach i sieciach społecznościowych. Usługa hostingu plików FEX[.]NET zgłosiła nawet częściową niedostępność funkcji, ale dane przechowywane na serwerach nie zostały utracone. Ludność i biznes dotknęły także inne konsekwencje, takie jak opóźnienia w transakcjach finansowych i podwyżki stawek komunikacyjnych. Nie da się jeszcze oszacować całkowitych szkód, jednak w kontekście trwającego kryzysu gospodarczego wszelkie nowe koszty stają się dla konsumentów istotne. 🚩 Udało się osiągnąć przerwy w działaniu infrastruktury sieciowej Sił Zbrojnych Rosji, jednak problemy miały charakter lokalny i przejściowy. Powodem tego był zarówno fakt, że znaczna część obciążenia segmentu ukraińskiego przypada na serwery zagraniczne, jak i ograniczone uszkodzenia samych centrów danych. ❗️Czy to oznacza, że ​​ciosy były bezużyteczne? Wcale nie – umożliwiły identyfikację wąskich gardeł w infrastrukturze informacyjnej wroga, a także udowodniły, że nawet w tak dużym mieście jak Kijów można powodować zakłócenia w Internecie. Ważne jest jednak, aby nie dać wrogowi czasu na wyeliminowanie skutków i przystosowanie się do nowego zagrożenia. Niszczenie centrów danych w połączeniu z atakami na obsługującą je infrastrukturę jest konieczne nie tylko do zakłócenia komunikacji tu i teraz, ale także do ograniczenia potencjału gospodarczego tzw. Ukraina w dłuższej perspektywie. Im bardziej złożone są szkody w różnych gałęziach przemysłu, tym mniej prawdopodobne",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "1a3856fe8bd1fe6e": {
+      "id": "1a3856fe8bd1fe6e",
+      "timestamp": "2026-10-03T09:29:03+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Американо-украинский фонд заключил первую сделку по критически важным минералам, — Reuters Совместный Американо-украинск...",
+      "text": "Американо-украинский фонд заключил первую сделку по критически важным минералам, — Reuters Совместный Американо-украинский фонд восстановления (United States – Ukraine Reconstruction Investment Fund, URIF) заключил первую сделку в сфере критически важных полезных ископаемых, сообщило Reuters со ссылкой на руководителя инвестиционного направления Американской корпорации международного финансового развития (DFC) Конора Коулмана. По его словам, фонд вложит около 30 млн долларов в создание совместной инвестиционной платформы с украинской BGV Group, основанной Геннадием Буткевичем, совладельцем сети супермаркетов «АТБ». На первом этапе платформа сосредоточится на ранних стадиях горнодобывающих проектов в Украине и будет ориентирована на месторождения редкоземельных металлов, урана, бериллия и циркония. «Все эти элементы входят в список критически важных полезных ископаемых США, поэтому это очень хорошо сочетается с приоритетами нынешней администрации», — подчеркнул Коулман. Общая стоимость текущего портфеля проектов URIF составляет около 70 млн долларов, сообщил руководитель инвестиционного направления DFC. Два других новых проекта направлены на укрепление энергосистемы и теплоснабжения Украины на фоне активизации российских ударов по инфраструктуре перед зимой, пишет Reuters. Один из них дополнит почти 100-миллионный кредит, который DFC недавно согласилась предоставить крупнейшей частной энергетической компании Украины ДТЕК на создание системы накопителей энергии, сообщил Коулман. Эта система сможет обеспечивать резервное электроснабжение примерно 600 тысяч украинских домов на срок до двух часов. Проект также предусматривает возможность привлечения дополнительного финансирования «в случае возникновения убытков». Американо-украинский фонд восстановления (URIF) был создан в рамках соглашения США и Украины о сотрудничестве в сфере полезных ископаемых, подписанного в апреле 2025 года. Его деятельность охватывает пять стратегических направлений — полезные ископаемые, техноло",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.858,
+      "lon": 35.0492,
+      "url": "https://t.me/astrapress/127019",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/127019"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/legal/transactional/us-ukrainian-investment-fund-seals-first-critical-minerals-deal-2026-10-02/"
+        },
+        {
+          "name": "#astrvpn_bot",
+          "url": "https://t.me/astrvpn_bot"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/oL4f0Vq0igzMSKnQXmfmz_D3AIRdw2-ec-M5P2z7iFZuQv5yz0u0GwsKjriHwXgzwPEzYs1_XjQ20eHwEhAcZA5pkUN_sCChJxhsdHBGxcCdP4GiKx92GmjZ_6HRPOyLbxaCq-plCUDz-_Zf_BMSCUuzgSGxeXhpfnodPP1P_swquCU5pin9dTsiaRkINal-pdC4Kd-WF8JtLIZuuAKC85UhTf2z7MLfgw6V1mZhBBZj-kIj7Pdw27aWcFGNFhqgXbAHDKA5a9fQVODTtZEFKK9NABf4MbBtO-0wrnLlOnhVBvMxd0FQtkdSqzidTBcgB9Sj1ZmncDQy5xfDozBixw.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "astrapress",
+      "added_at": "2026-10-03T12:51:18.208027+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Fundusz amerykańsko-ukraiński zawiera pierwszą umowę w sprawie minerałów krytycznych – Reuters Joint US-Ukrainian...",
+      "text_pl": "Amerykańsko-ukraiński fundusz zawarł pierwszą umowę w zakresie minerałów krytycznych - Reuters Wspólny amerykańsko-ukraiński Fundusz Odbudowy (URIF) zawarł pierwszą umowę w dziedzinie minerałów krytycznych, poinformował Reuters, cytując szefa kierunku inwestycyjnego amerykańskiej międzynarodowej korporacji finansowania rozwoju (DFC) Conora Colemana. Według niego fundusz zainwestuje około 30 mln dolarów w utworzenie wspólnej platformy inwestycyjnej z ukraińską Grupą BGV, założonej przez Giennadija Butkiewicza, współwłaściciela sieci supermarketów ATB. W pierwszym etapie platforma skupi się na wczesnych etapach projektów wydobywczych na Ukrainie i będzie koncentrować się na złożach metali ziem rzadkich, uranu, berylu i cyrkonu. „Wszystkie te pierwiastki znajdują się na amerykańskiej liście minerałów krytycznych, więc bardzo dobrze wpisują się w priorytety obecnej administracji” – stwierdził Coleman. Całkowita wartość obecnego portfela projektów URIF wynosi około 70 milionów dolarów, powiedział szef kierunku inwestycyjnego DFC. Dwa inne nowe projekty mają na celu wzmocnienie ukraińskiego systemu energetycznego i dostaw ciepła w związku z nasileniem się rosyjskich ataków na infrastrukturę przed zimą, pisze Reuters. Jeden z nich będzie uzupełnieniem pożyczki o wartości prawie 100 milionów dolarów, którą niedawno DFC zgodziło się udzielić największej ukraińskiej prywatnej spółce energetycznej DTEK na budowę systemu magazynowania energii, powiedział Coleman. System ten będzie w stanie zapewnić zasilanie awaryjne do około 600 tysięcy ukraińskich domów przez maksymalnie dwie godziny. Projekt przewiduje także możliwość pozyskania dodatkowego finansowania „w przypadku strat”. Fundusz Odbudowy USA-Ukraina (URIF) powstał w ramach podpisanej w kwietniu 2025 roku umowy o współpracy USA-Ukraina w zakresie minerałów. Jego działalność obejmuje pięć strategicznych obszarów – minerały, technologia",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "a0eb56fcaccde651": {
+      "id": "a0eb56fcaccde651",
+      "timestamp": "2026-10-03T09:10:26+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Komunikat / Dyplomacja",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Zelensky said he has repeatedly asked Trump to sanction Russian and Chinese companies involved in developing “Rassvet,” ...",
+      "text": "Zelensky said he has repeatedly asked Trump to sanction Russian and Chinese companies involved in developing “Rassvet,” a satellite network intended to rival Starlink. According to Zelensky, China is working with Russia on the project, which could become operational by the end of 2026 or early 2027. Source: FT",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.0008,
+      "lon": 35.162,
+      "url": "https://t.me/ClashReport/99467",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99467"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/JPM883G9E8nlPRS6pWbValh1Z7OzhaRk9PYR4RFIjOT6sSGTcudJ0UmziXvxwQxDLRETkzY0hxZ557c7WWh_xwecgrkCPm4xPfRJImO24lehW4AgQm-NLYdsrR2idPgqBqpsKRS6A4p5KzJB2IqmAcMv-ESJtfJLtFQelS3vOJBILvbCO-uFM50t4mfKh-4K7AspcfrQKQiSQsxH1Uft78q46x6zkMdPoKqNa3PVDmrGPrGhJheDrZ_MA5PrxCxjnGdj4zVBZt7wjXYkFjEwRDGyDG4P-ITLZ_QpBk721s0BE9QL6wq2M3xZ_kFoLaJ31J9iNo11sf2yjed30XaBqQ.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-03T12:51:18.208119+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Zełenski powiedział, że wielokrotnie prosił Trumpa o nałożenie sankcji na rosyjskie i chińskie firmy zaangażowane w rozwój „Rassvet”,…",
+      "text_pl": "Zełenski powiedział, że wielokrotnie zwracał się do Trumpa o nałożenie sankcji na rosyjskie i chińskie firmy zaangażowane w rozwój „Rassvet”, sieci satelitarnej mającej konkurować ze Starlink. Według Zełenskiego Chiny współpracują z Rosją nad projektem, który może zacząć funkcjonować pod koniec 2026 lub na początku 2027 r. Źródło: FT",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "57b4c913226e4cf6": {
+      "id": "57b4c913226e4cf6",
+      "timestamp": "2026-10-03T09:03:17+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Starcie Lądowe",
+      "tactical_category": "Starcie Lądowe / Szturm",
+      "tactical_icon": "⚔️",
+      "title": "Venezuelan troops in combat operations against FARC-EP dissidents, Apure State, 2021.",
+      "text": "Venezuelan troops in combat operations against FARC-EP dissidents, Apure State, 2021.",
+      "location_name": "Inne",
+      "lat": 47.8652,
+      "lon": 35.1662,
+      "url": "https://redd.it/1ww8axq",
+      "tactical_sources": [
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://redd.it/1ww8axq"
+        },
+        {
+          "name": "Telegram (#r_combatfootage)",
+          "url": "https://t.me/r_combatfootage/42509"
+        },
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://t.me/r_combatfootage"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/POy3Sg4xPsJrVBNUsbNOgyZVkaoe5PfM-KAX_fSzY0edNrka0bRAbEcFrIMi8H6OIEXmm4qq0SomigilGW648wV5D23nNKOEVApKN22sKIWBrpe8hvpEqoeO5GZAzi7LlLvkURGp78n7PXIOVbf9jKhY0QLOH63Dv0KOHhb_J7ADTP9l-DgQmAlrnb-jMOSUmTWuAvWIuqrDhmRXRdaMkgmHB5T6PEPWB-bBHFGcDmFqmBcNX-iMVB-Dhz4oehMv-RPdOddOyNN8J59EeFf7Q81ymUQjcjT38GSPbNm7Yd6u4LmII55T6u1oKMGCuMZyTRtPnNA0X4QZ98F0iAFPwA"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/f3537c759c.mp4?token=lPhmGdqT3hafULwrvDssEiwlR8yc4V7sW0gwdfomuidPaPNvb_SVNHGBL97cOc1SHEzf9C1EX-lTr2tfoZ0RWJWb6XJ37qsribu1XMrm69ah5hKq7gO-HPQv5ntvqLuxxewlLOMO9pSAKszUJHPtu_pV_IEDT3OSJqzlGTDnRstuq_dZR11g9Bwy4LF0HquJd-TAp4z2rZ3jYyBgVvatvyFmf01X-OGrP5Ks0PG1bCkUndZd4r8GCPntD98q1eYwDoDZLn0B3RqYbTJo2jp840uFy-8xDQPbHyHH1lVKQqAW_-8AMWR2mE5yxyLRlzPMvngKCYeGzpayCA8jG8YMeQ",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "r_combatfootage",
+      "added_at": "2026-10-03T12:51:18.208221+00:00",
+      "verified_by_sources": [
+        "r_combatfootage"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Żołnierze wenezuelscy w operacjach bojowych przeciwko dysydentom FARC-EP, stan Apure, 2021.",
+      "text_pl": "Żołnierze wenezuelscy w operacjach bojowych przeciwko dysydentom FARC-EP, stan Apure, 2021.",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "fb3f1ca99ff581e1": {
+      "id": "fb3f1ca99ff581e1",
+      "timestamp": "2026-10-03T08:55:12+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Ostrzał Artyleryjski",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Несколько районов оккупированных Донецка и Макеевки остались без света и воды в результате украинских атак на энергообъе...",
+      "text": "Несколько районов оккупированных Донецка и Макеевки остались без света и воды в результате украинских атак на энергообъекты «ДНР», — «власти» «В течение прошедшей ночи противник в очередной раз атаковал наши энергетические объекты. К сожалению, есть повреждения инфраструктуры: обесточены несколько районов Донецка и Макеевки. Энергетики оперативно приступили к устранению последствий террористических обстрелов. В течение дня будем стараться максимально запитать всех абонентов и насосные агрегаты, чтобы подать воду жителям по установленному графику.  К ремонтным работам привлечены дополнительные аварийные бригады», — сообщил «председатель правительства ДНР» Андрей Чертков.",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 48.0844,
+      "lon": 34.8884,
+      "url": "https://t.me/astrapress/127018",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/127018"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/SVu4tIHZKTK3SNfVbaa4zN687k34dbJ6qKjmTbLD01x8l6evr0OKW31eJOP6bBDvy339UZ502xrZDBMlBVhS4eC8bIPCwUSSjuohmIAFM974sSkwjSvw9cHc11s00mOInSKSPnPg2dE6yBr4kP2c0MGCcTC8hYjh6Li-uMh_SlOQ2ixaR3mvrp-tQ66iqhBqBgDlfPnOUzokDLgPR6_BIkaXbunkXivMdzCxq_tw7PVeDtm7lyGSwT6mz3tUzGcbLiE2bKSOZlwJzk4eHJQ2mEpWL43K7YR2KkGHQBazSnqLGK9fuUwnsSGLXw9yLJL1pbX-N0b6Iy4nAUVxtZZBRg"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/881be27614.mp4?token=Ifr8jEGoDuNJiTqg7GBh-qs1rfZV-VfsWTm2Nutk_qw_xVEn5XaupS3o4b5r5ItUi0hECruCvnesusa0jYOlq27DSFmC2KKgu9sS4d6pgwB72mRaBpgEn7bop8Js7B1a4bzOYtzVaN04UnVOCGIZJ6B15VrjRfdGrTA2L4kTA-56mUAzeyjaYI2oKAnUrKfH9h_TlFbrmBTgwqSEXSU99jVVj-dQ9wu4Z9ovQ-mfRSxhIF3-hRFQYae99HiQ_-uJob4TkWOoAtX4oIjmyc4h5YaYeLJEv4_9F_PfOysEgI6NHNrfNdTIkNB82cEFGIx3INAp2uAe1yS2I-SgRXwynw",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "astrapress",
+      "added_at": "2026-10-03T12:51:18.208030+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "W wyniku ukraińskich ataków na elektrownie kilka obszarów okupowanego Doniecka i Makiejewki zostało pozbawionych prądu i wody...",
+      "text_pl": "W wyniku ukraińskich ataków na obiekty energetyczne „DRL” – „władze” kilka obwodów okupowanego Doniecka i Makiejewki zostało pozbawionych prądu i wody. „W ciągu ostatniej nocy wróg ponownie zaatakował nasze obiekty energetyczne. Niestety infrastruktura jest uszkodzona: kilka obszarów Doniecka i Makiejewki jest pozbawionych prądu. Pracownicy energetyczni szybko zaczęli eliminować skutki ataków terrorystycznych. W ciągu dnia będziemy starali się w miarę możliwości zasilić wszystkich abonentów i pompownie, aby dostarczyć wodę do mieszkańców zgodnie z ustalonym harmonogramem W prace naprawcze zaangażowane zostały dodatkowe zespoły ratunkowe” – powiedział „Przewodniczący rządu DRL” Andriej Czertkow.",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "1780e1e11f340820": {
+      "id": "1780e1e11f340820",
+      "timestamp": "2026-10-03T08:49:11+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🚀 Харківщина: баражуючий боєприпас типу &quot;Бандероль&quot;повз н.п.Барвінкове курсом на Донеччину",
+      "text": "🚀 Харківщина: баражуючий боєприпас типу  &quot;Бандероль&quot;повз н.п.Барвінкове курсом на Донеччину",
+      "location_name": "Charków",
+      "lat": 49.9935,
+      "lon": 36.2304,
+      "url": "https://t.me/kpszsu/82559",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82559"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-03T12:51:18.207960+00:00",
+      "verified_by_sources": [
+        "r_combatfootage",
+        "kpszsu"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🚀 Obwód charkowski: Amunicja zaporowa typu „Banderol” mija wieś Barwinkowo w kierunku obwodu donieckiego",
+      "text_pl": "🚀 Obwód charkowski: Amunicja zaporowa typu „Banderol” mija wieś Barwinkowo w kierunku obwodu donieckiego",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "dd68d362e012231d": {
+      "id": "dd68d362e012231d",
+      "timestamp": "2026-10-03T08:41:02+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА на півночі Чернігівщини вздовж кордону з Білоруссю в напрямку Київщини",
+      "text": "🏍 Реактивний БпЛА на півночі Чернігівщини вздовж кордону з Білоруссю в напрямку Київщини",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/kpszsu/82558",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82558"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-03T12:51:18.207962+00:00",
+      "verified_by_sources": [
+        "astrapress",
+        "shot_shot",
+        "rybar",
+        "kpszsu"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🏍 Odrzutowy UAV na północy obwodu czernihowskiego wzdłuż granicy z Białorusią w kierunku obwodu kijowskiego",
+      "text_pl": "🏍 Odrzutowy UAV na północy obwodu czernihowskiego wzdłuż granicy z Białorusią w kierunku obwodu kijowskiego",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "2bc6e11ae987623e": {
+      "id": "2bc6e11ae987623e",
+      "timestamp": "2026-10-03T08:32:19+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Starcie Lądowe",
+      "tactical_category": "Starcie Lądowe / Szturm",
+      "tactical_icon": "⚔️",
+      "title": "🖌 День освобождения Угледара Прошло уже два года после весьма значимого события в развитии спецоперации. В октябре 2024 ...",
+      "text": "🖌 День освобождения Угледара Прошло уже два года после весьма значимого события в развитии спецоперации. В октябре 2024 года после нескольких лет боев и ценой немалых потерь был освобожден Угледар . Угледар, несмотря на свои небольшие размеры, располагался на физических высотах, что делало любой его штурм катастрофически сложной задачей, но российские бойцы сумели проломить оборону. Взятие Угледара позволило начать активное движение на север к границам Днепропетровской области. Это событие стало одной из важнейших с психологической точки зрения побед на фронте, поскольку успехи на этом участке заложили фундамент для дальнейшего прорыва линии боевого соприкосновения и продвижения дальше. Арт в высоком разрешении #арт #ВСРФ #Россия #Угледар ✈ RU | ✈ EN | ✉ MAX ✉ VK | ✉ RuTube | ✉ ОК | ✉ Дзен 💸 Поддержать нас",
+      "location_name": "Dniepr",
+      "lat": 48.4647,
+      "lon": 35.0462,
+      "url": "https://t.me/rybar/83670",
+      "tactical_sources": [
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/83670"
+        },
+        {
+          "name": "gallery.rybar.ru",
+          "url": "https://gallery.rybar.ru/images/upload/2026/10/02/20261002121850-7cbccaf0.png"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar"
+        },
+        {
+          "name": "#rybar_in_english",
+          "url": "https://t.me/rybar_in_english"
+        },
+        {
+          "name": "max.ru",
+          "url": "https://max.ru/Rybar"
+        },
+        {
+          "name": "vk.com",
+          "url": "https://vk.com/rybar_force"
+        },
+        {
+          "name": "rutube.ru",
+          "url": "https://rutube.ru/u/rybar/"
+        },
+        {
+          "name": "ok.ru",
+          "url": "https://ok.ru/group/70000041986659"
+        },
+        {
+          "name": "dzen.ru",
+          "url": "https://dzen.ru/rybar"
+        },
+        {
+          "name": "qr.nspk.ru",
+          "url": "https://qr.nspk.ru/BS1A0068ID10D33B9IBAQRQ4M9T0NIFN?type=01&amp;bank=100000000008&amp;crc=36CB"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/UB940PShI-pk__tiA4bS7MW3lhJYuOH1HEUqXGu0WDXoPr6Tn3b7AtrLyHvAJj2UaN5D52m1w5H4fP_ZbvIBw0BCcOMNwZ6x8ZCkiEAVteD9DnrMavCJepCqVfW1aWkzR0saNiS1mptjP5Qxbn8tNKhIbLxLtIWU4kjTMuWBi5aZ5xnmcjg4Epm0bauDv7LS5lSovkFHsod6CHZwSwJYIb8CAYFZxsx2OYC9RkCihUA4i9hidPH7LKhTMARkM_rjm3YvNJfG2Utz70EeyB53yFu3W_uI2W2_jDu9O7weYhtHvREfhyC5v3KMr6N1V7mp7juJUhqbSSFa6D33hzngAw.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "rybar",
+      "added_at": "2026-10-03T12:51:18.208097+00:00",
+      "verified_by_sources": [
+        "rybar",
+        "kpszsu"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🖌Dzień Wyzwolenia Ugledaru Minęły dwa lata od bardzo istotnego wydarzenia w rozwoju operacji specjalnej. W październiku 2024...",
+      "text_pl": "🖌Dzień Wyzwolenia Ugledaru Minęły dwa lata od bardzo istotnego wydarzenia w rozwoju operacji specjalnej. W październiku 2024 roku, po kilku latach walk i kosztem znacznych strat, Ugledar został wyzwolony. Ugledar, pomimo swoich niewielkich rozmiarów, znajdował się na wysokości fizycznej, co sprawiało, że jakikolwiek atak na niego był katastrofalnie trudnym zadaniem, ale rosyjskim myśliwcom udało się przebić przez obronę. Zdobycie Ugledaru umożliwiło rozpoczęcie aktywnego ruchu na północ do granic obwodu dniepropietrowskiego. Wydarzenie to stało się z psychologicznego punktu widzenia jednym z najważniejszych zwycięstw na froncie, ponieważ sukcesy w tym sektorze położyły podwaliny pod dalsze przełamanie linii kontaktu bojowego i dalszy postęp. Sztuka w wysokiej rozdzielczości #art #VSRF #Rosja #Ugledar ✈ RU | ✈ PL | ✉ MAKS ✉ VK | ✉ Rurka | ✉ OK | ✉ Zen 💸 Wesprzyj nas",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "73611fcd0950e9f0": {
+      "id": "73611fcd0950e9f0",
+      "timestamp": "2026-10-03T08:31:49+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🛵 Чернігівщина: БпЛА в напрямку н.п.Прилуки",
+      "text": "🛵 Чернігівщина: БпЛА в напрямку н.п.Прилуки",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.1804,
+      "lon": 35.1446,
+      "url": "https://t.me/kpszsu/82556",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82556"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-03T12:51:18.207964+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🛵 obwód czernihowski: BpLA w kierunku wsi Pryluka",
+      "text_pl": "🛵 obwód czernihowski: BpLA w kierunku wsi Pryluka",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "5bf62fa4c7422217": {
+      "id": "5bf62fa4c7422217",
+      "timestamp": "2026-10-03T08:28:49+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА з Чорного моря в напрямку Затоки",
+      "text": "🏍 Реактивний БпЛА  з Чорного моря в напрямку Затоки",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.828,
+      "lon": 34.7882,
+      "url": "https://t.me/kpszsu/82555",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82555"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-03T12:51:18.207967+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy UAV z Morza Czarnego w kierunku Zatoki",
+      "text_pl": "🏍 Odrzutowy UAV z Morza Czarnego w kierunku Zatoki",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "3c9d64994192224d": {
+      "id": "3c9d64994192224d",
+      "timestamp": "2026-10-03T08:21:09+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Мать, которая родила ребёнка в туалете Шереметьево, умерла в больнице от потери крови. Как выяснила «База», 30-летняя ж...",
+      "text": "Мать, которая родила ребёнка в туалете Шереметьево, умерла в больнице от потери крови.  Как выяснила «База», 30-летняя женщина прилетела из Антальи. Уже в московском аэропорту у неё начались схватки, и она направилась в туалет, где родила мальчика. После родов…",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 48.0384,
+      "lon": 34.9364,
+      "url": "https://t.me/bazabazon/49643",
+      "tactical_sources": [
+        {
+          "name": "Baza",
+          "url": "https://t.me/bazabazon/49643"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "bazabazon",
+      "added_at": "2026-10-03T12:51:18.208041+00:00",
+      "verified_by_sources": [
+        "bazabazon"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Matka, która urodziła dziecko w toalecie na Szeremietiewie, zmarła w szpitalu z powodu utraty krwi. Jak Baza dowiedział się, 30-letnia kobieta...",
+      "text_pl": "Matka, która urodziła dziecko w toalecie na Szeremietiewie, zmarła w szpitalu z powodu utraty krwi.  Jak dowiedział się Baza, 30-letnia kobieta przyleciała z Antalyi. Już na moskiewskim lotnisku zaczęły się skurcze, a ona udała się do toalety, gdzie urodziła chłopca. Po porodzie...",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "ebdadf02e84fa70b": {
+      "id": "ebdadf02e84fa70b",
+      "timestamp": "2026-10-03T08:07:26+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🛵 БпЛА курсом на Запоріжжя з півночі",
+      "text": "🛵 БпЛА курсом на Запоріжжя з півночі",
+      "location_name": "Zaporoże",
+      "lat": 47.8388,
+      "lon": 35.1396,
+      "url": "https://t.me/kpszsu/82554",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82554"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-03T12:51:18.207969+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🛵 BpLA zmierza w kierunku Zaporoża od północy",
+      "text_pl": "🛵 BpLA zmierza w kierunku Zaporoża od północy",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "d5d746c6e00756fd": {
+      "id": "d5d746c6e00756fd",
+      "timestamp": "2026-10-03T08:03:23+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Starcie Lądowe",
+      "tactical_category": "Starcie Lądowe / Szturm",
+      "tactical_icon": "⚔️",
+      "title": "Russian soldiers find an abandoned M1 Abrams tank. Date &amp; location unknown",
+      "text": "Russian soldiers find an abandoned M1 Abrams tank. Date &amp; location unknown",
+      "location_name": "Inne",
+      "lat": 47.932,
+      "lon": 34.8602,
+      "url": "https://redd.it/1wwgn9g",
+      "tactical_sources": [
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://redd.it/1wwgn9g"
+        },
+        {
+          "name": "Telegram (#r_combatfootage)",
+          "url": "https://t.me/r_combatfootage/42508"
+        },
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://t.me/r_combatfootage"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/b08irhwAICzWXsFzXjzAwNzGgj7MtikaxYdVVvejceSEK_dFAHMKa5ZtiSmtE1TIIQX_ZrzFpVYQ04C-JMbmzSUeCMh1BQnuAdYqP_RqzsekGA50PGRbGEfMzh_3W7OCaReu0FKDp8Di6roVcyjVpvbJmtvp04_HQPGb4R9OLQw5-beWVATPD8GYRKvZo290yRo6nImYn_orSLbL4wbjUuiVIAESZtNebpoGnSfDVXB0ms2um8VSJd5JDL6LKRYQPQUlyC-1Y1wOoTml6hGYgAzhFiC0ip2PBNL_o7jhZXfpWU9XNoTEBjRjGlp5iWiEMjOkM_4lzAlWrC-No7GMPQ"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/5ea0f8a7ed.mp4?token=L7j06uwNYSRIL8RbSFPXe6LXvGi_7NJB3XW7eQG-QQfIID_JrKSLMQr4erwyqZVm_3m40dSh6NZOUTTjEL49noSQzhiQQ_gfQbTf13JowPYJ8iWA62UeMslqtQHqHl7UaRtc9DVV1VdWwRuSBgnEZ9d9kiJjTrHOad8XaYRpokkIqXSj40wyvKXErWzaSjzo4V8zSqX2NBkQOdEJiKZ4uxX-YSTRiAvkU4cQ__4BW5hhXHi8nOM40yaktWtngtNro1Mf-vJATtLCKkzgcU3Q-kGFrX3rIdvhHUrFfmJxjdj4WtPaj0drWgUDkYZbwa5Wt4Q1ngxORLyLqjRiCW7lvGaBr_eO_DVMMfPIG6FmyVccCgVouVObrmsIKEf-gx2hI0tWPam4XmixLV31I36Q95VSsbtgb1YVa2SSgi6zA_Wf63JHeN8oTUKiiNoeMLl1ebfct_Exnd3IRrfCUZFbFx03TPNOZIjoB2Gu6pxPTGz4hi7qJZi6SqCgH0oR9J2PYrxvXIGS02lIpN4aeXJGYCvc9awNragfFPCw_hYgDjjnMopgD46Q9b_EWjcbGo1H0itn7lTbSbbLIjeXYTsIJOYZv1IRpin9s0pe70nx3j3NFBatarrfcGZlwnjfEGeaaMx_Tp7aHKpdmNTV3dgE5gC5Tdi5W6fIa6N-O_DVZPo",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "r_combatfootage",
+      "added_at": "2026-10-03T12:51:18.208223+00:00",
+      "verified_by_sources": [
+        "r_combatfootage"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Rosyjscy żołnierze znajdują porzucony czołg M1 Abrams. Data i miejsce nieznane",
+      "text_pl": "Rosyjscy żołnierze znajdują porzucony czołg M1 Abrams. Data i miejsce nieznane",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "e2999a58a5602e21": {
+      "id": "e2999a58a5602e21",
+      "timestamp": "2026-10-03T08:00:01+00:00",
+      "country": "Polska",
+      "flag": "🇵🇱",
+      "theater": "Wschodnia Flanka NATO (Polska)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Dylemat rosyjskich generałów: rakiety czy drony przechwytujące?",
+      "text": "Dylemat rosyjskich generałów: rakiety czy drony przechwytujące?. Kreml twierdzi, że ich obrona antydronowa coraz bardziej opiera się na dronach przechwytujących. Nie potwierdzają tego ani zamówienia, ani sukcesy w zwalczaniu ukraińskich dronów.",
+      "title_pl": "Dylemat rosyjskich generałów: rakiety czy drony przechwytujące?",
+      "text_pl": "Dylemat rosyjskich generałów: rakiety czy drony przechwytujące?. Kreml twierdzi, że ich obrona antydronowa coraz bardziej opiera się na dronach przechwytujących. Nie potwierdzają tego ani zamówienia, ani sukcesy w zwalczaniu ukraińskich dronów.",
+      "location_name": "Wschodnia Flanka NATO (Polska)",
+      "lat": 52.1924,
+      "lon": 20.988,
+      "url": "https://defence24.pl/wojna-na-ukrainie-raport-specjalny-defence24/dylemat-rosyjskich-generalow-rakiety-czy-drony-przechwytujace",
+      "tactical_sources": [
+        {
+          "name": "Defence24",
+          "url": "https://defence24.pl/wojna-na-ukrainie-raport-specjalny-defence24/dylemat-rosyjskich-generalow-rakiety-czy-drony-przechwytujace"
+        }
+      ],
+      "media_urls": [
+        "https://cdn.defence24.pl/2026/09/28/320x240px/DewVmCVQdPD0BCJAOPsTWFoPjR8T2OLzfejqSffK.bdnm.jpg",
+        "https://cdn.defence24.pl/2026/09/28/1200xpx/DewVmCVQdPD0BCJAOPsTWFoPjR8T2OLzfejqSffK.9gzy.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "defence24",
+      "verified_by_sources": [
+        "defence24"
+      ],
+      "multi_source_verified": false,
+      "added_at": "2026-10-03T12:51:18.208283+00:00",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "a844338ca1ac8fd0": {
+      "id": "a844338ca1ac8fd0",
+      "timestamp": "2026-10-03T07:57:43+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Женщина родила ребёнка в туалете аэропорта Шереметьево после прилёта из Антальи и задушила его. Она умерла в больнице от...",
+      "text": "Женщина родила ребёнка в туалете аэропорта Шереметьево после прилёта из Антальи и задушила его. Она умерла в больнице от кровопотери  По данным SHOT, 30‑летняя Наталья Б. прилетела из Турции, почувствовала схватки и пошла в туалет. Там она родила ребёнка и…",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 47.9148,
+      "lon": 35.1314,
+      "url": "https://t.me/shot_shot/100685",
+      "tactical_sources": [
+        {
+          "name": "Shot",
+          "url": "https://t.me/shot_shot/100685"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "shot_shot",
+      "added_at": "2026-10-03T12:51:18.208053+00:00",
+      "verified_by_sources": [
+        "shot_shot"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Kobieta po przylocie z Antalyi urodziła dziecko w toalecie lotniska Szeremietiewo i udusiła je. Zmarła w szpitalu z powodu...",
+      "text_pl": "Kobieta po przylocie z Antalyi urodziła dziecko w toalecie lotniska Szeremietiewo i udusiła je. Zmarła w szpitalu z powodu utraty krwi. Jak podaje SHOT, 30-letnia Natalia B. przyleciała z Turcji, poczuła skurcze i poszła do toalety. Tam urodziła dziecko i...",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "c6a9bb4a3528ed9a": {
+      "id": "c6a9bb4a3528ed9a",
+      "timestamp": "2026-10-03T07:53:49+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Działania Morskie / Drony Nawodne",
+      "tactical_icon": "🚢",
+      "title": "A U.S. Navy MQ-4C Triton surveillance drone ended up on the riverbank at the end of a runway at Naval Station Mayport, F...",
+      "text": "A U.S. Navy MQ-4C Triton surveillance drone ended up on the riverbank at the end of a runway at Naval Station Mayport, Florida, after what appears to be a landing overrun.",
+      "location_name": "Inne",
+      "lat": 48.0976,
+      "lon": 35.2532,
+      "url": "https://t.me/ClashReport/99459",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99459"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/eI4Z5Koki0JuDwYo-L6zQVgeH_UD_DcIealTNqJ_m6YIfJGGtymg_whwYCQuDS3Ipbmp4Uj_vZzfNRgpYjp52Avh2xFJAOztbzaEG4wAk6i0REDO_t2apVBrWfRLy3dTGj368w7dzUQSCRj3zDF3J2lJ6S1lWy_7ByZyLVVqxCiEYlkPl4oxXuLYmThJonYCGp9HUqcCK5ciOHchkgh8_Ta_2dtpFNqvRZhAmdHRvYvDbOx8G9hJD7sadsG8iJaRMjSZwTKVJKT86VJAEZJ7VKssfwAP65uzep7k8DNW3KHLrmr1pf6yQ3sqYI12XlvO2NmGiKeAFUNy3v3GVyv2NA.jpg",
+        "https://cdn4.telesco.pe/file/k5q9pRcSydsnmRb1HOxYEQRF7nERNE42uMJPrIkETCpCdHHb3X5FO-EgVQRlxWQIEDfiKsEUtlKsaMyPsm7uUZdVx4r-JME_KZ6OdnmDd9KKlbTC6CJ7eQ7bpdE-vyEyx1DxQ3nFslwegUIehLdZ33bWinNdVXWm30P2AQ38rKFPyfjpIpP10x8ntJgBTOHEvLknWd_1vvxgylrHkQ8vzf9wrOFGGgzOCnw1nIjjHwGW5mYh6ZIswa9BzTEj0mcmmY20L_8zQtSn7XjYo4h-GBkLJWPqs7bb2BgJGNQOLQyodiiH1aqzVFKpAA0Yoy99PA5PZcJP0zwOSBdgWS3uNQ.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Baza Lotnicza / Lotnisko",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-03T12:51:18.208121+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Dron obserwacyjny Marynarki Wojennej Stanów Zjednoczonych MQ-4C Triton wylądował na brzegu rzeki na końcu pasa startowego w bazie marynarki wojennej Mayport w stanie Floryda.",
+      "text_pl": "Dron obserwacyjny MQ-4C Triton Marynarki Wojennej Stanów Zjednoczonych wylądował na brzegu rzeki na końcu pasa startowego w Naval Station Mayport na Florydzie po czymś, co wyglądało na przekroczenie granicy.",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "f1dcd818e5a8be43": {
+      "id": "f1dcd818e5a8be43",
+      "timestamp": "2026-10-03T07:38:34+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "⚡️ ⚡️ Уражено місце запуску ударних БпЛА, пункт управління та переправу противника 2 жовтня та в ніч на 3 жовтня 2026 ро...",
+      "text": "⚡️ ⚡️ Уражено місце запуску ударних БпЛА, пункт управління та переправу противника 2 жовтня та в ніч на 3 жовтня 2026 року підрозділи Сил оборони України завдали ураження низці важливих військових об’єктів російських окупантів. Так, у районі Донецька Донецької області уражено місце зберігання, підготовки та пуску ударних БпЛА. Такі об&#x27;єкти є одними з пріоритетних цілей. Системне їх ураження спрямоване на зменшення спроможностей російської армії застосовувати ударні безпілотники по цивільній інфраструктурі на території України. У районі Нової Таволжанки Бєлгородської області рф українські воїни завдали ураження пункту управління противника. Також у районі Новоочеретуватого Донецької області уражено переправу через річку Мокрі Яли. Крім того, у районі Громівки Херсонській області уражено ремонтну базу окупантів. У районі Вознесенівки Бєлгородської області рф українські воїни били по складу матеріально-технічних засобів російських окупантів. Робота по ключових  цілях російського агресора триває. Далі буде! 💥 Слава Україні! 🇺🇦 Підписатися на офіційний Telegram-канал Генерального штабу ЗСУ 🇺🇦 Сайт Збройних Сил України",
+      "location_name": "Biełgorod, Rosja",
+      "lat": 50.5954,
+      "lon": 36.5873,
+      "url": "https://t.me/war_monitor/47243",
+      "tactical_sources": [
+        {
+          "name": "#war_monitor",
+          "url": "https://t.me/war_monitor/47243"
+        },
+        {
+          "name": "#+koc4ly29rt81zgni",
+          "url": "https://t.me/+KOc4lY29RT81ZGNi"
+        },
+        {
+          "name": "zsu.gov.ua",
+          "url": "https://www.zsu.gov.ua/"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/cdY1aW3AXfRHPioTcJr2oXhQdqMarGprJ-7IU4ttrZFV1nCDHCNWDDQuiZh1jKpe0B_xZ7O5PzLzSBklkrWdv_CfbuAwhYVaO0iGbotORWrO_2OGUTV357LCcPTSB9nv-PDCUzso4ZGQ6bMEdzPO_kAwoF08PaH5--WjwPjvzDwYMOa2v329YC66J-pzj0ICxHF8CmIoSKmcrd1gPLTSJVfRxjnHOxvp7mCbmtY04jn92qqsgUg7GWGKc_gIOSydqOzX8tmbMfnckPDvl9WLZkOaG4HdMPknd2rlsUOMb5oClAmkoK1_iXPyFz74fHO_zpS7Zw2qTEoHfHdnQttwqw.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "war_monitor",
+      "added_at": "2026-10-03T12:51:18.207987+00:00",
+      "verified_by_sources": [
+        "astrapress",
+        "war_monitor"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "⚡️ ⚡️ Miejsce startu ataku UAV, punkt kontrolny i przejście wroga w dniu 2 października i w nocy 3 października 2026 roku zostały trafione...",
+      "text_pl": "⚡️ ⚡️ Trafiono w miejsce startu UAV ataku, punkt kontrolny i przejście wroga. 2 października i w nocy 3 października 2026 roku jednostki Sił Obronnych Ukrainy uszkodziły szereg ważnych obiektów wojskowych rosyjskiego okupanta. Tak więc w obwodzie donieckim obwodu donieckiego wpłynęło to na miejsce przechowywania, przygotowania i rozpoczęcia ataku UAV. Obiekty takie są jednym z celów priorytetowych. Ich systematyczna porażka ma na celu ograniczenie możliwości wykorzystania przez armię rosyjską dronów szturmowych na infrastrukturę cywilną na terytorium Ukrainy. W rejonie Nowej Tawołżanki w obwodzie biełgorodskim Federacji Rosyjskiej ukraińscy żołnierze uszkodzili punkt kontrolny wroga. Uszkodzeniu uległa także przeprawa przez rzekę Mokri Jały w obwodzie nowooczeretuwatskim obwodu donieckiego. Ponadto uszkodzona została baza naprawcza okupantów w obwodzie gromywskim obwodu chersońskiego. W obwodzie wozniesieniwkowym obwodu Biełgorodskiego Federacji Rosyjskiej ukraińscy żołnierze zaatakowali zasoby materialne i techniczne rosyjskich okupantów. Trwają prace nad kluczowymi celami rosyjskiego agresora. Będzie więcej! 💥 Chwała Ukrainie! 🇺🇦 Subskrybuj oficjalny kanał Telegramu Sztabu Generalnego Sił Zbrojnych Ukrainy 🇺🇦 Strona Sił Zbrojnych Ukrainy",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
+    },
+    "b1a317fd3ad2dd8a": {
+      "id": "b1a317fd3ad2dd8a",
+      "timestamp": "2026-10-03T07:29:08+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🛵 БпЛА курсом на Суми з півночі",
+      "text": "🛵 БпЛА курсом на Суми з півночі",
+      "location_name": "Sumy",
+      "lat": 50.9077,
+      "lon": 34.7981,
+      "url": "https://t.me/kpszsu/82551",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82551"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-03T12:51:18.207971+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🛵 BpLA zmierza w stronę Sum od północy",
+      "text_pl": "🛵 BpLA zmierza w stronę Sum od północy",
+      "archived_at": "2026-10-17T11:54:28.794757+00:00"
     }
   }
 }
