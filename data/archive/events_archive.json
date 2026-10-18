@@ -1,11 +1,11 @@
 {
   "manifest": {
-    "total_archived": 3924,
+    "total_archived": 3963,
     "retention_days": 14,
     "first_archived_at": "2026-09-23T16:43:07.215300+00:00",
-    "last_archived_at": "2026-10-17T23:39:19.072958+00:00",
+    "last_archived_at": "2026-10-18T02:05:32.685389+00:00",
     "oldest_event_timestamp": "2023-06-05T21:48:13+00:00",
-    "newest_event_timestamp": "2026-10-03T23:33:36+00:00",
+    "newest_event_timestamp": "2026-10-04T02:01:42+00:00",
     "cloud_sync_enabled": false
   },
   "events": {
@@ -172110,6 +172110,1617 @@
       "title_pl": "Trump: BUDUJ W AMERYCE, ZATRUDNIAJ AMERYKAŃSKICH PRACOWNIKÓW I GODZIWNIE CENUJ LEKI DLA AMERYKAŃSKICH PACJENTÓW – LUB PŁAĆ. KOCHAM OHIO!",
       "text_pl": "Trump: BUDUJ W AMERYCE, ZATRUDNIAJ AMERYKAŃSKICH PRACOWNIKÓW I GODZIWNIE CENUJ LEKI DLA AMERYKAŃSKICH PACJENTÓW – LUB PŁAĆ. KOCHAM OHIO!",
       "archived_at": "2026-10-17T23:39:19.070240+00:00"
+    },
+    "2aa0eff463c1ff84": {
+      "id": "2aa0eff463c1ff84",
+      "timestamp": "2026-10-04T02:01:42+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА курсом на Вишгород",
+      "text": "🏍 Реактивний БпЛА курсом на Вишгород",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.062,
+      "lon": 34.9724,
+      "url": "https://t.me/kpszsu/82662",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82662"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-04T02:14:23.400046+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy UAV skierował się w stronę Wyszogrodu",
+      "text_pl": "🏍 Odrzutowy UAV skierował się w stronę Wyszogrodu",
+      "archived_at": "2026-10-18T02:05:32.682319+00:00"
+    },
+    "920176addc0f47d3": {
+      "id": "920176addc0f47d3",
+      "timestamp": "2026-10-04T01:59:28+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА курсом на Димер",
+      "text": "🏍 Реактивний БпЛА курсом на Димер",
+      "location_name": "Dymer, Kijowszczyzna",
+      "lat": 50.7833,
+      "lon": 30.3167,
+      "url": "https://t.me/kpszsu/82661",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82661"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-04T02:14:23.400049+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy UAV skierował się do Dimeru",
+      "text_pl": "🏍 Odrzutowy UAV skierował się do Dimeru",
+      "archived_at": "2026-10-18T02:05:32.682319+00:00"
+    },
+    "d654200d35f225dc": {
+      "id": "d654200d35f225dc",
+      "timestamp": "2026-10-04T01:55:45+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🛵 Київ: БпЛА на Троєщину",
+      "text": "🛵 Київ: БпЛА на Троєщину",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/kpszsu/82659",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82659"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-04T02:14:23.400055+00:00",
+      "verified_by_sources": [
+        "rybar",
+        "astrapress",
+        "clashreport",
+        "kpszsu",
+        "shot_shot",
+        "war_monitor"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🛵 Kijów: BpLA do Troeszczyny",
+      "text_pl": "🛵 Kijów: BpLA do Troeszczyny",
+      "archived_at": "2026-10-18T02:05:32.682319+00:00"
+    },
+    "26704abb75451e5b": {
+      "id": "26704abb75451e5b",
+      "timestamp": "2026-10-04T01:52:13+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🛵 Київ: БпЛА на Березняки",
+      "text": "🛵 Київ: БпЛА на Березняки",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/kpszsu/82658",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82658"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-04T02:14:23.400057+00:00",
+      "verified_by_sources": [
+        "rybar",
+        "astrapress",
+        "clashreport",
+        "kpszsu",
+        "shot_shot",
+        "war_monitor"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🛵 Kijów: BpLA na Bereznyaki",
+      "text_pl": "🛵 Kijów: BpLA na Bereznyaki",
+      "archived_at": "2026-10-18T02:05:32.682319+00:00"
+    },
+    "0f0d123bf3356535": {
+      "id": "0f0d123bf3356535",
+      "timestamp": "2026-10-04T01:50:26+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🛵 Київ: БпЛА на Видубичи",
+      "text": "🛵 Київ: БпЛА на Видубичи",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/kpszsu/82657",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82657"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-04T02:14:23.400059+00:00",
+      "verified_by_sources": [
+        "rybar",
+        "astrapress",
+        "clashreport",
+        "kpszsu",
+        "shot_shot",
+        "war_monitor"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🛵 Kijów: BpLA na Wydubyczach",
+      "text_pl": "🛵 Kijów: BpLA na Wydubyczach",
+      "archived_at": "2026-10-18T02:05:32.682319+00:00"
+    },
+    "d9d0289113b14f98": {
+      "id": "d9d0289113b14f98",
+      "timestamp": "2026-10-04T01:49:01+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🛵 БпЛА на Київщині, курс на Київ (Нижні Сади)",
+      "text": "🛵 БпЛА на Київщині, курс на Київ (Нижні Сади)",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/kpszsu/82656",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82656"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-04T02:14:23.400070+00:00",
+      "verified_by_sources": [
+        "rybar",
+        "astrapress",
+        "clashreport",
+        "kpszsu",
+        "shot_shot",
+        "war_monitor"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🛵 BpLA w obwodzie kijowskim, kurs do Kijowa (Niżny Sady)",
+      "text_pl": "🛵 BpLA w obwodzie kijowskim, kurs do Kijowa (Niżny Sady)",
+      "archived_at": "2026-10-18T02:05:32.682319+00:00"
+    },
+    "28c8c33f737dc541": {
+      "id": "28c8c33f737dc541",
+      "timestamp": "2026-10-04T01:35:40+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🛵 БпЛА на Чернігівщині, курс на Ніжин",
+      "text": "🛵 БпЛА на Чернігівщині, курс на Ніжин",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.9612,
+      "lon": 34.8968,
+      "url": "https://t.me/kpszsu/82655",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82655"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-04T02:14:23.400073+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🛵 BpLA w obwodzie czernihowskim, kurs do Niżyna",
+      "text_pl": "🛵 BpLA w obwodzie czernihowskim, kurs do Niżyna",
+      "archived_at": "2026-10-18T02:05:32.682319+00:00"
+    },
+    "e38472956a913c8e": {
+      "id": "e38472956a913c8e",
+      "timestamp": "2026-10-04T01:26:40+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump: We will pass a truly great healthcare plan that will stop all payments to big insurance companies, and we will gi...",
+      "text": "Trump: We will pass a truly great healthcare plan that will stop all payments to big insurance companies, and we will give the money directly to you. We will give those billions to you so you can buy your own health insurance and have money left over.",
+      "location_name": "Inne",
+      "lat": 47.8692,
+      "lon": 34.8698,
+      "url": "https://t.me/ClashReport/99539",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99539"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/ipbiOn4aUnuA9PSNbDm8bCVoybJyW_8OLdrwKTPJLyTsopVSu10fguNXpWytgoN-3O6Bs-THpNSL58GEB0BLaRqfu36yU6a9aw_dk-ycxI9e77u7pqJQTqWNw3AkD1qW7X3wgswWqQYjgW6N0IYxzI2KJU6DTPrep6-ahEGVj36sq5umTnnX-PoRlXiUDA_hgydWEKU3GhXgVTQ2C4044rOBKE9wqFf_-GTXEede8HKveQ2SqhNUjw1miOWBgxG1BeYDOmS8522uu_QGGlWLSek8baYwAz_0fNjtQNxgUV1H-LfD8kUQZlCa00LgfpbSUZHl6Zz78zcgB_GDNHYmJw"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/9890ea86f5.mp4?token=gS8x4MJZibIBXd6SjGK9xW03r3wGy3peNWKvCYEEvVjTe16Mw6naaxLXIbi0rij6LpAwf6vMVU0SitmE2EYIB86jkTx7EO1gocNR_CMuY9K4Gnxy8ixBooINh5NT5CM7yPQ9P1kcGmV8r2EnAeK331K6V3CCJH1mRr0anfqdNCjcTngi5I5K3MqSgHEF8sZPgcgw9L5VqJtRDoqqBHTpqhIYRRSuTbFvyU-NjVm_E34OEdRA_JGAriHsekBMvPArRftGoUiYx44wKTYoSOKSIhQQsAYCtMtUKi5S4HA-y9iq2HkEY9-67Xp-oYoO3RHq5Z90MpA60Yn_19pSE4eaGZfzODsaCEGrHMw-2Tyia8fJN0P9uuEd5o1Ky7F-0QOCNXKkVfGDgeWQ4nTecREaI0rvf8EJY-H_kHCRKKAXKTq59WF8eXpOy-SZJF2-C4tUDOHpfEN7hc9QCtb3rVHSRYnb1ybVZhRHauNz7CFUnoGjLJsa7xBQJ5kTkKMbBZ0w6bIQ6BEJ680VPPZrm_YvPwiqqTJ1GjpXDSURx0XTbx5TwWuHMYHm_CdKwotk5PvlRRQuoMh9nzDIHUXk8wZqc8IG7gebvtiApGdV4Pcyc7xyzmT2KQeoMiVD-q4o1JxxMaEPHM_uK448Q1VVLLRXL6kcWeL8FW1u6Ob1qUgzpMw",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-04T02:14:23.400231+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump: Przyjmiemy naprawdę wspaniały plan opieki zdrowotnej, który wstrzyma wszystkie płatności na rzecz dużych firm ubezpieczeniowych i przekażemy…",
+      "text_pl": "Trump: Przyjmiemy naprawdę wspaniały plan opieki zdrowotnej, który wstrzyma wszystkie płatności na rzecz dużych firm ubezpieczeniowych, a pieniądze przekażemy bezpośrednio Tobie. Przekażemy Ci te miliardy, abyś mógł wykupić własne ubezpieczenie zdrowotne i mieć jeszcze pieniądze.",
+      "archived_at": "2026-10-18T02:05:32.682319+00:00"
+    },
+    "7e0593b79768cee0": {
+      "id": "7e0593b79768cee0",
+      "timestamp": "2026-10-04T01:24:33+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump: We will pass the No Invasion of Our Country Act, prohibiting any future president from ever opening our borders t...",
+      "text": "Trump: We will pass the No Invasion of Our Country Act, prohibiting any future president from ever opening our borders to illegal immigrants again.",
+      "location_name": "Inne",
+      "lat": 47.862,
+      "lon": 35.0282,
+      "url": "https://t.me/ClashReport/99538",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99538"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/srAKKtN-2OQTR9_6txoNLr6CKdMc2jat7HDnls-_X02Wr90edr4Ent3vLE5hYYO10PxLgzifyheGj9Y_j_e-siz3Zu7cteN8BW4Qd9N1htfCo7W7fc8f4pQ0NgU0huLPvxGSBwqJ71GcFK31vZTPoiXVe0HBq-UTn1_GN8UJMaAVQaNpyUxeZpDhFgdNYNl9nZFDtccFJNm3ux4qYIrs8Ngapz2TzYjrMi_WV2OyKMz9wAX1MAkTCoAcNHDiFc4EQSz7DDjywfCqNr00CskjFLvcSgCQzdLLdDa56KdfO7DZDT5seDdxlGXFBi6xzD7ixnkPZ_Th1iDmf3G6NzVu3Q"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/3a561316ef.mp4?token=e-9u8BJsZCj-0eqUrLsL9gsr3h18sx1sSFwz10eMRWLQ0fBNGPXJDiQ6yFB5coaTDcQ9OxFH28OVhNqQxJ1ZrvaVIkA3f_iObfXK_lYWDsS3UQGHVP3qz1nKOxS2W1wLNdLhfz2ruj2xEzd4s185XsyQ6bN2LnMc7SW4mwtE1cv_4EvsRvA8X_1OG8B9g1KaJGx1IBTywz9hHr32HjC0_2lsAR-l_hTZA6rd08_tNRSkffpDnJ7tRIDAtF0zL9ECZHrxrRi8fUciurUbR5IX_wzgDj5suJYzdNaR3d77dqaRd-HIIwdB9s5eIGLvAZ6e3eiEYaMyxyEbX_m8zxwvew",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-04T02:14:23.400234+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump: Przyjmiemy ustawę o zakazie inwazji na nasz kraj, która zabrania jakiemukolwiek przyszłemu prezydentowi kiedykolwiek otwierać nasze granice…",
+      "text_pl": "Trump: Przyjmiemy ustawę o zakazie inwazji na nasz kraj, która zabrania przyszłemu prezydentowi ponownego otwierania naszych granic dla nielegalnych imigrantów.",
+      "archived_at": "2026-10-18T02:05:32.682319+00:00"
+    },
+    "d6ad10c631283527": {
+      "id": "d6ad10c631283527",
+      "timestamp": "2026-10-04T01:23:29+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump: We will pass the death penalty for large-scale drug dealers, human traffickers, and anyone who ever kills a polic...",
+      "text": "Trump: We will pass the death penalty for large-scale drug dealers, human traffickers, and anyone who ever kills a police officer or law enforcement official.",
+      "location_name": "Inne",
+      "lat": 47.9708,
+      "lon": 35.1554,
+      "url": "https://t.me/ClashReport/99537",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99537"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/Ty2pRneyjwP5JluAABzjOSp_3gyhgmVy8l2U5Iv6STq2VrgWNocF5JNfPHp-ADpPTiC_BwCAeToeovgBmyRJyvlKUJUTIbVP-WAcaj-Khs-S50axIMVCqioqbxtyiC_QPwuVB27IC_r6bU8D73ELaYcXCbDf4mNBmuw2Tia9x7OZj4u3ILpoifiDppg-0ogh1ZLKnyQJ6xukyQyB3CQYpre9yvZsi2vH_975-EYVHQzCgO3Q5NqKQFI-J2xz11eW-5BiM4ovTMjJ_RvM_ghaKtKfvW3SI7qkTiMKnGa-Vpyc_AmAH5CygvQkIbGHoeGTUlUG6QAC-OHGzg7fXUT3jg"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/f3b254466b.mp4?token=WPUR9_0d_hXn5WOI3tVkxnCL4NYk6yKuJ_W1CZ9OMr-hO8Oz-V66VlCzK6w0pgG2mo0rTOcsHpAaDnIkknR-IEsVhaukSqofzSXFcwxAgkZg7eEeXzq43WKgcVVhpUypTQr9ea0ju3PtTpdUA32x_E2LANTrMbmXz6AV6wLrQFyWkf00pgzI4Ju_iP6lch-PaXk5vnY64l2m_PNQCLGPlHJ-o2cY2neT6UN_Gm4xuBsNP2UvhoXHWFQ16f5nmxfNEwz6A_ZrC5FKvQRLaTuCluhxUmrxWdGytqunBHVr3COwLWeCIVBtjMIfCmnZ9QQVkZ7Iw-k6I2A7YsanfO0094WOpGPPJgrUDPjvR3m_yJOfwRxPGsEpzEljmzYPM_ib305LxFaLPd8quvZ40nG9StDJNw4Nax8aoRuL-b8n-6oBPvwGr8dv3EhiyaKqNfG_gV9yGSa5ZYGah72x-eD3NdPOT5KFLz0rHzzCgVpF21iBWL2Mh-pu7emhKtuQ6RrzYc-exPxNBiFoTJJ4PSz4BcA7I0RbPUvvLPVvJS478EhQjqh_St8RHpk-3Wpaz8lMgpmY2V0l6NDEKTgkiX0IrwOxzwQ6jsb7EQRO3f6H6YGX2g2aDZYSErWvG97giqxzjDm64dEXG5M0_9VmmbDUMpm4EEasNpxSft6FvnJPxA8",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-04T02:14:23.400236+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump: Wprowadzimy karę śmierci dla handlarzy narkotyków na dużą skalę, handlarzy ludźmi i każdego, kto kiedykolwiek zabije policjanta…",
+      "text_pl": "Trump: Wprowadzimy karę śmierci dla handlarzy narkotyków na dużą skalę, handlarzy ludźmi i każdego, kto kiedykolwiek zabije funkcjonariusza policji lub funkcjonariusza organów ścigania.",
+      "archived_at": "2026-10-18T02:05:32.682319+00:00"
+    },
+    "e6f9129878504882": {
+      "id": "e6f9129878504882",
+      "timestamp": "2026-10-04T01:19:54+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Неядерный статус, признание оккупированных территорий российскими и еще ряд условий. Медведев озвучил требования для «ус...",
+      "text": "Неядерный статус, признание оккупированных территорий российскими и еще ряд условий. Медведев озвучил требования для «устойчивого мира» в Украине Зампред Совбеза РФ дал интервью Гостелерадио Исламской Республики Иран и рассказал, что нужно сделать Украине для «достижения устойчивого политического урегулирования». «Эти условия хорошо известны… перечислю их еще раз для иранского зрителя. Это прежде всего нейтральный, неядерный, независимый статус государства Украина… Во-вторых, отказ от националистического курса нынешнего режима в Украине и осуждение практики запрета русского языка, запрета вообще на все русское, российское как одно из условий такого урегулирования… В-третьих, это передача в российскую юрисдикцию того, что установлено в Конституции России. А именно территорий в Донбассе и в некоторых других новых регионах. То есть восстановление российского суверенитета. Если этого не будет, мы сделаем это военным способом», — сообщил Медведев, отметив, что РФ находится «в состоянии военных действий».",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 48.0356,
+      "lon": 35.2358,
+      "url": "https://t.me/astrapress/127057",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/127057"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/dSLwczY4kzF_PdCm3jhjJjz2Ehi6DfOWBqpj6YcA4QjAhoaNyy9OLpj4TVga1EK_aNjCrVtfDSKska_0dVueRhJNeL2PL8jBxNW8HeEh1DGaPSRBnspHINs6aLveUWaTQbMGmHwRt7pnObv37iNqTLr2IS0Jjm34qLZ5AWCMJ0t5lfMCassO-Lww5Z0rLrt0aFmONsNJjJNGsNRFSFzp_TF6VFxcCH_E9t985Bbx5MhrNlS-AEDxj0wmLo0MArRDGz8KPk9tNSg_NrtJD6NQXpPXMKgMi5kxLlcCXMipsn96i45SvzQsL7ul0PRhiL_Sz5dQ4VD11ajpoX7fq0wECQ.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "astrapress",
+      "added_at": "2026-10-04T02:14:23.400151+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Status niejądrowy, uznanie terytoriów okupowanych za rosyjskie i szereg innych warunków. Miedwiediew wyraził żądania „wzmocnienia…",
+      "text_pl": "Status niejądrowy, uznanie terytoriów okupowanych za rosyjskie i szereg innych warunków. Miedwiediew wyraził żądania „trwałego pokoju” na Ukrainie. Zastępca przewodniczącego Rosyjskiej Rady Bezpieczeństwa udzielił wywiadu Państwowej Telewizji i Radiu Islamskiej Republiki Iranu i powiedział, co Ukraina musi zrobić, aby „osiągnąć trwałe porozumienie polityczne”. \"Te warunki są dobrze znane... Wymienię je jeszcze raz dla irańskiego widza. Jest to po pierwsze neutralny, niejądrowy, niezależny status państwa ukraińskiego... Po drugie, odrzucenie nacjonalistycznego kursu obecnego reżimu na Ukrainie i potępienie praktyki zakazu języka rosyjskiego, ogólnego zakazu wszystkiego, co rosyjskie, rosyjskie, jako jeden z warunków takiego rozstrzygnięcia... Po trzecie, jest to przeniesienie pod jurysdykcję rosyjską tego, co stanowi Konstytucja Rosji. Mianowicie, terytoriach w Donbasie i niektórych innych nowych regionach, czyli przywróceniu suwerenności Rosji, jeśli tak się nie stanie, zrobimy to militarnie” – powiedział Miedwiediew, zauważając, że Federacja Rosyjska jest „w stanie działań wojennych”.",
+      "archived_at": "2026-10-18T02:05:32.682319+00:00"
+    },
+    "1bb87c96b3522bae": {
+      "id": "1bb87c96b3522bae",
+      "timestamp": "2026-10-04T01:09:27+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump: The Democrats voted in favor of the highest energy costs in American history.",
+      "text": "Trump: The Democrats voted in favor of the highest energy costs in American history.",
+      "location_name": "Inne",
+      "lat": 47.9588,
+      "lon": 35.2406,
+      "url": "https://t.me/ClashReport/99536",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99536"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/QiNmbCb-FJj5Isg89QlhMrwfvsFXbScL5Cw4byGJPr525T6Zf3KceWypCCV_ZbaimpPl1UJ4kVMpiFl8DdZAWL-nF8Xlh3Y8cNdVqewjrhP6zbbt1vmp0pESzi53JHF1rxPGK3KcD_SwPnLwwxEQ91ScxHLrwi9sm2Vsjdf8oo6y5zGq_-EZsDhKTFKutS3ITXHmnp-nCkG7LyWkKYrafwXesunhaDOiOO3GLTPdXPE6Fshd9hFtmFaPLoL0DrjhgUfmvge1hS_OA29NvUPbsLAcynQjLmxE2iiuKPjXFcCXUCnyIu8ggTJxmAZwauq0g3Dznrd7_47ETeNZLPf1rg"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/152b05f406.mp4?token=j9RC4N1ps1GMZMY93lPGyzbCczpgiWJajCQrxufyS6Xm4K6lbFsuQ9ETQH7kmByfkZT400DEB6vjV_NExe7qM5wvQnKr1uC91YfzM9PXsx2TjyOfIMVILJpp5x19i6xbeetkrtedBwXLNbBBQifGZDwNtgkCcXIjWRK3fLZmc2QB_55rQk1tU9X9cKq9er1xmAUdhgsrrOnXP-Xfcz8GRkNNwHaiIOTV_udyALJ3Ey75iQ7BhSsPMVkaWVOfefeL7OdCaKvt8uTblLUA3cKEZcILdppMFNW9TRLNge_ra7GvjzSweyDe5LMnG-6YftYRPcCmtGzbUS6wtAB95o8E7DzoLYYGMqknLXWitR9ENcuYlvuH2_duRcW1gSNrDutwJRiNb4oohoOr2QiJZhWoYyGpijaw_6z9cGAq5qraeb67jIHbQJRGf3qFSIx1nXYKlYBH2IGEFbmyeDQT784STQ5YPI-eEt4U2NpNTzs5qqOhyJVQlX8AwFaoOXyE8JMF1U5N6F2kgYRk9lSL-fG7i4rS94h3rQJ8XKuOf9GXGF6tJT-wZRWgCS1AQJnzDxJQ0sz9GR52DM9Ho7mOsVJxsH0JrprSkZ-jLGCuNWz4izHcr0djjMAgjRxHVogYUkwXcmv5R27x7EdgEMGthHOr_gJwSqXM3BRMKCcD7HrBjy0",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-04T02:14:23.400238+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump: Demokraci głosowali za najwyższymi kosztami energii w historii Ameryki.",
+      "text_pl": "Trump: Demokraci głosowali za najwyższymi kosztami energii w historii Ameryki.",
+      "archived_at": "2026-10-18T02:05:32.682319+00:00"
+    },
+    "d3392551b4180104": {
+      "id": "d3392551b4180104",
+      "timestamp": "2026-10-04T01:03:01+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump: You know all these fake polls? They don&#x27;t account for one thing — they don&#x27;t account for the fact Trump is out ca...",
+      "text": "Trump: You know all these fake polls? They don&#x27;t account for one thing — they don&#x27;t account for the fact Trump is out campaigning. They never thought this was gonna happen. And it&#x27;s their fault because they unleashed us, and we&#x27;re really gonna do — as the coach would say — let&#x27;s go and kick ass.",
+      "location_name": "Inne",
+      "lat": 48.114,
+      "lon": 34.9922,
+      "url": "https://t.me/ClashReport/99535",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99535"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/HMCT5lEuKZ9msGFWMlBCg7QgzxI09s1KT6aMet4PT3MmelKRGwHn_b0zxsGUBXuqxzlA0AEoDM-RPet5Xaj1BqqMwkIHYfzEnQup7qOoM4X7zKzLPTCyJwbHIMCj-MqYb0M_Ii0kj9DuzK8jvYhWOqnOrKLBX4y7-yTzzayv9KoYWebacil5JbIz-OPSb1VA2wfMpUUNpNRTotoleQ_iZSueqIFF2hFZAcLN0uScc2bPWLwVygjbotHAjDih-eUbVJgg0xNNPhhz8hRviyKjYy7vpRyYnortpNAN93nX2yTBvBwPDpD_u7pbP6wWyieS4gHe9ihnh8XmVItV8D9Afw"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/77d1920e74.mp4?token=grK7YoxLTrfM9TEYrtSgqCmyYOzMTdfrfhqCrsPF7RNMvXpYZSfXNglVQPkL5jVbD5MIRazrthzO3rwjBnVBu_iqZaWO6OLQIVEKaZs-YmmoEBcs1lnVHK9mgNonTWVZLaKOLXHFq6tx3YNGVg9DbSpFflLl7tn1NjjXvTATtpFKZg1dg7QOS4SJiUVcDDwVIMlGomM-BBLGpjW5wJI9_lQCNAGELQEl1hH8FNAiIMaZZmjhGq8ttjP3ZpEIJkF7gyqTksdtienkaES8R2J0qMZbeVS4U5GYRKt1D7xvOI3aDcwkFG_8-ATZZKLtv98xTn_DlncqfNlTNQaYIPUnQbmtlXv6Iq94z7KFJgjVwKnIyI5zn-N6IXNTycHAkGxzixX24IHm0MniWfBRTy629CHBWWtA0rcb8oXLJJjo8m5h7nVlo1GZ6wM-XUiYB9LuKGz4A7AadYsVqNHKaPtuy8UtRDZCgaRTqn7eFqopd09T-3Ey14SdDQmYw7mt0-wo96Yhha0jj82CWp-vX4N6qx4Z-3024BaUR3bajPbQ0gATZMEd13xZLHvJOuGdg9TEIKs_cPjTuLhmrHps-AMvi0ODZGRfN4eLX9cXpCxoIXRV9-6qCgotbBdAa1kEHwPKKzUR-4AEGuYbThP6xKVJ91E0zxSwjti9aDc3J3939fs",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-04T02:14:23.400241+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump: Znasz te wszystkie fałszywe sondaże? Nie wyjaśniają jednej rzeczy – nie uwzględniają faktu, że Trump nie...",
+      "text_pl": "Trump: Znasz te wszystkie fałszywe sondaże? Nie wyjaśniają jednej rzeczy – nie uwzględniają faktu, że Trump bierze udział w kampanii. Nigdy nie myśleli, że to się stanie. I to ich wina, bo nas spuścili i naprawdę zrobimy – jak powiedziałby trener – skopiemy tyłki.",
+      "archived_at": "2026-10-18T02:05:32.682319+00:00"
+    },
+    "164a770077482b7d": {
+      "id": "164a770077482b7d",
+      "timestamp": "2026-10-04T01:01:11+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump on the Democrats: They are a bunch of dumb son of a bitches.",
+      "text": "Trump on the Democrats: They are a bunch of dumb son of a bitches.",
+      "location_name": "Inne",
+      "lat": 47.8708,
+      "lon": 34.793,
+      "url": "https://t.me/ClashReport/99534",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99534"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/s64yb1yPV8w2PvM66zsj0KZke16tR1NSlJ-ggeMTTk0S0sMoPhDNV6qCEUc0JKRfcPUzBEmnm4VS8ebvqBrCv1BVn4qnnhbzgXNwB-xvdzcyDNRp68U32XuwwLNMmUl50XE1Exj0Mry0u3VYuMa3Oy_DYSMf9mHHCRL4WgO7zFSBeQdZup-L2T7kDTm3xrwDQ0-7TiAHp5fngE2tiwTss8kVF6uAm_E1F-JVZFlGcl0Bkm6eFoagz_jYRMoHyRRmXu5PDizf99uZa56UiWBgY3CSw61883x5QQBRw7xgQcq1WE2RDKBAwUBaWos2cGN1PnbMWfECLrzgiOpc6PWovg"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/e2a33db80a.mp4?token=XMkg9faFgJ_dIghwfNDt1CtEj_9hWXoeXcjcQ5cJ_dBfh63gov2uySr2qnm8vtnNuNJnhmPNLY_fRP4rNR8vHj7c5pm9_0dizIqyD2P-3hI-eazgD9kcTxA7lYHF23UGc71-hYQvV8Sc25CeuKAKlXTsvE8q3ys9e0Md0u1J6Lz4BdZ3qkCLw4_J8jEWAMTTeYEuUo_t-svCX0TPXmeMzyP6T99vp1PHd-XG8MYYuzUU4SR2Z6GBeSIku7yKQ3s2JUdRHfCnOoKeSB25orHC5AzGdJsX8vecbCY0C3Y63IVIpmWmT4irha_bl4mBqISJyG9BubOsgr1YM1mgA2uH7g",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-04T02:14:23.400242+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump o Demokratach: to banda głupich sukinsynów.",
+      "text_pl": "Trump o Demokratach: to banda głupich sukinsynów.",
+      "archived_at": "2026-10-18T02:05:32.682319+00:00"
+    },
+    "d086ae23be191523": {
+      "id": "d086ae23be191523",
+      "timestamp": "2026-10-04T00:54:05+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump: We achieved price differences of, listen to this, 300, 400, 500, 600, and in some cases even 700 percent.",
+      "text": "Trump: We achieved price differences of, listen to this, 300, 400, 500, 600, and in some cases even 700 percent.",
+      "location_name": "Inne",
+      "lat": 48.1104,
+      "lon": 35.1518,
+      "url": "https://t.me/ClashReport/99533",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99533"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/b6-9fNqAGXNp_z1guqE0_rrlqatyNH5dkVZ7heAebnB-SHQo5LLGtxZoZGV9WadXeCHToO8fgpT2MOv0XlENuwxphH4QCKQCRX78nF9qtlY0oXd7XoDSCz37Tf1dkHmKwppD2-KUqeNKxEei5y3cLw7nmV5OuXZQCNNxubUalRWrkH0osout-Tc8EyQkjGB-BNBQXYKQN5DnaXcsP5rDqafyfZeCUEMAW8wJ4TI8GajFdilctarE0oaXaqVFa-EiZ-oTE--Up-xtALpvHx2SOVqvSINlasQGFuOKJjhUVGz3BarPP6i1Ox0OxCUcjEImqQ01bGUJyTgL38qXY3r9vg"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/786b736ff4.mp4?token=Cg7WLM9bCwu3j_kZaaGRSZL1eJ3a2-zry90vhpZdou20PNFPhjmIIw-nSuyx-sM-6mzm3-6P-nY-CS31clYOR_JuQK-JnsB1q2h6ARCgMZ91kupX0Js96YwW7R636wbHYAwLRVRfnho90dd47jNYOhvPWirFk-QX2I9bDzTjdoYTSjOaDPv_OVI0HRfkdPc0AKeSoxOTk4GYpUmO7v7Pq413neWM7QadSCFqqXsvzvh1qmt35W8e_RsW5AVVtZJov7miem7rwLioQcSYUHW63SbUSsYPOJT_4kQCslWrpfsoTgwsSmLA7LiwQY2g0h33P7tiJGhWAqW_61xx5AS6opKZxLYEFPH5Y81HIQLjjXkrUhrc6gx4Iniky8BdUjRgzP9omJctUxrKsh3HewjN14T07sz85UHfqwtfn03T26kNpVlSaQQIagaHpni0PGynTS9kTZtzlPnFKvLSFd3SVEomdTudQT8A4H6IBN1k1TCitmaM685f9LuOY_ANG8EHmWRA1XmHZceS6wXNOidD5HWl1fbF6tlFsxPZZoDQmwF_B3eKnNjL2equsXDEZwhdISJoaBUguex40hDDOPAZSxYqq_6VIzAvAdQFGr02xR6u0rA1KitEwoaNLebmI3aIhW1Aqxszbu36FqLQrR3LEAZvLSNZ_IDRQaOMBvqb5T8",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-04T02:14:23.400244+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump: Osiągnęliśmy różnice cenowe, posłuchajcie tego, 300, 400, 500, 600, a w niektórych przypadkach nawet 700 procent.",
+      "text_pl": "Trump: Osiągnęliśmy różnice cenowe, posłuchajcie tego, 300, 400, 500, 600, a w niektórych przypadkach nawet 700 procent.",
+      "archived_at": "2026-10-18T02:05:32.682319+00:00"
+    },
+    "97b959fb865fc453": {
+      "id": "97b959fb865fc453",
+      "timestamp": "2026-10-04T00:48:59+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump: This is our second term. Probably, you could say third term. We just don&#x27;t want the results of the second.",
+      "text": "Trump: This is our second term. Probably, you could say third term. We just don&#x27;t want the results of the second.",
+      "location_name": "Inne",
+      "lat": 47.8248,
+      "lon": 34.8476,
+      "url": "https://t.me/ClashReport/99532",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99532"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/gHUzcmOgbAA1jmRG3J5Sd-zsDMdmqOVSEqKtVCWOCIK1NdJc0SgTKZ4cBfA8ktsX-oiJ49dqq_Q_5-lmSSEvx8iJoq8OJ-d73xcCDCyjU5fB1tZKThf1h_g_zHOr5bke7Zfr_TjbaIPgyqetDmsgs9aa7rf2sef7MDHeGt64W1coJJdKAHlVu9B3JNpK1MBlWN1ZvRrK8eiF0DO3PGvy4-H_XgxgqrY2XalGW-b4SvvaEBBZOrH24LDH9TV5mOTEBQqWZ2sex-bPEmF_Qe-jF8OFnHLXET_2QMMdp_804pEp_TKsIoCKC0CWbXfwpmh5kY_ka8U6IgdNxI7s_425UA"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/f8fbb61166.mp4?token=azrZ4Rk4v3VsVDJoBcNoeNEDDZhdQTmcEyEOFswuvolKzJYn9Tox1eVjioZSl99pqscW3PuVV62mNa3lnv6GmLuu4VE146i3rQfy_1v0TvJrICJGeJ3CxVqopsfAG72oxEzxoxtikVhekQe-3w-_p2ZGBs2y6rPlHuuVVHl-hA80T9BYQAXUUE3FZpXL24WMJIaABeIlNM3NK153HD_v0vMXDCD7-HHcvIB5J3-sUlWXmT2oGKTn97OlKcOFqHcEwm5PQB78DkXicTenPwojdDhVhbDyAvlhihv78cnoFNoK0aNftqmnYi_N3liNoADVlrdX7BabprEtLGub7mJSzA",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-04T02:14:23.400246+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump: To nasza druga kadencja. Prawdopodobnie można powiedzieć trzeci termin. Po prostu nie chcemy wyników drugiego spotkania.",
+      "text_pl": "Trump: To nasza druga kadencja. Prawdopodobnie można powiedzieć trzeci termin. Po prostu nie chcemy wyników drugiego spotkania.",
+      "archived_at": "2026-10-18T02:05:32.682319+00:00"
+    },
+    "f9ae839ed65dc616": {
+      "id": "f9ae839ed65dc616",
+      "timestamp": "2026-10-04T00:40:36+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🛵 Чернігів: БпЛА в напрямку міста зі сходу",
+      "text": "🛵 Чернігів: БпЛА в напрямку міста зі сходу",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.9844,
+      "lon": 35.2934,
+      "url": "https://t.me/kpszsu/82646",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82646"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-04T02:14:23.400091+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🛵 Czernihów: BpLA w kierunku miasta od wschodu",
+      "text_pl": "🛵 Czernihów: BpLA w kierunku miasta od wschodu",
+      "archived_at": "2026-10-18T02:05:32.682319+00:00"
+    },
+    "9189113de30cb570": {
+      "id": "9189113de30cb570",
+      "timestamp": "2026-10-04T00:38:06+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump: I know more about everything than anybody in this room, anybody anywhere in the world. Well, there&#x27;s a woman sitt...",
+      "text": "Trump: I know more about everything than anybody in this room, anybody anywhere in the world. Well, there&#x27;s a woman sitting right over there. She&#x27;s a housewife, but she&#x27;s very good. She&#x27;s got a natural instinct for business. She perhaps knows more than I do, but I actually don&#x27;t think so.",
+      "location_name": "Inne",
+      "lat": 48.0516,
+      "lon": 35.0288,
+      "url": "https://t.me/ClashReport/99531",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99531"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/ni4OJ0jdFoBCpMxynNmG0Jfulh9cPyzqwRSgW47JJg44Ofx3rU4rUgalCL5E-bdbp3ws1geAdLLZMwyHCvkBGbPF8baX55TnbtRmO6l7wxGz3pwn-WrnqYkHhTFdVOIqu4cNu4wLFtNRvZvX98J5NqZqpFZzVy8879p-BycRjtg0d1h82q92NeyTRPW_KivaO69x7hfVA-gVeHbkpvfYCA-4uBMVVeCYCeJ7h0NIsZBBwUyqBjSfRiMysFdxwnXPIOGltc1vpPbIgGT2oaLF4yvM-2cDPHBzhYO4HWBjhaY68WOvpIjAfTyM-KEFbCotXmFXF1ufKy0zC8S6qEtSBg"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/260af5541e.mp4?token=fn1gToa-90tb773dz9MdiuVC_2t2eYwgKKfU5u4aHQYJnIbK_nZXdAERfgYI0CJIymdjt0HG2QrSbHUCi8xCpZV3LHSb9cKBsYpqxAz5v00QEx_5kZBgXzhhjYOleSh0VG60CQfGZbCvrq07qhbpYKWtDQX-aB8p_LCyDM5ZzbCKKrytpxC8GxY8GMTze0iJcFDdczvxOK4B8pA0wq_e4RHRf6j7N1qSAGJEHe-deY-GocXrkZNOe10OHAO6KovlQiUmxZJtfyV7GJ5j2IsqQlUjDUdoGr5i5epg5gwneJcI4AZqwGhSE952SZazEtwH7o-9qJM7UMvcNjHBgJWVILflKdYMWKaYkdqlP-y5jyd2-Tg_ZbulJL8bbOSrCWLT2eg1eNrW_tu07vmRRa64Sjo69ce0i70WF6sWP9L4Ee9dvqX0ouTITCX0kdeGIOUooViDbUnOWsaMPhpkIrniqkYXH7GMqjaB9_L-_KfWf2lrdKGNET77ccA2bg3-YN3whHkR08HzbsoWHR1X3aNgR5tfW18WQJBa2JE-HPbjxJfCbVbLADHNOE1_JBn6Bc3At6ZOru0DRdpxNMCr5JrIHgDc8xYqDkEvzwYy9eJeh1p18steOfhVXOAjXfl5KS9YehHf3qUdEEaWpqGX1Q-cN9XlNHFNNgTycDS3H4UjSXk",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-04T02:14:23.400248+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump: Wiem o wszystkim więcej niż ktokolwiek na tej sali i ktokolwiek gdziekolwiek na świecie. Cóż, siedzi tam kobieta...",
+      "text_pl": "Trump: Wiem o wszystkim więcej niż ktokolwiek na tej sali i ktokolwiek gdziekolwiek na świecie. Cóż, tam siedzi kobieta. Jest gospodynią domową, ale jest bardzo dobra. Ma naturalny instynkt do biznesu. Być może wie więcej niż ja, ale tak naprawdę nie sądzę.",
+      "archived_at": "2026-10-18T02:05:32.682319+00:00"
+    },
+    "7889df39c54de58d": {
+      "id": "7889df39c54de58d",
+      "timestamp": "2026-10-04T00:31:52+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump: I&#x27;m a high-IQ person, among the highest IQs anywhere in the world.",
+      "text": "Trump: I&#x27;m a high-IQ person, among the highest IQs anywhere in the world.",
+      "location_name": "Inne",
+      "lat": 48.0692,
+      "lon": 34.9664,
+      "url": "https://t.me/ClashReport/99530",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99530"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/VOG2K6SheVpzuDyoDJVtgCs5bCTlUHu5tyEu-mAdgSgDv8e701o54LLmW8kGoFDYnOoOXqFA_FsHOTQEpDDUJ8mkgLwWy-7i3rcHObn1n6m3UlZmh5iAGSpWj_4g5009P0FHRl3-aHJiVQGqpim5WHANHe_b5on-Cg4OO3MBiOjhoQ_VBFWqaksXGmdWD5JIMUFgkUJzCgv3ssfCTLpGRCFfr1wVuCc_4Pa0gb4nGeJVdcM-h4MkaIH5-U3i1lxznDCx0emfEnUenyqpe4KO89toKku575m8I4fFD8-luZpZ4B46MpVmQLT3f9lDao6Axi6DxLBIsQl0l0RZ4s3nGg"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/02f94d60ef.mp4?token=Hf_Tvfc2OYk6bh4CW_nBf1XXm_09a7CkYDPCKo739QJFSV0jOXai36qglrB9gQtTSIVDJg4vUH9gUqsevV4vD-s9WZD40WnpLVzQ0vjSjKpX3mZeHTQDVPRySVv3yaX0deznik4xFoiSupgViGXbLfYBllUoL-83QDnIc1ugpaPqs-T5FhyhYhP_2xrV0Y0chvRhRmTRA87mj177ctEJxiG8O4idSKUBcwJYMo7gXufe01FUBbGVY0_uOAk5h04LYVhiEEwqV9eHXlN1-xGwaN4vZDkCMA4OOYAutACrcRJdI0JwTeg7tNwAUznnGx8GqiX5pLpbQoVt9KjG6om7Koi-rc8JTn60jg3WQw8tSra5FJxajnlRbgTcvWPed9A7hoA88mFEYCu96vjiXAEZIAWkQueE-1qfgrnZIiKZoOLSGAUdxqESUh_wv6CWr27chfsCsgVoKSxYSAmHOwd9qM7iqlPdgl1WkxUyV4FV1b61Q8iTvryYmw13wykAZmAL84M8Ol7JirvcyAAKeOKp5D_ZEhqwoY_cuXrmIQkPFgzhCGz6UMwuTUnj_s4PDZe4dZ6NOvNp-dJRftmQqnzb8PDbBsTnn49KDphInnbCV3xZTrl6vLoFMz2QYxq3AZWfks8FtguR1kxPhFOt7Z_JSDXnBAlnUdZaDVx7DBCB7MQ",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-04T02:14:23.400250+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump: Mam wysoki IQ, jeden z najwyższych na świecie.",
+      "text_pl": "Trump: Mam wysoki IQ, jeden z najwyższych na świecie.",
+      "archived_at": "2026-10-18T02:05:32.682319+00:00"
+    },
+    "c57d87bfb421e46b": {
+      "id": "c57d87bfb421e46b",
+      "timestamp": "2026-10-04T00:30:22+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump: If the Republicans win, you will each have $5,000 in your pocket.",
+      "text": "Trump: If the Republicans win, you will each have $5,000 in your pocket.",
+      "location_name": "Inne",
+      "lat": 47.8768,
+      "lon": 35.2766,
+      "url": "https://t.me/ClashReport/99529",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99529"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/Wbgj1KfZqgnEzuQ8GGPWAsKyIZUYxploPikGzM-YCqde2XyySPjMYESC4YIp7B9tPp61ggodhRBIvEcgT7xxNw0B6QgYeJEnNPmR9qWOTIBqmKTToOH82gdeB-ZC_HNfbif0w6SGrIrbRiTz2V7kyFjWE1vSDVbsyyts6ohTf4BXsnz1J2Wl_iqs6BmDySFmD-A08IRx372bgr1s78HOvrPMV2POz96YYxntYGRDYA0x9eWomw1-qGH5tDorfCcg3xncDgre6wE_l6m1rePH9kclAoAysHohuNwffhCd8yvGQOJNaYaxREC2mMx4mLVt9e8Tgh0nF_Y4aoGE6Zfsyw"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/1c608b722f.mp4?token=foE5EN9gA0YXD6IMJ1ERDw54OpHp5IFeiOj0TZVs0rE1c7H857m4JHfwoidvdy4U7szlVVI0HbDzgdxTZiN_CxqQcRvrWEMBj94XtLFYd1NK4fVeMzi36G7NZDrhdTM6HSRldzgMrCS7UGnL5WObKiQ1y_DEw6w57SlaMV-akuJvgXxLGK579-FfPTFxmcxvp3GKm8YOqrbcGK6r7PCNq0v_4Jw1wO9yaNk1O6EnK6Rm64YBQWADwlhl3UNUmYgiXML_6skiqYeBXut1fCnwxqNwRDIbt8Ug8O8dih8euKQy9S2fU-mA1yLVJ_wqbkx-87jg3tYaotwqQyXz-ae5Gj5ehvTbTY-_1UpToRUoyXLKSZ4tndfCIzJukDJB061B6h6wmQ2mRPE8px5nglMzkBIYA8dzU2ymCwC97nHQzkAAzUMwqymxEMJxt_vGh8OdLL65TjcNiYazhVffnwt6AJyGnjRV7bnWxEDy5cL1hCId-E5JSFiEyjVXLZJkLDGgYW4zdK1GD87PY4bRm_wJgQNhFizWVqGf8rM_eh_E28sD0o_7kU2dzlZxv2HipNhtKqLRHZzCIOJn4RETvvdLbNeeHGNMM15glJ-xtHqza-vQV_4jEZ-EVOGBC4IflwRkLfH6oAjT7rzo7ruRf3nY08cQ1YNPhPZWOEJ1HGLf12g",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-04T02:14:23.400253+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump: Jeśli Republikanie wygrają, każdy z was będzie miał w kieszeni po 5000 dolarów.",
+      "text_pl": "Trump: Jeśli Republikanie wygrają, każdy z was będzie miał w kieszeni po 5000 dolarów.",
+      "archived_at": "2026-10-18T02:05:32.682319+00:00"
+    },
+    "c0ee82b3c3b2295d": {
+      "id": "c0ee82b3c3b2295d",
+      "timestamp": "2026-10-04T00:29:28+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump: If the Democrats win, you will end up in a 1929-style economic depression. We will have a disaster on our hands.",
+      "text": "Trump: If the Democrats win, you will end up in a 1929-style economic depression. We will have a disaster on our hands.",
+      "location_name": "Inne",
+      "lat": 47.9088,
+      "lon": 34.9256,
+      "url": "https://t.me/ClashReport/99528",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99528"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/qpPeeGIGBxDUw7RKIV_9Os_i-Pdfepu1fi-I9nw9T0unahqs8DVrk9d4yq6BGtQ7pllmgAp7mJtMNNTNI7V_T6IS-rgOMPwQhK_9TsBrFqxKSlsBC6EO4AbKQsB3Llu5boy1eOr1yaYdBDOWs3BtHvYUDb4DuPxTy5B2lujR7o3R6dzyZSwOZdvWlpNn2Eg_O7k1x2_p0oTl2r411A6v3oMGdlZeciuPVx-fUcAl1ddVFXi__aWbJuGvveiDZ_kK61FI-Z-XAGVZVHZXorDvIarB6hmQ9qeXOeenWeebNeyX5ioGJMCuNjDtl2Js9kIK7xQ_40I8feEEtfPkKp2m-w"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/f329de0851.mp4?token=AeVM7H0cJCJ2_WvlluAJrLp3kOVI2FJ-XUyXMzjdxwiFYxLgVsaDdYJvq9aDZgf47HDSEnCS1fGym1KrkV4Z-ajFsFk8fZUDPDUXtDy9kMOL_Jm-Md26KXAy_nLi8DV8EwabjQeroMV2xPwAiT3a0BUOKhdFVXXPqj2hH-5AV7CgHJY0El5BYi-Ine_rW5KEUgzUWdqEvuWoW-Qm2eFtJoZSogSGHFfhK9ajawABcWUYtBzDWVanOPZWLxwPjSmCf37izop0G-9ZufqpCjo9ZlmALoac5RYj9c54cllrzZ4enwMM3NeL-vKKDE7pnFrQkrupv2u__r2THHIwWP40OQ",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-04T02:14:23.400255+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump: Jeśli Demokraci wygrają, pogrążysz się w depresji gospodarczej w stylu 1929 roku. Będziemy mieć katastrofę na rękach.",
+      "text_pl": "Trump: Jeśli Demokraci wygrają, pogrążysz się w depresji gospodarczej w stylu 1929 roku. Będziemy mieć katastrofę na rękach.",
+      "archived_at": "2026-10-18T02:05:32.682319+00:00"
+    },
+    "d9c73c38c354577c": {
+      "id": "d9c73c38c354577c",
+      "timestamp": "2026-10-04T00:29:22+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Eksplozja / Detonacja",
+      "tactical_icon": "💥",
+      "title": "Более 30 мощных взрывов прогремело в Киеве. ВС РФ атаковали город дронами «Герань». Под ударом находилась самая мощная т...",
+      "text": "Более 30 мощных взрывов прогремело в Киеве. ВС РФ атаковали город дронами «Герань». Под ударом находилась самая мощная теплоэлектроцентраль Украины. По данным SHOT, сирена воздушной опасности и взрывы в Киеве гремели около двух часов. Всего было слышно более 30 взрывов в разных частях города. В Деснянском районе в результате атаки «Гераней» возник пожар на территории нежилого здания. Предварительно, под ударом находилась самая мощная теплоэлектроцентраль Украины ТЭЦ-6. ☺ Подписаться на SHOT: MAX , Telegram",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/shot_shot/100720",
+      "tactical_sources": [
+        {
+          "name": "Shot",
+          "url": "https://t.me/shot_shot/100720"
+        },
+        {
+          "name": "max.ru",
+          "url": "https://max.ru/shot"
+        },
+        {
+          "name": "Shot",
+          "url": "https://t.me/shot_shot"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/M8c3TrenzT-S9fasL87gOhaZ8Tzq9hP1G4P8o-edAjsoogWoFJB_HRt9herizs7kSbnHGsVLsFKFKOrDCWACEAEGCpOOSBMZWtKdARwvTYp5f4sh2Z4UDzpvuKd_Va9q1EivPBNVU5u1XGBwsuk4AcVduXGP9P8V5a2VOmSj_zqDAcI7n_x-OJAEIKus2jBFXNIX5cBLMoyPoTumnXc6UM34l6QSItntt631P7F3GG9eev-kT5-u0EqP-AAQmZBTFIxv5vRoun3eG0uTx2Vy8OMvfzBW7Opq4hkwUtfCn3CXtAa7ykR-ZDsaZ2JWL12oC7EuA8zIh_L-aAt8bmmeRg"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/9a7a59a2bf.mp4?token=MD-dVvK1VIOc-liQGKLoa6IZXe6LBsBlVxfAURL-Tu274FqTdn2SkuPfQJuyT2orGXmNRHAI5CStPhiw2-JnWoiO4OmRU658tl3eeveJ_Osq-gMYDiO0M2TWP9c7xTJCQAYzKdvQ7PrSYb8yY-1T4ObmftHWG_y55YvunkHPfOdcjYqaD7OAPEu22m3JcuN_NdXH23lYvDVhK0XWVTg89gZhvaz1SEAkj_sDNZulvh6LIL_ZyqlmSDhZR3JNl_2a1bsozWzQSbeUk4MPKmDzAvTvgNO8U-vGwekloBFJSIhwL7eecDYV19S-Dqm8FtUhCDyiebW_B0rXNJqFP8oMOg",
+      "is_video": true,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": true,
+      "threat_score": 5,
+      "source_channel": "shot_shot",
+      "added_at": "2026-10-04T02:14:23.400175+00:00",
+      "verified_by_sources": [
+        "rybar",
+        "astrapress",
+        "clashreport",
+        "kpszsu",
+        "shot_shot",
+        "war_monitor"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "W Kijowie doszło do ponad 30 potężnych eksplozji. Rosyjskie Siły Zbrojne zaatakowały miasto dronami Geranium. Najpotężniejszy...",
+      "text_pl": "W Kijowie doszło do ponad 30 potężnych eksplozji. Rosyjskie Siły Zbrojne zaatakowały miasto dronami Geranium. Zaatakowano najpotężniejszą elektrownię cieplną na Ukrainie. Według SHOT, w Kijowie przez około dwie godziny słychać było syreny alarmowe i eksplozje. W sumie w różnych częściach miasta słychać było ponad 30 eksplozji. W dzielnicy Desnyansky w wyniku ataku Geranium na terenie budynku niemieszkalnego wybuchł pożar. Wcześniej zaatakowano najpotężniejszą elektrociepłownię na Ukrainie, CHPP-6. ☺ Subskrybuj SHOT: MAX, Telegram",
+      "archived_at": "2026-10-18T02:05:32.682319+00:00"
+    },
+    "686e3a55dddb09f9": {
+      "id": "686e3a55dddb09f9",
+      "timestamp": "2026-10-04T00:27:42+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Komunikat / Dyplomacja",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump on climate change: Remember that hoax, the global warming hoax? But the problem was, the ice caps have gotten bigg...",
+      "text": "Trump on climate change: Remember that hoax, the global warming hoax? But the problem was, the ice caps have gotten bigger instead of smaller. They got bigger. They were getting a little bit smaller. Everybody said, &quot;Oh, we&#x27;re going to be dead. We&#x27;re going to be dead.&quot; I think it was AOC, who knows nothing about climate.",
+      "location_name": "Inne",
+      "lat": 47.942,
+      "lon": 35.0756,
+      "url": "https://t.me/ClashReport/99527",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99527"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/H-j6N6OK4YJtnFWlS-fT1FJeDVndKh-rel3boZ9hI0D-ePZJijzUGjUfEi2x189calGd3ho_p0fU9UkX3XXXviAZN-lGhCwrHzADG810Wc_gJ7Z1w0k4NHWC05pIJCnRSm1h7FZvE8ZTEWVkAbqLGBDejicdM_tyueEwOYSHMct10GXtAVznbqX-ix0xQxeu-FUpdWsUkak3hVJULz8GjXSF2I8NMKjgP6gnEFv77sz6BBxsyQB04yj3scKkbsSEITAlY_l3b3UITxv-BZwvrhTdIG4FkMknISRh13E1iOAM66qtK02Nbm5xUVddVyV5oBvQ4WoZLo8ZPd6kv2FZfw"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/4ac46d0e8a.mp4?token=oJ-thqbgQb0RvlpMV_YfOTlaWSYvQGEnBG7z1ZjRV31-tE6G5CTyzbRgkrtWCx1yxfUoLkzIi_dQsypNnbfQK_g4q4rzAsjr39mVugLIDgemhEB7fW41GrGqM_wNVcElNV5qh2SF4G7i2LCTUyilc5s9sBk384vfU405JR4irubSwgyPSFWVxOqlVO41HfsvNWFdh3WZBeHog-jjJGJ7TTODLxsQHFh_1OP4OP_Hz8e_bPYAOjjyzvJ0FJYENhU8zz-G6tarGlXJhKp7w40ciS4xvCJUMSZ6eeebugy9vCbQDAOIUJLtQAcmOr9X7bXvcVPJwDSpphQR4Vr1c2w6WxCkAypPWZB6I8vv3efRxvlkdXU_k6BYPdThzphMtpFcCFgU3pa-2k9ngOHk8skxO7GkYBhDwdt8yJdzwISmGXCWG_E0HIyLf0RjASEE2f5_sKK3_GYayb2ndBQiRNh01gxBGi5c2bGUhJ_HRmiW_ueznEsgucY3b_BwF9ODE1GTiJL31of64DFqP26CZdejTRers8qPLuYqS5bhz7vKloVDrf28HbNB-u3bX4Gh3C637EZppsxj7RAEQJOJyNBkwh5SBnBJXdkPUGW4WMyw3P_Iu_aZWilM316vkUDjFoF44-3uqRVr7QDcOT13I_6qc1KoLw0r7a-e0LDKH6HKCnk",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-04T02:14:23.400257+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump o zmianach klimatycznych: Pamiętacie to oszustwo, oszustwo dotyczące globalnego ocieplenia? Problem w tym, że czapy lodowe stały się coraz większe...",
+      "text_pl": "Trump o zmianach klimatycznych: Pamiętacie to oszustwo, oszustwo dotyczące globalnego ocieplenia? Problem polegał jednak na tym, że czapy lodowe zamiast się zmniejszać, stały się większe. Stały się większe. Robiły się trochę mniejsze. Wszyscy mówili: „Och, będziemy martwi. Będziemy martwi”. Myślę, że był to AOC, który nie ma pojęcia o klimacie.",
+      "archived_at": "2026-10-18T02:05:32.682319+00:00"
+    },
+    "6edf3f292efe4779": {
+      "id": "6edf3f292efe4779",
+      "timestamp": "2026-10-04T00:23:56+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump: Artificial is fake, like the press is artificial.",
+      "text": "Trump: Artificial is fake, like the press is artificial.",
+      "location_name": "Inne",
+      "lat": 48.1164,
+      "lon": 34.7996,
+      "url": "https://t.me/ClashReport/99526",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99526"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/Tcu2TsxSHOBhRzeElPtdI3z-gnR0c08YfOoEt587rhy0PfKSTqx4NlLRE-PgaAkFWXZj2TVJC68k46bn7nnl9-anmrA-kwvka2-7phbjFJqhp5LOQGblDKx2chdhC-_YYuxd4YCeoBLNbcRfoRFb3A9U1g1dgkeJoKAVdxprINKgwchdU1GQG4twfFpGshyyxxshuJ6Jw0TwqHQD1RQ2-Pw65arwL27fp1c9lmpFs2RNZqBuAUYumR7-ka_A9JrsKn7PBQVsvdzGbtvnw0xSmYLPFmoYErVsZfp_jGjjc4JV1_XcGDS6zLd3TyLTUERLVrWhFGmsQP_qgxsq2bP5pA"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/288b69d314.mp4?token=P3cHeh1bKaS8omlt2qN4b7ZE20t7QjCJV4B4ZragAefSVK9U4rvj2gww7WcjQWOo5EIkm3tjaIjY35VyTPCbqyqgT8n83bKx_TOnqisftkblNoM45P6ponCFlTqovaDQ7oAPtb4diGe5cxoEwZByPJ6Wzi6fbdgf1yEL4-5O62JbUT2dzZQL0EbWC2TBfwu9JZCnasgXazaOMnJMrgM89QBh31D8tai14f9PZrKCNGdsXXIxoUXJIIG5GDfbhJSDA1FXkW6Q0-4LAdrwIBCCIasajntMYlT_7RvCRSG5KIcNHRPg9ogGw0NlZEX2fSTJjF5YyV0ncOv0GVDN16_d2Q",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-04T02:14:23.400259+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump: Sztuczne jest fałszywe, tak jak prasa jest sztuczna.",
+      "text_pl": "Trump: Sztuczne jest fałszywe, tak jak prasa jest sztuczna.",
+      "archived_at": "2026-10-18T02:05:32.682319+00:00"
+    },
+    "5d9e8663b7626b88": {
+      "id": "5d9e8663b7626b88",
+      "timestamp": "2026-10-04T00:22:48+00:00",
+      "country": "Iran",
+      "flag": "🇮🇷",
+      "theater": "Bliski Wschód (Zatoka Perska)",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Uderzenie Balistyczne / Rakieta",
+      "tactical_icon": "🚀",
+      "title": "Trump on North Korea: I get along great with Kim Jong Un of North Korea. When people have 112 nuclear missiles, it&#x27;s nic...",
+      "text": "Trump on North Korea: I get along great with Kim Jong Un of North Korea. When people have 112 nuclear missiles, it&#x27;s nice to get along. But here&#x27;s the difference: Iran will never have a nuclear missile.",
+      "location_name": "Bliski Wschód (Zatoka Perska)",
+      "lat": 48.0696,
+      "lon": 35.0756,
+      "url": "https://t.me/ClashReport/99525",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99525"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/IImk8IjfYmF8g5vCniHYrOZ0rxEFjiNCPmXnkyte_L3lPlWFRivctzwoIU_o_ogVLwSLl-EMCV0GR_A4WYCZgY-Yd8VZPyoffVNsDevYQ9ut2pmIJetLFZmEIF6xnIuSKky7p7tF0P3E4B0vlzK-LEmb4MI2yzOsT3kw27uRiA-LMz3HPU8BJFcFV8bEp-0FIsVplLGDVkG2tpGcztD9pae1ucs6WDuue6fiLUHtm06kTVxIu31Tbx7zca0beAtr_QVfhQz-Ig_n49gd0S2MYXQFdH6Zt1pg7tta4n9J5zb6sj8tjWeG917wtwgsxso2Qw42PONLFJkwHiVMTYL6Mw"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/8df9b5fe5a.mp4?token=cOXFeXICFCUSKI-R4sL7hhbWHyV1QFdaWBXUC3tdSAbhqx0CJOp0tJ5RDQoElK1T1OW28pGAl4E0-7uMYp0OaEBV1le5DKwBidqqLRmvUl01kid-FU-j1ajxfwQN9MG7QwdHtvqFSJa1LbdiDyw91uxAI8sCwZGgrUYbkX24WmIJd4ERIR1iVok9W7G5Sv7gLVvaxNdG2kIkxfNhduiHXHk6eIXJc758oY4Jg-mnqAerTNY2kmsNLplhlqu7yQ-U43qIsmpAoAoaQrMsrNFpmYlmdTs2a9SkOibo2JpVJPtpVNQNi27daNwsTQBd64kGg4N3m8nVIZajXF2PW8FTDw",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-04T02:14:23.400261+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump o Korei Północnej: Świetnie dogaduję się z Kim Dzong Unem z Korei Północnej. Kiedy ludzie mają 112 rakiet nuklearnych, to nic...",
+      "text_pl": "Trump o Korei Północnej: Świetnie dogaduję się z Kim Dzong Unem z Korei Północnej. Kiedy ludzie mają 112 rakiet nuklearnych, miło jest się dogadywać. Ale tutaj jest różnica: Iran nigdy nie będzie miał rakiety nuklearnej.",
+      "archived_at": "2026-10-18T02:05:32.682319+00:00"
+    },
+    "5ed992bc100793c0": {
+      "id": "5ed992bc100793c0",
+      "timestamp": "2026-10-04T00:21:03+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Komunikat / Dyplomacja",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump: Xi got off the plane, and he said, &quot;Boy, have you done a job. Wow!&quot; They can&#x27;t believe it.",
+      "text": "Trump: Xi got off the plane, and he said, &quot;Boy, have you done a job. Wow!&quot; They can&#x27;t believe it.",
+      "location_name": "Inne",
+      "lat": 47.9004,
+      "lon": 34.835,
+      "url": "https://t.me/ClashReport/99524",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99524"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/FsvnY7BN4VU_8lBcJ-UN87A78iXhF3rhSwhUV0Z2TOiCRKzyeb4vh76iaGN76sqqhKocWlyCcp3vVkxVBX3IdAu0YS66puaPqBawQq-BcWCxmJ5mPzmj0kaInPng2nFsr8VHmay6qxYQT3NtvV_edLqxiNu0Agijo5yanzR5i11lNxdPPJrVia8A6FyGfu5QiGhzKWP17D9LqhDv5UqSGVzIpBO36uD-iYz8YuzODAPUrc7lnj4i6isvrtZs4ouoLHX4bxQPkPORYJo9jf-u8GIflCF7-IT3ksbzzwvEH1OVp_l3Vp6nhFfM4SBmN4FG4xMg4_uYq2iRtH9r4KHfRQ"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/64886f29a4.mp4?token=YEEH1pEo3lzgw7DuKXzt3VspqP_tswmJhmysAouCWeZmyKIyM0xC96B0QQuxS_FM5P3RnrH-V8KvsyqSJhhbGE5sqdQSnLJuT8BV6416E-X0tOmJx3KAfgVanQl11W1LTZQbSpmzL0m82BEoEHuCyHJT2KAgJpjQqxsNMgIAYrKSLLi9nm_BA8AbNNMdPsOlPDJmXMyL2DgXJNdUEb5KBqcl_KU-wuPYcpCwMQ2ECrQTuHXwK90AMbJsmq8uddQw8mlwav9bsSjg4LI8sqvnORetNQ_IgSsHoFDYRtf3GCKz1Fqv1tfCjfEkNCsu2XvgQM56-ywV2VJE9yXz3JCcow",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-04T02:14:23.400263+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump: Xi wysiadł z samolotu i powiedział: „Chłopcze, wykonałeś robotę. Wow!” Nie mogą w to uwierzyć.",
+      "text_pl": "Trump: Xi wysiadł z samolotu i powiedział: „Chłopcze, wykonałeś robotę. Wow!” Nie mogą w to uwierzyć.",
+      "archived_at": "2026-10-18T02:05:32.682319+00:00"
+    },
+    "e459b785903b602e": {
+      "id": "e459b785903b602e",
+      "timestamp": "2026-10-04T00:19:48+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Komunikat / Dyplomacja",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump: Somebody said, &quot;Why is he being nice to Xi?&quot; Isn&#x27;t it nice to get along with the leaders of massive nuclear natio...",
+      "text": "Trump: Somebody said, &quot;Why is he being nice to Xi?&quot; Isn&#x27;t it nice to get along with the leaders of massive nuclear nations?",
+      "location_name": "Inne",
+      "lat": 48.0936,
+      "lon": 34.9982,
+      "url": "https://t.me/ClashReport/99523",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99523"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/rOi9S_6PUIWw44K6PupgP09psOKNFjU79jEL-BeGtrC_rUH4STHHa_BMq3eZZ-vz7R6yZiBZRuQCYxSfvjLudRlZlMZffFzwdrmYqmlo5zF-nKI8IRiqBOvSvs_PhdZSZ1pttgG8s-YFpqsjAShCQXpS7HlnXO2KO7L6G9h5XPd6lp17EGeVoxL8cmTcBoEo5WKvTa8UObosrK6tke6IZeMHhQy4lY1xwPtS9PjATBqbpnSZ-MRwOVYARnqL2vFgKZa7TEni74EL7ow-R9oiYtqUkxXwpC7ju9yhoh8KWe7JnKJWzJy3FXCgTCvqnHmXL_bn0WqC0-3Y7Koxc1kK1g"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/872a74a295.mp4?token=BbE5Ok91OgcvWYXGqrCOI48p26EoJrVm8LxTFGv6-W34ptzTi8D557DbWP4Qw5Npk3pk5GvD9Rm0kKYbvrBQ4GpmIgxq6QOtbn-micb5E6ZeIBVUUeofNOkePe1SbO9H7i99vRZ78zDoifOMALL6tN-kSiECY7ZO2nyETyfikeCl46Eiq3PMR28yQL9aHXEwEp1lhtkyZ9nMuMaaOVsfqHHIVvv3zUSGdMDTbiwakQTqmhIbKvgSjGGzrAfGYSpLT4WqlKuLjhkigD627jQjR081JUE8zELnkIf6CpzwTKrwrcz_-F8C-B9lnaKOjLNrgaliucRD1kg07ww1WWY9xzzoLYYGMqknLXWitR9ENcuYlvuH2_duRcW1gSNrDutwJRiNb4oohoOr2QiJZhWoYyGpijaw_6z9cGAq5qraeb67jIHbQJRGf3qFSIx1nXYKlYBH2IGEFbmyeDQT784STQ5YPI-eEt4U2NpNTzs5qqOhyJVQlX8AwFaoOXyE8JMF1U5N6F2kgYRk9lSL-fG7i4rS94h3rQJ8XKuOf9GXGF6tJT-wZRWgCS1AQJnzDxJQ0sz9GR52DM9Ho7mOsVJxsH0JrprSkZ-jLGCuNWz4izHcr0djjMAgjRxHVogYUkwXcmv5R27x7EdgEMGthHOr_gJwSqXM3BRMKCcD7HrBjy0",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-04T02:14:23.400265+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump: Ktoś powiedział: „Dlaczego jest miły dla Xi?” Czy nie jest miło dogadywać się z przywódcami ogromnego narodu nuklearnego...",
+      "text_pl": "Trump: Ktoś powiedział: „Dlaczego jest miły dla Xi?” Czy nie jest miło dogadywać się z przywódcami masowych narodów nuklearnych?",
+      "archived_at": "2026-10-18T02:05:32.682319+00:00"
+    },
+    "c5833b130a8e83a3": {
+      "id": "c5833b130a8e83a3",
+      "timestamp": "2026-10-04T00:18:29+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump: We have almost no inflation, by the way.",
+      "text": "Trump: We have almost no inflation, by the way.",
+      "location_name": "Inne",
+      "lat": 47.8152,
+      "lon": 34.8782,
+      "url": "https://t.me/ClashReport/99522",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99522"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/PmeP0lPaDYrZeYSuzmhfKsqWNPxc0LTP1aozpcX__qbCr8ZmkhgHSaEDRnk7lF8Ef-QwDQCDasuRaGgv-tcbpCz5EVAHDnpICzvxUeiJTs0oakZh0zucGAtf49gRlnz1mc-UgCXF_S39OKogWnUmbDAK5LcCARmGcY6I5CFHMASWmVWnnyVjirCr5iij1GnGvOwy6-qJTOJUHTMqP1rgPmQFqaf9IMvr6__95KIbhM4xMvqj7seL5H0hrJf3AIsvFHzIw2cQM3a1n930aZHBzeXapvcc4zZ1FQKUrUJ9YpTWqiv9cD2pc6SzFov0ttzMcXehFxYT5mxG9F6yBc3NRQ"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/df1d6218c0.mp4?token=BROlnwlEYy6o9ewf3bgwRWF_6IcKCRyILLDT311eX5IGZ-tMMJpR66CmHdXzBqo6FP91qT9Q39HADlh6ZIT8DOyvh-R3I3tTpaTA208cgjzJBQJudNonHCeZcvdChFP7YuS5rO5P7i1Jqiwvz11XIlhyQlpUy8oAUE7vuw3kJ2ZIy7v2HvxaoUBH8kAaWXmbZcWuNf9gDhH5uhc3fFNFVhUmf_AY_edy11rrmhAftuGR97FFYaKofjN8I5ejw7eGWAaom08hF8pv7V_Cc9Ver8jUJQLGEjfjXpLhTKPorW1C0X8UaImyUhv9U-_uy40WdzS6cmRBy94Qhe-hP8zNHJanj_AVyYWdKk-N10kShF2hSfubKQNvYdAjy0b93SqWE4j9fhwioGvqyIKcMAqKPBxGaB_A2Mn9YFhBmjyIfSjOsnixdKNBpRGLNtgXEMCxMYDFarqOvvE4lAeK7hWaDMZfDJ9avpaLoVpnURis_F5wzDKsHoji3Ur9RTI58rv8KMfxdoBwiVUvKKQu6bv1RQzQ6CPpNd6tOw3J0hJ-wemGuT6LeQPJ7eOXrokvI7-Uy1mXUAALtY3IqEXVWuXQH6v5Ga1jMP_Ts561Az0A4eYpmw_F3jIsaz35n2IrPU6s1c_13ACQYvOrydIYFucqQeVPd-f0czwGYY5b9FuA1xY",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-04T02:14:23.400267+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump: Swoją drogą, inflacji prawie nie mamy.",
+      "text_pl": "Trump: Swoją drogą, inflacji prawie nie mamy.",
+      "archived_at": "2026-10-18T02:05:32.682319+00:00"
+    },
+    "4049dfa477a03518": {
+      "id": "4049dfa477a03518",
+      "timestamp": "2026-10-04T00:13:47+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump: Europe wants to copy us. Everybody wants to copy us.",
+      "text": "Trump: Europe wants to copy us. Everybody wants to copy us.",
+      "location_name": "Inne",
+      "lat": 48.1276,
+      "lon": 35.1074,
+      "url": "https://t.me/ClashReport/99521",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99521"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/lKshmG4XS3NPGTDoSrv6zaR-SRQR3CIFCjSqLYJ3d4-N3KIAg4DInhou0b2gdTBAn2hcoonqJXRrVZBBlaZDfQSmQx4B3li0bTgapXGZ5aqL--w0qxlvv0sP8rO_Lgl4SDclYgNQhboipKfPD1ibtJVSr4UMmXEwdd9e8WJlnfRE4mFdOtVOJsZuXvCMVIUbfu1n1SkKK_mktBRx0lYj0LCBIdqOizO0xUFAmE9rSqho-uwZe8DUIVXoiv8EkSfQckdEu47s-zcN052rfjuOuVxgdr6FpuOdzqENXmX-uyso838afGONzcoOufqJQq0ay1NtV2fOpH5kkhdfzo4ekw"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/ae5e0e61f1.mp4?token=mCOogyIfuphZlY3b0hwcROXe68OVigboBTVq4V2I6T5UEeVLB2oXjJGbOJMl-myU2C6XnY_gozc8pRZ_qoBYPtU3fNsjz-haoBKD5BS5lTi5yQVqI-uLUSkthcyZz1YR4KgFXdTCEcY9ExLm1voes83CRbGCDpBipmsmlA_WRJd6IBqnxHm0ka5xgSz6Mz_6JNVejZJgrxA3qEw2B6IGciKeDbeTdbn-nDm-iZMzx4MOs4MHHURHJ2wBpubH2hlIVHVMgs70isyd6nChzalNnkKyr-DEBoHklt2uLe6ZMut4k4ATpM2ldLK4gQmXYZNvcfZ54QtyKi3CmgnqYeHj9Q",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-04T02:14:23.400269+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump: Europa chce nas naśladować. Każdy chce nas naśladować.",
+      "text_pl": "Trump: Europa chce nas naśladować. Każdy chce nas naśladować.",
+      "archived_at": "2026-10-18T02:05:32.682319+00:00"
+    },
+    "e078d105cf40e895": {
+      "id": "e078d105cf40e895",
+      "timestamp": "2026-10-04T00:11:57+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump: It&#x27;s too much winning. We&#x27;re winning too much. I can&#x27;t take it anymore.",
+      "text": "Trump: It&#x27;s too much winning. We&#x27;re winning too much. I can&#x27;t take it anymore.",
+      "location_name": "Inne",
+      "lat": 48.1088,
+      "lon": 35.2412,
+      "url": "https://t.me/ClashReport/99520",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99520"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/Ks1_sCAR7XriwOz4KJrjYeSsymlpGGcv-TWb2GUgRLY1qVIF9v8REmyi4bqfL9gsLE1OoGS61oWID_L6nkHtRu9Q8dhhogqDiAelFRbTt2gWVWNlt6fs6Xl3oQ4v6Dt3Q9qh7NaH6O0rT8KUnd43WigY_UNe2AfRi0syrWb6S18n46F8hHJu4Qvhy4AVyyIxV0VYw7a3aAX_tyTj0PBX0dN0wiwNvxiU-e-Ui5iugj9FbvYX0XtKDqML1GrVAbfn96qu5G6GjyfetgjrjF4hdKUT8FYsFfkLSqKvPydRRUerlySNDSoraIsDHwMRt4V3Fv1sw9k247aU8ychWQESIw"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/927804d2cc.mp4?token=j1IYeXnL8IrjRBiAwdQyhEUO9GzLZUI1OHEH3weaUagKj8Hj3FAy1-GI9NuS3Mt4dWcwFALjbiSPH8HgWxmvV2Wi8vVJpLopLnLpO0KPpl8dwVZi-PoDFK1YtdF414OLUbstlTR0defWiQfbBHmpZEgD7F_7PEmcNValHvjT-wV15a-oUSl_7HP4crKdWz-eOTaTaa_NjwFmcpJkKc78i7wy9s_4a5CIFGSnUrqNskusvQtDlMaYrms_YtsrLKrxIs8g8uk0n55Dl96LV8x79G8bghLRNeuiXK8ZA0x1QACKBqKnhvN4ghqO_fBppz2kWd1G0j23DO5ALe2b1jhAH2pF6bxwsyWxegvqOIHho7ruxh03t7-ssCeDDoBS3JsQF1_f1CSQxhH7wQNfX9anaI9_faBak-petzYBsPvwfIy-LFkrh74csDmjdrc1ymBQvdT7v5hlmK4gn4wSvlGkmJlAFuxEIc3j3R-F971MD_r9lyRxJf64HBK_QXu88Aq-SL6ox5GMSWDlgiNrmKsg0_N5PWC5vLXhaZoTeY_oIEwawSkH1kN5DDOhly04qIadBZasRT1Aiuw8_B8LgdRY3uBkjOreYDqS1G-_s3vmjusFsxmvRmL8VAwfg4622HkMdj2FYrsls4CKChyQRwQd5_E5hqFQlSWopa4CcSlvgG8",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-04T02:14:23.400271+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump: To za dużo zwycięstw. Wygrywamy za dużo. Nie mogę już tego znieść.",
+      "text_pl": "Trump: To za dużo zwycięstw. Wygrywamy za dużo. Nie mogę już tego znieść.",
+      "archived_at": "2026-10-18T02:05:32.682319+00:00"
+    },
+    "bc48fc01b7d9d9e3": {
+      "id": "bc48fc01b7d9d9e3",
+      "timestamp": "2026-10-04T00:06:40+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🛵 БпЛА на Чернігівщині курс на Прилуки/Ічня",
+      "text": "🛵 БпЛА на Чернігівщині курс на Прилуки/Ічня",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.024,
+      "lon": 34.901,
+      "url": "https://t.me/kpszsu/82643",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82643"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-04T02:14:23.400098+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🛵 BSP w obwodzie czernihowskim kurs do Pryluk/Ichnia",
+      "text_pl": "🛵 BSP w obwodzie czernihowskim kurs do Pryluk/Ichnia",
+      "archived_at": "2026-10-18T02:05:32.682319+00:00"
+    },
+    "39e1b4b7f8c1f2af": {
+      "id": "39e1b4b7f8c1f2af",
+      "timestamp": "2026-10-04T00:06:30+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump: I didn&#x27;t even know what the hell a vegan was. A vegan is vegetables.",
+      "text": "Trump: I didn&#x27;t even know what the hell a vegan was. A vegan is vegetables.",
+      "location_name": "Inne",
+      "lat": 47.9004,
+      "lon": 34.9838,
+      "url": "https://t.me/ClashReport/99519",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99519"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/s3_e0-GUdlda4Ao4aZbpLd8h1AHlS3UEVmBWLjPifYRXh6dIrhWj8Ac84PczTIU2p-tQlTxBOw-hrTCg24EdXcBBuGJmk53GehHZRCl_YJPrsU0iG0YfN--QXf6NqgpNQwrhYCD3-B1JxS-sEeAyZ1NzR1Q8ibrtVbRSCMBaV2YRhuH33-W8KbguWiU8XBB9AkHpgQWPaQdwVVltc074M1rq78R1wwxRaa_c-BawM4bqSaj55JpZ2FKeFzvCepUex2TXLqxzXLyEeMDn24RqX924-4g1G7UkTGfWRDWlJN2JreKnkdCoLjs-LmvmqKAtPTEMWuzayxDJg_xyvwzmUw"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/3569b1083b.mp4?token=qbojukp2aZGOK3_OaFQDiY0Gxr6Md4XFpcevdbWT6GvYq2FNm5_E7jYstNBdrw3LjzsQq9sFFrxp_Hq-R0M5FMRwEY_FO8hiYOAQHYiLoo5sTSPIBd07-I707F_vYBPcOT5uqYX1m7CZUg5h4JyoMsz8NjeXG-pgbM1twGXF6gYFbjw1sP9NKvjBCsc9i-d_XXV5ZVdPtQfNk_YK5lXHOM-70AAkoytqpeI6MuDWYi8ZEHhu7365z2X1ZHsCqPnkLBC5stxyFvp7Fok-C6LkiO9zHu6SxanG6FALFfThVglY2ZrLMxUXAuhb6k09lcZY1l_ByCf4ismcyq2iFkyUsw",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-04T02:14:23.400273+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump: Nawet nie wiedziałem, kim do cholery jest weganin. Weganin to warzywa.",
+      "text_pl": "Trump: Nawet nie wiedziałem, kim do cholery jest weganin. Weganin to warzywa.",
+      "archived_at": "2026-10-18T02:05:32.682319+00:00"
+    },
+    "b39a65157c3457c8": {
+      "id": "b39a65157c3457c8",
+      "timestamp": "2026-10-04T00:01:42+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump: Just get out and vote. If you do that, we&#x27;re going to win, and we&#x27;re going to win big. And we&#x27;re going to shove i...",
+      "text": "Trump: Just get out and vote. If you do that, we&#x27;re going to win, and we&#x27;re going to win big. And we&#x27;re going to shove it up their ass, okay?",
+      "location_name": "Inne",
+      "lat": 47.926,
+      "lon": 35.1452,
+      "url": "https://t.me/ClashReport/99518",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99518"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/oS2dtOPGPzPiQGud0cYd8H9zUucWlg5UzFJGY-ZqXckLJLsTEgOI2FTvySTb0fOtkWaNzpPeqPHSEbCOHAjFw0-I3X1HiRnCd6frEJStgvz8w1WfSZmM59CrjKnGEp6g6MuLBOkT5JaBO8f4RrIcs2mPv3co7l1tLFcLNbbapWki_cojBAvXoqFCPeM_ueLekwRknO1Kv6P2D-GbfQjksh9oUaeUwwr18vdQAW3Y_BxA8i2dnseoAyt1sp6IvSa2K8dDvlDKrDehLrGfDK5TOqgGaqgx-sB9EsCrGZDG-MbZrfauKLaSU3DruWuWfxKdvRXAVUd0qvhCBPbAKpHDfQ"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/fc7f0f9ea7.mp4?token=k8RzCIHHy9j3NTU13KRiOdGyWMoRS4zY0jCXOXHh0DWbSI_5dG_MFq7Afuh2vaYcbtaPhwU7HCp2lVvYUuGaZFCa2-XwUd1_X_rWbAJts3zbTTW2sEZB4E2wet08grlzfk2mVJLNgTqkKAr2v0Rf3KVqOCYyMw6bG8lv05btLVBieduNfr9sdHB8hFgDPOidYIYAksuC757rV12xC7QrYYR2gDx_kUeWWtpaXeKbf9H2MtfiL-XLZvZIuExMhLk35ItGA0M7t66Z4chByrlvzJUco2Nv4VCu2Jf1Fqkusu-b4J1TBpEtb9A8xACEV6xN7kpjPn98d4KZwJ1QwqBdvA",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-04T02:14:23.400275+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump: Po prostu wyjdź i zagłosuj. Jeśli to zrobicie, wygramy, i to odniesiemy duże zwycięstwo. I będziemy pchać mnie...",
+      "text_pl": "Trump: Po prostu wyjdź i zagłosuj. Jeśli to zrobicie, wygramy, i to odniesiemy duże zwycięstwo. I wsadzimy im to w dupę, ok?",
+      "archived_at": "2026-10-18T02:05:32.682319+00:00"
+    },
+    "281b9d4ff883e837": {
+      "id": "281b9d4ff883e837",
+      "timestamp": "2026-10-03T23:56:15+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump: They&#x27;ve arrested me, and they even tried to kill me, I guess.",
+      "text": "Trump: They&#x27;ve arrested me, and they even tried to kill me, I guess.",
+      "location_name": "Inne",
+      "lat": 47.8812,
+      "lon": 34.793,
+      "url": "https://t.me/ClashReport/99517",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/99517"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/s17r2cjeIlR3KiEMg_I9uLof92BIIvjMVIb9sD4EDPjmHyZo1Z3Esx1WvTR4dlSqkHXjAnXm-fcnacXiD8FGadR9g_xL9ILp1a-jhBLPEWjuRjASJD-tp0mJOvHTE9UEZNX45P2aqZMrKUEZRJkM99Byt-KxMcSfa90THSspKW8qyZ8sZm3bnah1jHBvYwOxVwYKo0Od3cb9myy-Cd9K8Lzwkf5fL1Z6n4EifkkkRo14dsizfgcpROAhKgH1aB4UY0Lvmgd0WE_xImJyBtsJ65pEty7hvbzMY57icTrxPllPuPVop-DNDU5YElvZCrZZMlPb8OJseWCrCwyJG_jPrg"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/9a8e2d39ac.mp4?token=KxG93SkkhwrHpNAzL0-3C64SHE-NxQ3gL3Y5sdEkDJYjbuMHkBcvcuy5zPeUnh-kA2hAH2jRyhI-sX1xhT1r6JwUe9xfAxdFFcG5X0NbNoaSVmTTxE8wS6UBBgLPS5sZmhNnZugDluLrpe9DzebyJr6pxa0HCS2mn6KyiRCISaxCJDecXluBaSWKTPtrfGrh_wZcfOpDBJy8-qf7uP6DtsoBxEeo5sFq-eTyQK_9n_Mnn6PYbHIo_3Yw4-JCKc-akeOXy43F1S9hDSm7w6UU5Seupa93ekAFbaMdrpLq_gEXQf2o5OHPSDJgI-Kpe4huqKn_kQYzzBiHlSPoByiKCg",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-04T02:14:23.400277+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump: Aresztowali mnie i chyba nawet próbowali mnie zabić.",
+      "text_pl": "Trump: Aresztowali mnie i chyba nawet próbowali mnie zabić.",
+      "archived_at": "2026-10-18T02:05:32.682319+00:00"
+    },
+    "0efe3353f0127457": {
+      "id": "0efe3353f0127457",
+      "timestamp": "2026-10-03T23:56:07+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА через зону відчуження Чорнобильської АЕС.",
+      "text": "🏍 Реактивний БпЛА через зону відчуження Чорнобильської АЕС.",
+      "location_name": "Czarnobyl",
+      "lat": 51.2763,
+      "lon": 30.2218,
+      "url": "https://t.me/kpszsu/82641",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82641"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-04T02:14:23.400102+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy UAV przez strefę wykluczenia elektrowni jądrowej w Czarnobylu.",
+      "text_pl": "🏍 Odrzutowy UAV przez strefę wykluczenia elektrowni jądrowej w Czarnobylu.",
+      "archived_at": "2026-10-18T02:05:32.682319+00:00"
+    },
+    "6336b3ea99923505": {
+      "id": "6336b3ea99923505",
+      "timestamp": "2026-10-03T23:54:52+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА через зону відчуження Чорнобильської АЕС.",
+      "text": "🏍 Реактивний БпЛА через зону відчуження Чорнобильської АЕС.",
+      "location_name": "Czarnobyl",
+      "lat": 51.2763,
+      "lon": 30.2218,
+      "url": "https://t.me/kpszsu/82640",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82640"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-04T02:14:23.400104+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy UAV przez strefę wykluczenia elektrowni jądrowej w Czarnobylu.",
+      "text_pl": "🏍 Odrzutowy UAV przez strefę wykluczenia elektrowni jądrowej w Czarnobylu.",
+      "archived_at": "2026-10-18T02:05:32.682319+00:00"
+    },
+    "f2ca0823ff90434e": {
+      "id": "f2ca0823ff90434e",
+      "timestamp": "2026-10-03T23:45:13+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🚀 Чернігівщина: баражуючий боєприпас типу &quot;Бандероль&quot;повз Ніжин курсом на Київське водосховище",
+      "text": "🚀 Чернігівщина: баражуючий боєприпас типу  &quot;Бандероль&quot;повз Ніжин курсом на Київське водосховище",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/kpszsu/82639",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82639"
+        },
+        {
+          "name": "#war_monitor",
+          "url": "https://t.me/war_monitor/47239"
+        },
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82545"
+        },
+        {
+          "name": "#war_monitor",
+          "url": "https://t.me/war_monitor/47238"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-04T02:14:23.400106+00:00",
+      "title_pl": "🚀 Obwód czernihowski: amunicja zaporowa typu „Banderol” obok Niżyna w kierunku Zalewu Kijowskiego",
+      "text_pl": "🚀 Obwód czernihowski: amunicja zaporowa typu „Banderol” obok Niżyna w kierunku Zalewu Kijowskiego",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "archived_at": "2026-10-18T02:05:32.682319+00:00"
+    },
+    "5cffee1c1c24dd20": {
+      "id": "5cffee1c1c24dd20",
+      "timestamp": "2026-10-03T23:43:54+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "Полиция Молдовы сообщила об обнаружении фрагментов дронов в пяти районах республики «Сегодня утром в районах Каушаны, Ш...",
+      "text": "Полиция Молдовы сообщила об обнаружении фрагментов дронов в пяти районах республики  «Сегодня утром в районах Каушаны, Штефан-Водэ, Хынчешты и Новые Анены были обнаружены фрагменты летательных аппаратов», — говорится в сообщении.  В полиции Молдовы указали…",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 48.1004,
+      "lon": 35.282,
+      "url": "https://t.me/astrapress/127052",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/127052"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/TXWKvXiARhA7bQtZDjipm96_stdFs8q48e3tGn9Jg9je7nM2ed54LYKOJugzJ2pwrzwipogy8Gnbd52lYunFPKrdM4ft-N1PU7nJcPcvy4f5MWSBqCazg_8cug2yeqQiWH7USYkwcs10xJIqQtZa9ICUXUHiER1VwKK0OyqS-qONlGJ7n7VuKFPfv4ojVKU03TWPRQpSWQLwWS7bX3sktbrnO-5MaO6b3sMv2VFIdGTg3mIDToBwSyP8YhanqGkC6TTI5FXLokwldUgCFBuWLNnDmUl7NV8UswgMrbwP8eNkzIy_4JaPUcJloUi1pux4rgGAAo7XnLPxLtbh35EuTA.jpg",
+        "https://cdn4.telesco.pe/file/cWE-pNYQ5js987QfIONV-7ld4-VSwuCCa8iDksU4RBd-0x7lMiszXat43DS-1d6Ehcv-6V1_6JiCfR8kKlPqSFCKauVZANRJmeOo240ol-x33e3fEfIPUY8FEJfWSf0vu7vOUZBqQ0_YuO_TAW-vPOPojXz-4LxyNN8wmLisGSHEYMUGUipxUohz-AeQTJKpckn7MAF0Y7EI1SSAaFfSKEkaJ8WqhrgUZHEWBWbZqgMrkDcInei_ambD1OmNFJNmvFH7jkPag2tg_ipszjOFa5ur-jBKy6rncNGRutqDr7ccboAO3QSUhfbnYrmQ6E6V6iPWDss9UHnfLXpkCbMNRw.jpg",
+        "https://cdn4.telesco.pe/file/J9iiKEKBzNtcx3s1JwYhtcoEUmMXvIOC2dSsx_7fUJeTJou5tI67wbq1t-ixPUsfeY-bpH2J4HPY7MEYlG6HYHbmkHnR5seyOFT2wYIughX28MjjUNgQB-Sr74XGybUjnN67wHooNKfz63_AYfwggBU1caSlGMy0FuzsrmKMEHunqCFUlNYnAik232HiTco_UZG8v-N1QQwH7-L1Wm6mDIIgvcLn5wnWsg3a0XrQUoiQkWnftmNnzuhZZe6JRzTtOAJ53iScWIUaTJikcVfg1GC9dWB6DbfrhfNCg-jqFm8pENU2Q20hppQUdklH9p7GA3ujlSVgU16_f34Oisz6YA.jpg",
+        "https://cdn4.telesco.pe/file/T5zIBw5iwd78uKm-I15Om_Ct2C6e4IJqahVYSFOkKuC-XIpPvNNeCdxkvUkZtL9geOeC33KPtAWyN2nQrMBw9IBCiLDlqMkO68mKYUABktp6_Ugr3sUwkywv0JIklRm1H3guacbSa9XFfbDjNU88xvh5xDOqYoPi7lZM4vRIG5p0tWeOZXfQGnK1APIJ80PiAI9i_9NZmvoJgLWftDW3EUhDjuqsrXtILK1odS-hr1fo8nurqWHljFQH1T1GCocf8vsYuIKZaHCCTZ_1wehL1KsZ3NMXxr16Yhr1KwOhKx_K1xDtqTkO5_bzURJu4EAFub3PvVOZFczk_oCm7r9QkQ.jpg",
+        "https://cdn4.telesco.pe/file/mYCr59sAi9uu4ucidnlM1up6wJc0l2auoto_x-Oz0eUdEZ7eJNVXlRw4s4-i8Ef8qiv-l3vuVfAMDJZZfsuvLVyMbb5vHbvZQc4zXq5ywbDxgUtbsFLXyrAMGkE8WiWo_bLCAAkBhGNMojOPD8cPa_V26hdpIcJC7KJsLy9m3oFgdbPheyfBRZt6Clige0IU9j6RR0ggS8I_inPFHQjt-_D-o8GftEi1Y_DmCA_lJIfyUexR3njNQThdUs6Zx9jYJuDMbEJf-Et7FMdY_zBpbqL3qbqfPJgAdmRHF0HQilgjRXML2SODcM_6eqzd1wBGbZVtH340gwE4BXBzlkWELw.jpg"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/5526b09aef.mp4?token=Oktm14GzgpIChJ219l2g2KX4lCYqbUiomrcj4EdMAVaLJLlAKuDhL9TeE5EKvVj-ClLVA0gHN9UhpvpqX1OOMgAZY1ZOqgJ0txcKWWYq6Cae8M9ls80hqQN13IzcQ-fjJFSxqlPmORYMm9G3xWuuSdDHVw8tcQESL-poc3w9QTwMoha28emkjFhJqv6BMHJdCMA_kMDwf1cpUhn5Nj4mz_a77jZ5ugAkQ7TVWpVm5zwxTMLKh1AEctVIiiyxzF03ufh-lALM3uh7e_vUnjwQVSblP4QIC2MrFQ_EnxoqgYTuMG6UpdIR2vuKUlJYd-r1tpCyn_a5kSTNes6fmXm2gg",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "astrapress",
+      "added_at": "2026-10-04T02:14:23.400153+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Mołdawska policja poinformowała o odkryciu fragmentów dronów w pięciu regionach republiki „Dziś rano w okolicach Caushani, Sz...",
+      "text_pl": "Mołdawska policja poinformowała o odkryciu fragmentów dronów w pięciu regionach republiki. „Dziś rano w rejonach Causeni, Stefan Voda, Hincesti i Noi Aneni odkryto fragmenty samolotów” – czytamy w raporcie.  Mołdawska policja wskazała...",
+      "archived_at": "2026-10-18T02:05:32.682319+00:00"
+    },
+    "b0fb82bd73a03a9c": {
+      "id": "b0fb82bd73a03a9c",
+      "timestamp": "2026-10-03T23:43:12+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🛵 БпЛА через Харківщину (Коломак) у напрямку Полтавщини.",
+      "text": "🛵 БпЛА через Харківщину (Коломак) у напрямку Полтавщини.",
+      "location_name": "Charków",
+      "lat": 49.9935,
+      "lon": 36.2304,
+      "url": "https://t.me/kpszsu/82637",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/82637"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-04T02:14:23.400108+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🛵 BpLA przez obwód charkowski (kołomak) w kierunku obwodu połtawskiego.",
+      "text_pl": "🛵 BpLA przez obwód charkowski (kołomak) w kierunku obwodu połtawskiego.",
+      "archived_at": "2026-10-18T02:05:32.682319+00:00"
     }
   }
 }
