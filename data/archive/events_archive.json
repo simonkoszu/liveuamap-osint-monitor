@@ -1,11 +1,11 @@
 {
   "manifest": {
-    "total_archived": 13477,
+    "total_archived": 13539,
     "retention_days": 14,
     "first_archived_at": "2026-09-23T16:43:07.215300+00:00",
-    "last_archived_at": "2026-11-11T17:51:51.139685+00:00",
+    "last_archived_at": "2026-11-11T23:52:46.128690+00:00",
     "oldest_event_timestamp": "2023-06-05T21:48:13+00:00",
-    "newest_event_timestamp": "2026-10-28T17:48:56+00:00",
+    "newest_event_timestamp": "2026-10-28T23:41:22+00:00",
     "cloud_sync_enabled": false
   },
   "events": {
@@ -582745,6 +582745,2881 @@
       "title_pl": "🛵 Zaporoże: BpLA do miasta od wschodu",
       "text_pl": "🛵 Zaporoże: BpLA do miasta od wschodu",
       "archived_at": "2026-11-11T17:51:51.136920+00:00"
+    },
+    "ad3d50ae20768725": {
+      "id": "ad3d50ae20768725",
+      "timestamp": "2026-10-28T23:41:22+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА з Брянської області ➡️ на північ Чернігівщини",
+      "text": "🏍 Реактивний БпЛА з Брянської області ➡️ на північ Чернігівщини",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.044,
+      "lon": 34.8002,
+      "url": "https://t.me/kpszsu/91141",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91141"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-29T01:23:22.427042+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy UAV z obwodu briańskiego ➡️ na północ od obwodu czernihowskiego",
+      "text_pl": "🏍 Odrzutowy UAV z obwodu briańskiego ➡️ na północ od obwodu czernihowskiego",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "0399faa5d104a633": {
+      "id": "0399faa5d104a633",
+      "timestamp": "2026-10-28T23:40:19+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump: I threw Jeffrey Epstein the hell out of Mar-a-Lago.",
+      "text": "Trump: I threw Jeffrey Epstein the hell out of Mar-a-Lago.",
+      "location_name": "Inne",
+      "lat": 48.0564,
+      "lon": 35.0546,
+      "url": "https://t.me/ClashReport/103460",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/103460"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/DGQRY393R6uBng5F3o2QEkFps6gjl_vhxlRKia1TrUfJdwAH-lQ8uaU_PGTpHteRGOH_hkNV0USVqA5i2Igbqmp-8xbNpT4B2CRqkO27OO8rujqzOyxYG3NwbZ9fuMAD6dD5S-6JToJqiV4bAwqGKk-IsV2mN3Y5PjwtmYI_eyRaJc9ygGHQ4EOdW2dHfc1swjS856C_rraEom9PnCrrBcd6Scmj_bwR92V082WaMYIZ7Mp1tY_tCA6DmOhQ7xSc9jbNfsHYhHVOMiXyUzsPlP1RBpodvQt2clzJDuU2kKyoSoDRYGDvqsxG27vu8Ty1ZDKZaD2vcbFsXWwX_NTlgg"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/09669518cc.mp4?token=QjMKnjt3YCGloDaUyZcBvFAa4AkSufXbz9LzsHjO6hvbRSx7WCj_iR4y8lVtewUQJ3CdQcBUaPoJz7jpIhzqzzMiorlD-yFSs9fixi6u67pscF_CYAW18qrGco4uvRnFkcutW8uRdsOzlLvbzPVKx-6mN5x4V6imQ_uhaG_FICXAEN4yNtam2OPIndarjyCX_T14z73mRF-7Eg3GV1E5DJVudEAufgLtg35Qm8ylat4w4PxMmBZgCFx9wD0JE2OHPTl8DnujYCWNf5co_42aW_bt0h1k-dFLMZvuXmmuYzEhzB-NsJnVkSk2Z9AYwFghvfgm_7Y6VG4PStaNk_Vcvw",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-29T01:23:22.427187+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump: Wyrzuciłem Jeffreya Epsteina z Mar-a-Lago.",
+      "text_pl": "Trump: Wyrzuciłem Jeffreya Epsteina z Mar-a-Lago.",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "bb74156a5baf0cb7": {
+      "id": "bb74156a5baf0cb7",
+      "timestamp": "2026-10-28T23:39:23+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump: I threw Jeffrey Epstein out of a club 25 years ago because I thought he was a whack job. That was a great thing I...",
+      "text": "Trump: I threw Jeffrey Epstein out of a club 25 years ago because I thought he was a whack job. That was a great thing I did. He never came up with me. You know who he came up with? All of the friends of the Democrats. He was a Democrat.",
+      "location_name": "Inne",
+      "lat": 48.1164,
+      "lon": 34.7252,
+      "url": "https://t.me/ClashReport/103459",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/103459"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/aPV_sMGpWJmvBvybUzMVKqpahobfkN8sjtPY1RbRjFy3UVpzeoa7DPZyXaMFNYbsRaqWoGnfpw5l3Lkt6y6bW2oYDljm-AIQj7t90zw8c7wigJmXSyTJTP9k3IFzEG6YD7vd1bzyzK1H1xi0NovUM64nDdLLpmj6YC9S9hRQK3SbGZcPNPwpP5ge_HcKeFIpypVamktpnI-Y0PZP6E0lYsSMUTYcdM1JNkgv4ANTewSbZlA78etZ2oBRxwrFFInEa32ljypSpr50fpHI9nRx2951ZfUrefPWEPu6eUKM_KunWqTMwlltWDIJtZK3PHjO7xWYHdCJ8zw_gU_HdfdwPA"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/ae9597df47.mp4?token=N6s9nDR4bQYx0pXHZNWZGE7XAsf2X6KFb14SVKrvodqXCoNuM8eWE9sfhPvgJap4V4r35zNkTBhFsBctUMLBuaLRE7YjArTYT-LaDxvO3KRjqLwCoJHazPd8LcvmA2OkVFgjXfejJPftYpWMeNlHJyxPjlwuvQbCqbBkNK4IiBfn-WBMGWeroQpDqirORucOhfcss3PMbpxeauDtl4D-qFEOSCrn3Jb7_pvlkCnWZqLg0_qh1gsGSHsjkxaa9ToCwUZixdk_Auqmmxjf6MqgFQrPUfljmr0lGHfHq58Pnu4i479Og2pYRv7591c7PtRMcQE4DFV0TWmF06PVS-AQYjZw6VFgj6_qragqVU-toanVgMkskIr3dCbtZrofjY2Vd2IPWY-G-JnMjwBxG4MUGjlYa1oCySaG7VHZgN8vsK2pg0qzrb4u1D6AsXWIHa9Cdp8dArOq_yqKOs198m2B2DVoCz2TuiaS53KxsIKDcN0E6WRkQNKA7ROdcI5yjtOgBHuk5LkYrcu-5luMwUA0ZfVVU-y5MQBEseAmIPmo_NjuKUcVlgtDIztz9se3e0lbIdaJZGbQA5WYVJwPhs1vAvkFKQ6LTUho0NW0IdeMUTynSBlcXkUAXF2lnk8GDyJ7pedDft46fXAq7_W9f5GWA--Jx-JoZs9-U_qs-ZaU4ak",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-29T01:23:22.427189+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump: 25 lat temu wyrzuciłem Jeffreya Epsteina z klubu, bo uważałem go za wariata. To była wspaniała rzecz, którą...",
+      "text_pl": "Trump: 25 lat temu wyrzuciłem Jeffreya Epsteina z klubu, bo uważałem go za wariata. To była wspaniała rzecz, którą zrobiłem. Nigdy do mnie nie przyszedł. Wiesz, kogo wymyślił? Wszyscy przyjaciele Demokratów. Był demokratą.",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "18857154da640d77": {
+      "id": "18857154da640d77",
+      "timestamp": "2026-10-28T23:06:06+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🛵 Ударний БпЛА на сході Харківщини курсом на захід.",
+      "text": "🛵 Ударний БпЛА на сході Харківщини курсом на захід.",
+      "location_name": "Charków",
+      "lat": 49.9935,
+      "lon": 36.2304,
+      "url": "https://t.me/kpszsu/91139",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91139"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-29T01:23:22.427044+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🛵 Uderz UAV we wschodnim obwodzie charkowskim, kierując się na zachód.",
+      "text_pl": "🛵 Uderz UAV we wschodnim obwodzie charkowskim, kierując się na zachód.",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "8ccfc4c2772bfc78": {
+      "id": "8ccfc4c2772bfc78",
+      "timestamp": "2026-10-28T23:03:15+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "Russian soldiers came under Ukrainian drone attack. Published 10/2026",
+      "text": "Russian soldiers came under Ukrainian drone attack. Published 10/2026",
+      "location_name": "Inne",
+      "lat": 48.0808,
+      "lon": 35.2886,
+      "url": "https://redd.it/1xi0wyt",
+      "tactical_sources": [
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://redd.it/1xi0wyt"
+        },
+        {
+          "name": "Telegram (#r_combatfootage)",
+          "url": "https://t.me/r_combatfootage/42785"
+        },
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://t.me/r_combatfootage"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/eWfYn7uHtMfLVFEjBfQm6bcC84jNwe5dOUvlkDF-NgOAqfiErO1wWuSSgpsI-s3xUI0t8SLRspC_cmFqrQc73CMhC4qKEjsB3M7atMEFa0BjOo_XPs85cglJuu3xlQdbz4l5g2Xav2i2ORNmQ3T81Z9hAwlelFYlAtblP1G-95cZmeAaHBUth4DGE7JKlinh6gmYCXerfLRLPCY15wohLgxYhuFmR0iKdIluuM3p6biI-KGgHoWlum-ZsDq3YM6pggpE2VVixXB2m73tE2lLj8-ddP1Eee6Y2oZbfFwzwDr4vvoqwlp2ug3qdRVCi6tvgneaX1hFkKWO6uLk1u5QVA"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/7572da6bb8.mp4?token=IjJirgNTCNfctWCD0D9UPcvAvxKc56b3qB-j-_opcLZV6oT_gYSxQCWyhNEr-0Nof1f-G6xrVZqP8-9E2mbhgqARrZT97MrPQa2RGpJ9mrzhevxXaHl2cdWyHGwXRAK7Kz6l4YbMOmf4DWzC0rqjzbykyUBHGsEyJ-9jjOBBiWULdhtA4crk7xLXXhixdmaKC5Hp84j3j3_ytyVaKQ-I1GgQR21iUi9D3WchaKxD7u-63kmR9-1gMLLjhr7lQhCdwamcVuQokhEiRMbq1usUIL5_Al4BGVi-iLN9P_FOxzOYavCCQ3jwoKlM2k5W4hGLmz8nYN-13mk3S68uz2MJQw",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "r_combatfootage",
+      "added_at": "2026-10-29T01:23:22.427246+00:00",
+      "verified_by_sources": [
+        "r_combatfootage"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Rosyjscy żołnierze dostali się pod atak ukraińskich dronów. Opublikowano 10/2026",
+      "text_pl": "Rosyjscy żołnierze dostali się pod atak ukraińskich dronów. Opublikowano 10/2026",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "cca03c7c74646d19": {
+      "id": "cca03c7c74646d19",
+      "timestamp": "2026-10-28T23:00:25+00:00",
+      "country": "Iran",
+      "flag": "🇮🇷",
+      "theater": "Bliski Wschód (Zatoka Perska)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "The U.S. has warned Middle East allies to prepare for possible strikes against Iran after the Nov. 3 midterm elections a...",
+      "text": "The U.S. has warned Middle East allies to prepare for possible strikes against Iran after the Nov. 3 midterm elections and potential Iranian retaliation. Trump has not made a final decision, but officials say a new military campaign could last several days. Source: AP",
+      "location_name": "Bliski Wschód (Zatoka Perska)",
+      "lat": 48.0276,
+      "lon": 34.9544,
+      "url": "https://t.me/ClashReport/103458",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/103458"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/eyBEsi9aWJdNi7e5bBIeHXf9ad17iN70IppDI96iaGwHKi08ibvt1Y_q_i6SRJLZ3VCgtGqylET-8lxNtqEXG0kkCshzcsW64WyNpgKCGnPJVOiba3upiffJNSWK-X7d1q-l8Tk7sO6ol_6crPXBQNA006FypU-_DMTGugVylqmG456f4x1z5kT0V9V3naf7d-AmeebImXgRjOnz7nq3aTWXZI8X-m1c7lHZG6Z8ndH7uumKtsQTq8wjyXhWTbkCQHmMt3HZeAIx1Ini1Xh2nmwKF4D0bGoG5IzcPA4wYCOA0oRwfjdefBJ8ThhqUQu8plu5wYi667HBJTPAG6ieNw.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-29T01:23:22.427191+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Stany Zjednoczone ostrzegły sojuszników na Bliskim Wschodzie, aby przygotowali się na możliwe ataki na Iran po wyborach śródokresowych zaplanowanych na 3 listopada…",
+      "text_pl": "Stany Zjednoczone ostrzegły sojuszników na Bliskim Wschodzie, aby przygotowali się na możliwe ataki na Iran po wyborach śródokresowych zaplanowanych na 3 listopada i potencjalnym odwecie ze strony Iranu. Trump nie podjął ostatecznej decyzji, ale urzędnicy twierdzą, że nowa kampania wojskowa może potrwać kilka dni. źródło: AP",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "151dc2205d0e7049": {
+      "id": "151dc2205d0e7049",
+      "timestamp": "2026-10-28T22:31:52+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА на м. Запоріжжя з півночі.",
+      "text": "🏍 Реактивний БпЛА на м. Запоріжжя з півночі.",
+      "location_name": "Zaporoże",
+      "lat": 47.8388,
+      "lon": 35.1396,
+      "url": "https://t.me/kpszsu/91138",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91138"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-29T01:23:22.427045+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy UAV w mieście Zaporoże od północy.",
+      "text_pl": "🏍 Odrzutowy UAV w mieście Zaporoże od północy.",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "51bdd8568b2944fd": {
+      "id": "51bdd8568b2944fd",
+      "timestamp": "2026-10-28T22:30:52+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🛵 Ударний БпЛА на Павлоград зі сходу.",
+      "text": "🛵 Ударний БпЛА на Павлоград зі сходу.",
+      "location_name": "Pawłograd",
+      "lat": 48.5277,
+      "lon": 35.8711,
+      "url": "https://t.me/kpszsu/91136",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91136"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-29T01:23:22.427047+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🛵 Uderz BpLA na Pawłograd od wschodu.",
+      "text_pl": "🛵 Uderz BpLA na Pawłograd od wschodu.",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "2201d4dd6a3cfa53": {
+      "id": "2201d4dd6a3cfa53",
+      "timestamp": "2026-10-28T22:04:59+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Uderzenie Balistyczne / Rakieta",
+      "tactical_icon": "🚀",
+      "title": "China Tests Trimaran Submarine With 16 or More Missile Tubes China is reportedly testing an uncrewed trimaran submarine ...",
+      "text": "China Tests Trimaran Submarine With 16 or More Missile Tubes China is reportedly testing an uncrewed trimaran submarine in the Bohai Sea that must surface to fire an estimated 16 to 18 missiles, according to Naval News. READ MORE",
+      "location_name": "Inne",
+      "lat": 47.8036,
+      "lon": 35.246,
+      "url": "https://t.me/ClashReport/103456",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/103456"
+        },
+        {
+          "name": "clashreport.com",
+          "url": "https://clashreport.com/world/articles/china-reportedly-tests-trimaran-submarine-with-16-or-more-missile-tubes-zdxhkauij7/"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/C1I3TA73KFjpAnwUIICkHJ8ZsIU6V4uYHlHfFObV0lCOE1aBTe1RaHdAepMj4wQLgmLbtOIe-dw-UEvrzhyl8h0GLWaQ8Pu3x_8M5ss1KISt2b1VgReDq-uQvACTZ0qxFmt5efyd6RtKRWvs37pFAVEFquHfqTgB7PeVqTzka7StyhfjnXDoSmtPu_CvGG5tJDEAQhAe9YVF5C7SOqUAvxitqSM662Y_mJ7tEOtm8jb449ajHknivX8jsAD8LlvvTeQ4D23b3HViBN4s8SfFDtFCkHb6gDdxZe0E6SK-KsDzwAYQRwNoE_Q1zVXeAR-gaHSV9HH2QWhOMApVNRYKRg.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": true,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-29T01:23:22.427193+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Chiny testują łódź podwodną typu trimaran z 16 lub więcej wyrzutniami rakietowymi Chiny podobno testują łódź podwodną typu trimaran bez załogi…",
+      "text_pl": "Według Naval News Chiny testują łódź podwodną typu trimaran z 16 lub więcej wyrzutniami rakietowymi Chiny testują na Morzu Bohai łódź podwodną typu trimaran bez załogi, która musi wynurzyć się na powierzchnię, aby wystrzelić szacunkowo 16–18 rakiet. CZYTAJ WIĘCEJ",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "98a1cbad5a258e67": {
+      "id": "98a1cbad5a258e67",
+      "timestamp": "2026-10-28T22:04:51+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Zelensky: Russia wants to negotiate something new. I don&#x27;t know what they&#x27;re talking about, some security infrastructure...",
+      "text": "Zelensky: Russia wants to negotiate something new. I don&#x27;t know what they&#x27;re talking about, some security infrastructure in Europe. How can you negotiate security infrastructure in Europe without Europe? What will you negotiate? With whom? With China? Interesting.",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.1056,
+      "lon": 35.0786,
+      "url": "https://t.me/ClashReport/103455",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/103455"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/BFr1RP_zLfRtrpLD7brwyP4ZPNDB-hQTWzfMl3_yl_bmHmxNMInMwljMRkUq5O6vZvt3VPOJZH0_WpregjT97jN86texvOcHB3TsEso8Sp_9-o-alXro-cnDIysn8vHrWaJOeRzenPoUjbvovASh9M8ztTPVFNw3kkM4_1yuUdBRGOzFoMlWqJp9Sjhqf2H6nYeAxi3CUVwMQ-gaZTZBdi-0CQHPuSplM31Ea3nMGcVF4n_cTxURtf61GD42A6LzSDHkzJ5lNznzwHFhta2CbOKOzp6tYwlnmdkLuAtWYf7LVqDsX9I2PgB8TVG2HCNnFvWayOk2EqFdakkR_xGZzQ"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/f7470eba4b.mp4?token=hMmGeCKB5fW2tns12L1t3ZUKQ4dRrwv2M4QdO9a_bur8yrWcSTvX56C9R1JlE3xCa46aLsMBGONwTfc9lz_NeVWdZpX3nMsNGdB6f_MFuGcwSUpRCbaTs3KSK-aZpBgr79QVqCCREcaShPJuzB1BVYMMXtHgMtQYeBL1on9mxsANdD4YTsXDrnIwPOtO1HcNOKPYSjCeN6y2P2Ken4JSkBNszHOpZGvwdJbijUSremJeiLlk3Wc6yjQg8ZSZjsA6aGzeuTS9wpab7fGLHVQK76ZRG35g3ux1zy13X-Ldz7sal_mqeT3WXZ2IfEImPm3rVWXisSkZiaqXe06cAXgNmw",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-29T01:23:22.427195+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Zełenski: Rosja chce negocjować coś nowego. Nie wiem o czym oni mówią, jakaś infrastruktura bezpieczeństwa...",
+      "text_pl": "Zełenski: Rosja chce negocjować coś nowego. Nie wiem, o czym oni mówią, o jakiejś infrastrukturze bezpieczeństwa w Europie. Jak można negocjować infrastrukturę bezpieczeństwa w Europie bez Europy? Co będziesz negocjować? Z kim? Z Chinami? Ciekawy.",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "4e144c835952f38e": {
+      "id": "4e144c835952f38e",
+      "timestamp": "2026-10-28T22:03:42+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Dutch Prime Minister Rob Jetten: Putin has to understand that he is losing this war. He&#x27;s losing the war on the battlefi...",
+      "text": "Dutch Prime Minister Rob Jetten: Putin has to understand that he is losing this war. He&#x27;s losing the war on the battlefield, with a lot of Russian casualties, but he&#x27;s also losing the war because his economy is going down the drain.",
+      "location_name": "Inne",
+      "lat": 48.046,
+      "lon": 34.9076,
+      "url": "https://t.me/ClashReport/103454",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/103454"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/pKDhOnwdJkJekbvEOlWUfW5NU2cSIyG9NLRUjAODsu4CLfNiSmdHLxGyUJJF1DBur1I2DrWMdJLmtMXzyN-fPigT0-_ciQX25FY5o9noajvb19aiyqo1C2o3w31Lq1_xJo0TgpGHx4lLajKZsO_oBvepuT40opx2i1vWjekLKbgXVLKcqUUQI94Bcu58ruIzjV5WLQnWLfvzLbQh9Zu9p8dhS-2hoGVqsCGqMAd3Q-dRBresYGsFS0TkV1K9dtz1q7kFh1jXKq0TLTHPwtdhHRKH4ZLJNGSpIfuoAGLoifkS6AKkWnqAOZtmhJqoZEwl6SDPUL5IX5mpY5MhBXKuKg"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/a3faf79963.mp4?token=hT_smgZZvqbrl29RoP4K_PFM_iiZHt-WJtGV7gNL2Foma5mGdGesXYVExvS5w2YWT5o_FfRRKaMn8aB2QF3dT4dZXa33zoVaFSnCD5Q8ZNlL3j4OsncgvQyeEghA1MuBNn2rzKgMngav95lrinQiKfKfziqe_E2T4Mg9eT2b_UkqSoOpVtoHQ7tIZUQeWYYK3if2Iwv3vhu-FecBZFzWSBANfnueN7aeCA5kphImCF6oWlfIRWbY8NrQ2UV4yvcnkHM_vcujeaQTT5PiFQgZ1CcEU-8l9FUKSCRX-zZnvzKr4XT-DudmcmrmcImONpsnz4nhaLwlPXZiLSbJH1Y8Wg",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-29T01:23:22.427197+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Premier Holandii Rob Jetten: Putin musi zrozumieć, że przegrywa tę wojnę. Przegrywa wojnę na polu bitwy...",
+      "text_pl": "Premier Holandii Rob Jetten: Putin musi zrozumieć, że przegrywa tę wojnę. Przegrywa wojnę na polu bitwy, pociągając za sobą wiele ofiar wśród Rosjan, ale przegrywa także wojnę, ponieważ jego gospodarka popada w ruinę.",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "61930b1eaeafbeaa": {
+      "id": "61930b1eaeafbeaa",
+      "timestamp": "2026-10-28T22:03:12+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "Russian Forces came under Ukrainian mid range drone attack. Tarkhankut. Occupied Crimea. Published 28.10.2026",
+      "text": "Russian Forces came under Ukrainian mid range drone attack. Tarkhankut. Occupied Crimea. Published 28.10.2026",
+      "location_name": "Krym",
+      "lat": 45.3453,
+      "lon": 34.4997,
+      "url": "https://redd.it/1xi0nrr",
+      "tactical_sources": [
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://redd.it/1xi0nrr"
+        },
+        {
+          "name": "Telegram (#r_combatfootage)",
+          "url": "https://t.me/r_combatfootage/42784"
+        },
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://t.me/r_combatfootage"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/CQdiRfwCJWXHQpUXnwAYipBY9IYD0OhAL-LB8X0xA21SEYeVkd_dKsMF4-extG39gy3aGH0ct9zB_m_od34dVcGdxoJW_-GytndX4fHTRezLcebWi-9TmshY-Parb08SsZrgbrcAnDgpJSTVNg4v1ztncDTOzDajYiAI4PFhIIYNiEHb3XxuzJJPxfRbNba22qjqiQi6zigRL5tioYkk9urkbVj7iQmJw7LZifIxIkPCtv5cjEGleBG7pEiFw4n7gekcDeWBik8VskvjL2geRvg30eLUW8FWHsUaSHeeSpSgmF06fMa-0Y1VFHUZB_qCN0IonEu5TuNqaNmpq49Umw"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/ecc4f3de1c.mp4?token=Mm0ZnVK2Hr0_bPc8QlvWTarO4n33j3wEjJDuJ-1oDM6v9wIssx8vf4zC91oxDGe8ZaWldB4DHJOOKqsKXodvRzCFS0iRkZH-Ho4wbzg2blfL6mNSn8SLX6gRpW-AKBKGn-dHKZwZZJrIjkQ4XCqRlZhsYM31zftJHmawCOvTiEn2Joerm7b7Iq0y7c8zYM73E0yVWVrVNS6DzJb6qKLTB-WFTCvLMI-iGp1PDY2ieAyEEJnM1BniZ-lMA3N6P1KSJnYLCGvKFe6yU2ANIGOYgo29P-pLxxifka9rfB7w5zK6np27Pu-KkTn6RGDINg5ejVtu0XiU5lSe0_xeZ0K7zg",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "r_combatfootage",
+      "added_at": "2026-10-29T01:23:22.427248+00:00",
+      "verified_by_sources": [
+        "r_combatfootage"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Siły rosyjskie znalazły się pod ukraińskim atakiem dronów średniego zasięgu. Tarchankut. Okupowany Krym. Opublikowano 28.10.2026",
+      "text_pl": "Siły rosyjskie znalazły się pod ukraińskim atakiem dronów średniego zasięgu. Tarchankut. Okupowany Krym. Opublikowano 28.10.2026",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "a669df514535d72e": {
+      "id": "a669df514535d72e",
+      "timestamp": "2026-10-28T21:56:34+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "Сбито 20 беспилотников, летевших на Москву, — мэр Сергей Собянин",
+      "text": "Сбито 20 беспилотников, летевших на Москву, — мэр Сергей Собянин",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 47.8184,
+      "lon": 34.9904,
+      "url": "https://t.me/astrapress/129608",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/129608"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Obrona Przeciwlotnicza (OPL)"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "astrapress",
+      "added_at": "2026-10-29T01:23:22.427085+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Zestrzelono 20 dronów lecących w stronę Moskwy – burmistrz Siergiej Sobianin",
+      "text_pl": "Zestrzelono 20 dronów lecących w stronę Moskwy – burmistrz Siergiej Sobianin",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "2bd9dda2fc9115c7": {
+      "id": "2bd9dda2fc9115c7",
+      "timestamp": "2026-10-28T21:54:05+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump Declines to Back Flávio Bolsonaro&#x27;s Claim to Be Brazil&#x27;s President Trump says he will not &quot;get involved&quot; when aske...",
+      "text": "Trump Declines to Back Flávio Bolsonaro&#x27;s Claim to Be Brazil&#x27;s President Trump says he will not &quot;get involved&quot; when asked about Flávio Bolsonaro&#x27;s claim to be Brazil&#x27;s rightful president. READ MORE",
+      "location_name": "Inne",
+      "lat": 47.88,
+      "lon": 35.2544,
+      "url": "https://t.me/ClashReport/103453",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/103453"
+        },
+        {
+          "name": "clashreport.com",
+          "url": "https://clashreport.com/world/articles/trump-declines-to-back-fl-vio-bolsonaro-s-claim-to-be-brazil-s-president-oc0ux5e00qk/"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/IaC6tdB2fYO0Cil-XnyhputXRXEt7UIvMeU2Enn6Tj8RDrX3Beiscn54ap3dYAJxzOxexyVHLgEoUDYKnJKFRFt_HwnC4aYJN0ZKwwD9uGSFv0OSLKxRCtkxJKBDR6X5Y5safzkyZXeQcvH6y60WriwhlH2udROf9SrL9h0-o3NWoMEDue7GG0DIWRFAgZVEHyyy7eZGBu20RwklteRk6h4xQFYDIyo3dYNwhP9hLIP1WY9Xh3IxYRdGn0YizqgoXWgQc0YZAA0pxGd70UuS6gp-eoY84ITEzw0rLozD5m9W-HEYo7-OZN0RMZnj1nDDbJoC8OjA7sGmEC6-0r6KMQ.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-29T01:23:22.427198+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump odmawia poparcia twierdzeń Flávio Bolsonaro o zostaniu prezydentem Brazylii Trump twierdzi, że „nie będzie się angażował”, gdy zostanie o to poproszony…",
+      "text_pl": "Trump odmawia poparcia twierdzeń Flávio Bolsonaro, że jest prezydentem Brazylii Trump twierdzi, że „nie będzie się angażował”, gdy zapytany zostanie o twierdzenia Flávio Bolsonaro, że jest prawowitym prezydentem Brazylii. CZYTAJ WIĘCEJ",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "0ef579861f7c78d4": {
+      "id": "0ef579861f7c78d4",
+      "timestamp": "2026-10-28T21:40:12+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Komunikat / Dyplomacja",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Flávio Bolsonaro Declares Himself Brazil’s True President-Elect From U.S. Flávio Bolsonaro has declared himself Brazil’s...",
+      "text": "Flávio Bolsonaro Declares Himself Brazil’s True President-Elect From U.S. Flávio Bolsonaro has declared himself Brazil’s rightful president from the U.S., accusing Lula and the Supreme Court of electoral fraud without presenting evidence. His own party has recognized Lula’s victory, and he thanked Trump for refuge. READ MORE",
+      "location_name": "Inne",
+      "lat": 48.1276,
+      "lon": 35.0378,
+      "url": "https://t.me/ClashReport/103452",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/103452"
+        },
+        {
+          "name": "clashreport.com",
+          "url": "https://clashreport.com/world/articles/fl-vio-bolsonaro-declares-himself-brazil-s-true-president-elect-from-u-s-mpmpwzt8pba"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/UzOx7_uu1k8LhkNJ7n53lJ3Rr-Ejj-4sp-gu2cENINzNZT2VBhrVtsayDwWYpDHyubbptNg5DbjeeN55mI8Su64YkJlfEow5Mjpm75cy3thinLEJxwCDKaQLrXQlV2gKN31yz80yNz-uOHfD00pLXYRdMUmCcN_Je9nwj8vPvzkQxC37u5h-aGTaOu-6jDBNI2TbKzxS102WbCjSHw0tVaRvTXFvO_YgRuvrrMQFkDPL-FQfRxu3ZWso1bkETf4PW1_XhZqPGpAmQYTUtBfMdD2OaATWs-_RFRczwQajLH74IvtS7BFMt9Bp44E7YsVE3aAPEcWeEaBpv96pYJ_Sfg.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-29T01:23:22.427200+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Flávio Bolsonaro ogłasza się prawdziwym prezydentem-elektem Brazylii z USA Flávio Bolsonaro ogłosił się...",
+      "text_pl": "Flávio Bolsonaro ogłasza się prawdziwym prezydentem-elektem Brazylii z USA Flávio Bolsonaro ogłosił się prawowitym prezydentem Brazylii ze Stanów Zjednoczonych, oskarżając Lulę i Sąd Najwyższy o oszustwa wyborcze bez przedstawienia dowodów. Jego własna partia uznała zwycięstwo Luli i podziękował Trumpowi za schronienie. CZYTAJ WIĘCEJ",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "b8cf95981ab956c7": {
+      "id": "b8cf95981ab956c7",
+      "timestamp": "2026-10-28T21:31:26+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Трехсторонние переговоры между Украиной, США и РФ, предварительно, запланированы на 4 ноября в Абу-Даби, — премьер-минис...",
+      "text": "Трехсторонние переговоры между Украиной, США и РФ, предварительно, запланированы на 4 ноября в Абу-Даби, — премьер-министр Польши Дональд Туск  «Европейским политикам было бы полезно установить рабочие контакты в связи с запланированными переговорами о прекращении…",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 47.8476,
+      "lon": 34.8776,
+      "url": "https://t.me/astrapress/129607",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/129607"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/JGMsPX91H4UcUiUMRIfDBzhSzMw0cgSczNa_glAoLKXe5WsVOBMvtLBWrfAIkypc5ONEcUNDh5t3tJsjZysZ4f54flJEa35vP1l3wMh7s-W39QdeNHiR7oX1ptkeBVV0YMhO4emqrU2cHxX-cTR2au8M3PdtVd7bE8ZeSDk9_iOJMRAsncB-mLGdyMGnq4R2ydxW5cN2sFbhzspMox08TZLjLVd1QYtzUr-kiMkH39_14SZVYW8SQS79GBOgpUy6WIUt_lbTrCix1qOVUtTR22hMaoF1prvZSTZ4h5MLgQz9DDDgnlgpWSAf1MqoWEZbxI3iIYEbYha5a9zkJP7rxA.jpg",
+        "https://cdn1.telesco.pe/file/U_XjYpmWHVz_EAkT7JDDuyLMXB8ALLEeGUJplsiBE8mXj12gQkt4kZ8khhzT7tFZrdgZLAU81cdzSUqblYndH2BsvCNTYZ5cii6vrWbym87YWGeE0sSxhLgG3nPfOxr2fbUtuUqDq3rd70K_727BwTEVbqBNaCSgXephxfuej2YOpDFtnk_QlsLWT4nc0AFSnTKRs5dfyvs-KkDbfHaOGubXUu--29khLWL9RBrAFv8DmLdDfXuDqqqc7ehqpk43aICp_5aiDL4XFO70Ma2QPVwlyeIhfgahnCti7KqX2jgDOrzF-E0LYSuEFG9J4MuXlbsIQLxPkBBSe9JUX1mcSQ.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "astrapress",
+      "added_at": "2026-10-29T01:23:22.427087+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trójstronne negocjacje między Ukrainą, Stanami Zjednoczonymi i Federacją Rosyjską wstępnie zaplanowano na 4 listopada w Abu Zabi – Premier...",
+      "text_pl": "Trójstronne negocjacje pomiędzy Ukrainą, Stanami Zjednoczonymi i Federacją Rosyjską wstępnie zaplanowano na 4 listopada w Abu Zabi, - Premier Polski Donald Tusk „Przydałoby się, aby europejscy politycy nawiązali robocze kontakty w związku z planowanymi negocjacjami w sprawie zakończenia...",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "a7d1d62e0e74e752": {
+      "id": "a7d1d62e0e74e752",
+      "timestamp": "2026-10-28T21:23:22+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🛵 БпЛА у напрямку м. Запоріжжя з півдня.",
+      "text": "🛵 БпЛА у напрямку м. Запоріжжя з півдня.",
+      "location_name": "Zaporoże",
+      "lat": 47.8388,
+      "lon": 35.1396,
+      "url": "https://t.me/kpszsu/91135",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91135"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T21:26:18.432935+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🛵BpLA w kierunku Zaporoża od południa.",
+      "text_pl": "🛵BpLA w kierunku Zaporoża od południa.",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "9130f42ada434edf": {
+      "id": "9130f42ada434edf",
+      "timestamp": "2026-10-28T21:22:33+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА з півночі Київщини на Житомирщину західним курсом.",
+      "text": "🏍 Реактивний БпЛА з півночі Київщини на Житомирщину західним курсом.",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/kpszsu/91134",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91134"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T21:26:18.432943+00:00",
+      "verified_by_sources": [
+        "rybar",
+        "kpszsu",
+        "clashreport",
+        "war_monitor"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🏍 Odrzutowy UAV z północy obwodu kijowskiego do obwodu żytomierskiego kursem zachodnim.",
+      "text_pl": "🏍 Odrzutowy UAV z północy obwodu kijowskiego do obwodu żytomierskiego kursem zachodnim.",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "029b48391fff9860": {
+      "id": "029b48391fff9860",
+      "timestamp": "2026-10-28T21:13:57+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Komunikat / Dyplomacja",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump on Alaska: It was just determined that the Dumocrats in Alaska, despite their sworn statements to the contrary, pu...",
+      "text": "Trump on Alaska: It was just determined that the Dumocrats in Alaska, despite their sworn statements to the contrary, put a man named Dan Sullivan on the Ballot in order to confuse the Public with respect to Highly Esteemed Senator Dan Sullivan. This is Voter Fraud at the Highest Level, and the Dumocrat Candidate, who was involved in the scheme, Mary Peltola, should be removed from the Ballot and prosecuted — So should the FAKE Dan Sullivan. Nothing else will do! This behavior in our Elections cannot be allowed to continue. Thank you for your attention to this matter!",
+      "location_name": "Inne",
+      "lat": 48.1916,
+      "lon": 35.0186,
+      "url": "https://t.me/ClashReport/103451",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/103451"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/jiAbKzuklten-zeH6AUTQm17dKB18OQWr7X1PPUZVR6hgS4z2ywB2fg1xO3NjSrVMvvTj0BE8ZSrxDnwa_KFe_9cE_xjFQXSC9w9LCgB6kQZYnPmpdc3AalkXNEExRc_TkwuQZ3XinypCkOZgLlg33lZsq5jM6e5QOt1gUzl7qri2YbchaCVyXp0WPE3VledBm3yGHbemBZCMgSAGBrQu0ulUIdedBV9pHotWeBy7_h22xoveVOeC-LmiD_xkKtCnwp1N-EAu2FVOLPrFTJFXBc-nkQIHV0os667Q-4AgfqxjsOZ-PIMMyefSmHisXaC-YFN2U47-YUjwCO7UZAolg.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-28T21:26:18.433185+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump na Alasce: Właśnie ustalono, że Dumokraci na Alasce, pomimo złożonych pod przysięgą oświadczeń przeciwnych, pu...",
+      "text_pl": "Trump na Alasce: Właśnie ustalono, że Dumokraci na Alasce, pomimo swoich przeciwnych oświadczeń pod przysięgą, umieścili na karcie do głosowania mężczyznę nazwiskiem Dan Sullivan, aby zmylić opinię publiczną w odniesieniu do Wysoko Szacowanego Senatora Dana Sullivana. Jest to oszustwo wyborcze na najwyższym szczeblu i kandydatka Dumokraty, która była zaangażowana w ten program, Mary Peltola, powinna zostać usunięta z karty do głosowania i postawiona przed sądem – podobnie jak FAŁSZYWY Dan Sullivan. Nic innego nie zrobi! Nie można pozwolić na to, aby takie zachowanie podczas naszych wyborów było kontynuowane. Dziękujemy za zwrócenie uwagi na tę kwestię!",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "d3c464ecfdf9f64d": {
+      "id": "d3c464ecfdf9f64d",
+      "timestamp": "2026-10-28T21:13:22+00:00",
+      "country": "Iran",
+      "flag": "🇮🇷",
+      "theater": "Bliski Wschód (Zatoka Perska)",
+      "event_type": "Komunikat / Dyplomacja",
+      "tactical_category": "Komunikat Sztabowy / Dyplomacja",
+      "tactical_icon": "📡",
+      "title": "Q: Did you direct Vance to talk to Iran to start peace negotiations? Trump: No. Iran needs help with medical supplies. B...",
+      "text": "Q: Did you direct Vance to talk to Iran to start peace negotiations? Trump: No. Iran needs help with medical supplies. Basically, it&#x27;s getting supplies in to help people that are not well.",
+      "location_name": "Bliski Wschód (Zatoka Perska)",
+      "lat": 47.848,
+      "lon": 35.0276,
+      "url": "https://t.me/ClashReport/103450",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/103450"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/KhO3tQhRkfCIlBdejbSSRB0pr43s3_TLrHiPyExbDFIKupHnkSy0yczZdenp1YYjqXF8EiSxx2hnVP34FBBK51TMXHcR3bfOy9eakiXwAim9Q-X4TZYAZhKsisCc-A68JBFwYmzyyPUoH_y-5hXayqYA6BV3kVbuuaDAr2Ka7fqAZrvgH6g_dFb8_rN9hPQyMtjwabH563f3xNrP43mlD8gx5Q1tvUoV7krKgdGIi_KAT-_6YAbJw-2TwvE9EZt69jve7FkQJZ-f28OSZzQzC2mXFvu3ampUOFy23P4xvG1k5yCHPPSIcMJfIFOLkJOu5TbU8Use7pIoQLw_CdFL_Q"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/f086fdc8d2.mp4?token=VVp-ijXu3OT0E9DbOkHiJvcI5PZd3rROGUu-VktdhRcnJMnxhjeQJ6TPS9LV9vkRcxwQ7Xo4RfmpkSS8fp9RY5BOQBdQfEFfRvzCs84PYzG2RZRH2SYlNnoTemld5aeHxNfxExTz4_CzJbTpfSxJ69nY8gTAxA9CwHgLPjxMPnal866X4ZoH9FZDFOVitvZfbzSGe4GFhnlPFW1cNDTSF18Y5ciyx_zrRNwSa7ZQlq1fLR2xOu0K-lmIxXx1MIkFxDBW84YeGU0QM_OuSECN-fQxcbe4PezDGWQPkg4nos2Iyu_yh7DqQZeMfhx7LxN5vpdlIwdw2PvpH2P2oyxWxg",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-28T21:26:18.433187+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "P: Czy poleciłeś Vance'owi rozmowę z Iranem w celu rozpoczęcia negocjacji pokojowych? Trump: Nie. Iran potrzebuje pomocy w zakresie środków medycznych. B...",
+      "text_pl": "P: Czy poleciłeś Vance'owi rozmowę z Iranem w celu rozpoczęcia negocjacji pokojowych? Trump: Nie. Iran potrzebuje pomocy w zakresie środków medycznych. Zasadniczo chodzi o zaopatrzenie osób, które nie czują się dobrze.",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "4ba1468e04820252": {
+      "id": "4ba1468e04820252",
+      "timestamp": "2026-10-28T21:11:16+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump on Alaska: Mary Peltola should resign from the race. I think she should be prosecuted criminally for what she did.",
+      "text": "Trump on Alaska: Mary Peltola should resign from the race. I think she should be prosecuted criminally for what she did.",
+      "location_name": "Inne",
+      "lat": 48.1184,
+      "lon": 35.0462,
+      "url": "https://t.me/ClashReport/103449",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/103449"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/aUGRbWn8-rh4Vb33DiMZWW91HLBm5TeVpZGtJ3as66Sete9Wrj-GPcezYG32L3gYzaCf4CrOIGB8GQ3ammK_NfT4uQVATWPqpt_da5Rv1k9QbO27sZ_L0XlKDaLz8N3dFVeutT1LuHHKzACNzhbeDxk9Dx0upPWJT1dPnuV4-vPKBay5qcfXep0z7DSwCNOG3QmAxx1NLth0Q7dwyWxlwpQ5Pdlm0liYgjXR1a1Mb22UrFiXLDWmzweMPD28G2BSwKVR7AhsMOfgmMe7R1Y0ZUQIBUVJwPuOKWX89zeNjJTdbnP_dcLzoBShuZZvHr548pIuVNoPY5lzoFswE2v-uw"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/61dbb55c0a.mp4?token=ZRZXlWYzsBMGimfRSxssXAe1_1nKXZDTey0ZU02McLqtX5PVc0g0At-8lPCRE68Uytrbi4FJGSC6OM5VDwsZP9ew9NfEf1Yd5auhAbjvGbZcxHl2UiWgHomRXwIQA3kvT-4200YpqvWqaSpfUlCFaeoYye0qW9w8IQGZO_npPDISzdv9KY5mHf-XKQgQkwyI_6Pj1zHsDkZ8pt4l6VNfrULEn--fAPIml4fZNOwi09qYprC-mIhTRYVgy6QDXpLNjRzfsaQw09if1MaCgPL20mQTAeNzw5SQFBggDQ5IL_h7mIdyAon2GZjda5b8ZJ2yZbg5U6FXvVscEqCGkeZB_A",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-28T21:26:18.433189+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump na Alasce: Mary Peltola powinna zrezygnować z wyścigu. Uważam, że powinna zostać pociągnięta do odpowiedzialności karnej za to, co zrobiła.",
+      "text_pl": "Trump na Alasce: Mary Peltola powinna zrezygnować z wyścigu. Uważam, że powinna zostać pociągnięta do odpowiedzialności karnej za to, co zrobiła.",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "bf1cd32ba5b1960f": {
+      "id": "bf1cd32ba5b1960f",
+      "timestamp": "2026-10-28T21:10:24+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Q: Have you spoken to Bolsonaro? Trump: No, I have not.",
+      "text": "Q: Have you spoken to Bolsonaro? Trump: No, I have not.",
+      "location_name": "Inne",
+      "lat": 48.0928,
+      "lon": 34.7,
+      "url": "https://t.me/ClashReport/103448",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/103448"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/OnELBnuuaGCCUnjARojj9MlUv8Pxof1QYZi8xw3MpDeZrXyIrPoxHKugdvFuU5z_wmm254qkxVsTtGKumBpABmnbDDhTLY1KmIPJ8E9TtivLHxIDXs3ny7YGS0HvmcYRTK7eDFgx9isn-vYPvdieBFMB3o2Ai-chwvQ3dgplhxZ7dZL38BS3bE3mrkrMN8XkeXd4yMS4KomVO7XvwyEBPJ7cRaN1oKnVdDdJ5cKq5LsTS0H5Tis4bt_S8X0r4lDXTA-nO9zPHEqBifYEGyS2biC2IMWycEQevDzeyhwHRas5JNXJzW7hKslQ85G21x21qYxtSQXihcfScn9ptsClWA"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/2941a239ae.mp4?token=snbqcR2lholjMcA6g2FtV_iy_j8K7Kh6uEtTMlBCyiID5UunWIfZZ7dzv7I1Q7pWEK3OkT58lX4w9XxKQ5iQWHSc9Lp38WDGCqR1ogDDhYW9UbHxBzYX2TiI5aHucPulQm0UJH3lyJpt14NGawVskmFvkoKM6bAwVwrD7mFF8MbtXhznzqNr7-gSZCmEPnPp3d478Mew7T82g5rGe69PslseIMnF-l4p4bX_kz6h-1nW9amcZYMXizwKeZ3bbVh1kbdSt5V_K-ZIG2r9LfsHJ4ollzYDwXnoD5W__h8KCq859k2zgigLjRJmYO0uqlXJ748EanYye0oGreCuy49KKg",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-28T21:26:18.433191+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "P: Czy rozmawiałeś z Bolsonaro? Trump: Nie, nie zrobiłem tego.",
+      "text_pl": "P: Czy rozmawiałeś z Bolsonaro? Trump: Nie, nie zrobiłem tego.",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "42cddf2a7448e82a": {
+      "id": "42cddf2a7448e82a",
+      "timestamp": "2026-10-28T21:10:19+00:00",
+      "country": "Iran",
+      "flag": "🇮🇷",
+      "theater": "Bliski Wschód (Zatoka Perska)",
+      "event_type": "Komunikat / Dyplomacja",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Vance Sends Iran’s Security Chief Letter to Revive Peace Talks: WSJ JD Vance contacts Mohsen Rezaei at Trump’s direction...",
+      "text": "Vance Sends Iran’s Security Chief Letter to Revive Peace Talks: WSJ JD Vance contacts Mohsen Rezaei at Trump’s direction as Washington and Tehran seek a framework for talks amid the risk of renewed U.S. strikes. READ MORE",
+      "location_name": "Bliski Wschód (Zatoka Perska)",
+      "lat": 48.1396,
+      "lon": 35.1362,
+      "url": "https://t.me/ClashReport/103447",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/103447"
+        },
+        {
+          "name": "clashreport.com",
+          "url": "https://clashreport.com/world/articles/vance-sends-iran-s-security-chief-letter-to-revive-peace-talks-wsj-s1g97j9llgd"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/CKw96cuW9MRv1k10RSmyqfWteXwgkgsRPsnXbC3NIUq26v64hg7idw5hIpOi4_3xomqYKY-7DQnRRa6sNBNA9eNR1ofQz8kaYPcEvBei4n7--xUjn94Amq2xJwwr9kk88jLFfT5COA6f9-WP_dfDjK7r6QsRk5BpJkQJn688vfasfhAhavziFeuvf1aQqpza581TKt1mlZpBaljtcAaQapK1tOuf2JlUvD6JhhVzTxkGgYN7yp5usRVDQZEDp02tGxZGI86DihG9Yh1r0huLel8gUvitsCPEqNeZ84_iSALFdgBwZJkY36yL4teQanvMX-DHxiZQUyAGpiCz_1__ag.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-28T21:26:18.433193+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Vance wysyła list do szefa bezpieczeństwa Iranu, aby wznowić rozmowy pokojowe: WSJ JD Vance na polecenie Trumpa kontaktuje się z Mohsenem Rezaeiem…",
+      "text_pl": "Vance wysyła list do szefa bezpieczeństwa Iranu, aby wznowić rozmowy pokojowe: WSJ JD Vance pod kierunkiem Trumpa kontaktuje się z Mohsenem Rezaei, podczas gdy Waszyngton i Teheran szukają ram do rozmów w obliczu ryzyka ponownych ataków USA. CZYTAJ WIĘCEJ",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "0bb680bd4f086a77": {
+      "id": "0bb680bd4f086a77",
+      "timestamp": "2026-10-28T21:09:47+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump on Brazil: Bolsonaro and his family were treated very unfairly.",
+      "text": "Trump on Brazil: Bolsonaro and his family were treated very unfairly.",
+      "location_name": "Inne",
+      "lat": 48.14,
+      "lon": 34.7078,
+      "url": "https://t.me/ClashReport/103446",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/103446"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/aTDttEcWoPdQYIOU6NHb54Tehpzo7Rdr1dgncgg4Gm7V7v-vexkfjVrvKS442LYOoRStPKnsdgxgjLMoPS5ft3OWhb2iAWIbNxCiHYIwsJJZUZ38mkYi-9cEFFJShB6YAU_Dw47KWlDWn1lVzaeHjrluxVtrSU3vVgP-pRv_mQ_bjTa8bKttb-mn_fdJtFxqqjMw4ZmYnzD-jG9gCzySMBFGSLQzs-nk515GqkFJKoEDZy9gjC5cE4phHaDZPx03xOsuUZwehvDKfkgrEQoUWtLbqRdlkVsCPlxlwK0RLUa_D-qMceGdjkS8afWbyTNuC1PHlbcGP_NGGhMTDYV08g"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/531e4350a8.mp4?token=a1ZS6vVqtl_eeJrKAV45bxDvlMg82MgPmWv9uLqOZgKRCzMaL3FyJ1cuTftDwfjC-TYfRRwA3xF_bOa4S7jDua5ixjuAW2VU-4jT3Rli5aMHmFRjVyVWg7z1CsYWYqrPzYTndqdpLW6O7GDBmSWNfQoEmCN3EbNAihlruS8f3WtaDQEdIoa5skJ51jgCZvlO8QFItGl0mg2poUiZG_TvBAOdrnn_FJaZV3luCCqbHmwmRrK977jbVNXtES80qZQW4n3CjRmzlXyE-zA9hMIKQAnC0DkGEVRpQAd3i1hurSblySQuO-YFACuzu8QvD4t93McIQBjFGKDXGCrQ-FxP7A",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-28T21:26:18.433195+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump o Brazylii: Bolsonaro i jego rodzina zostali potraktowani bardzo niesprawiedliwie.",
+      "text_pl": "Trump o Brazylii: Bolsonaro i jego rodzina zostali potraktowani bardzo niesprawiedliwie.",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "9a53bedee976fb78": {
+      "id": "9a53bedee976fb78",
+      "timestamp": "2026-10-28T21:09:06+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Komunikat / Dyplomacja",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Q: Flávio Bolsonaro has declared himself the &quot;rightful president&quot; of Brazil. Do you agree? Trump: I&#x27;m not going to make ...",
+      "text": "Q: Flávio Bolsonaro has declared himself the &quot;rightful president&quot; of Brazil. Do you agree? Trump: I&#x27;m not going to make a comment about that. I won&#x27;t get involved. It was a very strange election, that&#x27;s for sure.",
+      "location_name": "Inne",
+      "lat": 48.052,
+      "lon": 34.7582,
+      "url": "https://t.me/ClashReport/103445",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/103445"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/LAZ1zrjZhLI_PsV6XDl2C4fHf8goNDisZWX2mjVS2ckY0ZPUSWL5VqyN1FGcuyYOSHw5c1jIBBCoV0pPG3RSpJqrHGHdaPfm7APqFB6tiayiUBSjjuZ-oCj88JugrxiB1G1b9EloRlD-94Dwq-8Q5nQ7zjrvWi0quDyVQdIulNx1bB6tmMDiYmgdK4r--8ljrOGL_6Otm-EfGnjx-W0DIPQNb-IDSWVSws2HFLu0LkuXgcVxJqwfCd0gmba73q4q4zp6i0PE9kyOolsVo7QpmTv5uGe8mi0OhCOiLGJ4J2lqG6pdLkpAwK9V4PG9uQ0qznllv9WvPtJm5xLkc_IgwA"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/4b92150d3e.mp4?token=iCNIVLP0m3Fj9GjEjw381Rr9ZTuUZK4G--UI7CVLgBLw4XzqXoMDHwu6NeVx1V8dtE_6ZD_dqEMwl4y3DtCAE6Kq-EUNuJkgb1siJfFzbUuIWN1ichJNbQXBaSxPLRj25NIkWE7vaXaU6JqwWhY_PXpNJR6PoqbZMjUsQ3vmqvSZiw0txBTE06PGsNyiPWqplp0WpZwxyMOzmo6WkUutL5zuIECCyOAo_blnShHpWdgX_79rJM5368fecTAB7PWJa9dkJ93stHySoYdEjOz9zCxy7VimiqzFFBhZEu8b-VSI-i420A7ubgLkS8K7txCoP0O0dRXjN6OfXhlk_kLung",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-28T21:26:18.433197+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Pytanie: Flávio Bolsonaro ogłosił się „prawowitym prezydentem” Brazylii. Czy zgadzasz się? Trump: Nie zrobię tego…",
+      "text_pl": "Pytanie: Flávio Bolsonaro ogłosił się „prawowitym prezydentem” Brazylii. Czy zgadzasz się? Trump: Nie zamierzam tego komentować. Nie będę się w to angażować. To były bardzo dziwne wybory, to z pewnością.",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "5c474c21c856e676": {
+      "id": "5c474c21c856e676",
+      "timestamp": "2026-10-28T20:55:11+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Starcie Lądowe",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "📝 Главное от Рыбаря 📝 дайджест материалов за 28 октября В Европе ссорятся из-за звонка лидеров Финляндии и Норвегии Пути...",
+      "text": "📝 Главное от Рыбаря 📝 дайджест материалов за 28 октября В Европе ссорятся из-за звонка лидеров Финляндии и Норвегии Путину. А в Израиле прошли выборы, после которых неопределенности в стране стало еще больше. ❗️ Подробнее об этих и других темах читайте в нашем дайджесте. ➡️ Рыбарь @rybar — говорим о сложном просто. Основной ресурс нашего аналитического центра. Самые важные и интересные материалы. ▪️ Хроника СВО ▪️ Русское Вечное : Николай Миклухо-Маклай ▪️ Позывной «Моряк» : мотоциклы или штурм на двух колесах ▪️ Чем теперь занимаются хакеры в Европе ▪️ Бронежилет, который сам накладывает жгут ▪️ Скандинавы поссорились из-за звонка Путину ▪️ Малый бизнес уходит из Киева ➡️ АЗИАТАРЬ @rybar_Pacific Американские техногиганты возвращаются в Китай из-за ИИ-бума. Европейцы недовольны потеплением отношений России и Южной Кореи. А японцы и американцы координируют подходы к обороне региона. ➡️ АМЕРИКАРЬ @rybar_america Хакеры взломали базу Федерального избиркома США, министр энергетики назвал сделку по российскому дизелю «экономическим пряником», а в прессе снова пишут о подготовке к новой операции против Ирана после выборов. ➡️ АФРИКАРЬ @rybar_Africa Эфиопия досрочно получит Су-35 и С-400, а Россия на саммите в Москве пообещала Африке технологии и продовольствие, отдельно обсудив с Мозамбиком газ и безопасность. ➡️ БАЛКАНАРЬ @balkanar В Черном море беспилотниками атаковано еще одно гражданское судно, а в Белграде исламисты второй раз атакуют посольство Израиля. ➡️ ЕВРОПАРЬ @evropar В Испании произошла железнодорожная катастрофа. Евробюрократы готовят сограждан к трудной зиме. Ну а во Франции ищут способ предотвратить беспорядки. ➡️ ЛАТИНАРЬ @rybar_latam Флавиу Болсонару все-таки бежал в США , а Дональд Трамп вновь заговорил о 51 штате . ➡️ ОРИЕНТАРЬ @rybar_mena В Израиле подводят первые итоги выборов: сторонники пока еще идущего впереди Нетаньяху уже обвинили в краже голосов арабские партии, которые стали крупнейшей силой за всю историю. ➡️ ТУРАНАРЬ @rybar_stan В Казахстане ",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/rybar/84237",
+      "tactical_sources": [
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/84237"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/84229"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/84231"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/84220"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/84223"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/84224"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/84225"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/84232"
+        },
+        {
+          "name": "#rybar_pacific",
+          "url": "https://t.me/rybar_Pacific"
+        },
+        {
+          "name": "#rybar_pacific",
+          "url": "https://t.me/rybar_pacific/3573"
+        },
+        {
+          "name": "#rybar_pacific",
+          "url": "https://t.me/rybar_pacific/3576"
+        },
+        {
+          "name": "#rybar_pacific",
+          "url": "https://t.me/rybar_pacific/3578"
+        },
+        {
+          "name": "#rybar_america",
+          "url": "https://t.me/rybar_america"
+        },
+        {
+          "name": "#rybar_america",
+          "url": "https://t.me/rybar_america/2699"
+        },
+        {
+          "name": "#rybar_america",
+          "url": "https://t.me/rybar_america/2700"
+        },
+        {
+          "name": "#rybar_america",
+          "url": "https://t.me/rybar_america/2703"
+        },
+        {
+          "name": "#rybar_africa",
+          "url": "https://t.me/rybar_Africa"
+        },
+        {
+          "name": "#rybar_africa",
+          "url": "https://t.me/rybar_africa/5872"
+        },
+        {
+          "name": "#rybar_africa",
+          "url": "https://t.me/rybar_africa/5870"
+        },
+        {
+          "name": "#rybar_africa",
+          "url": "https://t.me/rybar_africa/5873"
+        },
+        {
+          "name": "#balkanar",
+          "url": "https://t.me/balkanar"
+        },
+        {
+          "name": "#balkanar",
+          "url": "https://t.me/balkanar/3084"
+        },
+        {
+          "name": "#balkanar",
+          "url": "https://t.me/balkanar/3083"
+        },
+        {
+          "name": "#evropar",
+          "url": "https://t.me/evropar"
+        },
+        {
+          "name": "#evropar",
+          "url": "https://t.me/evropar/3408"
+        },
+        {
+          "name": "#evropar",
+          "url": "https://t.me/evropar/3407"
+        },
+        {
+          "name": "#evropar",
+          "url": "https://t.me/evropar/3412"
+        },
+        {
+          "name": "#rybar_latam",
+          "url": "https://t.me/rybar_latam"
+        },
+        {
+          "name": "#rybar_latam",
+          "url": "https://t.me/rybar_latam/4180"
+        },
+        {
+          "name": "#rybar_latam",
+          "url": "https://t.me/rybar_latam/4178"
+        },
+        {
+          "name": "#rybar_mena",
+          "url": "https://t.me/rybar_mena"
+        },
+        {
+          "name": "#rybar_mena",
+          "url": "https://t.me/rybar_mena/7321"
+        },
+        {
+          "name": "#rybar_mena",
+          "url": "https://t.me/rybar_mena/7314"
+        },
+        {
+          "name": "#rybar_mena",
+          "url": "https://t.me/rybar_mena/7326"
+        },
+        {
+          "name": "#rybar_mena",
+          "url": "https://t.me/rybar_mena/7317"
+        },
+        {
+          "name": "#rybar_stan",
+          "url": "https://t.me/rybar_stan"
+        },
+        {
+          "name": "#rybar_stan",
+          "url": "https://t.me/rybar_stan/2700"
+        },
+        {
+          "name": "#rybar_stan",
+          "url": "https://t.me/rybar_stan/2701"
+        },
+        {
+          "name": "#addlist",
+          "url": "https://t.me/addlist/kONcGnoFQxU1NmQy"
+        },
+        {
+          "name": "#rybar_in_english",
+          "url": "https://t.me/rybar_in_english"
+        },
+        {
+          "name": "max.ru",
+          "url": "https://max.ru/Rybar"
+        },
+        {
+          "name": "qr.nspk.ru",
+          "url": "https://qr.nspk.ru/BS1A0068ID10D33B9IBAQRQ4M9T0NIFN?type=01&amp;bank=100000000008&amp;crc=36CB"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "rybar",
+      "added_at": "2026-10-28T21:26:18.433153+00:00",
+      "verified_by_sources": [
+        "rybar",
+        "kpszsu",
+        "clashreport",
+        "war_monitor"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "📝 Najważniejsze z Rybara 📝 skrót materiałów na 28 października W Europie kłócą się o telefon przywódców Finlandii i Norwegii...",
+      "text_pl": "📝 Najważniejsze z Rybara 📝 skrót materiałów z 28 października W Europie kłócą się o telefon przywódców Finlandii i Norwegii do Putina. A w Izraelu odbyły się wybory, po których w kraju zapanowała jeszcze większa niepewność. ❗️Więcej na te i inne tematy przeczytasz w naszym podsumowaniu. ➡️ Rybak @rybar - o skomplikowanych rzeczach mówimy po prostu. Główny zasób naszego centrum analitycznego. Najważniejsze i najciekawsze materiały. ▪️ Kronika SVO ▪️ Rosyjski Eternal: Nikolai Miklouho-Maclay ▪️ Sygnał wywoławczy „Żeglarz”: motocykle czy napad na dwóch kołach ▪️ Co robią teraz hakerzy w Europie ▪️ Kamizelki kuloodporne, które samodzielnie zakładają opaskę uciskową ▪️ Skandynawowie pokłócili się o telefon do Putina ▪️ Małe firmy opuszczają Kijów ➡️ AZJI @rybar_Pacific Amerykańscy giganci technologiczni wracają do Chin w związku z boomem na sztuczną inteligencję. Europejczycy są niezadowoleni z ocieplenia stosunków między Rosją a Koreą Południową. A Japończycy i Amerykanie koordynują podejście do obrony regionu. ➡️ AMERYKAŃSKI @rybar_america Hakerzy włamali się do bazy Federalnej Komisji Wyborczej USA, Minister Energii nazwał rosyjską umowę na diesle „ekonomiczną marchewką”, a prasa ponownie pisze o przygotowaniach do nowej operacji przeciwko Iranowi po wyborach. ➡️ AFRYKA @rybar_Africa Etiopia otrzyma Su-35 i S-400 przed terminem, a Rosja na szczycie w Moskwie obiecała Afryce technologię i żywność, osobno omawiając gaz i bezpieczeństwo z Mozambikiem. ➡️ BAŁKANARY @balkanar Kolejny statek cywilny został zaatakowany przez drony na Morzu Czarnym, a w Belgradzie islamiści po raz drugi zaatakowali ambasadę Izraela. ➡️ EUROPAR @evropar W Hiszpanii doszło do wypadku kolejowego. Europejscy biurokraci przygotowują swoich współobywateli na trudną zimę. Cóż, we Francji szukają sposobu, aby zapobiec niepokojom. ➡️ ŁACIŃSKI @rybar_latam Flavio Bolsonaro nadal uciekł do USA, a Donald Trump znów zaczął mówić o 51 stanach. ➡️ ORIENTAL @rybar_mena W Izraelu podsumowuje się pierwsze wyniki wyborów: zwolennicy wciąż przodującego Netanjahu oskarżyli już partie arabskie, które stały się największą siłą w historii, o kradzież głosów. ➡️ TURANAR @rybar_stan W Kazachstanie",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "1665449966afb706": {
+      "id": "1665449966afb706",
+      "timestamp": "2026-10-28T20:49:04+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🛵 БпЛА на Чернігів зі сходу.",
+      "text": "🛵 БпЛА на Чернігів зі сходу.",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.0084,
+      "lon": 35.1278,
+      "url": "https://t.me/kpszsu/91132",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91132"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T21:26:18.432946+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🛵BpLA na Czernihowie od wschodu.",
+      "text_pl": "🛵BpLA na Czernihowie od wschodu.",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "e5682f02653babe7": {
+      "id": "e5682f02653babe7",
+      "timestamp": "2026-10-28T20:46:50+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивні БпЛА з Брянської області ➡️ на північ Чернігівщини",
+      "text": "🏍 Реактивні БпЛА з Брянської області ➡️ на північ Чернігівщини",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.0696,
+      "lon": 34.742,
+      "url": "https://t.me/kpszsu/91131",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91131"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T21:26:18.432949+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowe UAV z obwodu briańskiego ➡️ na północ od obwodu czernihowskiego",
+      "text_pl": "🏍 Odrzutowe UAV z obwodu briańskiego ➡️ na północ od obwodu czernihowskiego",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "b0b7aec40b86d21c": {
+      "id": "b0b7aec40b86d21c",
+      "timestamp": "2026-10-28T20:46:05+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Чернігівщина: реактивні БпЛА повз Славутич курсом на Київщину.",
+      "text": "🏍 Чернігівщина: реактивні БпЛА повз Славутич курсом на Київщину.",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/kpszsu/91130",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91130"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T21:26:18.432951+00:00",
+      "verified_by_sources": [
+        "rybar",
+        "kpszsu",
+        "clashreport",
+        "war_monitor"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🏍 Obwód czernihowski: odrzutowe UAV przelatują nad Sławutyczami w kierunku obwodu kijowskiego.",
+      "text_pl": "🏍 Obwód czernihowski: odrzutowe UAV przelatują nad Sławutyczami w kierunku obwodu kijowskiego.",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "c31fa9a0014add46": {
+      "id": "c31fa9a0014add46",
+      "timestamp": "2026-10-28T20:10:06+00:00",
+      "country": "Jemen",
+      "flag": "🇾🇪",
+      "theater": "Jemen i Morze Czerwone",
+      "event_type": "Komunikat / Dyplomacja",
+      "tactical_category": "Komunikat Sztabowy / Dyplomacja",
+      "tactical_icon": "📡",
+      "title": "Erdogan Tells Trump Türkiye Is Monitoring Hormuz and Yemen, Backs Diplomacy Erdogan told Trump that Türkiye and its Mecc...",
+      "text": "Erdogan Tells Trump Türkiye Is Monitoring Hormuz and Yemen, Backs Diplomacy Erdogan told Trump that Türkiye and its Mecca defense partners were monitoring Hormuz and Yemen while pursuing diplomacy, according to Ankara. He also offered support for renewed Russia-Ukraine negotiations as the leaders discussed bilateral ties and regional conflicts. READ MORE",
+      "location_name": "Jemen i Morze Czerwone",
+      "lat": 47.82,
+      "lon": 35.1068,
+      "url": "https://t.me/ClashReport/103441",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/103441"
+        },
+        {
+          "name": "clashreport.com",
+          "url": "https://clashreport.com/world/articles/erdogan-tells-trump-turkiye-is-monitoring-hormuz-and-yemen-backs-diplomacy-yo41ma1b9d"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/ig1fAHo42v_b2oM_NA6FVggCQC7d_7Vtv-sptt_3dUxIvzrRxCMULimZH6uwW9RuEDHVa7ip5mVk406_bKGSUyCAv2TDCQPpm2t2VLZvXXSEhYxxUwSUWQGasfxAGZJstsfsm_CDKx3rI5tWLEAuhjLlhv3phBBmlG7T_-Kj_kgSWaq2PdMRnd1u9XhQJgUn505E8bI7HFc1RalOqMl2-Qn16I_uKUxxKXZPZU_zCPdcRLpLEAWYatdf-pw3pciopYP-KT5OFuq-oFvYlmQsiuoTMpekyXJZTpRl8qLPL8-8-eQzsQHnAEQvlmc9XXk__bDj_dEgmOeyIDOmZSGwbg.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-28T21:26:18.433200+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Erdogan mówi Trumpowi, że Türkiye monitoruje Hormuz i Jemen, popiera dyplomację Erdogan powiedział Trumpowi, że Türkiye i jego Mecc...",
+      "text_pl": "Według Ankary Erdogan mówi Trumpowi, że Türkiye monitoruje Ormuz i Jemen, popiera dyplomację Erdogan powiedział Trumpowi, że Türkiye i jej partnerzy w dziedzinie obronności z Mekki monitorują Ormuz i Jemen, podejmując działania dyplomatyczne – według Ankary. Zaoferował także wsparcie dla wznowionych negocjacji Rosja–Ukraina w ramach dyskusji przywódców na temat stosunków dwustronnych i konfliktów regionalnych. CZYTAJ WIĘCEJ",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "b6f1853baba8b9c7": {
+      "id": "b6f1853baba8b9c7",
+      "timestamp": "2026-10-28T20:04:37+00:00",
+      "country": "Iran",
+      "flag": "🇮🇷",
+      "theater": "Bliski Wschód (Zatoka Perska)",
+      "event_type": "Komunikat / Dyplomacja",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "BIG: JD Vance sent a letter to Iranian security chief Mohsen Rezaei, at Trump&#x27;s direction, seeking to revive peace talks...",
+      "text": "BIG: JD Vance sent a letter to Iranian security chief Mohsen Rezaei, at Trump&#x27;s direction, seeking to revive peace talks. The outreach aims to prevent a possible new U.S. attack on Iran after next week&#x27;s midterm elections. Discussions have focused on a negotiating framework rather than a concrete peace proposal, with Washington demanding nuclear concessions and Tehran seeking immediate economic relief. Source: WSJ",
+      "location_name": "Bliski Wschód (Zatoka Perska)",
+      "lat": 47.842,
+      "lon": 34.7588,
+      "url": "https://t.me/ClashReport/103440",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/103440"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/WRgu4mJSbfZn0Ca01NPbmqBmehNg20EVf2ISrMd5ao6sWeemWd6VtwC-iGiw62rRwOaDGB_mk9xKUzAxSVLRxYELYzZnK5R213G13dzIcDjF0ndbjTyshQUZEFzzlW9o8sxkE5lJ8eFC0bSV_QI_SZ5xIc_MPw9cYnzL79qopB9stHUCMKX0mTOpxRq4kWkRMdFb-mFISIT7PhU1haaIfKb5d0OyNJz0D5vj2RwngPhN0vI1Z_yBIefk-nmPuLu3rg9cWDpjbKy7f4-I8i86LPw4qX9F4kdxMYmMi9mu17KKDbR9wdr-nTjazWipcKiqCuLfmYH6Upxq4Kef1L6HEQ.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-28T21:26:18.433202+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "DUŻY: JD Vance wysłał list do szefa irańskiego bezpieczeństwa Mohsena Rezaei na polecenie Trumpa, starając się ożywić rozmowy pokojowe…",
+      "text_pl": "DUŻY: JD Vance wysłał list do szefa irańskiego bezpieczeństwa Mohsena Rezaei na polecenie Trumpa, starając się ożywić rozmowy pokojowe. Działania te mają na celu zapobieżenie możliwemu nowemu atakowi USA na Iran po przyszłotygodniowych wyborach śródokresowych. Dyskusje skupiały się na ramach negocjacyjnych, a nie na konkretnej propozycji pokojowej, przy czym Waszyngton żądał koncesji nuklearnych, a Teheran domagał się natychmiastowej pomocy gospodarczej. źródło: WSJ",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "a4fab0e958f86763": {
+      "id": "a4fab0e958f86763",
+      "timestamp": "2026-10-28T20:00:51+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "Сбито 20 беспилотников, летевших на Москву, — мэр Сергей Собянин",
+      "text": "Сбито 20 беспилотников, летевших на Москву, — мэр Сергей Собянин",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 48.0488,
+      "lon": 34.7696,
+      "url": "https://t.me/astrapress/129605",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/129605"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Obrona Przeciwlotnicza (OPL)"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "astrapress",
+      "added_at": "2026-10-28T21:26:18.433090+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Zestrzelono 20 dronów lecących w stronę Moskwy – burmistrz Siergiej Sobianin",
+      "text_pl": "Zestrzelono 20 dronów lecących w stronę Moskwy – burmistrz Siergiej Sobianin",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "9a06a6bd606aca97": {
+      "id": "9a06a6bd606aca97",
+      "timestamp": "2026-10-28T19:55:59+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Flávio Bolsonaro: I would like to thank President Milei for his courage, sense of justice, and respect for the rule of l...",
+      "text": "Flávio Bolsonaro: I would like to thank President Milei for his courage, sense of justice, and respect for the rule of law, and President Trump and the wonderful American people for welcoming me.",
+      "location_name": "Inne",
+      "lat": 48.0628,
+      "lon": 35.0072,
+      "url": "https://t.me/ClashReport/103436",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/103436"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/XW3JBQKyj1SI_yvvN9JbLFAJpEWleS1JlaZbC1MmLAde-AM6IXrcfzkLeubBFa0r8FJBpRDEvDPSte9hLYYJEpxpGIStmkd9habNL2EIU-Y2c1eKS6wjptuhA5_EMB1JYB1bNjtT5CxHIieZ34bn2RyLpzx6vlNFajj4dv5M3B9MizAtT_7GHB_DuU9Gsnn1MntrwiFWW5ADkQWpLjFPSlmKypjnYHjb7fFy1vIAzxD_if3QAjmeAtqhgM4tpKI6B4K6dec0q_UF0vGTv6ofuFiTc14C63BuNYm7WmVi3bQ06nvt3PNXXupLcjAVEqe44iKepG8QpXfxeo18YIH01g.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-28T21:26:18.433204+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Flávio Bolsonaro: Chciałbym podziękować prezydentowi Milei za jego odwagę, poczucie sprawiedliwości i poszanowanie rządów...",
+      "text_pl": "Flávio Bolsonaro: Chciałbym podziękować prezydentowi Milei za jego odwagę, poczucie sprawiedliwości i poszanowanie praworządności, a także prezydentowi Trumpowi i wspaniałemu narodowi amerykańskiemu za powitanie mnie.",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "d7884330eb6afa1f": {
+      "id": "d7884330eb6afa1f",
+      "timestamp": "2026-10-28T19:55:09+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "«Единая Россия» предложила засчитывать военную службу в стаж муниципальной службы Депутаты «Единой России» и сенаторы вн...",
+      "text": "«Единая Россия» предложила засчитывать военную службу в стаж муниципальной службы Депутаты «Единой России» и сенаторы внесли в Госдуму законопроект , который позволит учитывать военную службу и службу в органах внутренних дел при расчете стажа муниципальной службы. Документ подписали 341 парламентарий. Авторы инициативы рассчитывают, что изменения помогут участникам войны против Украины устроиться на работу в органы власти. Согласно законопроекту, в стаж будут засчитывать как срочную, так и контрактную военную службу. Для срочников и мобилизованных предусмотрен льготный расчет: один день службы будет приравниваться к двум дням муниципального стажа. Это может позволить бывшим военнослужащим претендовать на более высокие должности, получать надбавки к зарплате и дополнительные дни отпуска. В пояснительной записке авторы отмечают, что участникам боевых действий необходима «дополнительная поддержка» при трудоустройстве, в том числе в рамках программы «Время героев», которая готовит их к работе на руководящих должностях в государственных и муниципальных структурах.",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 48.0844,
+      "lon": 35.0396,
+      "url": "https://t.me/astrapress/129604",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/129604"
+        },
+        {
+          "name": "kommersant.ru",
+          "url": "https://www.kommersant.ru/doc/9063174?tg"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "astrapress",
+      "added_at": "2026-10-28T21:26:18.433092+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "„Jedna Rosja” zaproponowała wliczenie służby wojskowej do stażu służby miejskiej. Posłowie „Jednej Rosji” i senatorowie w...",
+      "text_pl": "„Jedna Rosja” zaproponowała wliczenie służby wojskowej do stażu służby miejskiej. Posłowie i senatorowie Jednej Rosji złożyli do Dumy Państwowej projekt ustawy, która umożliwiłaby uwzględnienie przy obliczaniu stażu pracy służby wojskowej i służby w organach spraw wewnętrznych. Dokument podpisało 341 parlamentarzystów. Autorzy inicjatywy mają nadzieję, że zmiany pomogą uczestnikom wojny z Ukrainą dostać pracę w organach rządowych. Zgodnie z projektem do stażu pracy wliczana będzie zarówno służba wojskowa, jak i kontraktowa służba wojskowa. Dla poborowych i poborowych przewidziano preferencyjne rozliczenie: jeden dzień służby będzie równy dwóm dniom służby miejskiej. Dzięki temu byli żołnierze mogliby ubiegać się o wyższe stanowiska, otrzymywać podwyżki i dodatkowe dni urlopu. W uzasadnieniu autorzy zauważają, że kombatanci potrzebują „dodatkowego wsparcia” w znalezieniu zatrudnienia, m.in. w ramach programu „Czas Bohaterów”, przygotowującego ich do pracy na stanowiskach kierowniczych w strukturach państwowych i gminnych.",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "92d1d1433e50ab60": {
+      "id": "92d1d1433e50ab60",
+      "timestamp": "2026-10-28T19:54:56+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🛵 Ударний БпЛА у напрямку Павлограду зі сходу.",
+      "text": "🛵 Ударний БпЛА у напрямку Павлограду зі сходу.",
+      "location_name": "Pawłograd",
+      "lat": 48.5277,
+      "lon": 35.8711,
+      "url": "https://t.me/kpszsu/91128",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91128"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T21:26:18.432954+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🛵 Uderz drona w kierunku Pawłogradu od wschodu.",
+      "text_pl": "🛵 Uderz drona w kierunku Pawłogradu od wschodu.",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "120960af4b08b77b": {
+      "id": "120960af4b08b77b",
+      "timestamp": "2026-10-28T19:54:14+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Komunikat / Dyplomacja",
+      "tactical_category": "Komunikat Sztabowy / Dyplomacja",
+      "tactical_icon": "📡",
+      "title": "Flávio Bolsonaro declared himself the country&#x27;s “true president-elect,” alleging widespread electoral fraud and accusing...",
+      "text": "Flávio Bolsonaro declared himself the country&#x27;s “true president-elect,” alleging widespread electoral fraud and accusing Lula and the Supreme Court of &quot;stealing&quot; the election. In a statement issued from the U.S., Bolsonaro said he had left Brazil with his family over fears of political persecution and vowed to lead the opposition from abroad. He thanked Trump for providing refuge and called on the international community not to &quot;normalize&quot; what he described as an &quot;authoritarian regime&quot; in Brazil.",
+      "location_name": "Inne",
+      "lat": 47.9844,
+      "lon": 35.1404,
+      "url": "https://t.me/ClashReport/103435",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/103435"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/X4_4RMwYE8v4yvfrlmesD-3pr25x-9wAoUMUdEQ2wMlt1Pu9vObzkaK9oE1W0EVGg2H09SEBEyYBRkmBdkb31ToX6bQNZDnYsfUsd9HCkU7pcCj0Nu0CNi1CrdHaY_A1Tturz0NRzKWB0V0yi5mBsLlupH-velXuWCIYAf62fSt0NQivGODUJYVDvgOugJJZGvryUG8P9fkrLZcnq1F-L6NsHirJ7lmByuWriyb92qAIv1IhOiAMPCBXZyWkweoke3B_E33GaL9xjVLE8pur6QYO-bDBFQdr-Ppt3X3kGNsNRhpQKZOcwkrLqF9KUCZCTxZeScj4DoHQGhuT2juiJA.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-28T21:26:18.433206+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Flávio Bolsonaro ogłosił się „prawdziwym prezydentem-elektem kraju”, zarzucając powszechne oszustwa wyborcze i oskarżając…",
+      "text_pl": "Flávio Bolsonaro ogłosił się „prawdziwym prezydentem-elektem” kraju, zarzucając powszechne oszustwa wyborcze i oskarżając Lulę i Sąd Najwyższy o „kradzież” wyborów. W oświadczeniu wydanym przez USA Bolsonaro oświadczył, że opuścił Brazylię wraz z rodziną w obawie przed prześladowaniami politycznymi i obiecał przewodzić zagranicznej opozycji. Podziękował Trumpowi za udzielenie schronienia i wezwał społeczność międzynarodową, aby nie „normalizowała” tego, co określił jako „reżim autorytarny” w Brazylii.",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "88e592c4122575c6": {
+      "id": "88e592c4122575c6",
+      "timestamp": "2026-10-28T19:30:55+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Ostrzał Artyleryjski",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "📝 Не стоим на месте 📝 На Бурлукском направлении российские войска продолжают зачистку окружённых подразделений ВСУ в обр...",
+      "text": "📝 Не стоим на месте 📝 На Бурлукском направлении российские войска продолжают зачистку окружённых подразделений ВСУ в образовавшемся ранее «котле». Активные боестолкновения продолжаются на участке Хрипуны — Захаровка — Ивановка. ➡️ В последние две недели не поступало сведений об ударах по украинской бронетехнике. Это может свидетельствовать о том, что большая её часть была уничтожена в прошлые месяцы, а проводить снабжение по земле к окружённым у ВСУ не хватает ресурсов. ➡️ Обстановка на противоположной «стенке котла» на рубеже Красный Яр — Купино пока остаётся скрытой «туманом войны». Учитывая общие тенденции на участке, с осторожным оптимизмом можно предположить, что в ближайшие недели появится ещё больше свидетельств, подтверждающих если не полную ликвидацию «котла», то хотя бы зачистку большей его части. 📌 В то же время интенсивность обстрелов приграничья Белгородской области немного, но снизилась. Если в середине сентября фиксировалось около тысячи обстрелов в неделю , то сейчас порядка 900 . Правда, проблемы со связью, рейсовыми автобусами, доставкой продуктов и бензина всё также остаются из-за регулярных атак по транспорту и инфраструктуре. ❗️ Дальнейшая зачистка «котла» необходима в первую очередь для пресечения со стороны ВСУ вылазок в сторону Белгородской области и раннего обнаружения пролёта дронов противника. Вместе с тем, это должно слегка облегчить жизнь приграничному Шебекинскому району , граничащему с зоной проведения операции по блокаде подразделений украинских формирований. Если у Вас есть дополнения по обстановке, Вы хотите, чтобы мы подсветили успехи Вашего подразделения, — Вы всегда можете написать нам в бот обратной связи @rybar_feedback_bot 📍 Карта в высоком разрешении 📍 English version 📍 Онлайн-карты доступны по подписке на map.rybar.ru #Бурлук #дайджест #карта #Россия #Украина ✈️ RU | ✈️ EN | ✉️ MAX ✉️ VK | ✉️ RuTube | ✉️ ОК | ✉️ Дзен 💸 Поддержать нас",
+      "location_name": "Biełgorod, Rosja",
+      "lat": 50.5954,
+      "lon": 36.5873,
+      "url": "https://t.me/rybar/84235",
+      "tactical_sources": [
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/84235"
+        },
+        {
+          "name": "#rybar_feedback_bot",
+          "url": "https://t.me/rybar_feedback_bot"
+        },
+        {
+          "name": "gallery.rybar.ru",
+          "url": "https://gallery.rybar.ru/images/upload/2026/10/28/20261028174317-0e26b777.jpg"
+        },
+        {
+          "name": "gallery.rybar.ru",
+          "url": "https://gallery.rybar.ru/images/upload/2026/10/28/20261028174320-5809d09f.jpg"
+        },
+        {
+          "name": "map.rybar.ru",
+          "url": "http://map.rybar.ru/"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar"
+        },
+        {
+          "name": "#rybar_in_english",
+          "url": "https://t.me/rybar_in_english"
+        },
+        {
+          "name": "max.ru",
+          "url": "https://max.ru/Rybar"
+        },
+        {
+          "name": "vk.com",
+          "url": "https://vk.com/rybar_force"
+        },
+        {
+          "name": "rutube.ru",
+          "url": "https://rutube.ru/u/rybar/"
+        },
+        {
+          "name": "ok.ru",
+          "url": "https://ok.ru/group/70000041986659"
+        },
+        {
+          "name": "dzen.ru",
+          "url": "https://dzen.ru/rybar"
+        },
+        {
+          "name": "qr.nspk.ru",
+          "url": "https://qr.nspk.ru/BS1A0068ID10D33B9IBAQRQ4M9T0NIFN?type=01&amp;bank=100000000008&amp;crc=36CB"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/BWeCDTPclFTJP-8d92J1IP8MxWhhSbhFI9h040v1CPZskSFIfea_z2323sVqVkR3iFy1b1xkSuRG8aPj3hVdbrabpvlpIFaV2oBPyWX47HtfqfItG5E57Ae8Sl983phIz4bJs3UZ_jAF_f1aKXpeJcXURaxNJ6cvOGqnGUWOz-PcOi0TKw7dxG332fYYQ0HJeILiTWvNbX4P5oTnKiTi5SY7CP2swUbKv1NpwV2wRw4qlFmbsPlRpgZORjI7uf_vTj_5yiba5dp0w-p9UXil0lUp4gkJY2Xe62r6eC9dAg6ZZOAlfhXB8WQY3UdFrhjXLWcFnAStztP64-HB3qP_4Q.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "rybar",
+      "added_at": "2026-10-28T21:26:18.433155+00:00",
+      "verified_by_sources": [
+        "rybar"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "📝 Nie stoimy w miejscu 📝 W kierunku Burluka wojska rosyjskie kontynuują sprzątanie okrążonych jednostek Sił Zbrojnych Ukrainy w...",
+      "text_pl": "📝 Nie stoimy w miejscu 📝 W kierunku Burluka wojska rosyjskie kontynuują usuwanie okrążonych jednostek Sił Zbrojnych Ukrainy w utworzonym wcześniej „kotle”. Aktywne starcia trwają na odcinku Khripuny-Zacharovka-Ivanovka. ➡️ W ciągu ostatnich dwóch tygodni nie było żadnych doniesień o atakach na ukraińskie pojazdy opancerzone. Może to wskazywać, że większość z nich została zniszczona w ostatnich miesiącach, a Siły Zbrojne Ukrainy nie dysponują wystarczającymi środkami, aby drogą lądową realizować zaopatrzenie okrążonej ludności. ➡️ Sytuacja na przeciwległej „ścianie kotła” na linii Krasny Jar – Kupino nadal pozostaje zasłonięta „mgłą wojny”. Biorąc pod uwagę ogólne tendencje w tym obszarze, z ostrożnym optymizmem można założyć, że w nadchodzących tygodniach pojawi się jeszcze więcej dowodów potwierdzających, jeśli nie całkowitą likwidację „kotła”, to przynajmniej oczyszczenie jego większości. 📌 Jednocześnie intensywność ostrzału przygranicznego obwodu Biełgorodu nieznacznie spadła, ale zmalała. Jeśli w połowie września odnotowywano około tysiąca ataków tygodniowo, obecnie jest ich około 900. To prawda, że ​​nadal występują problemy z komunikacją, regularnymi autobusami, dostawami żywności i benzyny z powodu regularnych ataków na transport i infrastrukturę. ❗️ Dalsze oczyszczanie „kotła” jest konieczne przede wszystkim w celu stłumienia najazdów Sił Zbrojnych Ukrainy w kierunku obwodu Biełgorodu i wczesnego wykrycia przelotu wrogich dronów. Jednocześnie powinno to nieco ułatwić życie przygranicznemu rejonowi Szebekinskiemu, który graniczy ze strefą blokady działania oddziałów formacji ukraińskich. Jeśli masz uzupełnienia do sytuacji, chcesz, żebyśmy podkreślili sukcesy Twojej jednostki - zawsze możesz napisać do nas w bocie opinii @rybar_feedback_bot 📍 Mapa w wysokiej rozdzielczości 📍 Wersja angielska 📍 Mapy online dostępne są w ramach subskrypcji na map.rybar.ru #Burluk #digest #map #Russia #Ukraina ✈️ RU | ✈️ PL | ✉️MAX ✉️ VK | ✉️ RuTube | ✉️OK | ✉️ Zen 💸 Wesprzyj nas",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "5284bc1181c6b96e": {
+      "id": "5284bc1181c6b96e",
+      "timestamp": "2026-10-28T19:25:24+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "Загальна оцінка загроз для України на ніч 29 жовтня. Ворог перебуває в процесі підготовки до майбутньої комбінованої рак...",
+      "text": "Загальна оцінка загроз для України на ніч 29 жовтня. Ворог перебуває в процесі підготовки до майбутньої комбінованої ракетної атаки. 🟩 Загрози з боку стратегічної авіації відсутні. 🟨 Загроза ударних БпЛА на низькому рівні. рБпЛА у невеликій кількості над територією України. Впродовж ночі можливі атаки по Київській, Дніпропетровській, Одеській, Харківській областях. 🟧 Балістичні загрози на середньому рівні — противник активно присутній на Брянщині та Курщині із запасом БК. Запуск Іскандер/С-400/Циркон/Онікс може відбутись у будь-який момент. Сили оборони протидіють намірам та регулярно зривають такі атаки. #обстановка@war_monitor",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/war_monitor/47841",
+      "tactical_sources": [
+        {
+          "name": "#war_monitor",
+          "url": "https://t.me/war_monitor/47841"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze",
+        "Rakieta Balistyczna"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 10,
+      "source_channel": "war_monitor",
+      "added_at": "2026-10-28T21:26:18.433071+00:00",
+      "verified_by_sources": [
+        "rybar",
+        "kpszsu",
+        "clashreport",
+        "war_monitor"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "Ogólna ocena zagrożeń dla Ukrainy w nocy 29 października. Wróg jest w trakcie przygotowań do nadchodzącego połączonego raka...",
+      "text_pl": "Ogólna ocena zagrożeń dla Ukrainy w nocy 29 października. Wróg jest w trakcie przygotowań do przyszłego połączonego ataku rakietowego. 🟩 Nie ma zagrożeń ze strony lotnictwa strategicznego. 🟨Zagrożenie atakiem UAV jest na niskim poziomie. rBpLA w małych ilościach na terytorium Ukrainy. W nocy możliwe są ataki w obwodach kijowskim, dniepropietrowskim, odeskim i charkowskim. 🟧 Zagrożenia balistyczne średniego szczebla — wróg jest aktywnie obecny w obwodzie briańskim i kurskim z zapasami BC. Premiera Iskandera/S-400/Zirkonu/Onyxu może nastąpić w dowolnym momencie. Siły obronne sprzeciwiają się tym zamiarom i rutynowo udaremniają takie ataki. #обстановка@war_monitor",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "4ec410fde741454c": {
+      "id": "4ec410fde741454c",
+      "timestamp": "2026-10-28T19:19:06+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "В Ровенской области прилет по предприятию в Сарнах. Погиб один человек, — ОВА",
+      "text": "В Ровенской области прилет по предприятию в Сарнах. Погиб один человек, — ОВА",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 47.9252,
+      "lon": 35.0942,
+      "url": "https://t.me/astrapress/129602",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/129602"
+        },
+        {
+          "name": "#oleksandrkoval_rv",
+          "url": "https://t.me/oleksandrkoval_rv/13102"
+        }
+      ],
+      "media_urls": [
+        "https://cdn1.telesco.pe/file/Jqbq4A-gkqvwH7U-1w9B7cAof7ohqZHkW3Y2pf6Vy-imyEPKnsKl8ulCuVKOQpE4e6Y4TUdop8ANljcNpkQcyI3mqf1qQ800ec-V0X0Kb7FW2hkgE5joMP44ahUay62sjYvcRcLa-CoGNRujdKF_t6ThmKWmn1PQefMJI44-zjz0SI21-n4LTJX4z0eqmEdbAEDEgI3Qg1znfOBxLM-I8s71rrAL8dYWdldpm9We8Dy4ZvqXoV8SQeeFYNsO_s2Xx2FtaHhO762B8Hpr1jro0HJMLAXdsNBRrpfdrmBn42aoqi-xH6jicga8rBJc1Gi4VvtsFu9Qlt4qfMF_-a7C7A.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Obiekt Przemysłowy / Fabryka",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "astrapress",
+      "added_at": "2026-10-28T21:26:18.433094+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "W obwodzie rówieńskim dojazd do przedsiębiorstwa w Sarnach. Jedna osoba zmarła – OVA",
+      "text_pl": "W obwodzie rówieńskim dojazd do przedsiębiorstwa w Sarnach. Jedna osoba zmarła – OVA",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "027007a6b65b9e88": {
+      "id": "027007a6b65b9e88",
+      "timestamp": "2026-10-28T19:14:05+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА з півночі Черкащини західним курсом на Київщину.",
+      "text": "🏍 Реактивний БпЛА з півночі Черкащини західним курсом на Київщину.",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/kpszsu/91126",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91126"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T21:26:18.432956+00:00",
+      "verified_by_sources": [
+        "rybar",
+        "kpszsu",
+        "clashreport",
+        "war_monitor"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🏍 Odrzutowy UAV z północy Czerkas na zachodnim kursie do obwodu kijowskiego.",
+      "text_pl": "🏍 Odrzutowy UAV z północy Czerkas na zachodnim kursie do obwodu kijowskiego.",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "bc83048ccf5038fc": {
+      "id": "bc83048ccf5038fc",
+      "timestamp": "2026-10-28T19:08:31+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА з Брянської області ➡️ на північ Чернігівщини",
+      "text": "🏍 Реактивний БпЛА з Брянської області ➡️ на північ Чернігівщини",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.9564,
+      "lon": 34.9004,
+      "url": "https://t.me/kpszsu/91125",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91125"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T21:26:18.432968+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy UAV z obwodu briańskiego ➡️ na północ od obwodu czernihowskiego",
+      "text_pl": "🏍 Odrzutowy UAV z obwodu briańskiego ➡️ na północ od obwodu czernihowskiego",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "de6c021125cb5141": {
+      "id": "de6c021125cb5141",
+      "timestamp": "2026-10-28T19:07:51+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Zelensky Acknowledges Russia Needs Security Guarantees for First Time Ukrainian President Volodymyr Zelensky has acknowl...",
+      "text": "Zelensky Acknowledges Russia Needs Security Guarantees for First Time Ukrainian President Volodymyr Zelensky has acknowledged Russia&#x27;s need for security guarantees for the first time, marking a shift in Kyiv&#x27;s position as U.S.-led diplomacy gathers pace. He insists ending the war and securing Ukraine must take priority. READ MORE",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/ClashReport/103432",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/103432"
+        },
+        {
+          "name": "clashreport.com",
+          "url": "https://clashreport.com/world/articles/zelensky-acknowledges-russia-needs-security-guarantees-for-first-time-7rhpaoxcfrw"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/oPS_73nyefG_CnYnT5cIp-DDNlEDzXCYbgLdVKSL0UD_kfcMfjVLHADRvI9S_UXuO3eFNHaKfl3Lrwn8TMTE6_Doh3vYG74-_jAxiWCL2NV40BCMQ-455B_A3k4oUt6FsoPAqT0xzwa444CJ6hkizfo4AJglm4F1qaXfes-CpYq1FWWEiPs-edjPCTH-Z3gsEMs-geCgTSIES9gcs1zBbKTQY9h91CifLkSu89eJj57Kc3O6_d5x-lIWEpubfglvNCw56vUCe3EckKz99OGQ9yaKEt8LDAKV2zKo9UbvqCk2tY_vlMd7OO3ayoRzJJAveZ-MsTRKc-nTYNyZRPp-Nw.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-28T21:26:18.433208+00:00",
+      "verified_by_sources": [
+        "rybar",
+        "kpszsu",
+        "clashreport",
+        "war_monitor"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "Zełenski po raz pierwszy przyznaje, że Rosja potrzebuje gwarancji bezpieczeństwa Prezydent Ukrainy Wołodymyr Zełenski przyznał…",
+      "text_pl": "Zełenski po raz pierwszy przyznaje, że Rosja potrzebuje gwarancji bezpieczeństwa Prezydent Ukrainy Wołodymyr Zełenski po raz pierwszy przyznał, że Rosja potrzebuje gwarancji bezpieczeństwa, co oznacza zmianę stanowiska Kijowa w miarę przyspieszania dyplomacji pod przewodnictwem USA. Upiera się, że zakończenie wojny i zabezpieczenie Ukrainy muszą być priorytetem. CZYTAJ WIĘCEJ",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "350caf6fc58bf08c": {
+      "id": "350caf6fc58bf08c",
+      "timestamp": "2026-10-28T19:02:31+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА з півночі Черкащини західним курсом на Київщину.",
+      "text": "🏍 Реактивний БпЛА з півночі Черкащини західним курсом на Київщину.",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/kpszsu/91124",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91124"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T21:26:18.432971+00:00",
+      "verified_by_sources": [
+        "rybar",
+        "kpszsu",
+        "clashreport",
+        "war_monitor"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🏍 Odrzutowy UAV z północy Czerkas na zachodnim kursie do obwodu kijowskiego.",
+      "text_pl": "🏍 Odrzutowy UAV z północy Czerkas na zachodnim kursie do obwodu kijowskiego.",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "447a40520c918d40": {
+      "id": "447a40520c918d40",
+      "timestamp": "2026-10-28T19:00:02+00:00",
+      "country": "Polska",
+      "flag": "🇵🇱",
+      "theater": "Wschodnia Flanka NATO (Polska)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Ślad prowadzi do Polski. Putin wściekły przez tajny raport rosyjskiego wywiadu",
+      "text": "Ślad prowadzi do Polski. Putin wściekły przez tajny raport rosyjskiego wywiadu. Były serbski prezydent, Aleksander Vučić, opowiedział o swoim spotkaniu z Putinem w wywiadzie dla rosyjskiej dziennikarki, Kseni Sobczak. Polityk zdradził, że rosyjski prezydent nie krył wściekłości z powodu serbskiej broni trafiającej na Ukrainę.",
+      "title_pl": "Ślad prowadzi do Polski. Putin wściekły przez tajny raport rosyjskiego wywiadu",
+      "text_pl": "Ślad prowadzi do Polski. Putin wściekły przez tajny raport rosyjskiego wywiadu. Były serbski prezydent, Aleksander Vučić, opowiedział o swoim spotkaniu z Putinem w wywiadzie dla rosyjskiej dziennikarki, Kseni Sobczak. Polityk zdradził, że rosyjski prezydent nie krył wściekłości z powodu serbskiej broni trafiającej na Ukrainę.",
+      "location_name": "Wschodnia Flanka NATO (Polska)",
+      "lat": 52.1688,
+      "lon": 21.051,
+      "url": "https://defence24.pl/polityka-obronna/slad-prowadzi-do-polski-putin-wsciekly-przez-tajny-raport-rosyjskiego-wywiadu",
+      "tactical_sources": [
+        {
+          "name": "Defence24",
+          "url": "https://defence24.pl/polityka-obronna/slad-prowadzi-do-polski-putin-wsciekly-przez-tajny-raport-rosyjskiego-wywiadu"
+        }
+      ],
+      "media_urls": [
+        "https://cdn.defence24.pl/2026/10/28/1200xpx/MaeMRjpJ3srz5wThxhyIdvUzH3N7QMkIa1zSUChP.yzeo.jpg",
+        "https://cdn.defence24.pl/2026/10/28/320x240px/MaeMRjpJ3srz5wThxhyIdvUzH3N7QMkIa1zSUChP.kjxm.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "defence24",
+      "verified_by_sources": [
+        "defence24"
+      ],
+      "multi_source_verified": false,
+      "added_at": "2026-10-28T21:26:18.433311+00:00",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "7690f9789612f661": {
+      "id": "7690f9789612f661",
+      "timestamp": "2026-10-28T18:59:29+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Starcie Lądowe / Szturm",
+      "tactical_icon": "⚔️",
+      "title": "▶ Итоги 27 октября видеосводка от руководителя проекта @rybar Михаила Звинчука специально для @SolovievLive На Бурлукско...",
+      "text": "▶ Итоги 27 октября видеосводка от руководителя проекта @rybar Михаила Звинчука специально для @SolovievLive На Бурлукском и Днепропетровском направлениях продолжаются тяжёлые бои. В США рассматривают поставки российского дизеля как инструмент давления на Москву, а в Европе вновь ищут «российскую руку» в кибератаках на промышленную инфраструктуру. Во Франции добиваются санкций против сторонников российского влияния в Африке. На Ближнем Востоке обсуждают возможность новых ударов США по Ирану после выборов, пока в Израиле продолжается подсчёт голосов. Подробнее — в новом выпуске «Разборов Рыбаря — Итоги дня» . #дайджест #разбор #эфиры ✉ MAX 💸 Поддержать нас",
+      "location_name": "Dniepr",
+      "lat": 48.4647,
+      "lon": 35.0462,
+      "url": "https://t.me/rybar/84234",
+      "tactical_sources": [
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/84234"
+        },
+        {
+          "name": "rutube.ru",
+          "url": "https://rutube.ru/video/4a391a308c2a427f44e36905def63c3e/"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar"
+        },
+        {
+          "name": "#solovievlive",
+          "url": "https://t.me/SolovievLive"
+        },
+        {
+          "name": "max.ru",
+          "url": "https://max.ru/Rybar"
+        },
+        {
+          "name": "qr.nspk.ru",
+          "url": "https://qr.nspk.ru/BS1A0068ID10D33B9IBAQRQ4M9T0NIFN?type=01&amp;bank=100000000008&amp;crc=36CB"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/oso7KLZFk9-7H1XFlDAZnOiXYhksmTQ6XMMfjNJGayc7Ib2-C__4Hz0tmsj8SKwF1AfV3xpm-JxgDc2m4EQIwmiaYOvi0Reft1oaQV8ioeaT0utX1Xu1H0MfGGFOIF0Ki8VME9Fc37bIwKiPwOEj-RGdDG-u1w2qQGDyBD8LV04yHxJyFwNxLUIaGC_LCXr5upu3V-APMVCh8L0d82O7iCpK2EYgUIGPZyNO8cTpGvMxPHH1Nokqoe7W8BHJ5Vra6kwijCWGyw-4FKDpJhekz79Z3oWvBb9Ehd2RGmAd0zI8wYdiNdd2zSYzyh9JoJLUE5NvTz_p-aC1ds7aaNnTfA.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "rybar",
+      "added_at": "2026-10-28T21:26:18.433157+00:00",
+      "verified_by_sources": [
+        "rybar",
+        "kpszsu"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "▶ Wyniki Podsumowanie wideo z 27 października od menadżera projektu @rybar Michaiła Zvinchuka specjalnie dla @SolovievLive On Burluk...",
+      "text_pl": "▶ Wyniki Podsumowanie wideo z 27 października od kierownika projektu @rybar Michaiła Zwinczuka specjalnie dla @SolovievLive Ciężkie walki trwają w kierunkach Burluk i Dniepropietrowsk. W Stanach Zjednoczonych dostawy rosyjskiego oleju napędowego traktowane są jako narzędzie nacisku na Moskwę, w Europie ponownie szukają „rosyjskiej ręki” w cyberatakach na infrastrukturę przemysłową. Francja domaga się sankcji wobec zwolenników rosyjskich wpływów w Afryce. Na Bliskim Wschodzie dyskutują o możliwości nowych amerykańskich ataków na Iran po wyborach, podczas gdy w Izraelu trwa liczenie głosów. Więcej szczegółów w nowym numerze „Analizy Rybaka – Wyniki Dnia”. #skrót #analiza #transmisje ✉ MAX 💸 Wesprzyj nas",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "b53961c838cb55c9": {
+      "id": "b53961c838cb55c9",
+      "timestamp": "2026-10-28T18:52:10+00:00",
+      "country": "Jemen",
+      "flag": "🇾🇪",
+      "theater": "Jemen i Morze Czerwone",
+      "event_type": "Komunikat / Dyplomacja",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Turkish President Erdogan held a phone call with Trump to discuss bilateral relations and regional and global developmen...",
+      "text": "Turkish President Erdogan held a phone call with Trump to discuss bilateral relations and regional and global developments. Erdogan stressed the importance of strengthening Türkiye-U.S. ties, closely monitoring developments in the Strait of Hormuz and Yemen, and pursuing diplomatic solutions. He also reaffirmed Türkiye’s readiness to support efforts to revive peace talks between Russia and Ukraine. Trump congratulated Erdogan and the Turkish people on Republic Day and wished success for the Organization of Turkic States summit.",
+      "location_name": "Jemen i Morze Czerwone",
+      "lat": 48.0764,
+      "lon": 34.8242,
+      "url": "https://t.me/ClashReport/103431",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/103431"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/pxyEfC-ovU_L29oQbPjTZOLkBJ0gKBhrbTQsrRIHnIPU_3W2FC9h6z6zzcVlyAPzsI2aug7UD3h5RX5vFBjpLee8YMKCQCxCwxKcTZ1EjV6vk222yzvH6nkOrrGy91HdI_28XnyP5x9J1B8YjEBDl8b_UhVpjpn4JGc7I2DoGptsbz8nNMA8lo0rUDF6-sh9ae0lWxIgRy2GubITvzO9r4V7PQGdM3rkQ4WZmFSMMe0xUhthBoDPQajgrPX6c2Tv5RCJBMlYJByRYKw7jhqF55G12jZ5sULNbuBtyscHMpNT5yKslCSB5f9eK3FvWs0r-Ri4y364PrOPsvYja6xFdQ.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-28T21:26:18.433211+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Prezydent Turcji Erdogan przeprowadził rozmowę telefoniczną z Trumpem, aby omówić stosunki dwustronne oraz rozwój regionalny i globalny…",
+      "text_pl": "Prezydent Turcji Erdogan przeprowadził rozmowę telefoniczną z Trumpem, aby omówić stosunki dwustronne oraz rozwój sytuacji regionalnej i globalnej. Erdogan podkreślił znaczenie wzmocnienia porozumienia turecko-amerykańskiego ścisłe monitorowanie rozwoju sytuacji w Cieśninie Ormuz i Jemenie oraz poszukiwanie rozwiązań dyplomatycznych. Potwierdził także gotowość Turcji do wspierania wysiłków na rzecz ożywienia rozmów pokojowych między Rosją a Ukrainą. Trump pogratulował Erdoganowi i narodowi tureckiemu Dnia Republiki oraz życzył powodzenia szczytowi Organizacji Państw Tureckich.",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "cb22f813dbfd9f90": {
+      "id": "cb22f813dbfd9f90",
+      "timestamp": "2026-10-28T18:38:50+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Abdul El-Sayed: Trump has tactics. He doesn&#x27;t have strategies. Strategies require a kind of patience and a kind of long-...",
+      "text": "Abdul El-Sayed: Trump has tactics. He doesn&#x27;t have strategies. Strategies require a kind of patience and a kind of long-term thinking about the consequences of your actions. Trump has never shown long-term thinking about the consequences of his actions, nor has he ever shown any discipline about being able to persist in a process.",
+      "location_name": "Inne",
+      "lat": 47.9688,
+      "lon": 34.946,
+      "url": "https://t.me/ClashReport/103428",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/103428"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/OWl_ZaAz8qYZDhmWv7TzuhAS2VCC4i6gMYnEnIFmKbEGAdFLZhM6nY_IHhFKN7lHlTWfjxBGNiXKIqevzXr7tMiAm92CB4M9YS5zqMEGBstvq3smU8mYtNhEfH3ldf1p215bgdhJt1NDISFT1CINDYJpiKfUiWWaEWgfmyAN0JIfQhaBy6uPBDCZbwBACPugWZRBejlMQTB13AbdfwwA53ITDGNfgNtH4893ESYd9dx8gJCPmlHtzlKCH1ANkbhexACcEG0NAXuqR30DrsEc7ahsSKcAmbo4NTcb6FZUbeUm5jrR2l82RiybwsSPyavMVsHHbfB44qP2nokZGQmXFw"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/1e4c681371.mp4?token=Jq2gZ4skTDTG7h1mEgf-PJredjvAyc-pjdX-py256Cn8xsl2WpEfK7UjNYzWQDmLHoMAgQEmlrLm7tOmqZ-byEZFmPKSjLWRufYFq3c43Gls5EBeP6Yfkms1Cd_TunLY53SlkrLbxERk5NjAyWTiDNA9iF8pSPafcfR3Sf87OBBfLc-ug8FPuG9auh6GR2yfnvsst2o58XeWnb1i5uHJhcTQFRflY08nwKMfKyEmDidMltWicL9ud1jyCVHv6L_Cjb_127lRG4o3O0XBJoGELJhfJEafLOr1o4FeArz72iBflhu5Uq1GDBmFFE8c50oaRkStSjNX1yEsiaAwncEatw",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-28T21:26:18.433213+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Abdul El-Sayed: Trump ma taktykę. Nie ma strategii. Strategie wymagają pewnego rodzaju cierpliwości i pewnego rodzaju długotrwałego...",
+      "text_pl": "Abdul El-Sayed: Trump ma taktykę. Nie ma strategii. Strategie wymagają pewnego rodzaju cierpliwości i pewnego rodzaju długoterminowego myślenia o konsekwencjach swoich działań. Trump nigdy nie wykazał się długoterminowym myśleniem o konsekwencjach swoich działań ani nigdy nie wykazał się dyscypliną, aby móc wytrwać w procesie.",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "04f82dc50808ef97": {
+      "id": "04f82dc50808ef97",
+      "timestamp": "2026-10-28T18:37:07+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Вінниччина: реактивний БпЛА курсом на Вапнярку/Томашпіль",
+      "text": "🏍 Вінниччина: реактивний БпЛА курсом на Вапнярку/Томашпіль",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.8552,
+      "lon": 35.1644,
+      "url": "https://t.me/kpszsu/91123",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91123"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T21:26:18.432973+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Winnica: odrzutowy UAV zmierzający do Vapnyarki/Tomaszpil",
+      "text_pl": "🏍 Winnica: odrzutowy UAV zmierzający do Vapnyarki/Tomaszpil",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "648f649a30298f14": {
+      "id": "648f649a30298f14",
+      "timestamp": "2026-10-28T18:36:03+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Abdul El-Sayed on Trump: We are being actively bullied by the dumbest people in the room. And I mean, Donald Trump is an...",
+      "text": "Abdul El-Sayed on Trump: We are being actively bullied by the dumbest people in the room. And I mean, Donald Trump is an idiot. Whatever you think about him, he has one genius, which is the genius of getting attention, because his dad never gave him enough. Because he was a nepo baby, because he had resources, he realized quickly that he just craved attention and then used the bullying tactics that he uses right now to get it. But the man is an idiot. I mean, just when it comes down to it, just a fool.",
+      "location_name": "Inne",
+      "lat": 47.8728,
+      "lon": 34.7858,
+      "url": "https://t.me/ClashReport/103426",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/103426"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/kaHipy1YZ9jwZ1a4qD9phFjI8Kp-OARtyAYoJVAbI7ZW3dKJSSDR8xzrY3p3Jxj9MgQHaVDAL02auV82QSRKpKKIlK3ZhDYl9l2e0BPyRxDhJ3ocIUpy03d-1sX6xM7Bb4iwClBP-LuMmruCEpi4PZkJgy4Y5i2rYTGKhQR5QnRK-BpZWtQu9MNrOnTY6uoidilOU-wnNJlx39500sZ32j2xyCbrSnsjzBb3xBTt5q6-5Gej7bY5I-5exOTR_DY1LC7s4qRxMqDecZ2t8U38CDTeg4jO4cpT5L78js5tIc0aZ6DMdVS9ecrS9x7iQaQxO2P-HNpsN0U4uLrQShrEBg"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/7cd0e0270d.mp4?token=WRzhB3bIbgn0BTXXdaFpS50_eRIriKeJfgK9voO8sRiwTIpf2I2ehTYf4sgmOgcEVGXQGHGKY_WeiHp4xK2lznNEoJMjkCo7KA2egjX_ZrQBNQPMY6F02A0oOpGOdcKNZ4PCIhgFQJbsFkVj9cxPePkKS0gB7hzC-mMNR2trwXz-rJaj2y9ZpVoxMskWQ5EiQD3SNLkikDM5p9ZHwifCWDNJOSHNrkMRTcuTE3yQFz9mHgeCbkkxveOcwqdRftQaDaheiDaKQ8j_KzKtHn9UwTubUpQWbPxulIYsluVWwlmVZ2VrF75s97fz79MsMrBXayxOtsrXQNZ1pPgzHMwofA",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-28T21:26:18.433215+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Abdul El-Sayed o Trumpie: Jesteśmy aktywnie zastraszani przez najgłupszych ludzi na sali. I mam na myśli, że Donald Trump jest...",
+      "text_pl": "Abdul El-Sayed o Trumpie: Jesteśmy aktywnie zastraszani przez najgłupszych ludzi na sali. A ja mówię, że Donald Trump to idiota. Cokolwiek o nim myślisz, ma jeden geniusz, którym jest geniusz przyciągania uwagi, ponieważ jego tata nigdy nie dawał mu wystarczająco dużo. Ponieważ był dzieckiem nepo, ponieważ miał zasoby, szybko zdał sobie sprawę, że po prostu pragnął uwagi, a następnie zastosował taktykę znęcania się, której obecnie używa, aby ją zdobyć. Ale ten człowiek jest idiotą. To znaczy, jeśli o to chodzi, po prostu głupiec.",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "95c127b67b0d3552": {
+      "id": "95c127b67b0d3552",
+      "timestamp": "2026-10-28T18:34:48+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Вінниччина: реактивний БпЛА курсом на Тростянец/Крижопіль",
+      "text": "🏍 Вінниччина: реактивний БпЛА курсом на Тростянец/Крижопіль",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.1816,
+      "lon": 35.1146,
+      "url": "https://t.me/kpszsu/91122",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91122"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T21:26:18.432975+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Winnica: odrzutowy UAV skierował się do Trostianca/Kryżopola",
+      "text_pl": "🏍 Winnica: odrzutowy UAV skierował się do Trostianca/Kryżopola",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "a62088258637469e": {
+      "id": "a62088258637469e",
+      "timestamp": "2026-10-28T18:31:24+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА повз Магдалинівку на Дніпропетровщині ➡️ на Полтавщину (Кобеляки)",
+      "text": "🏍 Реактивний  БпЛА  повз Магдалинівку на Дніпропетровщині ➡️ на Полтавщину (Кобеляки)",
+      "location_name": "Dniepr",
+      "lat": 48.4647,
+      "lon": 35.0462,
+      "url": "https://t.me/kpszsu/91120",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91120"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 9,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T21:26:18.432977+00:00",
+      "verified_by_sources": [
+        "rybar",
+        "kpszsu"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🏍 Reaktywne BpLA obok Magdaliniwki w obwodzie dniepropietrowskim ➡️ do obwodu połtawskiego (Kobelyak)",
+      "text_pl": "🏍 Reaktywne BpLA obok Magdaliniwki w obwodzie dniepropietrowskim ➡️ do obwodu połtawskiego (Kobelyak)",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "bd43b698b391f981": {
+      "id": "bd43b698b391f981",
+      "timestamp": "2026-10-28T18:29:52+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Вінниччина: реактивний БпЛА курсом на Бершадь",
+      "text": "🏍 Вінниччина: реактивний БпЛА курсом на Бершадь",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.9852,
+      "lon": 34.8854,
+      "url": "https://t.me/kpszsu/91119",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91119"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T21:26:18.432980+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Winnica: odrzutowy UAV skierował się do Berszadu",
+      "text_pl": "🏍 Winnica: odrzutowy UAV skierował się do Berszadu",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "3ee6617b806f191b": {
+      "id": "3ee6617b806f191b",
+      "timestamp": "2026-10-28T18:18:34+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "📉 Ціна війни для московії 👥 Понад 1,58 млн втрат і $700 млрд: ціна війни для московії Інфографіка від Генштабу підбиває ...",
+      "text": "📉 Ціна війни для московії 👥 Понад 1,58 млн втрат і $700 млрд: ціна війни для московії Інфографіка від Генштабу підбиває підсумки з 24 лютого 2022 року. 👥 Особовий склад 🟡 втрати понад 1 580 000 осіб; 🟡 у середньому 1 000 щодня, тобто одна людина кожні півтори хвилини; 🟡 понад $95 млн на добу йде на виплати за загиблих і поранених, ще понад $10 млрд у 2025 році пішло на одноразові бонуси контрактникам. 🔫 Техніка 🟡 12 448 танків, 51 674 артсистеми,  25 609 бойових броньованих машин; 🟡 449 літаків, 356 гелікоптерів, 35 кораблів і катерів, 2 підводні човни; 🟡 Понад 5 000 ракет і понад 585 000 дронів; 🟡 Загальна сума втрат техніки перевищує $204 млрд. 🔫 Військові витрати 🟡 $86 млрд у 2022 році, $109 млрд у 2023-му, $149 млрд у 2024-му, $190 млрд у 2025-му, $185 млрд у 2026-му; 🟡 частка ВВП зросла з 4% у 2022 році до 7,5% у 2025-му; 🟡 удари по нафтогалузі з серпня 2025 по серпень 2026 року коштували московії $13,5 млрд. 🏬 Що можна було б збудувати? На ці гроші, за підрахунком авторів, московія могла б мати 🟡 10 000 км сучасних трас, 🟡 1 000 нових шкіл, 🟡 200 великих лікарень, 🟡 по 1 млн рублів на кожну дитину, народжену після вторгнення, 🟡 подвоєну пенсію кожному пенсіонеру на 2 роки і понад 10 років витрат на науку. Але московія обрала війну і кожен день продовжує її обирати Мапа 🛑 Блог 🛑 Написати нам 🛑 ЗСУHelp 🛑 Підтримати нас",
+      "location_name": "Sumy",
+      "lat": 50.9077,
+      "lon": 34.7981,
+      "url": "https://t.me/DeepStateUA/23935",
+      "tactical_sources": [
+        {
+          "name": "DeepState",
+          "url": "https://t.me/DeepStateUA/23935"
+        },
+        {
+          "name": "#generalstaffzsu",
+          "url": "https://t.me/GeneralStaffZSU/42722"
+        },
+        {
+          "name": "deepstatemap.live",
+          "url": "https://deepstatemap.live/"
+        },
+        {
+          "name": "deepstateua.com",
+          "url": "https://deepstateua.com/"
+        },
+        {
+          "name": "#newsdeepstatebot",
+          "url": "http://t.me/newsDeepStatebot"
+        },
+        {
+          "name": "#help_deepstateua",
+          "url": "https://t.me/help_deepstateua"
+        },
+        {
+          "name": "buymeacoffee.com",
+          "url": "https://www.buymeacoffee.com/deepstateua/membership"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/j6MMPii83Edr0WLkFmm9N3PpoLKrVlJL1Kq5nR1nIeiKQMy4WDg8Cpql-Igqs3VJ56_2zzS5kTdwYGNF7nnLYzyaw-Kyd6H5MQUvBc1QOiUR1GQPQKTTISlmW0_Uf1g1ZCM2w-LUgpWBWPJQo8rg1XRUjqis4Yw9W7YqGY3kKQF7HoKJYM-DwPo2xZdZ10u3ZmY7vOhsu50uoWs9sXrRh0ItQ3hcTrRJu0UOqyiZ4BuVr-dYIShgF1rPYfDdf-fpKEP6egSRk-PXpxu8QqLSpDeQ9EEv4XoKPyW18CtMUaJjCt4p-llLsxxMpEZGlEC30DUNy6OptZcSn7ppL5240w"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "DeepStateUA",
+      "added_at": "2026-10-28T21:26:18.433116+00:00",
+      "verified_by_sources": [
+        "DeepStateUA"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "📉 Cena wojny dla Moskwy 👥 Ponad 1,58 miliona strat i 700 miliardów dolarów: cena wojny dla Moskwy. Infografika Sztabu Generalnego pokazuje...",
+      "text_pl": "📉 Cena wojny dla Moskwy 👥 Ponad 1,58 miliona strat i 700 miliardów dolarów: cena wojny dla Moskwy. Infografika ze Sztabu Generalnego podsumowuje wyniki z 24 lutego 2022 r. 👥 Straty kadrowe 🟡 ponad 1 580 000 osób; 🟡 średnio 1000 dziennie, czyli jedna osoba co półtorej minuty; 🟡 Ponad 95 milionów dolarów dziennie trafia na zasiłki dla zabitych i rannych, kolejne 10 miliardów dolarów w 2025 roku trafiło na jednorazowe premie dla pracowników kontraktowych. 🔫 Sprzęt 🟡 12 448 czołgów, 51 674 systemów artyleryjskich, 25 609 bojowych wozów opancerzonych; 🟡 449 samolotów, 356 helikopterów, 35 statków i łodzi, 2 łodzie podwodne; 🟡 Ponad 5000 rakiet i ponad 585 000 dronów; 🟡 Całkowita kwota strat w sprzęcie przekracza 204 miliardy dolarów. 🔫 Wydatki na wojsko 🟡 86 miliardów dolarów w 2022, 109 miliardów dolarów w 2023, 149 miliardów dolarów w 2024, 190 miliardów dolarów w 2025, 185 miliardów dolarów w 2026; 🟡 udział w PKB wzrósł z 4% w 2022 r. do 7,5% w 2025 r.; 🟡 Strajki w przemyśle naftowym od sierpnia 2025 do sierpnia 2026 kosztowały Moskwę 13,5 miliarda dolarów. 🏬 Co można by zbudować? Za te pieniądze, według obliczeń autorów, Moskwa mogłaby mieć 🟡 10 000 km nowoczesnych autostrad, 🟡 1000 nowych szkół, 🟡 200 dużych szpitali, 🟡 1 milion rubli na każde dziecko urodzone po inwazji, 🟡 podwojoną emeryturę dla każdego emeryta przez 2 lata i ponad 10 lat wydatków na naukę. Ale Moskwa wybrała wojnę i wybiera ją nadal każdego dnia Mapa 🛑 Blog 🛑 Napisz do nas 🛑 ZSUHelp 🛑 Wesprzyj nas",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "125c84c26faeb2c0": {
+      "id": "125c84c26faeb2c0",
+      "timestamp": "2026-10-28T18:10:32+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Uderzenie Balistyczne / Rakieta",
+      "tactical_icon": "🚀",
+      "title": "How Long Can Ukraine Keep Fighting Without US Support? European and domestic arms production give Ukraine staying power,...",
+      "text": "How Long Can Ukraine Keep Fighting Without US Support? European and domestic arms production give Ukraine staying power, but a US cutoff would expose gaps in missile defense, intelligence, and communications that money alone cannot quickly close. READ MORE",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.0284,
+      "lon": 34.8632,
+      "url": "https://t.me/ClashReport/103425",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/103425"
+        },
+        {
+          "name": "clashreport.com",
+          "url": "https://clashreport.com/focus/articles/how-long-can-ukraine-keep-fighting-without-us-support-hm8r0lubs7g"
+        },
+        {
+          "name": "Satelita NASA",
+          "url": "https://firms.modaps.eosdis.nasa.gov/map/#d:2026-10-28..2026-10-28;l:viirs_snpp_nrt;@38.97,50.78,11z"
+        },
+        {
+          "name": "Satelita NASA",
+          "url": "https://firms.modaps.eosdis.nasa.gov/map/#d:2026-10-28..2026-10-28;l:viirs_snpp_nrt;@38.96,50.78,11z"
+        },
+        {
+          "name": "Satelita NASA",
+          "url": "https://firms.modaps.eosdis.nasa.gov/map/#d:2026-10-28..2026-10-28;l:viirs_snpp_nrt;@37.64,49.62,11z"
+        },
+        {
+          "name": "Satelita NASA",
+          "url": "https://firms.modaps.eosdis.nasa.gov/map/#d:2026-10-28..2026-10-28;l:viirs_snpp_nrt;@37.69,48.29,11z"
+        },
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://redd.it/1xhanoy"
+        },
+        {
+          "name": "Telegram (#r_combatfootage)",
+          "url": "https://t.me/r_combatfootage/42779"
+        },
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://t.me/r_combatfootage"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/pGCMikWNZr534A8UZ46WOpRvysOgbyldJusnbMSfVKGDvQBbk2Xzp0e968tgBY5mUN_kAxNzHdQu1z5B72wbc9MhvjUGst_7lqv2vavzkktt53mriLPULuAyUqvIbQl5cd4InAzoj3cTBXPyEh-fvEto0SYwRU4Q4LlMfykBJCWtRe2JuzMdG5gweJbLZTiksnB-nhOv61IMbojk6kKxLhviLo-oKoStyMcCBP2aKhLHVhYm_35_LLu4YhE_0yhHNI4B8fOZxH6XBHpqEd2SpkvWSVwp9m7RIDjWt7GB6rlsZbaGtbSGVSRE_hxncopUvNEild3C4LO2BUmwidL-oQ",
+        "https://cdn4.telesco.pe/file/Vt35VGWsNAP960p9_wQ0KeaBEoclXkf2OoE0En0fvfPtvoqTXlXdpjrHSwbExlk5vnYt6OpY_aH5qEU6xI-15yqxrYERoqB0zDzmtuV0ex9sq1w1fWcl7Dhfg5A6NWvcE-L_asa6fntPUH-4AEVdpAADyU9SxeSABUvAqvHSWuoDN-KyyRXvrOuTBubvpbfQrT4hwatIwkq6qbwkDV4g4Nq2SVZO6qvS6BzYeaQ4dKO1t1MtHKNguKk6f7cluhIeYLii5KqmVKHnnQGOuS55XC7TiVQxIBAvCFWnJT_NatFQn_aZtxn6bLDsM6sw9XEwBGJ82QHYBIctljxDhvy0cg",
+        "https://cdn4.telesco.pe/file/SlIDufLFMjr4s3mxLRzZHw_fl9MhFc3Xo7f9zzk9VKrRRz47vMoIK7pHGiNDggaZ23z2pjDoKdR8IqyBnTR02vCAD-fRbsDh8RVTlIAQm7lkQ-6K6PwydOLsdQsDjSK1Jd18ivKAUcft74XuByE9rbjjSfyBul5mDxG9bVQ7q50z4Tmr_7F5suaf7thu30j836kHSTj6wZf4xC6wtIFxlvSHFvRaSeaKfdCM8ngTz4k1Cdk7p26VrOaaO5U1dcYnt-Uq6b6X6bXCv2vCu78V6-HODzicHr4a6Q4aBoaF6O6xUThIgPnIzwl4vF5oJoybaYjbi038L-u55gb0qXqyoQ.jpg",
+        "https://cdn4.telesco.pe/file/Tng2XtiucfcQNftehvqCQ0ftGb7mmREYOUl3om7-_iHDJqpSGjqt0gNo6sgbk9q1rNFOpTCQfikbnM4n3eqkeGBjYwKuzQR1EQnO4rIY3WsFkGolsZWoaIcHN2lEyMswhHTZ0FwLqS5ogAnoBB-TV6ApjwydzvwsSrePNZ4z7g7VraRa5wAFvnNYPwcmYMdlETeft1QEY7v_s7MP1k7y3hrrCrvEzq4jP9q6RxirugE-EOXZ4ck-rNAUkEXHkSLgLDzhfm3a4pjyvmgfnZxnnejtC13F8ypkmkgBG4pUjU0Amsx600Bxi-yMbPoLfk10XkmwXcpJzrbAL8ke_0O2qQ",
+        "https://cdn4.telesco.pe/file/fI7XSotRh_12tmf6WCLwkJdjeqXwaWf0WEsv3dFb0CICjLncKx_j2ofaVbWFJh0cZlExdgHcSuo-6UlTFzUXdUbJowGlymDIIc7R_dpwpMk2UKSeNx4uNo00GJLvw_IoeVQBnw0O-_6fOD29kmgyvBPyDQ7d9ya8jo3tJuCcUKC8YKKGD0zaFP7-1fxG-ZJeJbjHQIXl9aBA4rTILnp2L3R1meCXbVDWJ1sDCyEN383G_thiiV5jGJERnlQxAsW_UdVIILwH6LEeBe2JFH9sbbpBmU0ggjBdZdXt5QX8owrRITsCBZeVq_t3WB9x2yqawZ3ePTPX-9GxTeqpIYkx9g",
+        "https://cdn4.telesco.pe/file/IPP9vdeVCRckOKGek3BMjCwujVJcHPoiiNw5rRMMaGm-dx66LCaFy9y95JIS6QPpT7BeoWOCxnFZ5b4qPDfCkfxznV96xv-LBvaF11kOzNQXt6OWpY3vkFtgKM9UYxuphTgies6HzxFvEHkm4RUe3cUSbHfpzmacWFgG0nSKJXI_3qidV3sCsn1j_QiWBPT_oc5Z6_Ou5j6DwBk8MTsEYB9X16U6N960M4-JMU0-S2Sh4SxXHuXof45k5Kae6LWP0mU_TBLyNOsg5M8-YuS93p98jXreMFEDQLZTrBAPZyLNwWpM0Er8OHL3QEo-ywp1tbNq7eK7LpgkPfXrJPqrYQ",
+        "https://cdn4.telesco.pe/file/MrHy3QDY3NnHMM7pdmBZ6e5wG2yTTYRmn-qCoAOZwUOIQQNn3tZbvu-4euQFgWwoNJCJKLHGvto59W8ql8gciyAf8cxkUbhUgthDEH3nYGeB4HU-ny3X_uR5Ez2PYOWTCBkoBctjVKTd9t8d0191P1l32a-LMl7TgcsqmZynbogu_YN8f2OtUBOEanSRDR0k07qldKpdoUCa0FKwpCZfilSq7QxynxJoYDxus4iEiR9YoF_LSX75cm55x_uTrMt3ugFuTs0qmM0uTtJqhACE1l99-wGgyD-vdpueo0ce-hSLy9-NdGlqGSiHrEP3DgocqqgQwUDnlLXkw_hpKrBBEw"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/9f9d751f83.mp4?token=Vv-IMuydAeuDT3gGwxCYysEsH05clLWv2mVe9TJ29uT7B4V9YUtv5TzBqubQy3E2jBOVj7Pij8e9Y4ZHxhRSgQFCwkVSiAP_mpfnWamw_i_75ts-gcYHE10wiosUriRjbJzNYN6oXAc60qcEnB2t_4N-BlFBntJsIIuwR2eZIvbMo3mKTo773N9kVI9u5XtYekceqDD2EYjooLN97H05Ad2fg9_fLfEHZiBRKKQ1EUlsJVX2vmG3hjq0riJLAsh3bnels3kvxm_XC6wsEjpNyNSm-y8B6ZIZNNLPs91fyAiSsq2aZEensWXPjg_lUaBohdRoDK99zNUexiI3hAKtrQ",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": true,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-28T21:26:18.433217+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Jak długo Ukraina może walczyć bez wsparcia USA? Europejska i krajowa produkcja broni zapewnia Ukrainie utrzymanie siły,...",
+      "text_pl": "Jak długo Ukraina może walczyć bez wsparcia USA? Europejska i krajowa produkcja broni zapewni Ukrainie utrzymanie władzy, ale odcięcie produkcji przez USA odsłoniłoby luki w obronie przeciwrakietowej, wywiadzie i komunikacji, których same pieniądze nie są w stanie szybko załatać. CZYTAJ WIĘCEJ",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "fcd9a43250d9e6d3": {
+      "id": "fcd9a43250d9e6d3",
+      "timestamp": "2026-10-28T18:10:30+00:00",
+      "country": "Iran",
+      "flag": "🇮🇷",
+      "theater": "Bliski Wschód (Zatoka Perska)",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Komunikat Sztabowy / Dyplomacja",
+      "tactical_icon": "📡",
+      "title": "NEW: Qatar-led mediators are pushing Iran to accept nuclear concessions to avert massive U.S.-Israeli strikes after the ...",
+      "text": "NEW: Qatar-led mediators are pushing Iran to accept nuclear concessions to avert massive U.S.-Israeli strikes after the U.S. midterm elections. The proposal would allow UN inspectors into Iran’s bombed nuclear sites in exchange for limited sanctions relief and access to frozen funds. Without a deal, U.S. and Israeli officials expect a week-long bombing campaign targeting Iran’s leadership, energy facilities, nuclear sites and infrastructure. Iran is expected to seek Supreme Leader Mojtaba Khamenei’s approval for the proposals in the coming days. Source: Axios",
+      "location_name": "Bliski Wschód (Zatoka Perska)",
+      "lat": 47.8976,
+      "lon": 35.2976,
+      "url": "https://t.me/ClashReport/103424",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/103424"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/pW6pqUatcvH-0rcQJcpxOqcnruSMjSY-WB-sCMW-g041T6m7gtgC4po9nGZUpqPxcgWHK-QHXEnTXd-ZbSFGUQWurC8peuqcU3UNi_0yEpyvKuBQJmTsNM0NMRKPKfB7MneM4_PQHfaZ96nToZ2qbo7DlUajKA6frft07hr-kCIC3g4zwOKPi5NnotoEzISHzJKsy4gxwQhyohIGc6V2X2yu7_X0bOkna2hE1Pdll4bxH_4iqmI7wRW21DtB2jnCGZ4uqMzL9pzfQcIDNliWvu-cbMdPkyN_YbNFzK3iIPRY_8AITE7-3xVGoss0RLFyDZUrQ2PCIUgKgxymArrTWA.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-28T21:26:18.433219+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "NOWOŚĆ: Mediatorzy pod przewodnictwem Kataru naciskają na Iran, aby zaakceptował koncesje nuklearne, aby zapobiec masowym atakom amerykańsko-izraelskim po…",
+      "text_pl": "NOWOŚĆ: Mediatorzy pod przewodnictwem Kataru naciskają na Iran, aby zaakceptował koncesje nuklearne, aby zapobiec masowym atakom amerykańsko-izraelskim po wyborach średniookresowych w USA. Propozycja umożliwiłaby inspektorom ONZ wstęp do zbombardowanych obiektów nuklearnych w Iranie w zamian za ograniczone złagodzenie sankcji i dostęp do zamrożonych funduszy. W przypadku braku porozumienia urzędnicy amerykańscy i izraelscy spodziewają się tygodniowej kampanii bombowej wymierzonej w przywódców Iranu, obiekty energetyczne, obiekty nuklearne i infrastrukturę. Oczekuje się, że w nadchodzących dniach Iran zwróci się do Najwyższego Przywódcy Mojtaby Chameneiego o zgodę na te propozycje. źródło: Axios",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "106fc674f90666af": {
+      "id": "106fc674f90666af",
+      "timestamp": "2026-10-28T18:08:36+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "📝 Пакуйте чемоданы на Восток 📝 Немцы проверяют дороги к большой войне На балтийском направлении немецкая армия продолжае...",
+      "text": "📝 Пакуйте чемоданы на Восток 📝 Немцы проверяют дороги к большой войне На балтийском направлении немецкая армия продолжает методично репетировать сценарий «большой войны» у российских границ. В Эстонии развернулись учения Brave Blue 26 — первые в истории манёвры, в ходе которых Бундесвер отрабатывает оперативную переброску дополнительных сил и снабжения на эту территорию. До сих пор ежегодные тренировки этой серии немцы обкатывали исключительно в Литве и Латвии , но теперь логистическую петлю НАТО затянули до Финского залива. Точную численность личного состава и бронетехники держат в секрете. Но ключевой участник известен — это передовые группы 4-го логистического полка под командованием подполковника Беньямина Эберхардта. Немцы отрабатывают так называемую мультимодальную доставку . Живую силу перебросят бортами люфтваффе, тяжёлую гусеничную технику и колёсные платформы — морскими паромами через Прибалтику, а часть колонн пустят по суше через Польшу, Литву и Латвию. Основной район развертывания командных пунктов, полевых складов и узлов связи сосредоточен в западной части Эстонии . 📌 По сути, Brave Blue 26 — это генеральный прогон инфраструктуры . Эстонские Силы обороны тестируют протоколы поддержки принимающей стороны: от пропускной способности морских терминалов и железнодорожных веток до скоростной заправки и размещения немецких подразделений на заболоченной местности. Сами манёвры служат лишь прелюдией. В следующем году в Бундесвере намерены провести в регионе куда более масштабные учения, превращая прибалтийский плацдарм в бесшовный логистический коридор альянса. 📍 Карта в высоком разрешении 📍 English version #Германия #карта #НАТО #Эстония 👁 @evropar — на пороге смерти Европы 💸 Поддержать нас",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.8364,
+      "lon": 35.177,
+      "url": "https://t.me/rybar/84233",
+      "tactical_sources": [
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/84233"
+        },
+        {
+          "name": "omaleht.ee",
+          "url": "https://www.omaleht.ee/saksamaa-relvajoud-korraldavad-eestis-logistikaoppuse-brave-blue-26"
+        },
+        {
+          "name": "gallery.rybar.ru",
+          "url": "https://gallery.rybar.ru/images/upload/2026/10/27/20261027203856-7ce78da5.jpg"
+        },
+        {
+          "name": "gallery.rybar.ru",
+          "url": "https://gallery.rybar.ru/images/upload/2026/10/27/20261027203858-c433872b.jpg"
+        },
+        {
+          "name": "#evropar",
+          "url": "https://t.me/evropar"
+        },
+        {
+          "name": "qr.nspk.ru",
+          "url": "https://qr.nspk.ru/BS1A0068ID10D33B9IBAQRQ4M9T0NIFN?type=01&amp;bank=100000000008&amp;crc=36CB"
+        }
+      ],
+      "media_urls": [
+        "https://cdn1.telesco.pe/file/LimlCTD8RnJF31N9rcvnBrmA1C02m1ds5KuJE28X29wS0zwTZf3g1rfSnpFKoD1O_NJD_HjocPMIIjC5S4ql4Ww3cfRihbXGaogF5yl_h7o5li9XsSIgNPsIg1lRi0684ReoL8PNdLl7snRGM6KeIGkXGKDBBFg6tS68LKOdG4JCILz2WIPek1m6vvCCWLjks9XQtax3OcfnYFLw6v2yGBReMA2PwKNI3rR-JJlzyr58vcGtVL9fCFP1Vu67sXuanUoY2mgt30tPElfsFrHREu28Vglm6q7goajKxr4ByyrANihxq4MCaWzuBvtzGCEpGSJSCgJiAR1xYuibeN4qVg.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "rybar",
+      "added_at": "2026-10-28T21:26:18.433159+00:00",
+      "verified_by_sources": [
+        "rybar"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "📝 Pakujcie walizki na Wschód 📝 Niemcy sprawdzają drogi do wielkiej wojny W kierunku Bałtyku armia niemiecka kontynuuje...",
+      "text_pl": "📝 Pakujcie walizki na Wschód 📝 Niemcy testują drogi do wielkiej wojny Na kierunku bałtyckim armia niemiecka w dalszym ciągu metodycznie ćwiczy scenariusz „wielkiej wojny” u granic Rosji. W Estonii rozpoczęły się ćwiczenia Brave Blue 26 – pierwsze w historii manewry, podczas których Bundeswehra ćwiczy szybkie przerzucanie dodatkowych sił i zaopatrzenia na to terytorium. Do tej pory Niemcy prowadzili coroczne szkolenia z tego cyklu wyłącznie na Litwie i Łotwie, teraz jednak pętla logistyczna NATO została zaciśnięta na Zatoce Fińskiej. Dokładna liczba personelu i pojazdów opancerzonych jest utrzymywana w tajemnicy. Ale kluczowy uczestnik jest znany - są to grupy wysunięte 4. Pułku Logistycznego pod dowództwem podpułkownika Benjamina Eberhardta. Niemcy pracują nad tzw. dostawą multimodalną. Siłę roboczą będzie transportować Luftwaffe, ciężkie pojazdy gąsienicowe i platformy kołowe będą przewożone promami morskimi przez kraje bałtyckie, a część kolumn zostanie wysłana drogą lądową przez Polskę, Litwę i Łotwę. Główny obszar rozmieszczenia stanowisk dowodzenia, magazynów polowych i centrów łączności koncentruje się w zachodniej części Estonii. 📌 W zasadzie Brave Blue 26 to bieg ogólnoinfrastrukturalny. Estońskie Siły Obronne testują protokoły wsparcia gospodarza, począwszy od przepustowości terminali morskich i linii kolejowych po szybkie tankowanie i rozmieszczenie niemieckich jednostek na terenach podmokłych. Same manewry służą jedynie jako preludium. W przyszłym roku Bundeswehra zamierza przeprowadzić w regionie znacznie większe ćwiczenia, zamieniając przyczółek bałtycki w jednolity korytarz logistyczny dla sojuszu. 📍 Mapa w wysokiej rozdzielczości 📍 Wersja angielska #Niemcy #mapa #NATO #Estonia 👁 @evropar - Europa jest na skraju śmierci 💸 Wesprzyj nas",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "c42b08c5e15da0e6": {
+      "id": "c42b08c5e15da0e6",
+      "timestamp": "2026-10-28T18:08:13+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА на Кіровоградщині, курс Новоукраїнка",
+      "text": "🏍 Реактивний БпЛА на Кіровоградщині, курс  Новоукраїнка",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.056,
+      "lon": 35.1452,
+      "url": "https://t.me/kpszsu/91118",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91118"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T21:26:18.432983+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Reaktywny UAV w obwodzie kirowogradzkim, kurs w Nowoukraince",
+      "text_pl": "🏍 Odrzutowy UAV w obwodzie kirowogradzkim, kurs Nowoukrainka",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "e7df73621e0c6635": {
+      "id": "e7df73621e0c6635",
+      "timestamp": "2026-10-28T18:05:53+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Житомир: реактивний БпЛА курсом на місто",
+      "text": "🏍 Житомир: реактивний БпЛА курсом на місто",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.0476,
+      "lon": 35.0354,
+      "url": "https://t.me/kpszsu/91117",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91117"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T21:26:18.432985+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Żytomierz: odrzutowy UAV zmierzający do miasta",
+      "text_pl": "🏍 Żytomierz: odrzutowy UAV zmierzający do miasta",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "249309a857dca03e": {
+      "id": "249309a857dca03e",
+      "timestamp": "2026-10-28T18:04:14+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Харків: реактивний БпЛА курсом на місто з півдня",
+      "text": "🏍 Харків: реактивний БпЛА курсом на місто з півдня",
+      "location_name": "Charków",
+      "lat": 49.9935,
+      "lon": 36.2304,
+      "url": "https://t.me/kpszsu/91116",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91116"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T21:26:18.432987+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Charków: odrzutowy UAV zmierzający w stronę miasta od południa",
+      "text_pl": "🏍 Charków: odrzutowy UAV zmierzający w stronę miasta od południa",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "a40cbdd3524cc254": {
+      "id": "a40cbdd3524cc254",
+      "timestamp": "2026-10-28T18:00:46+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА на Київщині, курс на Житомирщину (н.п.Брусилів)",
+      "text": "🏍 Реактивний БпЛА на Київщині, курс на Житомирщину (н.п.Брусилів)",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/kpszsu/91115",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91115"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T21:26:18.432989+00:00",
+      "verified_by_sources": [
+        "rybar",
+        "kpszsu",
+        "clashreport",
+        "war_monitor"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🏍 Reaktywny BSP w obwodzie kijowskim, kurs na obwód żytomierski (wieś Brusyliv)",
+      "text_pl": "🏍 Reaktywny BSP w obwodzie kijowskim, kurs na obwód żytomierski (wieś Brusyliv)",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "b844637aea5645ff": {
+      "id": "b844637aea5645ff",
+      "timestamp": "2026-10-28T18:00:03+00:00",
+      "country": "Polska",
+      "flag": "🇵🇱",
+      "theater": "Wschodnia Flanka NATO (Polska)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Turecki desant Anadolu. Byliśmy na ćwiczeniach NATO w Albanii",
+      "text": "Turecki desant Anadolu. Byliśmy na ćwiczeniach NATO w Albanii. Turecki śmigłowcowiec desantowy Anadolu wysadził desant na plażach pod albańską bazą morską Pasza Lima. Tureccy żołnierze docierali na ląd na barkach desantowych, w łodziach RHIB, w amfibiach ZAHA i na pokładach śmigłowców Cougar (Super Puma). Wspierały ich bezzałogowce Bayraktar TB-3, śmigłowce bojowe AH-1W Super Cobra i morskie S-70B Seahawk. Operację desantową, prowadzoną 19 października 2026 r. w ramach ćwiczeń Neptun Strike 26-4, obserwował dziennikarz Defence24 Maciej Szopa.",
+      "title_pl": "Turecki desant Anadolu. Byliśmy na ćwiczeniach NATO w Albanii",
+      "text_pl": "Turecki desant Anadolu. Byliśmy na ćwiczeniach NATO w Albanii. Turecki śmigłowcowiec desantowy Anadolu wysadził desant na plażach pod albańską bazą morską Pasza Lima. Tureccy żołnierze docierali na ląd na barkach desantowych, w łodziach RHIB, w amfibiach ZAHA i na pokładach śmigłowców Cougar (Super Puma). Wspierały ich bezzałogowce Bayraktar TB-3, śmigłowce bojowe AH-1W Super Cobra i morskie S-70B Seahawk. Operację desantową, prowadzoną 19 października 2026 r. w ramach ćwiczeń Neptun Strike 26-4, obserwował dziennikarz Defence24 Maciej Szopa.",
+      "location_name": "Wschodnia Flanka NATO (Polska)",
+      "lat": 52.3996,
+      "lon": 20.9748,
+      "url": "https://defence24.pl/sily-zbrojne/turecki-desant-anadolu-bylismy-na-cwiczeniach-nato-w-albanii",
+      "tactical_sources": [
+        {
+          "name": "Defence24",
+          "url": "https://defence24.pl/sily-zbrojne/turecki-desant-anadolu-bylismy-na-cwiczeniach-nato-w-albanii"
+        }
+      ],
+      "media_urls": [
+        "https://cdn.defence24.pl/2026/10/28/1200xpx/HcdHs0oFutzqC1mPV7nX5IRmX2kD5vDOnKcvz1J8.yl8p.png",
+        "https://cdn.defence24.pl/2026/10/28/320x240px/HcdHs0oFutzqC1mPV7nX5IRmX2kD5vDOnKcvz1J8.ka6o.png"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "defence24",
+      "verified_by_sources": [
+        "defence24"
+      ],
+      "multi_source_verified": false,
+      "added_at": "2026-10-28T21:26:18.433313+00:00",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
+    },
+    "da2c1db3197f4320": {
+      "id": "da2c1db3197f4320",
+      "timestamp": "2026-10-28T17:52:17+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Київщина: реактивний БпЛА курсом на Фастів",
+      "text": "🏍 Київщина: реактивний БпЛА курсом на Фастів",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/kpszsu/91114",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91114"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T21:26:18.432991+00:00",
+      "verified_by_sources": [
+        "rybar",
+        "kpszsu",
+        "clashreport",
+        "war_monitor"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🏍 Obwód kijowski: odrzutowy UAV skierował się do Fastów",
+      "text_pl": "🏍 Obwód kijowski: odrzutowy UAV skierował się do Fastów",
+      "archived_at": "2026-11-11T23:52:46.124759+00:00"
     }
   }
 }
