@@ -1,11 +1,11 @@
 {
   "manifest": {
-    "total_archived": 13278,
+    "total_archived": 13362,
     "retention_days": 14,
     "first_archived_at": "2026-09-23T16:43:07.215300+00:00",
-    "last_archived_at": "2026-11-11T02:25:18.521010+00:00",
+    "last_archived_at": "2026-11-11T10:04:34.199947+00:00",
     "oldest_event_timestamp": "2023-06-05T21:48:13+00:00",
-    "newest_event_timestamp": "2026-10-28T02:13:55+00:00",
+    "newest_event_timestamp": "2026-10-28T09:49:41+00:00",
     "cloud_sync_enabled": false
   },
   "events": {
@@ -574239,6 +574239,3593 @@
       "title_pl": "🛵 Uderzenie UAV w obwodzie sumskim ➡️ w kierunku Koropa (obwód czernihowski).",
       "text_pl": "🛵 Uderzenie UAV w obwodzie sumskim ➡️ w kierunku Koropa (obwód czernihowski).",
       "archived_at": "2026-11-11T02:25:18.518772+00:00"
+    },
+    "75ee71f5853e425b": {
+      "id": "75ee71f5853e425b",
+      "timestamp": "2026-10-28T09:49:41+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА з Брянської області ➡️ на північ Чернігівщини",
+      "text": "🏍 Реактивний БпЛА з Брянської області ➡️ на північ Чернігівщини",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.864,
+      "lon": 35.2256,
+      "url": "https://t.me/kpszsu/91036",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91036"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T16:21:39.281414+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy UAV z obwodu briańskiego ➡️ na północ od obwodu czernihowskiego",
+      "text_pl": "🏍 Odrzutowy UAV z obwodu briańskiego ➡️ na północ od obwodu czernihowskiego",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "92150a6b5ec7d7f8": {
+      "id": "92150a6b5ec7d7f8",
+      "timestamp": "2026-10-28T09:49:24+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Czujnik NASA FIRMS",
+      "tactical_icon": "🛰️",
+      "title": "European satellite companies are stepping up efforts to challenge Elon Musk’s dominance in military communications after...",
+      "text": "European satellite companies are stepping up efforts to challenge Elon Musk’s dominance in military communications after Starlink restrictions disrupted Ukraine’s drone operations. Finnish firms ICEYE and Nokia have partnered with Ukraine to develop independent satellite communications, with initial launches expected in 2028. France’s Eutelsat, which already operates in Ukraine, is also positioning itself as an alternative. Source: Axios",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.0628,
+      "lon": 34.742,
+      "url": "https://t.me/ClashReport/103378",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/103378"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/dr9YZD1QE3E0AhY-Dq-AGwvGtlYjJQU7reCyz4ZZJIkGO-bUT3Eje5pLDkDfJwRyBsqnx6GQtfyLZCHb1pIfeftyQrXmo3BvUwcpzMi1GnhNlM9Obk9G3A07ATbYfqUP6lmuzEn5OLQtGOTIqj2TpG6lrO_H4OBMeOol5AqG8SRay8jT99R89cz65eoBEylTZogtPrVkhxfvEtNv5FQQSaHzCvRIxniWql9K0S7aUsv8OnBo7SscmvfjZ5Z8N7V3j2NE0LE4-thRdQnPt1fZWomYBIP0tECnVScYMvU-Fo3lxc1O922EYY8L54tmde1stm0p70T-4mBb27lWtX-4xQ.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-28T16:21:39.281548+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Europejskie firmy satelitarne wzmagają wysiłki, aby rzucić wyzwanie dominacji Elona Muska w łączności wojskowej po…",
+      "text_pl": "Europejskie firmy satelitarne wzmagają wysiłki, aby rzucić wyzwanie dominacji Elona Muska w łączności wojskowej po tym, jak ograniczenia Starlink zakłóciły operacje dronów na Ukrainie. Fińskie firmy ICEYE i Nokia nawiązały współpracę z Ukrainą w celu opracowania niezależnej łączności satelitarnej, a pierwsze uruchomienie spodziewane jest w 2028 r. Francuski Eutelsat, który już działa na Ukrainie, również pozycjonuje się jako alternatywa. źródło: Axios",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "99888cc80498af66": {
+      "id": "99888cc80498af66",
+      "timestamp": "2026-10-28T09:45:00+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "📝 Крематории и винодельни 📝 чем теперь занимаются хакеры в Европе В странах НАТО растёт число кибератак, которые все чащ...",
+      "text": "📝 Крематории и винодельни 📝 чем теперь занимаются хакеры в Европе В странах НАТО растёт число кибератак, которые все чаще приводят к физическому ущербу . Ответственность за них издание Bloomberg возлагает на хакеров, якобы «сочувствующих России». Но если отбросить привычные для западной прессы обвинения, получается рассказ о другом: участие Европы в чужой войне обходится ей всё дороже, и платить за помощь ВСУ приходится уже не только из бюджета. 🔻 Что пишет издание ▪️ С конца 2024-го по лето 2026 года в Испании произошла серия странных сбоев. В Аликанте отказали печи крематория, в Каталонии на заводе по выпуску трансформаторов для «зелёной» энергетики сломалось оборудование и начался пожар. На двух винодельнях без видимой причины подскочила температура в системах отопления и вентиляции. ▪️ В марте испанская полиция задержала 34-летнего итальянца Криса Барлати. Его обвиняют в причастности почти к 40 атакам, включая сбои на водонасосных станциях и в холодильниках продовольственных складов. Ущерб превысил 100 тысяч долларов. ▪️ Похожие инциденты зафиксированы примерно в 20 странах, большинство из которых — члены НАТО. Курирующий в альянсе противодействие гибридным угрозам Джеймс Аппатурай говорит о «явной эскалации». 🖍 Доказательств того, что за всем этим стоит российское государство, в статье, как обычно, не приводится. Но самое показательное здесь другое: признание того, насколько беззащитной оказалась инфраструктура европейских стран. Чтобы вывести из строя печь, винодельню или насосную станцию, хватает смартфона и чужой незакрытой уязвимости. По данным испанских СМИ, Барлати действовал именно со своего телефона. 🚩 Для Европы это ещё одна статья расходов, которую мало кто считал, когда руководство стран НАТО решило стать главным спонсором т.н. Украины. Деньги на помощь киевскому режиму, перевооружение и самый дорогой за четыре года газ уже давят на бюджеты. Теперь к ним добавляются кибербезопасность каждого завода, страховка, простои производства и модернизация комм",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/rybar/84224",
+      "tactical_sources": [
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/84224"
+        },
+        {
+          "name": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/features/2026-10-27/russia-linked-hackers-are-turning-cyberattacks-into-a-physical-threat"
+        },
+        {
+          "name": "max.ru",
+          "url": "https://max.ru/Rybar"
+        },
+        {
+          "name": "qr.nspk.ru",
+          "url": "https://qr.nspk.ru/BS1A0068ID10D33B9IBAQRQ4M9T0NIFN?type=01&amp;bank=100000000008&amp;crc=36CB"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/TcyPJa2sTAZric0hU96MvUT46Jyxy5iNcAdZoxIELyDje3QTiCWXGWnl7UyHcr-Jwde8F82N9fkCG00p_A-o8XpA_yoneZRaXr9tkjLMVmDVbNsDoO1ywzTOdh0vKQ3a0p1PbJDCzMXe2cpV9a7ZuMzqzq17cWEIifLUsijIROfKpPTfkpyYLTpWwvA1JgKzm6354lLbcELIRzPqY7h5-xbaIyi8QJEAauqom9VfSBUeF2pOtgmtXJeJY3RnLTuNAl_IS5fZTWby0E0WWXa-Yeg2zR7ZZtpcrgmLxD_erPUxRkJxHykZwttA3yFb80eGgIa64J5FsginancDKfb4og.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": true,
+      "threat_score": 5,
+      "source_channel": "rybar",
+      "added_at": "2026-10-28T16:21:39.281500+00:00",
+      "verified_by_sources": [
+        "kpszsu",
+        "rybar",
+        "war_monitor",
+        "clashreport",
+        "astrapress"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "📝Krematoria i winiarnie 📝co robią teraz hakerzy w Europie W krajach NATO rośnie liczba cyberataków, które coraz częściej...",
+      "text_pl": "📝Krematoria i winiarnie 📝co robią teraz hakerzy w Europie W krajach NATO rośnie liczba cyberataków, które w coraz większym stopniu prowadzą do szkód fizycznych. Bloomberg zrzuca za nie odpowiedzialność na hakerów rzekomo „sympatyzujących z Rosją”. Ale jeśli odrzucimy zwykłe oskarżenia w prasie zachodniej, otrzymamy inną historię: udział Europy w cudzej wojnie kosztuje ją coraz więcej i nie trzeba już płacić za pomoc Ukraińskich Sił Zbrojnych wyłącznie z budżetu. 🔻Co pisze publikacja ▪️Od końca 2024 do lata 2026 w Hiszpanii miała miejsce seria dziwnych awarii. W Alicante zepsuły się piece krematoryjne; w Katalonii w zakładzie produkującym transformatory do „zielonej” energii zepsuły się urządzenia i wybuchł pożar. W dwóch winnicach temperatura w systemach grzewczych i wentylacyjnych wzrosła bez wyraźnego powodu. ▪️W marcu hiszpańska policja zatrzymała 34-letniego Włocha Chrisa Barlatiego. Zarzuca się mu udział w blisko 40 atakach, m.in. w awariach przepompowni wody i lodówek w magazynach żywności. Szkody przekroczyły 100 tysięcy dolarów. ▪️ Podobne zdarzenia odnotowano w około 20 krajach, z których większość jest członkami NATO. James Appathurai, który nadzoruje przeciwdziałanie przez sojusz zagrożeniom hybrydowym, mówi o „wyraźnej eskalacji”. 🖍 Artykuł jak zwykle nie dostarcza dowodów na to, że za tym wszystkim stoi państwo rosyjskie. Ale najbardziej odkrywcze jest tu coś innego: uznanie, jak bezbronna okazała się infrastruktura krajów europejskich. Aby wyłączyć piec, winiarnię lub przepompownię, wystarczy smartfon i niezałatana luka innej osoby. Według hiszpańskich mediów Barlati działał za pomocą telefonu. 🚩 Dla Europy to kolejna pozycja wydatkowa, którą niewiele osób brało pod uwagę, gdy kierownictwo państw NATO zdecydowało się zostać głównym sponsorem tzw. Ukraina. Pieniądze na pomoc reżimowi w Kijowie, zbrojenia i najdroższy gaz od czterech lat już wywierają presję na budżety. Teraz dodali cyberbezpieczeństwo każdego zakładu, ubezpieczenie, przestoje produkcyjne i modernizację komunikacji.",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "339fe5e943b9adb3": {
+      "id": "339fe5e943b9adb3",
+      "timestamp": "2026-10-28T09:31:17+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА на заході Дніпропетровщини, поблизу н.п. Вільногірськ, Божедарівка, курс на захід",
+      "text": "🏍 Реактивний БпЛА на заході Дніпропетровщини, поблизу н.п. Вільногірськ, Божедарівка, курс на захід",
+      "location_name": "Dniepr",
+      "lat": 48.4647,
+      "lon": 35.0462,
+      "url": "https://t.me/kpszsu/91035",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91035"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 9,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T16:21:39.281416+00:00",
+      "verified_by_sources": [
+        "astrapress",
+        "kpszsu",
+        "rybar"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🏍 Odrzutowy UAV na zachodzie obwodu dniepropietrowskiego, w pobliżu n.p. Wilnohorsk, Bożedarówka, kurs na zachód",
+      "text_pl": "🏍 Odrzutowy UAV na zachodzie obwodu dniepropietrowskiego, w pobliżu n.p. Wilnohorsk, Bożedarówka, kurs na zachód",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "b6261a9023f0e3fc": {
+      "id": "b6261a9023f0e3fc",
+      "timestamp": "2026-10-28T09:29:41+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА повз Вільногірськ на Дніпропетровщині, курс північно-західний",
+      "text": "🏍 Реактивний БпЛА повз Вільногірськ на Дніпропетровщині, курс північно-західний",
+      "location_name": "Dniepr",
+      "lat": 48.4647,
+      "lon": 35.0462,
+      "url": "https://t.me/kpszsu/91034",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91034"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 9,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T16:21:39.281418+00:00",
+      "verified_by_sources": [
+        "astrapress",
+        "kpszsu",
+        "rybar"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🏍 Odrzutowy UAV mija Wilnohorsk w obwodzie dniepropietrowskim, kierując się na północny zachód",
+      "text_pl": "🏍 Odrzutowy UAV mija Wilnohorsk w obwodzie dniepropietrowskim, kierując się na północny zachód",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "74bd50122b920821": {
+      "id": "74bd50122b920821",
+      "timestamp": "2026-10-28T09:22:57+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Q: Would you approve of Flávio Bolsonaro coming to the United States? Trump: Well, I would approve. I think they&#x27;re fine...",
+      "text": "Q: Would you approve of Flávio Bolsonaro coming to the United States? Trump: Well, I would approve. I think they&#x27;re fine people.",
+      "location_name": "Inne",
+      "lat": 47.89,
+      "lon": 35.0456,
+      "url": "https://t.me/ClashReport/103376",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/103376"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/JVGt6kuNOCCzkOrXqDl2_a3tOkI4Gue7ILeqRMwqfhh5Bipgbrnbi5xBqEKiiNmfIZGfJ1t3dLEDjGzdhxfOmb_ARNjxZxSjdYPspMrxFEMW3PcZ0WIHSvBA3P7qVSTOuQJtVPlsMR7t1w1TdeX1AI81Tql21JLD57n-ONR06u-K0ZBkE40AjixKPUg3gesbYXdHWkEPO60aFrRkyjhRIZoG_4G5jGmK6nJYLCSBQgDMW8vqLfmVm0jU4hTnL8C-jZJWLk7IPtQFXtH_xgJfkRSKZO4JoAvO_PnIRLZIVyT5mDDoyfDncaAEN7dxbIGzKA-9fNPfNVbCNtwYUm4YhA"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/61df81761a.mp4?token=F_9Cml7-Xi-BACDL1cdvbmZdYpkNcfpn7TjAKvtk4IHG7o-bRO6-D4KaH6NLorjdjMu4pFludjwP6-eMW2RoQt6IF7SpDpkTm3ck4RSEQhDKep2XyW5-AsQOTyL84_bMnWl6-chf14Y9Z3deUPWgFODnUF4f8y5OYSQzuExH8gn0Xxo3q-VG9BInU1mfViCSeCrL5L1oH8jhS_j9PJ1tlrhKmOvlgl2AhKH2cTTO0q1Swwy9U1oDSuPBGpWX7-fzZmqER8vPkUlqf-6BoWFFPGJTcAA274_r5wvUWxpQED5GvYLXtLMsCUzGS2J7zwaAJEGYfJ2a6UzXc9c90BOzPw",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-28T16:21:39.281550+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "P: Czy zaakceptowałbyś przyjazd Flávio Bolsonaro do Stanów Zjednoczonych? Trump: Cóż, zgodziłbym się. I think they're fine...",
+      "text_pl": "P: Czy zaakceptowałbyś przyjazd Flávio Bolsonaro do Stanów Zjednoczonych? Trump: Cóż, zgodziłbym się. Myślę, że to w porządku ludzie.",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "4fddfe6a733059dd": {
+      "id": "4fddfe6a733059dd",
+      "timestamp": "2026-10-28T09:15:59+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🛵 БпЛА на Шостку на Сумщині з півночі",
+      "text": "🛵 БпЛА на Шостку на Сумщині з півночі",
+      "location_name": "Sumy",
+      "lat": 50.9077,
+      "lon": 34.7981,
+      "url": "https://t.me/kpszsu/91033",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91033"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104413+00:00",
+      "verified_by_sources": [
+        "DeepStateUA",
+        "astrapress",
+        "kpszsu",
+        "rybar"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🛵BpLA na Szostce w obwodzie sumskim od północy",
+      "text_pl": "🛵BpLA na Szostce w obwodzie sumskim od północy",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "96fc3db6b77603e1": {
+      "id": "96fc3db6b77603e1",
+      "timestamp": "2026-10-28T09:13:33+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Дніпропетровщина: реактивний БпЛА курсом на Синельникове.",
+      "text": "🏍 Дніпропетровщина: реактивний БпЛА курсом на Синельникове.",
+      "location_name": "Dniepr",
+      "lat": 48.4647,
+      "lon": 35.0462,
+      "url": "https://t.me/kpszsu/91032",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91032"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 9,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104420+00:00",
+      "verified_by_sources": [
+        "astrapress",
+        "kpszsu",
+        "rybar"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🏍 Obwód dniepropietrowski: odrzutowy UAV skierował się do Sinelnikowa.",
+      "text_pl": "🏍 Obwód dniepropietrowski: odrzutowy UAV skierował się do Sinelnikowa.",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "9625e5c126c07fda": {
+      "id": "9625e5c126c07fda",
+      "timestamp": "2026-10-28T09:10:46+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Волинь: реактивний БпЛА курсом на Ковель.",
+      "text": "🏍 Волинь: реактивний БпЛА курсом на Ковель.",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.9724,
+      "lon": 34.8026,
+      "url": "https://t.me/kpszsu/91031",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91031"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104423+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Wołyń: odrzutowy UAV w kierunku Kowla.",
+      "text_pl": "🏍 Wołyń: odrzutowy UAV w kierunku Kowla.",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "cc9018249d34e9f5": {
+      "id": "cc9018249d34e9f5",
+      "timestamp": "2026-10-28T09:04:42+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Волинь: реактивний БпЛА повз н.п.Колки, курсом на захід",
+      "text": "🏍 Волинь: реактивний БпЛА повз н.п.Колки, курсом на захід",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.8404,
+      "lon": 35.0228,
+      "url": "https://t.me/kpszsu/91030",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91030"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104425+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Wołyń: odrzutowy UAV przelatuje obok wsi Kołka, kierując się na zachód",
+      "text_pl": "🏍 Wołyń: odrzutowy UAV przelatuje obok wsi Kołka, kierując się na zachód",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "be1e777d7a759349": {
+      "id": "be1e777d7a759349",
+      "timestamp": "2026-10-28T09:03:34+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Starcie Lądowe",
+      "tactical_category": "Starcie Lądowe / Szturm",
+      "tactical_icon": "⚔️",
+      "title": "📝 Позывной «Моряк»: мотоциклы или штурм на двух колесах 📝 Мы продолжаем рассказывать о героях СВО и вспоминаем моменты, ...",
+      "text": "📝 Позывной «Моряк»: мотоциклы или штурм на двух колесах 📝 Мы продолжаем рассказывать о героях СВО и вспоминаем моменты, которые заслуживают яркой экранизации. И следующая история особенно интересна тем, как порой креативно подходили наши бойцы в выполнении боевых задач. Наступление на Большую Новоселку было одним из знаковых событий в продвижении на Донбассе, но с каждым месяцем войны штурмовать становилось все сложнее из-за уплотнения минных заграждений и массового внедрения БЛА-сегмента. Задачей разведгруппы лейтенанта Тимофея Лучинкина было не просто занять опорный пункт на важной позиции, а обеспечить плацдарм для штурма Большой Новоселки. Как это сделать, когда везде разбросаны мины, а бронетехника слишком уязвима и заметна? Именно тут впервые на практике группа Лучинкина и провела успешный штурм опорника на мотоциклах. Маневренность и скорость дали возможность объезжать мины и избегать препятствий. И это лишь начало. Летопись его боевого пути — одна за одной истории подвига. Как это было — смотрите в нашем видеоролике. #видео #ИсторияПодвига #Россия #Украина ✈️ RU | ✈️ EN | ✉️ MAX ✉️ VK | ✉️ RuTube | ✉️ ОК | ✉️ Дзен 💸 Поддержать нас",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 47.9948,
+      "lon": 34.7822,
+      "url": "https://t.me/rybar/84223",
+      "tactical_sources": [
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/84223"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/82085"
+        },
+        {
+          "name": "qr.nspk.ru",
+          "url": "https://qr.nspk.ru/BS1A0068ID10D33B9IBAQRQ4M9T0NIFN?type=01&amp;bank=100000000008&amp;crc=36CB"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar"
+        },
+        {
+          "name": "#rybar_in_english",
+          "url": "https://t.me/rybar_in_english"
+        },
+        {
+          "name": "max.ru",
+          "url": "https://max.ru/Rybar"
+        },
+        {
+          "name": "vk.com",
+          "url": "https://vk.com/rybar_force"
+        },
+        {
+          "name": "rutube.ru",
+          "url": "https://rutube.ru/u/rybar/"
+        },
+        {
+          "name": "ok.ru",
+          "url": "https://ok.ru/group/70000041986659"
+        },
+        {
+          "name": "dzen.ru",
+          "url": "https://dzen.ru/rybar"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/U2nqLqCkNTqoi47uc8eoRowoKhrBeeLZtwsYt1cQNhVeWOI60KpxvuhFDQHA1FOYOomdDtMQPZ8WEpDXvo7BekhMVKH_72t9r49Z07JasGfcS_Wfuo5cfVeHQWA5gob5yOunncJu-slRMbrA90K4wJk96StAWCAVqhLa9obcCMXuWvExN-Z3QC8B7c7io5NuqrekZ3q2Wks5YMDlG4CoZU5g0GRp2r79P8LtWdOwRnlo-xuiSjiCgET4g8eiMHA55-FYjseDxth4RuJP4jVzFew2WTxjoX1HwZl2YfNxp2m8DuNstBQSTenwbl57L_5W_jadK95UUpmjhFKRAsbhJA"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "rybar",
+      "added_at": "2026-10-28T09:22:15.104619+00:00",
+      "verified_by_sources": [
+        "rybar"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "📝 Znak wywoławczy „Żeglarz”: motocykle lub szturm na dwóch kołach 📝 Kontynuujemy rozmowę o bohaterach Północnego Okręgu Wojskowego i wspominamy chwile…",
+      "text_pl": "📝 Znak wywoławczy „Żeglarz”: motocykle lub szturm na dwóch kołach 📝 Kontynuujemy rozmowę o bohaterach Północnego Okręgu Wojskowego i wspominamy momenty, które zasługują na błyskotliwą ekranizację filmową. Następna historia jest szczególnie interesująca ze względu na to, jak kreatywni byli czasami nasi żołnierze podczas wykonywania misji bojowych. Atak na Bolszaję Nowosełkę był jednym z przełomowych wydarzeń w postępie w Donbasie, ale z każdym miesiącem wojny atak stawał się coraz trudniejszy ze względu na zagęszczanie pól minowych i masowe wprowadzanie segmentu UAV. Zadaniem grupy zwiadowczej porucznika Timofeya Luchinkina było nie tylko zajęcie mocnego punktu na ważnej pozycji, ale także zapewnienie odskoczni do ataku na Bolszaję Nowosełkę. Jak to zrobić, gdy miny są wszędzie porozrzucane, a pojazdy opancerzone są zbyt wrażliwe i widoczne? To tu po raz pierwszy w praktyce grupa Luchinkina przeprowadziła na motocyklach udany szturm na opornika. Zwrotność i prędkość pozwalały omijać miny i przeszkody. A to dopiero początek. Kronika jego podróży wojskowej to opowieści o wyczynach. Zobacz jak do tego doszło na naszym filmie. #wideo #Historia wyczynu #Rosja #Ukraina ✈️ RU | ✈️ PL | ✉️MAX ✉️ VK | ✉️ RuTube | ✉️ OK | ✉️ Zen 💸 Wesprzyj nas",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "431246114107f6fa": {
+      "id": "431246114107f6fa",
+      "timestamp": "2026-10-28T08:56:08+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Чернігівщина: реактивний БпЛА курсом на Ніжин з півночі",
+      "text": "🏍 Чернігівщина: реактивний БпЛА курсом на Ніжин з півночі",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.042,
+      "lon": 34.9442,
+      "url": "https://t.me/kpszsu/91029",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91029"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104427+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Obwód czernihowski: odrzutowy UAV skierował się do Niżyna od północy",
+      "text_pl": "🏍 Obwód czernihowski: odrzutowy UAV skierował się do Niżyna od północy",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "8b3e9cf1b8fdf030": {
+      "id": "8b3e9cf1b8fdf030",
+      "timestamp": "2026-10-28T08:54:53+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА на Рівненщині, курс н.п.Степань",
+      "text": "🏍 Реактивний БпЛА  на Рівненщині, курс н.п.Степань",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.1388,
+      "lon": 35.2616,
+      "url": "https://t.me/kpszsu/91028",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91028"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104430+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy UAV w obwodzie rówieńskim, kurs w rejonie Stepana",
+      "text_pl": "🏍 Odrzutowy UAV w obwodzie rówieńskim, kurs w rejonie Stepana",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "55c81eb04091facf": {
+      "id": "55c81eb04091facf",
+      "timestamp": "2026-10-28T08:51:04+00:00",
+      "country": "Iran",
+      "flag": "🇮🇷",
+      "theater": "Bliski Wschód (Zatoka Perska)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump on Iran: It&#x27;s the question: When do I want to end it?",
+      "text": "Trump on Iran: It&#x27;s the question: When do I want to end it?",
+      "location_name": "Bliski Wschód (Zatoka Perska)",
+      "lat": 47.9884,
+      "lon": 35.1956,
+      "url": "https://t.me/ClashReport/103371",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/103371"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/lQqEcOuZPQx7EOqpwyIda8zXcn6qFSbWPBNfki5pd6pDCxTJqbry-Pplcn1bLc3R4mv32yAT4EfMVRm_z8gCpxnezxuJ7LzrPwluFKHrMEVU_aigOuBds1WrbSinDF5GWK-AxMcks7TcwG5XeCDdGYojpXN2GH757JSbx64RqznDuFYSlj304gHuyox7DS4NVySJ1dVHx8vlCUNSuOQcqwhrH4ew44NQhkkK6jZtYvGmV5pWrj_AxuVik9uedAHjajAY2pG7aXIgE4qZg8BupOOgdmBZ7EHaDlaBZWu5CMhOPImcysXWT4Bego_tfOK9Hq7aySdE-WMVWqXjJxydPg"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/4f1fc4d3b4.mp4?token=TNTaobqlm5kU3b9Q9yrIjoxp31xkSbkgIUr8Rps9V_-t7LnmrLxDf2geH41ynxPqmE-vlciECLEJOAoeWmzGi_8jtT4fePB_8KDHgzRAMWwL7Cl4xWYTgVMxT88SvDe3pe0_fDBfzg0D6B4yuyTvq0sZ5GQhcsfsP7_aXo3xtu419TGZdsEuIVaXjrDAf-sx9ruUwAO2RlqE_xLSR82w18R1Xxsl4odSQxWmBAUxk-4ZPKkqJ3bCeCzAsh6Be_wDiV64uKLIVUSjHafjJ9uq8Tih6O9jqxNtZxLKHrRDof2p6ezwA7EHnG-EHN4yjVaMaKDgh-hVAP3pTrvDQ-rLww",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-28T09:22:15.104644+00:00",
+      "verified_by_sources": [
+        "defence24",
+        "clashreport"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "Trump o Iranie: Pytanie: kiedy chcę to zakończyć?",
+      "text_pl": "Trump o Iranie: Pytanie: kiedy chcę to zakończyć?",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "953b60ab2d7ee04b": {
+      "id": "953b60ab2d7ee04b",
+      "timestamp": "2026-10-28T08:49:57+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🛵 Харківщина: БпЛА на півночі, курс м.Харків",
+      "text": "🛵 Харківщина: БпЛА на півночі, курс  м.Харків",
+      "location_name": "Charków",
+      "lat": 49.9935,
+      "lon": 36.2304,
+      "url": "https://t.me/kpszsu/91027",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91027"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104432+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🛵 Obwód charkowski: BpLA na północy, przebieg miasta Charków",
+      "text_pl": "🛵 Obwód charkowski: BpLA na północy, przebieg miasta Charków",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "7aaf9deabffd1a88": {
+      "id": "7aaf9deabffd1a88",
+      "timestamp": "2026-10-28T08:46:52+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Komunikat / Dyplomacja",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump: We&#x27;re making a lot of progress with Russia-Ukraine. There&#x27;ll be a meeting set up very soon.",
+      "text": "Trump: We&#x27;re making a lot of progress with Russia-Ukraine. There&#x27;ll be a meeting set up very soon.",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.04,
+      "lon": 34.9406,
+      "url": "https://t.me/ClashReport/103370",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/103370"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/vY0wR-QQGwtVf8BYBewrvfz7F2HPfKk0vHHyGyp0aZAlE5VG057ZMqR0b_qOrDjx5OvPhuAv1GHdO5XlGoUFMPMEaoiT_oN8UgqNXmIisHRNkhQ9zlOcf3YA-JdTgIiI9uBSkEp1MSmh3ilTzlKePANhh6q77IKmvZj4dZ9ROPyLRDExu2aCHI4CWqymLVfedaLxNNmlPGB2Vu22PcxFiNBnLSuyb-hPJq23inFerD0PbIwcSTJXr6Ug3sWghfaHlh3SCHTzcuLxlUPPCz_RLZUSLaMYc3erfz9Hbd3X8dxgBLcyPbq4RTACvjqEmk6ns4fy6DNMr-u8daM-1ASliA"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/0827c89d01.mp4?token=VngK2XLC87Z-gGQj8f4P31JPwtnqDg2Iznr6ZlOSMh7urr8REKMePmnE9IXSdXOkcw79Ai50Tx9Hpg6IHr6NWrCIyO9yC_VOTrbbciuS4Lsrp8AmVdHRlA3nssQSdwkDaI_wxcl920bojgIyu4SENWy05FF04rKPDEWXNxJjbDjW00H2-BoMqjae1JeIHQc6hmdQg7iS4AjmLbBBC3PZ9ViumhbUe8wRw5uzABA1QiSYs0IJPPejVrkBlVQQ61NQswT1Jej2C-7l2r_UK5_Qpoi9elS8OGBlKp4ZT3EjSUhqy7tZiIVbste40T67r5FVqbLpjO0MhUvrOiHkMomhEQ",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-28T09:22:15.104646+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Trump: Robimy duży postęp w stosunkach Rosja-Ukraina. Niedługo odbędzie się spotkanie.",
+      "text_pl": "Trump: Robimy duży postęp w stosunkach Rosja-Ukraina. Niedługo odbędzie się spotkanie.",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "032326818fa6167d": {
+      "id": "032326818fa6167d",
+      "timestamp": "2026-10-28T08:46:39+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Новий реактивний БпЛА повз Сновськ на Чернігівщині ➡️ у південному напрямку",
+      "text": "🏍 Новий реактивний БпЛА повз Сновськ на Чернігівщині ➡️ у південному напрямку",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.0572,
+      "lon": 35.2898,
+      "url": "https://t.me/kpszsu/91026",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91026"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104443+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Nowy odrzutowy UAV mija Snovsk w obwodzie czernihowskim ➡️ w kierunku południowym",
+      "text_pl": "🏍 Nowy odrzutowy UAV mija Snovsk w obwodzie czernihowskim ➡️ w kierunku południowym",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "55e587273deaf140": {
+      "id": "55e587273deaf140",
+      "timestamp": "2026-10-28T08:45:44+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🛵 Суми: БпЛА у напрямку міста з півночі",
+      "text": "🛵 Суми: БпЛА у напрямку міста з півночі",
+      "location_name": "Sumy",
+      "lat": 50.9077,
+      "lon": 34.7981,
+      "url": "https://t.me/kpszsu/91025",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91025"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104446+00:00",
+      "verified_by_sources": [
+        "DeepStateUA",
+        "astrapress",
+        "kpszsu",
+        "rybar"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🛵 Sumy: BpLA w kierunku miasta od północy",
+      "text_pl": "🛵 Sumy: BpLA w kierunku miasta od północy",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "c856849666219c5e": {
+      "id": "c856849666219c5e",
+      "timestamp": "2026-10-28T08:44:48+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА повз Бучмани курсом на Рівненщину.",
+      "text": "🏍 Реактивний БпЛА повз Бучмани курсом на Рівненщину.",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.8624,
+      "lon": 35.0198,
+      "url": "https://t.me/kpszsu/91024",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91024"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104448+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy BSP mija Buchmany w kierunku obwodu rówieńskiego.",
+      "text_pl": "🏍 Odrzutowy BSP mija Buchmany w kierunku obwodu rówieńskiego.",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "30932759069f889d": {
+      "id": "30932759069f889d",
+      "timestamp": "2026-10-28T08:44:20+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Peter Thiel Has a New Venture: Explosives for Pentagon&#x27;s New Drones A chemical company backed by Peter Thiel is entering...",
+      "text": "Peter Thiel Has a New Venture: Explosives for Pentagon&#x27;s New Drones A chemical company backed by Peter Thiel is entering military explosives market, testing a material intended to fill a supply gap that threatens Pentagon’s expansion of attack drones. READ MORE",
+      "location_name": "Inne",
+      "lat": 47.9172,
+      "lon": 34.931,
+      "url": "https://t.me/ClashReport/103369",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/103369"
+        },
+        {
+          "name": "clashreport.com",
+          "url": "https://clashreport.com/defense/articles/peter-thiel-has-a-new-venture-explosives-for-pentagon-s-new-drones-kd3rg3an2db"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/u1KHbLqTk2xHZSNlgRRLTLlNBaWwnbAVQgVep9T2eWpA1UzohW1moP0eAkZuN1LrRUprR3RJ1UK7J1PD48esaUUhUZJF-2zPZp0K5RgWVCAHaOzI4_ly99w1XJOd29E4crpx8-d06GW3pPTL_LbjlQkQ9c-LrDd_5jtu0pDTPrcfTONZEj3ufUJnSI_dOH4L0-AADMI9ySRxN_cpzzGlnQ54xvs7ZmjrBiVrBPBvbGsxELEcg-dmNdffoPjj15tbAHC2Ajyv5RH8HaZry89-wYeOH_zAkYazJtl53Q1H3Z93e9jyysNvXllJFI8vMmESsrTblxtmasXlJp4mIF04wg.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-28T09:22:15.104647+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Peter Thiel ma nowe przedsięwzięcie: materiały wybuchowe dla nowych dronów Pentagonu Firma chemiczna wspierana przez Petera Thiela wkracza…",
+      "text_pl": "Peter Thiel ma nowe przedsięwzięcie: materiały wybuchowe dla nowych dronów Pentagonu Firma chemiczna wspierana przez Petera Thiela wkracza na rynek wojskowych materiałów wybuchowych, testując materiał mający wypełnić lukę w dostawach, która zagraża ekspansji Pentagonu w zakresie dronów szturmowych. CZYTAJ WIĘCEJ",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "7c6faf7ec5ea54a4": {
+      "id": "7c6faf7ec5ea54a4",
+      "timestamp": "2026-10-28T08:40:14+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА з Брянської області ➡️ на північ Чернігівщини",
+      "text": "🏍 Реактивний БпЛА з Брянської області ➡️ на північ Чернігівщини",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.8204,
+      "lon": 35.0066,
+      "url": "https://t.me/kpszsu/91023",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91023"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104450+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy UAV z obwodu briańskiego ➡️ na północ od obwodu czernihowskiego",
+      "text_pl": "🏍 Odrzutowy UAV z obwodu briańskiego ➡️ na północ od obwodu czernihowskiego",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "760f9264a0cd790a": {
+      "id": "760f9264a0cd790a",
+      "timestamp": "2026-10-28T08:33:19+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Житомирщина: реактивний БпЛА повз Народичі, курс західний",
+      "text": "🏍 Житомирщина: реактивний БпЛА повз Народичі, курс західний",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.8888,
+      "lon": 35.1308,
+      "url": "https://t.me/kpszsu/91022",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91022"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104452+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Obwód żytomierski: odrzutowy UAV w pobliżu Narodycz, kierunek na zachód",
+      "text_pl": "🏍 Obwód żytomierski: odrzutowy UAV w pobliżu Narodycz, kierunek na zachód",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "8daf7ef92e51f09f": {
+      "id": "8daf7ef92e51f09f",
+      "timestamp": "2026-10-28T08:33:08+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Zelensky on Russia: Ukraine is more technologically advanced. The Russians attacked our data centers so many times, but ...",
+      "text": "Zelensky on Russia: Ukraine is more technologically advanced. The Russians attacked our data centers so many times, but we still had mobile communications and internet access because we have a decentralized and advanced digital infrastructure. Our retaliatory strikes are more painful for Russia because everything there is more centralized.",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.0652,
+      "lon": 35.03,
+      "url": "https://t.me/ClashReport/103368",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/103368"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/nSyMRuCxWE86Vh3P1B6uQOrJnPXLzYSil7i33G-2LuKvlTKpQC9nGABAYe4eL96sTr1DZtsrZQdCwXozM32nbe3tBmQ1BSSrfpNEnT8ztIT3oZxRioL62p1Mh9HE-IU-8sO11t2P8_Y0oW8mdKnxoNdaRFfWHZ17b43V5n4ESk-xKMyVBgFXQPfMQ4E5HVwhqswq-EpwOnG9CXmaIvCs5Azv35NoHZqoUeEBSm3Qh4ds8LbU5UDJ_VfXD87bhlfGPxRNGeYTGTREsPDyehofLm0s2Dqp7oRZDIr0eVwFUSvIwsl6JKxIhrdJVXykXoynPaljas-tmhRMsNcQ3cg6ow.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-28T09:22:15.104649+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Zełenski o Rosji: Ukraina jest bardziej zaawansowana technologicznie. Rosjanie tyle razy atakowali nasze centra danych, ale…",
+      "text_pl": "Zełenski o Rosji: Ukraina jest bardziej zaawansowana technologicznie. Rosjanie wielokrotnie atakowali nasze centra danych, ale nadal mieliśmy łączność mobilną i dostęp do Internetu, ponieważ mamy zdecentralizowaną i zaawansowaną infrastrukturę cyfrową. Nasze ataki odwetowe są dla Rosji bardziej bolesne, ponieważ wszystko jest tam bardziej scentralizowane.",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "8ce34d85cd060e19": {
+      "id": "8ce34d85cd060e19",
+      "timestamp": "2026-10-28T08:30:37+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА повз П&#x27;ятихатки на Дніпропетровщині ➡️ у південно-західному напрямку",
+      "text": "🏍 Реактивний БпЛА повз П&#x27;ятихатки на Дніпропетровщині ➡️ у південно-західному напрямку",
+      "location_name": "Dniepr",
+      "lat": 48.4647,
+      "lon": 35.0462,
+      "url": "https://t.me/kpszsu/91021",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91021"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 9,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104454+00:00",
+      "verified_by_sources": [
+        "astrapress",
+        "kpszsu",
+        "rybar"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🏍 Odrzutowy UAV mijający Piatikhatky w obwodzie dniepropietrowskim ➡️ w kierunku południowo-zachodnim",
+      "text_pl": "🏍 Odrzutowy UAV mijający Piatikhatky w obwodzie dniepropietrowskim ➡️ w kierunku południowo-zachodnim",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "bf2cdb21d5225c4b": {
+      "id": "bf2cdb21d5225c4b",
+      "timestamp": "2026-10-28T08:27:27+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Zelensky: My philosophy is that Putin is deeply Soviet, both in his outlook on reality and in his mentality. We know thi...",
+      "text": "Zelensky: My philosophy is that Putin is deeply Soviet, both in his outlook on reality and in his mentality. We know this because my generation was born in the Soviet Union. When Putin lies, we can sense it. We lived alongside the Russians for so many years. That is why I think we understand the Russians better than the United States does.",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.8744,
+      "lon": 34.9868,
+      "url": "https://t.me/ClashReport/103367",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/103367"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-28T09:22:15.104651+00:00",
+      "verified_by_sources": [
+        "clashreport"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Zełenski: Moja filozofia jest taka, że ​​Putin jest głęboko sowiecki, zarówno pod względem spojrzenia na rzeczywistość, jak i mentalności. Wiemy, że to...",
+      "text_pl": "Zełenski: Moja filozofia jest taka, że ​​Putin jest głęboko sowiecki, zarówno pod względem spojrzenia na rzeczywistość, jak i mentalności. Wiemy o tym, ponieważ moje pokolenie urodziło się w Związku Radzieckim. Kiedy Putin kłamie, możemy to wyczuć. Przez tyle lat żyliśmy u boku Rosjan. Dlatego myślę, że rozumiemy Rosjan lepiej niż Stany Zjednoczone.",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "06d26e9f1f6c08f4": {
+      "id": "06d26e9f1f6c08f4",
+      "timestamp": "2026-10-28T08:26:50+00:00",
+      "country": "Polska",
+      "flag": "🇵🇱",
+      "theater": "Wschodnia Flanka NATO (Polska)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Koreańska artyleria dla Rumunii. Pierwsza dostawa zrealizowana",
+      "text": "Koreańska artyleria dla Rumunii. Pierwsza dostawa zrealizowana. Do Rumunii dotarły pierwsze armatohaubice samobieżne K9 Tanetul wraz z pojazdami wsparcia. Dla jednego z nich Bukareszt będzie pierwszym użytkownikiem.",
+      "title_pl": "Koreańska artyleria dla Rumunii. Pierwsza dostawa zrealizowana",
+      "text_pl": "Koreańska artyleria dla Rumunii. Pierwsza dostawa zrealizowana. Do Rumunii dotarły pierwsze armatohaubice samobieżne K9 Tanetul wraz z pojazdami wsparcia. Dla jednego z nich Bukareszt będzie pierwszym użytkownikiem.",
+      "location_name": "Wschodnia Flanka NATO (Polska)",
+      "lat": 52.3064,
+      "lon": 20.9706,
+      "url": "https://defence24.pl/sily-zbrojne/koreanska-artyleria-dla-rumunii-pierwsza-dostawa-zrealizowana",
+      "tactical_sources": [
+        {
+          "name": "Defence24",
+          "url": "https://defence24.pl/sily-zbrojne/koreanska-artyleria-dla-rumunii-pierwsza-dostawa-zrealizowana"
+        }
+      ],
+      "media_urls": [
+        "https://cdn.defence24.pl/2026/10/28/320x240px/BvR8r0JwNgHCJYUMflTSD32ryUIZyC4KoZz621Ux.vzfm.jpg",
+        "https://cdn.defence24.pl/2026/10/28/1200xpx/BvR8r0JwNgHCJYUMflTSD32ryUIZyC4KoZz621Ux.amep.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "defence24",
+      "verified_by_sources": [
+        "defence24"
+      ],
+      "multi_source_verified": false,
+      "added_at": "2026-10-28T09:22:15.104740+00:00",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "13c2cf8d1cf875cb": {
+      "id": "13c2cf8d1cf875cb",
+      "timestamp": "2026-10-28T08:23:05+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "Российские спутники помогали союзникам Ирана наносить удары по Саудовской Аравии, — AP Российские разведывательные спутн...",
+      "text": "Российские спутники помогали союзникам Ирана наносить удары по Саудовской Аравии, — AP Российские разведывательные спутники собирали данные о целях в Саудовской Аравии, по которым затем били поддерживаемые Ираном группировки, пишет Associated Press. Агентство ссылается на женевскую компанию AURORAH Geosignal Intelligence, источник, знакомый с саудовскими расследованиями, и одного из высокопоставленных лидеров хуситов. AURORAH изучила 40 ракетных и беспилотных атак йеменских хуситов и иракских группировок на Саудовскую Аравию с 1 июля по 19 октября. Во всех случаях, по данным компании, российские военные и правительственные спутники находились над районами целей за несколько дней до атак и после них. «Мы обнаружили 100-процентное совпадение», сказал основатель AURORAH Наваф Обейд. С июля над тремя участками нефтепровода «Восток — Запад» сосредоточились 11 российских спутников серии «Космос-2600», говорит Обейд. Утром 10 сентября беспилотники из Ирака ударили по трем насосным станциям трубопровода, и прокачка нефти сразу прервалась. По трубопроводу длиной 1200 км Саудовская Аравия экспортирует нефть к Красному морю в обход Ормузского пролива. Через неделю хуситы атаковали авиабазу в Таифе и повредили итальянский истребитель. Перед обоими ударами число российских спутников над целями, по данным AURORAH, выросло на 50%. Источник, знакомый с саудовскими расследованиями, сказал AP, что российские спутники помогали ударам по насосным станциям. Высокопоставленный лидер хуситов рассказал, что иранские советники в Йемене передают боевикам данные на основе российской спутниковой разведки для наведения ударов. AURORAH признает, что не перехватывала саму передачу данных и делает выводы по движению спутников. Обейд с 2004 по 2016 год был советником саудовских властей. ☮ Сайт издания ASTRA на английском и русском языках: https://astra.press (в РФ открывается с VPN)",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 48.08,
+      "lon": 35.2148,
+      "url": "https://t.me/astrapress/129558",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/129558"
+        },
+        {
+          "name": "apnews.com",
+          "url": "https://apnews.com/article/russia-iran-satellite-intelligence-houthis-iraqi-militias-0989403fb38ccd9d7c9ad11a16e28d24"
+        },
+        {
+          "name": "astra.press",
+          "url": "https://astra.press/"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/OaQCkjsHwgBo75Ss7f-95teiEkpr4LCXeciLG46xibH_jqLsejvm0Cs1RGuHYpULdlgVS8Kfkcp1TeOaU8xaog2bXFIq0bRMfX0ZZMouxt3CClB9eQH6iwuSLqgI4sXdyFG7kRbJhDzvWLIKzOckeL01HCZNViFdti9qOVYJ8-BUzKKWc72Qc7dSUH5BMOSQQBaUneEiVEpMwZ02I84RFO7WaXLzPRwJOvji_n2Ztktuom_LG0VF2LfbTUSZNYDVmiYdTPwoexFPvDDRFS2BIsgKS7jmBeBL4UO5B47UmASXWs-m21Dk0JB4zGI5uzgG0JmPOCobrT79IzwvTo23jw.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Myśliwiec Bojowy"
+      ],
+      "target_type": "Baza Lotnicza / Lotnisko",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "astrapress",
+      "added_at": "2026-10-28T09:22:15.104550+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Rosyjskie satelity pomogły sojusznikom Iranu w ataku na Arabię ​​Saudyjską – AP rosyjskie satelity wywiadowcze…",
+      "text_pl": "Rosyjskie satelity pomogły sojusznikom Iranu w uderzeniu na Arabię ​​Saudyjską – jak pisze Associated Press, rosyjskie satelity rozpoznawcze AP zebrały dane o celach w Arabii Saudyjskiej, które następnie zostały zaatakowane przez grupy wspierane przez Iran. Agencja powołała się na AURORAH Geosignal Intelligence z siedzibą w Genewie, źródło zaznajomione z dochodzeniami Arabii Saudyjskiej i wysokiego rangą przywódcę Houthi. AURORAH zbadała 40 ataków rakietowych i dronów przeprowadzonych przez jemeńskie grupy Huti i irackie na Arabię ​​Saudyjską od 1 lipca do 19 października. Według firmy we wszystkich przypadkach rosyjskie satelity wojskowe i rządowe znajdowały się nad docelowymi obszarami przez kilka dni przed atakami i po nich. „Znaleźliśmy stuprocentowe dopasowanie” – powiedział założyciel AURORAH, Nawaf Obaid. Od lipca 11 rosyjskich satelitów serii Cosmos-2600 jest skoncentrowanych na trzech odcinkach ropociągu Wschód-Zachód, mówi Obeid. Rankiem 10 września drony z Iraku uderzyły w trzy przepompownie rurociągu, co natychmiast przerwało pompowanie ropy. Arabia Saudyjska eksportuje ropę naftową do Morza Czerwonego, omijając Cieśninę Ormuz, rurociągiem o długości 1200 km. Tydzień później Huti zaatakowali bazę lotniczą w Taif i uszkodzili włoski myśliwiec. Według AURORAH przed obydwoma atakami liczba rosyjskich satelitów nad celami wzrosła o 50%. Źródło zaznajomione z saudyjskim śledztwem powiedziało AP, że rosyjskie satelity pomogły w strajkach w przepompowniach. Starszy przywódca Houthi powiedział, że irańscy doradcy w Jemenie przekazują bojownikom dane oparte na rosyjskim wywiadzie satelitarnym, aby kierować atakami. AURORAH przyznaje, że samej transmisji danych nie przechwyciła i wyciąga wnioski z ruchu satelitów. Obeid był doradcą władz Arabii Saudyjskiej od 2004 do 2016 roku. ☮ Strona internetowa publikacji ASTRA w języku angielskim i rosyjskim: https://astra.press (w Federacji Rosyjskiej otwiera się za pomocą VPN)",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "e2e508786f6d8f2d": {
+      "id": "e2e508786f6d8f2d",
+      "timestamp": "2026-10-28T08:22:00+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "📝 Последние опоры 📝 В Центральной Африке Министр иностранных дел Франции Жан-Ноэль Барро объявил, что будет добиваться е...",
+      "text": "📝 Последние опоры 📝 В Центральной Африке Министр иностранных дел Франции Жан-Ноэль Барро объявил, что будет добиваться европейских санкций против тех, кто стоит за российским влиянием в Африке, а в первую очередь за кампаниями, нацеленными на Камерун и Республику Конго. Поводом стал доклад службы Viginum, созданной в 2021 году для отслеживания иностранного вмешательства в цифровой среде. Барро заявил, что «Владимир Путин пытается управлять общественным мнением суверенных государств в ущерб французским интересам и что попытка колонизировать умы провалится». 📌 Камерун и Конго остаются среди последних опор системы французских интересов. Обе страны сохраняют тесные связи с властями в Париже, пользуются франком КФА, принимают французские компании в нефтедобыче и лесной отрасли, а их руководители десятилетиями считались надёжными партнёрами. 🖍️ Обе при этом подошли к смене власти. Полю Бийе 93 года, он переизбрался на восьмой срок в прошлом октябре, не назвал преемника и этим летом провёл больше 10 недель в Женеве, а Дени Сассу-Нгессо управляет Конго с небольшим перерывом с 1979 года. ❗️ Нервозность в Париже объясняется именно этим сочетанием. Переходный период в обеих странах неизбежен, конкуренты работают с теми, кто придёт на смену, а бывшая метрополия рискует повторить сценарий Сахеля, где смена власти обернулась выводом войск и разрывом соглашений. Санкции в такой ситуации выглядят попыткой удержать то, что удерживается всё хуже. #Россия #Франция 💀 @rybar_africa — там, где политика горячее экватора 💸 Поддержать нас",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 47.8368,
+      "lon": 34.721,
+      "url": "https://t.me/rybar/84222",
+      "tactical_sources": [
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/84222"
+        },
+        {
+          "name": "sgdsn.gouv.fr",
+          "url": "https://www.sgdsn.gouv.fr/viginum/publications/globus-structure-dinfluence-et-dingerence-informationnelle-russe-en-afrique"
+        },
+        {
+          "name": "#rybar_africa",
+          "url": "https://t.me/rybar_africa"
+        },
+        {
+          "name": "qr.nspk.ru",
+          "url": "https://qr.nspk.ru/BS1A0068ID10D33B9IBAQRQ4M9T0NIFN?type=01&amp;bank=100000000008&amp;crc=36CB"
+        }
+      ],
+      "media_urls": [
+        "https://cdn5.telesco.pe/file/nU4JusOSXpaj-kVnZKCAZ88Z88BqhP-IeBHIyODRuv6uPLY5DzsQ72c1sSpXW5_ka4wzCe8wwJCOPnqnJA8To4De8aEPBWDttA7fc6EKTN1MDNlPba5Podz_aZoCBFBdW3cXKc7P1FZ0_xReqyJj4ySB-V-qWZZQiDtZ_Vl1szpenICxzEFwaHVovi6EABUEc0J3Fk-h_vqDYrKNx4XirMRYHz5zlAGUL2QEJGA8PYpEjJvegmso8yc2x2ZqEvLYYr5azy_4Gcs3Rs6iqRHM4Z47yv8XJwQGovoNuBCieauwyBfXQ6XQJAHuqOHWOxupMjJo0TGft3QRF0v6SahSqw.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "rybar",
+      "added_at": "2026-10-28T09:22:15.104621+00:00",
+      "verified_by_sources": [
+        "rybar"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "📝Ostatnie wsparcie 📝 W Afryce Środkowej francuski minister spraw zagranicznych Jean-Noël Barrault zapowiedział, że będzie zabiegał o...",
+      "text_pl": "📝 Ostatnie wsparcie 📝 W Afryce Środkowej Francuski minister spraw zagranicznych Jean-Noël Barrault zapowiedział, że będzie zabiegał o europejskie sankcje wobec osób stojących za rosyjskimi wpływami w Afryce, zwłaszcza wobec kampanii wymierzonych w Kamerun i Republikę Konga. Powodem był raport serwisu Viginum, stworzony w 2021 roku w celu śledzenia obcych ingerencji w środowisko cyfrowe. Barrault stwierdził, że „Władimir Putin próbuje kontrolować opinię publiczną suwerennych państw ze szkodą dla interesów Francji i że próba kolonizacji umysłów zakończy się niepowodzeniem”. 📌 Kamerun i Kongo pozostają jednymi z ostatnich filarów systemu interesów francuskich. Obydwa kraje utrzymują bliskie powiązania z władzami w Paryżu, posługują się frankiem CFA, goszczą francuskie firmy z branży naftowej i leśnej, a ich przywódcy od dziesięcioleci uchodzą za wiarygodnych partnerów. 🖍️Obydwaj zbliżyli się do zmiany władzy. Paul Billet (93 l.) w październiku ubiegłego roku wywalczył reelekcję na ósmą kadencję, nie wskazał następcy i tego lata spędził w Genewie ponad 10 tygodni, podczas gdy Denis Sassou Nguesso rządzi Kongo z przerwami od 1979 r. ❗️Tę kombinację można wytłumaczyć nerwowością w Paryżu. Okres przejściowy w obu krajach jest nieunikniony, konkurenci współpracują z tymi, którzy ich zastąpią, a dawnej metropolii grozi powtórzenie scenariusza Sahelu, gdzie zmiana władzy skutkowała wycofaniem wojsk i zerwaniem porozumień. Sankcje w takiej sytuacji wyglądają jak próba utrzymania czegoś, co trzyma się coraz gorzej. #Rosja #Francja 💀 @rybar_africa - gdzie polityka jest gorętsza niż równik 💸 Wesprzyj nas",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "f3cbbe778bf746a0": {
+      "id": "f3cbbe778bf746a0",
+      "timestamp": "2026-10-28T08:20:16+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🛵 Сумщина: БпЛА повз Хотінь ➡️ у напрямку м.Суми.",
+      "text": "🛵 Сумщина: БпЛА повз Хотінь ➡️ у напрямку м.Суми.",
+      "location_name": "Sumy",
+      "lat": 50.9077,
+      "lon": 34.7981,
+      "url": "https://t.me/kpszsu/91019",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91019"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104456+00:00",
+      "verified_by_sources": [
+        "DeepStateUA",
+        "astrapress",
+        "kpszsu",
+        "rybar"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🛵 Sumy: BpLA za Chocimem ➡️ w kierunku miasta Sumy.",
+      "text_pl": "🛵 Sumy: BpLA za Chocimem ➡️ w kierunku miasta Sumy.",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "14facef279161cd6": {
+      "id": "14facef279161cd6",
+      "timestamp": "2026-10-28T08:17:30+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Чернігівщина: реактивні БпЛА курсом на Козелець ➡️ Київщина",
+      "text": "🏍 Чернігівщина: реактивні БпЛА курсом на Козелець ➡️ Київщина",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/kpszsu/91018",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91018"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104458+00:00",
+      "verified_by_sources": [
+        "kpszsu",
+        "rybar",
+        "war_monitor",
+        "clashreport",
+        "astrapress"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🏍 Obwód czernihowski: odrzutowe UAV w kierunku Kozelec ➡️ Obwód kijowski",
+      "text_pl": "🏍 Obwód czernihowski: odrzutowe UAV w kierunku Kozelec ➡️ Obwód kijowski",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "0166a454258955bb": {
+      "id": "0166a454258955bb",
+      "timestamp": "2026-10-28T08:16:49+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА у напрямку Золотоноші на Черкащині",
+      "text": "🏍 Реактивний БпЛА у напрямку Золотоноші на Черкащині",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.1256,
+      "lon": 34.7066,
+      "url": "https://t.me/kpszsu/91017",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91017"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104460+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy UAV w kierunku Zołotonoszy w obwodzie czerkaskim",
+      "text_pl": "🏍 Odrzutowy UAV w kierunku Zołotonoszy w obwodzie czerkaskim",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "cb577874c8c6a82a": {
+      "id": "cb577874c8c6a82a",
+      "timestamp": "2026-10-28T08:13:13+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Дніпро: реактивний БпЛА у напрямку міста",
+      "text": "🏍 Дніпро: реактивний БпЛА у напрямку міста",
+      "location_name": "Dniepr",
+      "lat": 48.4647,
+      "lon": 35.0462,
+      "url": "https://t.me/kpszsu/91016",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91016"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 9,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104462+00:00",
+      "verified_by_sources": [
+        "astrapress",
+        "kpszsu",
+        "rybar"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🏍 Dnipro: odrzutowy UAV w kierunku miasta",
+      "text_pl": "🏍 Dnipro: odrzutowy UAV w kierunku miasta",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "0739c85a6b9099ab": {
+      "id": "0739c85a6b9099ab",
+      "timestamp": "2026-10-28T08:09:53+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА у напрямку Семенівки (Полтавщина) з південного сходу.",
+      "text": "🏍 Реактивний БпЛА у напрямку Семенівки (Полтавщина) з південного сходу.",
+      "location_name": "Połtawa",
+      "lat": 49.5883,
+      "lon": 34.5514,
+      "url": "https://t.me/kpszsu/91015",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91015"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104464+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy UAV w kierunku Semenivki (Połtawszczyna) z południowego wschodu.",
+      "text_pl": "🏍 Odrzutowy UAV w kierunku Semenivki (Połtawszczyna) z południowego wschodu.",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "4a1eef82563da518": {
+      "id": "4a1eef82563da518",
+      "timestamp": "2026-10-28T08:06:28+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА на півночі Чернігівщини, курс вздовж кордону з Білоруссю",
+      "text": "🏍 Реактивний  БпЛА на півночі Чернігівщини, курс вздовж кордону з Білоруссю",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.8448,
+      "lon": 35.0528,
+      "url": "https://t.me/kpszsu/91014",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91014"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104465+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy BSP na północy obwodu czernihowskiego, kurs wzdłuż granicy z Białorusią",
+      "text_pl": "🏍 Odrzutowy BSP na północy obwodu czernihowskiego, kurs wzdłuż granicy z Białorusią",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "9e41eb02e072f89f": {
+      "id": "9e41eb02e072f89f",
+      "timestamp": "2026-10-28T08:04:38+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Мужчинам призывного возраста без документов воинского учета откажут в приеме документов на загранпаспорт Мужчинам призыв...",
+      "text": "Мужчинам призывного возраста без документов воинского учета откажут в приеме документов на загранпаспорт Мужчинам призывного возраста откажут в приеме документов на загранпаспорт, если у них нет документов воинского учета: военного билета, приписного удостоверения или справки установленного образца из военкомата. Об этом госагентствам сообщили в пресс-службе МВД. Утром ТАСС со ссылкой на материалы министерства писал только про военный билет. Среди других оснований для отказа на этапе приема документов МВД назвало недействительный внутренний паспорт и фотографии, не соответствующие требованиям. Действующие регламенты МВД требуют военный билет только «при наличии», а если его нет, ведомство само запрашивает данные в военкомате. Приписное удостоверение в регламентах не названо. Когда вступили в силу изменения, неизвестно. Правозащитники ранее неоднократно подчеркивали, что военный билет и справку из военкомата нужно предъявлять, только если они есть. Адвокат Максим Гребенюк сказал «Осторожно, новостям», что раньше таких ограничений не было, а государство выстраивает систему, при которой через госуслуги можно проверить, стоит ли человек на воинском учете. Призывной возраст в России с 1 января 2024 года составляет от 18 до 30 лет.",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 48.0248,
+      "lon": 34.7228,
+      "url": "https://t.me/astrapress/129557",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/129557"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/m3Rcv5DVg7boD-WoumdO8gW6xx-3EvITYz8Pdqh0lDSIqaBt0zsxwn-NC6WVVQ4fSuOnpXnDJX72W92WIhMZXb6hDXD-Oj00R4sxgdOyi4rAcV7SboOwvNyOYipUiWBkZ8OesOevzAQO1oUQsCLRWrnfkSh9oFy-MbwUT7TV9wqNpr_faT6AetSuupknfBIHrVe4YG9T-Rm3jf8CajgOt-3eca1xHhf0iinUQ5PhzFvkxsc2-98s7OtnqKrNuUx4hTg3rBQp0Yi9tacm4_H84sYkF6vLBnFt038v7HnUrJPAieIgzl0Z34xql9h0lZal61D4wV6xOG8QNbdTRMN7rQ.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "astrapress",
+      "added_at": "2026-10-28T09:22:15.104551+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Mężczyznom w wieku poborowym nieposiadającym wojskowych dokumentów rejestracyjnych nie zostaną wydane paszporty międzynarodowe. Mężczyźni powołani do wojska...",
+      "text_pl": "Mężczyźni w wieku poborowym nieposiadający wojskowych dokumentów rejestracyjnych nie będą akceptować dokumentów do paszportu zagranicznego. Mężczyznom w wieku poborowym nie zostaną przyjęte dokumenty do paszportu zagranicznego, jeżeli nie posiadają wojskowych dokumentów rejestracyjnych: dowodu wojskowego, zaświadczenia o rejestracji lub zaświadczenia o ustalonym formularzu z urzędu rejestracji i poboru do wojska. Służba prasowa MSW poinformowała o tym organy państwowe. Rano TASS, powołując się na materiały ministerstwa, pisał jedynie o legitymacji wojskowej. Wśród innych podstaw odmowy na etapie przyjmowania dokumentów MSW wymieniło nieważny paszport wewnętrzny i niespełniające wymagań zdjęcia. Obowiązujące przepisy MSWiA wymagają posiadania legitymacji wojskowej tylko „jeśli jest dostępna”, a w przypadku jej braku sam departament zwraca się o dane do urzędu rejestracji i poboru do wojska. Dowód rejestracyjny nie jest wymieniony w regulaminie. Nie wiadomo, kiedy zmiany weszły w życie. Obrońcy praw człowieka wielokrotnie podkreślali, że dowód wojskowy i zaświadczenie z urzędu rejestracji i poboru do wojska należy okazywać tylko wtedy, gdy takie istnieją. Prawnik Maxim Grebenyuk powiedział Beware of News, że wcześniej nie było takich ograniczeń, a państwo buduje system, w którym za pośrednictwem służb rządowych można sprawdzić, czy dana osoba jest zarejestrowana w wojsku. Wiek poboru w Rosji od 1 stycznia 2024 r. wynosi od 18 do 30 lat.",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "1f9b7e131b0fbb0a": {
+      "id": "1f9b7e131b0fbb0a",
+      "timestamp": "2026-10-28T08:03:43+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Дніпро: реактивний БпЛА у напрямку міста зі сходу",
+      "text": "🏍 Дніпро: реактивний БпЛА у напрямку міста зі сходу",
+      "location_name": "Dniepr",
+      "lat": 48.4647,
+      "lon": 35.0462,
+      "url": "https://t.me/kpszsu/91013",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91013"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 9,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104467+00:00",
+      "verified_by_sources": [
+        "astrapress",
+        "kpszsu",
+        "rybar"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🏍 Dnipro: odrzutowy UAV w kierunku miasta od wschodu",
+      "text_pl": "🏍 Dnipro: odrzutowy UAV w kierunku miasta od wschodu",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "12ec1f5f838ced35": {
+      "id": "12ec1f5f838ced35",
+      "timestamp": "2026-10-28T08:00:43+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА повз Нові Санжари на Полтавщині у північно-західному напрямку",
+      "text": "🏍 Реактивний БпЛА повз Нові Санжари на Полтавщині у північно-західному напрямку",
+      "location_name": "Połtawa",
+      "lat": 49.5883,
+      "lon": 34.5514,
+      "url": "https://t.me/kpszsu/91012",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91012"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104469+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy UAV mija Novi Sanzhary w obwodzie połtawskim w kierunku północno-zachodnim",
+      "text_pl": "🏍 Odrzutowy UAV mija Novi Sanzhary w obwodzie połtawskim w kierunku północno-zachodnim",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "58f37890a0e699ec": {
+      "id": "58f37890a0e699ec",
+      "timestamp": "2026-10-28T07:59:06+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Дніпропетровщина: реактивний БпЛА курсом на Синельникове.",
+      "text": "🏍 Дніпропетровщина: реактивний БпЛА курсом на Синельникове.",
+      "location_name": "Dniepr",
+      "lat": 48.4647,
+      "lon": 35.0462,
+      "url": "https://t.me/kpszsu/91011",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91011"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 9,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104471+00:00",
+      "verified_by_sources": [
+        "astrapress",
+        "kpszsu",
+        "rybar"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🏍 Obwód dniepropietrowski: odrzutowy UAV skierował się do Sinelnikowa.",
+      "text_pl": "🏍 Obwód dniepropietrowski: odrzutowy UAV skierował się do Sinelnikowa.",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "e10aa7a4a16ef672": {
+      "id": "e10aa7a4a16ef672",
+      "timestamp": "2026-10-28T07:55:52+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Павлоград: реактивний БпЛА в напрямку міста",
+      "text": "🏍 Павлоград: реактивний БпЛА в напрямку міста",
+      "location_name": "Pawłograd",
+      "lat": 48.5277,
+      "lon": 35.8711,
+      "url": "https://t.me/kpszsu/91010",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91010"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104473+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Pawłograd: odrzutowy UAV w kierunku miasta",
+      "text_pl": "🏍 Pawłograd: odrzutowy UAV w kierunku miasta",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "f46b0096c2ed230c": {
+      "id": "f46b0096c2ed230c",
+      "timestamp": "2026-10-28T07:54:19+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА з Брянської області ➡️ на північ Чернігівщини",
+      "text": "🏍 Реактивний БпЛА з Брянської області ➡️ на північ Чернігівщини",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.186,
+      "lon": 34.751,
+      "url": "https://t.me/kpszsu/91009",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91009"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104475+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy UAV z obwodu briańskiego ➡️ na północ od obwodu czernihowskiego",
+      "text_pl": "🏍 Odrzutowy UAV z obwodu briańskiego ➡️ na północ od obwodu czernihowskiego",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "5bd18effcb844403": {
+      "id": "5bd18effcb844403",
+      "timestamp": "2026-10-28T07:53:59+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Starcie Lądowe",
+      "tactical_category": "Starcie Lądowe / Szturm",
+      "tactical_icon": "⚔️",
+      "title": "Z-пропагандист Сладков рассказал о парализованном жителе Донецкой области, который ловил и «ел мышей» без возможности бы...",
+      "text": "Z-пропагандист Сладков рассказал о парализованном жителе Донецкой области, который ловил и «ел мышей» без возможности быть эвакуированным во время наступления ВС РФ в Бахмуте В эфире программы «60 минут» на телеканале «Россия 1» Z-военкор Александр Сладков заявил пропагандистке Ольге Скабеевой, что пенсионер, живший под Бахмутом, был вынужден питаться мышами: «Хочу привести пример отношения к мирным жителям украинских военных, допустим, у нас под Бахмутом. За несколько лет дедушке, который практически обездвижен был, они передали только бутылку масла растительного, стоящие рядом украинские военные. И он сделал 40 мышеловок. И ловил мышей. И ел мышей, не имея возможности получить… Не имея возможности быть эвакуированным, понимаете? А здесь у нас военные всегда делятся, чем могут». ВС РФ захватили Бахмут, который ранее российская пропаганда называла Артемовском, к концу весны 2023 года. Битва за город продолжалась почти 10 месяцев. О судьбе пенсионера, который якобы ел мышей, Сладков не сказал, а Скабеева не уточнила. Реплика Сладкова прозвучала при обсуждении ситуации в Олешках Херсонской области. 27 октября Мелания Трамп сообщила , что зона прекращения огня в Олешках расширилась за пределы населенного пункта и охватила еще часть Херсонской области. До этого РФ и Украина заявили о соблюдении режима перемирия в оккупированных Олешках. Российский омбудсмен Яна Лантратова подтвердила, что режим прекращения огня в районе Олешек продлится до 22:59 1 ноября. Глава фракции «Слуга народа» Давид Арахамия отмечал , что это самая масштабная деэскалация между РФ и Украиной с 2022 года. 📸 Прислать фото/видео/информацию: @helloastrabot 💫 Резервный канал ASTRA: https://t.me/astrapress2",
+      "location_name": "Chersoń",
+      "lat": 46.6354,
+      "lon": 32.6169,
+      "url": "https://t.me/astrapress/129556",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/129556"
+        },
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/129505?utm_source=chatgpt.com"
+        },
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/129504?utm_source=chatgpt.com"
+        },
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/129438?utm_source=chatgpt.com"
+        },
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/129494?utm_source=chatgpt.com"
+        },
+        {
+          "name": "#helloastrabot",
+          "url": "https://t.me/helloastrabot"
+        },
+        {
+          "name": "#astrapress2",
+          "url": "https://t.me/astrapress2"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/pMOnlAeRi1Hf6id_HHWNySetqeN6KNBux3JxNaYaVaJ8i6Qvqz8nFkVMDbMvvldKx61eLRDA4hIs71jMUTMD-GqqG8oO5_92ZhGuLCzEShlAmXlAJNmRw14t2CoUMK0I3siqi69Hkm2fivQ7CeH0kKXQlY1O1lov6NKfVDkKV9ggMH6XvY3SOes2AbjA3jQVdNTlhYCnrnyHxYdBLkiS2HTj6xlpXMsWlyJWPj5Plvutdg7ngwKl5_DieqbYJbF_69PXoeKIWDWPZH0ErY_NpU7xK0q1f-okhmGmlUEHKIFjGQhWJw48lCjghs7s1XSlwat8GqW46S-SSUo18yeGfw"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "astrapress",
+      "added_at": "2026-10-28T09:22:15.104553+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Z-propagandysta Sladkov mówił o sparaliżowanym mieszkańcu obwodu donieckiego, który łapał i „zjadał myszy” bez możliwości...",
+      "text_pl": "Z-propagandysta Sladkov mówił o sparaliżowanym mieszkańcu obwodu donieckiego, który podczas ofensywy Sił Zbrojnych Rosji w Bachmucie łapał i „zjadał myszy” bez możliwości ewakuacji. Na antenie programu „60 minut” na kanale telewizyjnym Rosja 1 korespondent wojskowy Z Aleksander Sladkow powiedział propagandystce Oldze Skabeevej, że emeryt mieszkający niedaleko Bachmuta był zmuszany do jedzenia myszy: „Chcę dać przykład podejścia do cywili ukraińskiego wojska, na przykład pod Bachmutem. Przez kilka lat przekazali mojemu dziadkowi, który był praktycznie unieruchomiony, ukraińskiemu oficerowi wojskowemu tylko butelkę oleju roślinnego w pobliżu. I zrobił 40 pułapek na myszy. I łapał myszy, nie mogąc się wydostać. Nie mając możliwości ewakuacji, wiesz? Ale tutaj nasze wojsko zawsze dzieli się tym, co może. Pod koniec wiosny 2023 roku Siły Zbrojne Rosji zdobyły Bachmut, zwany wcześniej przez rosyjską propagandę Artemowsk. Bitwa o miasto trwała prawie 10 miesięcy. Sladkov nie powiedział o losie emeryta, który rzekomo zjadł myszy, a Skabeeva nie wyjaśniła. Uwaga Sladkowa padła podczas dyskusji na temat sytuacji w Oleskach w obwodzie chersońskim. 27 października Melania Trump poinformowała, że ​​strefa zawieszenia broni w Oleszkach rozszerzyła się poza osadę i objęła inną część obwodu chersońskiego. Wcześniej Federacja Rosyjska i Ukraina ogłosiły przestrzeganie zawieszenia broni w okupowanych Oleskach. Rosyjska Rzecznik Praw Obywatelskich Yana Lantratova potwierdziła, że zawieszenie broni w rejonie Oleszka potrwa do 22:59 1 listopada. Szef frakcji Sługa Narodu David Arakhamia zauważył, że jest to największa deeskalacja między Federacją Rosyjską a Ukrainą od 2022 roku. 📸 Wyślij zdjęcie/wideo/informację: @helloastrabot 💫 Zarezerwuj kanał ASTRA: https://t.me/astrapress2",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "e8d10b7c7e16cf95": {
+      "id": "e8d10b7c7e16cf95",
+      "timestamp": "2026-10-28T07:52:47+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🛵 Запоріжжя: БпЛА у напрямку міста з півдня",
+      "text": "🛵 Запоріжжя: БпЛА у напрямку міста з півдня",
+      "location_name": "Zaporoże",
+      "lat": 47.8388,
+      "lon": 35.1396,
+      "url": "https://t.me/kpszsu/91008",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91008"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104477+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🛵 Zaporoże: BpLA w kierunku miasta od południa",
+      "text_pl": "🛵 Zaporoże: BpLA w kierunku miasta od południa",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "1d7504a456da8964": {
+      "id": "1d7504a456da8964",
+      "timestamp": "2026-10-28T07:50:26+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Рівненщина: реактивний БпЛА курсом на Сарни",
+      "text": "🏍 Рівненщина: реактивний БпЛА курсом на Сарни",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.9892,
+      "lon": 35.1746,
+      "url": "https://t.me/kpszsu/91007",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91007"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104479+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 obwód rówieński: odrzutowy UAV skierował się do Sarn",
+      "text_pl": "🏍 obwód rówieński: odrzutowy UAV skierował się do Sarn",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "4feb05c2c01ab040": {
+      "id": "4feb05c2c01ab040",
+      "timestamp": "2026-10-28T07:48:29+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА на Харківщині, між н.п.Сахновщина та Орілька, курс західний",
+      "text": "🏍 Реактивний БпЛА  на Харківщині, між н.п.Сахновщина та Орілька, курс західний",
+      "location_name": "Charków",
+      "lat": 49.9935,
+      "lon": 36.2304,
+      "url": "https://t.me/kpszsu/91006",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91006"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104481+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy UAV w obwodzie charkowskim, pomiędzy Sachnowszczyną a Oriłką, kurs na zachód",
+      "text_pl": "🏍 Odrzutowy UAV w obwodzie charkowskim, pomiędzy Sachnowszczyną a Oriłką, kurs na zachód",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "99e1846896c700ce": {
+      "id": "99e1846896c700ce",
+      "timestamp": "2026-10-28T07:42:20+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "Ozon оценил ущерб от атак беспилотников на 11 логистических центров в 30,1 млрд рублей Ozon отразил в отчетности за трет...",
+      "text": "Ozon оценил ущерб от атак беспилотников на 11 логистических центров в 30,1 млрд рублей Ozon отразил в отчетности за третий квартал 30,1 млрд рублей оценочных резервов под убытки из-за атак беспилотников на 11 логистических объектов. В них входят испорченные товары, выбывшее и обесценившееся оборудование и прочие расходы. Часть рисков компания застраховала и обсуждает со страховщиками возможные выплаты. Несмотря на это, Ozon остался в плюсе: чистая прибыль за квартал составила 3,7 млрд рублей, выручка выросла в 1,6 раза, до 421,2 млрд. За квартал компания доставила 1,2 млрд заказов, на 76% больше, чем годом ранее. Склады Ozon начали атаковать 22 августа с Чапаевска в Самарской области. Потом удары пришлись на Оренбург, Краснодарский край, Махачкалу, Уфу, а в октябре на Петербург и Омск . До Ozon под удар попал Wildberries: его склады атакуют с середины июля. Восстановление инфраструктуры маркетплейса, по оценке Data Insight, обойдется в 147-223 млрд рублей, а потери продавцов, по более поздней оценке, могут достигать 445-508 млрд. 📸 Прислать фото/видео/информацию: @helloastrabot ☮ Сайт издания ASTRA на английском и русском языках: https://astra.press (в РФ открывается с VPN)",
+      "location_name": "Samara, Rosja",
+      "lat": 53.1959,
+      "lon": 50.1002,
+      "url": "https://t.me/astrapress/129555",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/129555"
+        },
+        {
+          "name": "corp.ozon.ru",
+          "url": "https://corp.ozon.ru/ru/sth/ozon-obyavlyaet-finansovye-rezultaty-za-tretiy-kvartal-2026-goda-58924955?__rr=1&amp;abt_att=1"
+        },
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/124933"
+        },
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/128606"
+        },
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/129213"
+        },
+        {
+          "name": "rbc.ru",
+          "url": "https://www.rbc.ru/rbcfreenews/6a8e6bcd9a7947595853a8c9?utm_referrer=https%3A%2F%2Fwww.google.com%2F"
+        },
+        {
+          "name": "#helloastrabot",
+          "url": "https://t.me/helloastrabot"
+        },
+        {
+          "name": "astra.press",
+          "url": "https://astra.press/"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/ZEhHSTJGXNk6SetPyHA8bk2aR5If3xPMeJia0e4X5JcecAzvMBi4xpLUX3JNYreVDNyRK-jS1eeziL1jxOAa8sLGbbxddW-odOnJYgWv5ihlCQNsiVQRBlks72FGGzWkw95fT9ujrmH1FlgMJIBlGOnan1kmCIG3AorBbsFm7cu7qLxev5exbVSm9jebWMMeAGpfRzw9MjYbAnzRH6VUc0bWxqTAxEb1PQnNT2uCUJ-Odvm2mww0nEbrwIlwFq7Z0Wz3OdgO0uwdVV4J-iYmKB2358SW6HAvWyXjhLvikfoi_jBGqTTHa_wUznjiIj4Kk-gUWuuwxDJ4xQkTKm1TUw.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "astrapress",
+      "added_at": "2026-10-28T09:22:15.104555+00:00",
+      "verified_by_sources": [
+        "astrapress",
+        "OSINT Multi-Radar"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "Ozon oszacował szkody spowodowane atakami dronów na 11 centrów logistycznych na 30,1 miliarda rubli. Ozon znalazł odzwierciedlenie w swoim raporcie po raz trzeci...",
+      "text_pl": "Ozon oszacował szkody spowodowane atakami dronów na 11 centrów logistycznych na 30,1 miliarda rubli. Ozon uwzględnił w swoim raporcie za trzeci kwartał 30,1 miliarda rubli szacowanych rezerw na straty spowodowane atakami dronów na 11 obiektów logistycznych. Obejmują one uszkodzone towary, wycofany i zamortyzowany sprzęt oraz inne wydatki. Spółka ubezpieczyła część ryzyk i prowadzi rozmowy z ubezpieczycielami dotyczące ewentualnych płatności. Mimo to Ozon pozostał na minusie: zysk netto za kwartał wyniósł 3,7 miliarda rubli, przychody wzrosły 1,6-krotnie, do 421,2 miliarda. W ciągu kwartału firma zrealizowała 1,2 miliarda zamówień, o 76% więcej niż rok wcześniej. Magazyny Ozonu rozpoczęły się 22 sierpnia w Czapajewsku w obwodzie samarskim. Następnie ciosy spadły na Orenburg, Ziemię Krasnodarską, Machaczkałę, Ufę, a w październiku na Petersburg i Omsk. Przed Ozonem firma Wildberries została zaatakowana: jej magazyny były atakowane od połowy lipca. Według Data Insight przywrócenie infrastruktury rynkowej będzie kosztować 147–223 miliardów rubli, a straty sprzedawców, według późniejszych szacunków, mogą sięgnąć 445–508 miliardów. 📸 Wyślij zdjęcia/filmy/informacje: @helloastrabot ☮ Strona ASTRA w języku angielskim i rosyjskim: https://astra.press (otwiera się z VPN w Federacji Rosyjskiej)",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "95bc5e9524039d2f": {
+      "id": "95bc5e9524039d2f",
+      "timestamp": "2026-10-28T07:41:01+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА з півночі Житомирщини курсом на Рівненщину (Дубровиця/Сарни)",
+      "text": "🏍 Реактивний БпЛА з півночі Житомирщини курсом на Рівненщину (Дубровиця/Сарни)",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.1608,
+      "lon": 35.1956,
+      "url": "https://t.me/kpszsu/91004",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91004"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104482+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy UAV z północy obwodu żytomierskiego w kierunku obwodu rówieńskiego (Dubrowica/Sarny)",
+      "text_pl": "🏍 Odrzutowy UAV z północy obwodu żytomierskiego w kierunku obwodu rówieńskiego (Dubrowica/Sarny)",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "5fb2612052ec3f2d": {
+      "id": "5fb2612052ec3f2d",
+      "timestamp": "2026-10-28T07:33:51+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Obrona Przeciwlotnicza",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "📝 Нетаньяху впереди 📝 6 0% обработанных бюллетеней Подсчет в Израиле идет вразрез со всеми вчерашними прогнозами. Обрабо...",
+      "text": "📝 Нетаньяху впереди 📝 6 0% обработанных бюллетеней Подсчет в Израиле идет вразрез со всеми вчерашними прогнозами. Обработано больше половины бюллетеней, и экзитполы , рисовавшие победу оппозиции, стремительно устаревают, электорат правящей коалиции пока кажется мобилизованнее. Впрочем израильские качели только начинают раскачиваться и рано делать финальные выводы. ➡️ «Ликуд» Нетаньяху вырос до 28 мандатов и уверенно обходит главного оппонента «Яшар!» Айзенкота , который просел до 21. Дальше «Вместе» Беннета-Лапида — с 11, арабский Объединенный список — с 12, «Ха-Демократим» Голана , «Яхадут ха-Тора» и НДИ Либермана — по 8, ШАС и «Оцма Йехудит» Бен-Гвира — по 7, «Религиозный сионизм — Зеут» Смотрича — 6 и арабская «РААМ» — неестественно просевшая до 4, едва проходя порог в парламент. Итого: у блока Нетаньяху набирается 56 мандатов, а у оппозиции Айзенкота — 48. ➡️ Впереди еще почти половина бюллетеней и есть целые города, где не подсчитано ничего, включая Кфар-Сабу и Раанану , а также арабские Рахат , Сахнин и Кфар-Касем , которые точно вернут арабским спискам пару мандатов. ➡️ Помимо этого в ЦИК в четверг еще должны посчитать армейские «двойные конверты». В армии в этот раз проголосовали 79,9% военнослужащих, примерно на 6% больше прошлых выборов. И эти голоса способны переписать судьбу сразу нескольких мандатов. 🖍 Если тенденция с увеличением мандатов блока Нетаньяху сохранится, то он как лидер крупнейшей партии получит от президента Израиля первое право сформировать кабинет. Вот тут и начнется главная интрига, поскольку правящей коалиции не хватает голосов, а брать их негде, арабские списки к ним не пойдут. Следовательно, остается ломать лагерь оппозиции по кусочку или уговаривать ушедших за барьер. Например, первым кандидатом «на слом» выглядит Авигдор Либерман , глава партии «Наш дом Израиль». Он уже сидел в правительствах Нетаньяху, ведет переговоры всегда прагматично и для него пост министра нацбезопасности может оказаться убедительнее товарищей по лагерю. Пок",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.8664,
+      "lon": 35.1872,
+      "url": "https://t.me/rybar/84221",
+      "tactical_sources": [
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/84221"
+        },
+        {
+          "name": "#rybar_mena",
+          "url": "https://t.me/rybar_mena/7291"
+        },
+        {
+          "name": "#rybar_mena",
+          "url": "https://t.me/rybar_mena/7313"
+        },
+        {
+          "name": "#rybar_mena",
+          "url": "https://t.me/rybar_mena"
+        },
+        {
+          "name": "qr.nspk.ru",
+          "url": "https://qr.nspk.ru/BS1A0068ID10D33B9IBAQRQ4M9T0NIFN?type=01&amp;bank=100000000008&amp;crc=36CB"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "rybar",
+      "added_at": "2026-10-28T09:22:15.104623+00:00",
+      "verified_by_sources": [
+        "rybar"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "📝 Netanjahu przed nami 📝 6 0% przetworzonych głosów Liczenie w Izraelu jest sprzeczne ze wszystkimi wczorajszymi prognozami. Obrobiony...",
+      "text_pl": "📝 Netanjahu przed nami 📝 6 0% przetworzonych głosów Liczenie w Izraelu jest sprzeczne ze wszystkimi wczorajszymi prognozami. Przetworzono ponad połowę głosów, a sondaże wyjściowe wskazujące zwycięstwo opozycji szybko stają się nieaktualne; elektorat koalicji rządzącej nadal wydaje się bardziej zmobilizowany. Jednak izraelska huśtawka dopiero zaczyna się wahać i jest zbyt wcześnie, aby wyciągać ostateczne wnioski. ➡️ Likud Netanjahu urósł do 28 mandatów i zdecydowanie przewyższa swojego głównego przeciwnika, Yashara! Eisenkot spadł na 21. Następnie „Razem” Bennetta-Lapida – z 11., Arab Joint List – z 12., „Ha-Demokratim”, „Yahadut HaTorah” i NDI Liebermana – po 8, „Otzma Yehudit” Shasa i Ben-Gvira – po 7, „Religijny syjonizm” Smotricha – Zehut” – 6 i arabskie „RAAM” – nienaturalnie opadające do 4, ledwo przekraczając próg parlamentu. Razem: blok Netanjahu ma 56 mandatów, a opozycja Eizenkot 48. ➡️ Przed nami jeszcze prawie połowa głosów i są całe miasta, w których nic nie zostało policzone, m.in. Kfar Saba i Ra’anana, a także Arab Rahat, Sakhnin i Kfar Qasem, co z pewnością zwróci na arabskie listy kilka mandatów. ➡️ Oprócz tego CKW ma jeszcze w czwartek rozliczyć „podwójne koperty” armii. Tym razem w wojsku głosowało 79,9% personelu wojskowego, o około 6% więcej niż w poprzednich wyborach. A te głosy są w stanie przepisać losy kilku mandatów na raz. 🖍 Jeśli trend zwiększania mandatów dla bloku Netanjahu będzie się utrzymywał, wówczas on jako lider największej partii otrzyma od Prezydenta Izraela pierwsze prawo do utworzenia gabinetu. Tu zaczyna się główna intryga, gdyż koalicji rządzącej brakuje głosów i nie ma ich skąd zdobyć; listy arabskie nie trafią do nich. W rezultacie pozostaje jedynie rozbić obóz opozycji kawałek po kawałku lub przekonać tych, którzy opuścili barierę. Przykładowo pierwszym kandydatem do złomowania jest Avigdor Lieberman, szef partii „Izrael Nasz Dom”. Służył już w rządach Netanjahu, zawsze negocjuje pragmatycznie, a dla niego stanowisko Ministra Bezpieczeństwa Narodowego może być bardziej przekonujące niż jego towarzyszy w obozie. Pok",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "6cd9ceecfbb274fc": {
+      "id": "6cd9ceecfbb274fc",
+      "timestamp": "2026-10-28T07:31:10+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Житомирщина: реактивний БпЛА повз Овруч курсом на захід",
+      "text": "🏍 Житомирщина: реактивний БпЛА повз Овруч курсом на захід",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.9352,
+      "lon": 34.9586,
+      "url": "https://t.me/kpszsu/91003",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91003"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104484+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Obwód żytomierski: odrzutowy UAV mija Owruch w kierunku zachodnim",
+      "text_pl": "🏍 Obwód żytomierski: odrzutowy UAV mija Owruch w kierunku zachodnim",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "0e38f3367cfdd817": {
+      "id": "0e38f3367cfdd817",
+      "timestamp": "2026-10-28T07:21:05+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🛵 БпЛА через зону відчуження Чорнобильської АЕС курсом на захід.",
+      "text": "🛵 БпЛА через зону відчуження Чорнобильської АЕС курсом на захід.",
+      "location_name": "Czarnobyl",
+      "lat": 51.2763,
+      "lon": 30.2218,
+      "url": "https://t.me/kpszsu/91001",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91001"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104487+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🛵 Bezzałogowy statek powietrzny przez strefę wykluczenia elektrowni jądrowej w Czarnobylu w kierunku zachodnim.",
+      "text_pl": "🛵 Bezzałogowy statek powietrzny przez strefę wykluczenia elektrowni jądrowej w Czarnobylu w kierunku zachodnim.",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "75e341129de849bd": {
+      "id": "75e341129de849bd",
+      "timestamp": "2026-10-28T07:19:39+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "⚠ Увага! 🛫 Активність ворожої тактичної авіації на східному напрямку! 🚀 🚀 Загроза застосування авіаційних засобів уражен...",
+      "text": "⚠ Увага! 🛫 Активність ворожої тактичної авіації на східному напрямку! 🚀 🚀 Загроза застосування авіаційних засобів ураження для прифронтових областей!",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.9132,
+      "lon": 34.9454,
+      "url": "https://t.me/kpszsu/91000",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/91000"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104488+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "⚠ Uwaga! 🛫 Działalność wrogiego lotnictwa taktycznego na kierunku wschodnim! 🚀 🚀 Zagrożenie użyciem środków lotniczych dotkniętych...",
+      "text_pl": "⚠ Uwaga! 🛫 Działalność wrogiego lotnictwa taktycznego na kierunku wschodnim! 🚀 🚀 Groźba użycia lotniczych środków zniszczenia na terenach frontowych!",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "bdcf5ecfa602a1e4": {
+      "id": "bdcf5ecfa602a1e4",
+      "timestamp": "2026-10-28T07:15:23+00:00",
+      "country": "Iran",
+      "flag": "🇮🇷",
+      "theater": "Bliski Wschód (Zatoka Perska)",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Uderzenie Balistyczne / Rakieta",
+      "tactical_icon": "🚀",
+      "title": "U.S. Warns Gulf States to Brace for Intense Iran Campaign After Midterms Washington has warned Gulf Arab states of a pos...",
+      "text": "U.S. Warns Gulf States to Brace for Intense Iran Campaign After Midterms Washington has warned Gulf Arab states of a possible short, intense military campaign against Iran after the November 3 midterms. Trump is leaning toward major strikes as U.S. forces reinforce regional missile defenses, but no final decision has been made. READ MORE",
+      "location_name": "Bliski Wschód (Zatoka Perska)",
+      "lat": 48.0928,
+      "lon": 34.9892,
+      "url": "https://t.me/ClashReport/103366",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/103366"
+        },
+        {
+          "name": "clashreport.com",
+          "url": "https://clashreport.com/world/articles/u-s-warns-gulf-states-to-brace-for-intense-iran-campaign-after-midterms-hlkf4xu702"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/qmH6NEuf6eRB7we-0FANuQ2o_YPQbFcXdffaQul1Y3lA1RWlcEu62QavG0QMFG7ORQWnG0Jn2bdLIqP5weS0sOuKuKCszW7KnZGpAWHZ1gYMcpwKAztPcUB4Kkgpu9-M22jiEAXaB5-mMUHlOQSz5xZunURBVDZBinJG5rJ--X92v4G9ujvz50jiwUNpzImDtMYEdNQY0FQE-LdtrNbS9TUaBdlvm_OUl0F0P12ixgckUNNGfIT4HCFcm0Are7fZEu3v217C0yeBkDvlhSbshGuxHt2b_oG4KyZeM5osneSNOYAOMaIK3UyoNWO5d0134_SXsPlanXUqSYN8SmM0bw.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-28T09:22:15.104652+00:00",
+      "verified_by_sources": [
+        "defence24",
+        "clashreport"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "Stany Zjednoczone ostrzegają państwa Zatoki Perskiej, aby przygotowały się na intensywną kampanię irańską po wyborach śródokresowych Waszyngton ostrzegł państwa arabskie z Zatoki Perskiej o możli...",
+      "text_pl": "Stany Zjednoczone ostrzegają państwa Zatoki Perskiej, aby przygotowały się na intensywną kampanię irańską po wyborach pośrednich Waszyngton ostrzegł państwa arabskie z Zatoki Perskiej przed możliwą krótką, intensywną kampanią wojskową przeciwko Iranowi po zakończeniu kadencji 3 listopada. Trump skłania się ku poważnym uderzeniom, ponieważ siły amerykańskie wzmacniają regionalną obronę przeciwrakietową, ale ostateczna decyzja nie została jeszcze podjęta. CZYTAJ WIĘCEJ",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "cde9938d33f7c82e": {
+      "id": "cde9938d33f7c82e",
+      "timestamp": "2026-10-28T07:10:41+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "При атаках беспилотников на российские регионы за сутки пострадали не менее девяти человек В ночь на 28 октября и в тече...",
+      "text": "При атаках беспилотников на российские регионы за сутки пострадали не менее девяти человек В ночь на 28 октября и в течение суток украинские беспилотники атаковали Тульскую, Липецкую, Белгородскую и Курскую области. По данным местных властей, всего пострадали не менее девяти человек, погибших нет. В Тульской области над регионом уничтожили 64 беспилотника. В Новомосковске обломки упали на многоквартирный дом, один человек пострадал, его доставили в городскую больницу. Для жителей развернули пункт временного размещения. В Липецке, где сообщается об атаке на НЛМК, есть один пострадавший. В Белгородской области четверо мирных жителей пострадали от ударов FPV-дронов. В селе Вознесеновка Шебекинского округа атаковали машину: у одного мужчины ранения шеи, руки и ног, еще у двоих, мужчины и женщины, ранения головы, автомобиль сгорел. В Грайвороне дрон атаковал велосипедиста, мужчину с множественными ранениями груди, плеча и ног доставили в больницу, он в реанимации. В Шебекино из-за атаки загорелась кровля частного дома. В Курской области с 9:00 27 октября до 9:00 28 октября сбили 168 беспилотников, сообщил губернатор Александр Хинштейн. Пострадали трое мужчин: в Льгове 50 и 45 лет, в Беловском районе 49 лет. В Льгове повреждены кровля АЗС, шесть автобусов, шиномонтаж и легковой автомобиль. В Конышевском и Обоянском районах повреждены объекты энергетики, без света остались почти 4,2 тысячи потребителей в 23 населенных пунктах. В Курске загорелась кровля административного здания.",
+      "location_name": "Lipieck, Rosja",
+      "lat": 52.6103,
+      "lon": 39.5947,
+      "url": "https://t.me/astrapress/129553",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/129553"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/vqn8tVrbUpvjOOauQ1esy59yC1AykNUUDRf6qkBTnF82g_FV4Cic-BuKycxwAjd41AFfndxiFNaMMqRKqOgahxIDXgaYflSCTKNQkWqCYa49smyz6Nehj_9w00R6AevDcCSskkTATpCdKepHJjXRfcV6IRPrK0CI6FaFX-Qwx0jHX053zIxZqUelZwuWOcu1npooilnuVeuAartRkrI8rfzqup2iYsLfYXRrgP5G8HlfBBGXwKd6EeFVTs5DZ3OJYpFc-7lJMWOJF6TPzMJe9Sh1KhurRNLAS59GFafUl15E-s-vDHdOZFco4gIeKx8YMkrnOisvJ234inCqy0XEdA.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "astrapress",
+      "added_at": "2026-10-28T09:22:15.104557+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Podczas ataków dronów na rosyjskie regiony co najmniej dziewięć osób dziennie zostało rannych. W nocy 28 października i przez cały...",
+      "text_pl": "Co najmniej dziewięć osób dziennie zostało rannych w atakach dronów na rosyjskie regiony. W nocy 28 października i przez cały dzień ukraińskie drony zaatakowały obwody Tula, Lipieck, Biełgorod i Kursk. Według władz lokalnych w sumie rannych zostało co najmniej dziewięć osób, ale nie było ofiar śmiertelnych. W regionie Tula zniszczono 64 drony. W Nowomoskowsku gruz spadł na apartamentowiec, jedna osoba została ranna i została przewieziona do szpitala miejskiego. Dla mieszkańców utworzono tymczasowy ośrodek zakwaterowania. W Lipiecku, gdzie zgłoszono atak na NLMK, była jedna ofiara. W obwodzie Biełgorod czterech cywilów zostało rannych w wyniku ataków dronów FPV. We wsi Woznesenowka w obwodzie szebekińskim zaatakowano samochód: jeden mężczyzna został ranny w szyję, ręce i nogi, kolejnych dwóch, mężczyzna i kobieta, miało rany głowy, samochód został spalony. W Grayvoron dron zaatakował rowerzystę; do szpitala trafił mężczyzna z licznymi ranami klatki piersiowej, barku i nóg, przebywa na oddziale intensywnej terapii. W Shebekino w wyniku ataku zapalił się dach prywatnego domu. W obwodzie kurskim od godziny 9:00 27 października do godziny 9:00 28 października zestrzelono 168 dronów – powiedział gubernator Aleksander Chinsztein. Rannych zostało trzech mężczyzn: 50 i 45 lat w Łgowie oraz 49 lat w obwodzie białoowskim. W Łgowie uszkodzony został dach stacji benzynowej, sześć autobusów, sklep z oponami i samochód osobowy. W obwodach Konyshevsky i Oboyansky uszkodzone zostały obiekty energetyczne, prawie 4,2 tys. odbiorców w 23 miejscowościach pozostało bez prądu. W Kursku zapalił się dach budynku administracyjnego.",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "930374d088546312": {
+      "id": "930374d088546312",
+      "timestamp": "2026-10-28T07:08:23+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Чернігівщина: реактивний БпЛА повз Славутич курсом на південь",
+      "text": "🏍 Чернігівщина: реактивний БпЛА повз Славутич курсом на південь",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.1328,
+      "lon": 35.1608,
+      "url": "https://t.me/kpszsu/90997",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/90997"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104491+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Obwód czernihowski: odrzutowy UAV mija Sławutycz w kierunku południowym",
+      "text_pl": "🏍 Obwód czernihowski: odrzutowy UAV mija Sławutycz w kierunku południowym",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "04df1aeccdd35ff9": {
+      "id": "04df1aeccdd35ff9",
+      "timestamp": "2026-10-28T06:47:58+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "На фоне атаки БПЛА в Новомосковске Тульской области горит «Новомосковская акционерная компания &quot;Азот&quot;», — OSINT-анализ A...",
+      "text": "На фоне атаки БПЛА в Новомосковске Тульской области горит «Новомосковская акционерная компания &quot;Азот&quot;», — OSINT-анализ ASTRA  Открытое горение и дым от него замечены на территории промышленного предприятия. Это может быть предприятие минерально-химического…",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 47.9772,
+      "lon": 35.1716,
+      "url": "https://t.me/astrapress/129548",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/129548"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/QVl_y05NKI1kUKyiZsE0XfZ4hbElnBpZCJJb-qaJQnxbivczerqCzDq_ZpgxKP4uNQ7ObFP6s0aW5qU5uPonNODQ3hzrsp_-GQqijo2gwyYfYSlGrpjr_6OxKzASLD4qMoUOdHwRM_Yd8O7edSkUNO_dg6ve85NKipv59bfNUH694jsZTAWCw0Cl04uReGmOjzrpLZuR7mN54n_WeEPj4urRtl_6u7QQxEJhvjn5blH6lYlc0dEthYWsHdNouOLBdhCMuBHUAhkAKCqk5NPQSK9OlB4VHVu74XpuzKrbU9aTF4vKWIP0tNSty7U_T3HBuJa-5nSJoLUgk0gPljjT1g.jpg",
+        "https://cdn4.telesco.pe/file/tMCKGWk1LDIJ4_h8qiThX9SdSfkfsZYwxgIpTbEn8PoW5FufQQ9zQEh3XQgrYKp_C20ezDoptoSIZRv72sZS3KUZAXnODrl2KDrG1vBPlYIU_RsvNzyS_Mwo9ZNJqBRG2---7mvhnKt2fFhVmSLBkBgG-NfILcLBUxJX_bYJFYC8WGktOLOx_AFu21wgk_BUvg_KaZSK5NYbLtMuV2F6g6GGl_Rgk0TyjY6NlrgaBAqtZs1_rsmnYxFqxxZRLAz6rUempNlRmYlZNYEeZevySQq_uBtyUM-HZo5TN_wbd1B670hYqMnFD8K4enrnScCHaqoYB3Oa8JCA7YRZ6BOrAA",
+        "https://cdn4.telesco.pe/file/LcMUPsTtzprQ5dS-SGFGxH7ZgAG9LgkFKIeMa8jdr0frO9fK3lsXiDDPn_lzd4aRfzRVDe6QdypyRwFeNwOWLM24SEUAnP4XYnPmGuUpJfCF5CMmHDDUsrp0D32UhDfPuMvzAWSCodj07sa3yNdqFSGX21JivuKswaqLE_V0eSjU8CBhafY9_K9oj_Cyn-Hn3T4BJ0PNvFEeSiyRrQulOleUW1e4AMX8uo6ny6vkDzIaXTjbIa5h_TgnREyy_YlAGLpsgIsHPkZbzsvognKZN8U9NGpCavujd-chZ2cXzQUBueguEwyekrdba75UebTwQjjt_MmkOT5aDRmzRBT7kw.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Obiekt Przemysłowy / Fabryka",
+      "is_fire": true,
+      "threat_score": 7,
+      "source_channel": "astrapress",
+      "added_at": "2026-10-28T09:22:15.104559+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Na tle ataku UAV w Nowomoskowsku w obwodzie Tula płonie Nowomoskowska Spółka Akcyjna Azot, - analiza OSINT A...",
+      "text_pl": "Na tle ataku BSP w Nowomoskowsku w obwodzie tulskim płonie Nowomoskowska Spółka Akcyjna Azot, - analiza ASTRA OSINT Na terenie przedsiębiorstwa przemysłowego zauważono otwarte spalanie i wydobywający się z niego dym. Może to być przedsiębiorstwo chemii mineralnej...",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "84c2f869a8c5da31": {
+      "id": "84c2f869a8c5da31",
+      "timestamp": "2026-10-28T06:36:28+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивні БпЛА з півночі Київщини ➡️ на північ Житомирщини",
+      "text": "🏍 Реактивні БпЛА з півночі Київщини ➡️ на північ Житомирщини",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/kpszsu/90995",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/90995"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104493+00:00",
+      "verified_by_sources": [
+        "kpszsu",
+        "rybar",
+        "war_monitor",
+        "clashreport",
+        "astrapress"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🏍 Odrzutowe UAV z północy obwodu kijowskiego ➡️ na północ obwodu żytomierskiego",
+      "text_pl": "🏍 Odrzutowe UAV z północy obwodu kijowskiego ➡️ na północ obwodu żytomierskiego",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "efee78ebdcc19688": {
+      "id": "efee78ebdcc19688",
+      "timestamp": "2026-10-28T06:34:47+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🛵 Ударні БпЛА в Синельниківському районі Дніпропетровщини ➡️ у північно-західному напрямку",
+      "text": "🛵 Ударні БпЛА в Синельниківському районі Дніпропетровщини ➡️ у північно-західному напрямку",
+      "location_name": "Dniepr",
+      "lat": 48.4647,
+      "lon": 35.0462,
+      "url": "https://t.me/kpszsu/90994",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/90994"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 9,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104495+00:00",
+      "verified_by_sources": [
+        "astrapress",
+        "kpszsu",
+        "rybar"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🛵 Bezzałogowe statki powietrzne w rejonie Sinelniki obwodu dniepropietrowskiego ➡️ w kierunku północno-zachodnim",
+      "text_pl": "🛵 Bezzałogowe statki powietrzne w rejonie Sinelniki obwodu dniepropietrowskiego ➡️ w kierunku północno-zachodnim",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "e6a685208c58e09e": {
+      "id": "e6a685208c58e09e",
+      "timestamp": "2026-10-28T06:23:56+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА з півночі Чернігівщини ➡️ на північ Київщини",
+      "text": "🏍 Реактивний БпЛА з півночі Чернігівщини ➡️ на північ Київщини",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/kpszsu/90992",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/90992"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104496+00:00",
+      "verified_by_sources": [
+        "kpszsu",
+        "rybar",
+        "war_monitor",
+        "clashreport",
+        "astrapress"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🏍 Odrzutowy UAV z północy obwodu czernihowskiego ➡️ na północ obwodu kijowskiego",
+      "text_pl": "🏍 Odrzutowy UAV z północy obwodu czernihowskiego ➡️ na północ obwodu kijowskiego",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "01eda51e3abecadb": {
+      "id": "01eda51e3abecadb",
+      "timestamp": "2026-10-28T06:22:10+00:00",
+      "country": "Iran",
+      "flag": "🇮🇷",
+      "theater": "Bliski Wschód (Zatoka Perska)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Trump claimed credit for Benjamin Netanyahu&#x27;s stronger-than-expected showing in Israel&#x27;s election, reposting on Truth So...",
+      "text": "Trump claimed credit for Benjamin Netanyahu&#x27;s stronger-than-expected showing in Israel&#x27;s election, reposting on Truth Social a quote that says his endorsement turned the race. &quot;When President Trump endorsed Bibi Netanyahu, the whole tide turned,&quot; turning what would have been &quot;a decisive defeat for a Great Prime Minister&quot; into &quot;a big come-from-behind stalemate, or even a WIN for Netanyahu.&quot; It adds that this all happened &quot;AFTER the Endorsement by President Trump.&quot;",
+      "location_name": "Bliski Wschód (Zatoka Perska)",
+      "lat": 47.9548,
+      "lon": 34.8554,
+      "url": "https://t.me/ClashReport/103364",
+      "tactical_sources": [
+        {
+          "name": "Clash Report",
+          "url": "https://t.me/ClashReport/103364"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/kBMKnnNzmrTqdKNasRDnlUhCSSObv85c1Ji7C43nCB22Z3uiY4EpqamWArQFgzMk9lzeHzViDcVtgjlGO1lU9eS7YnLVqJNbz85dBnuObFDC-N2tSlxlFw9CQwqoqxcc5I3GsFXmS8V2n0DKyVFuf4lRBu18XgqHUtmHbV4GLpZikh6wMYClmyuys2-EvOC9uMQTvGEq7zu4Q6BBdgXy7b_X_nVPSfKIEeSFbhHB8frLESQQK9JwKeydDxb7hJOt1emgJIKNVtrhDXjY9PpnFv4C8zZ6r9tBfv3dYbxn9qLSOuTcCsbYr5upKMNCzy_Gs_1WvVWtuJ4Qtg12z3ORSg.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "clashreport",
+      "added_at": "2026-10-28T09:22:15.104654+00:00",
+      "verified_by_sources": [
+        "defence24",
+        "clashreport"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "Trump przyznał się do lepszego niż oczekiwano wyniku Benjamina Netanjahu w wyborach w Izraelu, publikując ponownie post w Truth So…",
+      "text_pl": "Trump przypisał sobie lepszy niż oczekiwano występ Benjamina Netanjahu w izraelskich wyborach, publikując ponownie w Truth Social cytat, z którego wynika, że ​​jego poparcie zmieniło wyścig. „Kiedy prezydent Trump poparł Bibi Netanjahu, sytuacja się odwróciła”, zmieniając to, co byłoby „zdecydowaną porażką dla wielkiego premiera” w „wielki impas, w którym trzeba wyjść od tyłu, a nawet ZWYCIĘSTWO Netanjahu”. Dodaje, że wszystko to wydarzyło się „PO zatwierdzeniu przez prezydenta Trumpa”.",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "acc798dae993b56a": {
+      "id": "acc798dae993b56a",
+      "timestamp": "2026-10-28T06:01:14+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "⚡️ ЗБИТО/ПОДАВЛЕНО 71 ВОРОЖИЙ БПЛА ➖ ➖ ➖ ➖ ➖ ➖ ➖ ➖ ➖ ➖ У ніч на 28 жовтня (з 18:00 27 жовтня) противник атакував балісти...",
+      "text": "⚡️ ЗБИТО/ПОДАВЛЕНО 71 ВОРОЖИЙ БПЛА ➖ ➖ ➖ ➖ ➖ ➖ ➖ ➖ ➖ ➖ У ніч на 28 жовтня (з 18:00 27 жовтня) противник атакував балістичною ракетою Іскандер-М/С-400 із Таганрога, рф, та 88 ударними БпЛА типу Shahed (38 із них - реактивні), S8000 Бандероль/Дань-Т, Гербера, дронами-імітаторами типу “Пародія” із напрямків: Орел, Курськ - рф, ТОТ АР Крим – Гвардійське. Повітряний напад відбивали авіація, зенітні ракетні війська, підрозділи РЕБ та безпілотних систем, мобільні вогневі групи Сил оборони України. 💥 За попередніми даними, станом на 08:00, протиповітряною обороною збито/подавлено 71  ворожий БпЛА типу Shahed (31 із них - реактивний), Гербера, дрон інших типів, декілька ударних безпілотників ще в повітрі, бойова робота триває! Зафіксовано влучання засобів повітряного нападу противника на 8 локаціях, а також падіння збитих (уламки) на 2 локаціях. ✊ Тримаймо небо! 🇺🇦 Разом – до перемоги!",
+      "location_name": "Krym",
+      "lat": 45.3453,
+      "lon": 34.4997,
+      "url": "https://t.me/kpszsu/90990",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/90990"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/EtxBGLivrPL_sbkoZZi13A6C5O55vxW2ci2IGIzN9g8m4-SeDwiqu7NanFLU5E8jFj9ejpQXesBAUVu6FqJVQa7OQdcYNtH8oqi_5xdYwW4l7_-Ftvu-Uls-0NoGhpnbX1h_QEtphfGVRUwJqwMnY1WissD3wXUtq1jqd3uOkO6icR-xs0yhupmItXdMrCfXfOaqGwTOCX5k8mydcS1xTMEFFGGPr-PsNcau9n4W4Ah0pxuS0Y1a-LwbXGF4Jy6acHb99W1QDDNbh5CIFieJn3sZHwk5VRV-PFJs752dC8o2J17FU2FkKscG6U1EcyNWCd2o8Ux0BtefOfto7dPkKg.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze",
+        "Rakieta Balistyczna",
+        "Obrona Przeciwlotnicza (OPL)"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 8,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104499+00:00",
+      "verified_by_sources": [
+        "r_combatfootage",
+        "kpszsu"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "⚡️ 71 Wrogich UAV zestrzelonych/tłumionych ➖ ➖ ➖ ➖ ➖ ➖ ➖ ➖ ➖ W nocy 28 października (od 18:00 27 października) wróg zaatakował rakiety balistyczne...",
+      "text_pl": "⚡️ 71 Wrogich UAV zestrzelonych/tłumionych ➖ ➖ ➖ ➖ ➖ ➖ ➖ ➖ ➖ W nocy 28 października (od 18:00 27 października) wróg zaatakował rakietą balistyczną Iskander-M/S-400 z Taganrogu, RF i 88 UAV typu Shahed (w tym 38 odrzutowych), S8000 Banderol/Dan-T, Gerbera, za pomocą imitacji dronów typu „Parody” z kierunków: Orel, Kursk – Federacja Rosyjska, TOT AR Krym – Gvardiyske. Atak powietrzny został odparty przez lotnictwo, przeciwlotnicze siły rakietowe, jednostki EW i systemów bezzałogowych, mobilne grupy ogniowe Sił Obronnych Ukrainy. 💥 Według wstępnych danych na godzinę 08:00 obrona powietrzna zestrzeliła/stłumiła 71 bezzałogowych samolotów wroga typu Shahed (w tym 31 odrzutowych), Gerbera, drony innych typów, w powietrzu nadal znajduje się kilka dronów uderzeniowych, prace bojowe trwają! Trafienia w wyniku ataku powietrznego wroga odnotowano w 8 lokalizacjach, a także zestrzelenia (gruz) w 2 lokalizacjach. ✊ Zachowajmy niebo! 🇺🇦 Razem - po zwycięstwo!",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "be8d1886081fd1ab": {
+      "id": "be8d1886081fd1ab",
+      "timestamp": "2026-10-28T06:00:00+00:00",
+      "country": "Polska",
+      "flag": "🇵🇱",
+      "theater": "Wschodnia Flanka NATO (Polska)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Amerykański „Departament Wojny” w opałach. Pomysły Trumpa do kosza?",
+      "text": "Amerykański „Departament Wojny” w opałach. Pomysły Trumpa do kosza?. Pentagon chce, aby Kongres jeszcze przed wyborami połówkowymi na stałe zmienił nazwę Departamentu Obrony na Departament Wojny. Problem w tym, że Kongres raczej tego nie chce.",
+      "title_pl": "Amerykański „Departament Wojny” w opałach. Pomysły Trumpa do kosza?",
+      "text_pl": "Amerykański „Departament Wojny” w opałach. Pomysły Trumpa do kosza?. Pentagon chce, aby Kongres jeszcze przed wyborami połówkowymi na stałe zmienił nazwę Departamentu Obrony na Departament Wojny. Problem w tym, że Kongres raczej tego nie chce.",
+      "location_name": "Wschodnia Flanka NATO (Polska)",
+      "lat": 52.316,
+      "lon": 21.2706,
+      "url": "https://defence24.pl/polityka-obronna/amerykanski-departament-wojny-w-opalach-pomysly-trumpa-do-kosza",
+      "tactical_sources": [
+        {
+          "name": "Defence24",
+          "url": "https://defence24.pl/polityka-obronna/amerykanski-departament-wojny-w-opalach-pomysly-trumpa-do-kosza"
+        }
+      ],
+      "media_urls": [
+        "https://cdn.defence24.pl/2026/10/27/320x240px/n029GaomTtHfmItBWPtuxrtYRphGUqfcTKdpLqJC.gdyr.jpg",
+        "https://cdn.defence24.pl/2026/10/27/1200xpx/n029GaomTtHfmItBWPtuxrtYRphGUqfcTKdpLqJC.miif.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "defence24",
+      "verified_by_sources": [
+        "defence24"
+      ],
+      "multi_source_verified": false,
+      "added_at": "2026-10-28T09:22:15.104741+00:00",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "dcdd717221fd4653": {
+      "id": "dcdd717221fd4653",
+      "timestamp": "2026-10-28T05:59:39+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА з півночі Чернігівщини ➡️ на північ Київщини",
+      "text": "🏍 Реактивний БпЛА з півночі Чернігівщини ➡️ на північ Київщини",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/kpszsu/90989",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/90989"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104500+00:00",
+      "verified_by_sources": [
+        "kpszsu",
+        "rybar",
+        "war_monitor",
+        "clashreport",
+        "astrapress"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🏍 Odrzutowy UAV z północy obwodu czernihowskiego ➡️ na północ obwodu kijowskiego",
+      "text_pl": "🏍 Odrzutowy UAV z północy obwodu czernihowskiego ➡️ na północ obwodu kijowskiego",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "ba60b62b8baf434b": {
+      "id": "ba60b62b8baf434b",
+      "timestamp": "2026-10-28T05:55:01+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА у напрямку Біликів на Полтавщині з південного сходу",
+      "text": "🏍 Реактивний БпЛА у напрямку Біликів на Полтавщині з південного сходу",
+      "location_name": "Połtawa",
+      "lat": 49.5883,
+      "lon": 34.5514,
+      "url": "https://t.me/kpszsu/90988",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/90988"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104503+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy BSP w kierunku Bilykyu w obwodzie połtawskim z południowego wschodu",
+      "text_pl": "🏍 Odrzutowy BSP w kierunku Bilykyu w obwodzie połtawskim z południowego wschodu",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "06e18d67f830eb0d": {
+      "id": "06e18d67f830eb0d",
+      "timestamp": "2026-10-28T05:51:58+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Obrona Przeciwlotnicza",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "В Новомосковске Тульской области обломки БПЛА повредили объекты в промышленной зоне, — губернатор «Подразделения ПВО Ми...",
+      "text": "В Новомосковске Тульской области обломки БПЛА повредили объекты в промышленной зоне, — губернатор  «Подразделения ПВО Минобороны России ведут боевую работу по отражению массированной атаки украинских беспилотников на регион. В результате падения обломков БПЛА…",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 48.07,
+      "lon": 34.7792,
+      "url": "https://t.me/astrapress/129542",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/129542"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/fhvP7GD344WInl_czOIs6CBO6eHJvw_WtbRoiqas6-glR74oXfj3xCd-VhoVJqDucUZVtFIHIha4MvofcSFQSikoM_OQZsm91ALX3pEZBRm4yQ9RKeDzDm4c9WWjYOEGLn_WScwUX6rw-kJfLlby5XftWNvLUc3H1YC5w3KqzfyL1rtvlWQghuQC4TOrYeDM9lk8iwt4bUxG7EW10hTbcpePlS9O7HDbKcfAZzFW59zeVJeSoksVgkFxALI8u_ej6Ol-gEG1ZEuwrmv71ETmAAWTBSG6RizunaZEWu73oPML4Acj6fijDxyjNGqES1pywf9e8uZ4801g-vKcOEwttg.jpg",
+        "https://cdn4.telesco.pe/file/iMHAuxrvaF8lJ3bl6RLDHrMI6NK6jLUzFmeSRl_iraXE3ShS4x-o_g3cEtP3v-wSb2Kk6C6YUGeh2N5IUJxVFUKIFZaif6LDf0B-sSeUHrfBeaSrqR5FDy0jBxDrh-cR-NKqa719Mjqnqdg4ORGpXUTUyGdJicfFlE8U3hB5NUxzdknEXLWv5Hpwe1AWKUNnsZoUHF2aSOlKWPMGyRkX6kVK8PFAFuspiOra4kvqIv533cgR1LwNzBHHzwyHdQDEHWG7TE47AQEmXkY6BepsB3kjGDTU_fFEUQ7nNoxVzRVK-cdBohEwEkJSOXZee0kvvqaHC8-euujBDNAqVtGSrg.jpg",
+        "https://cdn4.telesco.pe/file/ii_LUxkz-e7sjXx6OK4bX53er0G0j8ZWJBZTSfFsWBKDuv7x9pH-DtD85N3mddE6jOiioZOXLA3Hnnt1syi87pT2od9Cdh5VYz-CaDS38UHXVtgqSn57MhvP9XvyLvEurgEP1i7hnLUBzryXHRWM7YG2khPBweb7wO5ZaC2iq2WdALjNpKLlFXR83Q9YYuzmL4gWVTzNf3gKQC9iL-JoK01Ok2mV2lnue_3PxkhOK6rpr4g_t-DYabzv-pT7WDAppKjhD8WJfjgYn7WSvZoF8fvzrOobjzSjpd5qTbuzEC3dzybFEdHzsjEkFuevJYi7xXtN8AgPLQ2Plr4pY3qQ-Q"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "astrapress",
+      "added_at": "2026-10-28T09:22:15.104561+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "W Nowomoskowsku w obwodzie tulskim gruz UAV uszkodził obiekty w strefie przemysłowej – powiedział gubernator „Wojskowej Jednostki Obrony Powietrznej...",
+      "text_pl": "W Nowomoskowsku w obwodzie tulskim odłamki UAV uszkodziły obiekty w strefie przemysłowej, - gubernator „Jednostki obrony powietrznej Ministerstwa Obrony Rosji prowadzą działania bojowe, aby odeprzeć zmasowany atak ukraińskich dronów na region. W wyniku spadających szczątków UAV...",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "33850f9073a3f6b6": {
+      "id": "33850f9073a3f6b6",
+      "timestamp": "2026-10-28T05:43:10+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Нові реактивні БпЛА з Брянської області ➡️ на північ Чернігівщини 🏍 Реактивний БпЛА вздовж кордону з Білоруссю ➡️ у н...",
+      "text": "🏍 Нові реактивні БпЛА з Брянської області ➡️ на північ Чернігівщини 🏍 Реактивний  БпЛА вздовж кордону з Білоруссю ➡️ у напрямку Київщини",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/kpszsu/90987",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/90987"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104504+00:00",
+      "verified_by_sources": [
+        "kpszsu",
+        "rybar",
+        "war_monitor",
+        "clashreport",
+        "astrapress"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🏍 Nowe odrzutowe UAV z obwodu briańskiego ➡️ na północ od obwodu czernihowskiego 🏍 Odrzutowe UAV wzdłuż granicy z Białorusią ➡️ w...",
+      "text_pl": "🏍 Nowe odrzutowe BSP z obwodu briańskiego ➡️ na północ od obwodu czernihowskiego 🏍 Odrzutowe BSP wzdłuż granicy z Białorusią ➡️ w kierunku obwodu kijowskiego",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "86c3c0991344024e": {
+      "id": "86c3c0991344024e",
+      "timestamp": "2026-10-28T05:26:22+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА на Диканьку на Полтавщині",
+      "text": "🏍 Реактивний БпЛА на Диканьку на Полтавщині",
+      "location_name": "Połtawa",
+      "lat": 49.5883,
+      "lon": 34.5514,
+      "url": "https://t.me/kpszsu/90986",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/90986"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104506+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy UAV na Dykance w obwodzie połtawskim",
+      "text_pl": "🏍 Odrzutowy UAV na Dykance w obwodzie połtawskim",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "99e7f83ee0b55a37": {
+      "id": "99e7f83ee0b55a37",
+      "timestamp": "2026-10-28T05:25:25+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🛵 БпЛА на Суми з півночі",
+      "text": "🛵 БпЛА на Суми з півночі",
+      "location_name": "Sumy",
+      "lat": 50.9077,
+      "lon": 34.7981,
+      "url": "https://t.me/kpszsu/90985",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/90985"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104508+00:00",
+      "verified_by_sources": [
+        "DeepStateUA",
+        "astrapress",
+        "kpszsu",
+        "rybar"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🛵BpLA do Sum od północy",
+      "text_pl": "🛵BpLA do Sum od północy",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "36162ffbff742bb2": {
+      "id": "36162ffbff742bb2",
+      "timestamp": "2026-10-28T05:14:47+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА повз Златопіль на Харківщині ➡️ у північно-західному напрямку",
+      "text": "🏍 Реактивний БпЛА повз Златопіль на Харківщині ➡️ у північно-західному напрямку",
+      "location_name": "Charków",
+      "lat": 49.9935,
+      "lon": 36.2304,
+      "url": "https://t.me/kpszsu/90984",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/90984"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104510+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy UAV przelatujący obok Zlatopila w obwodzie charkowskim ➡️ w kierunku północno-zachodnim",
+      "text_pl": "🏍 Odrzutowy UAV przelatujący obok Zlatopila w obwodzie charkowskim ➡️ w kierunku północno-zachodnim",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "d72a33c1b2d86888": {
+      "id": "d72a33c1b2d86888",
+      "timestamp": "2026-10-28T05:13:58+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА на Степань",
+      "text": "🏍 Реактивний БпЛА на Степань",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.0056,
+      "lon": 34.8098,
+      "url": "https://t.me/kpszsu/90983",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/90983"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104512+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy UAV na Stepanie",
+      "text_pl": "🏍 Odrzutowy UAV na Stepanie",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "4117c9288cdaaae0": {
+      "id": "4117c9288cdaaae0",
+      "timestamp": "2026-10-28T05:12:42+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Новий реактивний БпЛА повз Сновськ на Чернігівщині ➡️ у південному напрямку",
+      "text": "🏍 Новий реактивний БпЛА повз Сновськ на Чернігівщині ➡️ у південному напрямку",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.8428,
+      "lon": 35.1266,
+      "url": "https://t.me/kpszsu/90982",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/90982"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104514+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Nowy odrzutowy UAV mija Snovsk w obwodzie czernihowskim ➡️ w kierunku południowym",
+      "text_pl": "🏍 Nowy odrzutowy UAV mija Snovsk w obwodzie czernihowskim ➡️ w kierunku południowym",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "924f266e851bb8ff": {
+      "id": "924f266e851bb8ff",
+      "timestamp": "2026-10-28T05:04:58+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА з півночі Житомирщини ➡️ на північ Рівненщини",
+      "text": "🏍 Реактивний БпЛА з півночі Житомирщини ➡️ на північ Рівненщини",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.0972,
+      "lon": 34.85,
+      "url": "https://t.me/kpszsu/90981",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/90981"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104516+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy UAV z północy obwodu żytomierskiego ➡️ na północ od obwodu rówieńskiego",
+      "text_pl": "🏍 Odrzutowy UAV z północy obwodu żytomierskiego ➡️ na północ od obwodu rówieńskiego",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "c51c628b665750a8": {
+      "id": "c51c628b665750a8",
+      "timestamp": "2026-10-28T05:03:39+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Новий реактивний БпЛА повз Сновськ на Чернігівщині ➡️ у південному напрямку",
+      "text": "🏍 Новий реактивний БпЛА повз Сновськ на Чернігівщині ➡️ у південному напрямку",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.8896,
+      "lon": 35.0624,
+      "url": "https://t.me/kpszsu/90980",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/90980"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104518+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Nowy odrzutowy UAV mija Snovsk w obwodzie czernihowskim ➡️ w kierunku południowym",
+      "text_pl": "🏍 Nowy odrzutowy UAV mija Snovsk w obwodzie czernihowskim ➡️ w kierunku południowym",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "86b942a54d97e40f": {
+      "id": "86b942a54d97e40f",
+      "timestamp": "2026-10-28T05:03:09+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Ще реактивний БпЛА з півночі Житомирщини ➡️ на північ Рівненщини",
+      "text": "🏍 Ще реактивний БпЛА з півночі Житомирщини ➡️ на північ Рівненщини",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.0196,
+      "lon": 35.2058,
+      "url": "https://t.me/kpszsu/90979",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/90979"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104520+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Kolejny odrzutowy UAV z północy obwodu żytomierskiego ➡️ na północ od obwodu rówieńskiego",
+      "text_pl": "🏍 Kolejny odrzutowy UAV z północy obwodu żytomierskiego ➡️ na północ od obwodu rówieńskiego",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "5c712d1687ca00ab": {
+      "id": "5c712d1687ca00ab",
+      "timestamp": "2026-10-28T05:02:25+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА повз Златопіль на Харківщині ➡️ у північно-західному напрямку",
+      "text": "🏍 Реактивний БпЛА повз Златопіль на Харківщині ➡️ у північно-західному напрямку",
+      "location_name": "Charków",
+      "lat": 49.9935,
+      "lon": 36.2304,
+      "url": "https://t.me/kpszsu/90978",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/90978"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104522+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy UAV przelatujący obok Zlatopila w obwodzie charkowskim ➡️ w kierunku północno-zachodnim",
+      "text_pl": "🏍 Odrzutowy UAV przelatujący obok Zlatopila w obwodzie charkowskim ➡️ w kierunku północno-zachodnim",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "6e6eb51224bed94d": {
+      "id": "6e6eb51224bed94d",
+      "timestamp": "2026-10-28T04:57:53+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Obrona Przeciwlotnicza",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "В Новомосковске Тульской области обломки БПЛА повредили объекты в промышленной зоне, — губернатор «Подразделения ПВО Мин...",
+      "text": "В Новомосковске Тульской области обломки БПЛА повредили объекты в промышленной зоне, — губернатор «Подразделения ПВО Минобороны России ведут боевую работу по отражению массированной атаки украинских беспилотников на регион. В результате падения обломков БПЛА в Новомосковске фиксируются повреждения МКД, частных жилых домовладений и инфраструктуры в прилегающей промышленной зоне», — сообщил Дмитрий Миляев. Губернатор не уточнил, что именно было повреждено, отметив, что эти данные еще уточняются. Но заявил, что организовано реагирование экстренных служб, а в Новомосковск направлены лаборатории ГУ ТО «Природа» и Управления Роспотребнадзора по Тульской области. В регионе сохраняется беспилотная и ракетная опасность. 📸 Прислать фото/видео/информацию: @helloastrabot",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 47.904,
+      "lon": 34.736,
+      "url": "https://t.me/astrapress/129540",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/129540"
+        },
+        {
+          "name": "#helloastrabot",
+          "url": "https://t.me/helloastrabot"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "astrapress",
+      "added_at": "2026-10-28T09:22:15.104565+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "W Nowomoskowsku w obwodzie tulskim gruz UAV uszkodził obiekty w strefie przemysłowej – powiedział gubernator Jednostki Obrony Powietrznej Ministerstwa...",
+      "text_pl": "W Nowomoskowsku w obwodzie tulskim odłamki UAV uszkodziły obiekty w strefie przemysłowej, - gubernator \"Jednostki obrony powietrznej Ministerstwa Obrony Rosji prowadzą działania bojowe, aby odeprzeć zmasowany atak ukraińskich dronów na region. W wyniku upadku szczątków UAV w Nowomoskowsku odnotowano uszkodzenia budynków mieszkalnych, prywatnych budynków mieszkalnych i infrastruktury w przyległej strefie przemysłowej\" - powiedział Dmitrij Milajew. Wojewoda nie określił, co dokładnie uległo uszkodzeniu, zaznaczając, że dane te są wciąż wyjaśniane. Stwierdził jednak, że zorganizowano reagowanie służb ratowniczych i wysłano do Nowomosowska laboratoria Państwowej Instytucji Technicznej „Priroda” i Urzędu Rospotrebnadzoru dla Obwodu Tula. Region pozostaje zagrożony ze strony dronów i rakiet. 📸 Wyślij zdjęcie/film/informację: @helloastrabot",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "9ff2d7a8f8aff69d": {
+      "id": "9ff2d7a8f8aff69d",
+      "timestamp": "2026-10-28T04:57:51+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА з півночі Житомирщини ➡️ на північ Рівненщини",
+      "text": "🏍 Реактивний БпЛА з півночі Житомирщини ➡️ на північ Рівненщини",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.9132,
+      "lon": 34.97,
+      "url": "https://t.me/kpszsu/90977",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/90977"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104524+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy UAV z północy obwodu żytomierskiego ➡️ na północ od obwodu rówieńskiego",
+      "text_pl": "🏍 Odrzutowy UAV z północy obwodu żytomierskiego ➡️ na północ od obwodu rówieńskiego",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "eb544ba74351b58a": {
+      "id": "eb544ba74351b58a",
+      "timestamp": "2026-10-28T04:48:59+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Ще реактивний БпЛА повз Сновськ на Чернігівщині ➡️ у південному напрямку",
+      "text": "🏍 Ще реактивний БпЛА повз Сновськ на Чернігівщині ➡️ у південному напрямку",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.14,
+      "lon": 35.045,
+      "url": "https://t.me/kpszsu/90976",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/90976"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104526+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Kolejny odrzutowy UAV w pobliżu Snovsk w obwodzie czernihowskim ➡️ w kierunku południowym",
+      "text_pl": "🏍 Kolejny odrzutowy UAV w pobliżu Snovsk w obwodzie czernihowskim ➡️ w kierunku południowym",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "8a6f26f9799ff057": {
+      "id": "8a6f26f9799ff057",
+      "timestamp": "2026-10-28T04:43:35+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА на Остер/Десну",
+      "text": "🏍 Реактивний БпЛА на Остер/Десну",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.0904,
+      "lon": 34.7852,
+      "url": "https://t.me/kpszsu/90975",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/90975"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104527+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy UAV na Oster/Desna",
+      "text_pl": "🏍 Odrzutowy UAV na Oster/Desna",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "2229de51e1aaa8f1": {
+      "id": "2229de51e1aaa8f1",
+      "timestamp": "2026-10-28T04:42:38+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА на Красятичі на Київщині зі сходу",
+      "text": "🏍 Реактивний БпЛА на Красятичі на Київщині зі сходу",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/kpszsu/90974",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/90974"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T09:22:15.104529+00:00",
+      "verified_by_sources": [
+        "kpszsu",
+        "rybar",
+        "war_monitor",
+        "clashreport",
+        "astrapress"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🏍 Odrzutowy UAV na Krasiatyczach w obwodzie kijowskim od wschodu",
+      "text_pl": "🏍 Odrzutowy UAV na Krasiatyczach w obwodzie kijowskim od wschodu",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "19d176f41bc4b2ee": {
+      "id": "19d176f41bc4b2ee",
+      "timestamp": "2026-10-28T04:30:01+00:00",
+      "country": "Polska",
+      "flag": "🇵🇱",
+      "theater": "Wschodnia Flanka NATO (Polska)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Myśliwce z bronią jądrową bliżej Rosji? Polska wśród dziesięciu państw",
+      "text": "Myśliwce z bronią jądrową bliżej Rosji? Polska wśród dziesięciu państw. W poniedziałek, 26 października, „The Wall Street Journal” opublikował artykuł, w którym zdradził szczegóły współpracy pomiędzy Francją a dziesięcioma innymi państwami w zakresie odstraszania nuklearnego. Myśliwce Rafale z bronią jądrową mogą znaleźć się w Polsce.",
+      "title_pl": "Myśliwce z bronią jądrową bliżej Rosji? Polska wśród dziesięciu państw",
+      "text_pl": "Myśliwce z bronią jądrową bliżej Rosji? Polska wśród dziesięciu państw. W poniedziałek, 26 października, „The Wall Street Journal” opublikował artykuł, w którym zdradził szczegóły współpracy pomiędzy Francją a dziesięcioma innymi państwami w zakresie odstraszania nuklearnego. Myśliwce Rafale z bronią jądrową mogą znaleźć się w Polsce.",
+      "location_name": "Wschodnia Flanka NATO (Polska)",
+      "lat": 52.0964,
+      "lon": 20.9382,
+      "url": "https://defence24.pl/polityka-obronna/mysliwce-z-bronia-jadrowa-blizej-rosji-polska-wsrod-dziesieciu-panstw",
+      "tactical_sources": [
+        {
+          "name": "Defence24",
+          "url": "https://defence24.pl/polityka-obronna/mysliwce-z-bronia-jadrowa-blizej-rosji-polska-wsrod-dziesieciu-panstw"
+        }
+      ],
+      "media_urls": [
+        "https://cdn.defence24.pl/2026/10/27/1200xpx/BBojRYo2R6HtWjBSL0Y3SqwZ8ki0NdCaryEZfbKS.aibc.jpg",
+        "https://cdn.defence24.pl/2026/10/27/320x240px/BBojRYo2R6HtWjBSL0Y3SqwZ8ki0NdCaryEZfbKS.akdx.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Myśliwiec Bojowy"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "defence24",
+      "verified_by_sources": [
+        "defence24"
+      ],
+      "multi_source_verified": false,
+      "added_at": "2026-10-28T09:22:15.104742+00:00",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "9165c09a7c7dc164": {
+      "id": "9165c09a7c7dc164",
+      "timestamp": "2026-10-28T04:00:01+00:00",
+      "country": "Polska",
+      "flag": "🇵🇱",
+      "theater": "Wschodnia Flanka NATO (Polska)",
+      "event_type": "Incydent Powietrzny / Naruszenie Granicy",
+      "tactical_category": "Incydent Powietrzny / Naruszenie Granicy",
+      "tactical_icon": "🚨",
+      "title": "Transport i nie tylko. Atlasy z trzech państw nad Polską",
+      "text": "Transport i nie tylko. Atlasy z trzech państw nad Polską. We wtorek, 27 października, w polskiej przestrzeni powietrznej operowały aż cztery wojskowe samoloty transportowe Airbus A400M Atlas. Każda z maszyn wykonywała inne zadanie, pośrednio przekładające się na bezpieczeństwo Polski w regionie.",
+      "title_pl": "Transport i nie tylko. Atlasy z trzech państw nad Polską",
+      "text_pl": "Transport i nie tylko. Atlasy z trzech państw nad Polską. We wtorek, 27 października, w polskiej przestrzeni powietrznej operowały aż cztery wojskowe samoloty transportowe Airbus A400M Atlas. Każda z maszyn wykonywała inne zadanie, pośrednio przekładające się na bezpieczeństwo Polski w regionie.",
+      "location_name": "Wschodnia Flanka NATO (Polska)",
+      "lat": 52.0124,
+      "lon": 20.7132,
+      "url": "https://defence24.pl/polityka-obronna/transport-i-nie-tylko-atlasy-z-trzech-panstw-nad-polska",
+      "tactical_sources": [
+        {
+          "name": "Defence24",
+          "url": "https://defence24.pl/polityka-obronna/transport-i-nie-tylko-atlasy-z-trzech-panstw-nad-polska"
+        }
+      ],
+      "media_urls": [
+        "https://cdn.defence24.pl/2026/10/28/320x240px/CO5OptfuRsbTKOVkHWUtB5x3BGeicVcwoqYGEgSm.uvpm.jpg",
+        "https://cdn.defence24.pl/2026/10/28/1200xpx/CO5OptfuRsbTKOVkHWUtB5x3BGeicVcwoqYGEgSm.r3dm.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "defence24",
+      "verified_by_sources": [
+        "defence24"
+      ],
+      "multi_source_verified": false,
+      "added_at": "2026-10-28T09:22:15.104744+00:00",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "0937551855fc0db1": {
+      "id": "0937551855fc0db1",
+      "timestamp": "2026-10-28T02:57:46+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Ще реактивні БпЛА з Брянської області ➡️ на північ Чернігівщини",
+      "text": "🏍 Ще реактивні БпЛА з Брянської області ➡️ на північ Чернігівщини",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.0844,
+      "lon": 35.2826,
+      "url": "https://t.me/kpszsu/90958",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/90958"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T02:59:28.616879+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Więcej odrzutowych UAV z obwodu briańskiego ➡️ na północ od obwodu czernihowskiego",
+      "text_pl": "🏍 Więcej odrzutowych UAV z obwodu briańskiego ➡️ na północ od obwodu czernihowskiego",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "7d525c082cf787fa": {
+      "id": "7d525c082cf787fa",
+      "timestamp": "2026-10-28T02:52:56+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🛵 Дніпропетровщина: БпЛА на Васильківку та на Павлоград з південного сходу",
+      "text": "🛵 Дніпропетровщина: БпЛА на Васильківку та на Павлоград з південного сходу",
+      "location_name": "Dniepr",
+      "lat": 48.4647,
+      "lon": 35.0462,
+      "url": "https://t.me/kpszsu/90957",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/90957"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 9,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T02:59:28.616887+00:00",
+      "verified_by_sources": [
+        "astrapress",
+        "kpszsu",
+        "rybar"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🛵 Obwód dniepropietrowski: BpLA na Wasylkiwce i Pawłogradzie od południowego wschodu",
+      "text_pl": "🛵 Obwód dniepropietrowski: BpLA na Wasylkiwce i Pawłogradzie od południowego wschodu",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "79e092610b56284b": {
+      "id": "79e092610b56284b",
+      "timestamp": "2026-10-28T02:47:36+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА з Брянської області ➡️ на північ Чернігівщини",
+      "text": "🏍 Реактивний БпЛА з Брянської області ➡️ на північ Чернігівщини",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.1936,
+      "lon": 35.0132,
+      "url": "https://t.me/kpszsu/90956",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/90956"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T02:59:28.616890+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy UAV z obwodu briańskiego ➡️ na północ od obwodu czernihowskiego",
+      "text_pl": "🏍 Odrzutowy UAV z obwodu briańskiego ➡️ na północ od obwodu czernihowskiego",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
+    },
+    "accedf8e7a432d0a": {
+      "id": "accedf8e7a432d0a",
+      "timestamp": "2026-10-28T02:37:00+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Ще реактивні БпЛА з Брянської області ➡️ на північ Чернігівщини",
+      "text": "🏍 Ще реактивні БпЛА з Брянської області ➡️ на північ Чернігівщини",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.8336,
+      "lon": 35.2922,
+      "url": "https://t.me/kpszsu/90955",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/90955"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-10-28T02:59:28.616892+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Więcej odrzutowych UAV z obwodu briańskiego ➡️ na północ od obwodu czernihowskiego",
+      "text_pl": "🏍 Więcej odrzutowych UAV z obwodu briańskiego ➡️ na północ od obwodu czernihowskiego",
+      "archived_at": "2026-11-11T10:04:34.198078+00:00"
     }
   }
 }
