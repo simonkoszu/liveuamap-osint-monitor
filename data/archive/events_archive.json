@@ -1,11 +1,11 @@
 {
   "manifest": {
-    "total_archived": 16014,
+    "total_archived": 16055,
     "retention_days": 14,
     "first_archived_at": "2026-09-23T16:43:07.215300+00:00",
-    "last_archived_at": "2026-11-19T11:01:38.704715+00:00",
+    "last_archived_at": "2026-11-19T19:20:54.987278+00:00",
     "oldest_event_timestamp": "2023-06-05T21:48:13+00:00",
-    "newest_event_timestamp": "2026-11-05T10:49:10+00:00",
+    "newest_event_timestamp": "2026-11-05T19:18:24+00:00",
     "cloud_sync_enabled": false
   },
   "events": {
@@ -694126,6 +694126,2028 @@
       "title_pl": "🚀 KAB do obwodu donieckiego, kurs na wschód od obwodu dniepropietrowskiego. 🏍 Samoloty odrzutowe na południu obwodu charkowskiego, kurs na zachód.",
       "text_pl": "🚀 KAB do obwodu donieckiego, kurs na wschód od obwodu dniepropietrowskiego. 🏍 Samoloty odrzutowe na południu obwodu charkowskiego, kurs na zachód.",
       "archived_at": "2026-11-19T11:01:38.701913+00:00"
+    },
+    "4662f3590e25cf4e": {
+      "id": "4662f3590e25cf4e",
+      "timestamp": "2026-11-05T19:18:24+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивні БпЛА на Чернігівщині повз Дігтярі в напрямку Прилук.",
+      "text": "🏍 Реактивні БпЛА на Чернігівщині повз Дігтярі в напрямку Прилук.",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.8168,
+      "lon": 34.7288,
+      "url": "https://t.me/kpszsu/93400",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/93400"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-11-05T21:41:34.362758+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Samoloty odrzutowe w obwodzie czernihowskim za Digtyari w kierunku Pryluk.",
+      "text_pl": "🏍 Samoloty odrzutowe w obwodzie czernihowskim za Digtyari w kierunku Pryluk.",
+      "archived_at": "2026-11-19T19:20:54.984697+00:00"
+    },
+    "4053736127d70ae2": {
+      "id": "4053736127d70ae2",
+      "timestamp": "2026-11-05T19:15:57+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА на Дніпропетровщині, курс Синельникове",
+      "text": "🏍 Реактивний БпЛА на Дніпропетровщині, курс Синельникове",
+      "location_name": "Dniepr",
+      "lat": 48.4647,
+      "lon": 35.0462,
+      "url": "https://t.me/kpszsu/93398",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/93398"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 9,
+      "source_channel": "kpszsu",
+      "added_at": "2026-11-05T21:41:34.362760+00:00",
+      "verified_by_sources": [
+        "kpszsu",
+        "rybar"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🏍 Reaktywny UAV w obwodzie dniepropietrowskim, kurs Synelnikove",
+      "text_pl": "🏍 Reaktywny UAV w obwodzie dniepropietrowskim, kurs Synelnikove",
+      "archived_at": "2026-11-19T19:20:54.984697+00:00"
+    },
+    "09e414ed8f4f8bbf": {
+      "id": "09e414ed8f4f8bbf",
+      "timestamp": "2026-11-05T19:13:17+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Київщина: Реактивний БпЛА на Яготин",
+      "text": "🏍 Київщина: Реактивний БпЛА на Яготин",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/kpszsu/93396",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/93396"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-11-05T21:41:34.362762+00:00",
+      "verified_by_sources": [
+        "kpszsu",
+        "shot_shot",
+        "clashreport",
+        "astrapress"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🏍 Obwód kijowski: Reaktywne BpLA na Jagotyniu",
+      "text_pl": "🏍 Obwód kijowski: Reaktywne BpLA na Jagotyniu",
+      "archived_at": "2026-11-19T19:20:54.984697+00:00"
+    },
+    "44c00359123c8d5b": {
+      "id": "44c00359123c8d5b",
+      "timestamp": "2026-11-05T19:09:19+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивні БпЛА на Харківщині, курс Краснопавлівка",
+      "text": "🏍 Реактивні БпЛА на Харківщині, курс Краснопавлівка",
+      "location_name": "Charków",
+      "lat": 49.9935,
+      "lon": 36.2304,
+      "url": "https://t.me/kpszsu/93394",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/93394"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-11-05T21:41:34.362764+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowe UAV w obwodzie charkowskim, kurs Krasnopavlivka",
+      "text_pl": "🏍 Odrzutowe UAV w obwodzie charkowskim, kurs Krasnopavlivka",
+      "archived_at": "2026-11-19T19:20:54.984697+00:00"
+    },
+    "c97ef4ce5dfa818a": {
+      "id": "c97ef4ce5dfa818a",
+      "timestamp": "2026-11-05T19:06:20+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивний БпЛА на Чернігівщині, курс Ніжин",
+      "text": "🏍 Реактивний БпЛА на Чернігівщині, курс Ніжин",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.042,
+      "lon": 35.0858,
+      "url": "https://t.me/kpszsu/93393",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/93393"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-11-05T21:41:34.362767+00:00",
+      "verified_by_sources": [
+        "kpszsu"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "🏍 Odrzutowy UAV w obwodzie czernihowskim, kurs Niżyn",
+      "text_pl": "🏍 Odrzutowy UAV w obwodzie czernihowskim, kurs Niżyn",
+      "archived_at": "2026-11-19T19:20:54.984697+00:00"
+    },
+    "68fedcea0fc5f735": {
+      "id": "68fedcea0fc5f735",
+      "timestamp": "2026-11-05T19:03:25+00:00",
+      "country": "Inne / Globalne",
+      "flag": "🌐",
+      "theater": "Inne",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "First-person footage of a Ukrainian soldier from the 61st Separate Mechanized Brigade successfully downing a Russian UAV...",
+      "text": "First-person footage of a Ukrainian soldier from the 61st Separate Mechanized Brigade successfully downing a Russian UAV using an Igla MANPADS. Published - 05/11/2026.",
+      "location_name": "Inne",
+      "lat": 48.064,
+      "lon": 34.9286,
+      "url": "https://redd.it/1xokebk",
+      "tactical_sources": [
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://redd.it/1xokebk"
+        },
+        {
+          "name": "Telegram (#r_combatfootage)",
+          "url": "https://t.me/r_combatfootage/42892"
+        },
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://t.me/r_combatfootage"
+        }
+      ],
+      "media_urls": [],
+      "video_url": "https://cdn4.telesco.pe/file/f830e60cf4.mp4?token=Ssj6tQolatvf9pMYRem8-4OEREGF-V9znN-CjKD6RQrCXSL2ZM9rc_MsWsKQW6VP4_m6i3ZN-Qs3aW5Of1cisqXeVQ8BtPYSQ-kt4CH7jtu9h5-N3yEttMnEqexWeA0dJR4519fcFVMWc720K7aSZdjlQ0nahgs-NY-raTio2IEn_7dZMQRcTJoofQnztb2LFbXDfsFI1OrRGi8O1pIWW0MWmoytBswua93g1LP9_tKA5hErwjAhzxK7cYaKygJteuasTAG7vjXuTVH9inqfnNscYlwfrm0IACEMQC4Vp_nEwu9ntaJVmQervcFDy5N6n6OvjF0kbFNZYZr8vBtMgE6LZITDLT-g8PPvWwconq2crzIXVWRTBKRVrXCuzK7ygG2yqz416ZYtglo7xjAUwW8dYQMTTV7sudXefXDAA8efGYfhNarbW9992lrNey3pK419aIgFWk0Pv4cCeAoy0h1kGfiuOKCsyKnz3LuzBW7eEzzJSutlzo6qm6bZ-aLwbGhhuICF80AR8j5R2f1kxbxii97H94aXk5x6I8ovFQp3fbziL1vXsSlzG-pz_gUEoK5Y-3iIvUwWyfQS0zmE4lyCX-sY3vgHunmDYXQP0QZ0iOfEjviLbvIH_YqWOi6ITytVLU1_JoCkzq50vH_4fedXUDAxcxfXy1EvSwGkYDs",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "r_combatfootage",
+      "added_at": "2026-11-05T21:41:34.363004+00:00",
+      "verified_by_sources": [
+        "r_combatfootage"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Materiał pierwszoosobowy przedstawiający ukraińskiego żołnierza z 61. Oddzielnej Brygady Zmechanizowanej, który skutecznie zestrzelił rosyjski UAV…",
+      "text_pl": "Materiał pierwszoosobowy przedstawiający ukraińskiego żołnierza z 61. Oddzielnej Brygady Zmechanizowanej, który zestrzelił rosyjski UAV za pomocą MANPADS Igla. Opublikowano - 05.11.2026.",
+      "archived_at": "2026-11-19T19:20:54.984697+00:00"
+    },
+    "226170c791f776ab": {
+      "id": "226170c791f776ab",
+      "timestamp": "2026-11-05T19:00:00+00:00",
+      "country": "Polska",
+      "flag": "🇵🇱",
+      "theater": "Wschodnia Flanka NATO (Polska)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Ruchy Rosji przy polskiej granicy? Ogromne zakłócenia na wschodniej flance NATO",
+      "text": "Ruchy Rosji przy polskiej granicy? Ogromne zakłócenia na wschodniej flance NATO. W środę, 4 listopada, włoscy analitycy OSINT z ItaMilRadar opublikowali mapę, pokazującą nieprawdopodobną skalę zakłóceń sygnału GPS na wschodniej flance NATO.",
+      "title_pl": "Ruchy Rosji przy polskiej granicy? Ogromne zakłócenia na wschodniej flance NATO",
+      "text_pl": "Ruchy Rosji przy polskiej granicy? Ogromne zakłócenia na wschodniej flance NATO. W środę, 4 listopada, włoscy analitycy OSINT z ItaMilRadar opublikowali mapę, pokazującą nieprawdopodobną skalę zakłóceń sygnału GPS na wschodniej flance NATO.",
+      "location_name": "Wschodnia Flanka NATO (Polska)",
+      "lat": 52.3692,
+      "lon": 20.9862,
+      "url": "https://defence24.pl/polityka-obronna/ruchy-rosji-przy-polskiej-granicy-ogromne-zaklocenia-na-wschodniej-flance-nato",
+      "tactical_sources": [
+        {
+          "name": "Defence24",
+          "url": "https://defence24.pl/polityka-obronna/ruchy-rosji-przy-polskiej-granicy-ogromne-zaklocenia-na-wschodniej-flance-nato"
+        }
+      ],
+      "media_urls": [
+        "https://cdn.defence24.pl/2026/10/23/320x240px/kVVfzNo0c0XFmt54x8qih6izeO5WXV1lbZN9dGG4.teff.jpg",
+        "https://cdn.defence24.pl/2026/10/23/1200xpx/kVVfzNo0c0XFmt54x8qih6izeO5WXV1lbZN9dGG4.tc6x.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "defence24",
+      "verified_by_sources": [
+        "defence24"
+      ],
+      "multi_source_verified": false,
+      "added_at": "2026-11-05T21:41:34.363065+00:00",
+      "archived_at": "2026-11-19T19:20:54.984697+00:00"
+    },
+    "e667babf3d159d45": {
+      "id": "e667babf3d159d45",
+      "timestamp": "2026-11-05T18:56:18+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Київщина: Реактивний БпЛА повз Ржищів, курсом на Кагарлик. Реактивний БпЛА курсом на Яготин.",
+      "text": "🏍 Київщина: Реактивний БпЛА повз Ржищів, курсом на Кагарлик. Реактивний БпЛА курсом на Яготин.",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/kpszsu/93392",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/93392"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-11-05T21:41:34.362768+00:00",
+      "verified_by_sources": [
+        "kpszsu",
+        "shot_shot",
+        "clashreport",
+        "astrapress"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🏍 Obwód kijowski: Reaktywny UAV w pobliżu Rżyszczewa, zmierza w stronę Kagarłyka. Odrzutowy UAV skierował się do Jagotyna.",
+      "text_pl": "🏍 Obwód kijowski: Reaktywny UAV w pobliżu Rżyszczewa, zmierza w stronę Kagarłyka. Odrzutowy UAV skierował się do Jagotyna.",
+      "archived_at": "2026-11-19T19:20:54.984697+00:00"
+    },
+    "dd8bbc7b64e6d063": {
+      "id": "dd8bbc7b64e6d063",
+      "timestamp": "2026-11-05T18:48:01+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Київщина: Реактивний БпЛА на Баришівку.",
+      "text": "🏍 Київщина: Реактивний БпЛА на Баришівку.",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/kpszsu/93391",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/93391"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-11-05T21:41:34.362770+00:00",
+      "verified_by_sources": [
+        "kpszsu",
+        "shot_shot",
+        "clashreport",
+        "astrapress"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🏍 Obwód kijowski: Reaktywny UAV na Baryszówce.",
+      "text_pl": "🏍 Obwód kijowski: Reaktywny UAV na Baryszówce.",
+      "archived_at": "2026-11-19T19:20:54.984697+00:00"
+    },
+    "5061a5ecc2a54ba4": {
+      "id": "5061a5ecc2a54ba4",
+      "timestamp": "2026-11-05T18:47:05+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "🏍 Реактивні БпЛа на півдні Чернігівщини, курсом на Київщину.",
+      "text": "🏍 Реактивні БпЛа на півдні Чернігівщини, курсом на Київщину.",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/kpszsu/93390",
+      "tactical_sources": [
+        {
+          "name": "SP UA (kpszsu)",
+          "url": "https://t.me/kpszsu/93390"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "kpszsu",
+      "added_at": "2026-11-05T21:41:34.362772+00:00",
+      "verified_by_sources": [
+        "kpszsu",
+        "shot_shot",
+        "clashreport",
+        "astrapress"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "🏍 Samoloty BpLa na południu obwodu czernihowskiego, w kierunku obwodu kijowskiego.",
+      "text_pl": "🏍 Samoloty BpLa na południu obwodu czernihowskiego, w kierunku obwodu kijowskiego.",
+      "archived_at": "2026-11-19T19:20:54.984697+00:00"
+    },
+    "430968f975fe28c3": {
+      "id": "430968f975fe28c3",
+      "timestamp": "2026-11-05T18:33:01+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Infrastruktura & Logistyka",
+      "tactical_category": "Eksplozja / Detonacja",
+      "tactical_icon": "💥",
+      "title": "📝 Венесуэльский тупик и призрак Ормуза 📝 Способна ли концессия Трампа застраховать США от кризиса на Ближнем Востоке На ...",
+      "text": "📝 Венесуэльский тупик и призрак Ормуза 📝 Способна ли концессия Трампа застраховать США от кризиса на Ближнем Востоке На фоне сигналов из Вашингтона о готовности перейти к силовому сценарию против Ирана на нефтяном рынке все чаще звучит вопрос о цене возможного конфликта. Любое прямое столкновение в Персидском заливе несет риск перекрытия Ормузского пролива, через который проходит пятая часть мирового транзита углеводородов. Бытует мнение, что масштабная энергетическая сделка администрации Белого дома с властями в Каракасе и прямой вход Пентагона в добычу призваны создать гарантированный сырьевой тыл на случай ближневосточного коллапса. Однако детальный анализ венесуэльских мощностей показывает иллюзорность таких надежд. 📌 Даже в теории Венесуэла не способна компенсировать выпадение ближневосточных объемов. Свежие октябрьские показатели экспорта наглядно демонстрируют объективный потолок латиноамериканского партнера. 🔻 Что не так с цифрами? ▪️ Поставки венесуэльского сырья в США в октябре просели почти на 29% по сравнению с сентябрем – до 449 тыс баррелей в сутки, зафиксировав один из самых низких уровней за последние восемь месяцев. ▪️ На фоне сезонных ремонтов НПЗ и роста ставок фрахта танкеров доставка тяжелой нефти из Карибского бассейна до побережья Техаса и Луизианы становится все дороже. ▪️ Национальная добыча застряла на отметке около 1,1–1,2 млн б/с, а анонсированные инвестиции частных корпораций способны дать лишь скромную прибавку в 200–300 тыс баррелей, причем на горизонте нескольких лет. 🖍 Проблема в том, чьо сверхтяжелая нефть пояса Ориноко – это битуминозная субстанция, требующая гигантских объемов легких растворителей для транспортировки и бесперебойной подачи электроэнергии. При этом базовая инфраструктура страны буквально трещит по швам: регулярные аварии на узловых подстанциях в штате Сулия оставляют без электричества ключевые насосные станции старейших промыслов. Быстро форсировать добычу в случае закрытия Персидского залива физически невозможно. ",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 47.8692,
+      "lon": 34.9046,
+      "url": "https://t.me/rybar/84460",
+      "tactical_sources": [
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/84460"
+        },
+        {
+          "name": "gallery.rybar.ru",
+          "url": "https://gallery.rybar.ru/images/upload/2026/11/04/20261104210907-3561b6d8.jpg"
+        },
+        {
+          "name": "gallery.rybar.ru",
+          "url": "https://gallery.rybar.ru/images/upload/2026/11/04/20261104210908-47631812.jpg"
+        },
+        {
+          "name": "#rybar_latam",
+          "url": "https://t.me/rybar_latam"
+        },
+        {
+          "name": "qr.nspk.ru",
+          "url": "https://qr.nspk.ru/BS1A0068ID10D33B9IBAQRQ4M9T0NIFN?type=01&amp;bank=100000000008&amp;crc=36CB"
+        },
+        {
+          "name": "#vanek_nikolaev",
+          "url": "https://t.me/vanek_nikolaev/43594"
+        },
+        {
+          "name": "sofua.army",
+          "url": "https://sofua.army/blog/YAK-DOLUCHYTYS-DO-SSO/sof-deep-strike"
+        },
+        {
+          "name": "instagram.com",
+          "url": "https://www.instagram.com/sof_ua?igsh=MTVuNjloaGpraDRndA%3D%3D&amp;utm_source=qr"
+        },
+        {
+          "name": "facebook.com",
+          "url": "https://www.facebook.com/share/17fpUPH2yF/?mibextid=wwXIfr"
+        },
+        {
+          "name": "youtube.com",
+          "url": "https://youtube.com/@sof_ua?si=YLKGvXZlMF2eOExY"
+        },
+        {
+          "name": "threads.com",
+          "url": "https://www.threads.com/@sof_ua?igshid=NTc4MTIwNjQ2YQ=="
+        },
+        {
+          "name": "X / Twitter",
+          "url": "https://x.com/SOF_UKR"
+        },
+        {
+          "name": "sofua.army",
+          "url": "https://sofua.army/"
+        },
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/130260"
+        },
+        {
+          "name": "#pavelmalkov_official",
+          "url": "https://t.me/pavelmalkov_official/7639"
+        },
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/130256?single"
+        },
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/130257"
+        },
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/130254"
+        },
+        {
+          "name": "#supernova_plus",
+          "url": "https://t.me/supernova_plus/62529"
+        },
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/128404"
+        },
+        {
+          "name": "#helloastrabot",
+          "url": "https://t.me/helloastrabot"
+        },
+        {
+          "name": "astra.press",
+          "url": "https://astra.press/ru/newsletter-subscribe/?_thumbnail_id=303"
+        },
+        {
+          "name": "storage.googleapis.com",
+          "url": "https://storage.googleapis.com/kldscp/astra.press/ru/newsletter-subscribe"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/rpysxfdkjuIvMPOpgl1ve2vrhvke7DEOQh0MHsSvf0O-XLkUbUEwdYXCNoBiCUGh1nIZc939_3UPWpUEftf1fcoC_qC-auBtb_ILR1QNWwzLxZ925oZvqQoTLbr3_Hu95bCD_pPtt_TkykN3pqTor1HgSQ2O5xOoMGuuto4HaNkN85-keVungm8ZqO32ss0z8QwQ_dbFaO6y5-ZOG95XTQIVcUFU6pbrHy1T5EKKIWopQRiXzXk4IyBdbv25qfOFZGeWeB02iswkYUhhmLOIN63a9ckr9XnWKIPVwIkVqRbPOfRkKsdnuhjj9o-IdzStmC0--_fBNHjiOJDyIvrHyw.jpg",
+        "https://cdn4.telesco.pe/file/Bo8BCK-BX4bA1Frcjx53DRR0wHTlAELRGDftkVxtk9sJr5YWBlsmldAF7wMZekY0hNk_FuqmY5TaiJL5BzfMSGVxo0g88ZS-SsiunLn6idBnD_Y5Bwx7tJEAVaiWLHcxbNgUgQibwZgrqZzKoQG3lK1eatI4LFYq8iBmvQ6xj2rXkKSIeI1_vH8v-avXnVk5fH6ItJlIhKjvY7v2ISTPrl-aA6VAUgALa0bm2K_gd_HvCsLz-ci8bcP1ujd3DNLXwh3h4PxASCLLyka6s9QZ-t0oShu0m8nAtOkzE_mOoV4CYgLiVm60YSmJgayfzIDiMiAJQOvbpHpuNwdCmoJgaw.jpg",
+        "https://cdn4.telesco.pe/file/P3HRQ9UfruKu2dNK5DafzRlCt0AuJ8r2qey7ogVq_rpXIH5VmyxQ8TmBV4jo2yG4Adwcd1dG2FWYV_z2dH3nM2Ti6Me45O2ERtdu8uadw5w83ky3E3Qw7M8V25IXY-WyMck61JU46G0E22cPsGm8LXDc-3OFBijownkmAWlJbT6EGz40dV1Ma280VLfw727zSDt2ExbhONqvIPBv3nYidkdoOoxnuJCquotfiFJKFjBOXBCYFQoi9Fkivc1YjvNUVIGIQELVL_hgIS3zGLt8yOqw_UZ_leBO5u3mSfwFi5r21iZ2U1U5_n23S-hc8l_A7YPWYjxTHwZG8V-EzSngdw",
+        "https://cdn4.telesco.pe/file/k9i9RYUM5QqtqXxCGF3Z8xStajU-ZSUJBbDnPoPNAMGu6YhF6ckPuDDEJ7NQJKuXu7tSxS3E4zdeM15QgiYHlr_nxr3PMpyBfoOH_ie4I9cOqHOy2dVw-Y46jjHdFGwZlZSDEokOiCLdGnl_T3NGOCIbRQHeYLO7aaqOCsd3q0raGuB0s_WhssZfZ2m3boa1izD13f9Mr__9mJ290OlyLz6FP7wa-FB7X_nVtD79VPfzITdJvbdEXvA6X9fFFWObzaZtx070pB0p3KI3ftS5tBdc1VQqnuW2zBienXfCAcghPOBj3bsgkbZjzMP96RB0JU_FiArmWtmvjv9cWTGEBg.jpg",
+        "https://cdn4.telesco.pe/file/MiVgNQLGLI8iK1uu6EjkjJ-ysFKrEBe3AmJv93v935u_9NkX_aXmmHDM_JqunSf8StgmzMrVBYbg2qwiY2mHolkiBBMk-YqupIhFBN398KUDyfTSQgxbXdLrimV1xMjqRRLUKyBJzzn-30LvMmyLUA9OPer7nx4Q-a6YebrM46LfTf0w8Fc1RCluVMKQVQPoz8qetAFVpdiCQBtApy67Y-pPR-IADCYhOajB_ctma_-d0B08tqdPOVMeNfsouzG0Ut1LJdKocvQYUEIQ1PWv7jeFvbfH4f7oR8B43iktivfVRrE6g2GUbrUjcvNuT_0dvMS8HnYx0QHTHlcB8-CwlQ.jpg",
+        "https://cdn4.telesco.pe/file/toqYswhgpGKPeF6tV_aCk0UfOXJh8IHZjXX96eiEZMSFkizaXIg58xshMD-6LGqMlXT7AgFJwXITxD-ZYbWepLdaKCzlI-_bZ1bLbdo1hEAZ3Qqe_g9lTURYifkaJYGg9e_IoRDpkvwEB13reoX_n_BaLDusheF1rPuHNRMM-qsilhfJBeFyYgAcOKQuhVnDlbuRslKD5c8V1zH5Mx7V3XklFh5mGAQnrUiWEWoTThX0jUaOinDQOx4SiYWxlQ4xMQYcCJ7EP0ol7z_DOGTOVB5tAQrchJ5AX3JcbsK7CzMRExn6agMWA_sfACqDlA4xHfZhAh-OZcNCCXrYcnrS8w.jpg",
+        "https://cdn4.telesco.pe/file/fxSuu1_eZSedoy5pAvcmGu6p2shnW905PsjN7RrrWeKFj1AnSNfVmrR9C7h9TZrVipHRu1aSBvpJgVq2uRfJZOhIpt9Sx6aMjE15-du8_tA-Gp3zq0CaXyo8UvoEBR__9JBlfO1WJ1_dFqESaSdMr2B7hek0MUB9pErQz4ap75Dfg1wNoRbyqua3TrwcJ6ClMFISazV5lJaaH6SmAal0rhPXjzMIh8lep7fOv9ArztDrBblQ_Na9NaNxrkDARaoMctcU_gnXS50eIS7FYEOrp_xt0jnbLIjs391Musr-S55A4TxoPvgDw-9vrmxYuwXoMDj-oxpaKkTp_LW1Wzf-9w.jpg",
+        "https://cdn4.telesco.pe/file/AwXnEdtnqL9bUZv2A5dP7-412GsUm6gzQNCZQEt_Z2zLbRvwHT61XcMJWbfkUcpxhglNUaZajy2kkdlqEd-f04tbfoD2OmHBMcVnzwEzrpDS1d2DVCW6plUDP3sivis5HolQTL_xuCBGPu2ng4I_m9c4RIHcSyGKGrRbV11JutI1drCY1kLPnMzBPNKEE768FAzESxuc0gW5vrQtVb0ky0enZUiivMBYQqXfCB3a_S8WjV_gGU8KdRWxt_Wx4xfuuB1SxA1yT7sAohkwap1mT2Y9mmSnfxPGU1r0bIQVYD4FzZZYbEfoGjV997OR_slWOFnvFchs-whdRi6kk4xO5Q.jpg",
+        "https://cdn4.telesco.pe/file/dD8fedJm4BmhN3U_ku3fAcxMBLpovK-0eOiMhObUyBXD4RVjsRWMFLxQQXq-NsQsNDOiW19QNHRjzSPe5A0u_sXBYtyEs4RyNURah8trt2bLILmx5HU80mA1uEvaVLHQkxn0ivYaG408NryQT7MxQ_Z7XmpnST52tkAaua9U9ZDJag0FzpojPgQ-tVxpmHBV3yG8bQjHJdDldVAsMyjNnnzmqgN-1jy0EQ9sB4rtgBdvJKQIQFqXF_ervEXUKsOStZ92kW0euEG0Emxkb4aSEDwVBuENYDLYthpTOpgsdPlTNvnLCc_J2yCPcXSqHBQhJ72ncV7xAo5R7US0mqJv5A.jpg",
+        "https://cdn4.telesco.pe/file/AusavxqU6YMdZuU2kiezN7PKCvRAspttG1so7cJQVu-VTW3QDeuZVOBCeJpG1M95sHrWzPCijTNMdDCAXFtoFBF0aQR6fj42r6L4cOoYG2FrJOFujHvmIEBE-P3LXDhzN5d_KXc7oe_WaTSCrgzL1bn6I1MLLAG1mId40ogh5whQYTF2tJ_DW2ep98FJQ6YjY3UbXq21mfSHGWt44_wGxD9JV9WfS9jE5lb5olW572d58kFd5ALQDhIkbO81dQ2q1fx9IW-HtTLkYX-19FAeXkUNzLvmZac3sogLN52VcEpV-gnGs6-qGo6zQRrp20di7bM-85FlD_gjEsAeHYJh2w.jpg",
+        "https://cdn4.telesco.pe/file/rYtN3xx4n-PhddewfT8rNJlX-KTnnkvBILl8trfX6BRuops1bhlvEGukLozwgNTwnis24ag6Y1y47T1qBpOLsHaKGUa-wh1OrxlGsMG8c0P_DsrD-d3ceIKMPPm-BejeljMt0ji4a6QmIoBFj6N7EYZqrUwQBXqmFDtE4FrQzGRvakuFhykEDj_PJu8AqM19XC5cerV1RbU-fjzswbYmPEFtzgEkUulbhs5kFnBY8Lghf-Em8a1a45dlQXsN0eKxfq249mHvZW30kUvRwSm2W_5DEO60rpfMPMgNYsHApZY--eWjk5fzKZz2r8NiION1k1wiN8hl74aWqoRXS5ZpTg.jpg",
+        "https://cdn4.telesco.pe/file/RVOzo8i3m7ARea-GE2YRMTGqWz7EJE1YH_5zzWQcQVwNpa1QAGnLyb7aXjCqF571t2mizrXFA6iW2Rx9Neg01-k-eLS_8Kx7sT25TOPxXIQDFKwF5MEAZgRT2L6StLsTi7_abI6hwH4HaV1xtD7CbJXSNrRz7b1HkGUhJKt_S1_9RIYShW6OLCGV4OrP77dufKcTDc6VWxq3j7newP_-NbdLAVt7Oox9PkKR2HaU7DycsFGPzgF1AM2eQIPsWVavNEfSV1XzT9PRBmww-2ncHEzFUTBfoLswkGA-fUeWflxg3P71Pk2SEbvHa9WmePnBSPrA_OUT2Tlu2kcqV0ScaA.jpg",
+        "https://cdn4.telesco.pe/file/Mg9L4pckq4Ig-vlcxPg76-0t7VTDDU4G67xkbuxE0eOVnTYps25G-DZItrQQQivCD73qUQwgERShF1KEloeKzTfm-6QqUOMVTrRc6f6Xg3uCqETGMCmW_1hjbiztfRxUgnADTbjqzvov-oM6jSvoYSNcR7QICVapyib-HIuUVOZ25hvzZypQI8KRNPiH9RpnMDoTeGmqfoK45CQ3PYZGyw5PUDsiya-XbX0h0pTvvmtVr2zSr_Av8cWToVPWWZfAK3TEu6HeaX8PKVhxj4dLcRv4BiOH8WZZ5Yh35LYdO32T6mFGZugl1pOhXBjSMy4amWL-zqkOCAkZ8BUkMZKpGA",
+        "https://cdn4.telesco.pe/file/CYf3uhN7I6GGcxlgeiyGC8h33cRoJeviiDW2d1z9I4EpuXZcAA38LyKgwfqhDRofb4L9KccMZp1IH14fnbxh2G7OdcFjx2iN4wMfe0UUgEMcmDtuQOy2smmtxq0uOHlPQGBtwqzLn1i4RrYrCrJDCTdfZOQWyTk2Mot6H7DKpUJiTpaucK2rcQ7_Uw-o3k-HGeS4fChZLL0L6PcxPlQjTqBfchUBcpZu4MJVmfmTTAo7Qw83cfavMM5eIyBwP9neQ50V9dZtXn_UQTD9u8Iv_kvjIdY68pbGFj7KfyQ94vcwgzTamiOrcyjZv2bvt_9KPFI_P_OpAUUpsem3OI0ghg.jpg"
+      ],
+      "video_url": "https://cdn1.telesco.pe/file/9a49389c08.mp4?token=lyFQrDoG3vuxhfZ6rGHVdewpRc6OYfgishFbKz77c0Ffx7I4EFUOPC8-ey146QFHfcBPH7Fn_t6tSfKVpSFDfMgfUXWrY8R37RvMXFqa5nZpYOnyWtLXhmFEgsePM0Dx4YINN7WdaXjWcyoLngqQVI9vFOcy33TeDvFqZY6AAoU2Y5C6DWtDMUe8iYqTTl1g5cu49DJreFhnDsJcWAfPmS-0W_UzfdceaRheL-BcJjx1p4f0PRk4LRFNk3Noi5Yzi6KtUvTpAMWgqvTEiXDNaiRU61ZaowTnGgpJfzGHkXy1WU8SpMCyvG8-1tj-BvTQZIr9vzL_dvoejQ_Gm-DVcQ",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Rafineria / Skład Paliw",
+      "is_fire": true,
+      "threat_score": 8,
+      "source_channel": "rybar",
+      "added_at": "2026-11-05T21:41:34.362870+00:00",
+      "verified_by_sources": [
+        "rybar"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "📝 Wenezuelski impas i duch Ormuza 📝 Czy koncesja Trumpa może uchronić USA przed kryzysem na Bliskim Wschodzie w dniu…",
+      "text_pl": "📝 Impas wenezuelski i duch Ormuza 📝 Czy ustępstwo Trumpa może zabezpieczyć Stany Zjednoczone przed kryzysem na Bliskim Wschodzie W obliczu sygnałów z Waszyngtonu o gotowości przejścia na mocny scenariusz wobec Iranu, na rynku ropy coraz częściej pojawia się pytanie o cenę ewentualnego konfliktu. Jakiekolwiek bezpośrednie starcie w Zatoce Perskiej niesie ze sobą ryzyko zablokowania Cieśniny Ormuz, przez którą przepływa jedna piąta światowego tranzytu węglowodorów. Istnieje opinia, że ​​zakrojone na szeroką skalę porozumienie energetyczne pomiędzy administracją Białego Domu a władzami w Caracas oraz bezpośrednie wejście Pentagonu na produkcję mają na celu stworzenie gwarantowanej bazy surowcowej na wypadek załamania Bliskiego Wschodu. Szczegółowa analiza możliwości Wenezueli pokazuje jednak iluzoryczny charakter takich nadziei. 📌Nawet teoretycznie Wenezuela nie jest w stanie zrekompensować utraty wolumenów z Bliskiego Wschodu. Świeże październikowe dane dotyczące eksportu wyraźnie pokazują obiektywny pułap partnera z Ameryki Łacińskiej. 🔻 Co jest nie tak z liczbami? ▪️ Dostawy wenezuelskich surowców do Stanów Zjednoczonych w październiku spadły o prawie 29% w porównaniu do września – do 449 tys. baryłek dziennie, notując jeden z najniższych poziomów od ośmiu miesięcy. ▪️W obliczu sezonowych remontów rafinerii i rosnących stawek za fracht tankowcami, dostawy ciężkiej ropy z Karaibów na wybrzeże Teksasu i Luizjany stają się coraz droższe. ▪️ Krajowa produkcja utknęła na poziomie 1,1-1,2 mln baryłek dziennie, a zapowiadane inwestycje prywatnych korporacji mogą zapewnić jedynie skromny wzrost o 200-300 tys. baryłek i to w horyzoncie kilku lat. 🖍 Problem w tym, że superciężki olej z pasa Orinoko to substancja bitumiczna, która do transportu i nieprzerwanego zasilania wymaga gigantycznych ilości lekkich rozpuszczalników. Jednocześnie podstawowa infrastruktura kraju dosłownie pęka w szwach: regularne awarie kluczowych podstacji w stanie Zulia pozbawiają prądu kluczowe przepompownie najstarszych gałęzi przemysłu. Szybkie zwiększenie produkcji jest fizycznie niemożliwe, jeśli Zatoka Perska jest zamknięta.",
+      "archived_at": "2026-11-19T19:20:54.984697+00:00"
+    },
+    "8e708ecf77c855f6": {
+      "id": "8e708ecf77c855f6",
+      "timestamp": "2026-11-05T18:30:02+00:00",
+      "country": "Polska",
+      "flag": "🇵🇱",
+      "theater": "Wschodnia Flanka NATO (Polska)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Zełenski w Madrycie: Europa musi zasiadać przy stole negocjacyjnym",
+      "text": "Zełenski w Madrycie: Europa musi zasiadać przy stole negocjacyjnym. Ukraina niezmiennie opowiada się za obecnością Europy w negocjacjach o zakończeniu wojny, którą prowadzi przeciwko niej Rosja – oświadczył prezydent Wołodymyr Zełenski po spotkaniu w Madrycie z przewodniczącym Rady Europejskiej Antonio Costą.",
+      "title_pl": "Zełenski w Madrycie: Europa musi zasiadać przy stole negocjacyjnym",
+      "text_pl": "Zełenski w Madrycie: Europa musi zasiadać przy stole negocjacyjnym. Ukraina niezmiennie opowiada się za obecnością Europy w negocjacjach o zakończeniu wojny, którą prowadzi przeciwko niej Rosja – oświadczył prezydent Wołodymyr Zełenski po spotkaniu w Madrycie z przewodniczącym Rady Europejskiej Antonio Costą.",
+      "location_name": "Wschodnia Flanka NATO (Polska)",
+      "lat": 52.2168,
+      "lon": 20.9202,
+      "url": "https://defence24.pl/wojna-na-ukrainie-raport-specjalny-defence24/zelenski-w-madrycie-europa-musi-zasiadac-przy-stole-negocjacyjnym",
+      "tactical_sources": [
+        {
+          "name": "Defence24",
+          "url": "https://defence24.pl/wojna-na-ukrainie-raport-specjalny-defence24/zelenski-w-madrycie-europa-musi-zasiadac-przy-stole-negocjacyjnym"
+        }
+      ],
+      "media_urls": [
+        "https://cdn.defence24.pl/2026/11/05/320x240px/OqUmhugZdA3N1vl7nmMYKl4mrxsDRf0PzrUBPzqL.w6ww.png",
+        "https://cdn.defence24.pl/2026/11/05/1200xpx/OqUmhugZdA3N1vl7nmMYKl4mrxsDRf0PzrUBPzqL.4nhe.png"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "defence24",
+      "verified_by_sources": [
+        "defence24"
+      ],
+      "multi_source_verified": false,
+      "added_at": "2026-11-05T21:41:34.363067+00:00",
+      "archived_at": "2026-11-19T19:20:54.984697+00:00"
+    },
+    "8d832cf5117ca520": {
+      "id": "8d832cf5117ca520",
+      "timestamp": "2026-11-05T18:20:15+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "Два человека пострадали в результате российской атаки на склад в Киевской области, — КОВА «К сожалению, в результате ата...",
+      "text": "Два человека пострадали в результате российской атаки на склад в Киевской области, — КОВА «К сожалению, в результате атаки вражеских беспилотников на производственно-складской комплекс в Бучанском районе пострадали два человека. Женщина получила острую реакцию на стресс, мужчина – ожог левого предплечья. Медики оказали обоим необходимую помощь на месте, госпитализация не потребовалась. Ударной волной повреждены соседнее складское здание, два частных дома и два автомобиля. На месте работают спасатели ГСЧС», — сообщили в Киевской областной военной администрации.",
+      "location_name": "Kijów",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "url": "https://t.me/astrapress/130320",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/130320"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "astrapress",
+      "added_at": "2026-11-05T21:41:34.362800+00:00",
+      "verified_by_sources": [
+        "kpszsu",
+        "shot_shot",
+        "clashreport",
+        "astrapress"
+      ],
+      "multi_source_verified": true,
+      "title_pl": "Dwie osoby zostały ranne w wyniku rosyjskiego ataku na magazyn w obwodzie kijowskim, - KOVA „Niestety w wyniku ataku...",
+      "text_pl": "Dwie osoby zostały ranne w wyniku rosyjskiego ataku na magazyn w obwodzie kijowskim - KOVA \"Niestety, w wyniku ataku wrogich dronów na kompleks produkcyjno-magazynowy w obwodzie buczańskim, dwie osoby zostały ranne. Kobieta doznała ostrej reakcji stresowej, mężczyzna doznał poparzenia lewego przedramienia. Obydwu lekarzom udzielono niezbędnej pomocy na miejscu; hospitalizacja nie była konieczna. Fala uderzeniowa uszkodziła pobliski budynek magazynowy, dwa domy prywatne i dwa samochody. Ratownicy z Państwowe Służby Ratunkowe są na miejscu” – poinformowała Kijowska Obwodowa Administracja Wojskowa.",
+      "archived_at": "2026-11-19T19:20:54.984697+00:00"
+    },
+    "03a37390c219c9f1": {
+      "id": "03a37390c219c9f1",
+      "timestamp": "2026-11-05T18:03:30+00:00",
+      "country": "Syria",
+      "flag": "🇸🇾",
+      "theater": "Syria",
+      "event_type": "Starcie Lądowe",
+      "tactical_category": "Eksplozja / Detonacja",
+      "tactical_icon": "💥",
+      "title": "TOW hit triggers massive explosion, conducted by FSA forces, Syrian civil war, DECEMBER 2015 Syria, Earth, Solar system",
+      "text": "TOW hit triggers massive explosion, conducted by FSA forces, Syrian civil war, DECEMBER 2015 Syria, Earth, Solar system",
+      "location_name": "Syria",
+      "lat": 35.3932,
+      "lon": 37.233,
+      "url": "https://redd.it/1xokrsr",
+      "tactical_sources": [
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://redd.it/1xokrsr"
+        },
+        {
+          "name": "Telegram (#r_combatfootage)",
+          "url": "https://t.me/r_combatfootage/42891"
+        },
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://t.me/r_combatfootage"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": true,
+      "threat_score": 5,
+      "source_channel": "r_combatfootage",
+      "added_at": "2026-11-05T21:41:34.363006+00:00",
+      "verified_by_sources": [
+        "r_combatfootage"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Uderzenie TOW wywołuje potężną eksplozję przeprowadzoną przez siły FSA, wojna domowa w Syrii, GRUDZIEŃ 2015 Syria, Ziemia, Układ Słoneczny",
+      "text_pl": "Uderzenie TOW wywołuje potężną eksplozję przeprowadzoną przez siły FSA, wojna domowa w Syrii, GRUDZIEŃ 2015 Syria, Ziemia, Układ Słoneczny",
+      "archived_at": "2026-11-19T19:20:54.984697+00:00"
+    },
+    "77df05a79e9c6ec1": {
+      "id": "77df05a79e9c6ec1",
+      "timestamp": "2026-11-05T17:53:17+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Starcie Lądowe",
+      "tactical_category": "Eksplozja / Detonacja",
+      "tactical_icon": "💥",
+      "title": "«Опер сказал, что засунет ему швабру». 20-летний петербуржец оказался под Луганском после избиения в полиции и обвинения...",
+      "text": "«Опер сказал, что засунет ему швабру». 20-летний петербуржец оказался под Луганском после избиения в полиции и обвинения по статье о наркотиках 20-летний житель Санкт-Петербурга Данил Залозный был задержан полицейскими, избит, стал фигурантом уголовного дела и оказался в СИЗО, где под угрозой физического насилия подписал бумагу, которая оказалась контрактом на службу в армии. Об этом ASTRA рассказала его мать: «В ночь с 19 на 20 октября он был задержан сотрудниками 52-го отдела полиции. При нем нашли гашиш. Сотрудники 52-го отдела его избили. Он лежал на полу, а его били. Пытались добиться признания, что он распространял в крупном размере, но он им говорил, что это только для личного пользования. Заставили дать пароль от телефона. Дома был обыск. 23 октября в Красногвардейском суде его арестовали до 18 декабря». Опасаясь за здоровье сына, мать сначала обратилась к уполномоченному по правам человека в Санкт-Петербурге. «Они меня послали куда подальше. Обратилась в ОНК. Они приехали к нему в «Кресты» днем 28-го числа, осмотрели, взяли показания. Мне эти показания не дали посмотреть, сказали, что состояние у него удовлетворительное. Только 29-го числа к нему поехал адвокат. Просидел там с 9 утра до шести вечера, и его не пустили. Сначала говорили, что он у опера, а потом — что на прогулке. Под закрытие вообще сказали, что не знают, где он: &quot;Выясняйте сами&quot;». 30 октября по дороге в СИЗО мать получила сообщение от сына: «Данил написал с чужого ВК-аккаунта: &quot;Мама, привет. Я на СВО&quot;. К начальнику СИЗО меня не пустили. Следователь из документа с решением суда не отвечала ни на звонки, ни на СМС. Я там очень громко кричала, и другие мамы подсказали обращаться в военную прокуратуру, ведь они могут остановить вывоз подследственного. Потом сын написал, что вечером у него автобус, и сказал, что их повезут из ПВР на улице Политрука Пасечника, дом 6, корпус 2. Я после прокуратуры успела туда. Попрощаться… Ночью их увезли в Воронеж, а 31-го числа — под Луганск, ",
+      "location_name": "Woroneż, Rosja",
+      "lat": 51.6608,
+      "lon": 39.2003,
+      "url": "https://t.me/astrapress/130309",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/130309"
+        },
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/128819"
+        },
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/128927"
+        },
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/130123"
+        },
+        {
+          "name": "#helloastrabot",
+          "url": "https://t.me/helloastrabot"
+        },
+        {
+          "name": "patreon.com",
+          "url": "https://www.patreon.com/user?u=83911718"
+        },
+        {
+          "name": "#astradonate",
+          "url": "https://t.me/astradonate"
+        },
+        {
+          "name": "buymeacoffee.com",
+          "url": "https://buymeacoffee.com/astrapress"
+        },
+        {
+          "name": "app.lava.top",
+          "url": "https://app.lava.top/astrapress?donate=open"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/DpfgL5FvjBx_rEVvmmTBG7UvnGmJ-dS4x9sT0cATGtBupLJ8oDDGrbLs-7htqQjpPyAgazOX_a8Wn-rrGL8W1QxVBwBO-U-ulOegGmF7sj1Cs6sWoZsRwQZ8R8h6blYfQ8iCESP_JZKEDKwfc0Lw0hcc9uAxD7M34Wu_-2hQnY1fkFpDmOdUeXl02Mwm8uygvRTkhH2wehbdYUjZE8eP3ZR2rhOanoh4wGtsEKQI02upkbi12gYsujJjNQLYQwswxzCkuC2Im5NDvNTHBa_4RGv2Ab1bNZq7EN-H6a3h0hX1N0MV9D_84mNKmdq4K8zCEXHxHqLuKGRX4JZy1n8wzQ.jpg",
+        "https://cdn4.telesco.pe/file/VMprFZM3nhnkLJ7fQX8HVGuJscbPgNYGKhBqH4Hp7RVh06A5SLVztp9xVu1RU8Mte1dUt1tvZXoo8I4lUAoi7lN0dj6bs0RO7_Pm7sfzqmEH9qQNZAaCmYQUlzUt46Sn0YQwOSL-C_gZcdyy-JPHjirBJrH7Qt8qd9jueU_xoPDeLu-k3HsVwt8cLxFrt48WUB6W6Aw88270p17CCeLPKulaxmNNdY5S5sxcnvImSPNM64ncWbE0XPMlXgCfMOcNA9o12SUSgjU1TwQguL8mcCsBM8M7nsB1niMd-FOW-lY1OVwr44FbevNSHw8VGTGe28gbUwVn2WoxU75wMvDjoQ.jpg",
+        "https://cdn4.telesco.pe/file/hqmeebouwdU8Mrd5iYxJ_k-4i7k4UE16PRgVloREKHuGNgWQ9pyucpsnpD64JEnh-36UDNoxUehsZK_BTsopRMmlHK2_Su4iLSV9S0rEKJEDxM6WaiWCMTxxBmcwiFH8Dd9rN8cau3fz6-qQr7EIBfy9Uc5OuFfb9_ZC7XdBwK4Azcd7GXYQRYw9rLYUqppoX5HmplhXuqW-ILA2Hl-FHfWbQKe-oEaF33ycM-CY_mEWmkD1iUB4VGXr37fd8wNtARAFSaiZS9-GNZfP6hFDe4gxyApiV1aXXiknebNIPkl3XNQVxYTTUOTLinzdeosV0CWAFdLkELGc759g5aBPbA.jpg",
+        "https://cdn4.telesco.pe/file/szi6qm2egpF97LXP9-aH8irE992oSIi1e-AdZQz6LBCQjQX2Sz-239yzq2Ust4XODE_Zwj0W7ilMWEPcTltrTUpqyReUXaYmhh0LzIvPbrP_z0nxkWep7VU-qwTs52XwhiYttWI00s6CQS2m_K6rqMdnFkOvxWGwnbto-W7K70y7AtrbfZhueY9SWCw1KWuu3pl1sWrRC_pP02ZzZV_UXjXj0qJQBXgmQc3ziLEnz6JJOaeZW8275m2gn4SjOMWGkqIEMeB1NmB9cGc_yFGTZL3r0zv0J62xqQs-j2vUU6BEkXLXXMZD-VsvNlA4rYYYdOl9QqB_QfLqAIXClj7eig.jpg",
+        "https://cdn4.telesco.pe/file/iYfL4eKhOFAB9nQUI9EVLj1WfQh_icyz6nNuQHHbGuxFXA4je63jkn3drIvmDEE4rFpHEfvC9vgnCiebsSn2hU4pw_ws1kZG4raVyRxuWZLR9AUt2Veb2OiAfTHamFifIgXG5IxxYnwVUi9_Tlgx0rvtgM3BkrwHlXatyoIWFirTp6YJOhTul3JcltWbwxsdoUm1cBVA0p8pkUexjWtT8rP0mirUp6k5ySRw_x_Lc1oZm3x7mVoKroS2ECnbYSXrYSCSbdO3n5Xr8lZnX1t4vxNdWsuHA3e-_fhCC6B25GMwrFp75v9ku-tWZ1F-kO5KpKGplyprl55Ntx-xRgjKYQ.jpg",
+        "https://cdn4.telesco.pe/file/bdVjT5YgXFoVvbBqSY9VkjEkPgKvfFIjhQWE5jajkd9z58X_gj8KeREM3lZq1mSqBNCHvKRMACkWPWKLpPmVXS8QjfjVDuoKuN_kRlYInGkKU5jTQwo-AxJG6Mvyfee2aQCRWL6ziCi3go9493mu3LKr526OmDq9-VQePZle8pN055x4d36JId_rIgttFP4WykdlclBsyRJbGXn0wdUSaHB7EwhvnbBSNhK-DGPZhXF2b3GXt1Iy-CbxoR9umucxOvnVwAk0yaiKsgIOW8yc-kK-lVGxuRhMTQMPiXfZlc69EUAI9y83oKKGq-OxjWs_G1iiYhPF3Ru9xRg1enVTiQ.jpg",
+        "https://cdn4.telesco.pe/file/q_gZU_bJu3UK6az0MpCbWfKe0se8mFEeCicMg84dvEp228_UPQCY9nQdEiT7xhjacflje0QSGS_aMF8PZxsItJh1D46exF10aBbBJET5U5I4nGGzelUmcvSzoZE8QRwE5Bnsjet4OzKrpviziRXrGSlP3LktaL5J0b4p7dLREl3mfC4ZGNAYvxLI797SLBhCHrPyy2j28EsHzZebNn67lxAQrC8m8iWLc7msGgHWKb4n__SfGSsjTOEA30P-aP_yplDrQiwMXsTknemDfj-3VFdmKGV0kcox6Mva_AlTcvAaEbrqCZdMeeUXh0CbhVUDgfbhlu2ZP8WSM0kzyRoOQA.jpg",
+        "https://cdn4.telesco.pe/file/UeweE0Sap30s72N5konAEn6i8e8dppgxe1dp534iFYwbrED3-VIeg5ZgCcgPzwDHO8vwEI0F_QSc8UetEYJpNlZGNn72mSWuXF_kvaPN6IBw8uPKJkF6Yhqk_dX7I1mEsLdUD2NdfmowXNOhP0SKtu-N_JqHf_a0aPAWTX5WHiQag3OwqWelgOKLOOwszqu8qEEWUv-ef4F8ADe_5Hl01gmhA9_E23Y5Ke5BUB_L3lqi1FztSrYnx8Mjg1VcDlCYVutB8xLB7Y2jVifZ1C8k0EMuh20CiKPEqEbn-5WUKxfRlYtI2Akra0D7hhoqXa1DN7dpsdVfbFKyMyneMC-gMg.jpg",
+        "https://cdn4.telesco.pe/file/J6aPGziFcagVKN9IgUNJHdo775qo0wa6EoJeq8WA4Xnb0EgQYb1xHqZNa3NLJWeXxfqrRpbWeLNm9VwB_SzI9bCL3EQxTdTyuejcPHU_iZt9xyxFE_1kKfU9ocYjsRCON3lE8XB5OSqCmWmqhadf4Q9yWbLQ8wp8f9hq4iiUBSlXaRgdI40CmWw5_IBqMDfOx9HWgHkIVMv9LFuBzIpw70uR0I7bzOeB8msftrYFutirjxYRw_GN0_NFfFKgOWKp1fSGgOJUm0BIih5lQKJ_cbteuc_VAFNkHG2bPwDY0Pwvx-Rd7-BeX3pWRChMsT5HhoTPm9eVqnFIE73g8ydLXQ.jpg",
+        "https://cdn4.telesco.pe/file/G0wZ6Z4-W5VE8X1G021vbV31A6KPXKgRiwQHrlJ-8Sy2tZsSmz_4Xywdqqjl8s0hBts4pGEBBW-_bM8jmZyL9gDb_3xRnAe4_58iS7IURSv8hGc6b6SwaK0R6FCCzYINiCd6uEwTp7TEOUfNapHr9GdkD3JVog4ZO5lxOuubNEazWCxsZIw6Q6ooOKW9evwoXbPctDmkIxQRQKUQ90d7zUaROGRQTBO9Vfi9YFN-S1jILh7WM0yU5zK9rIRdsUL1uiK6KAtXJpWACpxmr96BfaXBby36qyLh7cDOnjerB-QoFVM4VCF76-uCzl9ktFVROsSODn023xvSVVIkq89dyA.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "astrapress",
+      "added_at": "2026-11-05T21:41:34.362801+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "– Oper powiedział, że wbije mu mopa. 20-letni mieszkaniec Petersburga znalazł się w pobliżu Ługańska po tym, jak został pobity przez policję i oskarżony...",
+      "text_pl": "– Oper powiedział, że wbije mu mopa. 20-letni mieszkaniec Petersburga znalazł się w pobliżu Ługańska po tym, jak został pobity przez policję i oskarżony o posiadanie narkotyków. 20-letni mieszkaniec Petersburga Danil Załozny został zatrzymany przez policję, pobity, wciągnięty w sprawę karną i trafił do aresztu śledczego, gdzie pod groźbą użycia przemocy fizycznej podpisał dokument, który okazał się umową o służbę wojskową. Jego matka opowiedziała o tym ASTRY: \"W nocy z 19 na 20 października został zatrzymany przez funkcjonariuszy 52. komisariatu. Znaleźli przy nim haszysz. Pracownicy 52. wydziału go pobili. Leżał na podłodze i bili go. Próbowano go nakłonić do przyznania się, że rozprowadzał go na masową skalę, ale ten oznajmił, że to wyłącznie na własny użytek. Zmusili mnie do podania hasła do telefonu. Przeszukano dom. W październiku 23, w sądzie w Krasnogwardii, był aresztowany do 18 grudnia.” Matka w obawie o zdrowie syna zwróciła się najpierw do Rzecznika Praw Człowieka w Petersburgu. \"Wysłali mnie do piekła. Skontaktowałem się z PKOl. Przyjechali do niego na Kresty 28-go po południu, przesłuchali go i odebrali zeznania. Nie pozwolili mi zobaczyć tego zeznania. Mówili, że jego stan jest zadowalający. Dopiero 29-go przyszedł do niego prawnik. Siedział tam od 9.00 do 18.00 i nie wpuścili go. Najpierw powiedzieli, że był w operze, a potem, że był na spacerze. Przy na zakończenie faktycznie powiedzieli, że nie wiedzą, gdzie on jest: „Dowiedz się sam”. 30 października w drodze do Aresztu Śledczego matka otrzymała wiadomość od syna: „Danil napisał z cudzego konta VK: „Mamo, witaj. Jestem w SVO. Nie pozwolono mi spotykać się z kierownikiem aresztu śledczego. Śledczy z dokumentu z postanowieniem sądu nie odbierał ani telefonów, ani SMS-ów. Krzyczałam tam bardzo głośno, a inne matki kazały mi skontaktować się z prokuraturą wojskową, gdyż mogą one uniemożliwić wydalenie osoby objętej dochodzeniem. Wtedy syn napisał, że wieczorem ma autobus i że zostaną zabrani z Aresztu Śledczego na ulicy Politruk Pasechnik, budynek 6, budynek 2. Udało mi się tam dotrzeć po prokuraturze. Na pożegnanie... W nocy zabrano ich do Woroneża, a 31-go - pod Ługańsk,",
+      "archived_at": "2026-11-19T19:20:54.984697+00:00"
+    },
+    "5f5e58572f049035": {
+      "id": "5f5e58572f049035",
+      "timestamp": "2026-11-05T17:35:22+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Infrastruktura & Logistyka",
+      "tactical_category": "Uderzenie Balistyczne / Rakieta",
+      "tactical_icon": "🚀",
+      "title": "📝 Новая концепция НАТО 📝 На днях многие ресурсы обсуждали материал The Wall Street Journal о том, что в НАТО якобы «сним...",
+      "text": "📝 Новая концепция НАТО 📝 На днях многие ресурсы обсуждали материал The Wall Street Journal о том, что в НАТО якобы «снимают перчатки». Новые оборонные планы альянса предусматривают удары по российскому тылу — по базам, складам, заводам и инфраструктуре «за тысячи миль от границ НАТО». К слову, заглавное фото для статьи тоже выбрали символичное — очень уж нравятся европейской публике подобные картины. 🔻 Что в статье ▪️ Отправная точка — первый в истории альянса симпозиум по глубоким ударам, который в июне провёл главком ОВС НАТО в Европе Алексус Гринкевич. ▪️ Сдерживание теперь строится на новом принципе: бить нужно не только по войскам у границы, но и по всему, что их обеспечивает в глубине территории. ▪️ Цель — сделать такие удары «практически автоматическими» в случае конфликта и обосновать закупки дальнобойного оружия. Ядерная эскалация в стратегию не входит. ▪️ Польский генерал Иренеуш Новак говорит прямо: в случае конфликта с Россией «мы определённо захотим ударить по оборонно-промышленной базе». 🖍 Сенсации тут нет: WSJ просто собрал воедино то, что уже было опубликовано . В июле на саммите в Анкаре 12 стран обязались вложить больше 50 млрд долларов за десять лет в дальнобойные средства, включая ракету с дальностью свыше 2000 км. В августе Bild описал трёхэтапный план с ударами по Калининграду и российскому тылу. В октябре Гринкевич публично изложил «теорию победы»: «сломать систему ведения войны, задействованную против нас». 🚩 Образцом служат удары ВСУ по российским НПЗ и заводам, а также американо-израильская кампания против Ирана. Опыт т.н. Украины, полученный при поддержке американской разведки, теперь превращают в доктрину альянса. 📌 В статье есть интересная оговорка: командующие вооруженными силами НАТО сомневаются, что европейские лидеры решатся санкционировать удары по России. Ещё в июне Гринкевич объявил о сокращении американского вклада в силы НАТО и потребовал от европейцев компенсировать разрыв. Так что «смелые» планы — прежде всего аргумент в польз",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 48.1056,
+      "lon": 34.9028,
+      "url": "https://t.me/rybar/84459",
+      "tactical_sources": [
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/84459"
+        },
+        {
+          "name": "wsj.com",
+          "url": "https://www.wsj.com/world/europe/natos-new-defense-plan-would-mean-strikes-deep-inside-russia-cd703f14"
+        },
+        {
+          "name": "max.ru",
+          "url": "https://max.ru/Rybar"
+        },
+        {
+          "name": "qr.nspk.ru",
+          "url": "https://qr.nspk.ru/BS1A0068ID10D33B9IBAQRQ4M9T0NIFN?type=01&amp;bank=100000000008&amp;crc=36CB"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/nDFSP7Li-YyU7iQLB5WjipAHDICpG-E2RVexDjYimVsIfXi86JyVQLMMyBWZU1HoivIKOcnPFXQRGmAfSngSL8Rwlb_eRzON1xQwDw-LcxX9bz0CU3qnniQanzOHdb-omchNa0-ou5SYJiwWwPNjrZ5lt7Ytj4lJgf67CJL6H5qStB6fRNFZ1Wt7eEywI5ypqVE_1xPRHaveumyVDCmhKFM-WKJPLmZh_NYbpNfiivcv88Pl-ykKeqqtZReGPK5pk2ap5FC9m0kCZWdicMgpi2jSRdIA4FXB4pMmmUVZz0wDs_Oo7pZzG50ExY3h6oizuUDv8apETpXjNN-fN7hXhA.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Rafineria / Skład Paliw",
+      "is_fire": false,
+      "threat_score": 8,
+      "source_channel": "rybar",
+      "added_at": "2026-11-05T21:41:34.362871+00:00",
+      "verified_by_sources": [
+        "rybar"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "📝 Nowa koncepcja NATO 📝 Któregoś dnia wiele źródeł omawiało materiał The Wall Street Journal, który NATO rzekomo „usunął…",
+      "text_pl": "📝 Nowa koncepcja NATO 📝 Któregoś dnia wiele źródeł omawiało materiał The Wall Street Journal, że NATO rzekomo „zdejmuje rękawiczki”. Nowe plany obronne sojuszu przewidują ataki na tyły Rosji – na bazy, magazyny, fabryki i infrastrukturę „tysiące mil od granic NATO”. Nawiasem mówiąc, zdjęcie tytułowe artykułu również zostało wybrane jako symboliczne – europejska opinia publiczna naprawdę lubi takie zdjęcia. 🔻 Co znajduje się w artykule ▪️ Punktem wyjścia jest pierwsze w historii sojuszu sympozjum na temat głębokich uderzeń, które w czerwcu zorganizował Naczelny Dowódca NATO Alexus Grinkevich. ▪️Powstrzymanie opiera się teraz na nowej zasadzie: trzeba uderzyć nie tylko żołnierzy w pobliżu granicy, ale także wszystkiego, co ich zatrzymuje w głębi terytorium. ▪️ Celem jest, aby takie uderzenia były „praktycznie automatyczne” w przypadku konfliktu i uzasadniały zakup broni dalekiego zasięgu. Eskalacja nuklearna nie jest częścią tej strategii. ▪️ Polski generał Ireneusz Nowak mówi wprost: w przypadku konfliktu z Rosją „na pewno będziemy chcieli uderzyć w bazę przemysłu obronnego”. 🖍 Nie ma tu żadnej sensacji: WSJ po prostu zebrało w całość to, co już zostało opublikowane. Na lipcowym szczycie w Ankarze 12 krajów zobowiązało się do zainwestowania w ciągu dziesięciu lat ponad 50 miliardów dolarów w zdolności dalekiego zasięgu, w tym w rakietę o zasięgu ponad 2000 km. W sierpniu Bild opisał trzyetapowy plan obejmujący ataki na Kaliningrad i tyły Rosji. W październiku Grinkevich publicznie przedstawił „teorię zwycięstwa”: „przełamać system wojny zastosowany przeciwko nam”. 🚩 Przykładem są ataki Ukraińskich Sił Zbrojnych na rosyjskie rafinerie i fabryki, a także amerykańsko-izraelska kampania przeciwko Iranowi. Doświadczenia tzw. Ukrainy, zdobyte przy wsparciu amerykańskiego wywiadu, przekształcane są obecnie w doktrynę sojuszniczą. 📌 Artykuł zawiera ciekawe zastrzeżenie: dowódcy NATO wątpią, czy europejscy przywódcy zdecydują się na zezwolenie na ataki na Rosję. Już w czerwcu Grinkevich zapowiedział zmniejszenie amerykańskiego wkładu w siły NATO i zażądał, aby Europejczycy zrekompensowali tę lukę. Zatem „odważne” plany są przede wszystkim argumentem za",
+      "archived_at": "2026-11-19T19:20:54.984697+00:00"
+    },
+    "2f774734d03b8bf6": {
+      "id": "2f774734d03b8bf6",
+      "timestamp": "2026-11-05T17:19:01+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "Два человека пострадали в результате украинских атак в Белгородской области, — оперштаб В Шебекино FPV-дрон атаковал вел...",
+      "text": "Два человека пострадали в результате украинских атак в Белгородской области, — оперштаб В Шебекино FPV-дрон атаковал велосипедиста, мужчина получил осколочные ранения ног и кисти, а также перелом стопы, его доставили в больницу, сообщили в оперативном штабе Белгородской области. Там добавили, что еще один мужчина пострадал в результате удара дрона по автомобилю. «В Шебекинском округе в селе Маломихайловка от удара дрона по автомобилю мужчина получил осколочное ранение грудной клетки. Бойцы самообороны доставили его в Шебекинскую ЦРБ. Машина получила повреждения», — говорится в сообщении. Также в Шебекино дрон сдетонировал на парковке — различные повреждения зафиксированы у шести машин (фото 1), а в поселке Ракитное в результате удара FPV-дрона повреждены кровля, окна, фасад и забор частного дома (фото 2).",
+      "location_name": "Biełgorod, Rosja",
+      "lat": 50.5954,
+      "lon": 36.5873,
+      "url": "https://t.me/astrapress/130307",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/130307"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/FjZs72kZcndY8saimjNh-xz6NvihkZORm1fkiGqnfOil4wKT_XGfY7TktTFYOzyYy0X1CcY80b56c4h4phYUPLb9VO41TMbcsotu-w5f1PISm6i_Zey0iqCSSfPZdnTZu2UDdrm0VBKGuyb4690YlmTHhG7u3CmdoP5cgcK7EkDXJC3kS6BzgC4kD9cbpwgI_dqIjkQ5yg7xS2JZdjaL7to59z0GTFEqj-oLzHABRNwlIqpto1Oxl5C7nffMbkaVAPgWxd_sFEul8OmvEG7aL1H7zvBqlHABvrkl6_UMxrsT_mSWQUgn3bisJw8te8qmlHdvBJC7gIpepQ-66OP7xA.jpg",
+        "https://cdn4.telesco.pe/file/WDrFreLPa8jyjPmjw6G94r42_FKK-1Lr-KamywhdydYOb3IbqoONFe6-TbZfE4sGqggVxEIj-g7SBEVyJDGbbpIduAhgT-Wrx7Y1Z6KQPx6YNnUFOFJuuED3Yeg0D8Npy7kn4ozz4-clJ1bf4Gm23temW4jYutw6bSJy_l7_b-QF3f7me4qE09kAHJwDxxGVsjwT2x_72kSrakcqdhSKYB0MWdyeq-GOfXfAHcMQryS_yIk519-2_lauK1EJDJbCDv2hP2tBL7_vJPWdkNj8os5AUB9VS0pPGAcoE_eZbezfh_NrJm9SNym0PSxuld4FsgkmJ-5Z0Z61bvUzfFXxxQ.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "astrapress",
+      "added_at": "2026-11-05T21:41:34.362803+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "W wyniku ukraińskich ataków w obwodzie Biełgorod dwie osoby zostały ranne, - siedziba operacyjna W Szebekinie dron FPV zaatakował...",
+      "text_pl": "Dwie osoby zostały ranne w wyniku ukraińskich ataków w obwodzie Biełgorodskim – kwatera główna operacji. W Szebekinie dron FPV zaatakował rowerzystę, mężczyzna otrzymał rany odłamkowe nóg i dłoni, a także złamaną stopę, trafił do szpitala – poinformowała komenda operacyjna obwodu biełgorodskiego. Dodali, że w wyniku uderzenia drona w samochód ranna została kolejna osoba. \"W rejonie Szebekińskim we wsi Małomichajłowka mężczyzna został ranny odłamkiem w klatkę piersiową w wyniku uderzenia drona w samochód. Bojownicy samoobrony zabrali go do Centralnego Szpitala Okręgowego w Szebekinskim. Samochód został uszkodzony\" - czytamy w raporcie. Również w Szebekino na parkingu zdetonował dron - odnotowano różne uszkodzenia w sześciu samochodach (zdjęcie 1), a we wsi Rakitnoje w wyniku uderzenia drona FPV uszkodzony został dach, okna, elewacja i ogrodzenie prywatnego domu (zdjęcie 2).",
+      "archived_at": "2026-11-19T19:20:54.984697+00:00"
+    },
+    "a1610a0357ce8e7e": {
+      "id": "a1610a0357ce8e7e",
+      "timestamp": "2026-11-05T17:04:37+00:00",
+      "country": "Syria",
+      "flag": "🇸🇾",
+      "theater": "Syria",
+      "event_type": "Starcie Lądowe",
+      "tactical_category": "Eksplozja / Detonacja",
+      "tactical_icon": "💥",
+      "title": "TOW hit triggers massive explosion, conducted by FSA forces, Syrian civil war, DECEMBER 2015 Syria, Earth, Solar system",
+      "text": "TOW hit triggers massive explosion, conducted by FSA forces, Syrian civil war, DECEMBER 2015 Syria, Earth, Solar system",
+      "location_name": "Syria",
+      "lat": 35.0752,
+      "lon": 37.572,
+      "url": "https://redd.it/1xokrsr",
+      "tactical_sources": [
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://redd.it/1xokrsr"
+        },
+        {
+          "name": "Telegram (#r_combatfootage)",
+          "url": "https://t.me/r_combatfootage/42890"
+        },
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://t.me/r_combatfootage"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": true,
+      "threat_score": 5,
+      "source_channel": "r_combatfootage",
+      "added_at": "2026-11-05T21:41:34.363008+00:00",
+      "verified_by_sources": [
+        "r_combatfootage"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Uderzenie TOW wywołuje potężną eksplozję przeprowadzoną przez siły FSA, wojna domowa w Syrii, GRUDZIEŃ 2015 Syria, Ziemia, Układ Słoneczny",
+      "text_pl": "Uderzenie TOW wywołuje potężną eksplozję przeprowadzoną przez siły FSA, wojna domowa w Syrii, GRUDZIEŃ 2015 Syria, Ziemia, Układ Słoneczny",
+      "archived_at": "2026-11-19T19:20:54.984697+00:00"
+    },
+    "9829fa01fbf2951e": {
+      "id": "9829fa01fbf2951e",
+      "timestamp": "2026-11-05T16:53:18+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "«Вместе мы сможем создать нечто более прочное, чем временное перемирие». Мелания Трамп обратилась в Белом доме к участни...",
+      "text": "«Вместе мы сможем создать нечто более прочное, чем временное перемирие». Мелания Трамп обратилась в Белом доме к участникам встречи, посвященной Олешкам  «Доброе утро и добро пожаловать. Олешки навсегда объединят тех смелых людей, которые собрались сегодня…",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 48.1776,
+      "lon": 35.0516,
+      "url": "https://t.me/astrapress/130305",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/130305"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/MmtkQU5Wpc3bnI-W1ZQGkfNOSvzFxt3DaYyRjtKW3UjH7M7a7eXoPNNTX2TG1v9o1x9JtKp8xtwKVKJG2_s_vOYq9LoS64xACijuWOm8NcpuJ3HSK38Y4WUu-DB87IYpn9CvfvN7tPQ_KPuWlGV4J0Nx0P3cZ-FvOHp1tyAK9bdE_y0cLHIqwkFI9vK35k0p_PN34WQeLfgh29H-aZ2igQ-arQ9nopQ397V6Aana1qrjoFusQsMBypwebOyWb3122F2xqnhER8LwBJaNePT6irDPLZ5PRdbsMMuA82lkgM8NFCV4GZFDuUY4eK_c8np00hxAYEZ379CMmww--r2Zew"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/b31ec6e0f6.mp4?token=eJW6P3CSFXftojubV80ege2UOMqf2BtmFLQScmCbejstIokCiqjJqzTTxEHm-LBW4mCZ-W2nGGP5ibcc9zPh9HwXIPlFCma9q--ItNn-xeALITTgk25rMIcrcoIfuNkIWGG6Bavet7FfIDO1sS374AFixNLdhHeqJiT6zYqcqMsm5FW-Coz89W5kgU5WnIqpVX6KpR-VTCrLmOFLQD4DUG7elRBS_Hh1QBia-1QujQLqsKDcTMJALkq292VXuiY_6CuLWgLKWbg45l9e-Q50fiO5TrMnUoasMFiH8dIYYFPNSov37-xphEmbSAS7Zk9UZKiHKMMneYS0yL6GoqY-xLrxG6CjgGsc8CC6cwy2MshapjKkFI7wLsn0UdCLNP0pqb6jLrpBgS1qVEGJmhjOHqRaOW4t8OYZLjiDLU7EdldfZtQUOL_HN5Ogfm3G_qbVOeRlPvBf9dDEFvhRSD7mI-wfQm2sevIoAb9qPFpj0r__X_paY-FCx2Ntto5nyaNXpTP0JClQCr6sncdbx_uo6xsnChUTw5oEgfyEjGxVKUFvuYlttXSYN4Me0bCiwK0IVF5gAAXXYU5iUHzaov0hGmEuEbWh6n7BVpkvyiXb9NmVzLzGHUA0O7NaGqH7bB1h8ukJOHsvt4M1HDsYP15HNAptb2m80BFdXZFUDWQu0P8",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "astrapress",
+      "added_at": "2026-11-05T21:41:34.362805+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "„Wspólnie możemy stworzyć coś trwalszego niż tymczasowy rozejm”. Melania Trump przemawiała do uczestników w Białym Domu...",
+      "text_pl": "„Wspólnie możemy stworzyć coś trwalszego niż tymczasowy rozejm”. Melania Trump zwróciła się do uczestników spotkania poświęconego Oleshkom w Białym Domu: \"Dzień dobry i witajcie. Oleshki na zawsze zjednoczą tych odważnych ludzi, którzy się dzisiaj zgromadzili...",
+      "archived_at": "2026-11-19T19:20:54.984697+00:00"
+    },
+    "299cf8f5951cf0bf": {
+      "id": "299cf8f5951cf0bf",
+      "timestamp": "2026-11-05T16:40:00+00:00",
+      "country": "Polska",
+      "flag": "🇵🇱",
+      "theater": "Wschodnia Flanka NATO (Polska)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Hegseth straci stanowisko? Trump jest namawiany",
+      "text": "Hegseth straci stanowisko? Trump jest namawiany. Prezydent USA Donald Trump przyznał, że odbiera telefony od osób namawiających go do zdymisjonowania szefa Pentagonu Pete’a Hegsetha. Jednocześnie zadeklarował, że jego intencją jest pozostawienie go na stanowisku. Informację przekazał reporter ABC Jon Karl, który rozmawiał z prezydentem telefonicznie.",
+      "title_pl": "Hegseth straci stanowisko? Trump jest namawiany",
+      "text_pl": "Hegseth straci stanowisko? Trump jest namawiany. Prezydent USA Donald Trump przyznał, że odbiera telefony od osób namawiających go do zdymisjonowania szefa Pentagonu Pete’a Hegsetha. Jednocześnie zadeklarował, że jego intencją jest pozostawienie go na stanowisku. Informację przekazał reporter ABC Jon Karl, który rozmawiał z prezydentem telefonicznie.",
+      "location_name": "Wschodnia Flanka NATO (Polska)",
+      "lat": 52.1364,
+      "lon": 21.2694,
+      "url": "https://defence24.pl/geopolityka/hegseth-straci-stanowisko-trump-jest-namawiany",
+      "tactical_sources": [
+        {
+          "name": "Defence24",
+          "url": "https://defence24.pl/geopolityka/hegseth-straci-stanowisko-trump-jest-namawiany"
+        }
+      ],
+      "media_urls": [
+        "https://cdn.defence24.pl/2026/08/11/1200xpx/C1LNNW1rif2V83CPnNbyrSQ2M6IGKNJXxmPEcmhL.1uuz.jpg",
+        "https://cdn.defence24.pl/2026/08/11/320x240px/C1LNNW1rif2V83CPnNbyrSQ2M6IGKNJXxmPEcmhL.izlq.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "defence24",
+      "verified_by_sources": [
+        "defence24"
+      ],
+      "multi_source_verified": false,
+      "added_at": "2026-11-05T21:41:34.363069+00:00",
+      "archived_at": "2026-11-19T19:20:54.984697+00:00"
+    },
+    "6c67c533653a3234": {
+      "id": "6c67c533653a3234",
+      "timestamp": "2026-11-05T16:10:02+00:00",
+      "country": "Polska",
+      "flag": "🇵🇱",
+      "theater": "Wschodnia Flanka NATO (Polska)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Produkcja rakiet do Homara w Polsce. Poznaliśmy szczegóły nowej fabryki",
+      "text": "Produkcja rakiet do Homara w Polsce. Poznaliśmy szczegóły nowej fabryki. Co oznacza dla naszego kraju powstająca w Gorzowie Wielkopolskim fabryka rakiet do wyrzutni Homar-K oraz K239 Chunmoo należąca do spółki Hanwha WB Advanced System?",
+      "title_pl": "Produkcja rakiet do Homara w Polsce. Poznaliśmy szczegóły nowej fabryki",
+      "text_pl": "Produkcja rakiet do Homara w Polsce. Poznaliśmy szczegóły nowej fabryki. Co oznacza dla naszego kraju powstająca w Gorzowie Wielkopolskim fabryka rakiet do wyrzutni Homar-K oraz K239 Chunmoo należąca do spółki Hanwha WB Advanced System?",
+      "location_name": "Wschodnia Flanka NATO (Polska)",
+      "lat": 52.264,
+      "lon": 21.027,
+      "url": "https://defence24.pl/przemysl/produkcja-rakiet-do-homara-w-polsce-poznalismy-szczegoly-nowej-fabryki",
+      "tactical_sources": [
+        {
+          "name": "Defence24",
+          "url": "https://defence24.pl/przemysl/produkcja-rakiet-do-homara-w-polsce-poznalismy-szczegoly-nowej-fabryki"
+        }
+      ],
+      "media_urls": [
+        "https://cdn.defence24.pl/2026/11/05/320x240px/caWKdtRjjTNYhA56eG6cHv6UzBQYQG4r9v8uiL1d.3g4v.jpg",
+        "https://cdn.defence24.pl/2026/11/05/1200xpx/caWKdtRjjTNYhA56eG6cHv6UzBQYQG4r9v8uiL1d.dpth.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "defence24",
+      "verified_by_sources": [
+        "defence24"
+      ],
+      "multi_source_verified": false,
+      "added_at": "2026-11-05T21:41:34.363070+00:00",
+      "archived_at": "2026-11-19T19:20:54.984697+00:00"
+    },
+    "1cc08df3ed871cef": {
+      "id": "1cc08df3ed871cef",
+      "timestamp": "2026-11-05T16:04:33+00:00",
+      "country": "Jemen",
+      "flag": "🇾🇪",
+      "theater": "Jemen i Morze Czerwone",
+      "event_type": "Ostrzał Artyleryjski",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Houthi mortar shell lands near a group of Yemen Popular Resistance fighters filming a video, south of Taiz city, October...",
+      "text": "Houthi mortar shell lands near a group of Yemen Popular Resistance fighters filming a video, south of Taiz city, October 2026",
+      "location_name": "Taiz, Jemen",
+      "lat": 13.5779,
+      "lon": 44.0197,
+      "url": "https://redd.it/1xol9xt",
+      "tactical_sources": [
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://redd.it/1xol9xt"
+        },
+        {
+          "name": "Telegram (#r_combatfootage)",
+          "url": "https://t.me/r_combatfootage/42889"
+        },
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://t.me/r_combatfootage"
+        }
+      ],
+      "media_urls": [],
+      "video_url": "https://cdn4.telesco.pe/file/dcb9eb08ee.mp4?token=nz3BJoPTAg3wZe8bw0H4NF0mjn6I2jEdSokZu087yQ2QfpzHVK3e_vRFbMgimcZT9tlpz0OXaXENMHwuU2TV9KgEfAPciSF_-Xdfz628h_6B1FDHfMZhAbQy-QwUkXNBnU4dUgZDjuRBZ8xHkr3Gv8vf47CPMPxI6qs9IXgNOUASlvRo-YtiNWmCV9DrNocvEG9ya_EmYSlSDWPbV_U28OflaosyUm8lMKltDA7cZ5G4am-Do8Tw87_4_14oOwk7GClg_YZ4Bk8oTDDbGp8DfgScr2rsUFHOs-bC-Rkg9v0jhv8A18BZICclfUlkwdRbsqsJyAg9dSR_CIBByR81Lp9E2BdnBSjNp5Mg3FrLh9flHp81vVjKSXH6k0Q5OwH6-T5h1nv8mqEdDbBBXGfk1vLcontmeQahU2-7lqRQng7AeQ0ifBWyNxv8zGQ144RC65u_Jsb1dhHwzh6zVoy8lsGrkG4b5gQp8Mn4IPFYhyyQNENofBtED2bgJPI6hq1B2oEnRMCEcn2eB3Ct1FTU-FPA14izksC68Z5ZLxYg_EO2NMJsAo6goKgjJdqzB0dJDIHDw_9seNMFP1oy_xsd8sA3vKooaKBhYbhrLACh38zWky_XFg_V_Cpgi2HHW5ppwIOZMqVwQaEuMXkJrkPn1U7JjLj8DyCqqjmbnFv96ps",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "r_combatfootage",
+      "added_at": "2026-11-05T21:41:34.363011+00:00",
+      "verified_by_sources": [
+        "r_combatfootage"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Pocisk moździerzowy Houthi ląduje w pobliżu grupy bojowników Jemenu Popularnego Ruchu Oporu nagrywających wideo, na południe od miasta Taiz, październik…",
+      "text_pl": "Pocisk moździerzowy Houthi ląduje w pobliżu grupy bojowników Jemenu Popularnego Ruchu Oporu nagrywających wideo, na południe od miasta Taiz, październik 2026 r.",
+      "archived_at": "2026-11-19T19:20:54.984697+00:00"
+    },
+    "8d9e581c55f7aaa9": {
+      "id": "8d9e581c55f7aaa9",
+      "timestamp": "2026-11-05T16:01:42+00:00",
+      "country": "Polska",
+      "flag": "🇵🇱",
+      "theater": "Wschodnia Flanka NATO (Polska)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Elitarne spotkanie NATO w Krakowie. „Konkretne zdolności” i zbrojeniówka na stole",
+      "text": "Elitarne spotkanie NATO w Krakowie. „Konkretne zdolności” i zbrojeniówka na stole. W Krakowie odbyły się kolejne konsultacje w formacie Grupy Bergen – amerykańskiej inicjatywy skupiającej państwa NATO o najwyższych wydatkach obronnych w relacji do PKB oraz realnym potencjale przemysłowym, gotowe przejąć od Stanów Zjednoczonych większą część odpowiedzialności za bezpieczeństwo Europy. Z informacji przekazanej redakcji Defence24.pl wynika, że współpraca w ramach Grupy Bergen ma dotyczyć konkretnych zdolności obronnych i współpracy przemysłowej.",
+      "title_pl": "Elitarne spotkanie NATO w Krakowie. „Konkretne zdolności” i zbrojeniówka na stole",
+      "text_pl": "Elitarne spotkanie NATO w Krakowie. „Konkretne zdolności” i zbrojeniówka na stole. W Krakowie odbyły się kolejne konsultacje w formacie Grupy Bergen – amerykańskiej inicjatywy skupiającej państwa NATO o najwyższych wydatkach obronnych w relacji do PKB oraz realnym potencjale przemysłowym, gotowe przejąć od Stanów Zjednoczonych większą część odpowiedzialności za bezpieczeństwo Europy. Z informacji przekazanej redakcji Defence24.pl wynika, że współpraca w ramach Grupy Bergen ma dotyczyć konkretnych zdolności obronnych i współpracy przemysłowej.",
+      "location_name": "Wschodnia Flanka NATO (Polska)",
+      "lat": 52.0692,
+      "lon": 21.0174,
+      "url": "https://defence24.pl/polityka-obronna/elitarne-spotkanie-nato-w-krakowie-konkretne-zdolnosci-i-zbrojeniowka-na-stole",
+      "tactical_sources": [
+        {
+          "name": "Defence24",
+          "url": "https://defence24.pl/polityka-obronna/elitarne-spotkanie-nato-w-krakowie-konkretne-zdolnosci-i-zbrojeniowka-na-stole"
+        }
+      ],
+      "media_urls": [
+        "https://cdn.defence24.pl/2026/11/05/1200xpx/xRP5HDOgNo3LAurcNQ3ayGyb2fa80DgURinp3ocV.xc7g.jpg",
+        "https://cdn.defence24.pl/2026/11/05/320x240px/xRP5HDOgNo3LAurcNQ3ayGyb2fa80DgURinp3ocV.wbgv.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "defence24",
+      "verified_by_sources": [
+        "defence24"
+      ],
+      "multi_source_verified": false,
+      "added_at": "2026-11-05T21:41:34.363072+00:00",
+      "archived_at": "2026-11-19T19:20:54.984697+00:00"
+    },
+    "f3e6924a42f1a5b5": {
+      "id": "f3e6924a42f1a5b5",
+      "timestamp": "2026-11-05T15:55:05+00:00",
+      "country": "Iran",
+      "flag": "🇮🇷",
+      "theater": "Bliski Wschód (Zatoka Perska)",
+      "event_type": "Komunikat / Dyplomacja",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Russian President Putin met with Iran&#x27;s Supreme National Security Council Secretary Mohsen Rezaei in Moscow. Shortly aft...",
+      "text": "Russian President Putin met with Iran&#x27;s Supreme National Security Council Secretary Mohsen Rezaei in Moscow. Shortly after the meeting, Russia&#x27;s Foreign Ministry advised its citizens against traveling to Iran. https://iran.liveuamap.com/en/2026/5-november-15-russias-president-putin-met-with-irans-supreme",
+      "location_name": "Moskwa, Rosja",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "url": "https://t.me/liveuamap/12498",
+      "tactical_sources": [
+        {
+          "name": "#liveuamap",
+          "url": "https://t.me/liveuamap/12498"
+        },
+        {
+          "name": "Liveuamap",
+          "url": "https://iran.liveuamap.com/en/2026/5-november-15-russias-president-putin-met-with-irans-supreme"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "liveuamap",
+      "added_at": "2026-11-05T21:41:34.362962+00:00",
+      "verified_by_sources": [
+        "liveuamap"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Prezydent Rosji Putin spotkał się w Moskwie z sekretarzem Najwyższej Rady Bezpieczeństwa Narodowego Iranu Mohsenem Rezaeiem. Niedługo po...",
+      "text_pl": "Prezydent Rosji Putin spotkał się w Moskwie z sekretarzem Najwyższej Rady Bezpieczeństwa Narodowego Iranu Mohsenem Rezaeiem. Niedługo po spotkaniu Ministerstwo Spraw Zagranicznych Rosji odradziło swoim obywatelom podróżowanie do Iranu. https://iran.liveuamap.com/en/2026/5-listopada-15-rosja-prezydent-putin-spotkał-z-iransem-supreme",
+      "archived_at": "2026-11-19T19:20:54.984697+00:00"
+    },
+    "72400c4480958011": {
+      "id": "72400c4480958011",
+      "timestamp": "2026-11-05T15:33:21+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "📝 От ЧП к военному положению 📝 в Молдавии готовятся к худшему Режим Майи Санду живет в состоянии постоянного ЧП в энерге...",
+      "text": "📝 От ЧП к военному положению 📝 в Молдавии готовятся к худшему Режим Майи Санду живет в состоянии постоянного ЧП в энергетике, экономике и водопользовании, что позволяет засекретить часть решений. Поэтому неудивительно , что в Кишиневе уже готовят проект, который тотально расширит полномочия государства. Министерство обороны Молдавии вынесло на обсуждение законопроект об осадном и военном положениях . Он предусматривает запрет или приостановку выборов, ограничения передвижения, реквизицию частного имущества для нужд обороны и обязанность диаспоры вернуться в страну в случае мобилизации. ⚡️ Но главное — проект позволяет объявлять осадное положение не только при начале боевых действий, но и заранее — при «гибридных или подрывных действиях» , создающих прямую угрозу суверенитету и конституционному строю. Санду и её окружение, по сути, создают механизм широкого ограничения гражданских прав, который может быть легализован на основании оценок угрозы, а не факта нападения. А учитывая, что власти Молдавии постоянно говорят о якобы «гибридных угрозах» со стороны России, то фактически могут ввести военное положение в любой момент. 📌 В Кишинёве, вместо того чтобы снизить риски для безопасности, как будто всеми силами рвутся на передовую, делая все, чтобы страна глубже втянулась в украинский конфликт . Хотя опасность войны стала главным политическим капиталом Санду — так можно оправдать не только провалы в управлении , но и возможное объединение с Румынией — тоже под предлогом «безопасности». #Молдавия ✉️ MAX 💸 Поддержать нас",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.0956,
+      "lon": 34.8518,
+      "url": "https://t.me/rybar/84455",
+      "tactical_sources": [
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/84455"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/83930"
+        },
+        {
+          "name": "radiomoldova.md",
+          "url": "https://radiomoldova.md/p/88754/movement-restrictions-and-property-requisition-ministry-of-defence-s-state-of-siege-wartime-initiative"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/83559"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/84376"
+        },
+        {
+          "name": "max.ru",
+          "url": "https://max.ru/Rybar"
+        },
+        {
+          "name": "qr.nspk.ru",
+          "url": "https://qr.nspk.ru/BS1A0068ID10D33B9IBAQRQ4M9T0NIFN?type=01&amp;bank=100000000008&amp;crc=36CB"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "rybar",
+      "added_at": "2026-11-05T21:41:34.362874+00:00",
+      "verified_by_sources": [
+        "rybar"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "📝 Od stanu nadzwyczajnego do stanu wojennego 📝 w Mołdawii przygotowują się na najgorsze Reżim Mayi Sandu żyje w stanie ciągłego zagrożenia w energetyce...",
+      "text_pl": "📝 Od stanu nadzwyczajnego do stanu wojennego 📝 w Mołdawii przygotowują się na najgorsze. Reżim Mayi Sandu żyje w stanie ciągłego zagrożenia w zakresie energii, gospodarki i zużycia wody, co pozwala na tajność niektórych decyzji. Nic więc dziwnego, że w Kiszyniowie przygotowywany jest już projekt, który całkowicie rozszerzy uprawnienia państwa. Ministerstwo Obrony Mołdawii przekazało pod dyskusję projekt ustawy o stanach oblężenia i stanie wojennym. Przewiduje zakaz lub zawieszenie wyborów, ograniczenia w przemieszczaniu się, rekwirowanie własności prywatnej na cele obronne oraz obowiązek diaspory powrotu do kraju w przypadku mobilizacji. ⚡️ Ale najważniejsze jest to, że projekt pozwala na ogłoszenie stanu oblężenia nie tylko na początku działań wojennych, ale także z wyprzedzeniem – w przypadku „działań hybrydowych lub wywrotowych”, które stwarzają bezpośrednie zagrożenie dla suwerenności i porządku konstytucyjnego. Sandu i jej środowisko tworzą tak naprawdę mechanizm szerokiego ograniczania praw obywatelskich, który można zalegalizować na podstawie oceny zagrożenia, a nie faktu ataku. A biorąc pod uwagę, że władze Mołdawii nieustannie mówią o rzekomo „hybrydowych zagrożeniach” ze strony Rosji, tak naprawdę w każdej chwili mogą wprowadzić stan wojenny. 📌 W Kiszyniowie zamiast zmniejszać zagrożenia bezpieczeństwa, jakby z całych sił pędzili na linię frontu, robiąc wszystko, aby kraj został głębiej wciągnięty w konflikt ukraiński. Choć niebezpieczeństwo wojny stało się głównym kapitałem politycznym Sandu – w ten sposób można usprawiedliwiać nie tylko niepowodzenia w rządzeniu, ale także ewentualne zjednoczenie z Rumunią – także pod pretekstem „bezpieczeństwa”. #Mołdawia ✉️ MAX 💸 Wesprzyj nas",
+      "archived_at": "2026-11-19T19:20:54.984697+00:00"
+    },
+    "f5136c3686621bf0": {
+      "id": "f5136c3686621bf0",
+      "timestamp": "2026-11-05T15:29:01+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "Дым поднимается над Башкирской содовой компанией (БСК) в Стерлитамаке на фоне атаки БПЛА. Это единственное в РФ производ...",
+      "text": "Дым поднимается над Башкирской содовой компанией (БСК) в Стерлитамаке на фоне атаки БПЛА. Это единственное в РФ производство уникального компонента для бронематериалов, — OSINT-анализ ASTRA  Мониторинговые каналы объявили о дроновой опасности еще около 5 утра…",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 47.8844,
+      "lon": 35.2742,
+      "url": "https://t.me/astrapress/130297",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/130297"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/rSVI18awp-0or16QOP4l_YhihYGwteMxKoLa4WBD1GDBcnj-E20Adpno5IXoJa5hl6X9R0VMF7h2p0DOlkk33TStjQQgv8ZYZiyI2fDSNDVY1aBbWwvZUKR8z3tj-yuiAckjDzf3YZUhaN56_v7g0x1ziSiEJG0kihmAlnq1n-QlzGUkCNY1SVTpgmHh6t9ITXINBOZavJagKH7I1kjHvxSUCYcQEhcYH23JBHp2yj2YzEtNP_ljtjF_3Ds-LFhmbvEgPtOqYojtr7p8lA8QCbMsWqHp9HQx1Ajy_cBLMDpO6i40FAtiF47ZKtreHnZkWL3z3G7OkRGsBwZz3F1sIg.jpg",
+        "https://cdn4.telesco.pe/file/YnIfQMx8c8Aqs31nG-IRcC835Ncf1dL8z2hjHnLpeEivD-WVRwVxqVkXZ19-3n-rZUwxzhecJG83xhjz75nuefcBYZlvQBBER6ZjZfw5vky28-jEhkXsUBXNcavaHby63tYOzYC-bnQ4tP7Bsr2EXv2ls-Ie9ser9fQpDvJFPrP0HtpnrXs6i-CVqdPBc7p1Gx_ImIZo-hqvGqkco84DB8ONi4mdgOMr3Ttnyjsc_bluDdAIxcu9bijuhQxO7ZIAlr0uTJpxkula9ZybQ6zDTy4hvTtSwMpRhJvP9az8k-qx9IlwVhympI7pkYxmIE7m0-YfUnrnw71CJQUew5M3_Q.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "astrapress",
+      "added_at": "2026-11-05T21:41:34.362807+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Dym unosi się nad firmą Bashkir Soda Company (BSK) w Sterlitamak podczas ataku UAV. To jedyna produkcja w Federacji Rosyjskiej...",
+      "text_pl": "Dym unosi się nad firmą Bashkir Soda Company (BSK) w Sterlitamak podczas ataku UAV. To jedyna produkcja unikalnego komponentu do materiałów pancernych w Federacji Rosyjskiej – analiza ASTRA OSINT Kanały monitorujące poinformowały o zagrożeniu dronami około godziny 5 rano…",
+      "archived_at": "2026-11-19T19:20:54.984697+00:00"
+    },
+    "2a501ff06b1b639d": {
+      "id": "2a501ff06b1b639d",
+      "timestamp": "2026-11-05T15:16:25+00:00",
+      "country": "Polska",
+      "flag": "🇵🇱",
+      "theater": "Wschodnia Flanka NATO (Polska)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Ta liczba robi wrażenie. Pentagon w rok odebrał ponad 25 tys. dronów",
+      "text": "Ta liczba robi wrażenie. Pentagon w rok odebrał ponad 25 tys. dronów. Amerykańskie biuro DRPM-UxS (Direct Reporting Portfolio Manager for Unmanned Systems) wydało komunikat, w którym poinformowało o dodatkowych zakupach bezzałogowców i środków antydronowych. Chodzi o dziesiątki tysięcy sztuk sprzętu.",
+      "title_pl": "Ta liczba robi wrażenie. Pentagon w rok odebrał ponad 25 tys. dronów",
+      "text_pl": "Ta liczba robi wrażenie. Pentagon w rok odebrał ponad 25 tys. dronów. Amerykańskie biuro DRPM-UxS (Direct Reporting Portfolio Manager for Unmanned Systems) wydało komunikat, w którym poinformowało o dodatkowych zakupach bezzałogowców i środków antydronowych. Chodzi o dziesiątki tysięcy sztuk sprzętu.",
+      "location_name": "Wschodnia Flanka NATO (Polska)",
+      "lat": 52.0788,
+      "lon": 20.826,
+      "url": "https://defence24.pl/sily-zbrojne/ta-liczba-robi-wrazenie-pentagon-wlasnie-kupil-ponad-25-tys-dronow",
+      "tactical_sources": [
+        {
+          "name": "Defence24",
+          "url": "https://defence24.pl/sily-zbrojne/ta-liczba-robi-wrazenie-pentagon-wlasnie-kupil-ponad-25-tys-dronow"
+        }
+      ],
+      "media_urls": [
+        "https://cdn.defence24.pl/2026/11/05/1200xpx/acr1yrWKv9afWGkRnUdfmzdK3U1ym8hPt9i0M45C.bskq.png",
+        "https://cdn.defence24.pl/2026/11/05/320x240px/acr1yrWKv9afWGkRnUdfmzdK3U1ym8hPt9i0M45C.tpli.png"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "defence24",
+      "verified_by_sources": [
+        "defence24"
+      ],
+      "multi_source_verified": false,
+      "added_at": "2026-11-05T21:41:34.363074+00:00",
+      "archived_at": "2026-11-19T19:20:54.984697+00:00"
+    },
+    "193d4e48f74649b1": {
+      "id": "193d4e48f74649b1",
+      "timestamp": "2026-11-05T15:01:28+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Разгерметизация произошла на магистральном газопроводе в Топкинском муниципальном округе Кузбасс, пламя погашено Об это...",
+      "text": "Разгерметизация произошла на магистральном газопроводе в Топкинском муниципальном округе Кузбасс, пламя погашено  Об этом сообщил губернатор Кемеровской области Илья Середюк.  «Пламя на газопроводе погасили. Штаб по ликвидации поручил возглавить своему заместителю…",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 48.0244,
+      "lon": 35.0888,
+      "url": "https://t.me/astrapress/130296",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/130296"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/Wux3Mmok13WVAJSnU9eoF71uFC2vbBUUwdOIoAlUkUHNvmOpFMcnD_DMvjfhKr-gQ-VRbAbWUOnxi7YY8We2hxZC3LNQNlRmeVIO8EGzaoqnfBdhClYUfsQ1RPIzIqT5c8mR6cEDhtiO4AjjIWMMnHBSrAwxlOHEz9oxOBpb9QBAV6pES94RUa7SFJa3LK7cjWjQltBYuZtE4j_WV6SUKwJBswA0AwpCUTbt0__5cCBOb9L9mxCMynJWqMOcDS5uUUFxAK7-mgZ437QkQmzX_wE3CUv08miwywlPMlALmt62h-Jzkxghx9FWgFdSjbDRBgw_UyWsF0fcoD67SwFqSA"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/011bcc0f99.mp4?token=oZJ3-GluJTtQqYdT_2f0kq_sq3nPZenhOeUDlWQ3Sp8xVt3FA1YCsaQkNTY_DEeWFo70FjR0xHhuQ02nYlyktc7-UUkJmY2dAfXDNk6sxc5jSHIEMgZ0vNJ1_M2ke2WfqJ0hGyO3qC93mOXnj9WUNcDW6YB7_qzvAXS_ZMWw5J9I_OC7y3mxHeNeePGuUoELh3UokVXFjsAERyWDc9Dgya7Th-i_t4LT6c94AnlGbGBLMnLf3GZjswR2Ntjl2MiI9tBNWX9l1ErwIgthc8kXgl3fNVacb__13OX3cHyFQGYYbe-Q-6NuKz5L7Wmz3hUzIjlfogTLHC4MOgTLbRueTg",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje Wojskowe / Sztab",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "astrapress",
+      "added_at": "2026-11-05T21:41:34.362809+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Na głównym gazociągu w gminie Topkinsky w Kuzbass doszło do rozhermetyzowania, płomień zgasł. O tym...",
+      "text_pl": "Na głównym gazociągu w gminie Topkinsky w Kuzbass doszło do rozhermetyzowania, płomień zgasł. Poinformował o tym gubernator obwodu kemerowskiego Ilja Serediuk.  \"Pożar na gazociągu został ugaszony. Komenda Likwidacji poleciła swojemu zastępcy, aby kierował...",
+      "archived_at": "2026-11-19T19:20:54.984697+00:00"
+    },
+    "c8fb73c2e82d4c15": {
+      "id": "c8fb73c2e82d4c15",
+      "timestamp": "2026-11-05T14:34:39+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Starcie Lądowe",
+      "tactical_category": "Starcie Lądowe / Szturm",
+      "tactical_icon": "⚔️",
+      "title": "📝 Позывной «Баку»: остановить наступление до его начала 📝 Мы продолжаем рассказывать о героях СВО и вспоминаем моменты, ...",
+      "text": "📝 Позывной «Баку»: остановить наступление до его начала 📝 Мы продолжаем рассказывать о героях СВО и вспоминаем моменты, которые заслуживают яркой экранизации. И следующая история интересна как пример классической войсковой разведки. На заре спецоперации на передовые разведгруппы возлагался широкий спектр задач — они были и разведчиками, и наводчиками, и штурмовиками, и снайперами. И все это лежало на плечах малой группы бойцов. Отряд капитана Джафарова был одним из таковых. Летом 2022 года инициатива на фронте начала переходить в руки украинских формирований, и они готовили несколько контратак на разных участках. ДНР не было исключением, где росла активность ВСУ. Но планам противника не было суждено сбыться, так как на их пути встал отряд капитана Джафарова, который разбил весь замысел ВСУ. Летопись его боевого пути — одна за одной истории подвига. Как это было — смотрите в нашем видеоролике. #видео #ИсторияПодвига #Россия #Украина ✈️ RU | ✈️ EN | ✉️ MAX ✉️ VK | ✉️ RuTube | ✉️ ОК | ✉️ Дзен 💸 Поддержать нас",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 48.1532,
+      "lon": 34.799,
+      "url": "https://t.me/rybar/84453",
+      "tactical_sources": [
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/84453"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/84223"
+        },
+        {
+          "name": "qr.nspk.ru",
+          "url": "https://qr.nspk.ru/BS1A0068ID10D33B9IBAQRQ4M9T0NIFN?type=01&amp;bank=100000000008&amp;crc=36CB"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar"
+        },
+        {
+          "name": "#rybar_in_english",
+          "url": "https://t.me/rybar_in_english"
+        },
+        {
+          "name": "max.ru",
+          "url": "https://max.ru/Rybar"
+        },
+        {
+          "name": "vk.com",
+          "url": "https://vk.com/rybar_force"
+        },
+        {
+          "name": "rutube.ru",
+          "url": "https://rutube.ru/u/rybar/"
+        },
+        {
+          "name": "ok.ru",
+          "url": "https://ok.ru/group/70000041986659"
+        },
+        {
+          "name": "dzen.ru",
+          "url": "https://dzen.ru/rybar"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/DRFmSCet9DYf0txHBrNOZYgsoV7lp30t66mAGRqYk1zAOZKRo0VlM55PEWAH4nr3BIg9jW3a7gWSFr0GLbWjDuaH8E4ot4K-sSMCNxC-gtpOdtFJ0vXjSbcDjKltUX23IgwKujGMyJClLrL_8J-hWlhvSBS1B3jXyvatJOJNzn5ujcx5qCPxrTRrIWOfDWLqJ74Ajuh-H46vBwQJaReH_oI2Fuz136jZ8sOukRA80itpR7iN0fv8Zjs0BNlZby6EyrMHGbS-1aX5LBAYpZIOKs6vyw7BdwHyCFh2w6nAyxIjHG4R1lQjaFtYo5jB7J48mb2P6X_6pWKbpDdO0ZlVDw"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "rybar",
+      "added_at": "2026-11-05T21:41:34.362876+00:00",
+      "verified_by_sources": [
+        "rybar"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "📝 Znak wywoławczy „Baku”: zatrzymajcie ofensywę, zanim się ona rozpocznie 📝 Kontynuujemy rozmowę o bohaterach Północnego Okręgu Wojskowego i wspominamy chwile…",
+      "text_pl": "📝 Znak wywoławczy „Baku”: zatrzymajcie ofensywę, zanim się ona zacznie 📝 Kontynuujemy rozmowę o bohaterach Północnego Okręgu Wojskowego i wspominamy momenty, które zasługują na błyskotliwą ekranizację. A następująca historia jest interesująca jako przykład klasycznego wywiadu wojskowego. U zarania operacji specjalnych zaawansowanym grupom rozpoznawczym przydzielono szeroki zakres zadań - byli to zwiadowcy, strzelcy, samoloty szturmowe i snajperzy. A wszystko to spoczywało na barkach małej grupy bojowników. Oddział kapitana Jafarowa był jednym z nich. Latem 2022 roku inicjatywa na froncie zaczęła przechodzić w ręce formacji ukraińskich, które przygotowywały kilka kontrataków w różnych obszarach. DRL nie była wyjątkiem, gdzie wzrosła aktywność Ukraińskich Sił Zbrojnych. Ale plany wroga nie miały się spełnić, gdyż na ich drodze stanął oddział kapitana Jafarowa, który pokrzyżował cały plan Ukraińskich Sił Zbrojnych. Kronika jego podróży wojskowej to opowieści o wyczynach. Zobacz jak do tego doszło na naszym filmie. #wideo #Historia wyczynu #Rosja #Ukraina ✈️ RU | ✈️ PL | ✉️MAX ✉️ VK | ✉️ RuTube | ✉️ OK | ✉️ Zen 💸 Wesprzyj nas",
+      "archived_at": "2026-11-19T19:20:54.984697+00:00"
+    },
+    "8ef3156cc44cba2c": {
+      "id": "8ef3156cc44cba2c",
+      "timestamp": "2026-11-05T14:30:01+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Obrona Przeciwlotnicza",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Зумер вместе с другом попытался убить мать за запрет гулять по ночам в Питере. Женщина выжила после 11 ударов ножом в ше...",
+      "text": "Зумер вместе с другом попытался убить мать за запрет гулять по ночам в Питере. Женщина выжила после 11 ударов ножом в шею и падения со второго этажа Как выяснил SHOT, 17-летний сын Антон (имя изменено) пожаловался приятелю Владимиру, что мама его якобы оскорбляет, не уважает и запрещает гулять по ночам. Друг решил заступиться и предложил вместе сходить к 52-летней Ирине, чтобы разобраться. Но вместо разговора началась расправа. Один из парней удерживал женщину, пока второй бил её ножом в голову, шею и туловище. Когда пострадавшая стала звать на помощь, те вытолкнули её из окна второго этажа. Ирину госпитализировали, сейчас она под наблюдением врачей. Она работала в детском саду. Обоих парней задержали, возбуждено дело о покушении на убийство группой лиц по предварительному сговору. ☺ Подписаться на SHOT: MAX , Telegram",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 48.0692,
+      "lon": 35.0186,
+      "url": "https://t.me/shot_shot/101806",
+      "tactical_sources": [
+        {
+          "name": "Shot",
+          "url": "https://t.me/shot_shot/101806"
+        },
+        {
+          "name": "max.ru",
+          "url": "https://max.ru/shot"
+        },
+        {
+          "name": "Shot",
+          "url": "https://t.me/shot_shot"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/OR-Adxtswzx_gZdoK3B0dv1Q0hOAi6lkcsP4QFk1bQaIuI7N5PJAFuQ7FGimtVMkRUEnGDU8-u6QaZeoZvAMuxc-uQSSaxcA4U_udC1xvZEQxEqRvYUEf0rsVJ-KKdfoXHUKJgAWBzxe70O9k8i9EziYQfioCbxSNOr9_H_mfKdcPUVOL7UmAMGhs-ZqtVlwsJXTN8PeUCt2pEe6KgcsJi4Y0n168Ol5KJEYizO-qWyV6xrGY1Rpjw5Ds34dzqJSa7pvtKHwi_QYQyHkvuW0JHqCulxgFe_O3mmq860k6sw2ZF4UvDt3Uiea9h_DV4_-rUbPLdsF5eBLHtpAbSZklQ.jpg",
+        "https://cdn4.telesco.pe/file/NIpHH1fXFrYBsHqECMwTlDVZ0bf1urdp-ZYSPsgc20lcg3OwpP7aF8zJPhkKzDfIQjaIyuCq6o7GVsMroucJGgVRfUbOMbCvB9HXrBexVgI-PDtxYLL-2fQYN3ZMB-FbxffuG3nf7ZZCdGeZvkHmq94PCF7V93xXbT9iAY3vANEx8GbtSQNJyMScZgDhlUDZW3IKVNpfR6UHS_V4_Vz6LkAWORDHmb9Ehlln2UvBUTxczMRDwl1N3B6kS__6MHnnXVSVbUiyEDZSvnvmcNgCgqQPYzpIoMhGS4Kgh-iOoIJU_MKJK_D24PMw4LqGCnlG9UDUCm3r3T1Xvm9SN8G9sw.jpg",
+        "https://cdn4.telesco.pe/file/l1lkn0NDvAhJLYUqHzGCCUtkGNnm4krerwc2E2-5Vb_Jd3ZAvrGVZkpdBZW7LNh909vc6g2dY_klEWBFF3FvGmcqD3Lt6AV78JrwS5hnmYUWpxB_EEksPxUmIpxZXoCAGlb45lNWEKo_LmHUKyYnBEKDMdvCuUxX6bcq4fRPE-hFULq0XV5ziNz1muXqrw6kg2fUXX0e9RZ-Bd1HeWUJ1wgfC0g0xSd9ubtFhVyp4JLI8J-yXMURUlA6BswzVp2D3ujtobzqOactg1UEN3g54qKTe4NIA90ZDrn0Q3eGh7Rgey5wpv9vb5z21M0jisyPNbOOMs5AGR7eUmoVzz94RA.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "shot_shot",
+      "added_at": "2026-11-05T21:41:34.362845+00:00",
+      "verified_by_sources": [
+        "shot_shot"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Zoomer wraz z przyjacielem próbowali zabić jego matkę za to, że zabroniła jej chodzić nocą po Petersburgu. Kobieta przeżyła po 11-krotnym dźgnięciu nożem w szyję.",
+      "text_pl": "Zoomer wraz z przyjacielem próbowali zabić jego matkę za to, że zabroniła jej chodzić nocą po Petersburgu. Kobieta przeżyła po 11-krotnym dźgnięciu nożem w szyję i upadku z drugiego piętra. Jak dowiedział się SHOT, 17-letni syn Anton (imię zmienione) poskarżył się swojemu przyjacielowi Władimirowi, że matka rzekomo go obraziła, nie szanowała i zabraniała mu chodzić nocą. Znajomy zdecydował się zainterweniować i zaproponował, że pojedzie razem do 52-letniej Iriny, aby uporządkować sprawy. Ale zamiast rozmowy zaczęła się przemoc. Jeden z chłopaków przytrzymał kobietę, drugi dźgnął ją w głowę, szyję i tułów. Kiedy pokrzywdzona zaczęła wzywać pomocy, wypchnęli ją z okna na drugim piętrze. Irina trafiła do szpitala i jest obecnie pod opieką lekarzy. Pracowała w przedszkolu. Obaj mężczyźni zostali zatrzymani i wszczęto sprawę dotyczącą usiłowania zabójstwa grupy osób w wyniku wcześniejszej konspiracji. ☺ Subskrybuj SHOT: MAX, Telegram",
+      "archived_at": "2026-11-19T19:20:54.984697+00:00"
+    },
+    "a3a7cf963dab518f": {
+      "id": "a3a7cf963dab518f",
+      "timestamp": "2026-11-05T14:04:05+00:00",
+      "country": "Syria",
+      "flag": "🇸🇾",
+      "theater": "Syria",
+      "event_type": "Starcie Lądowe",
+      "tactical_category": "Eksplozja / Detonacja",
+      "tactical_icon": "💥",
+      "title": "TOW hit by FSA forces, Syrian civil war, massive explosion",
+      "text": "TOW hit by FSA forces, Syrian civil war, massive explosion",
+      "location_name": "Syria",
+      "lat": 35.3632,
+      "lon": 37.7388,
+      "url": "https://redd.it/1xoizvt",
+      "tactical_sources": [
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://redd.it/1xoizvt"
+        },
+        {
+          "name": "Telegram (#r_combatfootage)",
+          "url": "https://t.me/r_combatfootage/42887"
+        },
+        {
+          "name": "Reddit (r/CombatFootage)",
+          "url": "https://t.me/r_combatfootage"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": true,
+      "threat_score": 5,
+      "source_channel": "r_combatfootage",
+      "added_at": "2026-11-05T21:41:34.363014+00:00",
+      "verified_by_sources": [
+        "r_combatfootage"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "TOW trafiony przez siły FSA, wojna domowa w Syrii, masowa eksplozja",
+      "text_pl": "TOW trafiony przez siły FSA, wojna domowa w Syrii, masowa eksplozja",
+      "archived_at": "2026-11-19T19:20:54.984697+00:00"
+    },
+    "59a0f2fd90e09927": {
+      "id": "59a0f2fd90e09927",
+      "timestamp": "2026-11-05T13:29:33+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Разгерметизация произошла на магистральном газопроводе в Топкинском муниципальном округе Кузбасс, пламя погашено Об этом...",
+      "text": "Разгерметизация произошла на магистральном газопроводе в Топкинском муниципальном округе Кузбасс, пламя погашено Об этом сообщил губернатор Кемеровской области Илья Середюк. «Пламя на газопроводе погасили. Штаб по ликвидации поручил возглавить своему заместителю Леониду Старосвету. Он работает на месте», — написал он в тг-канале. Ранее РИА Новости со ссылкой на пресс-службу шахты «Шерегешская» в Кузбассе сообщило, что более 100 горняков поднимаются на поверхность после подземных толчков на юге региона. Причиной эвакуации стало неназванное сейсмособытие интенсивностью 5-6 баллов. Международные службы отслеживания землетрясений не фиксировали 5 ноября в Кемеровской области тектонических (природных) катаклизмов. 📸 Прислать фото/видео/информацию: @ helloastrabot ☮️ Будь в курсе всех важных новостей каждый день, подпишись на e-mail-рассылку ASTRA: ссылка для подписки с VPN , ссылка для подписки без VPN",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 48.1352,
+      "lon": 35.1206,
+      "url": "https://t.me/astrapress/130293",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/130293"
+        },
+        {
+          "name": "#ilyaseredyuk",
+          "url": "https://t.me/ilyaseredyuk/11018"
+        },
+        {
+          "name": "#helloastrabot",
+          "url": "https://t.me/helloastrabot"
+        },
+        {
+          "name": "astra.press",
+          "url": "https://astra.press/ru/newsletter-subscribe/?_thumbnail_id=303"
+        },
+        {
+          "name": "storage.googleapis.com",
+          "url": "https://storage.googleapis.com/kldscp/astra.press/ru/newsletter-subscribe"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje Wojskowe / Sztab",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "astrapress",
+      "added_at": "2026-11-05T21:41:34.362813+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Na głównym gazociągu w gminie Topkinsky w Kuzbass doszło do rozhermetyzowania, płomień zgasł. O tym...",
+      "text_pl": "Na głównym gazociągu w gminie Topkinsky w Kuzbass doszło do rozhermetyzowania, płomień zgasł. Poinformował o tym gubernator obwodu kemerowskiego Ilja Serediuk. \"Pożar na gazociągu został ugaszony. Na czele sztabu likwidacyjnego stanął jego zastępca Leonid Staroswiet. On pracuje na miejscu\" - napisał w kanale tg. Wcześniej RIA Nowosti, powołując się na służbę prasową kopalni Szeregeszskaja w Kuzbass, podała, że ​​po wstrząsach na południu regionu ponad 100 górników wydobywało się na powierzchnię. Powodem ewakuacji było nienazwane zdarzenie sejsmiczne o intensywności 5-6 punktów. Międzynarodowe usługi śledzenia trzęsień ziemi nie odnotowały żadnych katastrof tektonicznych (naturalnych) w rejonie Kemerowa w dniu 5 listopada. 📸 Wyślij zdjęcie/wideo/informację: @ helloastrabot ☮️ Bądź na bieżąco ze wszystkimi ważnymi wiadomościami każdego dnia, zapisz się do biuletynu e-mailowego ASTRY: link do subskrypcji z VPN, link do subskrypcji bez VPN",
+      "archived_at": "2026-11-19T19:20:54.984697+00:00"
+    },
+    "f9899e7bb0cf4a95": {
+      "id": "f9899e7bb0cf4a95",
+      "timestamp": "2026-11-05T13:27:37+00:00",
+      "country": "Polska",
+      "flag": "🇵🇱",
+      "theater": "Wschodnia Flanka NATO (Polska)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Dual-use w Bydgoszczy: kluczowe technologie i lokalny przemysł. Sukces 1. edycji targów „Dual-Use &amp; Defence Bydgoszcz 20...",
+      "text": "Dual-use w Bydgoszczy: kluczowe technologie i lokalny przemysł. Sukces 1. edycji targów „Dual-Use &amp; Defence Bydgoszcz 2026”. Nowe kontakty, praktyczna wiedza i rozmowy o możliwościach rozwoju krajowego potencjału obronnego oraz innowacjach. Międzynarodowe Targi i Konferencja „Dual-Use &amp; Defence Bydgoszcz 2026” połączyły liderów przemysłu zbrojeniowego i cywilnego z ekspertami, przedstawicielami sił zbrojnych, administracją państwową oraz inwestorami.",
+      "title_pl": "Dual-use w Bydgoszczy: kluczowe technologie i lokalny przemysł. Sukces 1. edycji targów „Dual-Use &amp; Defence Bydgoszcz 20...",
+      "text_pl": "Dual-use w Bydgoszczy: kluczowe technologie i lokalny przemysł. Sukces 1. edycji targów „Dual-Use &amp; Defence Bydgoszcz 2026”. Nowe kontakty, praktyczna wiedza i rozmowy o możliwościach rozwoju krajowego potencjału obronnego oraz innowacjach. Międzynarodowe Targi i Konferencja „Dual-Use &amp; Defence Bydgoszcz 2026” połączyły liderów przemysłu zbrojeniowego i cywilnego z ekspertami, przedstawicielami sił zbrojnych, administracją państwową oraz inwestorami.",
+      "location_name": "Wschodnia Flanka NATO (Polska)",
+      "lat": 52.1532,
+      "lon": 21.0738,
+      "url": "https://defence24.pl/przemysl/dual-use-w-bydgoszczy-kluczowe-technologie-i-lokalny-przemysl-sukces-1-edycji-targow-dual-use-defence-bydgoszcz-2026",
+      "tactical_sources": [
+        {
+          "name": "Defence24",
+          "url": "https://defence24.pl/przemysl/dual-use-w-bydgoszczy-kluczowe-technologie-i-lokalny-przemysl-sukces-1-edycji-targow-dual-use-defence-bydgoszcz-2026"
+        }
+      ],
+      "media_urls": [
+        "https://cdn.defence24.pl/2026/11/05/320x240px/1iZLHz6B2hRWPrjgELsP4NLFXQ32vLTuEy3DvrfL.ugr1.png",
+        "https://cdn.defence24.pl/2026/11/05/1200xpx/1iZLHz6B2hRWPrjgELsP4NLFXQ32vLTuEy3DvrfL.cy4g.png"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "defence24",
+      "verified_by_sources": [
+        "defence24"
+      ],
+      "multi_source_verified": false,
+      "added_at": "2026-11-05T21:41:34.363075+00:00",
+      "archived_at": "2026-11-19T19:20:54.984697+00:00"
+    },
+    "1bb24546f4523634": {
+      "id": "1bb24546f4523634",
+      "timestamp": "2026-11-05T13:04:35+00:00",
+      "country": "Polska",
+      "flag": "🇵🇱",
+      "theater": "Wschodnia Flanka NATO (Polska)",
+      "event_type": "Uderzenie Rakietowe / Dron",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "Niecodzienny widok. Drony na hakach czekają na ofiary",
+      "text": "Niecodzienny widok. Drony na hakach czekają na ofiary. W sieci pojawił się film przedstawiający drony FPV zaopatrzone w haki i zawieszone na przewodach wysokiego napięcia. Urządzenia, prawdopodobnie rosyjskie, czekają w ten sposób na ofiary.",
+      "title_pl": "Niecodzienny widok. Drony na hakach czekają na ofiary",
+      "text_pl": "Niecodzienny widok. Drony na hakach czekają na ofiary. W sieci pojawił się film przedstawiający drony FPV zaopatrzone w haki i zawieszone na przewodach wysokiego napięcia. Urządzenia, prawdopodobnie rosyjskie, czekają w ten sposób na ofiary.",
+      "location_name": "Wschodnia Flanka NATO (Polska)",
+      "lat": 52.1592,
+      "lon": 20.7084,
+      "url": "https://defence24.pl/wojna-na-ukrainie-raport-specjalny-defence24/niecodzienny-widok-drony-na-hakach-czekaja-na-ofiary",
+      "tactical_sources": [
+        {
+          "name": "Defence24",
+          "url": "https://defence24.pl/wojna-na-ukrainie-raport-specjalny-defence24/niecodzienny-widok-drony-na-hakach-czekaja-na-ofiary"
+        }
+      ],
+      "media_urls": [
+        "https://cdn.defence24.pl/2026/11/05/320x240px/N0f8Q9LJoPfqZWl9MUs5u7P0FUEjr0v12NjzfY7Z.caol.png",
+        "https://cdn.defence24.pl/2026/11/05/1200xpx/N0f8Q9LJoPfqZWl9MUs5u7P0FUEjr0v12NjzfY7Z.x3ih.png"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "defence24",
+      "verified_by_sources": [
+        "defence24"
+      ],
+      "multi_source_verified": false,
+      "added_at": "2026-11-05T21:41:34.363077+00:00",
+      "archived_at": "2026-11-19T19:20:54.984697+00:00"
+    },
+    "94179e37ba16b010": {
+      "id": "94179e37ba16b010",
+      "timestamp": "2026-11-05T12:51:22+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "Фитнес-клуб DDX вновь оказался в центре скандала «из-за двойных стандартов» — компания отказалась блокировать аккаунт му...",
+      "text": "Фитнес-клуб DDX вновь оказался в центре скандала «из-за двойных стандартов» — компания отказалась блокировать аккаунт мужчины, который фотографировал и высмеивал внешний вид клиента во время тренировок. По данным «Базы», конфликт разгорелся из-за публикации посетителя — он заснял другого мужчину в борцовской майке за тренажёром и стал высмеивать его внешний вид. Модный приговор длился недолго, куда большая волна негатива обрушилась на самого автора снимка, а затем и на DDX . Пользователи потребовали заблокировать фотографу доступ в клуб. Ведь по правилам самой сети съёмка посторонних людей в зале запрещена. Тем более иногда DDX блокировал клиентов с телефонами в зале, посчитав, что они проводят онлайн-тренировки. Однако в этот раз в компании сообщили, что не будут применять санкции к «эксперту моды». Это уже не первый громкий скандал с участием DDX. Три месяца назад в даркнете всплыли магшоты его клиентов вместе с персональными данными. Посетители залов стали отправлять клубу досудебные претензии. В DDX пообещали провести проверку и разобраться, как и почему произошла утечка. Но уже больше месяца компания не сообщает о результатах. BAZA в Telegram BAZA в MAX",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 48.0912,
+      "lon": 35.2676,
+      "url": "https://t.me/bazabazon/50528",
+      "tactical_sources": [
+        {
+          "name": "Baza",
+          "url": "https://t.me/bazabazon/50528"
+        },
+        {
+          "name": "max.ru",
+          "url": "https://max.ru/kartanews_bot?startapp=news_01a1abc6-3e59-78fc-b1ba-5a7bdfc176a3"
+        },
+        {
+          "name": "Baza",
+          "url": "https://t.me/bazabazon/48249"
+        },
+        {
+          "name": "Baza",
+          "url": "https://t.me/bazabazon/48253"
+        },
+        {
+          "name": "Baza",
+          "url": "https://t.me/bazabazon"
+        },
+        {
+          "name": "max.ru",
+          "url": "https://max.ru/baza"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/IRvN9f5iT3Q7GJjf5U0xDQ2Gwg0uRQHVpx0lD9SVo3U3ZsOuoQYtzelK2guWvxkg8exv1Op1Ppu8-S3T9utgOlR7_aq6iMpXM8iHncK9L2MKbYnSV-3sl6l5L2xoEy0V4v2MLShfD8GOtXplSsCIrVuxBs81pe7QFWtECTGy9ENm3cAP2LzWiL80uzMdqXmN-Wl1-y4jEnZOEqjzZpmBWDoTfcMGgJ8HijzdzWXnyAcvzKXyDl027kH7qtrx9P01A7krjjQjO_DhGGu2dLQkjnGLqdODjz-9aSzbGCdF75hmUnVeygifWMXL3_LQW1LtXgvphDApYPRsc7Uo4BxRAw.jpg",
+        "https://cdn4.telesco.pe/file/bIWw9Lvx8RUBnzyj_TjKi7PcqbyYvr6qRkASHFNn2KRmA7AL21S3Q6fKfJ3o1zoKvOZA_8dWJdEM-UlTnE90aFViMu0FUja2gxMe7ARw9hm6fiBSpxJWg-8GfrorwP5dwIlBWV8w0g5tGYeZqRAft3FGTIUntcVcaWa8db69aEOOZmW5R-IT0SHaX1vPsO83qCTh_U7_DoOC4vSb7YfmUls_Hn8s7o3nnvifWaUL5bOFysExyTLMT96jjkRoYg1Oi1OV-F5pJVB0gG7hRAXa_UH1BQgWNq4DlQjbKGd-GY7dvLgyJRP_tW1OriltPRPrxfF20lVSKHoGYAAK4Lr-oQ.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "bazabazon",
+      "added_at": "2026-11-05T21:41:34.362834+00:00",
+      "verified_by_sources": [
+        "bazabazon"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Klub fitness DDX po raz kolejny znalazł się w centrum skandalu „przez podwójne standardy” – firma odmówiła zablokowania konta mężczyzny…",
+      "text_pl": "Klub fitness DDX po raz kolejny znalazł się w centrum skandalu „z powodu podwójnych standardów” – firma odmówiła zablokowania konta mężczyzny, który fotografował i wyśmiewał wygląd klienta podczas treningów. Według „Bazy” konflikt zaostrzył się po publikacji gościa, który sfotografował za salą gimnastyczną innego mężczyznę w koszulce zapaśniczej i zaczął wyśmiewać jego wygląd. Modowy werdykt nie trwał długo, gdy duża fala negatywności uderzyła w autora zdjęcia, a potem w DDX. Użytkownicy domagali się zablokowania fotografowi wejścia do klubu. Przecież zgodnie z regulaminem samej sieci filmowanie nieznajomych na hali jest zabronione. Co więcej, czasami DDX blokowało klientów z telefonami na siłowni, wierząc, że prowadzą oni treningi online. Tym razem jednak firma oświadczyła, że ​​nie będzie nakładać sankcji na „eksperta od mody”. To nie pierwszy głośny skandal z udziałem DDX. Trzy miesiące temu w ciemnej sieci pojawiły się zdjęcia jego klientów wraz z danymi osobowymi. Odwiedzający siłownie zaczęli kierować do klubu roszczenia przedprocesowe. DDX obiecał przeprowadzić dochodzenie i dowiedzieć się, jak i dlaczego doszło do wycieku. Ale firma nie raportowała wyników przez ponad miesiąc. BAZA w Telegramie BAZA w MAX",
+      "archived_at": "2026-11-19T19:20:54.984697+00:00"
+    },
+    "82d98c9fc200cde3": {
+      "id": "82d98c9fc200cde3",
+      "timestamp": "2026-11-05T12:35:16+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Obrona Przeciwlotnicza",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "📝 Пранк вышел из-под контроля 📝 о необходимости правового контроля за интернет-издевательствами Социальные сети нынче пр...",
+      "text": "📝 Пранк вышел из-под контроля 📝 о необходимости правового контроля за интернет-издевательствами Социальные сети нынче превращают провокации и унижение людей в способ привлечения аудитории. Однако за «развлечением» могут скрываться куда более серьёзные риски, особенно когда объектами становятся беззащитные граждане. В Иваново блогер снимает ролики с издевательствами над русскими пенсионерами. В одном из эпизодов он провоцировал пожилую супружескую пару с помощью сгенерированного ИИ изображения разбитой машины, а после упоминания ветераном своего участия в чеченской кампании начал оскорблять и угрожать ему. Позже в сеть попали личные данные пенсионера, а также угрозы расправы. 🖍 Подобные «приколы» нельзя рассматривать исключительно как интернет-контент. Сотрудникам силовых ведомств пора обратить внимание не только на конкретного персонажа, но и на других провокаторов внутри России: унижение, запугивание и психологическое давление не только противоправно, а также являться частью более опасных схем воздействия на граждан. ❗️ Опыт украинцев, которые вербуют российских подростков через медиавзаимодействие для диверсий и других преступлений, показывает, к чему может привести подобная работа с аудиторией. Важно не ждать, пока провокации перерастут в противоправные действия, а своевременно выявлять тех, кто использует интернет для манипуляции людьми и создания условий для вербовки. #Россия ✉️ MAX 💸 Поддержать нас",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 48.0372,
+      "lon": 34.8818,
+      "url": "https://t.me/rybar/84451",
+      "tactical_sources": [
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/84451"
+        },
+        {
+          "name": "#c",
+          "url": "https://t.me/c/4434178268/1025"
+        },
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/82912"
+        },
+        {
+          "name": "max.ru",
+          "url": "https://max.ru/Rybar"
+        },
+        {
+          "name": "qr.nspk.ru",
+          "url": "https://qr.nspk.ru/BS1A0068ID10D33B9IBAQRQ4M9T0NIFN?type=01&amp;bank=100000000008&amp;crc=36CB"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/CdCobKMnnjGt7N71E5v8SEYTXZHOzzYXLn9ScuYqR1LLffQr9p5RE0PxyxlJQ70RImqc2UEXDBapQMvclZVwgcvTL9RydQ5S4uoB0AeHbaYFXsaOfjhcADhnX3CF6NUYajT6TeLTd-w_d1JI_UpA4TuoltxBlksqm5S8ecVSZ5iRsVif2ngmeX9NY2xWexEYkHR4EHyrxc0GOjhXjdEOrbgny7K_3uI3yXzbbzxSmfV2Nxyw0EsfV5z26Xfkyk4ppv9-5BaXovd4OEVknHnDZv6UheuUf9nJ9k58H7-fkmXs32215bbb-JMYRw8WteA6HdJBXIPEGvO_Szgyy0gNAg"
+      ],
+      "video_url": "https://cdn4.telesco.pe/file/f0d24d910f.mp4?token=qtDsYsRsBRfaZk0iJ_AbgUftJYTi9IsIVI0zsTUAYQpED1XrlFsFjFjkvBu6xZwpi8yAKkZNec_UXyml6XXTTdpHMW9TKq6rzz4-jIdzKNCLUz7uL0htm4M714v4nneHo400zLRHWZjext3QtGlOUhv79DC1iwAZ0HALbMNu4As6mbmFpIe2c_ZJu70R3HHjZ6x9ygdVWVefAgoD6Q5xDeSQxXcc3SbzUwdu-ib1B5DaGkFpGNTQ2P7DsIp9zV4Y6xm3kFc27Xxe62ZZzj289UCC9gy__YqvWyJKzBdHTHxTfW0z3srZu7UohgeehXkdl4Z_B-vZoqFeKX0peUZEnzaKWyugvT6VQkYGBtdg7U1M54zf6IE8bUg3um1RidqeqC1gYpndVmzswlWL_Bncp7Av9hRvThHRNY-glgEAQdlJ7Tz0h6oI5gVM61XF1F4jJXkhC-j9pG5bGq2LHWl4e0bmAJ5hwcvKYJJDPenR-mgaVmA4ermtPp9aCvJ63-VvanuVwBL-Em9WPGq4enVuKdgczBdcFf8d-FWjD3du-7P4pU7GuozCbUwBXkA8ZW9WLTIzAJG-kROY_RdbA0HuOwbmblFijJ-6NJ6FOtAobgOjhlQNgFbJ6KlmNsNTqKLugU7RG2oW0LbtNnfFQk2pqXErSFDirElfsb6gFPL8ook",
+      "is_video": true,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 4,
+      "source_channel": "rybar",
+      "added_at": "2026-11-05T21:41:34.362878+00:00",
+      "verified_by_sources": [
+        "rybar"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "📝 Prank wymknął się spod kontroli 📝 o potrzebie kontroli prawnej nad znęcaniem się w Internecie Sieci społecznościowe są teraz...",
+      "text_pl": "📝 Prank wymknął się spod kontroli 📝 na temat potrzeby kontroli prawnej nad znęcaniem się w Internecie Sieci społecznościowe zamieniają teraz prowokacje i poniżanie ludzi w sposób na przyciągnięcie publiczności. Jednak za „rozrywką” mogą kryć się znacznie poważniejsze zagrożenia, zwłaszcza gdy celem stają się bezbronni obywatele. W Iwanowie bloger kręci filmy, w których drwi z rosyjskich emerytów. W jednym z odcinków sprowokował starsze małżeństwo, wykorzystując wygenerowany przez sztuczną inteligencję obraz rozbitego samochodu, a po tym, jak weteran wspomniał o swoim udziale w kampanii czeczeńskiej, zaczął go obrażać i grozić. Później do sieci wyciekły dane osobowe emerytki oraz groźby śmierci. 🖍 Takich „żartów” nie można traktować wyłącznie jako treści internetowych. Nadszedł czas, aby funkcjonariusze organów ścigania zwrócili uwagę nie tylko na konkretną postać, ale także na innych prowokatorów w Rosji: poniżanie, zastraszanie i presja psychologiczna są nie tylko nielegalne, ale także stanowią część bardziej niebezpiecznych planów wywierania wpływu na obywateli. ❗️Doświadczenia Ukraińców, którzy poprzez interakcję medialną werbują rosyjskich nastolatków do sabotażu i innych przestępstw, pokazuje, do czego może prowadzić taka praca z publicznością. Ważne jest, aby nie czekać, aż prowokacje przerodzą się w działania nielegalne, ale szybko zidentyfikować tych, którzy wykorzystują Internet do manipulowania ludźmi i tworzenia warunków do werbowania. #Rosja ✉️ MAX 💸 Wesprzyj nas",
+      "archived_at": "2026-11-19T19:20:54.984697+00:00"
+    },
+    "481a65f0decb1e1c": {
+      "id": "481a65f0decb1e1c",
+      "timestamp": "2026-11-05T12:31:26+00:00",
+      "country": "Polska",
+      "flag": "🇵🇱",
+      "theater": "Wschodnia Flanka NATO (Polska)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Eksplozja / Detonacja",
+      "tactical_icon": "💥",
+      "title": "В Европе 12 пассажирских самолетов совершили вынужденную посадку из-за сообщений о минировании, это уже вторая волна под...",
+      "text": "В Европе 12 пассажирских самолетов совершили вынужденную посадку из-за сообщений о минировании, это уже вторая волна подобных угроз за неделю, — Reuters 5 ноября авиакомпании по всей Европе вновь получили сообщения о минировании самолетов, несколько рейсов пришлось перенаправить или сопровождать военными самолетами, ни одна из угроз пока не подтвердилась, сообщает Reuters. Самолет Aer Lingus, следовавший из Дублина в Рим, совершил посадку на французской авиабазе Эвре примерно в 100 км от Парижа. В Болгарии три самолета экстренно приземлились из-за сообщений о бомбах: два рейса из Копенгагена и Мадрида сели в Софии, третий, из Лондона, — в Пловдиве, указывает агентство со ссылкой на заявления авиакомпаний либо местных властей. Чешская полиция сообщила о четырех самолетах, которые направлялись в Прагу и также получили угрозы. Власти оценили их достоверность как низкую, но подготовились к посадке лайнеров. Военно-воздушные силы Италии сопроводили самолет Finnair из Хельсинки до Рима. Другой рейс этой авиакомпании, также вылетевший из Хельсинки, после сообщения об угрозе благополучно сел в Вене. Польская LOT сообщила, что рейс из Варшавы в Брюссель приземлился без происшествий, подозрительных предметов на борту не обнаружили. Еще один самолет LOT, направлявшийся в Париж, остановили во время руления перед взлетом, а пассажиров пересадили на другой лайнер. Кроме того, по данным итальянских СМИ, самолет Wizz Air из Милана в Варшаву перенаправили в Вену. Это уже вторая волна подобных сообщений за неделю, отмечает Reuters. Во вторник, 3 ноября, угрозы получили как минимум семь пассажирских самолетов и круизный лайнер. Взрывных устройств тогда также не обнаружили. Ни одна страна пока не возложила ответственность за эти инциденты. Они происходят на фоне обвинений европейских чиновников в адрес России и Ирана в проведении «гибридных атак» и диверсий, подчеркивает агентство. Москва и Тегеран отрицают подобную деятельность. Глава компании Cyviation, специализирующейся на кибербез",
+      "location_name": "Warszawa, Polska",
+      "lat": 52.2297,
+      "lon": 21.0122,
+      "url": "https://t.me/astrapress/130290",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/130290"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/aerospace-defense/bomb-alert-diverts-airbus-a320-plane-going-dublin-rome-french-pm-says-2026-11-05/"
+        },
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/130249"
+        },
+        {
+          "name": "#astrvpn_bot",
+          "url": "https://t.me/astrvpn_bot"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/P6gs3UQulH2tcZgoq_PWpeRyZMfQ8f9KbUmmmBAL4Y1hQljJM1NVEeObZst8ub8TtCAJt_9_xdf-FlRqRKaBPT7B0lRgDQ1CorIx4Az7k3zv1lzQABxnXgHbTXqcwH1cfBfA8SyO4NedBuOSa64Of9zgb-4bJAVedQHA7WBXWD36S24__S5JNPGfk5NpW3crV5I_lA8DWhjkN4B_3I6Sx2Dbw8842xpuMRJSboRegeala_scrgxDD6n2iiFR396jfvePBXHwoEYD1MohkS93ph8Iacv-jVAoQ7ug9Npi29C7DiuU-TWtzZzFqJAW7wKT6KSA5J3J5vhcFAik_jT60g.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Baza Lotnicza / Lotnisko",
+      "is_fire": true,
+      "threat_score": 5,
+      "source_channel": "astrapress",
+      "added_at": "2026-11-05T21:41:34.362815+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "В Европе 12 пассажирских самолетов совершили вынужденную посадку из-за сообщений о минировании, это уже вторая волна под...",
+      "text_pl": "В Европе 12 пассажирских самолетов совершили вынужденную посадку из-за сообщений о минировании, это уже вторая волна подобных угроз за неделю, — Reuters 5 ноября авиакомпании по всей Европе вновь получили сообщения о минировании самолетов, несколько рейсов пришлось перенаправить или сопровождать военными самолетами, ни одна из угроз пока не подтвердилась, сообщает Reuters. Самолет Aer Lingus, следовавший из Дублина в Рим, совершил посадку на французской авиабазе Эвре примерно в 100 км от Парижа. В Болгарии три самолета экстренно приземлились из-за сообщений о бомбах: два рейса из Копенгагена и Мадрида сели в Софии, третий, из Лондона, — в Пловдиве, указывает агентство со ссылкой на заявления авиакомпаний либо местных властей. Чешская полиция сообщила о четырех самолетах, которые направлялись в Прагу и также получили угрозы. Власти оценили их достоверность как низкую, но подготовились к посадке лайнеров. Военно-воздушные силы Италии сопроводили самолет Finnair из Хельсинки до Рима. Другой рейс этой авиакомпании, также вылетевший из Хельсинки, после сообщения об угрозе благополучно сел в Вене. Польская LOT сообщила, что рейс из Варшавы в Брюссель приземлился без происшествий, подозрительных предметов на борту не обнаружили. Еще один самолет LOT, направлявшийся в Париж, остановили во время руления перед взлетом, а пассажиров пересадили на другой лайнер. Кроме того, по данным итальянских СМИ, самолет Wizz Air из Милана в Варшаву перенаправили в Вену. Это уже вторая волна подобных сообщений за неделю, отмечает Reuters. Во вторник, 3 ноября, угрозы получили как минимум семь пассажирских самолетов и круизный лайнер. Взрывных устройств тогда также не обнаружили. Ни одна страна пока не возложила ответственность за эти инциденты. Они происходят на фоне обвинений европейских чиновников в адрес России и Ирана в проведении «гибридных атак» и диверсий, подчеркивает агентство. Москва и Тегеран отрицают подобную деятельность. Глава компании Cyviation, специализирующейся на кибербез",
+      "archived_at": "2026-11-19T19:20:54.984697+00:00"
+    },
+    "44288be8dd623656": {
+      "id": "44288be8dd623656",
+      "timestamp": "2026-11-05T12:13:34+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Atak Dronów Kamikadze",
+      "tactical_icon": "🛸",
+      "title": "Один человек пострадал в результате атаки дрона в Брянской области, — губернатор «В результате атаки БпЛА ранена 58-летн...",
+      "text": "Один человек пострадал в результате атаки дрона в Брянской области, — губернатор «В результате атаки БпЛА ранена 58-летняя женщина. В поселке Кистер Погарского района БпЛА атаковал движущийся гражданский автомобиль. Водитель автомобиля доставлена в больницу. Ей оказана необходимая медицинская помощь», — написал в тг-канале губернатор Брянской области Егор Ковальчук.",
+      "location_name": "Briańsk, Rosja",
+      "lat": 53.2435,
+      "lon": 34.3634,
+      "url": "https://t.me/astrapress/130289",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/130289"
+        }
+      ],
+      "media_urls": [],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [
+        "Shahed / Dron Kamikadze"
+      ],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 7,
+      "source_channel": "astrapress",
+      "added_at": "2026-11-05T21:41:34.362816+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Jedna osoba została ranna w wyniku ataku drona w obwodzie briańskim – gubernator „W wyniku ataku drona 58-letni...",
+      "text_pl": "W wyniku ataku drona w obwodzie briańskim ranna została jedna osoba, - gubernator \"W wyniku ataku BSP ranna została 58-letnia kobieta. We wsi Kister w obwodzie pogarskim BSP zaatakował jadący pojazd cywilny. Kierowca samochodu został przewieziony do szpitala. Otrzymała niezbędną opiekę medyczną\" - napisał na kanale tg gubernator obwodu briańskiego Jegor Kowalczuk.",
+      "archived_at": "2026-11-19T19:20:54.984697+00:00"
+    },
+    "174e292a3ab91086": {
+      "id": "174e292a3ab91086",
+      "timestamp": "2026-11-05T11:55:16+00:00",
+      "country": "Ukraina",
+      "flag": "🇺🇦",
+      "theater": "Wojna w Europie Wschodniej",
+      "event_type": "Starcie Lądowe",
+      "tactical_category": "Starcie Lądowe / Szturm",
+      "tactical_icon": "⚔️",
+      "title": "📝 Йеменская война 📝 по состоянию на 4 ноября 2026 года Танцы вокруг йеменского Таиза не утихают даже в связи с подготовк...",
+      "text": "📝 Йеменская война 📝 по состоянию на 4 ноября 2026 года Танцы вокруг йеменского Таиза не утихают даже в связи с подготовкой всего региона к очередной ирано-американской войне после прошедших в США выборов. При этом движение «Ансаралла» в этой цепочке занимает явно не последнюю роль. ➡️ Хуситские подразделения наступают сразу на нескольких участках: после взятия основных горных районов им удалось подойти к окрестностям города с юго-запада, взяв населенный пункт Мейдан . Кроме него, усилены позиции на северных флангах. Продвигаются бойцы «Ансараллы» южнее, заняв Ватыр . Показательно, что хуситы здесь позволяет доставлять гуманитарную помощь, тем самым смягчая последствия собственной блокады для Таиза и облегчая положение местного населения. ➡️ Это не единственное направление, где у «Ансараллы» есть успехи. В провинции Лахдж расширена зона контроля в районе Аль-Маджза : там сопротивление оказывают поддерживаемые Саудовской Аравией бригады «Южные Гиганты». Сами саудиты не прекращают ежедневно бомбить территорию Йемена, подконтрольную правительству хуситов и возглавляемого ими Верховного политического совета . В ходе такого налета у Таиза погибли пять мирных жителей, еще 12 ранены. ❗️ «Ансаралла» делает ставку не только на силовой захват третьего по величине города Республики: те намереваются по максимуму ослабить просаудовские силы, чтобы избежать городских боев и добиться капитуляции Таиза путем переговоров. 📍 Карта в высоком разрешении 📍 English version #Йемен #карта #СаудовскаяАравия 🧨 @rybar_mena — о ближневосточном хаосе с любовью 💸 Поддержать нас",
+      "location_name": "Wojna w Europie Wschodniej",
+      "lat": 48.1864,
+      "lon": 35.0108,
+      "url": "https://t.me/rybar/84450",
+      "tactical_sources": [
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/84450"
+        },
+        {
+          "name": "gallery.rybar.ru",
+          "url": "https://gallery.rybar.ru/images/upload/2026/11/04/20261104205735-7032daba.jpg"
+        },
+        {
+          "name": "gallery.rybar.ru",
+          "url": "https://gallery.rybar.ru/images/upload/2026/11/04/20261104205438-62a0cc06.jpg"
+        },
+        {
+          "name": "#rybar_mena",
+          "url": "https://t.me/rybar_mena"
+        },
+        {
+          "name": "qr.nspk.ru",
+          "url": "https://qr.nspk.ru/BS1A0068ID10D33B9IBAQRQ4M9T0NIFN?type=01&amp;bank=100000000008&amp;crc=36CB"
+        }
+      ],
+      "media_urls": [
+        "https://cdn4.telesco.pe/file/DWvUbEJ0horRNcQMe4QyX6oAiADSNpC755cQ8i1zO6QctJCs9yAr3ti3iXBFFs6g07YUZaUzMuSB6hvJLkqZQ1ksV7cgeQFZ6fuImx21raFs2CZOaVR-I7AO-HQmWA3_lm23S-9fbNJtJszqO_BPotRr3WLyBm8qP6avWNW7oS9vmmXTJoX01XxThUOUcpMlCPD3Nj-joIcYMUVKasESvET0weDk2xK6vcM9nOxa_TvX2-Ypd5pWUvG7MJWTb5Rx7gudVnoyDQT4P5QRzncwQthT8n4Jp95YOdKZIUFMzCloKqTrp29eO6f22G89f4YCFL4F9zCynNXQuoy4apTpdA.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "rybar",
+      "added_at": "2026-11-05T21:41:34.362879+00:00",
+      "verified_by_sources": [
+        "rybar"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "📝 Wojna w Jemenie 📝 od 4 listopada 2026 Taniec wokół jemeńskiego Taiz nie słabnie nawet w związku z przygotowaniami...",
+      "text_pl": "📝 Wojna w Jemenie 📝 stan na 4 listopada 2026 Taniec wokół jemeńskiego Taiz nie słabnie nawet w związku z przygotowaniami całego regionu do kolejnej wojny irańsko-amerykańskiej po wyborach w USA. Jednocześnie ruch Ansarallah wyraźnie odgrywa ważną rolę w tym łańcuchu. ➡️ Jednostki Houthi posuwają się naprzód w kilku obszarach jednocześnie: po zajęciu głównych obszarów górskich udało im się zbliżyć do obrzeży miasta od południowego zachodu, zajmując wioskę Meydan. Oprócz tego wzmocniono pozycje na północnych flankach. Bojownicy Ansaralli posuwają się dalej na południe, okupując Vatyr. Znaczące jest to, że tutejsi Huti umożliwili dostarczenie pomocy humanitarnej, łagodząc w ten sposób konsekwencje własnej blokady dla Taiz i ułatwiając sytuację miejscowej ludności. ➡️ To nie jedyny obszar, w którym Ansaralla odnosi sukcesy. W prowincji Lahj strefa kontroli w regionie Al-Majza została rozszerzona: opór stawiają tam wspierane przez Arabię ​​Saudyjską brygady Południowych Gigantów. Sami Saudyjczycy nie przestają codziennie bombardować kontrolowanego przez rząd Huti i Naczelną Radę Polityczną terytorium Jemenu. Podczas takiego nalotu w pobliżu Taiz zginęło pięciu cywilów, a 12 zostało rannych. ❗️Ansarallah stawia nie tylko na siłowe zdobycie trzeciego co do wielkości miasta Republiki: zamierzają maksymalnie osłabić siły pro-saudyjskie, aby uniknąć walk miejskich i doprowadzić do kapitulacji Taiz w drodze negocjacji. 📍 Mapa w wysokiej rozdzielczości 📍 Wersja angielska #Jemen #mapa #Arabia Saudyjska 🧨 @rybar_mena - z miłością o chaosie na Bliskim Wschodzie 💸 Wesprzyj nas",
+      "archived_at": "2026-11-19T19:20:54.984697+00:00"
+    },
+    "275fee5dee056fdc": {
+      "id": "275fee5dee056fdc",
+      "timestamp": "2026-11-05T11:36:29+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Incydent Bojowy",
+      "tactical_category": "Incydent Bojowy",
+      "tactical_icon": "⚔️",
+      "title": "В Конгрессе США готовятся инициировать импичмент министру войны Питу Хегсету после поражения республиканцев на выборах К...",
+      "text": "В Конгрессе США готовятся инициировать импичмент министру войны Питу Хегсету после поражения республиканцев на выборах Конгрессмен-республиканец Томас Масси намерен на следующей неделе вынести на голосование вопрос об импичменте главы Пентагона Пита Хегсета. Как сообщает CNN со ссылкой на источники в Республиканской партии, инициатива может получить поддержку большинства Палаты представителей. Хегсета обвиняют в том, что он убедил президента Дональда Трампа начать войну с Ираном , переоценив возможности США быстро добиться победы. По мнению критиков министра, у администрации не было ни стратегии выхода из конфликта, ни плана действий на случай его затягивания. Недовольство Хегсетом усилилось после сокрушительного поражения республиканцев на промежуточных выборах. Некоторые представители партии считают, что именно министр войны должен понести ответственность за последствия военной операции против Ирана, ставшей одним из главных факторов падения поддержки республиканцев. В среду вице-президент Джей Ди Вэнс также заявил, что причиной поражения стала война. При этом Трамп продолжает поддерживать Хегсета и пока не рассматривает его увольнение. В среду президент заявил, что министр «очень хорошо справляется со своей работой», а также подчеркнул, что при необходимости снова принял бы решение начать войну с Ираном. Сам Хегсет, по данным CNN, намерен сохранить должность и готов противостоять попыткам объявить ему импичмент. В Пентагоне заявили, что министр не собирается отступать под давлением политиков и намерен руководить ведомством до окончания президентского срока Трампа. Между тем после получения контроля над Конгрессом в январе демократы могут начать расследования военной кампании против Ирана и действий руководства Пентагона. В окружении Трампа опасаются, что Хегсет станет одной из главных мишеней этих расследований. ☮️ Сайт издания ASTRA на английском и русском языках: https://astra.press (в РФ открывается с VPN)",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 47.884,
+      "lon": 34.9916,
+      "url": "https://t.me/astrapress/130286",
+      "tactical_sources": [
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/130286"
+        },
+        {
+          "name": "edition.cnn.com",
+          "url": "https://edition.cnn.com/2026/11/04/politics/pete-hegseth-impeachment-trump"
+        },
+        {
+          "name": "Astra",
+          "url": "https://t.me/astrapress/130243?single"
+        },
+        {
+          "name": "astra.press",
+          "url": "https://astra.press/"
+        }
+      ],
+      "media_urls": [
+        "https://cdn1.telesco.pe/file/ZG1g6pdfMSxK0Irq5EEFoEE6OaLPVj8Hsst93_I-thoAdgBi8fwoNOhaVQbzEjcX145dEJmaLR2XCncIE3QfwfDLjnwNJZEjquXNVmqwL83yk6H1Ga0EwZUDyZaByrRU-ISgTxInXMnZcDKYabt-5tac7kB-y6ewffseYv5SHL-QLnCi2ynsYeQCrQLL2c3U2ipU-P5w7qRp40oh_7a5Budq7xqh0dCR3-oHiSEzN3TPeIHgVW74WoXo99QgDPxVgISCPmNPAKJttbw1OLMccSGvlMH0bj-EfltqjSqC5jtHbfBYcdEDjI0iaN_tGaSk4E44i7nZ40M5ZsW8vOE__A.jpg",
+        "https://cdn4.telesco.pe/file/PBKjrMagkJXGqOO--wi3XCFIqSDSwVaTTS1tBLpnHOErZkpW5c7SFnqdWRDXVj5jfAFJT4ZYHhHneICtQk-2WcuA11YsUCPhtfWcY99Jq5lofpfKEcwrXh86ljYGl5YCMkoMyuNT0HGOu_Zf6Jx1nA1vNLdBXPGd__1tFlgj2jiGekpuFe030LdKnLo4rxNPN4O-36Y0UUE-U5f52OC8QkGCEIEQJwFNU0lQzzW59saR7AvheO1WsesynoK6NiGbg0l2oKQGJA4BYYq0uXbzt5w5_xBVvwlZ0vDUf9uy1Bzz_C5287AumZKJn2rAaUGHWjQLpGFAbTSsoN0HgH5yIQ.jpg"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Pozycje / Teren Działań",
+      "is_fire": false,
+      "threat_score": 5,
+      "source_channel": "astrapress",
+      "added_at": "2026-11-05T21:41:34.362819+00:00",
+      "verified_by_sources": [
+        "astrapress"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "Kongres USA przygotowuje się do wszczęcia impeachmentu sekretarza wojny Pete’a Hegsetha po porażce Republikanów w…",
+      "text_pl": "Kongres USA przygotowuje się do wszczęcia impeachmentu sekretarza wojny Pete’a Hegsetha po porażce Republikanów w wyborach. Republikański kongresman Thomas Massie zamierza w przyszłym tygodniu poddać pod głosowanie kwestię impeachmentu szefa Pentagonu Pete'a Hegsetha. Jak podaje CNN, powołując się na źródła w Partii Republikańskiej, inicjatywa może uzyskać poparcie większości Izby Reprezentantów. Hegseth jest oskarżany o namawianie prezydenta Donalda Trumpa do rozpoczęcia wojny z Iranem poprzez przecenianie zdolności Stanów Zjednoczonych do szybkiego osiągnięcia zwycięstwa. Zdaniem krytyków ministra administracja nie miała strategii wyjścia z konfliktu ani planu działania na wypadek jego przeciągnięcia. Niezadowolenie z Hegsetha wzrosło po miażdżącej porażce Republikanów w wyborach śródokresowych. Część przedstawicieli partii uważa, że ​​to Minister Wojny powinien ponieść odpowiedzialność za skutki operacji wojskowej przeciwko Iranowi, która stała się jednym z głównych czynników spadku poparcia Republikanów. W środę wiceprezydent J.D. Vance powiedział również, że przyczyną porażki była wojna. Jednocześnie Trump w dalszym ciągu wspiera Hegsetha i nie rozważa jeszcze jego zwolnienia. W środę prezydent stwierdził, że minister „bardzo dobrze wykonuje swoją pracę” i podkreślił, że jeśli zajdzie taka potrzeba, ponownie zdecyduje się na wojnę z Iranem. Według CNN sam Hegseth zamierza utrzymać swoje stanowisko i jest gotowy przeciwstawić się próbom postawienia go w stan oskarżenia. Pentagon zapewnił, że minister nie ustąpi pod naciskiem polityków i zamierza kierować departamentem do końca kadencji Trumpa. Tymczasem po przejęciu w styczniu kontroli w Kongresie Demokraci mogą rozpocząć śledztwa w sprawie kampanii wojskowej przeciwko Iranowi i działań kierownictwa Pentagonu. Środowisko Trumpa obawia się, że Hegseth stanie się jednym z głównych celów tych śledztw. ☮️ Strona publikacji ASTRY w języku angielskim i rosyjskim: https://astra.press (w Federacji Rosyjskiej otwiera się z VPN)",
+      "archived_at": "2026-11-19T19:20:54.984697+00:00"
+    },
+    "bb234f168cd4cb74": {
+      "id": "bb234f168cd4cb74",
+      "timestamp": "2026-11-05T11:21:59+00:00",
+      "country": "Rosja",
+      "flag": "🇷🇺",
+      "theater": "Wojna w Europie Wschodniej (Obszar FR)",
+      "event_type": "Starcie Lądowe",
+      "tactical_category": "Eksplozja / Detonacja",
+      "tactical_icon": "💥",
+      "title": "📝 Удары по тылам 📝 Обстановка в Судане на 4 ноября За октябрь армия вернула Эль-Мазруб в Северном Кордофане и район Бир-...",
+      "text": "📝 Удары по тылам 📝 Обстановка в Судане на 4 ноября За октябрь армия вернула Эль-Мазруб в Северном Кордофане и район Бир-Килейкиль у чадской границы, подойдя ближе к Эль-Генейне, последнему крупному опорному пункту противника в Западном Дарфуре. «Силы быстрого реагирования» за те же недели оставили без электричества Хартум, Белый Нил и Северный Кордофан, так что главные события этой войны разворачиваются теперь в тыловых штатах. ➡️ Беспилотники группировки прошли по 11 электростанциям и топливным складам минимум в 7 штатах, а сильные повреждения получили больше 13 распределительных подстанций. Под удар попали крупнейшая в стране тепловая станция Умм-Дабакер в Рабаке, подстанция Эль-Мархият под Омдурманом, объекты в Шенди и целая россыпь станций в Эль-Гезире, Сеннаре и Эль-Гадарифе, а раньше той же серии досталось плотинам в Эль-Гадарифе и Кассале. ➡️ По Хайе в штате Красное море задел ещё и нефтепровод к экспортному терминалу Башаир, по которому идёт нефть Южного Судана, так что война начала бить и по доходам соседней страны. Правительство утверждает, что беспилотники запускают с эфиопской территории. ➡️ Армия действует теми же средствами и бьёт по топливным запасам и пунктам управления противника в Дарфуре, где её авиация неделями работала по Ньяле и складам в районе Абу-Джабры. В Голубом Ниле «Силы быстрого реагирования» объявили о взятии Эль-Бараки под Курмуком, однако их нападение на Сали армия отбила с потерями для наступавших. ➡️ Прошлой же ночью группировка запустила рой взрывных беспилотников по Эд-Дамазину, столице того же штата, где под удар попали военные и гражданские объекты, а город остался без света. Армейские расчёты сообщают, что отбили несколько последовательных волн. 📌 Развязка при этом готовится в Кордофане, куда подошли подкрепления армии и союзных сил в районах Содири и Эль-Мазруба. Оттуда собираются продвигаться к Умм-Бадру и Абу-Зейме в Северном Кордофане, а также к Эль-Хувею и Эн-Нахуду в Западном, тогда как «Силы быстрого реагирования» переб",
+      "location_name": "Wojna w Europie Wschodniej (Obszar FR)",
+      "lat": 48.0348,
+      "lon": 35.06,
+      "url": "https://t.me/rybar/84449",
+      "tactical_sources": [
+        {
+          "name": "Rybar",
+          "url": "https://t.me/rybar/84449"
+        },
+        {
+          "name": "#rybar_africa",
+          "url": "https://t.me/rybar_africa"
+        },
+        {
+          "name": "qr.nspk.ru",
+          "url": "https://qr.nspk.ru/BS1A0068ID10D33B9IBAQRQ4M9T0NIFN?type=01&amp;bank=100000000008&amp;crc=36CB"
+        }
+      ],
+      "media_urls": [
+        "https://cdn5.telesco.pe/file/BW6ETDzp-EsSId0_MQGYR61sWi7EFYEQg_TEdebR-Nk8EsOVdbOR9-ArwcPOlFi7cQHQQvFzMoKUHgKshY5oGN0icKj5nqknPTsTsi4lF3uPLVut8yRHal5bvLS2BpQy4nbHpIWkSYu_ChuSYC_8pAdA8kIHpTclcJYVslUC0gqwbQ9trmf4czBKWK7axik3RQc009iSPDFNg4WRnPYPgctHLbpHlZzE-LKgGu_M3Oxeo1CZ9SsoK1MrkYFn3GVaz2605kOg6Y_ferGoP3DzNAvDScP_hUl7YMdKZY17W6r__iaRDHP7Cb5ZQPdvRSAXK9IwSnH3FhmecNlcv5xMpw"
+      ],
+      "video_url": null,
+      "is_video": false,
+      "weapons": [],
+      "target_type": "Infrastruktura Energetyczna",
+      "is_fire": true,
+      "threat_score": 5,
+      "source_channel": "rybar",
+      "added_at": "2026-11-05T21:41:34.362882+00:00",
+      "verified_by_sources": [
+        "rybar"
+      ],
+      "multi_source_verified": false,
+      "title_pl": "📝Ataki na tyły 📝Sytuacja w Sudanie 4 listopada W październiku armia zwróciła El Mazrub w Kordofanie Północnym i Bir-...",
+      "text_pl": "📝Ataki na tyły 📝Sytuacja w Sudanie 4 listopada W październiku armia odzyskała El Mazroub w Północnym Kordofanie i rejon Bir Kileikil w pobliżu granicy z Czadem, zbliżając się do El Geneina, ostatniej dużej twierdzy wroga w zachodnim Darfurze. W tych samych tygodniach „Siły Szybkiego Reagowania” pozostawiły Chartum, Nil Biały i Kordofan Północny bez prądu, więc główne wydarzenia tej wojny rozgrywają się obecnie w tylnych stanach. ➡️ Drony grupy przeleciały przez 11 elektrowni i składów paliw w co najmniej 7 stanach, a ponad 13 podstacji dystrybucyjnych zostało poważnie uszkodzonych. Uderzyła największa w kraju stacja termalna Umm Dabaker w Rabaku, podstacja El Markhiyat w pobliżu Omdurman, obiekty w Shendi i cały szereg stacji w El Gezira, Sennar i El Gadarif, a wcześniej ta sama seria uderzyła w tamy w El Gadarif i Kassala. ➡️ Wzdłuż Haya w stanie Morza Czerwonego uszkodzony został także rurociąg naftowy do terminala eksportowego Bashair, który transportuje ropę z Sudanu Południowego, przez co wojna zaczęła odbijać się na dochodach sąsiedniego kraju. Rząd twierdzi, że drony są wystrzeliwane z terytorium Etiopii. ➡️ Armia działa tymi samymi środkami i uderza w wrogie zapasy paliwa i punkty kontrolne w Darfurze, gdzie od tygodni jej samoloty pracują nad Nyalą i magazynami w rejonie Abu Jabra. W Nilu Błękitnym Siły Szybkiego Reagowania ogłosiły zdobycie El-Baraka w pobliżu Kurmuk, ale armia odparła atak na Sali, ponosząc straty dla atakujących. ➡️ Zeszłej nocy grupa wystrzeliła rój wybuchowych dronów nad Ed Damazin, stolicę tego samego stanu, gdzie zaatakowane zostały cele wojskowe i cywilne, a miasto zostało pozbawione prądu. Załogi armii donoszą, że odparły kilka kolejnych fal. 📌Rozwiązanie przygotowywane jest w Kordofanie, gdzie w rejony Sodiri i El Mazroub dotarły posiłki armii i sił sojuszniczych. Stamtąd planują dotrzeć do Umm Badr i Abu Zeima w Północnym Kordofanie, a także Al-Huwei i En-Nakhud na Zachodzie, podczas gdy Siły Szybkiego Reagowania",
+      "archived_at": "2026-11-19T19:20:54.984697+00:00"
     }
   }
 }
